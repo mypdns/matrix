@@ -40,7 +40,7 @@ console output, logs, and code as it's very hard to read otherwise.)
 - [ ] RPZ Server
 - [ ] Added to Source file
 
-/label ~'DNS server blocking' 
+/label ~DNS-server-blocking 
 /cc @AnonymousPoster
 /assign @spirillen @AnonymousPoster
 /estimate 15m
