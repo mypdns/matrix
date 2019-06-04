@@ -30,7 +30,6 @@ example.org   CNAME . ; reason
 - [ ] Added to Source file
 
 /label ~Redirector  
-/cc @AnonymousPoster  
-/assign @spirillen @AnonymousPoster  
-/estimate 15m  
+/assign @spirillen @AnonymousPoster
+/estimate 15m
 /weight 4

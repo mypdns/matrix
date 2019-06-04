@@ -31,8 +31,7 @@ console output, logs, and code as it's very hard to read otherwise.)
 - [ ] RPZ Server
 - [ ] Added to Source file
 
-/label ~'IP Blocking' 
-/cc @AnonymousPoster
+/label ~"IP Blocking" 
 /assign @spirillen @AnonymousPoster
 /estimate 15m
 /weight 4

@@ -29,8 +29,7 @@ example.org   CNAME . ; reason
 - [ ] RPZ Server
 - [ ] Added to Source file
 
-/label ~Typo Squatting  
-/cc @AnonymousPoster  
-/assign @spirillen @AnonymousPoster  
-/estimate 15m  
+/label ~"TypoSquatting"  
+/assign @spirillen @AnonymousPoster
+/estimate 15m
 /weight 4

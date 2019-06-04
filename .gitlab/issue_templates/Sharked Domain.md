@@ -29,8 +29,7 @@ example.org   CNAME . ; reason
 - [ ] RPZ Server
 - [ ] Added to Source file
 
-/label ~'Domain Sharked' 
-/cc @AnonymousPoster
+/label ~"Domain Sharked" 
 /assign @spirillen @AnonymousPoster
 /estimate 15m
 /weight 4

@@ -29,8 +29,7 @@ example.org   CNAME . ; reason
 - [ ] RPZ Server
 - [ ] Added to Source file
 
-/label ~'Fake News' 
-/cc @AnonymousPoster
+/label ~"Fake News" 
 /assign @spirillen @AnonymousPoster
 /estimate 15m
 /weight 4

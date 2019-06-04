@@ -31,7 +31,6 @@ example.org   CNAME . ; reason
 - [ ] Added to Source file
 
 /label ~Whitelist  
-/cc @AnonymousPoster  
-/assign @spirillen @AnonymousPoster  
-/estimate 15m  
+/assign @spirillen @AnonymousPoster
+/estimate 15m
 /weight 4

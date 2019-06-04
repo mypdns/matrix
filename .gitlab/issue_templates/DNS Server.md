@@ -25,7 +25,7 @@ console output, logs, and code as it's very hard to read otherwise.)
 *.example.org.rpz-nsip   CNAME . ; reason
 ```
 
-	**Note**:
+**Note**:
 	# blocking an NS IPv4 address of 192.168.2.3
 	# rewritten as 192.168.2.3/32
 	# IPv4 NSIP Trigger transform
@@ -40,8 +40,7 @@ console output, logs, and code as it's very hard to read otherwise.)
 - [ ] RPZ Server
 - [ ] Added to Source file
 
-/label ~DNS-server-blocking 
-/cc @AnonymousPoster
+/label ~"DNS server blocking" 
 /assign @spirillen @AnonymousPoster
 /estimate 15m
 /weight 4
