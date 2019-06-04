@@ -23,8 +23,9 @@ console output, logs, and code as it's very hard to read otherwise.)
 
 
 ```python
-example.org   CNAME . ; reason
-*.example.org   CNAME . ; reason
+16.0.0.168.192.rpz-client-ip   CNAME . ; reason
+16.0.0.168.192.rpz-drop   CNAME . ; reason
+16.0.0.168.192.rpz-ip   CNAME . ; reason
 ```
 
 - [ ] RPZ Server
