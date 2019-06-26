@@ -5,8 +5,8 @@
 
 I believe this DNS Server needs to be blocked as..
 
-- [ ] [Wildcarded](source/dns-servers/wildcard.list)
-- [ ] [Single DNS Server](source/dns-servers/domains.list)
+- [ ] [Wildcarded]<!-- source/dns-servers/wildcard.list -->
+- [ ] [Single DNS Server]<!-- source/dns-servers/domains.list -->
 
 .. ***Because***:
 
@@ -39,15 +39,15 @@ console output, logs, and code as it's very hard to read otherwise. -->
 
 ### All Submissions:
 - [ ] Have you followed the guidelines in our Contributing document?
-- [ ] Have you checked to ensure there aren't other open [Pull Requests](../../pulls) for the same update/change?
+- [ ] Have you checked to ensure there aren't other open [Merge Requests (MR)](../../merge_requests) for the same update/change?
 - [ ] Added ScreenDump for prove of False Positive
 - [ ] Have you added an explanation of what your submission do and why you'd like us to include them?
 
-## Testing face
+### Testing face
 - [ ] Checked the internet for varification?
 - [ ] Have you successfully ran tests with your changes locally?
 
-## Todo:
+### Todo:
 - [ ] RPZ Server
 - [ ] Added to Source file
 
