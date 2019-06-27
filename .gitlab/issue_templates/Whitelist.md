@@ -3,17 +3,20 @@
 <!-- Summarize the reason encountered concisely, and keep any domains in 
 `back ticks` -->
 
-`example.net` Should be whitelist be curse .. A seriously damned good 
-reason
+This domain Should be whitelist be curse .. I have A seriously damned 
+good reason
 
-- [ ] [Single Domain]<!-- source/whitelist/domains.list -->
-- [ ] [Wild carded]<!-- source/whitelist/wildcard.list -->
+- [X] <a href="source/whitelist/domains.list">Single Domain</a>
+- [ ] <a href="source/whitelist/wildcard.list">Wild carded</a>
+
+# Extravagant good reason
+<!-- Try to convince the team of why this domain should be added to the 
+whitelist -->
 
 
 ## Steps to reproduce
 
 <!-- How one can reproduce the issue - this is very important -->
-
 
 
 ## Relevant logs and/or screenshots
@@ -29,9 +32,12 @@ example.org   CNAME . ; reason
 
 ### All Submissions:
 - [ ] Have you followed the guidelines in our Contributing document?
-- [ ] Have you checked to ensure there aren't other open [Merge Requests (MR)](../../merge_requests) for the same update/change?
+- [ ] Have you checked to ensure there aren't other open
+	[Merge Requests (MR)](../merge_requests) or [Issues](../issues) for
+	the same update/change?
 - [ ] Added ScreenDump for prove of False Positive
-- [ ] Have you added an explanation of what your submission do and why you'd like us to include them?
+- [ ] Have you added an explanation of what your submission do and why
+	you'd like us to include them??
 
 ### Testing face
 - [ ] Checked the internet for varification?
@@ -44,4 +50,4 @@ example.org   CNAME . ; reason
 /label ~Whitelist  
 /assign @spirillen @AnonymousPoster
 /estimate 15m
-/weight 4
+/weight 2

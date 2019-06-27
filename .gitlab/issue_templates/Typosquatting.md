@@ -3,16 +3,16 @@
 <!-- Summarize the reason encountered concisely, and keep any domains in 
 `back ticks` -->
 
-`example.net` is an 'Typo Squatting' that have to be blocked as..
+'Typo Squatting' domain that have to be blocked as..
 
-- [ ] [Single Domain]<!-- source/typosquatting/domains.list -->
-- [ ] [Wild carded]<!-- source/typosquatting/wildcard.list -->
+- [ ] [Single Domain](source/typosquatting/domains.list)
+- [X] [Wild carded](source/typosquatting/wildcard.list)
 
+... ***because***:
 
 ## Steps to reproduce
 
 <!-- How one can reproduce the issue - this is very important -->
-
 
 
 ## Relevant logs and/or screenshots
@@ -28,9 +28,12 @@ example.org   CNAME . ; reason
 
 ### All Submissions:
 - [ ] Have you followed the guidelines in our Contributing document?
-- [ ] Have you checked to ensure there aren't other open [Merge Requests (MR)](../../merge_requests) for the same update/change?
+- [ ] Have you checked to ensure there aren't other open
+	[Merge Requests (MR)](../merge_requests) or [Issues](../issues) for
+	the same update/change?
 - [ ] Added ScreenDump for prove of False Positive
-- [ ] Have you added an explanation of what your submission do and why you'd like us to include them?
+- [ ] Have you added an explanation of what your submission do and why
+	you'd like us to include them??
 
 ### Testing face
 - [ ] Checked the internet for varification?
