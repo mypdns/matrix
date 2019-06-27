@@ -3,10 +3,10 @@
 <!-- Summarize the reason encountered concisely, and keep any domains in 
 back ticks `(`)` -->
 
-I believe this domain is an AdWare domain<!-- s --> that have to be 
+I believe this domain is an AdWare domain(s) --> that have to be 
 blocked as..
 
-- [ ] [Wildcarded](source/adware/wildcard.list)
+- [X] [Wildcarded](source/adware/wildcard.list)
 - [ ] [Single domain blocking](source/adware/domains.list)
 
 ... ***because***:
