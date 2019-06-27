@@ -1,7 +1,7 @@
 ## Summary
 
 <!-- Summarize the reason encountered concisely, and keep any domains in 
-`back ticks` -->
+back ticks `(`)` -->
 
 'Typo Squatting' domain that have to be blocked as..
 
@@ -22,8 +22,8 @@ console output, logs, and code as it's very hard to read otherwise. -->
 
 
 ```python
-example.org   CNAME . ; reason
-*.example.org   CNAME . ; reason
+example.org   CNAME . ; TypoSquatting 
+*.example.org   CNAME . ; TypoSquatting 
 ```
 
 ### All Submissions:

@@ -1,7 +1,7 @@
 ## Summary
 
 <!-- Summarize the reason encountered concisely, and keep any domains in 
-`back ticks` -->
+back ticks `(`)` -->
 
 It's a plain 'Redirector' that have to be blocked as..
 

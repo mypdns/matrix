@@ -1,7 +1,7 @@
 ## Summary
 
 <!-- Summarize the reason encountered concisely, and keep any domains in 
-`back ticks` -->
+back ticks `(`)` -->
 
 I believe this DNS Server needs to be blocked as..
 
@@ -22,8 +22,8 @@ console output, logs, and code as it's very hard to read otherwise. -->
 
 
 ```python
-*.example.org.rpz-nsdname   CNAME . ; reason
-*.example.org.rpz-nsip   CNAME . ; reason
+*.example.org.rpz-nsdname   CNAME . ; DNSServer
+*.example.org.rpz-nsip   CNAME . ; DNSServer 
 ```
 
 ### All Submissions:

@@ -1,7 +1,7 @@
 ## Summary
 
 <!-- Summarize the reason encountered concisely, and keep any domains in 
-`back ticks` -->
+back ticks `(`)` -->
 
 This 'Malicious' domain have to be blocked as..
 

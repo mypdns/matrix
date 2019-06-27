@@ -1,7 +1,7 @@
 ## Summary
 
 <!-- Summarize the reason encountered concisely, and keep any domains in 
-`back ticks` -->
+back ticks `(`)` -->
 
 This outdated domain have been Sharked and should be blocked to avoid 
 scam in this format..
@@ -22,8 +22,8 @@ console output, logs, and code as it's very hard to read otherwise. -->
 
 
 ```python
-example.org   CNAME . ; reason
-*.example.org   CNAME . ; reason
+example.org   CNAME . ; DomainSharks 
+*.example.org   CNAME . ; DomainSharks 
 ```
 
 ### All Submissions:

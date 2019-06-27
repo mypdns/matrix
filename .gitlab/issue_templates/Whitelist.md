@@ -1,7 +1,7 @@
 ## Summary
 
 <!-- Summarize the reason encountered concisely, and keep any domains in 
-`back ticks` -->
+back ticks `(`)` -->
 
 This domain Should be whitelist be curse .. I have A seriously damned 
 good reason
@@ -26,8 +26,8 @@ console output, logs, and code as it's very hard to read otherwise. -->
 
 
 ```python
-example.org   CNAME . ; reason
-*.example.org   CNAME . ; reason
+example.org   CNAME . ; whitelisted 
+*.example.org   CNAME . ; whitelisted 
 ```
 
 ### All Submissions:

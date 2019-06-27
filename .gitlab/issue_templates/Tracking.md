@@ -1,7 +1,7 @@
 ## Summary
 
 <!-- Summarize the reason encountered concisely, and keep any domains in 
-`back ticks` -->
+back ticks `(`)` -->
 
 This domain is used for 'Tracking' your private life and **HAVE** to be 
 blocked as..
@@ -24,8 +24,8 @@ console output, logs, and code as it's very hard to read otherwise. -->
 
 
 ```python
-example.org   CNAME . ; reason
-*.example.org   CNAME . ; reason
+example.org   CNAME . ; Tracking 
+*.example.org   CNAME . ; Tracking 
 ```
 
 ### All Submissions:

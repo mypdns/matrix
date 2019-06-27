@@ -1,7 +1,7 @@
 ## Summary
 
 <!-- Summarize the FakeNews  encountered concisely, and keep any 
-domains in `back ticks` -->
+domains in back ticks `(`)` -->
 
 This domain hosts 'Fake News' that have to be blocked as..
 
