@@ -46,6 +46,6 @@ example.org   CNAME . ; AdWare
 
 /label ~AdWare 
 /cc @AnonymousPoster
-/assign @spirillen @AnonymousPoster
+/assign @dns-firewall 
 /estimate 15m
 /weight 4
