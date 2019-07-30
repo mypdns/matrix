@@ -1,3 +1,90 @@
+```html
+<div class="license-overview clearfix" id="agpl-3-0">
+  <div class="license-overview-heading">
+    <h3 class="license-overview-name">
+      <a href="/licenses/agpl-3.0/">
+            GNU AGPLv3, <b>MODIFIED FOR NON COMMERCIAL USE</b>
+      </a>
+    </h3>
+    <p class="license-overview-description">Permissions of this strongest copyleft license are conditioned on making available complete source code of licensed works and modifications, which include larger works using a licensed work, under the same license. Copyright and license notices must be preserved. Contributors provide an express grant of patent rights. When a modified version is used to provide a service over a network, the complete source code of the modified version must be made available.</p>
+  </div>
+  <div class="license-details">
+      <table class="license-rules">
+        <tbody><tr>
+          <th class="label">Permissions</th>
+          <th class="label">Conditions</th>
+          <th class="label">Limitations</th>
+        </tr>
+        <tr>
+            <td>
+              <ul class="license-permissions">
+                    <li class="commercial-use" data-hasqtip="0" oldtitle="This software and derivatives may be used for commercial purposes." title="" aria-describedby="qtip-0">
+                      <span class="license-sprite"></span>
+                      Commercial use, You can't
+                    </li>
+                    <li class="distribution" data-hasqtip="2" oldtitle="This software may be distributed." title="">
+                      <span class="license-sprite"></span>
+                      Distribution
+                    </li>
+                    <li class="modifications" data-hasqtip="4" oldtitle="This software may be modified." title="">
+                      <span class="license-sprite"></span>
+                      Modification
+                    </li>
+                    <li class="patent-use" data-hasqtip="6" oldtitle="This license provides an express grant of patent rights from contributors." title="" aria-describedby="qtip-6">
+                      <span class="license-sprite"></span>
+                      Patent use, You can't
+                    </li>
+                    <li class="private-use" data-hasqtip="8" oldtitle="This software may be used and modified in private." title="" aria-describedby="qtip-8">
+                      <span class="license-sprite"></span>
+                      Private use
+                    </li>
+              </ul>
+            </td>
+            <td>
+              <ul class="license-conditions">
+                    <li class="disclose-source" data-hasqtip="66" oldtitle="Source code must be made available when the software is distributed." title="" aria-describedby="qtip-66">
+                      <span class="license-sprite"></span>
+                      Disclose source
+                    </li>
+                    <li class="include-copyright" data-hasqtip="68" oldtitle="A copy of the license and copyright notice must be included with the software." title="" aria-describedby="qtip-68">
+                      <span class="license-sprite"></span>
+                      License and copyright notice
+                    </li>
+                    <li class="network-use-disclose" data-hasqtip="70" oldtitle="Users who interact with the software via network are given the right to receive a copy of the source code." title="" aria-describedby="qtip-70">
+                      <span class="license-sprite"></span>
+                      Network use is distribution
+                    </li>
+                    <li class="same-license" data-hasqtip="72" oldtitle="Modifications must be released under the same license when distributing the software. In some cases a similar or related license may be used." title="" aria-describedby="qtip-72">
+                      <span class="license-sprite"></span>
+                      Same license
+                    </li>
+                    <li class="document-changes" data-hasqtip="74" oldtitle="Changes made to the code must be documented." title="" aria-describedby="qtip-74">
+                      <span class="license-sprite"></span>
+                      State changes
+                    </li>
+              </ul>
+            </td>
+          
+            <td>
+              <ul class="license-limitations">
+                    <li class="liability" data-hasqtip="104" oldtitle="This license includes a limitation of liability." title="" aria-describedby="qtip-104">
+                      <span class="license-sprite"></span>
+                      Liability
+                    </li>
+                  
+                    <li class="warranty" data-hasqtip="106" oldtitle="The license explicitly states that it does NOT provide any warranty." title="" aria-describedby="qtip-106">
+                      <span class="license-sprite"></span>
+                      Warranty
+                    </li>
+              </ul>
+            </td>
+          
+        </tr>
+      </tbody></table>
+  </div>
+</div>
+```
+
                     GNU AFFERO GENERAL PUBLIC LICENSE
                        Version 3, 19 November 2007
 
