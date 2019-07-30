@@ -44,6 +44,6 @@ example.org   CNAME . ; DomainSharks
 - [ ] Added to Source file
 
 /label ~"Domain Sharked" 
-/assign @spirillen @AnonymousPoster
+/assign @dns-firewall 
 /estimate 15m
 /weight 4

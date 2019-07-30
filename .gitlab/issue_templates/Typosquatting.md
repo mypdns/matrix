@@ -44,6 +44,6 @@ example.org   CNAME . ; TypoSquatting
 - [ ] Added to Source file
 
 /label ~"TypoSquatting"  
-/assign @spirillen @AnonymousPoster
+/assign @dns-firewall 
 /estimate 15m
 /weight 4

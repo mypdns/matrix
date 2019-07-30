@@ -39,6 +39,6 @@ example.org   CNAME . ; Malicious
 - [ ] Added to Source file
 
 /label ~Malicious  
-/assign @spirillen @AnonymousPoster
+/assign @dns-firewall 
 /estimate 15m
 /weight 8

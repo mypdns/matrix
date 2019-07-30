@@ -46,6 +46,6 @@ example.org   CNAME . ; Tracking
 - [ ] Added to Source file
 
 /label ~Tracking  
-/assign @spirillen @AnonymousPoster
+/assign @dns-firewall 
 /estimate 15m
 /weight 4

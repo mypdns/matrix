@@ -44,6 +44,6 @@ example.org   CNAME . ; FakeNews
 - [ ] Added to Source file
 
 /label ~"Fake News" 
-/assign @spirillen @AnonymousPoster
+/assign @dns-firewall 
 /estimate 15m
 /weight 4

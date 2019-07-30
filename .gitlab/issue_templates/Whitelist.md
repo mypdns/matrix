@@ -48,6 +48,6 @@ example.org   CNAME . ; whitelisted
 - [ ] Added to Source file
 
 /label ~Whitelist  
-/assign @spirillen @AnonymousPoster
+/assign @dns-firewall 
 /estimate 15m
 /weight 2

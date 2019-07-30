@@ -46,6 +46,6 @@ example.org   CNAME . ; Scam
 - [ ] Added to Source file
 
 /label ~Scamming  
-/assign @spirillen @AnonymousPoster
+/assign @dns-firewall 
 /estimate 15m
 /weight 4

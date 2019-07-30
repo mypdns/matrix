@@ -45,6 +45,6 @@ example.org   CNAME . ; ReDirector
 - [ ] Added to Source file
 
 /label ~Redirector  
-/assign @spirillen @AnonymousPoster
+/assign @dns-firewall 
 /estimate 15m
 /weight 4

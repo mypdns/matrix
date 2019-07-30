@@ -46,6 +46,6 @@ example.org   CNAME . ; SpyWare
 - [ ] Added to Source file
 
 /label ~Spyware  
-/assign @spirillen @AnonymousPoster
+/assign @dns-firewall 
 /estimate 15m
 /weight 9

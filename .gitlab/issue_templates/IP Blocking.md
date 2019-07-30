@@ -46,6 +46,6 @@ console output, logs, and code as it's very hard to read otherwise. -->
 - [ ] Added to Source file
 
 /label ~"IP Blocking" 
-/assign @spirillen @AnonymousPoster
+/assign @dns-firewall 
 /estimate 15m
 /weight 4

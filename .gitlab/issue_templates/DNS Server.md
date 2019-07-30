@@ -57,7 +57,7 @@ console output, logs, and code as it's very hard to read otherwise. -->
 ```
 
 /label ~"DNS server blocking" 
-/assign @spirillen @AnonymousPoster
+/assign @dns-firewall 
 /estimate 15m
 /weight 4
 

@@ -45,7 +45,6 @@ example.org   CNAME . ; AdWare
 - [ ] Added to Source file
 
 /label ~AdWare 
-/cc @AnonymousPoster
 /assign @dns-firewall 
 /estimate 15m
 /weight 4
