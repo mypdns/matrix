@@ -38,7 +38,7 @@ example.org   CNAME . ; Tracking
 	you'd like us to include them??
 
 ### Testing face
-- [ ] Checked the internet for varification?
+- [ ] Checked the internet for verification?
 - [ ] Have you successfully ran tests with your changes locally?
 
 ### Todo:
@@ -46,6 +46,6 @@ example.org   CNAME . ; Tracking
 - [ ] Added to Source file
 
 /label ~Tracking  
-/assign @dns-firewall 
+/assign @my-privacy-dns 
 /estimate 15m
 /weight 4
