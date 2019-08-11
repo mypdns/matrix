@@ -31,7 +31,7 @@ example.org   CNAME . ; Malicious
 	you'd like us to include them??
 
 ### Testing face
-- [ ] Checked the internet for varification?
+- [ ] Checked the internet for verification?
 - [ ] Have you successfully ran tests with your changes locally?
 
 ### Todo:
