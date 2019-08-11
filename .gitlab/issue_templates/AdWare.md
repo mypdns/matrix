@@ -37,7 +37,7 @@ example.org   CNAME . ; AdWare
 	you'd like us to include them??
 
 ### Testing face
-- [ ] Checked the internet for varification?
+- [ ] Checked the internet for verification?
 - [ ] Have you successfully ran tests with your changes locally?
 
 ### Todo
@@ -45,6 +45,6 @@ example.org   CNAME . ; AdWare
 - [ ] Added to Source file
 
 /label ~AdWare 
-/assign @dns-firewall 
+/assign @my-privacy-dns 
 /estimate 15m
 /weight 4
