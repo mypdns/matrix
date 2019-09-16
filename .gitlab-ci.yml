@@ -1,4 +1,68 @@
-image: alpine:latest
+image: registry.gitlab.com/my-privacy-dns/ci-runner
+
+variables:
+  GIT_DEPTH: 10
+
+cache:
+  key: ${CI_JOB_NAME}
+  paths:
+    - $CI_PROJECT_DIR/data/
+
+stages:
+  - build
+  - test
+  - deploy
+  - pages
+
+before_script:
+  - printf "Running before script...\n"
+  - git config --global user.email "git@gitlab.com"
+  - git config --global user.name "Gitlab CI"
+
+after_script:
+  only:
+  - merge_requests
+  script:
+    - echo "After script section...\n"
+    - git remote set-url origin https://git:$DEPLOY_KEY@gitlab.com/$CI_PROJECT_PATH.git
+    - git add .
+    - git status
+    - git commit -m '[skip ci] commit from CI runner'
+    - git push -u origin master
+
+build:
+  stage: build
+  only:
+  - merge_requests
+  - master
+  script:
+    - echo "Building"
+    - git checkout -B master
+    - bash $CI_PROJECT_DIR/scripts/build.sh
+    #- build cache
+
+test1:
+  stage: test
+  script:
+    - printf "Lint bash code...\n"
+    #- reuse build cache
+    - bash $CI_PROJECT_DIR/scripts/lint.sh
+
+test2:
+  stage: test
+  script:
+    - printf "Running test 2...\n"
+    #- reuse cache
+    - bash $CI_PROJECT_DIR/scripts/test2.sh
+
+deploy:
+  stage: deploy
+  script:
+    - echo "Do your deploy here"
+    - - bash $CI_PROJECT_DIR/scripts/deploy.sh
+    #- reuse cache
+  only:
+  - mater
 
 pages:
   stage: deploy
@@ -9,3 +73,4 @@ pages:
     - public
   only:
   - master
+
