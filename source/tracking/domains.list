@@ -25,3 +25,6 @@ events.api.bosecm.com
 analytics.developer.riotgames.com
 ecolytics-collector-prod-1404130997.us-west-1.elb.amazonaws.com
 stats.privacytools.io
+stat.flashget.com
+supertracker.flashget.com
+cplog.flashget.com
