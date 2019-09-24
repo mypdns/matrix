@@ -8,23 +8,18 @@ This domain hosts 'Fake News' that have to be blocked as..
 - [ ] [Wildcarded](source/fake-news/wildcard.list)
 - [ ] [Single domain blocking](source/fake-news/domains.list)
 
+```python
+example.org   CNAME . ; FakeNews 
+*.example.org   CNAME . ; FakeNews 
+```
+
 ... ***because***:
-
-## Steps to reproduce
-
-<!-- How one can reproduce the issue - this is very important -->
-
 
 ## Relevant logs and/or screenshots
 
 <!-- Paste any relevant logs - please use code blocks (```) to format 
 console output, logs, and code as it's very hard to read otherwise. -->
 
-
-```python
-example.org   CNAME . ; FakeNews 
-*.example.org   CNAME . ; FakeNews 
-```
 
 ### All Submissions:
 - [ ] Have you followed the guidelines in our Contributing document?
@@ -44,6 +39,6 @@ example.org   CNAME . ; FakeNews
 - [ ] Added to Source file
 
 /label ~"Fake News" 
-/assign @dns-firewall 
+/assign @my-privacy-dns/matrix 
 /estimate 15m
 /weight 4
