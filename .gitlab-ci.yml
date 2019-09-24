@@ -1,7 +1,7 @@
 image: registry.gitlab.com/my-privacy-dns/ci-runner
 
 variables:
-  GIT_DEPTH: 10
+  GIT_DEPTH: 5
 
 cache:
   key: ${CI_JOB_NAME}
@@ -12,16 +12,16 @@ stages:
   - build
   - test
   - deploy
-  - pages
+  #- pages
 
 before_script:
   - printf "Running before script...\n"
-  - git config --global user.email "git@gitlab.com"
-  - git config --global user.name "Gitlab CI"
+  - git config --global user.email "4593890-MypDNS@users.noreply.gitlab.com"
+  - git config --global user.name "MypDNS"
 
 after_script:
   - echo "After script section...\n"
-  - git remote set-url origin https://git:$DEPLOY_KEY@gitlab.com/$CI_PROJECT_PATH.git
+  - git remote set-url origin https://git:$MypDNS_CI@gitlab.com/$CI_PROJECT_PATH.git
   - git add .
   - git status
   - git commit -m '[skip ci] commit from CI runner'
@@ -61,12 +61,12 @@ deploy:
   only:
   - mater
 
-pages:
-  stage: deploy
-  script:
-  - echo 'Nothing to do...'
-  artifacts:
-    paths:
-    - public
-  only:
-  - master
+#pages:
+#  stage: deploy
+#  script:
+#  - echo 'Nothing to do...'
+#  artifacts:
+#    paths:
+#    - public
+#  only:
+#  - master
