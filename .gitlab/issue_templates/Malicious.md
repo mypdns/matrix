@@ -8,6 +8,11 @@ This 'Malicious' domain have to be blocked as..
 - [ ] [Single Domain](source/malicious/domains.list)
 - [ ] [Wild carded](source/malicious/wildcard.list)
 
+```python
+example.org   CNAME . ; Malicious 
+*.example.org   CNAME . ; Malicious 
+```
+
 ... ***because***:
 
 ## Relevant logs and/or screenshots
@@ -15,11 +20,6 @@ This 'Malicious' domain have to be blocked as..
 <!-- Paste any relevant logs - please use code blocks (```) to format 
 console output, logs, and code as it's very hard to read otherwise. -->
 
-
-```python
-example.org   CNAME . ; Malicious 
-*.example.org   CNAME . ; Malicious 
-```
 
 ### All Submissions:
 - [ ] Have you followed the guidelines in our Contributing document?
@@ -39,6 +39,6 @@ example.org   CNAME . ; Malicious
 - [ ] Added to Source file
 
 /label ~Malicious  
-/assign @dns-firewall 
+/assign @my-privacy-dns/matrix 
 /estimate 15m
 /weight 8

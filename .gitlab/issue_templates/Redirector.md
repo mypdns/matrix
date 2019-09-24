@@ -8,12 +8,12 @@ It's a plain 'Redirector' that have to be blocked as..
 - [ ] [Single Domain](source/redirector/domains.list)
 - [X] [Wild carded](source/redirector/wildcard.list)
 
+```python
+example.org   CNAME . ; ReDirector 
+*.example.org   CNAME . ; ReDirector 
+```
+
 ... ***because***:
-
-
-## Steps to reproduce
-
-<!-- How one can reproduce the issue - this is very important -->
 
 
 ## Relevant logs and/or screenshots
@@ -21,11 +21,6 @@ It's a plain 'Redirector' that have to be blocked as..
 <!-- Paste any relevant logs - please use code blocks (```) to format 
 console output, logs, and code as it's very hard to read otherwise. -->
 
-
-```python
-example.org   CNAME . ; ReDirector 
-*.example.org   CNAME . ; ReDirector 
-```
 
 ### All Submissions:
 - [ ] Have you followed the guidelines in our Contributing document?
@@ -45,6 +40,6 @@ example.org   CNAME . ; ReDirector
 - [ ] Added to Source file
 
 /label ~Redirector  
-/assign @dns-firewall 
+/assign @my-privacy-dns/matrix 
 /estimate 15m
 /weight 4

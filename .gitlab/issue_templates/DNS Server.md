@@ -8,23 +8,18 @@ I believe this DNS Server needs to be blocked as..
 - [ ] [Wildcarded](source/dns-servers/wildcard.list)
 - [ ] [Single DNS Server](source/dns-servers/domains.list)
 
+```python
+*.example.org.rpz-nsdname   CNAME . ; DNSServer
+*.example.org.rpz-nsip   CNAME . ; DNSServer 
+```
+
 .. ***Because***:
-
-## Steps to reproduce
-
-<!-- How one can reproduce the issue - this is very important -->
-
 
 ## Relevant logs and/or screenshots
 
 <!-- Paste any relevant logs - please use code blocks (```) to format 
 console output, logs, and code as it's very hard to read otherwise. -->
 
-
-```python
-*.example.org.rpz-nsdname   CNAME . ; DNSServer
-*.example.org.rpz-nsip   CNAME . ; DNSServer 
-```
 
 ### All Submissions:
 - [ ] Have you followed the guidelines in our Contributing document?
@@ -57,7 +52,7 @@ console output, logs, and code as it's very hard to read otherwise. -->
 ```
 
 /label ~"DNS server blocking" 
-/assign @dns-firewall 
+/assign @my-privacy-dns/matrix 
 /estimate 15m
 /weight 4
 

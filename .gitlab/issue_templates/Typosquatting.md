@@ -8,23 +8,18 @@ back ticks `(`)` -->
 - [ ] [Single Domain](source/typosquatting/domains.list)
 - [X] [Wild carded](source/typosquatting/wildcard.list)
 
+```python
+example.org   CNAME . ; TypoSquatting 
+*.example.org   CNAME . ; TypoSquatting 
+```
+
 ... ***because***:
-
-## Steps to reproduce
-
-<!-- How one can reproduce the issue - this is very important -->
-
 
 ## Relevant logs and/or screenshots
 
 <!-- Paste any relevant logs - please use code blocks (```) to format 
 console output, logs, and code as it's very hard to read otherwise. -->
 
-
-```python
-example.org   CNAME . ; TypoSquatting 
-*.example.org   CNAME . ; TypoSquatting 
-```
 
 ### All Submissions:
 - [ ] Have you followed the guidelines in our Contributing document?
@@ -44,6 +39,6 @@ example.org   CNAME . ; TypoSquatting
 - [ ] Added to Source file
 
 /label ~"TypoSquatting"  
-/assign @dns-firewall 
+/assign @my-privacy-dns/matrix 
 /estimate 15m
 /weight 4

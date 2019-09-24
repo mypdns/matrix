@@ -9,15 +9,14 @@ good reason
 - [X] <a href="source/whitelist/domains.list">Single Domain</a>
 - [ ] <a href="source/whitelist/wildcard.list">Wild carded</a>
 
+```python
+example.org   CNAME . ; whitelisted 
+*.example.org   CNAME . ; whitelisted 
+```
+
 # Extravagant good reason
 <!-- Try to convince the team of why this domain should be added to the 
 whitelist -->
-
-
-## Steps to reproduce
-
-<!-- How one can reproduce the issue - this is very important -->
-
 
 ## Relevant logs and/or screenshots
 
@@ -25,10 +24,6 @@ whitelist -->
 console output, logs, and code as it's very hard to read otherwise. -->
 
 
-```python
-example.org   CNAME . ; whitelisted 
-*.example.org   CNAME . ; whitelisted 
-```
 
 ### All Submissions:
 - [ ] Have you followed the guidelines in our Contributing document?
@@ -48,6 +43,6 @@ example.org   CNAME . ; whitelisted
 - [ ] Added to Source file
 
 /label ~Whitelist  
-/assign @dns-firewall 
+/assign @my-privacy-dns/matrix 
 /estimate 15m
 /weight 2

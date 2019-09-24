@@ -9,22 +9,15 @@ scam in this format..
 - [ ] [Single domain blocking](source/sharked-domains/domains.list)
 - [X] [Wildcarded](source/sharked-domains/wildcard.list)
 
-## Steps to reproduce
-
-<!-- How one can reproduce the issue - this is very important -->
-
-
+```python
+example.org   CNAME . ; DomainSharks 
+*.example.org   CNAME . ; DomainSharks 
+```
 
 ## Relevant logs and/or screenshots
 <!-- Paste any relevant logs - please use code blocks (```) to format 
 console output, logs, and code as it's very hard to read otherwise. -->
 <!-- required -->
-
-
-```python
-example.org   CNAME . ; DomainSharks 
-*.example.org   CNAME . ; DomainSharks 
-```
 
 ### All Submissions:
 - [ ] Have you followed the guidelines in our Contributing document?
@@ -44,6 +37,6 @@ example.org   CNAME . ; DomainSharks
 - [ ] Added to Source file
 
 /label ~"Domain Sharked" 
-/assign @dns-firewall 
+/assign @my-privacy-dns/matrix 
 /estimate 15m
 /weight 4
