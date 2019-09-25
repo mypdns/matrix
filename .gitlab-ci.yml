@@ -21,7 +21,7 @@ before_script:
 
 after_script:
   - echo "After script section...\n"
-  - git remote set-url origin https://git:$MypDNS_CI@gitlab.com/$CI_PROJECT_PATH.git
+  - git remote set-url origin https://mypdns:$MypDNS_CI@gitlab.com/$CI_PROJECT_PATH.git
   - git add .
   - git status
   - git commit -m '[skip ci] commit from CI runner'
