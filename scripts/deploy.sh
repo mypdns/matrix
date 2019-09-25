@@ -11,6 +11,7 @@ git fetch origin
 git checkout -b "$CI_MERGE_REQUEST_SOURCE_BRANCH_NAME origin/$CI_MERGE_REQUEST_SOURCE_BRANCH_NAME"
 
 # Step 2. Review the changes locally
+find source/ -type f -name '*.list' -exec bash -c "sort -i -u -f '{}' -o '{}' " \;
 
 # Step 3. Merge the branch and fix any conflicts that come up
 
