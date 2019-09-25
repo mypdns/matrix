@@ -4,7 +4,7 @@
 set -e -u
 
 # Change GIT upstream from git to https
-git remote set-url origin "https://git:$MypDNS_CI@gitlab.com/$CI_PROJECT_PATH.git"
+git remote set-url origin "https://mypdns:$MypDNS_CI@gitlab.com/$CI_PROJECT_PATH.git"
 
 # Step 1. Fetch and check out the branch for this merge request
 git fetch origin
