@@ -40,6 +40,6 @@ console output, logs, and code as it's very hard to read otherwise. -->
 - [ ] Added to Source file
 
 /label ~AdWare 
-/assign /assign @AnonymousPoster @Spirillen Marsupilami
+/assign @AnonymousPoster @Spirillen
 /estimate 15m
 /weight 4
