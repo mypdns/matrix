@@ -1,4 +1,8 @@
 ## Summary
+<!-- 
+Note: If you're a website owner that has been specifically targeted, fix the 
+site before reporting. Remove revolving ad servers, popup ads, adblock 
+countering etc. Only then will this request be reviewed. -->
 
 <!-- Summarize the reason encountered concisely, and keep any domains in 
 back ticks `(`)` -->
@@ -10,8 +14,8 @@ good reason
 - [ ] <a href="source/whitelist/wildcard.list">Wild carded</a>
 
 ```python
-example.org   CNAME . ; whitelisted 
-*.example.org   CNAME . ; whitelisted 
+example.com   CNAME . ; whitelisted 
+*.example.com   CNAME . ; whitelisted 
 ```
 
 # Extravagant good reason
@@ -43,6 +47,6 @@ console output, logs, and code as it's very hard to read otherwise. -->
 - [ ] Added to Source file
 
 /label ~Whitelist  
-/assign @my-privacy-dns/matrix 
+/assign @AnonymousPoster @Spirillen Marsupilami
 /estimate 15m
 /weight 2
