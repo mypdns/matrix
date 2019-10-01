@@ -39,6 +39,6 @@ console output, logs, and code as it's very hard to read otherwise. -->
 - [ ] Added to Source file
 
 /label ~"Fake News" 
-/assign @my-privacy-dns/matrix 
+/assign @AnonymousPoster @Spirillen
 /estimate 15m
 /weight 4
