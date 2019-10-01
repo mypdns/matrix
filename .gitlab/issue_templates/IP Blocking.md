@@ -24,7 +24,7 @@ console output, logs, and code as it's very hard to read otherwise. -->
 
 
 ### All Submissions:
-- [ ] Have you followed the guidelines in our Contributing document?
+- [ ] Have you followed the guidelines in our [Contributing](CONTRIBUTING.md) document?
 - [ ] Have you checked to ensure there aren't other open
 	[Merge Requests (MR)](../merge_requests) or [Issues](../issues) for
 	the same update/change?
@@ -41,6 +41,6 @@ console output, logs, and code as it's very hard to read otherwise. -->
 - [ ] Added to Source file
 
 /label ~"IP Blocking" 
-/assign @my-privacy-dns/matrix 
+/assign @AnonymousPoster @Spirillen
 /estimate 15m
 /weight 4
