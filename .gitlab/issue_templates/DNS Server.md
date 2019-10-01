@@ -52,7 +52,7 @@ console output, logs, and code as it's very hard to read otherwise. -->
 ```
 
 /label ~"DNS server blocking" 
-/assign /assign @AnonymousPoster @Spirillen Marsupilami
+/assign @AnonymousPoster @Spirillen
 /estimate 15m
 /weight 4
 
