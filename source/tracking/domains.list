@@ -1,12 +1,7 @@
-alpha.telemetry.microsft.com CNAME . ; tracking
-eu.vortex-win.data.microsft.com
-oca.telemetry.microsft.com
-us.vortex-win.data.microsft.com
-v10-win.vortex.data.microsft.com.akadns.net
-v10.vortex-win.data.microsft.com
 
 activation-dc1.gfe.nvidia.com
 activation.gfe.nvidia.com
+alpha.telemetry.microsft.com CNAME . ; tracking
 analytics.allovoisins.com
 analytics.alternativet.dk
 analytics.developer.riotgames.com
@@ -20,6 +15,7 @@ cluster.chart.dk
 cplog.flashget.com
 d.haberler.com
 ecolytics-collector-prod-1404130997.us-west-1.elb.amazonaws.com
+eu.vortex-win.data.microsft.com
 events.api.bosecm.com
 evt.mxplay.com
 geoip.ubuntu.com
@@ -31,6 +27,7 @@ maps.googleapis.com
 maps.gstatic.com
 mxase.clmbtech.com
 mxvp-feature-toggle-prod-1.zenmxapps.com
+oca.telemetry.microsft.com
 sedo.cachefly.net
 settings.crashlytics.com
 stat.flashget.com
@@ -40,4 +37,7 @@ supertracker.flashget.com
 track.totalav.com
 tracker.winudf.com
 tracking-opi.fonpit.de
+us.vortex-win.data.microsft.com
+v10-win.vortex.data.microsft.com.akadns.net
+v10.vortex-win.data.microsft.com
 www3.l.google.com
