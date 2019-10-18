@@ -1,4 +1,3 @@
-
 activation-dc1.gfe.nvidia.com
 activation.gfe.nvidia.com
 alpha.telemetry.microsft.com CNAME . ; tracking
@@ -41,3 +40,4 @@ us.vortex-win.data.microsft.com
 v10-win.vortex.data.microsft.com.akadns.net
 v10.vortex-win.data.microsft.com
 www3.l.google.com
+metrics.readme.io
