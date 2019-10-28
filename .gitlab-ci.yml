@@ -9,8 +9,8 @@ cache:
     - $CI_PROJECT_DIR/data/
 
 stages:
-  - build
   - test
+  - build
   - deploy
   #- pages
 
