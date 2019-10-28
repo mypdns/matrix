@@ -22,6 +22,7 @@ before_script:
 after_script:
   - echo "After script section...\n"
   - git remote set-url origin https://mypdns:$MypDNS_CI@gitlab.com/$CI_PROJECT_PATH.git
+  - find $CI_PROJECT_DIR/source/ -type f -name '*.list' -exec bash -c "sort -i -u -f '{}' -o '{}' " \;
   - git add .
   - git status
   - git commit -m '[skip ci] commit from CI runner'
@@ -35,7 +36,8 @@ build:
   script:
     - echo "Building"
     - git checkout -B master
-    - bash $CI_PROJECT_DIR/scripts/build.sh
+    - find $CI_PROJECT_DIR/source/ -type f -name '*.list' -exec bash -c "sort -i -u -f '{}' -o '{}' " \;
+    #- bash $CI_PROJECT_DIR/scripts/build.sh
     #- build cache
 
 test1:
