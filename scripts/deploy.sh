@@ -15,12 +15,12 @@ find source/ -type f -name '*.list' -exec bash -c "sort -i -u -f '{}' -o '{}' " 
 
 # Step 3. Merge the branch and fix any conflicts that come up
 
-git fetch origin
-git checkout origin/master
-git merge --no-ff "$CI_MERGE_REQUEST_SOURCE_BRANCH_NAME"
+#git fetch origin
+#git checkout origin/master
+#git merge --no-ff "$CI_MERGE_REQUEST_SOURCE_BRANCH_NAME"
 
 # Step 4. Push the result of the merge to into master
-git push origin master
+#git push origin master
 
 #git add .
 #git status
