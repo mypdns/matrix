@@ -1,7 +1,7 @@
 activation-dc1.gfe.nvidia.com
 activation.gfe.nvidia.com
-alpha.telemetry.microsft.com CNAME . ; tracking
-analytics.allovoisins.com
+alpha.telemetry.microsft.com
+analytics.allovoisins.co
 analytics.alternativet.dk
 analytics.developer.riotgames.com
 analytics.ext.go-tellm.com
