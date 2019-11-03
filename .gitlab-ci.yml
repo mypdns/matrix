@@ -37,8 +37,8 @@ build:
   script:
     - echo "Building"
     - git checkout -B master
-    - find $CI_PROJECT_DIR/source/ -type f -name '*.list' -exec bash -c "sort -i -u -f '{}' -o '{}' " \;
-    #- bash $CI_PROJECT_DIR/scripts/build.sh
+    #- find $CI_PROJECT_DIR/source/ -type f -name '*.list' -exec bash -c "sort -i -u -f '{}' -o '{}' " \;
+    - bash $CI_PROJECT_DIR/scripts/build.sh
     #- build cache
 
 #test1:
