@@ -3,4 +3,5 @@
 # Exit on any errors
 set -e
 
-find source/ -type f -name '*.list' -exec bash -c "sort -i -u -f '{}' -o '{}' " \;
+find $CI_PROJECT_DIR/source/ -type f -name '*.list' -exec bash -c "sort -i -u \
+	-f '{}' -o '{}' " \;
