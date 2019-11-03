@@ -1,4 +1,3 @@
-trace.svc.ui.com
 activation-dc1.gfe.nvidia.com
 activation.gfe.nvidia.com
 alpha.telemetry.microsft.com
@@ -35,6 +34,7 @@ stat.flashget.com
 statistic.ads24h.net
 stats.privacytools.io
 supertracker.flashget.com
+trace.svc.ui.com
 track.totalav.com
 tracker.winudf.com
 tracking-opi.fonpit.de
