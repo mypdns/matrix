@@ -8,11 +8,11 @@ cache:
   paths:
     - $CI_PROJECT_DIR/data/
 
-stages:
-  - test
-  - build
-  - deploy
-  #- pages
+#stages:
+#  - test
+#  - build
+#  - deploy
+#  #- pages
 
 before_script:
   - printf "Running before script...\n"
@@ -32,7 +32,7 @@ after_script:
 build:
   stage: build
   only:
-  - merge_requests
+  #- merge_requests
   - master
   script:
     - echo "Building"
@@ -41,28 +41,28 @@ build:
     #- bash $CI_PROJECT_DIR/scripts/build.sh
     #- build cache
 
-test1:
-  stage: test
-  script:
-    - printf "Lint bash code...\n"
-    #- reuse build cache
-    - bash $CI_PROJECT_DIR/scripts/lint.sh
+#test1:
+#  stage: test
+#  script:
+#    - printf "Lint bash code...\n"
+#    #- reuse build cache
+#    - bash $CI_PROJECT_DIR/scripts/lint.sh
 
-test2:
-  stage: test
-  script:
-    - printf "Running test 2...\n"
-    #- reuse cache
-    - bash $CI_PROJECT_DIR/scripts/test2.sh
+#test2:
+#  stage: test
+#  script:
+#    - printf "Running test 2...\n"
+#    #- reuse cache
+#    - bash $CI_PROJECT_DIR/scripts/test2.sh
 
-deploy:
-  stage: deploy
-  script:
-    - echo "Do your deploy here"
-    - bash $CI_PROJECT_DIR/scripts/deploy.sh
-    #- reuse cache
-  only:
-  - mater
+#deploy:
+#  stage: deploy
+#  script:
+#    - echo "Do your deploy here"
+#    - bash $CI_PROJECT_DIR/scripts/deploy.sh
+#    #- reuse cache
+#  only:
+#  - mater
 
 #pages:
 #  stage: deploy
