@@ -21,7 +21,7 @@ example.org   CNAME . ; Adult
 
 <details><Summary>Screenshot required</summary>
 
-![]()
+
 
 </details>
 
@@ -34,7 +34,7 @@ example.org   CNAME . ; Adult
 
 ### Todo
 - [ ] RPZ Server (Team members)
-- [ ] Added to Source file?
+- [x] Added to Source file?
 
 /label ~"NSFW Adult Material"
 /assign @AnonymousPoster @Spirillen
