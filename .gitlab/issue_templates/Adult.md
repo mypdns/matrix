@@ -38,4 +38,4 @@ example.org   CNAME . ; Adult
 /label ~"NSFW Adult Material"
 /assign @AnonymousPoster @Spirillen
 /estimate 15m
-/weight 4
+/weight 1
