@@ -17,4 +17,4 @@ do
     cat ${d[@]}/*.list > ${d[@]}/combined.txt
 done
 
-bash $CI_PROJECT_DIR/scripts/deploy.sh
+
