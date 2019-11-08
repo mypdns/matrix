@@ -1,0 +1,12 @@
+i.imgur.com
+s3.amazonaws.com
+adguard.com
+adtidy.org
+discordapp.com
+github.io
+gitlab.io
+insomniagamingfestival.com
+spb.ru
+thepiratebay.org
+tinypic.com
+wwwfacebook.com
