@@ -4,25 +4,12 @@
 set -e -u
 
 # Change GIT upstream from git to https
-git remote set-url origin "https://mypdns:$MypDNS_CI@gitlab.com/$CI_PROJECT_PATH.git"
+git remote set-url origin https://mypdns:$MypDNS_CI@gitlab.com/$CI_PROJECT_PATH.git
 
-# Step 1. Fetch and check out the branch for this merge request
-git fetch origin
-git checkout -b "$CI_MERGE_REQUEST_SOURCE_BRANCH_NAME origin/$CI_MERGE_REQUEST_SOURCE_BRANCH_NAME"
+git add .
+git status
+git commit -am '[skip ci] commit from CI runner'
+git push -u origin master
 
-# Step 2. Review the changes locally
-find source/ -type f -name '*.list' -exec bash -c "sort -i -u -f '{}' -o '{}' " \;
-
-# Step 3. Merge the branch and fix any conflicts that come up
-
-#git fetch origin
-#git checkout origin/master
-#git merge --no-ff "$CI_MERGE_REQUEST_SOURCE_BRANCH_NAME"
-
-# Step 4. Push the result of the merge to into master
-#git push origin master
-
-#git add .
-#git status
-#git commit -m '[skip ci] commit from CI runner'
-#git push -u origin master
+# Tell REPO_NAME to run the CI
+sleep 5 curl -X POST -F token="$hosts_token" -F ref=master https://gitlab.com/api/v4/projects/14278031/trigger/pipeline
