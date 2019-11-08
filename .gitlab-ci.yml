@@ -27,7 +27,7 @@ after_script:
   - git status
   - git commit -m '[skip ci] commit from CI runner'
   - git push -u origin master
-  - "curl -X POST -F token=$hosts_token -F ref=master https://gitlab.com/api/v4/projects/14278031/trigger/pipeline"
+  - curl -X POST -F token="$hosts_token" -F ref=master https://gitlab.com/api/v4/projects/14278031/trigger/pipeline
 
 build:
   stage: build
@@ -37,9 +37,8 @@ build:
   script:
     - echo "Building"
     - git checkout -B master
-    #- find $CI_PROJECT_DIR/source/ -type f -name '*.list' -exec bash -c "sort -i -u -f '{}' -o '{}' " \;
     - bash $CI_PROJECT_DIR/scripts/build.sh
-    #- build cache
+
 
 #test1:
 #  stage: test
