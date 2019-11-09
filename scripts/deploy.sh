@@ -12,4 +12,7 @@ git commit -am '[skip ci] commit from CI runner'
 git push -u origin ${CI_COMMIT_REF_NAME}
 
 # Tell REPO_NAME to run the CI
-sleep 5s curl -X POST -F token="$hosts_token" -F ref=master https://gitlab.com/api/v4/projects/14278031/trigger/pipeline
+# But first wait for the commit to land
+sleep 5s 
+
+curl -X POST -F token="$hosts_token" -F ref=master https://gitlab.com/api/v4/projects/14278031/trigger/pipeline

@@ -39,7 +39,7 @@ build:
   script:
     - echo "Building"
     - git checkout -b ${CI_COMMIT_REF_NAME}
-    - bash -v $CI_PROJECT_DIR/scripts/build.sh && bash -v $CI_PROJECT_DIR/scripts/update_active_lists.sh
+    - bash $CI_PROJECT_DIR/scripts/build.sh && bash $CI_PROJECT_DIR/scripts/update_active_lists.sh
 
 
 test1:
@@ -49,7 +49,7 @@ test1:
   script:
     - echo "Building"
     - git checkout -b ${CI_COMMIT_REF_NAME}
-    - bash -v $CI_PROJECT_DIR/scripts/test1.sh && bash -v $CI_PROJECT_DIR/scripts/update_active_lists.sh
+    - bash $CI_PROJECT_DIR/scripts/test1.sh && bash $CI_PROJECT_DIR/scripts/update_active_lists.sh
 
 #test2:
 #  stage: test
