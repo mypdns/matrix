@@ -52,6 +52,7 @@ www3.l.google.com
 22pixx.xyz
 addthis.com
 adobedtm.com
+affforce.com
 analytics-v4-poc.ff.avast.com
 analytics.edgekey.net
 analytics.ff.avast.com
