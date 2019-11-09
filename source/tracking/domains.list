@@ -1,5 +1,6 @@
 activation-dc1.gfe.nvidia.com
 activation.gfe.nvidia.com
+affiliates.goreminders.com
 alpha.telemetry.microsft.com
 analytics.allovoisins.co
 analytics.alternativet.dk
@@ -18,6 +19,7 @@ eu.vortex-win.data.microsft.com
 events.api.bosecm.com
 evt.mxplay.com
 geoip.ubuntu.com
+goreminders.com
 inbound-analytics.pixlee.com
 instafeed-api.pixlee.com.inscname.net
 instagram.fcdg1-1.fna.fbcdn.net
@@ -46,5 +48,3 @@ us.vortex-win.data.microsft.com
 v10-win.vortex.data.microsft.com.akadns.net
 v10.vortex-win.data.microsft.com
 www3.l.google.com
-goreminders.com
-affiliates.goreminders.com
