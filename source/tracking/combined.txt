@@ -30,6 +30,7 @@ metrics.readme.io
 mxase.clmbtech.com
 mxvp-feature-toggle-prod-1.zenmxapps.com
 oca.telemetry.microsft.com
+r.wdfl.co
 sedo.cachefly.net
 settings.crashlytics.com
 stat.flashget.com
@@ -119,6 +120,7 @@ usabilla.com
 use-application-dns.net
 viliaff.com
 watches-my.stream
+wdfl.co
 wistia.com
 xda-developers.us
 xn--discrd-zxa.com
