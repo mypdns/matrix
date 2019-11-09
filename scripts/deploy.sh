@@ -12,4 +12,4 @@ git commit -am '[skip ci] commit from CI runner'
 git push -u origin master
 
 # Tell REPO_NAME to run the CI
-sleep 5 curl -X POST -F token="$hosts_token" -F ref=master https://gitlab.com/api/v4/projects/14278031/trigger/pipeline
+sleep 5s curl -X POST -F token="$hosts_token" -F ref=master https://gitlab.com/api/v4/projects/14278031/trigger/pipeline
