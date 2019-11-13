@@ -20,32 +20,31 @@ before_script:
   - git config --global user.name "MypDNS"
   - git remote set-url origin https://mypdns:$MypDNS_CI@gitlab.com/$CI_PROJECT_PATH.git
 
-after_script:
-  - echo -e "After script section...\n"
-  #- git remote set-url origin https://mypdns:$MypDNS_CI@gitlab.com/$CI_PROJECT_PATH.git
-  #- find $CI_PROJECT_DIR/source/ -type f -name '*.list' -exec bash -c "sort -i -u -f '{}' -o '{}' " \;
-  - git add .
-  - git status
-  - git commit -m '[skip ci] commit from CI runner'
-  - git push -u origin ${CI_COMMIT_REF_NAME}
-  #- sleep 5s curl -X POST -F token="$hosts_token" -F ref=master https://gitlab.com/api/v4/projects/14278031/trigger/pipeline
-  - printf "\n\nJob done\n\n"
+#after_script:
+#  - echo -e "After script section...\n"
+#  - git add .
+#  - git status
+#  - git commit -m 'Auto committed from the CI runner [skip ci]'
+#  - git push -u origin ${CI_COMMIT_REF_NAME}
+#  - printf "\n\nJob done\n\n"
 
 build:
   stage: build
   only:
-  #- merge_requests
   - master
   script:
     - echo "Building"
     - git checkout -b ${CI_COMMIT_REF_NAME}
     - bash $CI_PROJECT_DIR/scripts/build.sh && bash $CI_PROJECT_DIR/scripts/update_active_lists.sh
+    #- bash scripts/deploy.sh
 
 
 test1:
   stage: test
-  only:
-  - merge_requests
+  #only:
+  #- merge_requests
+  except:
+    - master
   script:
     - echo "Building"
     - git checkout -b ${CI_COMMIT_REF_NAME}
