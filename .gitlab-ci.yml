@@ -22,14 +22,14 @@ before_script:
 
 after_script:
   - echo -e "After script section...\n"
-  - printf "\n\nJob done\n\n"
   #- git remote set-url origin https://mypdns:$MypDNS_CI@gitlab.com/$CI_PROJECT_PATH.git
   #- find $CI_PROJECT_DIR/source/ -type f -name '*.list' -exec bash -c "sort -i -u -f '{}' -o '{}' " \;
-  #- git add .
-  #- git status
-  #- git commit -m '[skip ci] commit from CI runner'
-  #- git push -u origin ${CI_COMMIT_REF_NAME}
+  - git add .
+  - git status
+  - git commit -m '[skip ci] commit from CI runner'
+  - git push -u origin ${CI_COMMIT_REF_NAME}
   #- sleep 5s curl -X POST -F token="$hosts_token" -F ref=master https://gitlab.com/api/v4/projects/14278031/trigger/pipeline
+  - printf "\n\nJob done\n\n"
 
 build:
   stage: build
@@ -57,15 +57,6 @@ test1:
 #    - printf "Running test 2...\n"
 #    #- reuse cache
 #    - bash $CI_PROJECT_DIR/scripts/test2.sh
-
-#deploy:
-#  stage: deploy
-#  script:
-#    - echo "Do your deploy here"
-#    - bash $CI_PROJECT_DIR/scripts/deploy.sh
-#    #- reuse cache
-#  only:
-#  - mater
 
 #pages:
 #  stage: deploy
