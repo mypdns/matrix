@@ -16,3 +16,4 @@ git push -u origin ${CI_COMMIT_REF_NAME}
 sleep 5s 
 
 curl -X POST -F token="$hosts_token" -F ref=master https://gitlab.com/api/v4/projects/14278031/trigger/pipeline
+curl -X POST -F token="$unbound_token" -F ref=matrix https://gitlab.com/api/v4/projects/14276081/trigger/pipeline
