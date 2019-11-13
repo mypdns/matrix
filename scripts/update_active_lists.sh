@@ -6,7 +6,9 @@
 
 truncate -s 0 "$CI_PROJECT_DIR/source.list"
 
-for lists in `find $CI_PROJECT_DIR/source/ -type f -name "*.list"`
+cd "$CI_PROJECT_DIR"
+
+for lists in `find source/ -type f -name "*.list"`
 do
 	printf "$CI_PROJECT_URL/raw/master/$lists\n" | sort -u >> "$CI_PROJECT_DIR/source.list"
 done
