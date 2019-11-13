@@ -53,6 +53,7 @@ www3.l.google.com
 addthis.com
 adobedtm.com
 affforce.com
+al.ly
 analytics-v4-poc.ff.avast.com
 analytics.edgekey.net
 analytics.ff.avast.com
