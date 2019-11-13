@@ -17,4 +17,4 @@ do
     cat ${d[@]}/*.list > ${d[@]}/combined.txt
 done
 
-
+exit ${?}
