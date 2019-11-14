@@ -10,12 +10,12 @@ find $CI_PROJECT_DIR/source/ -type f -name '*.list' -exec bash -c "sort -i -u \
 
 cd $CI_PROJECT_DIR/
 
-find $CI_PROJECT_DIR/source/ -type f -name 'combined.txt' -delete
+#find $CI_PROJECT_DIR/source/ -type f -name 'combined.txt' -delete
 
-for d in `find source/ -mindepth 1 -maxdepth 1 -type d`
-do
-    cat ${d[@]}/*.list > ${d[@]}/combined.txt
-done
+#for d in `find source/ -mindepth 1 -maxdepth 1 -type d`
+#do
+#    cat ${d[@]}/*.list > ${d[@]}/combined.txt
+#done
 
 #bash $CI_PROJECT_DIR/scripts/deploy.sh
 
