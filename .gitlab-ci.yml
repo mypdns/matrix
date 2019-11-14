@@ -1,18 +1,13 @@
-#image: registry.gitlab.com/my-privacy-dns/ci-runner
-image: python:latest
+image: registry.gitlab.com/my-privacy-dns/ci-runner
+
 variables:
   GIT_DEPTH: 5
 
-cache:
-  key: ${CI_JOB_NAME}
-  paths:
-    - $CI_PROJECT_DIR/data/
-
-stages:
-  - test
-  - build
-  #- deploy
-  #- pages
+#stages:
+#  - test
+#  - build
+#  #- deploy
+#  #- pages
 
 before_script:
   - printf "Running before script...\n"
@@ -20,8 +15,9 @@ before_script:
   - git config --global user.name "MypDNS"
   - git remote set-url origin https://mypdns:$MypDNS_CI@gitlab.com/$CI_PROJECT_PATH.git
 
-#after_script:
-#  - echo -e "After script section...\n"
+after_script:
+  - echo -e "After script section...\n"
+
 #  - git add .
 #  - git status
 #  - git commit -m 'Auto committed from the CI runner [skip ci]'
@@ -41,8 +37,6 @@ build:
     - git commit -am 'Auto committed from the CI runner [skip ci]'
     - git status
     - git push -u origin ${CI_COMMIT_REF_NAME}
-
-
 
 test1:
   stage: test
