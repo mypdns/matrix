@@ -52,6 +52,8 @@ www3.l.google.com
 22pixx.xyz
 addthis.com
 adobedtm.com
+adtr.io
+adtraction.com
 affforce.com
 al.ly
 analytics-v4-poc.ff.avast.com
