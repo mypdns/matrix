@@ -13,6 +13,4 @@ do
 	printf "$CI_PROJECT_URL/raw/master/$lists\n" | sort -u >> "$CI_PROJECT_DIR/source.list"
 done
 
-tree $CI_PROJECT_DIR/source/
-
 ls -lh $CI_PROJECT_DIR/
