@@ -19,4 +19,4 @@ cd $CI_PROJECT_DIR/
 
 #bash $CI_PROJECT_DIR/scripts/deploy.sh
 
-exit ${?}
+#exit ${?}
