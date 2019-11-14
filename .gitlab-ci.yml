@@ -17,12 +17,10 @@ before_script:
 
 after_script:
   - echo -e "After script section...\n"
-
-#  - git add .
-#  - git status
-#  - git commit -m 'Auto committed from the CI runner [skip ci]'
-#  - git push -u origin ${CI_COMMIT_REF_NAME}
-#  - printf "\n\nJob done\n\n"
+  - git add .
+  - git status
+  - git commit -m 'Auto committed from the CI runner [skip ci]'
+  - git push -u origin ${CI_COMMIT_REF_NAME}
 
 build:
   stage: build
@@ -31,12 +29,7 @@ build:
   script:
     - echo "Building"
     - git checkout -b ${CI_COMMIT_REF_NAME}
-    - bash $CI_PROJECT_DIR/scripts/build.sh #&& bash $CI_PROJECT_DIR/scripts/update_active_lists.sh
-    - git add .
-    - git status
-    - git commit -am 'Auto committed from the CI runner [skip ci]'
-    - git status
-    - git push -u origin ${CI_COMMIT_REF_NAME}
+    - bash $CI_PROJECT_DIR/scripts/build.sh && bash $CI_PROJECT_DIR/scripts/update_active_lists.sh
 
 test1:
   stage: test
