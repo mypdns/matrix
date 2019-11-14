@@ -18,10 +18,10 @@ printf "\n\nPushed to Repository\n\n"
 
 # Tell REPO_NAME to run the CI
 # But first wait for the commit to land
-sleep 5s 
+#sleep 5s 
 
-"curl -X POST -F token="$hosts_token" -F ref=master https://gitlab.com/api/v4/projects/14278031/trigger/pipeline"
-"curl -X POST -F token="$unbound_token" -F ref=matrix https://gitlab.com/api/v4/projects/14276081/trigger/pipeline"
-printf "\n\nApi executed\n\n"
+#"curl -X POST -F token="$hosts_token" -F ref=master https://gitlab.com/api/v4/projects/14278031/trigger/pipeline"
+#"curl -X POST -F token="$unbound_token" -F ref=matrix https://gitlab.com/api/v4/projects/14276081/trigger/pipeline"
+#printf "\n\nApi executed\n\n"
 
 exit ${?}
