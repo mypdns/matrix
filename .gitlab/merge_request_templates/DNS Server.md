@@ -1,16 +1,18 @@
 ## Summary
 
-<!-- Summarize the reason encountered concisely, and keep any domains in 
-back ticks `(`)` -->
+<!-- Keep any domains in back ticks `(`)`
+
+Screenshot is required within the <details> pane. Leave a blank line before 
+and after the image link -->
 
 I believe this DNS Server needs to be blocked as..
 
-- [ ] [Wildcarded](source/dns-servers/wildcard.list)
+- [x] [Wildcarded](source/dns-servers/wildcard.list)
 - [ ] [Single DNS Server](source/dns-servers/domains.list)
 
 ```python
 *.example.org.rpz-nsdname   CNAME . ; DNSServer
-*.example.org.rpz-nsip   CNAME . ; DNSServer 
+*.example.org.rpz-nsip   CNAME . ; DNSServer
 ```
 
 .. ***Because***:
@@ -20,6 +22,13 @@ I believe this DNS Server needs to be blocked as..
 <!-- Paste any relevant logs - please use code blocks (```) to format 
 console output, logs, and code as it's very hard to read otherwise. -->
 
+## Screenshots
+
+<details><Summary>Screenshot required</summary>
+
+
+
+</details>
 
 ### All Submissions:
 - [ ] Have you followed the guidelines in our [Contributing](CONTRIBUTING.md) document?
@@ -35,7 +44,7 @@ console output, logs, and code as it's very hard to read otherwise. -->
 - [ ] Have you successfully ran tests with your changes locally?
 
 ### Todo:
-- [ ] RPZ Server
+- [ ] RPZ Server (Team @Spirillen)
 - [ ] Added to Source file
 
 #### Note:

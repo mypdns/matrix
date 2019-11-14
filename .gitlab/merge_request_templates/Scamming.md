@@ -1,7 +1,9 @@
 ## Summary
 
-<!-- Summarize the reason encountered concisely, and keep any domains in 
-back ticks `(`)` -->
+<!-- Keep any domains in back ticks `(`)`
+
+Screenshot is required within the <details> pane. Leave a blank line before 
+and after the image link -->
 
 'Scamming' domain that have to be blocked as..
 
@@ -9,8 +11,8 @@ back ticks `(`)` -->
 - [X] [Wild carded](source/scamming/wildcard.list)
 
 ```python
-example.org   CNAME . ; Scam 
-*.example.org   CNAME . ; Scam 
+example.org   CNAME . ; Scam
+*.example.org   CNAME . ; Scam
 ```
 
 ... ***because***:
@@ -20,6 +22,13 @@ example.org   CNAME . ; Scam
 <!-- Paste any relevant logs - please use code blocks (```) to format 
 console output, logs, and code as it's very hard to read otherwise. -->
 
+## Screenshots
+
+<details><Summary>Screenshot required</summary>
+
+
+
+</details>
 
 ### All Submissions:
 - [ ] Have you followed the guidelines in our [Contributing](CONTRIBUTING.md) document?
@@ -35,7 +44,7 @@ console output, logs, and code as it's very hard to read otherwise. -->
 - [ ] Have you successfully ran tests with your changes locally?
 
 ### Todo:
-- [ ] RPZ Server
+- [ ] RPZ Server (Team members)
 - [ ] Added to Source file
 
 /label ~Scamming  

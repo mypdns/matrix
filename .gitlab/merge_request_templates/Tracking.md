@@ -1,7 +1,9 @@
 ## Summary
 
-<!-- Summarize the reason encountered concisely, and keep any domains in 
-back ticks `(`)` -->
+<!-- Keep any domains in back ticks `(`)`
+
+Screenshot is required within the <details> pane. Leave a blank line before 
+and after the image link -->
 
 This domain is used for 'Tracking' your private life and **HAVE** to be 
 blocked as..
@@ -10,8 +12,8 @@ blocked as..
 - [X] [Wild carded](source/tracking/wildcard.list)
 
 ```python
-example.org   CNAME . ; Tracking 
-*.example.org   CNAME . ; Tracking 
+example.org   CNAME . ; Tracking
+*.example.org   CNAME . ; Tracking
 ```
 
 ... ***because***:
@@ -21,6 +23,13 @@ example.org   CNAME . ; Tracking
 <!-- Paste any relevant logs - please use code blocks (```) to format 
 console output, logs, and code as it's very hard to read otherwise. -->
 
+## Screenshots
+
+<details><Summary>Screenshot required</summary>
+
+
+
+</details>
 
 ### All Submissions:
 - [ ] Have you followed the guidelines in our [Contributing](CONTRIBUTING.md) document?
@@ -36,7 +45,7 @@ console output, logs, and code as it's very hard to read otherwise. -->
 - [ ] Have you successfully ran tests with your changes locally?
 
 ### Todo:
-- [ ] RPZ Server
+- [ ] RPZ Server (Team members)
 - [ ] Added to Source file
 
 /label ~Tracking  

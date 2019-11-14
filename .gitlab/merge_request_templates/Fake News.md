@@ -1,16 +1,18 @@
 ## Summary
 
-<!-- Summarize the FakeNews  encountered concisely, and keep any 
-domains in back ticks `(`)` -->
+<!-- Keep any domains in back ticks `(`)`
+
+Screenshot is required within the <details> pane. Leave a blank line before 
+and after the image link -->
 
 This domain hosts 'Fake News' that have to be blocked as..
 
-- [ ] [Wildcarded](source/fake-news/wildcard.list)
+- [x] [Wildcarded](source/fake-news/wildcard.list)
 - [ ] [Single domain blocking](source/fake-news/domains.list)
 
 ```python
-example.org   CNAME . ; FakeNews 
-*.example.org   CNAME . ; FakeNews 
+example.org   CNAME . ; FakeNews
+*.example.org   CNAME . ; FakeNews
 ```
 
 ... ***because***:
@@ -20,6 +22,13 @@ example.org   CNAME . ; FakeNews
 <!-- Paste any relevant logs - please use code blocks (```) to format 
 console output, logs, and code as it's very hard to read otherwise. -->
 
+## Screenshots
+
+<details><Summary>Screenshot required</summary>
+
+
+
+</details>
 
 ### All Submissions:
 - [ ] Have you followed the guidelines in our [Contributing](CONTRIBUTING.md) document?
@@ -35,7 +44,7 @@ console output, logs, and code as it's very hard to read otherwise. -->
 - [ ] Have you successfully ran tests with your changes locally?
 
 ### Todo:
-- [ ] RPZ Server
+- [ ] RPZ Server (Team @Spirillen)
 - [ ] Added to Source file
 
 /label ~"Fake News" 
