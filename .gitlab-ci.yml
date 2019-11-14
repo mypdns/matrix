@@ -1,5 +1,5 @@
-image: registry.gitlab.com/my-privacy-dns/ci-runner
-
+#image: registry.gitlab.com/my-privacy-dns/ci-runner
+image: python:latest
 variables:
   GIT_DEPTH: 5
 
