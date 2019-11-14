@@ -1,7 +1,9 @@
 ## Summary
 
-<!-- Summarize the reason encountered concisely, and keep any domains in 
-back ticks `(`)` -->
+<!-- Keep any domains in back ticks `(`)`
+
+Screenshot is required within the <details> pane. Leave a blank line before 
+and after the image link -->
 
 It's a plain 'Redirector' that have to be blocked as..
 
@@ -9,8 +11,8 @@ It's a plain 'Redirector' that have to be blocked as..
 - [X] [Wild carded](source/redirector/wildcard.list)
 
 ```python
-example.org   CNAME . ; ReDirector 
-*.example.org   CNAME . ; ReDirector 
+example.org   CNAME . ; ReDirector
+*.example.org   CNAME . ; ReDirector
 ```
 
 ... ***because***:
@@ -21,6 +23,13 @@ example.org   CNAME . ; ReDirector
 <!-- Paste any relevant logs - please use code blocks (```) to format 
 console output, logs, and code as it's very hard to read otherwise. -->
 
+## Screenshots
+
+<details><Summary>Screenshot required</summary>
+
+
+
+</details>
 
 ### All Submissions:
 - [ ] Have you followed the guidelines in our [Contributing](CONTRIBUTING.md) document?
@@ -36,7 +45,7 @@ console output, logs, and code as it's very hard to read otherwise. -->
 - [ ] Have you successfully ran tests with your changes locally?
 
 ### Todo:
-- [ ] RPZ Server
+- [ ] RPZ Server (Team @Spirillen)
 - [ ] Added to Source file
 
 /label ~Redirector  
