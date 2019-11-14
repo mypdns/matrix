@@ -36,7 +36,11 @@ build:
     - echo "Building"
     - git checkout -b ${CI_COMMIT_REF_NAME}
     - bash $CI_PROJECT_DIR/scripts/build.sh && bash $CI_PROJECT_DIR/scripts/update_active_lists.sh
-    #- bash scripts/deploy.sh
+    - git add .
+    - git status
+    - git commit -am 'Auto committed from the CI runner [skip ci]'
+    - git push -u origin ${CI_COMMIT_REF_NAME}
+
 
 
 test1:
