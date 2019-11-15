@@ -2,6 +2,7 @@ hdredirect-lb5-1afb6e2973825a56.elb.us-east-1.amazonaws.com
 sedo.cachefly.net
 9anime.is
 analrimming.com
+awmhost.com
 beastychannel.com
 beastzone.com
 beauty-teens.com
