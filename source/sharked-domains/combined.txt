@@ -1,3 +1,4 @@
+88story.33me.com
 hdredirect-lb5-1afb6e2973825a56.elb.us-east-1.amazonaws.com
 sedo.cachefly.net
 9anime.is
