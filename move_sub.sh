@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
 
-printf "\nEnter domain to handle as 'domain.tld':"
+#echo "Enter domain to handle as 'domain.tld': "
 
-read domain
+read "Enter domain to handle as 'domain.tld': " 
 
 grep -i '.${domain}$' source/porno-sites/wildcard.list >> source/porno-sites/domain.list
 sed -i '/.${domain}/d' source/porno-sites/wildcard.list
