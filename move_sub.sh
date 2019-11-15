@@ -2,7 +2,7 @@
 
 #echo "Enter domain to handle as 'domain.tld': "
 
-read "Enter domain to handle as 'domain.tld': " 
+read -p "Enter domain to handle as 'domain.tld': " 
 
 grep -i '.${domain}$' source/porno-sites/wildcard.list >> source/porno-sites/domain.list
 sed -i '/.${domain}/d' source/porno-sites/wildcard.list
