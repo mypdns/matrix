@@ -12,8 +12,10 @@ And don't forget order matters
 addAction('duckduckgo.com.', SpoofCNAMEAction('safe.duckduckgo.com.'))
 
 -- Yandex
+-- See https://gitlab.com/my-privacy-dns/matrix/matrix/issues/582
 
 -- Yahoo
+-- See https://gitlab.com/my-privacy-dns/matrix/matrix/issues/582
 
 -- Bing
 addAction('RegexRule("(^|\\.)bing[.][a-z]{2,5}([.][a-z]{2})?$"), SpoofCNAMEAction('strict.bing.com.'))
