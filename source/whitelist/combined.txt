@@ -3,6 +3,7 @@ s3.amazonaws.com
 adguard.com
 adtidy.org
 discordapp.com
+github.com
 github.io
 gitlab.io
 insomniagamingfestival.com
