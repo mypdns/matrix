@@ -26,6 +26,7 @@ instagram.fcdg1-1.fna.fbcdn.net
 instagram.felp1-1.fna.fbcdn.net
 instagram.fkgf1-1.fna.fbcdn.net
 instagram.flux1-1.fna.fbcdn.net
+ipv6-wildcard.applovin.com.edgekey.net
 maps.googleapis.com
 maps.gstatic.com
 metrics.readme.io
