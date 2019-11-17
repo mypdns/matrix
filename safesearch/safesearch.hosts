@@ -10,6 +10,22 @@
 # Bing The second most inrelable and UNSAFE privacy invading "search" portal
 # Be aware, it ain't you who is searching here, it is Microsoft that search for you
 204.79.197.220 bing.com
+204.79.197.220 www.bing.com
+
+# Youtube
+# Strict
+216.239.38.120	www.youtube-nocookie.com
+216.239.38.120	www.youtube.com
+216.239.38.120	youtube.com
+216.239.38.120	youtube.googleapis.com
+216.239.38.120	youtubei.googleapis.com
+
+# Strict moderate
+#216.239.38.119	www.youtube-nocookie.com
+#216.239.38.119	www.youtube.com
+#216.239.38.119	youtube.com
+#216.239.38.119	youtube.googleapis.com
+#216.239.38.119	youtubei.googleapis.com
 
 # Google The most inrelable and UNSAFE privacy invading "search" portal
 # Be aware, it ain't you who is searching here, it is Google that search for you
