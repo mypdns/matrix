@@ -18,7 +18,8 @@ do
 done
 
 # Import latest working example of safesearch from safesearc.mypdns.cloud
-dig axfr @axfr.ipv4.mypdns.cloud -p 5353 safesearch.mypdns.cloud | grep -vE '^($|;)' > safesearch/safesearch.mypdns.cloud.rpz
+rm $CI_PROJECT_DIR/safesearch/safesearch.mypdns.cloud.rpz
 
+dig axfr @axfr.ipv4.mypdns.cloud -p 5353 safesearch.mypdns.cloud | grep -vE '^($|;)' >> $CI_PROJECT_DIR/safesearch/safesearch.mypdns.cloud.rpz
 
 exit ${?}
