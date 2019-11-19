@@ -35,10 +35,8 @@ test1:
   stage: test
   #only:
   #- merge_requests
-  only:
-    - merge_requests
-  #except:
-  #  - master
+  except:
+    - master
   script:
     - echo "Building"
     - git checkout -b ${CI_COMMIT_REF_NAME}
