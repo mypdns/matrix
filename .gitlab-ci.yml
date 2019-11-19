@@ -30,7 +30,6 @@ build:
     - echo "Building"
     - git checkout -b ${CI_COMMIT_REF_NAME}
     - bash $CI_PROJECT_DIR/scripts/build.sh && bash $CI_PROJECT_DIR/scripts/update_active_lists.sh
-    - dig -h
 
 test1:
   stage: test
