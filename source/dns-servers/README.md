@@ -15,10 +15,6 @@ pdnsutil add-record rpz.mypdns.cloud '*.dns.examplse.net.rpz-nsdname' CNAME 3456
 
 ---
 
-Example plain HTML site using GitLab Pages.
-
-Learn more about GitLab Pages at https://pages.gitlab.io and the official
-documentation https://docs.gitlab.com/ce/user/project/pages/.
-
----
-
+Note
+-----
+The empty `empty_dns.list` is simply to satisfy the `scripts/build.sh`

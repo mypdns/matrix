@@ -86,7 +86,6 @@ clickbank.net
 clickcease.com
 cloudflareinsights.com
 comscore.com
-comscore.eu
 comscore.net
 comscore.org
 comscore.us
@@ -187,20 +186,6 @@ mycomscore.net
 mymetrix.com
 mymobilepanel.com
 mynedstat.com
-nedsms.com
-nedstad.com
-nedstat.com
-nedstat.info
-nedstat.net
-nedstat.org
-nedstatacademy.com
-nedstatbasic.com
-nedstatclassic.com
-nedstatcyclingevent.com
-nedstatexpertforum.com
-nedstatipo.com
-nedstatpro.com
-nedstatpro.net
 netminers.dk
 netstad.com
 netstat.asia
@@ -210,7 +195,6 @@ omtrdc.net
 onetrust.com
 pendo.io
 phicdn.net
-podstat.com
 pointillist.com
 polyfill.io
 post2delicious.com
@@ -221,7 +205,6 @@ qgraph.io
 quantcast.com
 quickmessage.us
 rebrand.ly
-riastat.com
 scorecardresearch.com
 search.msn.com
 sedoparking.com
