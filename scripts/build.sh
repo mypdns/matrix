@@ -17,4 +17,8 @@ do
     cat ${d[@]}/*.list > ${d[@]}/combined.txt
 done
 
+# Import latest working example of safesearch from safesearc.mypdns.cloud
+dig axfr @axfr.ipv4.mypdns.cloud safesearch.mypdns.cloud | grep -vE '^($|;)' > safesearch/safesearch.mypdns.cloud.rpz
+
+
 exit ${?}

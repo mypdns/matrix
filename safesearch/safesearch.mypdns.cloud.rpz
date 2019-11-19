@@ -1,6 +1,6 @@
 $TTL 1w ; 1 week
 $ORIGIN safesearch.mypdns.cloud.
-    SOA     localhost root.localhost 6 10800 3600 604800 60
+    SOA     localhost root.localhost 7 10800 3600 604800 60
     NS      localhost
 bing.com	CNAME strict.bing.com.
 duckduckgo.com	CNAME safe.duckduckgo.com.
@@ -206,3 +206,4 @@ youtube.googleapis.com	CNAME restrict.youtube.com.
 youtubei.googleapis.com	CNAME	restrict.youtube.com.
 yandex.safesearch.mypdns.cloud. 43200 IN TXT    "Please see //gitlab.com/my-privacy-dns/matrix/matrix/issues/582"
 yahoo.safesearch.mypdns.cloud. 43200 IN TXT    "Please see //gitlab.com/my-privacy-dns/matrix/matrix/issues/582"
+pixabay.com	CNAME safesearch.pixabay.com

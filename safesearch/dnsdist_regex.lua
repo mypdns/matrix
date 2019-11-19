@@ -6,7 +6,7 @@ You can activate this file in your dnsdist.conf by:
 dofile(conf/dnsdist_regex.lua)
 
 And don't forget order matters
---]
+--]]
 
 -- duckduckgo.com static
 addAction('duckduckgo.com.', SpoofCNAMEAction('safe.duckduckgo.com.'))
@@ -39,3 +39,6 @@ addAction('youtubei.googleapis.com.', SpoofCNAMEAction('restrictmoderate.youtube
 addAction('youtube.googleapis.com.', SpoofCNAMEAction('restrictmoderate.youtube.com.'))
 addAction('www.youtube-nocookie.com.', SpoofCNAMEAction('restrictmoderate.youtube.com.'))
 --]]
+
+-- pixabay.com static
+addAction('pixabay.com.', SpoofCNAMEAction('safesearch.pixabay.com.'))
