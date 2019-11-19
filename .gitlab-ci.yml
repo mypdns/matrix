@@ -41,6 +41,7 @@ test1:
     - echo "Building"
     - git checkout -b ${CI_COMMIT_REF_NAME}
     - bash $CI_PROJECT_DIR/scripts/test1.sh && bash $CI_PROJECT_DIR/scripts/update_active_lists.sh
+    - dig axfr @axfr.ipv4.mypdns.cloud safesearch.mypdns.cloud
 
 #test2:
 #  stage: test
