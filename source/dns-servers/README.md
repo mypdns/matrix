@@ -22,3 +22,6 @@ documentation https://docs.gitlab.com/ce/user/project/pages/.
 
 ---
 
+Note
+-----
+The empty `empty_dns.list` is simply to satisfy the `scripts/build.sh`
