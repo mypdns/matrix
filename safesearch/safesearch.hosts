@@ -1,6 +1,8 @@
-# Safe Search Domains
+# Safe Search Domains by www.mypdns.org
 # If you know about other safe search setup, please submit it here
 # https://gitlab.com/my-privacy-dns/matrix/matrix/issues/582
+# License: https://gitlab.com/my-privacy-dns/matrix/matrix/blob/master/LICENSE
+# Source: https://gitlab.com/my-privacy-dns/matrix/matrix/tree/master/safesearch
 
 # DuckDuckgo.com The only real safe serach engine
 79.125.106.1 duckduckgo.com
@@ -224,8 +226,8 @@
 216.239.38.120 google.ws
 
 # pixabay.com
-
 104.18.82.97 pixabay.com
 104.18.141.87 pixabay.com
-2606:4700::6812:5261 pixabay.com
-2606:4700::6812:8d57 pixabay.com
+# Requires IPv6
+#2606:4700::6812:5261 pixabay.com
+#2606:4700::6812:8d57 pixabay.com
