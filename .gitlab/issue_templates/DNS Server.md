@@ -1,18 +1,19 @@
 ## Summary
 
-<!-- Keep any domains in back ticks `(`)`
+<!-- Keep any domains in back ticks (`)
 
 Screenshot is required within the <details> pane. Leave a blank line before 
 and after the image link -->
 
 I believe this DNS Server needs to be blocked as..
 
-- [x] [Wildcarded](source/dns-servers/wildcard.list)
-- [ ] [Single DNS Server](source/dns-servers/domains.list)
+  - [x] [Wildcarded](source/dns-servers/wildcard.list)
+  - [ ] [Single DNS Server](source/dns-servers/domains.list)
 
 ```python
 *.example.org.rpz-nsdname   CNAME . ; DNSServer
-*.example.org.rpz-nsip   CNAME . ; DNSServer
+32.3.2.168.192.rpz-nsip   CNAME . ; DNSServer
+128.57.zz.1.0.db8.2001.rpz-nsip   CNAME . ; DNSServer
 ```
 
 .. ***Because***:
@@ -30,24 +31,24 @@ console output, logs, and code as it's very hard to read otherwise. -->
 
 </details>
 
-### All Submissions:
-- [ ] Have you followed the guidelines in our [Contributing](CONTRIBUTING.md) document?
-- [ ] Have you checked to ensure there aren't other open
-	[Merge Requests (MR)](../merge_requests) or [Issues](../issues) for
-	the same update/change?
-- [ ] Added ScreenDump for prove of False Positive
-- [ ] Have you added an explanation of what your submission do and why
-	you'd like us to include them??
+### All Submissions
+  - [ ] Have you followed the guidelines in our [Contributing](CONTRIBUTING.md) document?
+  - [ ] Have you checked to ensure there aren't other open
+	  [Merge Requests (MR)](../merge_requests) or [Issues](../issues) for
+	  the same update/change?
+  - [ ] Added ScreenDump for prove of False Positive
+  - [ ] Have you added an explanation of what your submission do and why
+	  you'd like us to include them??
 
 ### Testing face
-- [ ] Checked the internet for verification?
-- [ ] Have you successfully ran tests with your changes locally?
+  - [ ] Checked the internet for verification?
+  - [ ] Have you successfully ran tests with your changes locally?
 
 ### Todo:
-- [ ] RPZ Server (Team @Spirillen)
-- [ ] Added to Source file
+  - [ ] RPZ Server (Team @Spirillen)
+  - [ ] Added to Source file
 
-#### Note:
+#### Note
 ```python
 	# blocking an NS IPv4 address of 192.168.2.3
 	# rewritten as 192.168.2.3/32
@@ -64,4 +65,3 @@ console output, logs, and code as it's very hard to read otherwise. -->
 /assign @AnonymousPoster @Spirillen
 /estimate 15m
 /weight 4
-
