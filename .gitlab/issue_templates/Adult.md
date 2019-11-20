@@ -16,6 +16,11 @@ example.org   CNAME . ; Adult
 *.example.org   CNAME . ; Adult
 ```
 
+### additional for hosts
+```shell
+
+```
+
 ## Screenshots
 
 <details><Summary>Screenshot required</summary>
@@ -23,6 +28,9 @@ example.org   CNAME . ; Adult
 
 
 </details>
+
+## Merge request
+This porn domain will be merged by !247
 
 ### All Submissions:
 - [x] Have you followed the guidelines in our [Contributing](CONTRIBUTING.md) document?
