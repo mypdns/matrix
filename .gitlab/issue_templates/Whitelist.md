@@ -13,8 +13,8 @@ back ticks `(`)` -->
 This domain Should be whitelist be curse .. I have A seriously damned 
 good reason
 
-- [X] <a href="source/whitelist/domains.list">Single Domain</a>
-- [ ] <a href="source/whitelist/wildcard.list">Wild carded</a>
+  - [X] <a href="source/whitelist/domains.list">Single Domain</a>
+  - [ ] <a href="source/whitelist/wildcard.list">Wild carded</a>
 
 ```python
 example.com   CNAME . ; whitelisted
@@ -38,22 +38,22 @@ console output, logs, and code as it's very hard to read otherwise. -->
 
 </details>
 
-### All Submissions:
-- [ ] Have you followed the guidelines in our [Contributing](CONTRIBUTING.md) document?
-- [ ] Have you checked to ensure there aren't other open
+### All Submissions
+  - [ ] Have you followed the guidelines in our [Contributing](CONTRIBUTING.md) document?
+  - [ ] Have you checked to ensure there aren't other open
 	[Merge Requests (MR)](../merge_requests) or [Issues](../issues) for
-	the same update/change?
-- [ ] Added ScreenDump for prove of False Positive
-- [ ] Have you added an explanation of what your submission do and why
+	the same update/change?  
+  - [ ] Added ScreenDump for prove of False Positive
+  - [ ] Have you added an explanation of what your submission do and why
 	you'd like us to include them??
 
 ### Testing face
-- [ ] Checked the internet for verification?
-- [ ] Have you successfully ran tests with your changes locally?
+  - [ ] Checked the internet for verification?
+  - [ ] Have you successfully ran tests with your changes locally?
 
 ### Todo:
-- [ ] RPZ Server (Team members)
-- [ ] Added to Source file
+  - [ ] RPZ Server (Team members)
+  - [ ] Added to Source file
 
 /label ~Whitelist  
 /assign @AnonymousPoster @Spirillen
