@@ -117,6 +117,7 @@ cdn.videoplaza1.tv
 cdn.witchhut.com
 cdn.zomap.de
 cdn2.ufabet678.com
+cdn58826892.ahacdn.me
 chrome.google.com
 click.abctrack.bid
 click.advertnative.com
@@ -936,6 +937,7 @@ adnami.io
 adnami2.io
 adnegah.net
 adnety.com
+adnium.com
 adnxs.com
 adosia.com
 adpeepshosted.com
@@ -949,6 +951,7 @@ adrino.pl
 adrotate.se
 adrotator.se
 adrunnr.com
+ads-twitter.com
 adsaturn.com
 adsb4trk.com
 adsco.re
@@ -962,6 +965,7 @@ adsnative.com
 adsonflags.com
 adspace.pro
 adspeed.net
+adspotix.com
 adspyglass.com
 adspynet.com
 adsrv4k.com
@@ -1142,6 +1146,7 @@ blueserving.com
 bmovie.cc
 bnrdom.com
 bnrslks.com
+bnserving.com
 bnspx.com
 boacheeb.com
 bobarilla.com
@@ -1318,6 +1323,7 @@ cvqgnkeqme.com
 czlhgz.com
 d0f85db8ee56f5c6.com
 d0p21g2fep.com
+d144jmuhz9kvbq.cloudfront.net
 d14emrg9.com
 d4fed03105c9f65b.com
 daddylive.live
@@ -1506,6 +1512,7 @@ foreventwithenwas.info
 forkitz.com
 fortpush.com
 founehie.com
+foxads.net
 foxypp.com
 fqsbi.com
 free-cloud-storage.com
@@ -1592,6 +1599,7 @@ googletagmanager.com
 googletagservices.com
 gordipucha.com
 goverallyhandl.club
+goverua.com
 govtsmartjob.com
 gpjph.com
 graftaub.com
@@ -1633,9 +1641,11 @@ haupsoti.net
 hcg82f2b.com
 hd-streams.org
 hd100546b.com
+hd149026b.com
 hdbraze.com
 hdcast.me
 hdeuropix.io
+hdfdfdjigjjcbegjaeh.ru
 hdvid.tv
 hechaocheng.cn
 heightboost.com
@@ -1731,6 +1741,7 @@ irtyf.com
 ithoahie.com
 iu1xoe7o.com
 ivastoor.com
+ixspublic.com
 iz682noju02ye5.com
 jaizouji.com
 javblow.com
@@ -1774,6 +1785,7 @@ kaunairu.net
 kbzdxt.com
 keeplinks.co
 keezmovies.com
+kepler-37b.com
 kerumal.com
 ketapang.biz
 keyrolan.com
@@ -1889,6 +1901,7 @@ mangaku.in
 maraukog.info
 marial.pro
 market-buster.com
+marketo.com
 masterkreatif.com
 masteroids.com
 masture.mobi
@@ -1897,6 +1910,7 @@ maxdeportv.club
 maxdeportv.net
 maxisciences.com
 maxonclick.com
+mb104.com
 mcprofits.com
 mdf91.com
 measurementaz.com
@@ -1956,6 +1970,7 @@ mousheen.net
 moviescrush.co
 mpqfzyh.com
 mrperfect.in
+mrporngeek.com
 mse2v5oglm.com
 msn.com
 mtburn.com
@@ -1979,6 +1994,7 @@ mysdvvf.com
 mystighty.info
 myvpn.pro
 n156adserv.com
+naiadsystems.com
 nakednepaligirl.com
 namitol.com
 nanoadexchange.com
@@ -2073,11 +2089,13 @@ onclicktop.com
 onclkds.com
 onderlea.info
 onemerelyingisr.club
+onesignal.com
 onlinesupaads.com
 onlinevideoconverter.com
 onlinewebfind.com
 onshowit.com
 ooftoomy.com
+oopt.fr
 ooredi.com
 oorseest.net
 ooxxsearch.com
@@ -2441,6 +2459,7 @@ rephartertonelin.info
 replainy.co
 reqpostanza.com
 rereegny.net
+reroplittrewheck.pro
 reseireejoch.info
 resentaticexhaus.info
 resorsedroblet.pro
@@ -2484,6 +2503,7 @@ s2block.com
 s7c66wkh8k.com
 salaure.pro
 samsungads.com
+sancdn.net
 sascdn.com
 sbbanner.com
 sckxppzdm.com
@@ -2494,6 +2514,7 @@ secure-cloud.pro
 secureboom.net
 sedoparking.com
 seekingalpha.com
+sehiba.com
 sendit.cloud
 senolati.com
 sensortoluy.club
@@ -2548,6 +2569,7 @@ sohjah-thahka.info
 solarporn.net
 sombes.com
 somelandingpage.com
+sonagerthrou.com
 sooloaph.com
 soujoobafoo.com
 sourcengo.com
@@ -2557,6 +2579,7 @@ spacenine.biz
 speciadnessing.pro
 spectram.pro
 spycock.com
+squren.com
 srt.am
 srvpub.com
 ssl2anyone3.com
@@ -2588,6 +2611,7 @@ superfastcdn.com
 superligatv.com
 supforums.com
 surfe.pro
+sv2.biz
 svonm.com
 svyksa.info
 sy123888.com
@@ -2661,6 +2685,7 @@ topacity.info
 topadvert.ru
 topeuropix.net
 topjlinks.com
+toplist.cz
 torlock.com
 torrentdownloads.me
 torrentfunk.com
@@ -2704,6 +2729,7 @@ truefilen32.com
 trufus.ovh
 tsandycateup.com
 tssandycateup.com
+tsyndicate.com
 tubecontext.com
 tubecorporate.com
 tubedupe.com
@@ -2862,6 +2888,8 @@ wordc.ga
 worlanned.pro
 world4ufree.fun
 wowtests.com
+wpnjs.com
+wpu.sh
 wrmcfyzl.com
 wstream.video
 wsxxu.com
@@ -2877,6 +2905,7 @@ x-ssp.com
 x1337x.ws
 xameleonads.com
 xaxoro.com
+xclick24.com
 xcouj.com
 xdbwc.com
 xelllwrite.com
@@ -2885,6 +2914,7 @@ xffljxbbpy.com
 xijgedjgg5f55.com
 xilbalar.com
 xilfqkxezy.com
+xineday.com
 xiniuz.com
 xk0x.cn
 xmazvzvbqli.com
