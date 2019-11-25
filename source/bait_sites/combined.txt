@@ -130,6 +130,7 @@ searchenginejournal.com
 static.hootsuite.com
 static.licdn.com
 tfbnw.net
+trustpilot.com
 tv2.dk
 vinted.fr
 watchdog.energized.pro
