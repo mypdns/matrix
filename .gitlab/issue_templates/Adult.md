@@ -30,7 +30,7 @@ example.org   CNAME . ; Adult
 </details>
 
 ## Merge request
-This porn domain will be merged by !247
+This porn domain will be merged by !259
 
 ### All Submissions:
 - [x] Have you followed the guidelines in our [Contributing](CONTRIBUTING.md) document?
