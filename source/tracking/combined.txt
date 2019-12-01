@@ -12,6 +12,7 @@ androidapi.mxplay.com
 androidc.mxplay.com
 apphack.mobi
 arc.msn.com
+cdn.shopify.com
 chrome.google.com
 cluster.chart.dk
 cplog.flashget.com
@@ -43,12 +44,15 @@ modern.watson.data.microsoft.com.akadns.net
 mxase.clmbtech.com
 mxvp-feature-toggle-prod-1.zenmxapps.com
 oca.telemetry.microsft.com
+p.yotpo.com
 query.prod.cms.rt.microsoft.com
 r.wdfl.co
 ris.api.iris.microsoft.com
+s.shopify.com
 sedo.cachefly.net
 settings.crashlytics.com
 stat.flashget.com
+staticw2.yotpo.com
 statistic.ads24h.net
 stats.privacytools.io
 store-images.s-microsoft.com
@@ -61,9 +65,11 @@ tracker.winudf.com
 tracking-opi.fonpit.de
 traffic.acwebconnecting.com
 us.vortex-win.data.microsft.com
+v.shopify.com
 v10-win.vortex.data.microsft.com.akadns.net
 v10.vortex-win.data.microsft.com
 v10.vortex-win.data.microsoft.com
+w2.yotpo.com
 www.msftconnecttest.com
 www3.l.google.com
 1s3h4f7sl.com
@@ -212,6 +218,7 @@ leancoding.co
 ledimed-ks.com
 lian13.com
 llnk.eu
+ly200.com
 marketo.com
 mbenchmark.com
 me.uk
@@ -274,6 +281,7 @@ netstad.com
 netstat.asia
 nrdaixdlt.com
 offers-tracking.com
+omnisend.com
 omtrdc.net
 onetrust.com
 pendo.io
@@ -294,6 +302,7 @@ qgraph.io
 qoijertneio.com
 quantcast.com
 quickmessage.us
+qumagee.com
 rabilix.com
 rebrand.ly
 reroplittrewheck.pro
@@ -312,6 +321,7 @@ sitestatnewsletter.com
 smartmpanel.com
 sonagerthrou.com
 sopornmovies.com
+soundestlink.com
 speedcurve.com
 spottyfly.com
 squren.com
@@ -333,6 +343,7 @@ trackcmp.net
 trafficjunky.net
 trktnc.com
 trustpilot.com
+tubecup.org
 tv2a.dk
 tweitgeist.com
 twitstat.com
@@ -342,6 +353,8 @@ usabilla.com
 use-application-dns.net
 videometrix2.com
 viliaff.com
+visitstats.com
+w3counter.com
 watches-my.stream
 waust.at
 wdfl.co
