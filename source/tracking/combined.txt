@@ -27,6 +27,7 @@ evt.mxplay.com
 g.msn.com.nsatc.net
 geoip.ubuntu.com
 goreminders.com
+images.dmca.com
 imgstat.baidu.com
 inbound-analytics.pixlee.com
 inference.location.live.net
@@ -371,5 +372,6 @@ yadro.ru
 yotraff.com
 youboranqs01.com
 youshouldclick.us
+ywxi.net
 zqtk.net
 zyf03k.xyz
