@@ -294,6 +294,7 @@ polyfill.io
 post2delicious.com
 ppcstat.com
 presage.io
+promclickapp.biz
 promo-bc.com
 px-cdn.net
 px-cloud.net
