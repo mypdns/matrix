@@ -12,6 +12,7 @@ androidapi.mxplay.com
 androidc.mxplay.com
 apphack.mobi
 arc.msn.com
+bat.bing.com
 cdn.shopify.com
 chrome.google.com
 cluster.chart.dk
@@ -167,6 +168,7 @@ digitalanalytix.com
 digitalanalytix.net
 digitalanalytixmp.com
 digitalanalytixmp.net
+dprtb.com
 dynsrvtbg.com
 econommetrics.com
 eleganttraffic.com
