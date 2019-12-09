@@ -78,6 +78,7 @@ b2bapi.zee5.com
 baby.yf898.com
 banner.dabi.ir
 bannery.hledejceny.cz
+bat.bing.com
 bbcdn.go.evolutionmedia.bbelements.co
 best.infoiswhatwedo.com
 biggestplayer.cachefly.net
@@ -294,6 +295,8 @@ ppco.trwba.com
 premium.sexu.com
 prm.sushis.kim
 prodmg2.blob.core.windows.net
+promo-m.bongacash.com
+promo.bongacash.com
 pto.awecr.com
 push.zhanzhang.baidu.com
 qd.maskbaby.com.cn
@@ -740,6 +743,7 @@ adultadspy.com
 advelvet.com
 adversolutions.com
 advertclickme.com
+adverten.com
 advertica-cdn.com
 advertiserurl.com
 advfeeds.com
@@ -2340,6 +2344,7 @@ s2block.com
 s7c66wkh8k.com
 s85n4btydl.online
 salaure.pro
+salesforce.com
 samsungads.com
 sancdn.net
 sarjor.pw
