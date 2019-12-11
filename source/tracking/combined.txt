@@ -182,6 +182,7 @@ zz.bdstatic.com
 8096888.com
 8099888.com
 addthis.com
+addthisedge.com
 addtoany.com
 adexplode.pw
 adnium.com
