@@ -11,6 +11,7 @@ analytics.allovoisins.co
 analytics.alternativet.dk
 analytics.developer.riotgames.com
 analytics.ext.go-tellm.com
+analytics.sketchup.com
 android.bugly.qq.com
 androidapi.mxplay.com
 androidapp.baidu.com
