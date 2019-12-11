@@ -55,6 +55,7 @@ ecolytics-collector-prod-1404130997.us-west-1.elb.amazonaws.com
 eiv.baidu.com
 eu.vortex-win.data.microsft.com
 events.api.bosecm.com
+events.guesttoguest.com
 evt.mxplay.com
 f.hiphotos.baidu.com
 g.msn.com.nsatc.net
