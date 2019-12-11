@@ -109,6 +109,7 @@ sobartop.baidu.com
 spcode.baidu.com
 stat.flashget.com
 statistic.ads24h.net
+stats.grafikart.fr
 stats.privacytools.io
 store-images.s-microsoft.com
 sugar.zhihu.com
