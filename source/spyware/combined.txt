@@ -19,6 +19,7 @@ meetrics.ch
 meetrics.de
 meetrics.org
 mouseflow.com
+opinionstage.com
 presage.io
 recaptcha.net
 sedoparking.com
