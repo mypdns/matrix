@@ -184,6 +184,7 @@ addthis.com
 addtoany.com
 adexplode.pw
 adnium.com
+adnxs.com
 adobedtm.com
 adtr.io
 adtraction.com
@@ -195,6 +196,7 @@ analytics-v4-poc.ff.avast.com
 analytics.edgekey.net
 analytics.ff.avast.com
 applovin.com
+appnexus.com
 arda0hylt58g4wg0.pro
 aso1.net
 assets.sucdn.net
