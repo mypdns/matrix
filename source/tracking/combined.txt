@@ -108,6 +108,7 @@ sobar.baidu.com
 sobartop.baidu.com
 spcode.baidu.com
 stat.flashget.com
+stat.tiara.kakao.com
 statistic.ads24h.net
 stats.grafikart.fr
 stats.privacytools.io
@@ -120,6 +121,7 @@ tkweb.baidu.com
 tongji.baidu.com
 toolbar.baidu.com
 trace.svc.ui.com
+track.tiara.kakao.com
 track.totalav.com
 tracker.baidu.com
 tracker.winudf.com
