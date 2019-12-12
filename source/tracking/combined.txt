@@ -201,6 +201,7 @@ amung.us
 analytics-v4-poc.ff.avast.com
 analytics.edgekey.net
 analytics.ff.avast.com
+apomaya.com
 applovin.com
 appnexus.com
 arda0hylt58g4wg0.pro
