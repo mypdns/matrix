@@ -1,3 +1,12 @@
+---
+name: Adult
+about: Submitting new porn domains
+title: ''
+labels: ~"NSFW Adult Material"
+assignees: AnonymousPoster Spirillen
+
+---
+
 ## Summary
 
 <!-- Keep any domains in back ticks `(`)`
@@ -34,7 +43,3 @@ example.org   CNAME . ; Adult
 ### Todo
 - [x] Added to Source file?
 
-/label ~"NSFW Adult Material"
-/assign @AnonymousPoster @Spirillen
-/estimate 15m
-/weight 1
