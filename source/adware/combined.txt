@@ -1,4 +1,6 @@
+2dprofessor.cadprofessor.netdna-cdn.com
 360.mediav.com
+6dollar.threadpitinc.netdna-cdn.com
 7hoqd16sufw9f9h3swlkdt6lqdn3ud.ext-twitch.tv
 a.doko.moe
 a.gerasopa.com
@@ -34,6 +36,7 @@ ads.avocet.io
 ads.aws.viber.com
 ads.digitalcaramel.com
 ads.eorezo.com
+ads.globalmedianet.netdna-cdn.com
 ads.heias.com
 ads.lrb.co.uk
 ads.pro-market.net
@@ -70,6 +73,7 @@ asset.pagefair.net
 assets.accordo.it
 assets.bro.adca.st
 asv.whatismyip.win
+attention.inugq.netdna-cdn.com
 az708531.vo.msecnd.net
 b.misslk.com
 b.rmgserving.com
@@ -78,12 +82,14 @@ b2bapi.zee5.com
 baby.yf898.com
 banner.dabi.ir
 bannery.hledejceny.cz
+basilic.netdna-cdn.com
 bat.bing.com
 bbcdn.go.evolutionmedia.bbelements.co
 best.infoiswhatwedo.com
 biggestplayer.cachefly.net
 bleua.ecefibwja.xyz
 bms.adjarabet.com
+bootstrapcdn.jdorfman.netdna-cdn.com
 bps.sysact.cn
 buba65.co.pl
 buf-lemonde-fr-cddc.at-o.net
@@ -126,7 +132,9 @@ clubedohardware.com.br
 cluster.awmserve.com
 cm.mediav.com
 cmp.evolok.net
+cmpsmarter-downloader.maynemyltf.netdna-cdn.com
 code.jquery.com
+code.jquery.netdna-cdn.com
 code.poptm.com
 compass.adop.cc
 contextual.media.net
@@ -165,6 +173,8 @@ data.adwombat.com
 data.flw.li
 data.permittingnorthlandseamen.info
 data.shipboardserviceberrysiltstone.info
+daversion4.digitalbrandsinc.netdna-cdn.com
+dayoo.specializedinstr.netdna-cdn.com
 dd.70yst.com
 delivery.adten.eu
 delivery.trafficfabrik.com
@@ -172,6 +182,7 @@ deoi3kwqhv0d5.cloudfront.net
 discoveryad.castoola.tv
 dk7rftbivnkgr.cloudfront.net
 dl.www.speedvid.net
+dlmagnetdl.maynemyltf.netdna-cdn.com
 dm.hybrid.ai
 dm.jinshasi.cn
 dniadops-a.akamaihd.net
@@ -187,7 +198,9 @@ dwf6crl4raal7.cloudfront.net
 e.ejiakm.net
 e.lndjj.com
 e.qxfly.com
+ecb.onejumpwebinc.netdna-cdn.com
 edgecast-vod.yimg.com
+egygamer.egygamer.netdna-cdn.com
 emediate.apmmedia.net
 engine.adtidy.net
 eontent.streamplay.to
@@ -197,6 +210,10 @@ ext.movixhub.com
 f.asdfzxcv1312.com
 f.iaftjs.info
 filestorage.chip.de
+fishsnifferee.thefishsniffer.netdna-cdn.com
+fldownloadnet.maynemyltf.netdna-cdn.com
+flvxplayer.maynemyltf.netdna-cdn.com
+foreverb.rxmedicalweb.netdna-cdn.com
 fundingchoicesmessages.google.com
 g.hw6.com
 game.gamingnonstop.net
@@ -216,6 +233,7 @@ go.trkgt.com
 go.verymuchad.com
 gog9.qzdfc.com
 google.com.vn
+guru.sitescout.netdna-cdn.com
 hartsfieldrowesville.salleyoklaunion.com
 hb.headbidder.net
 hipercontas.com.br
@@ -223,6 +241,7 @@ hub.com.pl
 hub.fghtem.com
 i.imgbox.com
 id.kbmg.cz
+idcardsupply.projectarcadiall.netdna-cdn.com
 imasdk.googleapis.com
 img.56gmz.com
 img.balaiyani.com
@@ -231,6 +250,7 @@ img.hunlimishu.com
 img.rqgsf.com
 img.stomp.com.sg
 in.bmgan.com
+interstitial.glsp.netdna-cdn.com
 ipv6-wildcard.applovin.com.edgekey.net
 itad.linetv.tw
 j.77power.com
@@ -251,8 +271,10 @@ jscdn.yieldbird.com
 jump.fhoa365.com
 kiki.ykjmy.com
 landing.meendo.com
+limelightovp3.creatorcloud.netdna-cdn.com
 llnk.eu
 llsp.gfd80.com
+lunametrics.wpengine.netdna-cdn.com
 m.8800266.com.cn
 m.corocksi.com
 m.economictimes.com
@@ -262,6 +284,7 @@ m78.xhydrs.cn
 magicplayer-api.torrentstream.org
 magicplayer-s.acestream.net
 magicplayer-s.torrentstream.org
+main.abqjournal.netdna-cdn.com
 marketing.al.ly
 max-l.mediav.com
 mds.nipa.co.th
@@ -275,8 +298,10 @@ medya.ilan.gov.tr
 metrics.readme.io
 ms.awqsaged.cn
 mts.sdtieta.com
+munaluchibridal.munaluchibridema.netdna-cdn.com
 munchkin.marketo.net
 my.top100.photo
+mycdn.cdn492812.netdna-cdn.com
 myjj.pyzkk.com
 nnd.xyssp.com
 olswr.27684.club
@@ -302,6 +327,7 @@ push.zhanzhang.baidu.com
 qd.maskbaby.com.cn
 qwtm.purecertainengine.com
 r.mail.ru
+rainmaker.digitalbrandsinc.netdna-cdn.com
 rc.xxhrd.com
 redirector.desbloqueador.org
 resu8.hjfile.cn
@@ -314,6 +340,10 @@ s.zsxpx.com
 s0.2mdn.net
 s1.adguard.com
 s1.shucaixiaoshuo.com
+s11clickmoviedownloadercom.maynemyltf.netdna-cdn.com
+s1freehdsportzappcom.maynemyltf.netdna-cdn.com
+s1hdflash-playercom.maynemyltf.netdna-cdn.com
+s1magnettvcom.maynemyltf.netdna-cdn.com
 s2s.rafotech.com
 sa.xalongli.cn
 sapere.seed4.me
@@ -327,12 +357,14 @@ serve.williamhill.com
 server.cpmstar.com
 serving.adbetclickin.pink
 sfo.xsgfhkwd.date
+sgcdn.duplomediaas.netdna-cdn.com
 shen.zgfszs.com
 show-g.mediav.com
 show.g.mediav.com
 smartwall.swisspay.ch
 smpop.icfcdn.com
 soundwave.mobile.yahoo.com
+sportsapp-com.maynemyltf.netdna-cdn.com
 ss.biquge.la
 ssp.adxpremium.com
 static.adtidy.net
@@ -340,6 +372,7 @@ static.adzerk.net
 static.chartbeat.com
 static.clmbtech.com
 static.freedlsoftware.com
+static.goaheadtours.netdna-cdn.com
 static.hoptopboy.com
 static.tellerium.com
 static.tvtropes.org
@@ -387,6 +420,7 @@ wsp.steepto.com
 ww1.vidzi.tv
 ww2.vidzi.tv
 ww3.vidzi.tv
+www1flypeit.maynemyltf.netdna-cdn.com
 www2.escdn.co
 www3.l.google.com
 x.55peixun.com
@@ -397,6 +431,7 @@ xml.revrtb.net
 ypa.focusoftime.com
 z.moatads.com
 zee.cws.conviva.com
+zone1.absoluteexhibits.netdna-cdn.com
 zontent.powvideo.net
 
 # Date of generation: 2019-11-25T07:31:01.721669
@@ -622,6 +657,7 @@ zptncsir.com
 6008999.com
 6009888.com
 6009988.com
+777partner.com
 8000818.com
 8006688.com
 8010888.com
@@ -794,6 +830,7 @@ am15.net
 amadagasca.com
 amanasa.com
 amateurporn1.com
+amavirgin.pro
 amazon-adsystem.com
 amgload.net
 analyticson.com
@@ -1811,7 +1848,6 @@ neecnuaa.com
 nelonenmedia.fi
 neon.today
 nepsauss.net
-netdna-cdn.com
 netdna-ssl.com
 netlify.com
 networkmanag.com
@@ -1843,6 +1879,7 @@ nkmsite.com
 nlyqwlyykvjl.com
 nn0e.com
 noakauhe.com
+noamiscience.pro
 nokia-n8.com
 nompakru.click
 noqukjy.com
@@ -2377,6 +2414,7 @@ sftapi.com
 sheenami.net
 shenglonghg.net
 shermore.info
+shftscdisov.com
 shihoult.com
 shink.link
 shmokiads.com
@@ -2654,6 +2692,7 @@ uralap.com
 uriqirelle.xyz
 uriren.pw
 urlty.in
+uroidgcc.com
 usairguw.com
 usenetnl.download
 usenetoffer.download
@@ -2847,6 +2886,7 @@ yllanala.pw
 ylx-4.com
 ynopkisq.com
 yoads.network
+yoerotica.com
 yomedia.vn
 yongkang6.com
 yoredi.com
