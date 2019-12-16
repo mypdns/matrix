@@ -2,6 +2,7 @@
 activation-dc1.gfe.nvidia.com
 activation.gfe.nvidia.com
 affiliates.goreminders.com
+akamai.tags.tiqcdn.com
 alpha.telemetry.microsft.com
 analytics.allovoisins.co
 analytics.alternativet.dk
@@ -22,6 +23,7 @@ d.haberler.com
 dmd.metaservices.microsoft.com
 dmd.metaservices.microsoft.com.akadns.net
 ecolytics-collector-prod-1404130997.us-west-1.elb.amazonaws.com
+edgecast.tags.tiqcdn.com
 eu.vortex-win.data.microsft.com
 events.api.bosecm.com
 evt.mxplay.com
@@ -60,6 +62,8 @@ stats.privacytools.io
 store-images.s-microsoft.com
 sugar.zhihu.com
 supertracker.flashget.com
+tags-eu.tiqcdn.com
+tags.tiqcdn.com
 tinyrick.pixlee.com
 trace.svc.ui.com
 track.totalav.com
