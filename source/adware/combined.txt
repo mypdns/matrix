@@ -323,6 +323,7 @@ prodmg2.blob.core.windows.net
 promo-m.bongacash.com
 promo.bongacash.com
 pto.awecr.com
+pub.nakedreel.com
 push.zhanzhang.baidu.com
 qd.maskbaby.com.cn
 qwtm.purecertainengine.com

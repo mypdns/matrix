@@ -358,6 +358,7 @@ use-application-dns.net
 videometrix2.com
 viliaff.com
 visitstats.com
+vivaclix.com
 w3counter.com
 watches-my.stream
 waust.at
