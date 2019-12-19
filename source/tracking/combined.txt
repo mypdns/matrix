@@ -211,6 +211,7 @@ aso1.net
 assets.sucdn.net
 autoit.dk
 aweproto.com
+bc.vc
 bmwforum.co
 branch.io
 bstats.org
