@@ -215,7 +215,6 @@ go.trafficshop.com
 go.trkgt.com
 go.verymuchad.com
 gog9.qzdfc.com
-google.com.vn
 hartsfieldrowesville.salleyoklaunion.com
 hb.headbidder.net
 hipercontas.com.br
@@ -808,7 +807,6 @@ anothere.club
 anothinga.com
 anyonemyth.com
 anysex.com
-aolcdn.com
 aoredi.com
 apies.org
 apomaya.com
@@ -2580,6 +2578,7 @@ synhandler.net
 t0p0ff3rs.com
 t2lgo.com
 taboola.com
+taboola.com.cdn.cloudflare.net
 tabwl.com
 tagbucket.cc
 tagdelivery.com
@@ -2811,6 +2810,7 @@ vidbull.tv
 vidcpm.com
 videogenetic.com
 videoplayerhub.com
+vidible.tv
 vidmo.org
 vidroll.ru
 vipbox.live
