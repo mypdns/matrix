@@ -117,6 +117,7 @@ fbcdn.com
 fbexternal-a.akamaihd.net
 fbsbx.com
 fbstatic-a.akamaihd.net
+focus.de
 freebasics.com
 google.com
 instagramstatic-a.akamaihd.net

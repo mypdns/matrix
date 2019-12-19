@@ -219,6 +219,7 @@ google.com.vn
 hartsfieldrowesville.salleyoklaunion.com
 hb.headbidder.net
 hipercontas.com.br
+ht.keezmovies.com
 hub.com.pl
 hub.fghtem.com
 i.imgbox.com
@@ -283,6 +284,7 @@ olswr.27684.club
 opt.ximad.com
 outbanner.hu.co.kr
 p.d.0emn.com
+partners.keezmovies.com
 partnerzyapi.ceneo.pl
 paywall.folha.uol.com.br
 play.entretenimientolz.com
@@ -335,7 +337,6 @@ ss.biquge.la
 ssp.adxpremium.com
 static.adtidy.net
 static.adzerk.net
-static.chartbeat.com
 static.clmbtech.com
 static.freedlsoftware.com
 static.hoptopboy.com
@@ -393,7 +394,6 @@ xch.smrtgs.com
 xml.popmonetizer.net
 xml.revrtb.net
 ypa.focusoftime.com
-z.moatads.com
 zee.cws.conviva.com
 zontent.powvideo.net
 
@@ -886,6 +886,8 @@ bestadbid.com
 bestevernews.com
 bestnewsworld.net
 bestwebdeal.net
+bf-ad.net
+bf-tools.net
 bfe4e6d364be199.com
 bidgear.com
 bidrev.net
@@ -1289,7 +1291,6 @@ fkbwtoopwg.com
 flashteaser.com
 fm6dz864.top
 foagoasu.net
-focus.de
 foditgoz.com
 folmetor.com
 foloatoo.com
@@ -1571,6 +1572,7 @@ intoupload.com
 intoupload.net
 intporn.org
 inxy.run
+ioam.de
 iomovies.to
 irtya.com
 irtyf.com
@@ -1627,7 +1629,6 @@ kaunairu.net
 kbzdxt.com
 keaven.pw
 keeplinks.co
-keezmovies.com
 kelris.pw
 kepler-37b.com
 kerumal.com
@@ -1819,6 +1820,8 @@ mma-core.com
 mn-shop.com
 mn0e.com
 mn1nm.com
+moatads.com
+moatads.com.edgekey.net
 mobdisc.net
 mobdisc.org
 mobileadspopup.com
@@ -2227,6 +2230,7 @@ pmli.cn
 pndelfast.com
 pnewspages.com
 poazoanu.com
+polarcdn-terrax.com
 pompazilla.com
 pomtiy.com
 poogriry.click
