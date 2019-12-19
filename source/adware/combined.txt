@@ -85,6 +85,7 @@ bannery.hledejceny.cz
 bbcdn.go.evolutionmedia.bbelements.co
 best.infoiswhatwedo.com
 biggestplayer.cachefly.net
+bimg.126.net
 bleua.ecefibwja.xyz
 bms.adjarabet.com
 bps.sysact.cn
@@ -227,6 +228,7 @@ id.kbmg.cz
 imasdk.googleapis.com
 img.56gmz.com
 img.balaiyani.com
+img.bimg.126.net
 img.hai61.com
 img.hunlimishu.com
 img.rqgsf.com
@@ -278,12 +280,14 @@ metrics.readme.io
 ms.awqsaged.cn
 mts.sdtieta.com
 munchkin.marketo.net
+music.126.net
 myjj.pyzkk.com
 nnd.xyssp.com
 olswr.27684.club
 opt.ximad.com
 outbanner.hu.co.kr
 p.d.0emn.com
+p2.music.126.net
 partners.keezmovies.com
 partnerzyapi.ceneo.pl
 paywall.folha.uol.com.br
