@@ -48,7 +48,7 @@ console output, logs, and code as it's very hard to read otherwise. -->
 - [ ] RPZ Server (Team @Spirillen)
 - [ ] Added to Source file
 
-/label ~Redirector  
+/label ~Redirecting 
 /assign @AnonymousPoster @Spirillen
 /estimate 15m
 /weight 4
