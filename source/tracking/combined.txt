@@ -261,6 +261,7 @@ feedburner.com
 feedburner.google.com
 feedstat.com
 focus-site.com
+focus.de
 focussite.com
 fortnight.space
 fortnitechat.site
@@ -289,6 +290,7 @@ icutlink.com
 iddgzongegt.com
 iesnare.com
 improving.duckduckgo.com
+ioam.de
 ipinfo.io
 iskkrmwivxfmdjwxme.bid
 joinmy.site
@@ -373,9 +375,11 @@ onetrust.com
 opinionstage.com
 pendo.io
 perfdrive.com
+permutive.com
 phicdn.net
 podstat.com
 pointillist.com
+polarcdn-terrax.com
 polyfill.io
 post2delicious.com
 ppcstat.com
