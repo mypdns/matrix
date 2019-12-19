@@ -47,6 +47,7 @@ ads.viber.com
 ads2-adnow.com
 ads2.contentabc.com
 adserver.ad4link.com
+adserver.latimes.com
 adservice.google.com
 adserwer.xwords.pl
 adsrvmedia.adk2.co
@@ -357,6 +358,7 @@ t.mtagmonetizationb.com
 tags.crwdcntrl.net
 tags2.adshell.net
 tds.21pron.com
+te.latimes.com
 test.verplusonline.com
 timesofindia.indiatimes.com
 tm-offers.gamingadult.com
@@ -956,7 +958,6 @@ buyxiaomimi6.com
 buzzabc.com
 buzzadnetwork.com
 bycxsh.com
-c123movies.com
 ca4ec6874a33a13.com
 cactions.pro
 cagelrib.net
@@ -1676,7 +1677,6 @@ laojiayoufang.com
 large-format.net
 las4srv.com
 lasimakiz.xyz
-latimes.com
 latinoweb-tv.com
 latoniankeen.pro
 lcwfab1.com
@@ -2264,7 +2264,6 @@ pornstreams.eu
 pornvibe.org
 portalcentric.net
 postback.info
-postimg.cc
 powerad.ai
 poweradcash.net
 ppinstall.com
