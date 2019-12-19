@@ -427,6 +427,7 @@ survey-poll.com
 surveysite.com
 surveysite.net
 surveysitemail.com
+taboola.com
 tawk.to
 techtarget.com
 telemetry.mozilla.org
@@ -446,6 +447,7 @@ ubiquitv.net
 usabilla.com
 use-application-dns.net
 videometrix2.com
+vidible.tv
 viliaff.com
 watches-my.stream
 waust.at
