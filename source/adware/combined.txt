@@ -10,6 +10,7 @@ ab.advertiserurl.com
 abc.hostedbyfembed.com
 acdn.adnxs.com
 ad-specs.guoshipartners.com
+ad.163.com
 ad.99x.mobi
 ad.ettoday.net
 ad.linkprice.com
@@ -24,6 +25,8 @@ ad5.udn.com
 adbetnet.advertserve.com
 adbroker.mp.dse.microsoft.com
 adc.stream.moe
+adclient.163.com
+adgeo.163.com
 adjan-69-6.co.pl
 admaster.com.cn
 admax.quisma.com
@@ -46,6 +49,7 @@ ads.tremorhub.com
 ads.viber.com
 ads2-adnow.com
 ads2.contentabc.com
+adserver.163.com
 adserver.ad4link.com
 adserver.latimes.com
 adservice.google.com
@@ -200,7 +204,9 @@ f.asdfzxcv1312.com
 f.iaftjs.info
 filestorage.chip.de
 fundingchoicesmessages.google.com
+g.163.com
 g.hw6.com
+g1.163.com
 game.gamingnonstop.net
 gatorleads.co.uk
 gentside.co.uk
@@ -224,6 +230,7 @@ ht.keezmovies.com
 hub.com.pl
 hub.fghtem.com
 i.imgbox.com
+iad.g.163.com
 id.kbmg.cz
 imasdk.googleapis.com
 img.56gmz.com

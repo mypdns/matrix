@@ -8,6 +8,7 @@ adm.baidu.com
 affiliates.goreminders.com
 alpha.telemetry.microsft.com
 analytics.126.net
+analytics.163.com
 analytics.allovoisins.co
 analytics.alternativet.dk
 analytics.developer.riotgames.com
@@ -37,8 +38,16 @@ chrome.google.com
 cjhq.baidu.com
 client.baidu.com
 cluster.chart.dk
+count.mail.163.com
+count.mail.163.com.duncanhotcher.ga
+count.mail.163.com.humanrightsfront.org
+count.mail.163.com.onlinekushshop.com
+count.mail.163.com.shrmnigeria.org
+count.mail.163.com.statistic.uy.dlea.ir
 cplog.flashget.com
 cpro.baidu.com
+crash.163.com
+crashlytics.163.com
 cy2.vortex.data.microsoft.com.akadns.net
 d.haberler.com
 dj1.baidu.com
@@ -67,11 +76,13 @@ geoip.ubuntu.com
 gimg.baidu.com
 goreminders.com
 guanjia.baidu.com
+h5.analytics.126.net
 hc.baidu.com
 hiphotos.baidu.com
 hm.baidu.com
 iebar.baidu.com
 ikcode.baidu.com
+img.163.com
 imgsrc.baidu.com
 imgstat.baidu.com
 inbound-analytics.pixlee.com
@@ -83,7 +94,9 @@ instagram.fkgf1-1.fna.fbcdn.net
 instagram.flux1-1.fna.fbcdn.net
 ipv6-wildcard.applovin.com.edgekey.net
 location-inference-westus.cloudapp.net
+log.uu.163.com
 ma.baidu.com
+mail.163.com
 maps.googleapis.com
 maps.gstatic.com
 metrics.readme.io
@@ -97,6 +110,7 @@ nsclick.baidu.com
 oca.telemetry.microsft.com
 p2sp.baidu.com
 pcappstore.baidu.com
+popme.163.com
 pos.baidu.com
 qiao.baidu.com
 query.prod.cms.rt.microsoft.com
@@ -118,6 +132,7 @@ stats.privacytools.io
 store-images.s-microsoft.com
 sugar.zhihu.com
 supertracker.flashget.com
+tag.163.com
 tinyrick.pixlee.com
 tk.baidu.com
 tkweb.baidu.com
@@ -146,6 +161,7 @@ wangmeng.baidu.com
 wblt.oui.sncf
 wm.baidu.com
 wn.pos.baidu.com
+www.count.mail.163.com.onlinekushshop.com
 www.msftconnecttest.com
 www3.l.google.com
 zhanzhang.baidu.com
