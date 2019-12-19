@@ -7,6 +7,7 @@ activation.gfe.nvidia.com
 adm.baidu.com
 affiliates.goreminders.com
 alpha.telemetry.microsft.com
+analytics.126.net
 analytics.allovoisins.co
 analytics.alternativet.dk
 analytics.developer.riotgames.com
