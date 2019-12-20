@@ -422,6 +422,7 @@ rawtelemetry-east.servicebus.windows.net
 rebrand.ly
 recaptcha.net
 reroplittrewheck.pro
+rettighedsalliancen.dk
 riastat.com
 rollbar.com
 scorecardresearch.com
