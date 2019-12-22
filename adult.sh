@@ -15,7 +15,7 @@ printf "\nAdding domain: $domain\n"
 printf "$domain\n" >> "source/porno-sites/wildcard.list"
 
 printf "\nGit commit $domain\nwith issue ID: $issue\n"
-git commit -am "Implement #$issue by adding ${domain} Related #815 [skip ci]"
+git commit -am "Implement #$issue by adding ${domain} [skip ci]"
 #git push
 
 #printf "\nsed $domain\n"
