@@ -6,6 +6,7 @@ activation-dc1.gfe.nvidia.com
 activation.gfe.nvidia.com
 adm.baidu.com
 affiliates.goreminders.com
+akamai.tags.tiqcdn.com
 alpha.telemetry.microsft.com
 analytics.126.net
 analytics.163.com
@@ -34,6 +35,8 @@ c.hiphotos.baidu.com
 cb.baidu.com
 cbjs.baidu.com
 cdn.client.baidu.com
+bat.bing.com
+cdn.shopify.com
 chrome.google.com
 cjhq.baidu.com
 client.baidu.com
@@ -65,6 +68,7 @@ e.baidu.com
 eclick.baidu.com
 ecolytics-collector-prod-1404130997.us-west-1.elb.amazonaws.com
 eiv.baidu.com
+edgecast.tags.tiqcdn.com
 eu.vortex-win.data.microsft.com
 events.api.bosecm.com
 events.guesttoguest.com
@@ -84,6 +88,7 @@ iebar.baidu.com
 ikcode.baidu.com
 img.163.com
 imgsrc.baidu.com
+images.dmca.com
 imgstat.baidu.com
 inbound-analytics.pixlee.com
 inference.location.live.net
@@ -119,6 +124,11 @@ ris.api.iris.microsoft.com
 s.baidu.com
 sclick.baidu.com
 scloud-dlsw.br.baidu.com
+p.yotpo.com
+query.prod.cms.rt.microsoft.com
+r.wdfl.co
+ris.api.iris.microsoft.com
+s.shopify.com
 sedo.cachefly.net
 settings.crashlytics.com
 sobar.baidu.com
@@ -126,6 +136,7 @@ sobartop.baidu.com
 spcode.baidu.com
 stat.flashget.com
 stat.tiara.kakao.com
+staticw2.yotpo.com
 statistic.ads24h.net
 stats.grafikart.fr
 stats.privacytools.io
@@ -133,6 +144,8 @@ store-images.s-microsoft.com
 sugar.zhihu.com
 supertracker.flashget.com
 tag.163.com
+tags-eu.tiqcdn.com
+tags.tiqcdn.com
 tinyrick.pixlee.com
 tk.baidu.com
 tkweb.baidu.com
@@ -163,6 +176,11 @@ wblt.oui.sncf
 wm.baidu.com
 wn.pos.baidu.com
 www.count.mail.163.com.onlinekushshop.com
+v.shopify.com
+v10-win.vortex.data.microsft.com.akadns.net
+v10.vortex-win.data.microsft.com
+v10.vortex-win.data.microsoft.com
+w2.yotpo.com
 www.msftconnecttest.com
 www3.l.google.com
 zhanzhang.baidu.com
