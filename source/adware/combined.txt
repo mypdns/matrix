@@ -143,8 +143,6 @@ cluster.awmserve.com
 cm.mediav.com
 cmp.evolok.net
 cmpsmarter-downloader.maynemyltf.netdna-cdn.com
-code.jquery.com
-code.jquery.netdna-cdn.com
 code.poptm.com
 compass.adop.cc
 contextual.media.net
@@ -1886,11 +1884,11 @@ mma-core.com
 mn-shop.com
 mn0e.com
 mn1nm.com
+mnbvjhg.com
 moatads.com
 moatads.com.edgekey.net
 mobdisc.net
 mobdisc.org
-mnbvjhg.com
 mobileadspopup.com
 mobileofferplace.site
 mobileoffers-a-download.com
@@ -1992,8 +1990,8 @@ nkmsite.com
 nlyqwlyykvjl.com
 nn0e.com
 noakauhe.com
-noblemagnition.com
 noamiscience.pro
+noblemagnition.com
 nokia-n8.com
 nompakru.click
 noqukjy.com
