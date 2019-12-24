@@ -36,6 +36,7 @@ chrome.google.com
 cjhq.baidu.com
 client.baidu.com
 cluster.chart.dk
+connect.facebook.net
 count.mail.163.com
 count.mail.163.com.duncanhotcher.ga
 count.mail.163.com.humanrightsfront.org
