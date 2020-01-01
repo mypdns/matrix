@@ -332,6 +332,8 @@ eprize.com
 eprizefulfillment.com
 exoclick.com
 exosrv.com
+f-counter.jp
+f-counter.net
 feedburner.com
 feedburner.google.com
 feedstat.com
