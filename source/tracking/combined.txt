@@ -135,6 +135,7 @@ tongji.baidu.com
 toolbar.baidu.com
 traccoon.intellectsoft.net
 trace.svc.ui.com
+track.thebase.in
 track.tiara.kakao.com
 track.totalav.com
 tracker.affirm.com
