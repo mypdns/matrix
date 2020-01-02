@@ -53,7 +53,6 @@ crash.163.com
 crashlytics.163.com
 cy2.vortex.data.microsoft.com.akadns.net
 d.haberler.com
-datado.me
 dj1.baidu.com
 dl.p2sp.baidu.com
 dlsw.br.baidu.com
@@ -324,6 +323,7 @@ databureau.com
 databureau.net
 databuro.com
 databuro.net
+datado.me
 daxapi.com
 digitalanalytix.com
 digitalanalytix.net
