@@ -72,6 +72,7 @@ events.api.bosecm.com
 events.guesttoguest.com
 evt.mxplay.com
 f.hiphotos.baidu.com
+fsm.lapresse.ca
 g.msn.com.nsatc.net
 gdown.baidu.com
 geoip.ubuntu.com
