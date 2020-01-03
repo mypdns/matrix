@@ -473,8 +473,10 @@ pointillist.com
 polarcdn-terrax.com
 polyfill.io
 post2delicious.com
+powr.io
 ppcstat.com
 presage.io
+privy.com
 promclickapp.biz
 promo-bc.com
 push.zhanzhang.baidu.com
@@ -552,6 +554,7 @@ vidible.tv
 viliaff.com
 visitstats.com
 vivaclix.com
+voodoo.com
 w3counter.com
 watches-my.stream
 waust.at
