@@ -468,6 +468,7 @@ pendo.io
 perfdrive.com
 permutive.com
 phicdn.net
+pingclock.net
 podstat.com
 pointillist.com
 polarcdn-terrax.com
