@@ -119,6 +119,7 @@ sclick.baidu.com
 scloud-dlsw.br.baidu.com
 sedo.cachefly.net
 settings.crashlytics.com
+snowplow.trx.gitlab.net
 sobar.baidu.com
 stat.flashget.com
 stat.tiara.kakao.com
