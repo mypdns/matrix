@@ -14,6 +14,7 @@ analytics.alternativet.dk
 analytics.developer.riotgames.com
 analytics.ext.go-tellm.com
 analytics.getshogun.com
+analytics.kidoz.net
 analytics.sketchup.com
 android.bugly.qq.com
 androidapi.mxplay.com
@@ -53,6 +54,7 @@ crash.163.com
 crashlytics.163.com
 cy2.vortex.data.microsoft.com.akadns.net
 d.haberler.com
+d12rqy8sodbdkw.cloudfront.net
 dj1.baidu.com
 dl.p2sp.baidu.com
 dlsw.br.baidu.com
@@ -126,7 +128,9 @@ stat.tiara.kakao.com
 staticw2.yotpo.com
 statistic.ads24h.net
 stats.grafikart.fr
+stats.hprofits.com
 stats.privacytools.io
+stats.vk-portal.net
 store-images.s-microsoft.com
 sugar.zhihu.com
 supertracker.flashget.com
@@ -135,6 +139,7 @@ tags-eu.tiqcdn.com
 tags.tiqcdn.com
 tinyrick.pixlee.com
 tk.baidu.com
+tls.telemetry.swe.quicinc.com
 tongji.baidu.com
 toolbar.baidu.com
 traccoon.intellectsoft.net
@@ -147,7 +152,9 @@ tracker.baidu.com
 tracker.winudf.com
 tracking-opi.fonpit.de
 tracking.rightmessage.com
+tracking.scenepass.com
 traffic.acwebconnecting.com
+trk.siliconevalleys.info
 ucstat.baidu.com
 union.baidu.com
 unstat.baidu.com
@@ -465,6 +472,7 @@ omnisend.com
 omtrdc.net
 onetrust.com
 opinionstage.com
+patriotspcservice.fun
 pendo.io
 perfdrive.com
 permutive.com
