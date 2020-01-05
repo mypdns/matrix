@@ -48,8 +48,10 @@ ads.pro-market.net
 ads.puhutv.com
 ads.qz.com
 ads.sexhihi.tv
+ads.superawesome.tv
 ads.tremorhub.com
 ads.viber.com
+ads.yemonisoni.com
 ads2-adnow.com
 ads2.contentabc.com
 adserver.163.com
