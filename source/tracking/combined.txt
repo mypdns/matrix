@@ -109,6 +109,7 @@ nsclick.baidu.com
 oca.telemetry.microsft.com
 p.yotpo.com
 pcappstore.baidu.com
+piwik.information.dk
 popme.163.com
 pos.baidu.com
 qiao.baidu.com
