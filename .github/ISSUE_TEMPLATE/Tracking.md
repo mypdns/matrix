@@ -1,5 +1,5 @@
 ---
-name: Adult
+name: Tracking
 about: Submitting new Tracking domain
 title: ''
 labels: Tracking

@@ -1,5 +1,5 @@
 ---
-name: Adult
+name: White Listing
 about: You have a severely good reason to wont this domain whitelisted
 title: ''
 labels: WhiteList
