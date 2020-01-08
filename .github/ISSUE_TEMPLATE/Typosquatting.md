@@ -1,3 +1,12 @@
+---
+name: Typo Squatting
+about: Submitting new Typo Squatting domain
+title: ''
+labels: TypoSquatting
+assignees: AnonymousPoster, spirillen
+
+---
+
 ## Summary
 
 <!-- Keep any domains in back ticks `(`)`

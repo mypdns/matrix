@@ -1,3 +1,12 @@
+---
+name: Malicious
+about: Submitting new Malicious domain
+title: ''
+labels: Malicious
+assignees: AnonymousPoster, spirillen
+
+---
+
 ## Summary
 
 <!-- Keep any domains in back ticks `(`)`

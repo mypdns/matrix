@@ -1,3 +1,12 @@
+---
+name: Gambling
+about: Submitting new Gambling domain
+title: ''
+labels: Gambling
+assignees: AnonymousPoster, spirillen
+
+---
+
 ## Summary
 
 <!-- Keep any domains in back ticks `(`)`

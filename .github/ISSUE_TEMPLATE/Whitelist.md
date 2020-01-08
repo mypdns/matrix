@@ -1,3 +1,12 @@
+---
+name: Adult
+about: You have a severely good reason to wont this domain whitelisted
+title: ''
+labels: WhiteList
+assignees: AnonymousPoster, spirillen
+
+---
+
 ## Summary
 <!-- 
 Note: If you're a website owner that has been specifically targeted, fix the 

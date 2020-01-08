@@ -1,3 +1,12 @@
+---
+name: Adult
+about: Submitting new Tracking domain
+title: ''
+labels: Tracking
+assignees: AnonymousPoster, spirillen
+
+---
+
 ## Summary
 
 <!-- Keep any domains in back ticks `(`)`
