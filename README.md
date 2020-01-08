@@ -8,8 +8,8 @@ The `source` folder contains several sub-folders, each named as groups,
 for which a submission should be put. This however doesn't necessary 
 mean that one domain can't be put into several 'groups'
 
-E.g. `google.*` which belongs to several groups as they represents all 
-online evil when we talks privacy and anti brainwash/manipulation; 
+Ex. `google.*` which belongs to several groups as they represents all 
+online evil, when we talks privacy and anti brainwash/manipulation; 
 Facebook is also well represented in several categories.
 
 # Categorising
@@ -27,12 +27,14 @@ but not on others. It can also be that a domain in general do 99,9%
 right, but because of it's nature of user based submissions, could do a 
 lot of evil.
 
-E.g. Gitlab
-Gitlab is 100% user submitted contents, but for the same reason also a 
-widely target from bad guys to host there evil code. For that rightfully 
+##### Ex. Gitlab.com
+
+Gitlab is hosting 100% user submitted contents, but for the same reason also a 
+widely target for cyber criminals to host there evil 
+[Malware](https://en.wikipedia.org/wiki/Malware). For that rightfully 
 reason Gitlab often pop ups on list for malicious code. But as that 
-would have huge influence on our workflow, it's of curse have to be 
-whitelisted.
+would have a huge influence on our workflow, it would of curse have to be 
+whitelisted on our list.
 
 # FAQ
 **Q**: Your lists have broken my website, by blocking a third party 
