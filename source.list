@@ -2,10 +2,11 @@ https://gitlab.com/my-privacy-dns/matrix/matrix/raw/master/source/dns-servers/em
 https://gitlab.com/my-privacy-dns/matrix/matrix/raw/master/source/redirector/domain.list
 https://gitlab.com/my-privacy-dns/matrix/matrix/raw/master/source/redirector/wildcard.list
 https://gitlab.com/my-privacy-dns/matrix/matrix/raw/master/source/gambling/wildcard.list
+https://gitlab.com/my-privacy-dns/matrix/matrix/raw/master/source/gambling/domains.list
 https://gitlab.com/my-privacy-dns/matrix/matrix/raw/master/source/sharked-domains/wildcard.list
 https://gitlab.com/my-privacy-dns/matrix/matrix/raw/master/source/sharked-domains/domains.list
-https://gitlab.com/my-privacy-dns/matrix/matrix/raw/master/source/porno-sites/domain.list
 https://gitlab.com/my-privacy-dns/matrix/matrix/raw/master/source/porno-sites/wildcard.list
+https://gitlab.com/my-privacy-dns/matrix/matrix/raw/master/source/porno-sites/domains.list
 https://gitlab.com/my-privacy-dns/matrix/matrix/raw/master/source/spyware/domain.list
 https://gitlab.com/my-privacy-dns/matrix/matrix/raw/master/source/spyware/wildcard.list
 https://gitlab.com/my-privacy-dns/matrix/matrix/raw/master/source/malicious/wildcard.list

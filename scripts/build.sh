@@ -3,8 +3,14 @@
 # Exit on any errors
 set -e
 
+# Sort our lists for doublets and order by alphabet
 find $CI_PROJECT_DIR/source/ -type f -name '*.list' -exec bash -c "sort -i -u \
 	-f '{}' -o '{}' " \;
+
+# Sort our rpz-nsdname for doublets and order by alphabet
+find $CI_PROJECT_DIR/source/ -type f -name '*.rpz-nsdname' -exec bash -c "sort -i -u \
+	-f '{}' -o '{}' " \;
+
 
 # Combine domain and wildcard domains for external usages
 

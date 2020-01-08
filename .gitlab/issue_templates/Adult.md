@@ -19,6 +19,7 @@ example.org   CNAME . ; Adult
 ### additional for hosts
 ```shell
 
+www.
 ```
 
 ## Screenshots
