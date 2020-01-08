@@ -1,3 +1,12 @@
+---
+name: AdWare
+about: Submitting new Ads or adware domains
+title: ''
+labels: AdWare
+assignees: AnonymousPoster, spirillen
+
+---
+
 ## Summary
 
 <!-- Keep any domains in back ticks `(`)`
