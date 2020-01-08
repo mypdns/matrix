@@ -55,8 +55,3 @@ console output, logs, and code as it's very hard to read otherwise. -->
 ### Todo:
 - [ ] RPZ Server (Team members)
 - [ ] Added to Source file
-
-/label ~"TypoSquatting"  
-/assign @AnonymousPoster @Spirillen
-/estimate 15m
-/weight 4

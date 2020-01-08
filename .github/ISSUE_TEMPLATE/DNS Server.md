@@ -68,9 +68,3 @@ console output, logs, and code as it's very hard to read otherwise. -->
 	# IPv6 NSIP transform
 	128.57.zz.1.0.db8.2001.rpz-nsip
 ```
-
-/label ~"DNS server blocking" 
-/assign @AnonymousPoster @Spirillen
-/estimate 15m
-/weight 4
-
