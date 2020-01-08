@@ -63,8 +63,3 @@ console output, logs, and code as it's very hard to read otherwise. -->
 ### Todo:
 - [ ] RPZ Server (Team members)
 - [ ] Added to Source file
-
-/label ~Whitelist  
-/assign @AnonymousPoster @Spirillen
-/estimate 15m
-/weight 2

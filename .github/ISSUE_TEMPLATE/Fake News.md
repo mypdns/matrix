@@ -55,8 +55,3 @@ console output, logs, and code as it's very hard to read otherwise. -->
 ### Todo:
 - [ ] RPZ Server (Team @Spirillen)
 - [ ] Added to Source file
-
-/label ~"Fake News" 
-/assign @AnonymousPoster @Spirillen
-/estimate 15m
-/weight 4
