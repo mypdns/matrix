@@ -1,3 +1,12 @@
+---
+name: Sharked/hijacked Domain held hostage
+about: Submitting new Hijacked domain
+title: 'NSFW: '
+labels: Domain Sharked
+assignees: AnonymousPoster, spirillen
+
+---
+
 ## Summary
 
 <!-- Keep any domains in back ticks `(`)`

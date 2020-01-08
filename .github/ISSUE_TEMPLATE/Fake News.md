@@ -1,3 +1,12 @@
+---
+name: Fake News
+about: Submitting new Fake News domains
+title: 'Fake News'
+labels: Fake News
+assignees: AnonymousPoster, spirillen
+
+---
+
 ## Summary
 
 <!-- Keep any domains in back ticks `(`)`

@@ -1,3 +1,12 @@
+---
+name: Scamming
+about: Submitting new domain used for Scamming
+title: ''
+labels: Scamming
+assignees: AnonymousPoster, spirillen
+
+---
+
 ## Summary
 
 <!-- Keep any domains in back ticks `(`)`

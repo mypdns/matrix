@@ -1,3 +1,12 @@
+---
+name: IP-address
+about: Submitting new IP or IP-address range to be blocked
+title: ''
+labels: 
+assignees: AnonymousPoster, spirillen
+
+---
+
 ## Summary
 
 <!-- Keep any domains in back ticks `(`)`

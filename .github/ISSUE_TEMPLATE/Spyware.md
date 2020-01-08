@@ -1,3 +1,12 @@
+---
+name: Spying - SpyWare
+about: Submitting new domain used for Spying
+title: ''
+labels: Spying
+assignees: AnonymousPoster, spirillen
+
+---
+
 ## Summary
 
 <!-- Keep any domains in back ticks `(`)`

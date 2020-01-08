@@ -1,3 +1,12 @@
+---
+name: Redirecting
+about: Submitting new domain used to redirect into the deep unknown
+title: ''
+labels: Redirecting
+assignees: AnonymousPoster, spirillen
+
+---
+
 ## Summary
 
 <!-- Keep any domains in back ticks `(`)`
