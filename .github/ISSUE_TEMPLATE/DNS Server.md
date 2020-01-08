@@ -2,7 +2,7 @@
 name: DNS Server
 about: Submit a DNS server to be blocked by our RPZ zones
 title: ''
-labels: NSFW Adult Material
+labels: DNS server blocking
 assignees: AnonymousPoster, spirillen
 
 ---

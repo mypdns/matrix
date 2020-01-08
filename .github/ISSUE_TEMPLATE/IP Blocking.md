@@ -2,7 +2,7 @@
 name: IP-address
 about: Submitting new IP or IP-address range to be blocked
 title: ''
-labels: 
+labels: ''
 assignees: AnonymousPoster, spirillen
 
 ---
