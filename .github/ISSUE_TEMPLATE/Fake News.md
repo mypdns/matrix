@@ -1,7 +1,7 @@
 ---
 name: Fake News
 about: Submitting new Fake News domains
-title: 'Fake News'
+title: Fake News
 labels: Fake News
 assignees: AnonymousPoster, spirillen
 
