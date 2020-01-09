@@ -95,6 +95,7 @@ instagram.felp1-1.fna.fbcdn.net
 instagram.fkgf1-1.fna.fbcdn.net
 instagram.flux1-1.fna.fbcdn.net
 ipv6-wildcard.applovin.com.edgekey.net
+ktracker.kumparan.com
 location-inference-westus.cloudapp.net
 log.uu.163.com
 mail.163.com
@@ -546,6 +547,7 @@ surveysite.com
 surveysite.net
 surveysitemail.com
 taboola.com
+tagtool.de
 tawk.to
 techtarget.com
 telemetry.mozilla.org
@@ -553,6 +555,7 @@ terraclicks.com
 terrapsps.com
 tibacta.com
 tkbo.com
+top.ge
 toplist.cz
 trackcmp.net
 trafficjunky.net
