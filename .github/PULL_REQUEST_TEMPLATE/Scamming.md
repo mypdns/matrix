@@ -1,3 +1,12 @@
+---
+name: Scamming
+about: Submitting new domain used for Scamming
+title: ''
+labels: Scamming
+assignees: AnonymousPoster, spirillen
+
+---
+
 ## Summary
 
 <!-- Keep any domains in back ticks `(`)`
@@ -5,14 +14,14 @@
 Screenshot is required within the <details> pane. Leave a blank line before 
 and after the image link -->
 
-This fucked up 'Spyware' domain have to be blocked as..
+'Scamming' domain that have to be blocked as..
 
-- [ ] [Single Domain](source/spyware/domains.list)
-- [X] [Wild carded](source/spyware/wildcard.list)
+- [ ] [Single Domain](source/scamming/domains.list)
+- [X] [Wild carded](source/scamming/wildcard.list)
 
 ```python
-example.org   CNAME . ; SpyWare
-*.example.org   CNAME . ; SpyWare
+example.org   CNAME . ; Scam
+*.example.org   CNAME . ; Scam
 ```
 
 ... ***because***:
@@ -46,8 +55,3 @@ console output, logs, and code as it's very hard to read otherwise. -->
 ### Todo:
 - [ ] RPZ Server (Team members)
 - [ ] Added to Source file
-
-/label ~Spyware  
-/assign @AnonymousPoster @Spirillen
-/estimate 15m
-/weight 9

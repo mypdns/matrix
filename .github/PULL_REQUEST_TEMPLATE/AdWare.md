@@ -1,3 +1,12 @@
+---
+name: AdWare
+about: Submitting new Ads or adware domains
+title: ''
+labels: AdWare
+assignees: AnonymousPoster, spirillen
+
+---
+
 ## Summary
 
 <!-- Keep any domains in back ticks `(`)`
@@ -5,14 +14,15 @@
 Screenshot is required within the <details> pane. Leave a blank line before 
 and after the image link -->
 
-This domain hosts 'Fake News' that have to be blocked as..
+I believe this domain is an AdWare domain(s) --> that have to be 
+blocked as..
 
-- [x] [Wildcarded](source/fake-news/wildcard.list)
-- [ ] [Single domain blocking](source/fake-news/domains.list)
+- [X] [Wildcarded](source/adware/wildcard.list)
+- [ ] [Single domain blocking](source/adware/domains.list)
 
 ```python
-example.org   CNAME . ; FakeNews
-*.example.org   CNAME . ; FakeNews
+example.org   CNAME . ; AdWare
+*.example.org   CNAME . ; AdWare
 ```
 
 ... ***because***:
@@ -43,11 +53,6 @@ console output, logs, and code as it's very hard to read otherwise. -->
 - [ ] Checked the internet for verification?
 - [ ] Have you successfully ran tests with your changes locally?
 
-### Todo:
+### Todo
 - [ ] RPZ Server (Team @Spirillen)
 - [ ] Added to Source file
-
-/label ~"Fake News" 
-/assign @AnonymousPoster @Spirillen
-/estimate 15m
-/weight 4

@@ -1,3 +1,12 @@
+---
+name: Tracking
+about: Submitting new Tracking domain
+title: ''
+labels: Tracking
+assignees: AnonymousPoster, spirillen
+
+---
+
 ## Summary
 
 <!-- Keep any domains in back ticks `(`)`
@@ -5,15 +14,15 @@
 Screenshot is required within the <details> pane. Leave a blank line before 
 and after the image link -->
 
-I believe this domain is an AdWare domain(s) --> that have to be 
+This domain is used for 'Tracking' your private life and **HAVE** to be 
 blocked as..
 
-- [X] [Wildcarded](source/adware/wildcard.list)
-- [ ] [Single domain blocking](source/adware/domains.list)
+- [ ] [Single Domain](source/tracking/domains.list)
+- [X] [Wild carded](source/tracking/wildcard.list)
 
 ```python
-example.org   CNAME . ; AdWare
-*.example.org   CNAME . ; AdWare
+example.org   CNAME . ; Tracking
+*.example.org   CNAME . ; Tracking
 ```
 
 ... ***because***:
@@ -44,11 +53,6 @@ console output, logs, and code as it's very hard to read otherwise. -->
 - [ ] Checked the internet for verification?
 - [ ] Have you successfully ran tests with your changes locally?
 
-### Todo
-- [ ] RPZ Server (Team @Spirillen)
+### Todo:
+- [ ] RPZ Server (Team members)
 - [ ] Added to Source file
-
-/label ~AdWare 
-/assign @AnonymousPoster @Spirillen
-/estimate 15m
-/weight 4

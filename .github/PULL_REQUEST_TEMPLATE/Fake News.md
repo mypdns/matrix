@@ -1,3 +1,12 @@
+---
+name: Fake News
+about: Submitting new Fake News domains
+title: Fake News
+labels: Fake News
+assignees: AnonymousPoster, spirillen
+
+---
+
 ## Summary
 
 <!-- Keep any domains in back ticks `(`)`
@@ -5,15 +14,14 @@
 Screenshot is required within the <details> pane. Leave a blank line before 
 and after the image link -->
 
-This domain is used for 'Tracking' your private life and **HAVE** to be 
-blocked as..
+This domain hosts 'Fake News' that have to be blocked as..
 
-- [ ] [Single Domain](source/tracking/domains.list)
-- [X] [Wild carded](source/tracking/wildcard.list)
+- [x] [Wildcarded](source/fake-news/wildcard.list)
+- [ ] [Single domain blocking](source/fake-news/domains.list)
 
 ```python
-example.org   CNAME . ; Tracking
-*.example.org   CNAME . ; Tracking
+example.org   CNAME . ; FakeNews
+*.example.org   CNAME . ; FakeNews
 ```
 
 ... ***because***:
@@ -45,10 +53,5 @@ console output, logs, and code as it's very hard to read otherwise. -->
 - [ ] Have you successfully ran tests with your changes locally?
 
 ### Todo:
-- [ ] RPZ Server (Team members)
+- [ ] RPZ Server (Team @Spirillen)
 - [ ] Added to Source file
-
-/label ~Tracking  
-/assign @AnonymousPoster @Spirillen
-/estimate 15m
-/weight 4

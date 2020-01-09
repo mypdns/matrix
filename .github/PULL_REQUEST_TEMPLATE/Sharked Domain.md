@@ -1,3 +1,12 @@
+---
+name: Sharked/hijacked Domain held hostage
+about: Submitting new Hijacked domain
+title: 'NSFW: '
+labels: Domain Sharked
+assignees: AnonymousPoster, spirillen
+
+---
+
 ## Summary
 
 <!-- Keep any domains in back ticks `(`)`
@@ -45,8 +54,3 @@ console output, logs, and code as it's very hard to read otherwise. -->
 ### Todo:
 - [ ] RPZ Server (Team members)
 - [ ] Added to Source file
-
-/label ~"Domain Sharked" 
-/assign @AnonymousPoster @Spirillen
-/estimate 15m
-/weight 4

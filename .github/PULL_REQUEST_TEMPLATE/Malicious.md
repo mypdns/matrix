@@ -1,3 +1,12 @@
+---
+name: Malicious
+about: Submitting new Malicious domain
+title: ''
+labels: Malicious
+assignees: AnonymousPoster, spirillen
+
+---
+
 ## Summary
 
 <!-- Keep any domains in back ticks `(`)`
@@ -5,14 +14,14 @@
 Screenshot is required within the <details> pane. Leave a blank line before 
 and after the image link -->
 
-'Typo Squatting' domain that have to be blocked as..
+This 'Malicious' domain have to be blocked as..
 
-- [ ] [Single Domain](source/typosquatting/domains.list)
-- [X] [Wild carded](source/typosquatting/wildcard.list)
+- [ ] [Single Domain](source/malicious/domains.list)
+- [x] [Wild carded](source/malicious/wildcard.list)
 
 ```python
-example.org   CNAME . ; TypoSquatting
-*.example.org   CNAME . ; TypoSquatting
+example.org   CNAME . ; Malicious
+*.example.org   CNAME . ; Malicious
 ```
 
 ... ***because***:
@@ -44,10 +53,5 @@ console output, logs, and code as it's very hard to read otherwise. -->
 - [ ] Have you successfully ran tests with your changes locally?
 
 ### Todo:
-- [ ] RPZ Server (Team members)
+- [ ] RPZ Server (Team @Spirillen)
 - [ ] Added to Source file
-
-/label ~"TypoSquatting"  
-/assign @AnonymousPoster @Spirillen
-/estimate 15m
-/weight 4
