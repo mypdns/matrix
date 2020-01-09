@@ -8,8 +8,9 @@ sedo.cachefly.net
 trace.svc.ui.com
 www3.l.google.com
 360.com
-360safe.comð.cn
+360safe.com.cn
 360totalsecurity.com
+adaware.com
 addthis.com
 branch.io
 clickcease.com
