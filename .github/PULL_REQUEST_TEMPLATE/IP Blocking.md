@@ -1,3 +1,12 @@
+---
+name: IP-address
+about: Submitting new IP or IP-address range to be blocked
+title: ''
+labels: ''
+assignees: AnonymousPoster, spirillen
+
+---
+
 ## Summary
 
 <!-- Keep any domains in back ticks `(`)`
@@ -5,14 +14,16 @@
 Screenshot is required within the <details> pane. Leave a blank line before 
 and after the image link -->
 
-'Scamming' domain that have to be blocked as..
+This IP address or IP range(CIDR) that have to be blocked as..
 
-- [ ] [Single Domain](source/scamming/domains.list)
-- [X] [Wild carded](source/scamming/wildcard.list)
+- [ ] [rpz-client-ip](source/ip-network-blocking/rpz-client-ip -->
+- [ ] [rpz-drop](source/ip-network-blocking/rpz-drop -->
+- [ ] [rpz-ip](source/ip-network-blocking/rpz-ip -->
 
 ```python
-example.org   CNAME . ; Scam
-*.example.org   CNAME . ; Scam
+16.0.0.168.192.rpz-client-ip   CNAME . ; reason
+16.0.0.168.192.rpz-drop   CNAME . ; reason
+16.0.0.168.192.rpz-ip   CNAME . ; reason
 ```
 
 ... ***because***:
@@ -44,10 +55,5 @@ console output, logs, and code as it's very hard to read otherwise. -->
 - [ ] Have you successfully ran tests with your changes locally?
 
 ### Todo:
-- [ ] RPZ Server (Team members)
+- [ ] RPZ Server (Team @Spirillen)
 - [ ] Added to Source file
-
-/label ~Scamming  
-/assign @AnonymousPoster @Spirillen
-/estimate 15m
-/weight 4

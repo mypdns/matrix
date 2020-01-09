@@ -1,29 +1,30 @@
+---
+name: DNS Server
+about: Submit a DNS server to be blocked by our RPZ zones
+title: ''
+labels: DNS server blocking
+assignees: AnonymousPoster, spirillen
+
+---
+
 ## Summary
-<!-- 
-Note: If you're a website owner that has been specifically targeted, fix the 
-site before reporting. Remove revolving ad servers, popup ads, adblock 
-countering etc. Only then will this request be reviewed. 
+
+<!-- Keep any domains in back ticks `(`)`
 
 Screenshot is required within the <details> pane. Leave a blank line before 
 and after the image link -->
 
-<!-- Summarize the reason encountered concisely, and keep any domains in 
-back ticks `(`)` -->
+I believe this DNS Server needs to be blocked as..
 
-This domain Should be whitelist be curse .. I have A seriously damned 
-good reason
-
-- [X] <a href="source/whitelist/domains.list">Single Domain</a>
-- [ ] <a href="source/whitelist/wildcard.list">Wild carded</a>
+- [x] [Wildcarded](source/dns-servers/wildcard.list)
+- [ ] [Single DNS Server](source/dns-servers/domains.list)
 
 ```python
-example.com   CNAME . ; whitelisted
-*.example.com   CNAME . ; whitelisted
+*.example.org.rpz-nsdname   CNAME . ; DNSServer
+*.example.org.rpz-nsip   CNAME . ; DNSServer
 ```
 
-# Extravagant good reason
-<!-- Try to convince the team of why this domain should be added to the 
-whitelist -->
+.. ***Because***:
 
 ## Relevant logs and/or screenshots
 
@@ -52,10 +53,18 @@ console output, logs, and code as it's very hard to read otherwise. -->
 - [ ] Have you successfully ran tests with your changes locally?
 
 ### Todo:
-- [ ] RPZ Server (Team members)
+- [ ] RPZ Server (Team @Spirillen)
 - [ ] Added to Source file
 
-/label ~Whitelist  
-/assign @AnonymousPoster @Spirillen
-/estimate 15m
-/weight 2
+#### Note:
+```python
+	# blocking an NS IPv4 address of 192.168.2.3
+	# rewritten as 192.168.2.3/32
+	# IPv4 NSIP Trigger transform
+	32.3.2.168.192.rpz-nsip
+
+	# blocking an NS IPv6 address of 2001:db8:0:1::57
+	# rewritten as 2001:db8:0:1::57/128
+	# IPv6 NSIP transform
+	128.57.zz.1.0.db8.2001.rpz-nsip
+```

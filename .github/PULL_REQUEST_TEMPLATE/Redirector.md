@@ -1,3 +1,12 @@
+---
+name: Redirecting
+about: Submitting new domain used to redirect into the deep unknown
+title: ''
+labels: Redirecting
+assignees: AnonymousPoster, spirillen
+
+---
+
 ## Summary
 
 <!-- Keep any domains in back ticks `(`)`
@@ -5,18 +14,18 @@
 Screenshot is required within the <details> pane. Leave a blank line before 
 and after the image link -->
 
-I believe this domain is an Gambling domain(s) --> that have to be 
-blocked as..
+It's a plain 'Redirector' that have to be blocked as..
 
-- [X] [Wildcarded](source/adware/wildcard.list)
-- [ ] [Single domain blocking](source/adware/domains.list)
+- [ ] [Single Domain](source/redirector/domains.list)
+- [X] [Wild carded](source/redirector/wildcard.list)
 
 ```python
-example.org   CNAME . ; Gambling
-*.example.org   CNAME . ; Gambling
+example.org   CNAME . ; ReDirector
+*.example.org   CNAME . ; ReDirector
 ```
 
 ... ***because***:
+
 
 ## Relevant logs and/or screenshots
 
@@ -44,11 +53,6 @@ console output, logs, and code as it's very hard to read otherwise. -->
 - [ ] Checked the internet for verification?
 - [ ] Have you successfully ran tests with your changes locally?
 
-### Todo
+### Todo:
 - [ ] RPZ Server (Team @Spirillen)
 - [ ] Added to Source file
-
-/label ~Gambling 
-/assign @AnonymousPoster @Spirillen
-/estimate 15m
-/weight 4

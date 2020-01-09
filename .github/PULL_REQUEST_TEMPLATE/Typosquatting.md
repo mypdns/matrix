@@ -1,3 +1,12 @@
+---
+name: Typo Squatting
+about: Submitting new Typo Squatting domain
+title: ''
+labels: TypoSquatting
+assignees: AnonymousPoster, spirillen
+
+---
+
 ## Summary
 
 <!-- Keep any domains in back ticks `(`)`
@@ -5,18 +14,17 @@
 Screenshot is required within the <details> pane. Leave a blank line before 
 and after the image link -->
 
-It's a plain 'Redirector' that have to be blocked as..
+'Typo Squatting' domain that have to be blocked as..
 
-- [ ] [Single Domain](source/redirector/domains.list)
-- [X] [Wild carded](source/redirector/wildcard.list)
+- [ ] [Single Domain](source/typosquatting/domains.list)
+- [X] [Wild carded](source/typosquatting/wildcard.list)
 
 ```python
-example.org   CNAME . ; ReDirector
-*.example.org   CNAME . ; ReDirector
+example.org   CNAME . ; TypoSquatting
+*.example.org   CNAME . ; TypoSquatting
 ```
 
 ... ***because***:
-
 
 ## Relevant logs and/or screenshots
 
@@ -45,10 +53,5 @@ console output, logs, and code as it's very hard to read otherwise. -->
 - [ ] Have you successfully ran tests with your changes locally?
 
 ### Todo:
-- [ ] RPZ Server (Team @Spirillen)
+- [ ] RPZ Server (Team members)
 - [ ] Added to Source file
-
-/label ~Redirector  
-/assign @AnonymousPoster @Spirillen
-/estimate 15m
-/weight 4

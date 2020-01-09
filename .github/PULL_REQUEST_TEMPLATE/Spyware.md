@@ -1,3 +1,12 @@
+---
+name: Spying - SpyWare
+about: Submitting new domain used for Spying
+title: ''
+labels: Spying
+assignees: AnonymousPoster, spirillen
+
+---
+
 ## Summary
 
 <!-- Keep any domains in back ticks `(`)`
@@ -5,16 +14,14 @@
 Screenshot is required within the <details> pane. Leave a blank line before 
 and after the image link -->
 
-This IP address or IP range(CIDR) that have to be blocked as..
+This fucked up 'Spyware' domain have to be blocked as..
 
-- [ ] [rpz-client-ip](source/ip-network-blocking/rpz-client-ip -->
-- [ ] [rpz-drop](source/ip-network-blocking/rpz-drop -->
-- [ ] [rpz-ip](source/ip-network-blocking/rpz-ip -->
+- [ ] [Single Domain](source/spyware/domains.list)
+- [X] [Wild carded](source/spyware/wildcard.list)
 
 ```python
-16.0.0.168.192.rpz-client-ip   CNAME . ; reason
-16.0.0.168.192.rpz-drop   CNAME . ; reason
-16.0.0.168.192.rpz-ip   CNAME . ; reason
+example.org   CNAME . ; SpyWare
+*.example.org   CNAME . ; SpyWare
 ```
 
 ... ***because***:
@@ -46,10 +53,5 @@ console output, logs, and code as it's very hard to read otherwise. -->
 - [ ] Have you successfully ran tests with your changes locally?
 
 ### Todo:
-- [ ] RPZ Server (Team @Spirillen)
+- [ ] RPZ Server (Team members)
 - [ ] Added to Source file
-
-/label ~"IP Blocking" 
-/assign @AnonymousPoster @Spirillen
-/estimate 15m
-/weight 4

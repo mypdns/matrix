@@ -1,21 +1,38 @@
-## Summary
+---
+name: White Listing
+about: You have a severely good reason to wont this domain whitelisted
+title: ''
+labels: WhiteList
+assignees: AnonymousPoster, spirillen
 
-<!-- Keep any domains in back ticks `(`)`
+---
+
+## Summary
+<!-- 
+Note: If you're a website owner that has been specifically targeted, fix the 
+site before reporting. Remove revolving ad servers, popup ads, adblock 
+countering etc. Only then will this request be reviewed. 
 
 Screenshot is required within the <details> pane. Leave a blank line before 
 and after the image link -->
 
-I believe this DNS Server needs to be blocked as..
+<!-- Summarize the reason encountered concisely, and keep any domains in 
+back ticks `(`)` -->
 
-- [x] [Wildcarded](source/dns-servers/wildcard.list)
-- [ ] [Single DNS Server](source/dns-servers/domains.list)
+This domain Should be whitelist be curse .. I have A seriously damned 
+good reason
+
+- [X] <a href="source/whitelist/domains.list">Single Domain</a>
+- [ ] <a href="source/whitelist/wildcard.list">Wild carded</a>
 
 ```python
-*.example.org.rpz-nsdname   CNAME . ; DNSServer
-*.example.org.rpz-nsip   CNAME . ; DNSServer
+example.com   CNAME . ; whitelisted
+*.example.com   CNAME . ; whitelisted
 ```
 
-.. ***Because***:
+# Extravagant good reason
+<!-- Try to convince the team of why this domain should be added to the 
+whitelist -->
 
 ## Relevant logs and/or screenshots
 
@@ -44,24 +61,5 @@ console output, logs, and code as it's very hard to read otherwise. -->
 - [ ] Have you successfully ran tests with your changes locally?
 
 ### Todo:
-- [ ] RPZ Server (Team @Spirillen)
+- [ ] RPZ Server (Team members)
 - [ ] Added to Source file
-
-#### Note:
-```python
-	# blocking an NS IPv4 address of 192.168.2.3
-	# rewritten as 192.168.2.3/32
-	# IPv4 NSIP Trigger transform
-	32.3.2.168.192.rpz-nsip
-
-	# blocking an NS IPv6 address of 2001:db8:0:1::57
-	# rewritten as 2001:db8:0:1::57/128
-	# IPv6 NSIP transform
-	128.57.zz.1.0.db8.2001.rpz-nsip
-```
-
-/label ~"DNS server blocking" 
-/assign @AnonymousPoster @Spirillen
-/estimate 15m
-/weight 4
-
