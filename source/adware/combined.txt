@@ -61,6 +61,7 @@ adservice.google.com
 adserwer.xwords.pl
 adsrvmedia.adk2.co
 adv.mediaharbor.co.kr
+advertising.amazon.com
 advmanager.techfun.pl
 aff.camplace.com
 ajax.cloudflare.com
