@@ -132,6 +132,7 @@ statistic.ads24h.net
 stats.grafikart.fr
 stats.hprofits.com
 stats.privacytools.io
+stats.sexemodel.com
 stats.vk-portal.net
 store-images.s-microsoft.com
 sugar.zhihu.com
