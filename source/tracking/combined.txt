@@ -285,6 +285,7 @@ adtraction.com
 adultwebcam.world
 affforce.com
 al.ly
+aliyuncs.com
 amung.us
 analytics-v4-poc.ff.avast.com
 analytics.126.net
@@ -368,6 +369,7 @@ fwd28.com
 getdrip.com
 getrewardful.com
 gigya.com
+go-mpulse.net
 goetime.com
 goo.gl
 goprediction.com
@@ -426,6 +428,7 @@ mmetrics.com
 mmetrics.mobi
 mmetrics.net
 mmetrics.org
+mmstat.com
 mobileaccesspanel.com
 mobilebenchmarck.com
 mobilebenchmark.com
