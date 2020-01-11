@@ -2,6 +2,7 @@
 a.baidu.com
 a.gdown.baidu.com
 a.hiphotos.baidu.com
+acookie.aliexpress.com
 activation-dc1.gfe.nvidia.com
 activation.gfe.nvidia.com
 adm.baidu.com
@@ -110,6 +111,7 @@ nsclick.baidu.com
 oca.telemetry.microsft.com
 p.yotpo.com
 pcappstore.baidu.com
+pcookie.aliexpress.com
 piwik.information.dk
 popme.163.com
 pos.baidu.com
@@ -118,6 +120,7 @@ query.prod.cms.rt.microsoft.com
 r.wdfl.co
 ris.api.iris.microsoft.com
 s.baidu.com
+s.click.aliexpress.com
 s.shopify.com
 sclick.baidu.com
 scloud-dlsw.br.baidu.com
@@ -178,6 +181,3 @@ www.msftconnecttest.com
 www3.l.google.com
 zhanzhang.baidu.com
 zz.bdstatic.com
-acookie.aliexpress.com
-s.click.aliexpress.com
-pcookie.aliexpress.com

@@ -57,6 +57,7 @@ ads2.contentabc.com
 adserver.163.com
 adserver.ad4link.com
 adserver.latimes.com
+adservice.aliexpress.com
 adservice.google.com
 adserwer.xwords.pl
 adsrvmedia.adk2.co
@@ -96,6 +97,7 @@ bannery.hledejceny.cz
 basilic.netdna-cdn.com
 bat.bing.com
 bbcdn.go.evolutionmedia.bbelements.co
+best.aliexpress.com
 best.infoiswhatwedo.com
 biggestplayer.cachefly.net
 bimg.126.net
@@ -2441,6 +2443,7 @@ propbigo.com
 propellerads.com
 propellerclick.com
 propu.sh
+prostylex.org
 proteaser.net
 prxii.tk
 ps7894.com
