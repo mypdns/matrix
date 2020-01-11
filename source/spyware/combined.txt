@@ -16,6 +16,7 @@ branch.io
 clickcease.com
 exoclick.com
 exosrv.com
+faymobi.com
 goetime.com
 matomo.org
 me.uk
