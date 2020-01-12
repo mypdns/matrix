@@ -49,12 +49,12 @@ test1:
 #    #- reuse cache
 #    - bash $CI_PROJECT_DIR/scripts/test2.sh
 
-#pages:
-#  stage: deploy
-#  script:
-#  - echo 'Nothing to do...'
-#  artifacts:
-#    paths:
-#    - public
-#  only:
-#  - master
+pages:
+  stage: deploy
+  script:
+  - echo 'Nothing to do...'
+  artifacts:
+    paths:
+    - public
+  only:
+  - master
