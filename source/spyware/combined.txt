@@ -12,12 +12,18 @@ www3.l.google.com
 360totalsecurity.com
 adaware.com
 addthis.com
+aircanada.ca
+aisinsurance.com
+bex.com
 branch.io
 clickcease.com
 exoclick.com
 exosrv.com
 faymobi.com
+glassboxdigital.com
+glassboxdigital.io
 goetime.com
+hotels.com
 matomo.org
 me.uk
 meetrics.ch
@@ -32,5 +38,6 @@ rettighedsalliancen.dk
 sedoparking.com
 tawk.to
 terraclicks.com
+usaa.com
 use-application-dns.net
 youboranqs01.com
