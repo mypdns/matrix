@@ -320,6 +320,7 @@ aso1.net
 assets.sucdn.net
 autoit.dk
 aweproto.com
+axmtrack.com
 bc.vc
 bmwforum.co
 bnc.lt
@@ -363,6 +364,7 @@ databuro.com
 databuro.net
 datado.me
 daxapi.com
+deltadna.net
 demdex.net
 digitalanalytix.com
 digitalanalytix.net
