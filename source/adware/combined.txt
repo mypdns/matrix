@@ -28,6 +28,8 @@ adbetnet.advertserve.com
 adbroker.mp.dse.microsoft.com
 adc.stream.moe
 adclient.163.com
+adelogs.adobe.com
+adelogs.wip4.adobe.com
 adgeo.163.com
 adjan-69-6.co.pl
 admaster.com.cn
@@ -106,6 +108,8 @@ bleua.ecefibwja.xyz
 bms.adjarabet.com
 bootstrapcdn.jdorfman.netdna-cdn.com
 bps.sysact.cn
+brandcenterdl.adobe.com
+broker.adobe.com
 buba65.co.pl
 buf-lemonde-fr-cddc.at-o.net
 burdaffi.burdadigital.pl
@@ -116,6 +120,7 @@ c.pubguard.com
 c.start280.com
 c.stream.moe
 c2.xsu.cc
+campaign.adobe.com
 campaign.rizk.com
 cdn.adclerks.com
 cdn.adk2.com
@@ -208,6 +213,7 @@ dpjtch.vestabalin.com
 drda5yf9kgz5p.cloudfront.net
 ds02gfqy6io6i.cloudfront.net
 dsp-eu.exe.bid
+dtm.adobe.com
 dup.baidustatic.com
 dvdsm0rlx65fo.cloudfront.net
 dwf6crl4raal7.cloudfront.net
@@ -241,6 +247,7 @@ gatorleads.co.uk
 gentside.co.uk
 gentside.com.br
 geo.yahoo.com
+geo2.adobe.com
 gggo.xmbhj.com
 go.cartstick.com
 go.hentaigold.net
@@ -319,6 +326,7 @@ mediamanager.softgames.de
 mediausamns-a.akamaihd.net
 medya.ilan.gov.tr
 metrics.readme.io
+mobiledl.adobe.com
 ms.awqsaged.cn
 mts.sdtieta.com
 munaluchibridal.munaluchibridema.netdna-cdn.com
@@ -331,6 +339,7 @@ nnd.xyssp.com
 olswr.27684.club
 opt.ximad.com
 outbanner.hu.co.kr
+ox-d.adobe.com
 p.d.0emn.com
 p2.music.126.net
 parked-content.godaddy.com
@@ -396,6 +405,7 @@ soundwave.mobile.yahoo.com
 sportsapp-com.maynemyltf.netdna-cdn.com
 ss.biquge.la
 ssp.adxpremium.com
+sstats.adobe.com
 static.adtidy.net
 static.adzerk.net
 static.clmbtech.com
@@ -404,6 +414,7 @@ static.goaheadtours.netdna-cdn.com
 static.hoptopboy.com
 static.tellerium.com
 static.tvtropes.org
+stats.adobe.com
 stats.hprofits.com
 storage.googleapis.com
 stream.futbollibre.online
@@ -428,6 +439,7 @@ track.bcvc.mobi
 tracking.cirrusinsight.com
 tt.biquge.la
 tt.twzui6.com
+tt11.adobe.com
 ttkx.qyctj.com
 u034024.778669.com
 u8.hujiang.com
@@ -442,6 +454,7 @@ w.picsinfog.com
 widget.convertiser.com
 widgethost.barnebys.com
 widgets.cryptopicture.com
+wip4.adobe.com
 world4ufree.com.co
 wsp.adskeeper.co.uk
 wsp.mgid.com
@@ -1095,6 +1108,7 @@ cactions.pro
 cagelrib.net
 cambro.tv
 camimbu.com
+campaign.adobe.com
 camsoda1.com
 camtinolc.com
 caprofitx.com
