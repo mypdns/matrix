@@ -563,6 +563,7 @@ surveysitemail.com
 swrve.com
 taboola.com
 tagtool.de
+taplytics.com
 tawk.to
 techtarget.com
 telemetry.mozilla.org
