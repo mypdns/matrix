@@ -398,6 +398,7 @@ getdrip.com
 getrewardful.com
 gigya.com
 go-mpulse.net
+go2pixel.org
 goetime.com
 goo.gl
 goprediction.com
@@ -561,6 +562,7 @@ send2delicious.com
 sendibm4.com
 sendinblue.com
 sentry.io
+serving-sys.com
 sexcount.com
 sextracker.com
 sitestat.com
