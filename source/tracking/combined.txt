@@ -153,6 +153,8 @@ supertracker.flashget.com
 tag.163.com
 tags-eu.tiqcdn.com
 tags.tiqcdn.com
+telemetry.dropbox.com
+telemetry.v.dropbox.com
 tinyrick.pixlee.com
 tk.baidu.com
 tls.telemetry.swe.quicinc.com
@@ -589,6 +591,7 @@ taplytics.com
 tawk.to
 techtarget.com
 telemetry.mozilla.org
+telemetry.swe.quicinc.com
 terraclicks.com
 terrapsps.com
 tibacta.com
