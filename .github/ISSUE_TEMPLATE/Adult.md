@@ -33,6 +33,9 @@ example.org   CNAME . ; Adult
 
 </details>
 
+## Logger output
+
+
 ### All Submissions:
 - [x] Have you followed the guidelines in our [Contributing](CONTRIBUTING.md) document?
 - [x] Have you checked to ensure there aren't other open
@@ -41,4 +44,10 @@ example.org   CNAME . ; Adult
 - [x] Added ScreenDump for prove of False Positive
 
 ### Todo
-- [x] Added to Source file?
+- [ ] Added to Source file?
+
+#### See also:
+- 
+- 
+- 
+- 

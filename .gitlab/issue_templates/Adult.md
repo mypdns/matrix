@@ -30,20 +30,28 @@ www.
 
 </details>
 
+## Logger output
+
+
+<!-- temponary not relevant
 ## Merge request
-This porn domain will be merged by !259
+This porn domain will be merged by... -->
 
 ### All Submissions:
 - [x] Have you followed the guidelines in our [Contributing](CONTRIBUTING.md) document?
-- [x] Have you checked to ensure there aren't other open
-	[Merge Requests (MR)](../merge_requests) or [Issues](../issues) for
-	the same update/change?
+- [x] Have you checked to ensure there aren't other open [Merge Requests (MR)](../merge_requests) or [Issues](../issues) for the same update/change?
 - [x] Added ScreenDump for prove of False Positive
 
 ### Todo
 - [x] Added to Source file?
 
+#### See also:
+-
+-
+-
+-
+
 /label ~"NSFW Adult Material"
 /assign @AnonymousPoster @Spirillen
-/estimate 15m
+/estimate 25m
 /weight 1
