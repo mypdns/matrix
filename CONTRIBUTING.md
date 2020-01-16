@@ -16,7 +16,7 @@ The workflow is a bit clumsy, but the most reliable and simple.
 1. You then open a [MR](/merge_requests/new) (Merge Request) where you'll add you contribution
 1. Add PR_ID and Issue_ID and the domain_name in the commit message
    ```shell
-   git commit -S -am "!PrID #IssueID `exsample.com`"
+   git commit -S -am "!PrID #IssueID `example.com`"
    ```
 
 ## Why first issue then MR?
