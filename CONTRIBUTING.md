@@ -47,7 +47,3 @@ to figure out the current way.
 - Files containing `_windows_` in it's files most be encoded in `ISO-8859-1`
   Latin1 and newlines shall end in (CRLF)
 - Line length should not be more than 80 chars for terminals support
-
-
-
-
