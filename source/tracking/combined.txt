@@ -572,6 +572,8 @@ sentry.io
 serving-sys.com
 sexcount.com
 sextracker.com
+sift.com
+siftscience.com
 sitestat.com
 sitestat.info
 sitestat.net
