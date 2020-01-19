@@ -2,6 +2,7 @@ analytics.alternativet.dk
 chrome.google.com
 daisy.ubuntu.com
 events.api.bosecm.com
+graph.facebook.com
 maps.googleapis.com
 maps.gstatic.com
 sedo.cachefly.net
@@ -32,6 +33,7 @@ meetrics.ch
 meetrics.de
 meetrics.org
 mouseflow.com
+mparticle.com
 opinionstage.com
 presage.io
 privy.com
