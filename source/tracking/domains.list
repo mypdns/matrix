@@ -91,6 +91,7 @@ gdown.baidu.com
 geoip.ubuntu.com
 gimg.baidu.com
 goreminders.com
+graph.facebook.com
 hc.baidu.com
 hiphotos.baidu.com
 hm.baidu.com
@@ -116,8 +117,10 @@ maps.gstatic.com
 metrics.readme.io
 mobads.baidu.com
 modern.watson.data.microsoft.com.akadns.net
+mparticle.com
 mxase.clmbtech.com
 mxvp-feature-toggle-prod-1.zenmxapps.com
+notify.bugsnag.com
 nsclick.baidu.com
 oca.telemetry.microsft.com
 p.yotpo.com
@@ -136,6 +139,7 @@ s.shopify.com
 sclick.baidu.com
 scloud-dlsw.br.baidu.com
 sedo.cachefly.net
+sessions.bugsnag.com
 settings.crashlytics.com
 snowplow.trx.gitlab.net
 sobar.baidu.com
@@ -194,7 +198,3 @@ www.msftconnecttest.com
 www3.l.google.com
 zhanzhang.baidu.com
 zz.bdstatic.com
-sessions.bugsnag.com
-notify.bugsnag.com
-graph.facebook.com
-mparticle.com
