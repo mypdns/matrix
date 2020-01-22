@@ -5,9 +5,7 @@
 3s-smart-rtb.mobvista.com
 4.redirect.appmetrica.yandex.com
 425e2-836b6.api.pushwoosh.com
-5900-app.mobilgov.com
 6cc62a7e.api.splkmobile.com
-8443-app.mobilgov.com
 a.baidu.com
 a.gdown.baidu.com
 a.hiphotos.baidu.com
