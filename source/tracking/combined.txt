@@ -24,6 +24,7 @@ analytics.ext.go-tellm.com
 analytics.getshogun.com
 analytics.kidoz.net
 analytics.sketchup.com
+analytics.smallpdf.com
 android.bugly.qq.com
 androidapi.mxplay.com
 androidapp.baidu.com
