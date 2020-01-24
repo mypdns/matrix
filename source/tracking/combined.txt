@@ -140,6 +140,7 @@ scloud-dlsw.br.baidu.com
 sedo.cachefly.net
 sessions.bugsnag.com
 settings.crashlytics.com
+sgmnt.ticketswap.com
 snowplow.trx.gitlab.net
 sobar.baidu.com
 stat.flashget.com
