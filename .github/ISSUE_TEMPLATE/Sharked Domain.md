@@ -1,7 +1,7 @@
 ---
 name: Sharked/hijacked Domain held hostage
 about: Submitting new Hijacked domain
-title: 'NSFW: '
+title: ''
 labels: Domain Sharked
 assignees: AnonymousPoster, spirillen
 
