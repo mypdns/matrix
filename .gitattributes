@@ -1,21 +1,21 @@
-*	text=auto
+*	text=lf working-tree-encoding=UTF-8
 
 # Normalize hosts files into LF UTF-8 style
-**hosts text eol=lf
+**hosts text eol=lf working-tree-encoding=UTF-8
 
 # Normalize special cases to LF
-*.txt text eol=lf
-*.ini text eol=lf
-*.csv text eol=lf
-*.md text eol=lf
-*.sh text eol=lf
-*.yml text eol=lf
+*.txt text eol=lf working-tree-encoding=UTF-8
+*.ini text eol=lf working-tree-encoding=UTF-8
+*.csv text eol=lf working-tree-encoding=UTF-8
+*.md text eol=lf working-tree-encoding=UTF-8
+*.sh text eol=lf working-tree-encoding=UTF-8
+*.yml text eol=lf working-tree-encoding=UTF-8
 
 # Should ensure submitted domain.list are encode with LF (\n) on gitlab
-/**/domain.list text eol=lf
-/**/wildcard.list text eol=lf
+/**/domain.list text eol=lf working-tree-encoding=UTF-8
+/**/wildcard.list text eol=lf working-tree-encoding=UTF-8
 
 # Ensure the non-standard windows understand files ending....
 # PS: Before you comments on this comment... *nix is bar far the most used OS
 # EVER!!!
-**_windows_** text eol=crlf
+**_windows_** text eol=crlf working-tree-encoding=ISO-8859-1
