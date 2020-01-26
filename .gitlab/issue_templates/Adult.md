@@ -1,10 +1,4 @@
 ## Summary
-
-<!-- Keep any domains in back ticks `(`)`
-
-Screenshot is required within the <details> pane. Leave a blank line before 
-and after the image link -->
-
 I believe this domain is an Adult(-related) domain --> that have to 
 be blocked as..
 
@@ -33,9 +27,8 @@ www.
 ## Logger output
 
 
-<!-- temponary not relevant
 ## Merge request
-This porn domain will be merged by... -->
+This porn domain will be merged by... !272
 
 ### All Submissions:
 - [x] Have you followed the guidelines in our [Contributing](CONTRIBUTING.md) document?
@@ -45,11 +38,6 @@ This porn domain will be merged by... -->
 ### Todo
 - [x] Added to Source file?
 
-#### See also:
--
--
--
--
 
 /label ~"NSFW Adult Material"
 /assign @AnonymousPoster @Spirillen
