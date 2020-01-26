@@ -29,6 +29,7 @@ pdnsutil increase-serial 'adult.mypdns.cloud'
 
 #printf "\nsed $domain\n"
 sed -i "/${domain}/d" "./tmp/67.list"
+sed -i "/${domain}/d" "./source/porno-sites/wildcard.list.old"
 
 #grep -iE '[a-z0-9]+\.[a-z]+\.[a-z]+' source/porno-sites/wildcard.list | grep -viE '(co.(uk|jp|za))|(com.(au|br))$'
 
