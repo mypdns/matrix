@@ -8,12 +8,6 @@ assignees: AnonymousPoster, spirillen
 ---
 
 ## Summary
-
-<!-- Keep any domains in back ticks `(`)`
-
-Screenshot is required within the <details> pane. Leave a blank line before 
-and after the image link -->
-
 I believe this domain is an Adult(-related) domain --> that have to 
 be blocked as..
 
@@ -23,6 +17,12 @@ be blocked as..
 ```python
 example.org   CNAME . ; Adult
 *.example.org   CNAME . ; Adult
+```
+
+### additional for hosts
+```shell
+
+www.
 ```
 
 ## Screenshots
@@ -36,18 +36,16 @@ example.org   CNAME . ; Adult
 ## Logger output
 
 
+## Merge request
+This porn domain will be merged by... https://gitlab.com/my-privacy-dns/matrix/matrix/merge_requests/272
+
 ### All Submissions:
 - [x] Have you followed the guidelines in our [Contributing](CONTRIBUTING.md) document?
-- [x] Have you checked to ensure there aren't other open
-	[Merge Requests (MR)](../merge_requests) or [Issues](../issues) for
-	the same update/change?
+- [x] Have you checked to ensure there aren't other open [Merge Requests (MR)](../merge_requests) or [Issues](../issues) for the same update/change?
 - [x] Added ScreenDump for prove of False Positive
 
 ### Todo
-- [ ] Added to Source file?
+- [x] Added to Source file?
 
-#### See also:
-- 
-- 
-- 
-- 
+
+
