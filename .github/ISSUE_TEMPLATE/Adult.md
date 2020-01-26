@@ -40,8 +40,8 @@ www.
 This porn domain will be merged by... https://gitlab.com/my-privacy-dns/matrix/matrix/merge_requests/272
 
 ### All Submissions:
-- [x] Have you followed the guidelines in our [Contributing](CONTRIBUTING.md) document?
-- [x] Have you checked to ensure there aren't other open [Merge Requests (MR)](../merge_requests) or [Issues](../issues) for the same update/change?
+- [x] Have you followed the guidelines in our [Contributing](/mypdns/matrix/blob/master/CONTRIBUTING.md) document?
+- [x] Have you checked to ensure there aren't other open [Merge Requests (MR)](/mypdns/matrix/pulls) or [Issues](../issues) for the same update/change?
 - [x] Added ScreenDump for prove of False Positive
 
 ### Todo
