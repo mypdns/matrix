@@ -43,3 +43,4 @@ This porn domain will be merged by... !272
 /assign @AnonymousPoster @Spirillen
 /estimate 25m
 /weight 1
+/milestone %"Adult Porno list" 
