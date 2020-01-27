@@ -21,6 +21,7 @@ Thanks to My Privacy DNS Firewall https://www.mypdns.org/"
 
 printf "Adding ${domain} to our RPZ"
 pdnsutil add-record "adult.mypdns.cloud" "${domain}" CNAME 86400 .
+pdnsutil add-record "adult.mypdns.cloud" "*.${domain}" CNAME 86400 .
 
 printf "Increase serial of our RPZ"
 pdnsutil increase-serial 'adult.mypdns.cloud'
