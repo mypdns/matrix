@@ -1,4 +1,9 @@
 #!/usr/bin/env bash
+set -e
+#set -x
+
+# Do we have pdnsutil installed on this machine?
+hash pdnsutil 2>/dev/null || { echo >&2 "pdnsutil Is required, but it's not installed.  Aborting..."; exit 1; }
 
 # This Script is only to commit wildcard domains into porn list
 
@@ -17,6 +22,7 @@ printf "$domain\n" >> "source/porno-sites/wildcard.list"
 printf "\nGit commit $domain\nwith issue ID: $issue\n"
 git commit -am "Adding new porno domain ${domain} [skip ci]
 Closes https://github.com/mypdns/matrix/issues/${issue}
+
 Thanks to My Privacy DNS Firewall https://www.mypdns.org/"
 
 printf "Adding ${domain} to our RPZ"
