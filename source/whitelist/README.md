@@ -9,5 +9,5 @@ of user based submissions, could do a lot of evil.
 E.g. Gitlab
 Gitlab is 100% user submitted contents, but for the same reason also a widely 
 target from bad guys to host there evil code. For that rightfully reason Gitlab 
-often pop ups on list for malicious code. But as that would have huge inpluence
-on our workflow, it's ofcurse to be whitelisted.
+often pop ups on list for malicious code. But as that would have huge influence
+on our workflow, it's of curse to be whitelisted.
