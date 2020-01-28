@@ -4,7 +4,7 @@
 set -e -u
 
 # Make sure we are in the projects root folder
-cd $CI_PROJECT_DIR
+cd $TRAVIS_BUILD_DIR
 
 # Change GIT upstream from git to https
 #git remote set-url origin https://mypdns:$MypDNS_CI@gitlab.com/$CI_PROJECT_PATH.git

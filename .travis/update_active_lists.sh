@@ -4,13 +4,13 @@
 # directory for easier imports from external sources....
 # Happy havesting :)
 
-truncate -s 0 "$CI_PROJECT_DIR/source.list"
+truncate -s 0 "$TRAVIS_BUILD_DIR/source.list"
 
-cd "$CI_PROJECT_DIR"
+cd "$TRAVIS_BUILD_DIR"
 
 for lists in `find source/ -type f -name "*.list"`
 do
-	printf "$CI_PROJECT_URL/raw/master/$lists\n" | sort -u >> "$CI_PROJECT_DIR/source.list"
+	printf "https://raw.githubusercontent.com/mypdns/matrix/master/$lists\n" | sort -u >> "$TRAVIS_BUILD_DIR/source.list"
 done
 
-ls -lh $CI_PROJECT_DIR/
+ls -lh $TRAVIS_BUILD_DIR/
