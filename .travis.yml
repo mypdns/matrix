@@ -2,10 +2,9 @@ env:
   global:
   - GIT_NAME: Travis CI
   - GIT_EMAIL: "44526987+spirillen@users.noreply.github.com"
-  #- secure: nhsYBlm5nQRhx+KTjRV+J7T3Ax252I8FG+Mz726FuQBvR0FEcg3dO57wlNcnKKS0Yh69srL6xxeJRv+7ZFH153QYQtcbzdpeK8aufGMmL1r6/SwQJ+Xge3EqzmQ+kIp5sS8wTzqckDt72TWPSBQXcY6RXbzo641XDl5WfemxN6fOmq+3IxCjlsgQUUfwTuEXHCwe6PuopUnDp5J6qbik7Gtf8ljfR6fwKTgqNAobHm9fpKbckb2foQrYIuAHe13zukgcMLe7OfpArIZjTXiWcGC7ftJZKSxRF7WqhXXT4WIQpCOlxlI+Dk1bwG0nfdEOAQKOIZjmPcYuloJ4UX99txSQNxMI7sWkLx8Z3NMpDjz6WYryLbqzepWQQJvllCsfBOpeXqFQDRHif3or+3pVU63vLOL770so8oWs0YM/OkifflnVhDCj4IdOhJ1SOrS5E8V5wrdhKnnnLxgsEOzMDz7VkEXgYMx6ezfjQtZurOYzxGqtWbtRSPaC7laKUDkg0ZNvent3HKo8IXxFbzZeaMfD3+hSjtrq7L90cgcnwQWslPNdpdgzK+abF7oRKu3pCEdq9W4ykK8+7/Ra7jPh/XsB/FwlDytKNAMrbEBENBojQ2zBBVGY/x7zaIrLQHuNMs7+My1DYiaL9meLuwgyQVAuV95ahRVdWCKWJIDGLV0=
+  - secure: nhsYBlm5nQRhx+KTjRV+J7T3Ax252I8FG+Mz726FuQBvR0FEcg3dO57wlNcnKKS0Yh69srL6xxeJRv+7ZFH153QYQtcbzdpeK8aufGMmL1r6/SwQJ+Xge3EqzmQ+kIp5sS8wTzqckDt72TWPSBQXcY6RXbzo641XDl5WfemxN6fOmq+3IxCjlsgQUUfwTuEXHCwe6PuopUnDp5J6qbik7Gtf8ljfR6fwKTgqNAobHm9fpKbckb2foQrYIuAHe13zukgcMLe7OfpArIZjTXiWcGC7ftJZKSxRF7WqhXXT4WIQpCOlxlI+Dk1bwG0nfdEOAQKOIZjmPcYuloJ4UX99txSQNxMI7sWkLx8Z3NMpDjz6WYryLbqzepWQQJvllCsfBOpeXqFQDRHif3or+3pVU63vLOL770so8oWs0YM/OkifflnVhDCj4IdOhJ1SOrS5E8V5wrdhKnnnLxgsEOzMDz7VkEXgYMx6ezfjQtZurOYzxGqtWbtRSPaC7laKUDkg0ZNvent3HKo8IXxFbzZeaMfD3+hSjtrq7L90cgcnwQWslPNdpdgzK+abF7oRKu3pCEdq9W4ykK8+7/Ra7jPh/XsB/FwlDytKNAMrbEBENBojQ2zBBVGY/x7zaIrLQHuNMs7+My1DYiaL9meLuwgyQVAuV95ahRVdWCKWJIDGLV0=
   - GIT_BRANCH: master
   - TZ: UTC
-  - secure: OnL6BrGRkTdYfYtJ0x1SmoR+GLVT5EV4s//M64dXv5zeTspycR1YgGvatv92eCAUkqSToGqh5/Yjs2KTCltHUME0v4oLaRdfYIpt6Wzbwt/QYYSYCoCX58LIlpSopIUxTR4qm6/d30yv2zImOh77oZMGYFKU/7U5+XNhH8b1+OTUBvc76/nMHclXHl/9QPcPRr0qHSlBBytkzIcHzPR3OP3zTxVETkV3zSH8T4C0lZJa7KMQJS3stob1J8xwLYkCzlgtnPNazldHe8hURr8hq2zJ5ra4MnG4ZCCpcRk/chYkynZq5mCW698Yut7BSpYDRuocEEp1PzHdUF0Yeu6pbfrlcX3n7OK+AoEkjPRCQO7lIJTtv1f8Xto6pG5rD1+6zZb/EMc4n4z6HHgDifJSeOdKn+ARmgSGA3Bx5EAaS5aNQdt9o3xzCuY+qhemNYW82GcDRxFFNbTTrLp4V3sZS2E1Eh/cZoYbU226K8ygmb/ioYu30r0o4LHa41cT9upkBzI510MBBrTZ/W7M/R0Z/geb5nuNBqAJwCrovammfjSjoQHMtbLIWXAsnXvFRLBak21RWDV3fuq+wjuIchFc/4EcPKyLXUrSwlaJe5v64pOplzNQQFiyoWsBMscKPSb9v4x6NYAtIooYuYYY/eqhlbiNBoaTA8SXuFnK5kJNMaM=
 
 os: linux
 dist: bionic
@@ -19,5 +18,5 @@ matrix:
   fast_finish: true
 script:
 - bash $TRAVIS_BUILD_DIR/.travis/build.sh && bash $TRAVIS_BUILD_DIR/.travis/update_active_lists.sh
-#  && git add . && git commit -m 'Auto committed from the CI runner [ci skip]' && git
-#  push -u origin ${TRAVIS_BRANCH}
+  && git add . && git commit -m 'Auto committed from the CI runner [ci skip]' && git
+  push -u origin ${TRAVIS_BRANCH}
