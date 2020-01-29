@@ -40,4 +40,21 @@ rm $TRAVIS_BUILD_DIR/safesearch/safesearch.mypdns.cloud.rpz
 
 dig axfr @axfr.ipv4.mypdns.cloud -p 5353 safesearch.mypdns.cloud | grep -vE '^($|;)' >> $TRAVIS_BUILD_DIR/safesearch/safesearch.mypdns.cloud.rpz
 
+# Pull requests and commits to other branches shouldn't try to deploy, just build to verify
+if [ "$TRAVIS_PULL_REQUEST" != "false" -o "$TRAVIS_BRANCH" != "$SOURCE_BRANCH" ]; then
+    printf "Skipping deploy; just doing a build."
+    syntaxTest
+    exit 0
+fi
+
+# If there are no changes to the compiled out (e.g. this is a README update) then just bail.
+if git diff --quiet; then
+    printf "No changes to the output on this push; exiting."
+    exit 0
+fi
+
+syntaxTest () {
+	printf "\n\tHere we will do a syntax test and convert input to IDNA domains\n"
+}
+
 exit ${?}
