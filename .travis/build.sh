@@ -40,6 +40,7 @@ rm $TRAVIS_BUILD_DIR/safesearch/safesearch.mypdns.cloud.rpz
 
 dig axfr @axfr.ipv4.mypdns.cloud -p 5353 safesearch.mypdns.cloud | grep -vE '^($|;)' >> $TRAVIS_BUILD_DIR/safesearch/safesearch.mypdns.cloud.rpz
 
+# https://gist.github.com/domenic/ec8b0fc8ab45f39403dd
 # Pull requests and commits to other branches shouldn't try to deploy, just build to verify
 if [ "$TRAVIS_PULL_REQUEST" != "false" -o "$TRAVIS_BRANCH" != "$SOURCE_BRANCH" ]; then
     printf "Skipping deploy; just doing a build."
