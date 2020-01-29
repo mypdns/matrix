@@ -14,13 +14,13 @@ grep -ivE '[a-z0-9]+\.[a-z]+\.[a-z]+' "./tmp/67.list" | head -n 1
 printf "\n"
 
 read -p "Enter domain to handle as 'domain.tld': " domain
-read -p "Enter issue number: " issue
+read -p "Enter GH issue ID: " issue
 
 printf "\nAdding domain: $domain\n"
 printf "$domain\n" >> "source/porno-sites/wildcard.list"
 
 printf "\nGit commit $domain\nwith issue ID: $issue\n"
-git commit -am "Adding new porno domain ${domain} [skip ci]
+git commit -am "Adding new porno domain ${domain} [ci skip]
 Closes https://github.com/mypdns/matrix/issues/${issue}
 
 Thanks to My Privacy DNS Firewall https://www.mypdns.org/"
@@ -29,7 +29,7 @@ printf "Adding ${domain} to our RPZ"
 pdnsutil add-record "adult.mypdns.cloud" "${domain}" CNAME 86400 .
 pdnsutil add-record "adult.mypdns.cloud" "*.${domain}" CNAME 86400 .
 
-printf "Increase serial of our RPZ"
+printf "Increasing serial of our RPZ"
 pdnsutil increase-serial 'adult.mypdns.cloud'
 
 #git push
