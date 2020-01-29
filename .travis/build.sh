@@ -51,6 +51,9 @@ fi
 if git diff --quiet; then
     printf "No changes to the output on this push; exiting."
     exit 0
+else
+	git add . && git commit -m 'Auto committed from the CI runner [ci skip]' \
+	  && git push -u origin ${TRAVIS_BRANCH}
 fi
 
 #syntaxTest () {
