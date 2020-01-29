@@ -1,4 +1,18 @@
 #!/usr/bin/env bash
+
+# Copyright: https://www.mypdns.org/
+# Content: https://gitlab.com/spirillen
+# Source: https://github.com/Import-External-Sources/pornhosts
+# License: https://www.mypdns.org/wiki/License
+# License Comment: GNU AGPLv3, MODIFIED FOR NON COMMERCIAL USE
+#
+# License in short:
+# You are free to copy and distribute this file for non-commercial uses,
+# as long the original URL and attribution is included.
+#
+# Please forward any additions, corrections or comments by logging an 
+# issue at https://github.com/mypdns/matrix/issues
+
 set -e
 #set -x
 
