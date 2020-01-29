@@ -9,6 +9,10 @@ github.io
 gitlab.io
 gtld-servers.net
 insomniagamingfestival.com
+matrix.rocks
+mypdns.cloud
+mypdns.com
+mypdns.org
 spb.ru
 thepiratebay.org
 tinypic.com
