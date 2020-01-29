@@ -43,7 +43,7 @@ dig axfr @axfr.ipv4.mypdns.cloud -p 5353 safesearch.mypdns.cloud | grep -vE '^($
 # Pull requests and commits to other branches shouldn't try to deploy, just build to verify
 if [ "$TRAVIS_PULL_REQUEST" != "false" -o "$TRAVIS_BRANCH" != "$SOURCE_BRANCH" ]; then
     printf "Skipping deploy; just doing a build."
-    syntaxTest
+    #syntaxTest
     exit 0
 fi
 
@@ -53,8 +53,8 @@ if git diff --quiet; then
     exit 0
 fi
 
-syntaxTest () {
-	printf "\n\tHere we will do a syntax test and convert input to IDNA domains\n"
-}
+#syntaxTest () {
+#	printf "\n\tHere we will do a syntax test and convert input to IDNA domains\n"
+#}
 
 exit ${?}
