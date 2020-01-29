@@ -2,7 +2,7 @@
 
 # Exit on any errors
 set -e
-set -x
+#set -x
 
 PrepareTravis () {
     git remote rm origin

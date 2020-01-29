@@ -4,7 +4,7 @@
 # directory for easier imports from external sources....
 # Happy havesting :)
 set -e
-set -x
+#set -x
 
 truncate -s 0 "$TRAVIS_BUILD_DIR/source.list"
 
