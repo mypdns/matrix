@@ -43,3 +43,4 @@ www.
 
 ### Todo
 - [x] Added to Source file?
+- [ ] Added to the RPZ zone [adult.mypdns.cloud](https://www.mypdns.org/wiki/RpzList#adult.mypdns.cloud) (@spirillen)
