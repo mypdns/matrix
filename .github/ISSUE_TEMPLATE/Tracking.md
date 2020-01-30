@@ -25,8 +25,6 @@ example.org   CNAME . ; Tracking
 *.example.org   CNAME . ; Tracking
 ```
 
-... ***because***:
-
 ## Relevant logs and/or screenshots
 
 <!-- Paste any relevant logs - please use code blocks (```) to format 
