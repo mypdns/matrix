@@ -29,15 +29,20 @@ printf "\n"
 
 read -p "Enter domain to handle as 'domain.tld': " domain
 read -p "Enter GH issue ID: " issue
+read -p "Enter mypdns.org ticket ID: " ticket
 
 printf "\nAdding domain: $domain\n"
 printf "$domain\n" >> "source/porno-sites/wildcard.list"
 
 printf "\nGit commit $domain\nwith issue ID: $issue\n"
-git commit -am "Adding new porno domain ${domain} [ci skip]
+git commit -am "Adding new porno domain \`${domain}\`
 Closes https://github.com/mypdns/matrix/issues/${issue}
 
-Thanks to My Privacy DNS Firewall https://www.mypdns.org/"
+Thanks to My Privacy DNS Firewall https://www.mypdns.org/
+
+closes refs ${ticket}
+
+[ci skip]"
 
 printf "Adding ${domain} to our RPZ"
 pdnsutil add-record "adult.mypdns.cloud" "${domain}" CNAME 86400 .
