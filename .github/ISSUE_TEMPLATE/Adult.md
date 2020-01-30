@@ -1,7 +1,7 @@
 ---
 name: Adult
 about: Submitting new porn domains
-title: 'NSFW: '
+title: ''
 labels: NSFW Adult Material
 assignees: AnonymousPoster, spirillen
 
@@ -35,9 +35,6 @@ www.
 
 ## Logger output
 
-
-## Merge request
-This porn domain will be merged by... https://gitlab.com/my-privacy-dns/matrix/matrix/merge_requests/272
 
 ### All Submissions:
 - [x] Have you followed the guidelines in our [Contributing](/mypdns/matrix/blob/master/CONTRIBUTING.md) document?
