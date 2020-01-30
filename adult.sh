@@ -29,7 +29,6 @@ printf "\n"
 
 read -p "Enter domain to handle as 'domain.tld': " domain
 read -p "Enter GH issue ID: " issue
-read -p "Enter mypdns.org ticket ID: " ticket
 
 printf "\nAdding domain: $domain\n"
 printf "$domain\n" >> "source/porno-sites/wildcard.list"
@@ -39,8 +38,6 @@ git commit -am "Adding new porno domain \`${domain}\`
 Closes https://github.com/mypdns/matrix/issues/${issue}
 
 Thanks to My Privacy DNS Firewall https://www.mypdns.org/
-
-[closes ticket:${ticket}]
 
 [ci skip]"
 
