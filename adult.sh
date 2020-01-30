@@ -38,9 +38,9 @@ printf "\nGit commit $domain\nwith issue ID: $issue\n"
 git commit -am "Adding new porno domain \`${domain}\`
 Closes https://github.com/mypdns/matrix/issues/${issue}
 
-Thanks to My Privacy DNS Firewall https://www.mypdns.org/
+Thanks to My Privacy DNS Firewall <https://www.mypdns.org/>
 
-closes refs ${ticket}
+closes ticket:${ticket}\#comment:1
 
 [ci skip]"
 
