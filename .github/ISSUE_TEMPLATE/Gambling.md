@@ -25,8 +25,6 @@ example.org   CNAME . ; Gambling
 *.example.org   CNAME . ; Gambling
 ```
 
-... ***because***:
-
 ## Relevant logs and/or screenshots
 
 <!-- Paste any relevant logs - please use code blocks (```) to format 

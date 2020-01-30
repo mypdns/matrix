@@ -26,8 +26,6 @@ This IP address or IP range(CIDR) that have to be blocked as..
 16.0.0.168.192.rpz-ip   CNAME . ; reason
 ```
 
-... ***because***:
-
 ## Relevant logs and/or screenshots
 
 <!-- Paste any relevant logs - please use code blocks (```) to format 

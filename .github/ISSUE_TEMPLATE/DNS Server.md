@@ -24,8 +24,6 @@ I believe this DNS Server needs to be blocked as..
 *.example.org.rpz-nsip   CNAME . ; DNSServer
 ```
 
-.. ***Because***:
-
 ## Relevant logs and/or screenshots
 
 <!-- Paste any relevant logs - please use code blocks (```) to format 

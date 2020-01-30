@@ -24,8 +24,6 @@ example.org   CNAME . ; SpyWare
 *.example.org   CNAME . ; SpyWare
 ```
 
-... ***because***:
-
 ## Relevant logs and/or screenshots
 
 <!-- Paste any relevant logs - please use code blocks (```) to format 

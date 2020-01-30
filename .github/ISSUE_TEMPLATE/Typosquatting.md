@@ -24,8 +24,6 @@ example.org   CNAME . ; TypoSquatting
 *.example.org   CNAME . ; TypoSquatting
 ```
 
-... ***because***:
-
 ## Relevant logs and/or screenshots
 
 <!-- Paste any relevant logs - please use code blocks (```) to format 

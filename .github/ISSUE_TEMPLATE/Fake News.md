@@ -24,8 +24,6 @@ example.org   CNAME . ; FakeNews
 *.example.org   CNAME . ; FakeNews
 ```
 
-... ***because***:
-
 ## Relevant logs and/or screenshots
 
 <!-- Paste any relevant logs - please use code blocks (```) to format 
