@@ -40,7 +40,7 @@ Closes https://github.com/mypdns/matrix/issues/${issue}
 
 Thanks to My Privacy DNS Firewall <https://www.mypdns.org/>
 
-closes ticket:${ticket}\#comment:1
+\[closes #${ticket}\]
 
 [ci skip]"
 
