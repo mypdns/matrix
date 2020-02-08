@@ -37,7 +37,15 @@ printf "\nGit commit $domain\nwith issue ID: $issue\n"
 git commit -am "Adding new porno domain \`${domain}\`
 Closes https://github.com/mypdns/matrix/issues/${issue}
 
-Thanks to My Privacy DNS Firewall https://www.mypdns.org/
+This submission enhanced the true power of My DNS Privacy Firewall
+by https://www.mypdns.org/.
+
+If you would like to learn more about how to use the RPZ powered DNS Firewall
+with our zone files, you can read more about it here
+https://www.mypdns.org/wiki/Rpz
+
+You can read about about our different zones here
+https://www.mypdns.org/wiki/RpzList
 
 [ci skip]"
 
