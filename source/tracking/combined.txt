@@ -87,6 +87,7 @@ evt.mxplay.com
 f.hiphotos.baidu.com
 fsm.lapresse.ca
 gdown.baidu.com
+geoapi123.appspot.com
 geoip.ubuntu.com
 gimg.baidu.com
 g.msn.com.nsatc.net
@@ -107,6 +108,7 @@ instagram.fcdg1-1.fna.fbcdn.net
 instagram.felp1-1.fna.fbcdn.net
 instagram.fkgf1-1.fna.fbcdn.net
 instagram.flux1-1.fna.fbcdn.net
+ip-geo.appspot.com
 ipv6-wildcard.applovin.com.edgekey.net
 ktracker.kumparan.com
 location-inference-westus.cloudapp.net
@@ -122,11 +124,13 @@ modern.watson.data.microsoft.com.akadns.net
 mparticle.com
 mxase.clmbtech.com
 mxvp-feature-toggle-prod-1.zenmxapps.com
+nojsstats.appspot.com
 notify.bugsnag.com
 nsclick.baidu.com
 oca.telemetry.microsft.com
 pcappstore.baidu.com
 pcookie.aliexpress.com
+ping-dot-acp-magento.appspot.com
 piwik.information.dk
 popme.163.com
 pos.baidu.com
