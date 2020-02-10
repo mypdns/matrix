@@ -4,3 +4,4 @@ tmp/**.*
 
 # prevent outputs from PyFunceble
 output/
+dir_structure.json
