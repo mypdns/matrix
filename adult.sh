@@ -64,7 +64,7 @@ sed -i "/${domain}/d" "./source/porno-sites/wildcard.list.old"
 
 # Let's also commit to Import-External-Sources/pornhosts while are doing something
 
-printf "\n\tStarting to commit to pornhosts\n"
+printf "\n\tStarting to commit to pornhosts\n\n"
 
 cd "../../../github/pornhosts/"
 
