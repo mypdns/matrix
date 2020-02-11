@@ -49,11 +49,11 @@ https://www.mypdns.org/wiki/RpzList
 
 [ci skip]"
 
-printf "Adding ${domain} to our RPZ"
+printf "\nAdding ${domain} to our RPZ\n"
 pdnsutil add-record "adult.mypdns.cloud" "${domain}" CNAME 86400 .
 pdnsutil add-record "adult.mypdns.cloud" "*.${domain}" CNAME 86400 .
 
-printf "Increasing serial of our RPZ"
+printf "\nIncreasing serial of our RPZ\n"
 pdnsutil increase-serial 'adult.mypdns.cloud'
 
 #git push
