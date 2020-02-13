@@ -36,6 +36,7 @@ meetrics.org
 me.uk
 mouseflow.com
 mparticle.com
+nielsen.com
 opinionstage.com
 presage.io
 privy.com
