@@ -39,7 +39,7 @@ www.
 ### All Submissions:
 - [x] Have you followed the guidelines in our [Contributing](/mypdns/matrix/blob/master/CONTRIBUTING.md) document?
 - [x] Have you checked to ensure there aren't other open [Merge Requests (MR)](/mypdns/matrix/pulls) or [Issues](../issues) for the same update/change?
-- [x] Added ScreenDump for prove of False Positive
+- [x] Added ScreenDump for prove of False Negative
 
 ### Todo
 - [x] Added to Source file?
