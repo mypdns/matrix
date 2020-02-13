@@ -44,7 +44,7 @@ console output, logs, and code as it's very hard to read otherwise. -->
 - [ ] Have you checked to ensure there aren't other open
 	[Merge Requests (MR)](../merge_requests) or [Issues](../issues) for
 	the same update/change?
-- [ ] Added ScreenDump for prove of False Positive
+- [ ] Added ScreenDump for prove of False Negative
 - [ ] Have you added an explanation of what your submission do and why
 	you'd like us to include them??
 
