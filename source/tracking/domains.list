@@ -131,12 +131,14 @@ nojsstats.appspot.com
 notify.bugsnag.com
 nsclick.baidu.com
 oca.telemetry.microsft.com
+pam.nextinpact.com
 pcappstore.baidu.com
 pcookie.aliexpress.com
 ping-dot-acp-magento.appspot.com
 piwik.information.dk
 popme.163.com
 pos.baidu.com
+poum.nextinpact.com
 p.yotpo.com
 qiao.baidu.com
 query.prod.cms.rt.microsoft.com
@@ -169,6 +171,7 @@ tags-eu.tiqcdn.com
 tags.tiqcdn.com
 telemetry.dropbox.com
 telemetry.v.dropbox.com
+tim.nextinpact.com
 tinyrick.pixlee.com
 tk.baidu.com
 t.kelkoogroup.net
@@ -209,6 +212,3 @@ www.count.mail.163.com.onlinekushshop.com
 www.msftconnecttest.com
 zhanzhang.baidu.com
 zz.bdstatic.com
-poum.nextinpact.com
-pam.nextinpact.com
-tim.nextinpact.com
