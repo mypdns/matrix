@@ -1,13 +1,25 @@
-# Whitelist
+# White Lists
+Whitelisting a domain means that it would be anti-blocked by any later
+submission to any [BlackLists](https://www.mypdns.org/wiki/BlackLists) and
+ensuring that the DNS Firewall won't block this and proceed the DNS query and
+answer process as usual.
+
+## About Whitelisting domains
 This list have it's very own life, as this is a very very tricky one to maintain.
 
-The reason for that is, it have to balance between what is going on with a domain
-that for several reasons might be blacklisted on some lists but not on others. It
-can also be that a domain in general do 99,9& right, but because of it's nature
-of user based submissions, could do a lot of evil.
+The reason why it's hard to maintain such a list is, it have to balance
+between what is going on with a domain, that for several reasons might be
+[blacklisted](https://www.mypdns.org/wiki/BlackLists) on some lists, but not
+on others. It can also be that a domain in general do 99,9% rights, but
+because of it's nature of user based submissions, could do a lot of evil.
 
-E.g. Gitlab
-Gitlab is 100% user submitted contents, but for the same reason also a widely 
-target from bad guys to host there evil code. For that rightfully reason Gitlab 
-often pop ups on list for malicious code. But as that would have huge influence
-on our workflow, it's of curse to be whitelisted.
+## Why white listing
+If we take the example of [Gitlab.com](https://gitlab.com/my-privacy-dns)
+
+Gitlab.com is 100% user submitted contents, but for the very same reason also
+a widely used target from bad guys, to host there evil code. For that
+rightfully reason Gitlab.com often pop ups on list for hosting
+[MalWare](https://www.mypdns.org/wiki/MalWare) code. Since this would have
+huge influence on [My Privacy DNS](https://www.mypdns.org/) and brakes the
+workflow, it's of curse have to be whitelisted within the
+[DNS firewall](https://www.mypdns.org/wiki/DnsFirewall) projects.
