@@ -43,7 +43,10 @@ printf "\nGit commit $domain\n Bug: T2\n"
 
 git commit -am "Adding new porno domain \`${domain}\`
 
-Bug: T2, T$tissue
+Ref Bug: T2
+
+Fixes T$tissue
+
 Closes https://github.com/mypdns/matrix/issues/${issue}
 
 This submission enhanced the true power of My DNS Privacy Firewall
@@ -82,7 +85,9 @@ printf "$domain\n" >> "submit_here/hosts.txt"
 
 git commit -am "Adding new porno domain \`${domain}\`
 
-Bug: T2, T$tissue
+Bug: T2
+
+Closes T$tissue
 
 Closes https://github.com/Import-External-Sources/pornhosts/issues/${pissue}
 
