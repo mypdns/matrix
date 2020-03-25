@@ -10,7 +10,7 @@
 # You are free to copy and distribute this file for non-commercial uses,
 # as long the original URL and attribution is included.
 #
-# Please forward any additions, corrections or comments by logging an 
+# Please forward any additions, corrections or comments by logging an
 # issue at https://github.com/mypdns/matrix/issues
 
 set -e
@@ -23,18 +23,26 @@ hash pdnsutil 2>/dev/null || { echo >&2 "pdnsutil Is required, but it's not inst
 
 printf "\nNext porno domain issues\n\n"
 
-grep -ivE '[a-z0-9]+\.[a-z]+\.[a-z]+' "./tmp/67.list" | head -n 1
+grep -ivE '[a-z0-9]+\.[a-z]+\.[a-z]+' "./tmp/t2.list" | head -n 1
 
 printf "\n"
 
 read -p "Enter domain to handle as 'domain.tld': " domain
-read -p "Enter GH issue ID: " issue
-read -p "Enter Pornhost Issue ID: " pissue
+
+# Temponary disabled for testing Phabricator
+#read -p "Enter GH issue ID: " issue
+#read -p "Enter Pornhost Issue ID: " pissue
+# END
+
 printf "\nAdding domain: $domain\n"
 printf "$domain\n" >> "source/porno-sites/wildcard.list"
 
-printf "\nGit commit $domain\nwith issue ID: $issue\n"
+#printf "\nGit commit $domain\nwith issue ID: $issue\n"
+printf "\nGit commit $domain\n Bug: T2\n"
+
 git commit -am "Adding new porno domain \`${domain}\`
+
+Bug: T2
 Closes https://github.com/mypdns/matrix/issues/${issue}
 
 This submission enhanced the true power of My DNS Privacy Firewall
@@ -59,6 +67,7 @@ pdnsutil increase-serial 'adult.mypdns.cloud'
 #git push
 
 #printf "\nsed $domain\n"
+sed -i "/${domain}/d" "./tmp/t2.list"
 sed -i "/${domain}/d" "./tmp/67.list"
 sed -i "/${domain}/d" "./source/porno-sites/wildcard.list.old"
 
@@ -71,6 +80,9 @@ cd "../../../github/pornhosts/"
 printf "$domain\n" >> "submit_here/hosts.txt"
 
 git commit -am "Adding new porno domain \`${domain}\`
+
+Bug: T2
+
 Closes https://github.com/Import-External-Sources/pornhosts/issues/${pissue}
 
 This submission enhanced the true power of My DNS Privacy Firewall
