@@ -34,6 +34,7 @@ read -p "Enter domain to handle as 'domain.tld': " domain
 #read -p "Enter Pornhost Issue ID: " pissue
 # END
 
+read -p "Enter Phabricator ID: " tissue
 printf "\nAdding domain: $domain\n"
 printf "$domain\n" >> "source/porno-sites/wildcard.list"
 
@@ -42,7 +43,7 @@ printf "\nGit commit $domain\n Bug: T2\n"
 
 git commit -am "Adding new porno domain \`${domain}\`
 
-Bug: T2
+Bug: T2, T$tissue
 Closes https://github.com/mypdns/matrix/issues/${issue}
 
 This submission enhanced the true power of My DNS Privacy Firewall
@@ -81,7 +82,7 @@ printf "$domain\n" >> "submit_here/hosts.txt"
 
 git commit -am "Adding new porno domain \`${domain}\`
 
-Bug: T2
+Bug: T2, T$tissue
 
 Closes https://github.com/Import-External-Sources/pornhosts/issues/${pissue}
 
