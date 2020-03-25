@@ -45,7 +45,7 @@ git commit -am "Adding new porno domain \`${domain}\`
 
 Ref Bug: T2
 
-Fixes Bug: http://www.mypdns.org/T$tissue
+Fixes T$tissue
 
 Closes https://github.com/mypdns/matrix/issues/${issue}
 
