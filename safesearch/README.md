@@ -4,7 +4,7 @@ safe search of search portals.
 
 This zone file contains all known IP to spoof safe search enabled search sites
 
-# Spoofing
+## Spoofing
 There are different approaches of spoof domains depending on the resolver used 
 for this.
 
