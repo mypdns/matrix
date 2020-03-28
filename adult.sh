@@ -30,16 +30,18 @@ printf "\n"
 read -p "Enter domain to handle as 'domain.tld': " domain
 
 # Temponary disabled for testing Phabricator
-#read -p "Enter GH issue ID: " issue
-#read -p "Enter Pornhost Issue ID: " pissue
+read -p "Enter GH issue ID: " issue
+read -p "Enter Pornhost Issue ID: " pissue
 # END
 
 read -p "Enter Phabricator ID: " tissue
+
 printf "\nAdding domain: $domain\n"
 printf "$domain\n" >> "source/porno-sites/wildcard.list"
 
-#printf "\nGit commit $domain\nwith issue ID: $issue\n"
-printf "\nGit commit $domain\n Bug: T2\n"
+printf "\nGit commit $domain\nwith Matrix issue ID: $issue\n"
+printf "\nGit commit $domain\nwith Pornhost issue ID: $pissue\n"
+printf "\nGit commit $domain\n MypDNS Bug: T2\n"
 
 git commit -am "Adding new porno domain \`${domain}\`
 
