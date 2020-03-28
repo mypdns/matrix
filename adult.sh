@@ -30,11 +30,11 @@ printf "\n"
 read -p "Enter domain to handle as 'domain.tld': " domain
 
 # Temponary disabled for testing Phabricator
-read -p "Enter GH issue ID: " issue
+read -p "Enter Matrix GH issue ID: " issue
 read -p "Enter Pornhost Issue ID: " pissue
 # END
 
-read -p "Enter Phabricator ID: " tissue
+read -p "Enter MyPdns.org Phabricator ID: " tissue
 
 printf "\nAdding domain: $domain\n"
 printf "$domain\n" >> "source/porno-sites/wildcard.list"
