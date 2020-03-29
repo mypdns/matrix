@@ -14,37 +14,25 @@ assignees: AnonymousPoster, spirillen
 Screenshot is required within the <details> pane. Leave a blank line before 
 and after the image link -->
 
-I believe this DNS Server needs to be blocked as..
+I believe this DNS Server needs to be blocked as...
 
-- [x] [Wildcarded](source/dns-servers/wildcard.list)
-- [ ] [Single DNS Server](source/dns-servers/domains.list)
+- [x] Wildcarded
+- [ ] Single DNS Server
 
 ```python
 *.example.org.rpz-nsdname   CNAME . ; DNSServer
-*.example.org.rpz-nsip   CNAME . ; DNSServer
+24.0.2.0.192.rpz-nsip   CNAME . ; DNSServer
 ```
 
-## Relevant logs and/or screenshots
-
-<!-- Paste any relevant logs - please use code blocks (```) to format 
-console output, logs, and code as it's very hard to read otherwise. -->
-
-## Screenshots
-
-<details><Summary>Screenshot required</summary>
+## Relevant information's
 
 
-
-</details>
 
 ### All Submissions:
 - [ ] Have you followed the guidelines in our [Contributing](CONTRIBUTING.md) document?
-- [ ] Have you checked to ensure there aren't other open
-	[Merge Requests (MR)](../merge_requests) or [Issues](../issues) for
-	the same update/change?
-- [ ] Added ScreenDump for prove of False Negative
-- [ ] Have you added an explanation of what your submission do and why
-	you'd like us to include them??
+- [ ] Have you checked to ensure there aren't other open [Merge Requests (MR)](../merge_requests) or [Issues](../issues) for the same update/change?
+- [ ] Added ScreenDump for prove of (False Negative)[https://www.mypdns.org/w/falsenegative/]
+- [ ] Have you added an explanation of what your submission do and why you'd like us to include them??
 
 ### Testing face
 - [ ] Checked the internet for verification?

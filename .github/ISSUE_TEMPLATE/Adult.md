@@ -8,8 +8,7 @@ assignees: AnonymousPoster, spirillen
 ---
 
 ## Summary
-I believe this domain is an Adult(-related) domain --> that have to 
-be blocked as..
+I believe this domain is an Adult(-related) domain --> that have to be blocked as..
 
 - [X] [Wildcarded](source/porno-sites/wildcard.list)
 - [ ] [Single domain blocking](source/porno-sites/domains.list)
@@ -37,10 +36,10 @@ www.
 
 
 ### All Submissions:
-- [x] Have you followed the guidelines in our [Contributing](/mypdns/matrix/blob/master/CONTRIBUTING.md) document?
+- [x] Have you followed the guidelines in our [Contributing](https://www.mypdns.org/w/contributing/) document?
 - [x] Have you checked to ensure there aren't other open [Merge Requests (MR)](/mypdns/matrix/pulls) or [Issues](../issues) for the same update/change?
-- [x] Added ScreenDump for prove of False Negative
+- [x] Added ScreenDump for prove of (False Negative)[https://www.mypdns.org/w/falsenegative/]
 
 ### Todo
 - [x] Added to Source file?
-- [ ] Added to the RPZ zone [adult.mypdns.cloud](https://www.mypdns.org/wiki/RpzList#adult.mypdns.cloud) (@spirillen)
+- [ ] Added to the RPZ zone [adult.mypdns.cloud](https://www.mypdns.org/wiki/RpzList#adult) (@spirillen)
