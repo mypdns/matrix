@@ -8,14 +8,7 @@ assignees: AnonymousPoster, spirillen
 ---
 
 ## Summary
-
-<!-- Keep any domains in back ticks `(`)`
-
-Screenshot is required within the <details> pane. Leave a blank line before 
-and after the image link -->
-
-This domain is used for 'Tracking' your private life and **HAVE** to be 
-blocked as..
+This domain is used for 'Tracking' your private life and **HAVE** to be blocked as..
 
 - [ ] [Single Domain](source/tracking/domains.list)
 - [X] [Wild carded](source/tracking/wildcard.list)
@@ -52,5 +45,5 @@ console output, logs, and code as it's very hard to read otherwise. -->
 - [ ] Have you successfully ran tests with your changes locally?
 
 ### Todo:
-- [ ] RPZ Server (Team members)
+- [ ] RPZ Server (Team @spirillen)
 - [ ] Added to Source file
