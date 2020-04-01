@@ -155,6 +155,8 @@ asadg43sdsa.appspot.com
 asgh65tfsdxz.appspot.com
 auvm21.appspot.com
 axislogger.appspot.com
+banery.onet.pl
+banki.onet.pl
 banoaoxpasonga.appspot.com
 bar.baidu.com
 bat.bing.com
@@ -165,6 +167,8 @@ bitdash-reporting.appspot.com
 bitmovin-bitanalytics.appspot.com
 bo934pesdisz.appspot.com
 bo9rsdpxoaz.appspot.com
+boksy.dir.onet.pl
+boksy.onet.pl
 boscdn.bpc.baidu.com
 bpc.baidu.com
 br.baidu.com
@@ -204,6 +208,7 @@ crashlytics.163.com
 crwscdn9.appspot.com
 crwscdn.appspot.com
 csp-collector.appspot.com
+csr.onet.pl
 cvgfsaz.appspot.com
 cvjibd9faspczxozo.appspot.com
 cxas32assa.appspot.com
@@ -217,6 +222,7 @@ dc.tremormedia.com
 dejavu.mlapps.com
 dfoagd9zxpsai.appspot.com
 d.haberler.com
+dir.onet.pl
 dj1.baidu.com
 dl.p2sp.baidu.com
 dlsw.br.baidu.com
@@ -226,6 +232,7 @@ downloadbee.appspot.com
 download.pcappstore.baidu.com
 dpl.baidu.com
 dramafeverw2.appspot.com
+ds.onet.pl
 dsow9sdxosa.appspot.com
 dzl.baidu.com
 e.baidu.com
@@ -235,6 +242,7 @@ ecolytics-collector-prod-1404130997.us-west-1.elb.amazonaws.com
 e-ddos.appspot.com
 edgecast.tags.tiqcdn.com
 eiv.baidu.com
+emisjawidgeet.onet.pl
 eqit9pzsxz.appspot.com
 eqs-redserver.appspot.com
 eteo9zpsaz.appspot.com
@@ -286,6 +294,7 @@ iczopc9adozpxz.appspot.com
 ima3vpaid.appspot.com
 images.dmca.com
 img.163.com
+img.scoop.co.nz
 imgsrc.baidu.com
 imgstat.baidu.com
 improving.duckduckgo.com
@@ -311,6 +320,7 @@ katherineknox37213.appspot.com
 kcuak91pxzxcixciozxt.appspot.com
 khs9dpas.appspot.com
 kofadf9zxpaakgmioo.appspot.com
+kropka.onet.pl
 ktia8sozcaosfizxoop.appspot.com
 ktracker.kumparan.com
 lamsoxaomptoaisopicka.appspot.com
@@ -324,6 +334,7 @@ majik102502.appspot.com
 malikobalo.appspot.com
 maps.googleapis.com
 maps.gstatic.com
+media.onet.pl
 medisinkurs.appspot.com
 metrics.readme.io
 m.hotmail.com
@@ -342,6 +353,7 @@ neownesharepointdororescos.appspot.com
 no8lancelot.appspot.com
 nojsstats.appspot.com
 notify.bugsnag.com
+novem.onet.pl
 nsclick.baidu.com
 nvcuiaoc0aspxzcs.appspot.com
 offerssyndication.appspot.com
@@ -375,6 +387,8 @@ qiao.baidu.com
 qubitanalytics.appspot.com
 query.prod.cms.rt.microsoft.com
 re7weozxpsasa.appspot.com
+reklama.onet.pl
+republika.onet.pl
 revealads.appspot.com
 ris.api.iris.microsoft.com
 ritr934papa.appspot.com
@@ -394,6 +408,7 @@ sensytracker.appspot.com
 sessions.bugsnag.com
 settings.crashlytics.com
 sgmnt.ticketswap.com
+sgqcvfjvr.onet.pl
 shopogolik-ru.appspot.com
 sl-native-android-hm-logging.appspot.com
 snapabug.appspot.com
@@ -406,6 +421,7 @@ staticw2.yotpo.com
 statistic.ads24h.net
 stats.grafikart.fr
 stats.hprofits.com
+stats.media.onet.pl
 stats.privacytools.io
 stats.vk-portal.net
 stat.tiara.kakao.com
@@ -415,6 +431,7 @@ supertracker.flashget.com
 tag.163.com
 tags-eu.tiqcdn.com
 tags.tiqcdn.com
+taktonet.pl
 tankfarmleaseagent-dot-yamm-track.appspot.com
 taonodaofofsiapeopodocsapp.appspot.com
 tap-nexus.appspot.com
@@ -1429,6 +1446,7 @@ datacaciques.com
 datacoral.com
 datacoral.io
 datadoghq-browser-agent.com
+datadoghq.com
 datado.me
 data-dynamic.net
 datafeedfile.com
@@ -2643,6 +2661,7 @@ nimpool.io
 noowho.com
 nordicresearch.com
 northstartravelmedia.com
+nosto.com
 notifyvisitors.com
 notmining.org
 nowinteract.com
