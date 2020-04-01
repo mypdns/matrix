@@ -441,6 +441,7 @@ tracker.winudf.com
 tracking-opi.fonpit.de
 tracking.rightmessage.com
 tracking.scenepass.com
+tracking.swogo.net
 track.thebase.in
 track.tiara.kakao.com
 track.totalav.com
@@ -451,6 +452,7 @@ trk.siliconevalleys.info
 truehits1.gits.net.th
 tryt5fdxsa.appspot.com
 ucstat.baidu.com
+ui.swogo.net
 union.baidu.com
 unstat.baidu.com
 updown.mobileassist.baidu.com
