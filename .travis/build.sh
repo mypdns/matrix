@@ -30,9 +30,11 @@ cd $TRAVIS_BUILD_DIR/
 
 find $TRAVIS_BUILD_DIR/source/ -type f -name 'combined.txt' -delete
 
-for d in `find source/ -mindepth 1 -maxdepth 1 -type d`
+rm "$TRAVIS_BUILD_DIR/combined_lists"
+
+for d in $(find source/ -mindepth 1 -maxdepth 1 -type d)
 do
-    cat ${d[@]}/*.list > ${d[@]}/combined.txt
+    cat "${d[@]}/*.list" > "$TRAVIS_BUILD_DIR/combined_lists/${d[@]}/combined.txt"
 done
 
 # Import latest working example of safesearch from safesearc.mypdns.cloud
