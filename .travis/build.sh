@@ -30,7 +30,8 @@ cd $TRAVIS_BUILD_DIR/
 
 find $TRAVIS_BUILD_DIR/source/ -type f -name 'combined.txt' -delete
 
-rm "$TRAVIS_BUILD_DIR/combined_lists" && mkdir -p "$TRAVIS_BUILD_DIR/combined_lists"
+#rm -fr "$TRAVIS_BUILD_DIR/combined_lists" && .
+mkdir -p "$TRAVIS_BUILD_DIR/combined_lists"
 
 for d in $(find source/ -mindepth 1 -maxdepth 1 -type d)
 do
