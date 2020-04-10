@@ -81,6 +81,7 @@ printf "\n\tStarting to commit to pornhosts\n\n"
 cd "../../../github/pornhosts/"
 
 printf "$domain\n" >> "submit_here/hosts.txt"
+printf "www.$domain\n" >> "submit_here/hosts.txt"
 
 git commit -am "Adding new porno domain \`${domain}\`
 
