@@ -31,22 +31,18 @@ read -p "Enter domain to handle as 'domain.tld': " domain
 
 # read -p "Enter Matrix GH issue ID: " issue
 read -p "Enter Pornhost Issue ID: " pissue
-read -p "Enter MyPdns.org Phabricator ID: " tissue
+#read -p "Enter MyPdns.org Phabricator ID: " tissue
 
 printf "\nAdding domain: $domain\n"
 printf "$domain\n" >> "source/porno-sites/wildcard.list"
 
 #printf "\nGit commit $domain\nwith Matrix issue ID: $issue\n"
 printf "\nGit commit $domain\nwith Pornhost issue ID: $pissue\n"
-printf "\nGit commit $domain\n MypDNS Bug: T$tissue\n"
+#printf "\nGit commit $domain\n MypDNS Bug: T$tissue\n"
 
 git commit -am "Adding new porno domain \`${domain}\`
 
-Ref Bug: https://www.mypdns.org/T${tissue}
-
-Fixes T$tissue
-
-Closes https://www.mypdns.org/T${tissue}
+Related issue: https://github.com/spirillen/pornhosts/issues/${pissue}
 
 This submission enhanced the true power of My DNS Privacy Firewall
 by https://www.mypdns.org/.
@@ -84,10 +80,6 @@ printf "$domain\n" >> "submit_here/hosts.txt"
 printf "www.$domain\n" >> "submit_here/hosts.txt"
 
 git commit -am "Adding new porno domain \`${domain}\`
-
-Ref Bug: https://www.mypdns.org/T$tissue
-
-Closes T$tissue
 
 Closes https://github.com/spirillen/pornhosts/issues/${pissue}
 
