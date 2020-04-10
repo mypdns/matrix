@@ -3,7 +3,7 @@
 # Copyright: https://www.mypdns.org/
 # Content: https://gitlab.com/spirillen
 # Source: https://github.com/Import-External-Sources/pornhosts
-# License: https://www.mypdns.org/wiki/License
+# License: https://www.mypdns.org/w/License
 # License Comment: GNU AGPLv3, MODIFIED FOR NON COMMERCIAL USE
 #
 # License in short:
@@ -11,7 +11,7 @@
 # as long the original URL and attribution is included.
 #
 # Please forward any additions, corrections or comments by logging an
-# issue at https://github.com/mypdns/matrix/issues
+# issue at https://www.mypdns.org/maniphest/
 
 set -e
 #set -x
@@ -45,24 +45,24 @@ printf "\nGit commit $domain\n MypDNS Bug: T2\n"
 
 git commit -am "Adding new porno domain \`${domain}\`
 
-Ref Bug: T2
+Ref Bug: https://www.mypdns.org/T$tissue
 
 Fixes T$tissue
 
-Closes https://github.com/mypdns/matrix/issues/${issue}
+Closes https://www.mypdns.org/maniphest//${issue}
 
 This submission enhanced the true power of My DNS Privacy Firewall
 by https://www.mypdns.org/.
 
 If you would like to learn more about how to use the RPZ powered DNS Firewall
 with our zone files, you can read more about it here
-https://www.mypdns.org/wiki/Rpz
+https://www.mypdns.org/w/Rpz
 
 You can read about about our different zones here
-https://www.mypdns.org/wiki/RpzList
+https://www.mypdns.org/w/RpzList"
 
-[ci skip]"
-
+# Folloowing code will only succeed if you have admin access to our DNS
+# Servers at https://www.mypdns.org/
 printf "\nAdding ${domain} to our RPZ\n"
 pdnsutil add-record "adult.mypdns.cloud" "${domain}" CNAME 86400 .
 pdnsutil add-record "adult.mypdns.cloud" "*.${domain}" CNAME 86400 .
@@ -87,7 +87,7 @@ printf "$domain\n" >> "submit_here/hosts.txt"
 
 git commit -am "Adding new porno domain \`${domain}\`
 
-Bug: T2
+Ref Bug: https://www.mypdns.org/T$tissue
 
 Closes T$tissue
 
@@ -98,12 +98,10 @@ by https://www.mypdns.org/.
 
 If you would like to learn more about how to use the RPZ powered DNS Firewall
 with our zone files, you can read more about it here
-https://www.mypdns.org/wiki/Rpz
+https://www.mypdns.org/w/Rpz
 
 You can read about about our different zones here
-https://www.mypdns.org/wiki/RpzList
-
-[ci skip]"
+https://www.mypdns.org/w/RpzList"
 
 # Get back to script path (matrix)
 cd "../../gitlab/matrix/matrix/"
