@@ -29,39 +29,36 @@ printf "\n"
 
 read -p "Enter domain to handle as 'domain.tld': " domain
 
-# Temponary disabled for testing Phabricator
-read -p "Enter Matrix GH issue ID: " issue
+# read -p "Enter Matrix GH issue ID: " issue
 read -p "Enter Pornhost Issue ID: " pissue
-# END
-
 read -p "Enter MyPdns.org Phabricator ID: " tissue
 
 printf "\nAdding domain: $domain\n"
 printf "$domain\n" >> "source/porno-sites/wildcard.list"
 
-printf "\nGit commit $domain\nwith Matrix issue ID: $issue\n"
+#printf "\nGit commit $domain\nwith Matrix issue ID: $issue\n"
 printf "\nGit commit $domain\nwith Pornhost issue ID: $pissue\n"
 printf "\nGit commit $domain\n MypDNS Bug: T$tissue\n"
 
 git commit -am "Adding new porno domain \`${domain}\`
 
-Ref Bug: https://www.mypdns.org/T$tissue
+Ref Bug: https://www.mypdns.org/T${tissue}
 
 Fixes T$tissue
 
-Closes https://www.mypdns.org/maniphest//${issue}
+Closes https://www.mypdns.org/T${tissue}
 
 This submission enhanced the true power of My DNS Privacy Firewall
 by https://www.mypdns.org/.
 
-If you would like to learn more about how to use the RPZ powered DNS Firewall
-with our zone files, you can read more about it here
+If you would like to learn more about how to use the RPZ powered DNS
+Firewall with our zone files, you can read more about it here
 https://www.mypdns.org/w/Rpz
 
 You can read about about our different zones here
 https://www.mypdns.org/w/RpzList"
 
-# Folloowing code will only succeed if you have admin access to our DNS
+# Following code will only succeed if you have admin access to our DNS
 # Servers at https://www.mypdns.org/
 printf "\nAdding ${domain} to our RPZ\n"
 pdnsutil add-record "adult.mypdns.cloud" "${domain}" CNAME 86400 .
@@ -91,7 +88,7 @@ Ref Bug: https://www.mypdns.org/T$tissue
 
 Closes T$tissue
 
-Closes https://github.com/Import-External-Sources/pornhosts/issues/${pissue}
+Closes https://github.com/spirillen/pornhosts/issues/${pissue}
 
 This submission enhanced the true power of My DNS Privacy Firewall
 by https://www.mypdns.org/.
