@@ -41,7 +41,7 @@ printf "$domain\n" >> "source/porno-sites/wildcard.list"
 
 printf "\nGit commit $domain\nwith Matrix issue ID: $issue\n"
 printf "\nGit commit $domain\nwith Pornhost issue ID: $pissue\n"
-printf "\nGit commit $domain\n MypDNS Bug: T2\n"
+printf "\nGit commit $domain\n MypDNS Bug: T$tissue\n"
 
 git commit -am "Adding new porno domain \`${domain}\`
 
