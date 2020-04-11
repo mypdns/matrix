@@ -40,6 +40,11 @@ printf "$domain\n" >> "source/porno-sites/wildcard.list"
 printf "\nGit commit $domain\nwith Pornhost issue ID: $pissue\n"
 #printf "\nGit commit $domain\n MypDNS Bug: T$tissue\n"
 
+#printf "\nsed $domain\n"
+sed -i "/${domain}/d" "./tmp/t2.list"
+sed -i "/${domain}/d" "./tmp/67.list"
+sed -i "/${domain}/d" "./source/porno-sites/wildcard.list.old"
+
 git commit -am "Adding new porno domain \`${domain}\`
 
 Related issue: https://github.com/spirillen/pornhosts/issues/${pissue}
@@ -66,11 +71,6 @@ printf "\nIncreasing serial of our RPZ\n"
 pdnsutil increase-serial 'adult.mypdns.cloud'
 
 #git push
-
-#printf "\nsed $domain\n"
-sed -i "/${domain}/d" "./tmp/t2.list"
-sed -i "/${domain}/d" "./tmp/67.list"
-sed -i "/${domain}/d" "./source/porno-sites/wildcard.list.old"
 
 # Let's also commit to Import-External-Sources/pornhosts while are doing something
 
