@@ -52,7 +52,9 @@ Firewall with our zone files, you can read more about it here
 https://www.mypdns.org/w/Rpz
 
 You can read about about our different zones here
-https://www.mypdns.org/w/RpzList"
+https://www.mypdns.org/w/RpzList
+
+[ci skip]"
 
 # Following code will only succeed if you have admin access to our DNS
 # Servers at https://www.mypdns.org/
@@ -91,7 +93,9 @@ with our zone files, you can read more about it here
 https://www.mypdns.org/w/Rpz
 
 You can read about about our different zones here
-https://www.mypdns.org/w/RpzList"
+https://www.mypdns.org/w/RpzList
+
+[ci skip]"
 
 # Get back to script path (matrix)
 cd "../../gitlab/matrix/matrix/"
