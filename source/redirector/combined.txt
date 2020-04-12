@@ -304,6 +304,7 @@ trafficbroker.xyz
 tr.im
 tr.my
 trsay.xyz
+trustyfine.com
 turo.us
 tweetburner.com
 twirl.at
@@ -345,6 +346,7 @@ w3t.org
 wapurl.co.uk
 webcut.net
 wipi.es
+worldtraffic.trade
 wowurl.com
 wp.me
 xaddr.com

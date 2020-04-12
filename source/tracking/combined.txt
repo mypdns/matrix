@@ -3694,6 +3694,7 @@ truehits.net
 truemine.org
 truoptik.com
 trustpilot.com
+trustyfine.com
 trysera.com
 tscounter.com
 tsk4.com
@@ -3942,6 +3943,7 @@ wootric.com
 wordc.ga
 worldflagcounter.com
 worldlogger.com
+worldtraffic.trade
 wowanalytics.co.uk
 wpdstat.com
 wpfc.ml
