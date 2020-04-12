@@ -95,8 +95,6 @@ https://www.mypdns.org/w/Rpz
 You can read about about our different zones here
 https://www.mypdns.org/w/RpzList
 
-related: https://github.com/Sinfonietta/hostfiles/issues/99
-
 [ci skip]"
 
 # Get back to script path (matrix)
