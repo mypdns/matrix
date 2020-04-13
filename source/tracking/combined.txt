@@ -1472,6 +1472,7 @@ deep.bi
 deepc.cc
 deepchannel.com
 delegatediscussion.com
+delitraff.com
 deltadna.net
 demandbase.com
 demdex.net
@@ -3868,6 +3869,7 @@ wbtrk.net
 wdfl.co
 webassembly.stream
 web-boosting.net
+webclicks24.com
 webclicktracker.com
 webcounter.co.za
 web-counter.net

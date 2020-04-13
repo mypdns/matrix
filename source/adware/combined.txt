@@ -461,6 +461,7 @@ snapabug.appspot.com
 soundwave.mobile.yahoo.com
 s.polkoa.com
 sportsapp-com.maynemyltf.netdna-cdn.com
+sqs.us-east-1.amazonaws.com
 ss.biquge.la
 s.shbywsd.cn
 ssp.adxpremium.com
@@ -2123,6 +2124,7 @@ decademical.com
 defpush.com
 deicslktis.com
 deiqehvcdnntg.com
+delitraff.com
 delnapb.com
 deloplen.com
 deloton.com
@@ -3675,6 +3677,7 @@ insightfirst.com
 insightfirst.net
 installp.com
 insupposity.info
+inswebt.com
 inter1ads.com
 intertakekuhy.info
 intoupload.com
@@ -7837,6 +7840,7 @@ wdquizratrntwr.com
 wdrgqoweorjfp.com
 wdwczzyhzra.com
 wdzeuxkfvyv.com
+webclicks24.com
 webeatyouradblocker.com
 weberotic.net
 webgekeniuos.com
