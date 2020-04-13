@@ -49,6 +49,8 @@ git commit -am "Adding new porno domain \`${domain}\`
 
 Related issue: https://github.com/spirillen/pornhosts/issues/${pissue}
 
+Source: https://github.com/Sinfonietta/hostfiles/pull/100
+
 This submission enhanced the true power of My DNS Privacy Firewall
 by https://www.mypdns.org/.
 
@@ -84,6 +86,8 @@ printf "www.$domain\n" >> "submit_here/hosts.txt"
 git commit -am "Adding new porno domain \`${domain}\`
 
 Closes https://github.com/spirillen/pornhosts/issues/${pissue}
+
+Source: https://github.com/Sinfonietta/hostfiles/pull/100
 
 This submission enhanced the true power of My DNS Privacy Firewall
 by https://www.mypdns.org/.
