@@ -215,6 +215,7 @@ cxas32assa.appspot.com
 cxs923psiazcxz.appspot.com
 cxzas0osa.appspot.com
 cy2.vortex.data.microsoft.com.akadns.net
+d303e3cdddb4ded4b6ff495a7b496ed5.s3.amazonaws.com
 d39yds8oe4n4jq.cloudfront.net
 d43gs-dot-wv9d5b-921fw-oxf3zc-8lj8sk.appspot.com
 da634fdas.appspot.com
@@ -278,6 +279,7 @@ g.msn.com.nsatc.net
 goreminders.com
 graph.facebook.com
 green-griffin-860.appspot.com
+gstaticadssl.l.google.com
 gu-pix.appspot.com
 h49wpzxosa.appspot.com
 hc.baidu.com
@@ -1812,6 +1814,7 @@ freshmarketer.com
 freshplum.com
 freshrefresher.com
 friendbuy.com
+frosmo.com
 fruitflan.com
 fsd2.digital
 fstrk.net
@@ -2091,6 +2094,7 @@ innocentinvention.com
 innomdc.com
 innovateads.com
 inphonic.com
+inpref.com
 inpwrd.com
 inquisitiveinvention.com
 insdrbot.com
@@ -2503,6 +2507,7 @@ monkeyminer.net
 monstat.com
 monu.delivery
 moonsade.com
+moosend.com
 mooseway.com
 mopinion.com
 morningdigit.com
