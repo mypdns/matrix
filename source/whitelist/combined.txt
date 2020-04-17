@@ -13,8 +13,10 @@ matrix.rocks
 mypdns.cloud
 mypdns.com
 mypdns.org
-pusher.com	ravis-ci.com	ravis-ci.org
+pusher.com
 spb.ru
 thepiratebay.org
 tinypic.com
+travis-ci.com
+travis-ci.org
 wwwfacebook.com
