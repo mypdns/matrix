@@ -1,0 +1,30 @@
+{
+  "linters": {
+    "text": {
+      "type": "text",
+      "include": ["(\\.(list|md|txt|rst)$)"],
+      "exclude": ["(^source/(bait_sites|coin-blocker|fake-news)/domains\\.list)", "(combined\\.txt$)"],
+      "severity.rules": {
+        "(^E)": "warning",
+        "(^W)": "advice"
+      }
+    },
+    "chmod": {
+      "type": "chmod"
+    },
+    "spelling": {
+      "type": "spelling",
+      "include": "(\\.(list|md|rst|txt)$)i",
+      "exclude": ["(source/)i"]
+    },
+    "merge-conflict": {
+	  "type": "merge-conflict"
+	},
+	"filename": {
+	  "type": "filename"
+	},
+	"Generated Code": {
+	  "type": "generated"
+	}
+  }
+}
