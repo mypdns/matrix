@@ -389,6 +389,7 @@ qiao.baidu.com
 qubitanalytics.appspot.com
 query.prod.cms.rt.microsoft.com
 re7weozxpsasa.appspot.com
+redirectiontool.trafficmanager.net
 reklama.onet.pl
 republika.onet.pl
 revealads.appspot.com
@@ -828,6 +829,7 @@ airserve.net
 airship.com.edgekey.net
 airship.eu
 ajplugins.com
+aka.ms
 akanoo.com
 akstat.com
 akstat.io
