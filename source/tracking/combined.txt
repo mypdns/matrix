@@ -1004,7 +1004,9 @@ baztrack.com
 bbthat.com
 bc.vc
 bdash-cloud.com
+beaconapi.helpscout.net
 beaconstreetservices.com
+beacon-v2.helpscout.net
 beampulse.com
 beanstalkdata.com
 beanstock.com
