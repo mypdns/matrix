@@ -43,6 +43,7 @@ printf "\nGit commit $domain\nwith Pornhost issue ID: $pissue\n"
 #printf "\nsed $domain\n"
 sed -i "/${domain}/d" "./tmp/t2.list"
 sed -i "/${domain}/d" "./tmp/67.list"
+sed -i "/${domain}/d" "./tmp/rpz.missing"
 sed -i "/${domain}/d" "./source/porno-sites/wildcard.list.old"
 
 git commit -am "Adding new porno domain \`${domain}\`
