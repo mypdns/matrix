@@ -49,17 +49,18 @@ git commit -am "Adding new porno domain \`${domain}\`
 
 Related issue: https://github.com/spirillen/pornhosts/issues/${pissue}
 
-Source: https://github.com/Sinfonietta/hostfiles/pull/100
+You can read more about this particular project at
+https://www.mypdns.org/project/view/10/
 
 This submission enhanced the true power of My DNS Privacy Firewall
 by https://www.mypdns.org/.
 
 If you would like to learn more about how to use the RPZ powered DNS
 Firewall with our zone files, you can read more about it here
-https://www.mypdns.org/w/Rpz
+https://www.mypdns.org/w/rpz
 
 You can read about about our different zones here
-https://www.mypdns.org/w/RpzList
+https://www.mypdns.org/w/rpzList
 
 [ci skip]"
 
@@ -81,25 +82,27 @@ printf "\n\tStarting to commit to pornhosts\n\n"
 cd "../../../github/pornhosts/"
 
 printf "$domain\n" >> "submit_here/hosts.txt"
-printf "www.$domain\n" >> "submit_here/hosts.txt"
+#printf "www.$domain\n" >> "submit_here/hosts.txt"
 
-git commit -am "Adding new porno domain \`${domain}\`
+printf "- ${domain} Closes ${pissue}\n" >> commit.msg
 
-Closes https://github.com/spirillen/pornhosts/issues/${pissue}
+#git commit -am "Adding new porno domain \`${domain}\`
 
-Source: https://github.com/Sinfonietta/hostfiles/pull/100
+#Closes https://github.com/spirillen/pornhosts/issues/${pissue}
 
-This submission enhanced the true power of My DNS Privacy Firewall
-by https://www.mypdns.org/.
+#Source: https://github.com/Sinfonietta/hostfiles/pull/100
 
-If you would like to learn more about how to use the RPZ powered DNS Firewall
-with our zone files, you can read more about it here
-https://www.mypdns.org/w/Rpz
+#This submission enhanced the true power of My DNS Privacy Firewall
+#by https://www.mypdns.org/.
 
-You can read about about our different zones here
-https://www.mypdns.org/w/RpzList
+#If you would like to learn more about how to use the RPZ powered DNS Firewall
+#with our zone files, you can read more about it here
+#https://www.mypdns.org/w/pz
 
-[ci skip]"
+#You can read about about our different zones here
+#https://www.mypdns.org/w/pzList
+
+#[ci skip]"
 
 # Get back to script path (matrix)
 cd "../../gitlab/matrix/matrix/"
