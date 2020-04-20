@@ -84,7 +84,7 @@ cd "../../../github/pornhosts/"
 printf "$domain\n" >> "submit_here/hosts.txt"
 #printf "www.$domain\n" >> "submit_here/hosts.txt"
 
-printf "Added ${domain} Closes https://github.com/Import-External-Sources/pornhosts/issues/${pissue}\n" >> commit.msg
+printf "Added ${domain} Closes https://github.com/Import-External-Sources/pornhosts/issues/${pissue}\n\n" >> commit.msg
 
 #git commit -am "Adding new porno domain \`${domain}\`
 
