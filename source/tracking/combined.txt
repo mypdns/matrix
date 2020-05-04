@@ -526,6 +526,7 @@ zmail221.appspot.com
 zminer.zaloapp.com
 zz.bdstatic.com
 0emm.com
+0i0i0i0.com
 0x1f4b0.com
 103bees.com
 105app.com
@@ -664,6 +665,7 @@ acuityplatform.com
 acxiomapac.com
 acxiom-online.com
 adabra.com
+adadvisor.net
 adalyser.com
 adblade.com
 adblockrelief.com
@@ -1703,6 +1705,7 @@ e-zeeinternet.com
 ezytrack.com
 f1tbit.com
 f92j5.com
+fabric.io
 fabricww.com
 factortg.com
 fadedsnow.com
