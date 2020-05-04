@@ -23,7 +23,7 @@ hash pdnsutil 2>/dev/null || { echo >&2 "pdnsutil Is required, but it's not inst
 
 printf "\nNext porno domain issues\n\n"
 
-grep -ivE '[a-z0-9]+\.[a-z]+\.[a-z]+' "./tmp/t2.list" | head -n 1
+grep -ivE '[a-z0-9]+\.[a-z]+\.[a-z]+' "./tmp/rpz.missing" | head -n 1
 
 printf "\n"
 
@@ -50,7 +50,7 @@ git commit -am "Adding new porno domain \`${domain}\`
 
 Related issue: https://github.com/spirillen/pornhosts/issues/${pissue}
 
-You can read more about this particular project at
+You can read more about this particular Porn blocking project at
 https://www.mypdns.org/project/view/10/
 
 This submission enhanced the true power of My DNS Privacy Firewall
@@ -98,10 +98,10 @@ printf "Added ${domain} Closes https://github.com/Import-External-Sources/pornho
 
 #If you would like to learn more about how to use the RPZ powered DNS Firewall
 #with our zone files, you can read more about it here
-#https://www.mypdns.org/w/pz
+#https://www.mypdns.org/w/rpz
 
 #You can read about about our different zones here
-#https://www.mypdns.org/w/pzList
+#https://www.mypdns.org/w/rpzList
 
 #[ci skip]"
 
