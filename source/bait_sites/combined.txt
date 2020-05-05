@@ -78,7 +78,6 @@ blogspot.tw
 blogspot.ug
 blogspot.vn
 facebook.com
-facebook.comfbcdn.netwhatsapp.netinstagram.com
 facebook.de
 facebook.fr
 facebook.net
@@ -87,6 +86,7 @@ facebook-web-clients.appspot.com
 fbcallback.wechat.com
 fbcdn.com
 fbcdn-creative-a.akamaihd.net
+fbcdn.netwhatsapp.netinstagram.com
 fbcdn-photos-a.akamaihd.net
 fbcdn-photos-e-a.akamaihd.net
 fbcdn-profile-a.akamaihd.net
