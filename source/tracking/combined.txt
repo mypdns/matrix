@@ -296,6 +296,7 @@ images.dmca.com
 img.scoop.co.nz
 imgsrc.baidu.com
 imgstat.baidu.com
+imgtrack.domainmarket.com
 improving.duckduckgo.com
 inbound-analytics.pixlee.com
 inference.location.live.net
