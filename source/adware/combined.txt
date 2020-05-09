@@ -48,6 +48,12 @@ a2plvcpnl162386.prod.iad2.secureserver.net
 a2plvcpnl228350.prod.iad2.secureserver.net
 a2plvcpnl229593.prod.iad2.secureserver.net
 a2plvcpnl274876.prod.iad2.secureserver.net
+aan.amazon.com
+aax.amazon-adsystem.amazon.com
+aax-cpm.amazon-adsystem.amazon.com
+aax-us.amazon-adsystem.amazon.com
+aax-us-cpm.amazon-adsystem.amazon.com
+aax-us-iad.amazon.com
 ab.advertiserurl.com
 abc.hostedbyfembed.com
 acdn.adnxs.com
@@ -116,6 +122,7 @@ ajax2.scr.cr
 ajax.cloudflare.com
 allmedia-d.openx.net
 alt.bugsense.appspot.com
+amazon-adsystem.amazon.com
 a.mlyns.com
 amp-error-reporting.appspot.com
 androidquery.appspot.com
@@ -132,6 +139,7 @@ apigw.scmp.com
 api.mixpanel.com
 apiproxy3.accengage.com
 api.reon.club
+applab-sdk.amazon.com
 apps.drakor.id
 ashow.pcpop.com
 asset.pagefair.com
@@ -270,6 +278,8 @@ dd.70yst.com
 delivery.adten.eu
 delivery.trafficfabrik.com
 deoi3kwqhv0d5.cloudfront.net
+device-metrics-us-2.amazon.com
+device-metrics-us.amazon.com
 discoveryad.castoola.tv
 dk7rftbivnkgr.cloudfront.net
 dlmagnetdl.maynemyltf.netdna-cdn.com
@@ -309,6 +319,8 @@ f.iaftjs.info
 filestorage.chip.de
 fishsnifferee.thefishsniffer.netdna-cdn.com
 fldownloadnet.maynemyltf.netdna-cdn.com
+fls-eu.amazon.com
+fls-na.amazon.com
 flvxplayer.maynemyltf.netdna-cdn.com
 foreverb.rxmedicalweb.netdna-cdn.com
 fundingchoicesmessages.google.com
@@ -393,6 +405,7 @@ m71.qhdzfs.cn
 m78.xhydrs.cn
 m.8800266.com.cn
 madmen.alastonsuomi.com
+mads.amazon.com
 magicplayer-api.torrentstream.org
 magicplayer-s.acestream.net
 magicplayer-s.torrentstream.org
@@ -461,6 +474,8 @@ qd.maskbaby.com.cn
 qubitanalytics.appspot.com
 qwtm.purecertainengine.com
 rainmaker.digitalbrandsinc.netdna-cdn.com
+rcm.amazon.com
+rcm-images.amazon.com
 rc.xxhrd.com
 redirector.desbloqueador.org
 rel.nextinpact.com
@@ -552,6 +567,7 @@ ttkx.qyctj.com
 tt.twzui6.com
 u034024.778669.com
 u8.hujiang.com
+uedata.amazon.com
 uidesign.gbtcdn.com
 ukdtx.31202.fun
 us.b3018.pw
@@ -571,6 +587,7 @@ widgets.cryptopicture.com
 wip4.adobe.com
 world4ufree.com.co
 w.picsinfog.com
+ws.amazon.com
 wsp.mgid.com
 wsp.steepto.com
 ww1.vidzi.tv
@@ -579,6 +596,7 @@ ww3.vidzi.tv
 www1flypeit.maynemyltf.netdna-cdn.com
 www2.escdn.co
 www3.l.google.com
+www.amazon.com.125xc.com
 x.55peixun.com
 xch.smrtgs.com
 xml.popmonetizer.net
