@@ -1,11 +1,3 @@
-lptag.liveperson.net
-sales.liveperson.net
-server.iad.liveperson.net
-server.lon.liveperson.net
-sr2.liveperson.net
-afimg.liveperson.com
-myap.liveperson.com
-wizard.liveperson.com
 1030z2bnst92zo6j523feq9e-wpengine.netdna-ssl.com
 2dprofessor.cadprofessor.netdna-cdn.com
 360.mediav.com
@@ -143,6 +135,7 @@ adxcwqqri0ttwb3qcnqn2yrczcproe4b5rphi23q.s3.ap-south-1.amazonaws.com
 adzerk.s3.amazonaws.com
 adzip.s3.amazonaws.com
 aff.camplace.com
+afimg.liveperson.com
 a.gerasopa.com
 agilecrm-web-stats.appspot.com
 ajax2.scr.cr
@@ -524,6 +517,7 @@ llsp.gfd80.com
 load.s3.amazonaws.com
 log-c-907025318.us-east-1.elb.amazonaws.com
 logger-prod-us-east-1-vpc-alb-1251201355.us-east-1.elb.amazonaws.com
+lptag.liveperson.net
 lunametrics.wpengine.netdna-cdn.com
 m71.qhdzfs.cn
 m78.xhydrs.cn
@@ -563,6 +557,7 @@ munaluchibridal.munaluchibridema.netdna-cdn.com
 munchkin.marketo.net
 musculahq.appspot.com
 music.126.net
+myap.liveperson.com
 mycdn.cdn492812.netdna-cdn.com
 myjj.pyzkk.com
 my.top100.photo
@@ -651,6 +646,7 @@ s3-us-west-1.amazonaws.com
 s3-us-west-2.amazonaws.com
 s.95105012.com
 safraempresas.s3.ca-central-1.amazonaws.com
+sales.liveperson.net
 sales-pop-dot-autoketing-production-sdk.appspot.com
 sana.newsinccom.s3.amazonaws.com
 sapere.seed4.me
@@ -668,6 +664,8 @@ send-gamma.pinpoint.us-east-1.amazonaws.com
 send-prod.pinpoint.us-east-1.amazonaws.com
 sensytracker.appspot.com
 server.cpmstar.com
+server.iad.liveperson.net
+server.lon.liveperson.net
 serve.williamhill.com
 serving.adbetclickin.pink
 sfo.xsgfhkwd.date
@@ -692,6 +690,7 @@ sportsapp-com.maynemyltf.netdna-cdn.com
 springclick-ads.s3.amazonaws.com
 spyhunter-download.s3.amazonaws.com
 sqs.us-east-1.amazonaws.com
+sr2.liveperson.net
 ss.biquge.la
 s.shbywsd.cn
 ssp.adxpremium.com
@@ -783,6 +782,7 @@ widgets.cryptopicture.com
 widgixeu-beacon.s3.amazonaws.com
 wildcard-ads-new-1653986885.us-east-1.elb.amazonaws.com
 wip4.adobe.com
+wizard.liveperson.com
 wobble.s3.amazonaws.com
 world4ufree.com.co
 w.picsinfog.com
