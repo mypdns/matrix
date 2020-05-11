@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 # Copyright: https://www.mypdns.org/
-# Content: https://gitlab.com/spirillen
+# Content: https://www.mypdns.org/p/Spirillen/
 # Source: https://github.com/Import-External-Sources/pornhosts
 # License: https://www.mypdns.org/w/License
 # License Comment: GNU AGPLv3, MODIFIED FOR NON COMMERCIAL USE
@@ -27,7 +27,7 @@ grep -ivE '[a-z0-9]+\.[a-z]+\.[a-z]+' "./tmp/rpz.missing" | head -n 1
 
 printf "\n"
 
-read -p "Enter domain to handle as 'domain.tld': " domain
+read -e -p "Enter domain to handle as 'domain.tld': " -i "$(grep -ivE '[a-z0-9]+\.[a-z]+\.[a-z]+' './tmp/rpz.missing' | head -n 1)" domain
 
 # read -p "Enter Matrix GH issue ID: " issue
 read -p "Enter Pornhost Issue ID: " pissue
