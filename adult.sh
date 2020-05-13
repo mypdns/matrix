@@ -13,8 +13,7 @@
 # Please forward any additions, corrections or comments by logging an
 # issue at https://www.mypdns.org/maniphest/
 
-set -e
-#set -x
+set -e #-x
 
 # Do we have pdnsutil installed on this machine?
 hash pdnsutil 2>/dev/null || { echo >&2 "pdnsutil Is required, but it's not installed.  Aborting..."; exit 1; }
@@ -29,16 +28,24 @@ printf "\n"
 
 read -e -p "Enter domain to handle as 'domain.tld': " -i "$(grep -ivE '[a-z0-9]+\.[a-z]+\.[a-z]+' './tmp/rpz.missing' | head -n 1)" domain
 
-# read -p "Enter Matrix GH issue ID: " issue
-read -p "Enter Pornhost Issue ID: " pissue
+read -p "Enter Pornhost Issue ID: " issue
 #read -p "Enter MyPdns.org Phabricator ID: " tissue
 
 printf "\nAdding domain: $domain\n"
 printf "$domain\n" >> "source/porno-sites/wildcard.list"
 
-#printf "\nGit commit $domain\nwith Matrix issue ID: $issue\n"
-printf "\nGit commit $domain\nwith Pornhost issue ID: $pissue\n"
+printf "\nGit commit $domain\nwith Pornhost issue ID: $issue\n"
 #printf "\nGit commit $domain\n MypDNS Bug: T$tissue\n"
+
+# https://askubuntu.com/questions/29215/how-can-i-read-user-input-as-an-array-in-bash/29582#29582
+array=()
+while IFS= read -r -p "Additional requirements for hosts (end with an empty line): " line; do
+    [[ $line ]] || break  # break if line is empty
+    array+=("$line")
+done
+
+#printf '%s\n' "Items read:"
+#printf '  «%s»\n' "${array[@]}"
 
 #printf "\nsed $domain\n"
 sed -i "/${domain}/d" "./tmp/t2.list"
@@ -48,22 +55,17 @@ sed -i "/${domain}/d" "./source/porno-sites/wildcard.list.old"
 
 git commit -am "Adding new porno domain \`${domain}\`
 
-Related issue: https://github.com/spirillen/pornhosts/issues/${pissue}
+Related issue: https://github.com/spirillen/pornhosts/issues/${issue}
 
 You can read more about this particular Porn blocking project at
 https://www.mypdns.org/project/view/10/
-
-This submission enhanced the true power of My DNS Privacy Firewall
-by https://www.mypdns.org/.
 
 If you would like to learn more about how to use the RPZ powered DNS
 Firewall with our zone files, you can read more about it here
 https://www.mypdns.org/w/rpz
 
 You can read about about our different zones here
-https://www.mypdns.org/w/rpzList
-
-[ci skip]"
+https://www.mypdns.org/w/rpzList"
 
 # Following code will only succeed if you have admin access to our DNS
 # Servers at https://www.mypdns.org/
@@ -85,11 +87,11 @@ cd "../../../github/pornhosts/"
 printf "$domain\n" >> "submit_here/hosts.txt"
 #printf "www.$domain\n" >> "submit_here/hosts.txt"
 
-printf "Added ${domain} Closes https://github.com/Import-External-Sources/pornhosts/issues/${pissue}\n\n" >> commit.msg
+printf "Added ${domain} Closes https://github.com/Import-External-Sources/pornhosts/issues/${issue}\n\n" >> commit.msg
 
 #git commit -am "Adding new porno domain \`${domain}\`
 
-#Closes https://github.com/spirillen/pornhosts/issues/${pissue}
+#Closes https://github.com/spirillen/pornhosts/issues/${issue}
 
 #Source: https://github.com/Sinfonietta/hostfiles/pull/100
 
