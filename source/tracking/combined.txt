@@ -1934,6 +1934,7 @@ goo.gl
 googleadservices.com
 googleanalytcs.com
 googleapi.club
+googleoptimize.com
 googlerank.info
 gooo.al
 gopjn.com
