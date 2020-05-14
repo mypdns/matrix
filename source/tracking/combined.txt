@@ -149,6 +149,7 @@ anti-bot.baidu.com
 api-dot-mwm-ab-testing.appspot.com
 api-dot-mwm-ad-mediation.appspot.com
 api.github.com
+api.instagram.com
 apphack.mobi
 arc.msn.com
 as43dsawqa.appspot.com
@@ -169,6 +170,7 @@ bf-analytics-tracker-useast-as.azurewebsites.net
 b.hiphotos.baidu.com
 bitdash-reporting.appspot.com
 bitmovin-bitanalytics.appspot.com
+black.ish.instagram.com
 bo934pesdisz.appspot.com
 bo9rsdpxoaz.appspot.com
 boksy.dir.onet.pl
@@ -304,6 +306,7 @@ hnbutton.appspot.com
 ibeat.indiatimes.com
 ibeats.indiatimes.com
 iczopc9adozpxz.appspot.com
+i.instagram.com
 ima3vpaid.appspot.com
 images.dmca.com
 img.scoop.co.nz
@@ -345,6 +348,7 @@ lightboxapi2.azurewebsites.net
 lightboxapi3.azurewebsites.net
 location-inference-westus.cloudapp.net
 log.ebonybooty.pics
+logger.instagram.com
 lplbackoffice.azurewebsites.net
 mailfoogae.appspot.com
 majik102502.appspot.com
@@ -393,6 +397,7 @@ pcookie.aliexpress.com
 petitionermaster.appspot.com
 ping-dot-acp-magento.appspot.com
 piwik.information.dk
+platform.instagram.com
 play.vidzi.tv
 ploenjitmedia.azurewebsites.net
 polltest.azurewebsites.net
@@ -460,6 +465,7 @@ tankfarmleaseagent-dot-yamm-track.appspot.com
 taonodaofofsiapeopodocsapp.appspot.com
 tap-nexus.appspot.com
 tc-bic.appspot.com
+telegraph-ash.instagram.com
 telemetry.dropbox.com
 telemetry.v.dropbox.com
 terte9spxzias.appspot.com
@@ -519,6 +525,7 @@ webiq-cdn-hr.appspot.com
 webiq-warp.appspot.com
 webiq-warp-hrd.appspot.com
 whatsappcallinginvites.appspot.com
+white.ish.instagram.com
 wm.baidu.com
 wn.pos.baidu.com
 wtm.monitoringservice.co
@@ -1972,6 +1979,7 @@ gramombird.com
 granify.com
 grapeshot.co.uk
 grapheffect.com
+graph.instagram.com
 graucoay.net
 gravity4.com
 greengaming.de
