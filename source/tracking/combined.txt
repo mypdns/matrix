@@ -277,6 +277,7 @@ geoapi.indiatimes.com
 geoip.ubuntu.com
 geo-locate.appspot.com
 geotargetly-1a441.appspot.com
+geo.thehindu.com
 getonedrive.azurewebsites.net
 gf54tgfzxz.appspot.com
 gimg.baidu.com
