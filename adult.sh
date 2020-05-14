@@ -19,6 +19,7 @@ set -e #-x
 hash pdnsutil 2>/dev/null || { echo >&2 "pdnsutil Is required, but it's not installed.  Aborting..."; exit 1; }
 
 # This Script is only to commit wildcard domains into porn list
+# Next release will contain hosts style submissions
 
 printf "\nNext porno domain issues\n\n"
 
@@ -26,10 +27,30 @@ grep -ivE '[a-z0-9]+\.[a-z]+\.[a-z]+' "./tmp/rpz.missing" | head -n 1
 
 printf "\n"
 
-read -e -p "Enter domain to handle as 'domain.tld': " -i "$(grep -ivE '[a-z0-9]+\.[a-z]+\.[a-z]+' './tmp/rpz.missing' | head -n 1)" domain
+read -e -r -p "Enter domain to handle as 'domain.tld': " -i "$(grep -ivE '[a-z0-9]+\.[a-z]+\.[a-z]+' './tmp/rpz.missing' | head -n 1)" domain
 
-read -p "Enter Pornhost Issue ID: " issue
-#read -p "Enter MyPdns.org Phabricator ID: " tissue
+# Request for the needs of www. for primary domain
+while true
+do
+read -r -p "Append WWW to ${domain} [Y/n] " input
+
+case $input in
+	[yY][eE][sS]|[yY])
+ _www="true"
+ break
+ ;;
+	[nN][oO]|[nN])
+ _www="false"
+ break
+        ;;
+     *)
+ echo "Invalid input..."
+ ;;
+ esac
+done
+
+read -rp "Enter Pornhost Issue ID: " issue
+#read -rp "Enter MyPdns.org Phabricator ID: " tissue
 
 printf "\nAdding domain: $domain\n"
 printf "$domain\n" >> "source/porno-sites/wildcard.list"
@@ -38,19 +59,17 @@ printf "\nGit commit $domain\nwith Pornhost issue ID: $issue\n"
 #printf "\nGit commit $domain\n MypDNS Bug: T$tissue\n"
 
 # https://askubuntu.com/questions/29215/how-can-i-read-user-input-as-an-array-in-bash/29582#29582
-array=()
+additional=()
 while IFS= read -r -p "Additional requirements for hosts (end with an empty line): " line; do
     [[ $line ]] || break  # break if line is empty
-    array+=("$line")
+    additional+=("$line")
 done
-
-#printf '%s\n' "Items read:"
-#printf '  «%s»\n' "${array[@]}"
 
 #printf "\nsed $domain\n"
 sed -i "/${domain}/d" "./tmp/t2.list"
 sed -i "/${domain}/d" "./tmp/67.list"
 sed -i "/${domain}/d" "./tmp/rpz.missing"
+sed -i "/${domain}/d" "./tmp/rpz.missing.bak"
 sed -i "/${domain}/d" "./source/porno-sites/wildcard.list.old"
 
 git commit -am "Adding new porno domain \`${domain}\`
@@ -69,6 +88,7 @@ https://www.mypdns.org/w/rpzList"
 
 # Following code will only succeed if you have admin access to our DNS
 # Servers at https://www.mypdns.org/
+# Everybody else needs to out comment the following lines
 printf "\nAdding ${domain} to our RPZ\n"
 pdnsutil add-record "adult.mypdns.cloud" "${domain}" CNAME 86400 .
 pdnsutil add-record "adult.mypdns.cloud" "*.${domain}" CNAME 86400 .
@@ -84,9 +104,20 @@ printf "\n\tStarting to commit to pornhosts\n\n"
 
 cd "../../../github/pornhosts/"
 
+# Adding primary domain
 printf "$domain\n" >> "submit_here/hosts.txt"
-#printf "www.$domain\n" >> "submit_here/hosts.txt"
 
+# Are we going to submit the domain with or without _www.domain?
+if [ ${_www} == "true" ]
+then
+printf "www.$domain\n" >> "submit_here/hosts.txt"
+fi
+
+# Append hosts file specific requirements
+printf '%s\n' "Appending additional hosts requirements:"
+printf '%s\n' "${additional[@]}"
+
+# The next part should be a seperate branch with a MR
 printf "Added ${domain} Closes https://github.com/Import-External-Sources/pornhosts/issues/${issue}\n\n" >> commit.msg
 
 #git commit -am "Adding new porno domain \`${domain}\`
