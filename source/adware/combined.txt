@@ -92,6 +92,7 @@ ads2-adnow.com
 ads2.contentabc.com
 ads.avocet.io
 ads.aws.viber.com
+ads-bidder-api.twitter.com
 adscaspion.appspot.com
 ads.chaturbate.com
 ads.digitalcaramel.com
