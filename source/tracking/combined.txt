@@ -419,6 +419,7 @@ rs-xpromotion.appspot.com
 rtb.connatix.com
 r.wdfl.co
 ry54sdfagsa.appspot.com
+sa.api.intl.miui.com
 sales-pop-dot-autoketing-production-sdk.appspot.com
 s.baidu.com
 sc-analytics.appspot.com
