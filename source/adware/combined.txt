@@ -95,6 +95,7 @@ ads.aws.viber.com
 ads-bidder-api.twitter.com
 adscaspion.appspot.com
 ads.chaturbate.com
+adscontent2.indiatimes.com
 ads.digitalcaramel.com
 ads-dot-o7apps.appspot.com
 ads-d.viber.com
@@ -107,7 +108,9 @@ adservice.google.com
 adserwer.xwords.pl
 ads.globalmedianet.netdna-cdn.com
 ads.heias.com
+ads.indiatimes.com
 ads.lrb.co.uk
+adsmediaturf.indiatimes.com
 ads.miarroba.com
 ad-specs.guoshipartners.com
 ads.pro-market.net
@@ -116,6 +119,7 @@ ads.qz.com
 adsrvmedia.adk2.co
 ads.sexhihi.tv
 ads.superawesome.tv
+adstil.indiatimes.com
 ads.tremorhub.com
 ads.viber.com
 ads.yemonisoni.com
@@ -546,6 +550,7 @@ medya.ilan.gov.tr
 messagingsystem.s3.amazonaws.com
 metrics.readme.io
 m.maidiankeji.org
+mobileads.indiatimes.com
 mobileanalytics.us-east-1.amazonaws.com
 mobiledl.adobe.com
 mobilemetrics.appspot.com
@@ -564,6 +569,9 @@ my.top100.photo
 nativead.s3.amazonaws.com
 nativex-sdk.appspot.com
 ncads.s3.amazonaws.com
+netspiderads2.indiatimes.com
+netspiderads3.indiatimes.com
+netspiderads.indiatimes.com
 nnd.xyssp.com
 nojsstats.appspot.com
 offerssyndication.appspot.com
@@ -735,6 +743,7 @@ te.latimes.com
 test.verplusonline.com
 thetradedesk-ads-video.s3.amazonaws.com
 timesofindia.indiatimes.com
+timestrends.indiatimes.com
 tim.nextinpact.com
 tm-offers.gamingadult.com
 t.mtagmonetizationb.com
