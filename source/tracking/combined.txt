@@ -134,6 +134,7 @@ alt.bugsense.appspot.com
 amp-error-reporting.appspot.com
 analytics.allovoisins.co
 analytics.alternativet.dk
+analytics.cliqz.com
 analytics.developer.riotgames.com
 analytics.ext.go-tellm.com
 analytics.getshogun.com
@@ -145,7 +146,12 @@ androidapp.baidu.com
 android.bugly.qq.com
 androidc.mxplay.com
 androidquery.appspot.com
+anolysis-gid.cliqz.com
+anolysis.privacy.cliqz.com
+anolysis-telemetry.cliqz.com
 anti-bot.baidu.com
+antiphishing.cliqz.com
+api.cliqz.com
 api-dot-mwm-ab-testing.appspot.com
 api-dot-mwm-ad-mediation.appspot.com
 api.github.com
@@ -187,6 +193,7 @@ caspionlog.appspot.com
 cb.baidu.com
 cbjs.baidu.com
 ccsv9psos.appspot.com
+cdn.cliqz.com
 cdn.shopify.com
 c.hiphotos.baidu.com
 chrome-devtools-frontend.appspot.com
@@ -195,8 +202,11 @@ chtatic.appspot.com
 civso0qas.appspot.com
 cjhq.baidu.com
 client.baidu.com
+cliqz.com
 cluster.chart.dk
 collector.githubapp.com
+collector-hpn.cliqz.com
+collector.hpn.cliqz.com
 connect.facebook.com
 connect.facebook.net
 contadores.miarroba.com
@@ -303,6 +313,7 @@ hjs9dpxzsa.appspot.com
 hkofs924paazxpvma99a4s.appspot.com
 hm.baidu.com
 hnbutton.appspot.com
+hpn-collector.cliqz.com
 ibeat.indiatimes.com
 ibeats.indiatimes.com
 iczopc9adozpxz.appspot.com
@@ -365,6 +376,7 @@ mobads.baidu.com
 mobilemetrics.appspot.com
 modern.watson.data.microsoft.com.akadns.net
 moneymoneymoney.azurewebsites.net
+mozsocial.cliqz.com
 mparticle.com
 muchbloom.appspot.com
 musculahq.appspot.com
@@ -378,6 +390,7 @@ notify.bugsnag.com
 novem.onet.pl
 nsclick.baidu.com
 nvcuiaoc0aspxzcs.appspot.com
+offers-api.cliqz.com
 offerssyndication.appspot.com
 offerswall.appspot.com
 offibluemixsharebunner.appspot.com
@@ -426,6 +439,8 @@ rtb.connatix.com
 r.wdfl.co
 ry54sdfagsa.appspot.com
 sa.api.intl.miui.com
+safe-browsing.cliqz.com
+safe-browsing-quorum.cliqz.com
 sales-pop-dot-autoketing-production-sdk.appspot.com
 s.baidu.com
 sc-analytics.appspot.com
@@ -449,6 +464,7 @@ spine-insights.appspot.com
 s.shopify.com
 staticw2.yotpo.com
 statistic.ads24h.net
+stats.cliqz.com
 stats.grafikart.fr
 stats.hprofits.com
 stats.media.onet.pl
