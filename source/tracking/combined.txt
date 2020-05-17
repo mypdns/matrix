@@ -2831,6 +2831,7 @@ online-metrix.net
 onlinepbx.ru
 onlysix.co.uk
 onthe.io
+ooyala.com
 opbandit.com
 openclick.com
 openguid.org
@@ -3231,6 +3232,7 @@ sbdtds.com
 scaledb.com
 scaleway.ovh
 scarabresearch.com
+schibsted.io
 schoolyeargo.com
 sciencerevenue.com
 scintillatingspace.com
