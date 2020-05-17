@@ -157,7 +157,6 @@ antiphishing.cliqz.com
 api.cliqz.com
 api-dot-mwm-ab-testing.appspot.com
 api-dot-mwm-ad-mediation.appspot.com
-api.github.com
 api.instagram.com
 apphack.mobi
 arc.msn.com
