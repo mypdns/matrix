@@ -137,10 +137,13 @@ analytics.alternativet.dk
 analytics.cliqz.com
 analytics.developer.riotgames.com
 analytics.ext.go-tellm.com
+analytics.ff.avast.com
 analytics.getshogun.com
 analytics.kidoz.net
+analytics.ns1.ff.avast.com
 analytics.sketchup.com
 analytics.smallpdf.com
+analytics-stage.ff.avast.com
 androidapi.mxplay.com
 androidapp.baidu.com
 android.bugly.qq.com
@@ -333,6 +336,8 @@ instagram.felp1-1.fna.fbcdn.net
 instagram.fkgf1-1.fna.fbcdn.net
 instagram.flux1-1.fna.fbcdn.net
 ip-geo.appspot.com
+ip-info.ff.avast.com
+ipm-provider.ff.avast.com
 ipv6-wildcard.applovin.com.edgekey.net
 irty8pxzozx.appspot.com
 isfipxo9apzxap.appspot.com
@@ -373,6 +378,7 @@ m.hotmail.com
 mine.nahnoji.cz
 mine.torrent.pw
 mobads.baidu.com
+mobile-campaigns.avast.com
 mobilemetrics.appspot.com
 modern.watson.data.microsoft.com.akadns.net
 moneymoneymoney.azurewebsites.net
@@ -464,6 +470,7 @@ spine-insights.appspot.com
 s.shopify.com
 staticw2.yotpo.com
 statistic.ads24h.net
+stats.avast.com
 stats.cliqz.com
 stats.grafikart.fr
 stats.hprofits.com
@@ -520,12 +527,15 @@ truehits1.gits.net.th
 tryt5fdxsa.appspot.com
 ucstat.baidu.com
 uhf.microsoft.com
+uib.ff.avast.com
 ui.swogo.net
 union.baidu.com
 unstat.baidu.com
 updown.mobileassist.baidu.com
 utility.baidu.com
 v10.vortex-win.data.microsoft.com
+v7event.stats.avast.com
+v7.stats.avast.com
 vdsg2fasz.appspot.com
 vkbox93ppxzsaozxo.appspot.com
 vkcdnservice.appspot.com
@@ -864,6 +874,7 @@ afairweb.com
 affforce.com
 affilae.com
 affiliateedge.eu
+affiliate-getfluence.com
 affiliatly.com
 affinesystems.com
 affinitymatrix.com
@@ -935,7 +946,6 @@ analytics.blue
 analyticschecker.com
 analytics.edgekey.net
 analytics-egain.com
-analytics.ff.avast.com
 analyticson.com
 analyticswizard.com
 analytk.com
@@ -1603,6 +1613,7 @@ dominocounter.net
 domodomain.com
 dotaki.com
 dotomi.com
+doubleclick.net
 doubleverify.com
 dpbolvw.net
 dprtb.com
@@ -1934,6 +1945,7 @@ getblueshift.com
 getclicky.com
 getconversion.net
 getdrip.com
+getfluence.com
 getfreebl.com
 getrewardful.com
 getrockerbox.com
