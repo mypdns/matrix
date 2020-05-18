@@ -19,33 +19,13 @@ set -e #-x
 pushd . > /dev/null
 SCRIPT_PATH="${BASH_SOURCE[0]}";
 if ([ -h "${SCRIPT_PATH}" ]) then
-  while([ -h "${SCRIPT_PATH}" ]) do cd "$(dirname "$SCRIPT_PATH")"; SCRIPT_PATH="$(readlink "${SCRIPT_PATH}")"; done
+  while([ -h "${SCRIPT_PATH}" ]) do cd $(dirname "$SCRIPT_PATH"); SCRIPT_PATH=$(readlink "${SCRIPT_PATH}"); done
 fi
-cd "$(dirname "${SCRIPT_PATH}".)" > /dev/null
+cd $(dirname "${SCRIPT_PATH}".) > /dev/null
 SCRIPT_PATH=$(pwd);
 popd  > /dev/null
 
-export ROOT_DIR="$(dirname "$SCRIPT_PATH")"
-
-# import config values from api.cfg
-# https://stackoverflow.com/questions/5228345/how-to-reference-a-file-for-variables-using-bash/36164878#36164878
-#
-
-configfile='$ROOT_DIR/api/api.cfg'
-if [ -f ${configfile} ]; then
-    echo "Reading user config...." >&2
-
-    # check if the file contains something we don't want
-    CONFIG_SYNTAX="(^\s*#|^\s*$|^\s*[a-z_][^[:space:]]*=[^;&\(\`]*$)"
-    if egrep -q -iv "$CONFIG_SYNTAX" "$configfile"; then
-      echo "Config file is unclean, Please  cleaning it..." >&2
-      exit 1
-    fi
-    # now source it, either the original or the filtered variant
-    source "$configfile"
-else
-    echo "There is no configuration file call ${configfile}"
-fi
+ROOT_DIR="$(dirname "$SCRIPT_PATH")"
 
 # Do we have pdnsutil installed on this machine?
 hash pdnsutil 2>/dev/null || { echo >&2 "pdnsutil Is required, but it's not installed.  Aborting..."; exit 1; }
@@ -55,8 +35,9 @@ hash pdnsutil 2>/dev/null || { echo >&2 "pdnsutil Is required, but it's not inst
 
 printf "\nNext porno domain issues\n\n"
 
-#grep -ivE '[a-z0-9]+\.[a-z]+\.[a-z]+' "./tmp/rpz.missing" | head -n 1
-#printf "\n"
+grep -ivE '[a-z0-9]+\.[a-z]+\.[a-z]+' "./tmp/rpz.missing" | head -n 1
+
+printf "\n"
 
 read -e -r -p "Enter domain to handle as 'domain.tld': " \
   -i "$(grep -ivE '[a-z0-9]+\.[a-z]+\.[a-z]+' './tmp/rpz.missing' | head -n 1)" \
@@ -86,69 +67,32 @@ read -rp "Enter Pornhost Issue ID: " issue
 read -rp "Enter MyPdns.org Phabricator ID: " mypdns_id
 
 # Setup some general functions and variables
-export _branch_name="submit/${domain//\./_}"
+_branch_name="submit/${domain//\./_}"
 
 git_commit () {
-    git push origin "${_branch_name}"
-    git checkout "${base}"
+git checkout master
+git push origin "$_branch_name"
 }
 
 git_commit_mypdns () {
-    git checkout "${base}"
-    git merge --no-ff "${_branch_name}"
-    git push origin "${base}"
-    git push origin "${_branch_name}"
-    git branch -D "${_branch_name}"
-}
-
-ScreenShot () {
-    git checkout "${base}"
-    $(command -v firefox) -CreateProfile CleanFF --headless
-    $(command -v firefox) -P "CleanFF" --headless --screenshot "$_IP/screenshots/$domain.png" "http://$domain/"
-    git add "screenshots/$domain.png"
-    git commit -m "SCreenShot for $domain"
-    git push
-}
-
-json () {
-
-body="$(echo "${template}" | awk '{printf "%s\\r\\n", $0}')"
-
-cat <<EOF > output.json
-{
-"title": "${domain}",
-"head": "${_branch_name}",
-"base": "${base}",
-"body": "$body"
-}
-EOF
-
-commit_msg="$(jq -c '.' output.json)"
-}
-
-PullRequest () {
-    json
-    apiurl=$(git remote get-url origin | sed -e 's/\.git//g' | awk -F ":" '{ printf ("%s\n",tolower($2)) }')
-
-
-    "${_api_token}"
+git checkout master
+git merge --no-ff "$_branch_name"
+git push origin master
+git push origin "$_branch_name"
+git branch -D "$_branch_name"
 }
 
 ###
-export base="master"
 
-printf "Changing branch to %s\n" "${_branch_name}"
-git checkout -b "submit/$_branch_name" "${base}"
+printf "Changing branch to %s\n" "$_branch_name"
+git checkout -b "submit/$_branch_name" master
 
 printf "\nAdding domain: %s\n" "$domain"
 printf "%s\n" >> "source/porno-sites/wildcard.list" "$domain"
 
 printf "\nGit commit %s\nwith Pornhost issue ID: %s\n" "$domain" "$issue"
 
-if [ -n "${mypdns_id}" ]
-then
 printf "\nGit commit $domain\n MypDNS Bug: T%s\n" "$mypdns_id"
-fi
 
 # https://askubuntu.com/questions/29215/how-can-i-read-user-input-as-an-array-in-bash/29582#29582
 additional=()
@@ -170,25 +114,36 @@ git commit -am "Adding new porno domain \`${domain}\`
 
 Related issue: https://github.com/spirillen/pornhosts/issues/${issue}
 
-${footer}"
+You can read more about this particular Porn blocking project at
+https://www.mypdns.org/project/view/10/
 
+If you would like to learn more about how to use the RPZ powered DNS
+Firewall with our zone files, you can read more about it here
+https://www.mypdns.org/w/rpz
+
+You can read about about our different zones here
+https://www.mypdns.org/w/rpzList"
 else
-
 git commit -am "Adding new porno domain \`${domain}\`
 
-Closes T${mypdns_id}
-
-- https://www.mypdns.org/T${mypdns_id}
+Closes T${mypdns_id}	https://www.mypdns.org/T${mypdns_id}
 
 Related issue: https://github.com/spirillen/pornhosts/issues/${issue}
 
-${footer}"
+You can read more about this particular Porn blocking project at
+https://www.mypdns.org/project/view/10/
 
+If you would like to learn more about how to use the RPZ powered DNS
+Firewall with our zone files, you can read more about it here
+https://www.mypdns.org/w/rpz
+
+You can read about about our different zones here
+https://www.mypdns.org/w/rpzList"
 fi
 
 git_commit_mypdns
 
-# Following code will only succeed if you have admin access to the DNS
+# Following code will only succeed if you have admin access to our DNS
 # Servers at https://www.mypdns.org/
 # Everybody else needs to out comment the following lines
 printf "\nAdding %s to our RPZ\n" "$domain"
@@ -202,14 +157,10 @@ pdnsutil increase-serial 'adult.mypdns.cloud'
 
 printf "\n\tStarting to commit to pornhosts\n\n"
 
-cd "$_IP"
-base="master"
-
-# Get the screenshot
-ScreenShot
+cd "../../../github/pornhosts/"
 
 # Change branch
-git checkout -b "submit/$_branch_name" "${base}"
+git checkout -b "submit/$_branch_name" master
 
 # Adding primary domain
 printf "%s\n" >> "submit_here/hosts.txt" "$domain"
@@ -224,7 +175,7 @@ fi
 if [ -n "${additional[1]}" ]
 then
     printf '%s\n' "Appending additional hosts requirements:"
-    printf '%s\n' "${additional[@]}" >> "submit_here/hosts.txt"
+    printf '%s\n' "${additional[@]}"
 fi
 
 
@@ -234,7 +185,15 @@ git commit -am "Adding new porno domain \`${domain}\`
 
 Closes https://github.com/Import-External-Sources/pornhosts/issues/${issue}
 
-${footer}"
+You can read more about this particular Porn blocking project at
+https://www.mypdns.org/project/view/10/
+
+If you would like to learn more about how to use the RPZ powered DNS
+Firewall with our zone files, you can read more about it here
+https://www.mypdns.org/w/rpz
+
+You can read about about our different zones here
+https://www.mypdns.org/w/rpzList"
 
 else
 
@@ -244,63 +203,18 @@ Closes https://github.com/Import-External-Sources/pornhosts/issues/${issue}
 
 Related issue: https://www.mypdns.org/T${mypdns_id}
 
-${footer}"
+You can read more about this particular Porn blocking project at
+https://www.mypdns.org/project/view/10/
+
+If you would like to learn more about how to use the RPZ powered DNS
+Firewall with our zone files, you can read more about it here
+https://www.mypdns.org/w/rpz
+
+You can read about about our different zones here
+https://www.mypdns.org/w/rpzList"
 fi
 
 git_commit
-
-bash api/pr_template.sh
-
-# Let's also commit to clefspeare13/pornhosts while are at it
-# but only in new style
-
-printf "\n\tStarting to commit to clefspeare13\n\n"
-
-cd "$_CP"
-
-export base="feature/one_place_to_commit"
-
-# Change branch
-git checkout -b "submit/$_branch_name" "${base}"
-
-# Adding primary domain
-printf "%s\n" >> "submit_here/hosts.txt" "$domain"
-
-# Are we going to submit the domain with or without _www.domain?
-if [ ${_www} == "true" ]
-then
-printf "www.%s\n" >> "submit_here/hosts.txt" "$domain"
-fi
-
-# Append hosts file specific requirements
-if [ -n "${additional[1]}" ]
-then
-    printf '%s\n' "Appending additional hosts requirements:"
-    printf '%s\n' "${additional[@]}" >> "submit_here/hosts.txt"
-fi
-
-if [ -z "${mypdns_id}" ]
-then
-git commit -am "Adding new porno domain \`${domain}\`
-
-Closes https://github.com/Import-External-Sources/pornhosts/issues/${issue}
-
-${footer}"
-
-else
-
-git commit -am "Adding new porno domain \`${domain}\`
-
-Closes https://github.com/Import-External-Sources/pornhosts/issues/${issue}
-
-Related issue: https://www.mypdns.org/T${mypdns_id}
-
-${footer}"
-fi
-
-git_commit
-
-bash api/pr_template.sh
 
 # Get back to script path (matrix)
 cd "${ROOT_DIR}"
@@ -309,5 +223,4 @@ cd "${ROOT_DIR}"
 #grep -iE '[a-z0-9]+\.[a-z]+\.[a-z]+' source/porno-sites/wildcard.list | grep -viE '(co.(uk|jp|za))|(com.(au|br))$'
 
 # Let's start over.
-# https://askubuntu.com/questions/356800/how-to-completely-restart-script-from-inside-the-script-itself/356964#356964
-exec ${0} && exit
+./adult.sh
