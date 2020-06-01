@@ -1337,6 +1337,7 @@ cmcintra.net
 cmcore.com
 cmmeglobal.com
 cmptch.com
+cmrdr.com
 cnhv.co
 cnt1.net
 cnxweb.com
@@ -2285,6 +2286,7 @@ jirafe.com
 jivosite.com
 jixie.io
 joinmy.site
+jppol.dk
 jqassets.download
 jquery-cdn.download
 jqwww.download
