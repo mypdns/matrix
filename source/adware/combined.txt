@@ -1402,6 +1402,7 @@ adsco.re
 adscore.com
 adsenseguard.com
 adserved.net
+adserver.yahoo.com
 adsglow.net
 adshell.net
 adskeeper.co.uk
