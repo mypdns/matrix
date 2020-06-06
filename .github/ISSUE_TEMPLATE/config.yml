@@ -1,0 +1,41 @@
+blank_issues_enabled: false
+contact_links:
+  - name: My Privacy DNS Community Support
+    url: https://www.mypdns.org/ponder/
+    about: Please ask and answer questions here.
+  - name: AdWare
+    url: https://www.mypdns.org/maniphest/task/edit/form/3/
+    about: Report any (AdWare)[https://www.mypdns.org/w/adware/] domain here
+  - name: DNS Firewall about Adult contents
+    url: https://github.com/Import-External-Sources/pornhosts
+    about: Please report adult contents here.
+  - name: Block DNS Server
+    url: https://www.mypdns.org/maniphest/task/edit/form/4/
+    about: If you have found a DNS Server that is only is used for bad things or maybe only used for hosting domains in adult material
+  - name: Hijacked / Pirated / Sharked
+    url: https://www.mypdns.org/maniphest/task/edit/form/10/
+    about: Report any Hijacked or Pirated domain here.
+  - name: IP Blocking
+    url: https://www.mypdns.org/maniphest/task/edit/form/8/
+    about: If you would like to report `IP Blocking` addresses to be blocked. Report by CIDR range (/xx).
+  - name: Malicious
+    url: https://www.mypdns.org/maniphest/task/edit/form/12/
+    about: Report any Malicious domains here
+  - name: Redirecting
+    url: https://www.mypdns.org/maniphest/task/edit/form/9/
+    about: Any domains used explicit to redirect urls, Typically used as AdWare and Tracking at the same time
+  - name: Scam / Spam
+    url: https://www.mypdns.org/maniphest/task/edit/form/7/
+    about: Any domain araised from spam or domain used for scamming like pretending to be a Microsoft supporter who have called you, laiming you have a lot of issues with your installation
+  - name: SpyWare
+    url: https://www.mypdns.org/maniphest/task/edit/form/6/
+    about: Report any kind of SpyWare here. SpyWare is a weird classification, TrackWare actually also is SpyWare and SpyWare is used for Tracking you.. The deffinition is therefor: SpyWare is unwanted Tracking installed by software. E.g. Google OS, 360totalsecurity, Avast
+  - name: Tracking
+    url: https://www.mypdns.org/maniphest/task/edit/form/5/
+    about: Report any domain used for Tracking
+  - name: Typo Squatting
+    url: https://www.mypdns.org/maniphest/task/edit/form/13/
+    about: Typo Squatting or Cyber Squatting domains
+  - name: Other issues
+    url: https://www.mypdns.org/maniphest/task/edit/form/1/
+    about: If you have a issue or found a bug this is the place.
