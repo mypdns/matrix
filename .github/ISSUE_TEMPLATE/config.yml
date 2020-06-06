@@ -5,7 +5,7 @@ contact_links:
     about: Please ask and answer questions here.
   - name: AdWare
     url: https://www.mypdns.org/maniphest/task/edit/form/3/
-    about: Report any (AdWare)[https://www.mypdns.org/w/adware/] domain here
+    about: Report any AdWare domain here
   - name: DNS Firewall about Adult contents
     url: https://github.com/Import-External-Sources/pornhosts
     about: Please report adult contents here.
@@ -17,7 +17,7 @@ contact_links:
     about: Report any Hijacked or Pirated domain here.
   - name: IP Blocking
     url: https://www.mypdns.org/maniphest/task/edit/form/8/
-    about: If you would like to report `IP Blocking` addresses to be blocked. Report by CIDR range (/xx).
+    about: If you would like to report IP Blocking addresses to be blocked. Report by CIDR range (/xx).
   - name: Malicious
     url: https://www.mypdns.org/maniphest/task/edit/form/12/
     about: Report any Malicious domains here
@@ -29,7 +29,7 @@ contact_links:
     about: Any domain araised from spam or domain used for scamming like pretending to be a Microsoft supporter who have called you, laiming you have a lot of issues with your installation
   - name: SpyWare
     url: https://www.mypdns.org/maniphest/task/edit/form/6/
-    about: Report any kind of SpyWare here. SpyWare is a weird classification, TrackWare actually also is SpyWare and SpyWare is used for Tracking you.. The deffinition is therefor: SpyWare is unwanted Tracking installed by software. E.g. Google OS, 360totalsecurity, Avast
+    about: Report any kind of SpyWare here. SpyWare is a weird classification, TrackWare actually also is SpyWare and SpyWare is used for Tracking you.. The deffinition is therefor SpyWare is unwanted Tracking installed by software. E.g. Google OS, 360totalsecurity, Avast
   - name: Tracking
     url: https://www.mypdns.org/maniphest/task/edit/form/5/
     about: Report any domain used for Tracking
