@@ -6,7 +6,7 @@ contact_links:
   - name: AdWare
     url: https://www.mypdns.org/maniphest/task/edit/form/3/
     about: Report any AdWare domain here
-  - name: DNS Firewall about Adult contents
+  - name: Adult contents
     url: https://github.com/Import-External-Sources/pornhosts
     about: Please report adult contents here.
   - name: Block DNS Server
