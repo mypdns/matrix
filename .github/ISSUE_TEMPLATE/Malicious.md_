@@ -1,8 +1,8 @@
 ---
-name: Sharked/hijacked Domain held hostage
-about: Submitting new Hijacked domain
+name: Malicious
+about: Submitting new Malicious domain
 title: ''
-labels: Domain Sharked
+labels: Malicious
 assignees: AnonymousPoster, spirillen
 
 ---
@@ -11,24 +11,23 @@ assignees: AnonymousPoster, spirillen
 
 <!-- Keep any domains in back ticks `(`)`
 
-Screenshot is required within the <details> pane. Leave a blank line before 
+Screenshot is required within the <details> pane. Leave a blank line before
 and after the image link -->
 
-This outdated domain have been Sharked and should be blocked to avoid 
-scam in this format..
+This 'Malicious' domain have to be blocked as..
 
-- [ ] [Single domain blocking](source/sharked-domains/domains.list)
-- [X] [Wildcarded](source/sharked-domains/wildcard.list)
+- [ ] [Single Domain](source/malicious/domains.list)
+- [x] [Wild carded](source/malicious/wildcard.list)
 
 ```python
-example.org   CNAME . ; DomainSharks
-*.example.org   CNAME . ; DomainSharks
+example.org   CNAME . ; Malicious
+*.example.org   CNAME . ; Malicious
 ```
 
 ## Relevant logs and/or screenshots
-<!-- Paste any relevant logs - please use code blocks (```) to format 
+
+<!-- Paste any relevant logs - please use code blocks (```) to format
 console output, logs, and code as it's very hard to read otherwise. -->
-<!-- required -->
 
 ## Screenshots
 
@@ -52,5 +51,5 @@ console output, logs, and code as it's very hard to read otherwise. -->
 - [ ] Have you successfully ran tests with your changes locally?
 
 ### Todo:
-- [ ] RPZ Server (Team members)
+- [ ] RPZ Server (Team @Spirillen)
 - [ ] Added to Source file
