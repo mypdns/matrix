@@ -12,6 +12,9 @@ contact_links:
   - name: Block DNS Server
     url: https://www.mypdns.org/maniphest/task/edit/form/4/
     about: If you have found a DNS Server that is only is used for bad things or maybe only used for hosting domains in adult material
+  - name: Gambling
+    url: https://www.mypdns.org/maniphest/task/edit/form/14/
+    anout: Report any gambling realted domains
   - name: Hijacked / Pirated / Sharked
     url: https://www.mypdns.org/maniphest/task/edit/form/10/
     about: Report any Hijacked or Pirated domain here.
