@@ -354,7 +354,6 @@ adservice.aliexpress.com
 adservice.google.com
 adserwer.xwords.pl
 ads.globalmedianet.netdna-cdn.com
-adsglow.net
 ads.heias.com
 adshell.net
 ads.indiatimes.com
