@@ -6,3 +6,4 @@ tmp/**.*
 output/
 dir_structure.json
 gambling.sh
+del_adware.sh
