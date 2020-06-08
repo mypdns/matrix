@@ -309,4 +309,5 @@ cd "${ROOT_DIR}"
 #grep -iE '[a-z0-9]+\.[a-z]+\.[a-z]+' source/porno-sites/wildcard.list | grep -viE '(co.(uk|jp|za))|(com.(au|br))$'
 
 # Let's start over.
-./adult.sh
+# https://askubuntu.com/questions/356800/how-to-completely-restart-script-from-inside-the-script-itself/356964#356964
+exec ${0} && exit
