@@ -676,7 +676,6 @@ appsflyer-web-3-1052820924.eu-west-1.elb.amazonaws.com
 appsflyer-web-4-962407740.eu-west-1.elb.amazonaws.com
 appsflyer-web-5-2093104013.eu-west-1.elb.amazonaws.com
 apscxogwydnkx.com
-apsntakwzycu.com
 apture.s3.amazonaws.com
 apyecom.com
 apytrc.com
