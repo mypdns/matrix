@@ -1,7 +1,9 @@
 #!/usr/bin/env bash
 
 # Exit on any errors
-set -e #-x
+set -e -x
+
+printf "\n\tRunning %s" "${0}"
 
 PrepareTravis () {
     git remote rm origin
@@ -60,5 +62,7 @@ fi
 #syntaxTest () {
 #	printf "\n\tHere we will do a syntax test and convert input to IDNA domains\n"
 #}
+
+printf "\n\n\n\n\n\n\n\n\n\n\n"
 
 exit ${?}

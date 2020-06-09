@@ -5,6 +5,8 @@
 # Happy havesting :)
 set -e -x
 
+printf "\n\tRunning %s" "${0}"
+
 truncate -s 0 "$TRAVIS_BUILD_DIR/source.list"
 
 cd "$TRAVIS_BUILD_DIR"
