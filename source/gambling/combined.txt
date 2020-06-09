@@ -52,8 +52,8 @@ drueckglueck.com
 drueckglueck.dk
 duelz.com
 eucasino.com
+eucasino.dk
 eurokingclub.com
-eurokingclub.dk
 eurolotto.com
 euromania.com
 fanpicks.dk
@@ -75,6 +75,7 @@ jambocasino.dk
 jetbull.dk
 kaiserslots.dk
 kalevalakasino.com
+kapowcasino.dk
 karamba.dk
 karhukasino.com
 kasinot.fi
@@ -94,9 +95,13 @@ luckyniki.com
 luckyniki.dk
 luckyvegas.com
 lunacasino.com
+lunacasino.dk
 luxurycasino.dk
+lynholdet.dk
 magicred.dk
+mariacasino.dk
 maxitip.cz
+megacasino.dk
 mewkid.net
 miamijackpots.com
 mrgreen.com
@@ -110,7 +115,6 @@ odds1.dk
 onetpedia.net
 onsidebetting.dk
 parisvegasclub.com
-parisvegasclub.dk
 partycasino.com
 partypoker.com
 partypoker.cz
@@ -124,17 +128,19 @@ playmillion.dk
 playojo.com
 playojo.dk
 pokergolden.biz
+pokerstarscasino.dk
 pokerstars.cz
 pokerstars.dk
 pokerstarssports.dk
+primecasino.dk
 prontocasino.com
 queenvegas.com
 queenvegas.dk
-rød25.dk
 rizk.com
 rod25.dk
 roed25.dk
 royalbet.com
+royalcasino.dk
 royale500.com
 sazka.cz
 sifa-online.dk
@@ -148,6 +154,7 @@ spildansknu.dk
 spilleautomaten.dk
 spillehallen.dk
 spilnu.dk
+spinlovers.com
 stakes.com
 stanleybet.dk
 staticcache.org
@@ -158,6 +165,7 @@ templenile.com
 tipsport.cz
 tipwin.com
 tipwin.dk
+tivolicasino.dk
 tombola.dk
 towerqq.website
 turbico.com
@@ -173,5 +181,6 @@ why-care.dk
 wildz.com
 williamhill.com
 wishmaker.com
+xn--rd25-gra.dk
 youbet.dk
 zweeler.com
