@@ -6,6 +6,12 @@ env:
   - GIT_BRANCH: master
   - TZ: UTC
 
+addons:
+  apt:
+    packages:
+    - dnsutils # Gives the dig
+    - ldnsutils # Gives the drill
+
 os: linux
 dist: bionic
 language: generic
