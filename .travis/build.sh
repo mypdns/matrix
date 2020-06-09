@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 # Exit on any errors
-set -e -x
+set -e #-x
 
 printf "\n\tRunning %s" "${0}"
 

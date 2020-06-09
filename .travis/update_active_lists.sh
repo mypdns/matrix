@@ -3,7 +3,7 @@
 # This script is intended to list all active lists from the data/
 # directory for easier imports from external sources....
 # Happy havesting :)
-set -e -x
+set -e #-x
 
 printf "\n\tRunning %s" "${0}"
 
