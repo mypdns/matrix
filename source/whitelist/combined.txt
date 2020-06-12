@@ -1,6 +1,8 @@
 edgekey.net
+ig.com.br
 i.imgur.com
 s3.amazonaws.com
+www.ig.com.br
 adguard.com
 adtidy.org
 discordapp.com
