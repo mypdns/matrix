@@ -1,17 +1,3 @@
-adserver-2.ig.com.br
-adserver-4.ig.com.br
-adserver-5.ig.com.br
-hfh.blig.ig.com.br
-igempresas.ig.com.br
-image.ig.com.br
-lb-adserver.ig.com.br
-plantao.ig.com.br
-registro.ig.com.br
-voxcards.ig.com.br
-webmail.ig.com.br
-www.hfh.blig.ig.com.br
-www.ig.com.br
-www.voxcards.ig.com.br
 1030z2bnst92zo6j523feq9e-wpengine.netdna-ssl.com
 2dprofessor.cadprofessor.netdna-cdn.com
 360.mediav.com
@@ -112,6 +98,9 @@ ads.digitalcaramel.com
 ads-dot-o7apps.appspot.com
 ads-d.viber.com
 ads.eorezo.com
+adserver-2.ig.com.br
+adserver-4.ig.com.br
+adserver-5.ig.com.br
 adserver.ad4link.com
 adserver-clarium-446793891.us-east-1.elb.amazonaws.com
 adservice.aliexpress.com
@@ -485,6 +474,7 @@ hartsfieldrowesville.salleyoklaunion.com
 hb.headbidder.net
 hdredirect-lb5-1afb6e2973825a56.elb.us-east-1.amazonaws.com
 heigvd-ads.s3-website-eu-west-1.amazonaws.com
+hfh.blig.ig.com.br
 hgss-savingyourlife.blog.onet.pl
 hipercontas.com.br
 hnbutton.appspot.com
@@ -497,9 +487,11 @@ hvtd.s3.amazonaws.com
 iacpromotion.s3.amazonaws.com
 idcardsupply.projectarcadiall.netdna-cdn.com
 id.kbmg.cz
+igempresas.ig.com.br
 ignifyecom.s3.amazonaws.com
 i.imgbox.com
 ima3vpaid.appspot.com
+image.ig.com.br
 img.56gmz.com
 img.balaiyani.com
 img.bimg.126.net
@@ -547,6 +539,7 @@ kinesisanalytics.eu-west-1.amazonaws.com
 kinesis.us-east-1.amazonaws.com
 landing.meendo.com
 later-analytics-reports.s3-accelerate.amazonaws.com
+lb-adserver.ig.com.br
 limelightovp3.creatorcloud.netdna-cdn.com
 llnk.eu
 llsp.gfd80.com
@@ -630,6 +623,7 @@ petitionermaster.appspot.com
 pfm-pdn-bucket.s3-website-us-east-1.amazonaws.com
 pinpoint.us-east-1.amazonaws.com
 placelocal-photos.s3.amazonaws.com
+plantao.ig.com.br
 playback-logs.s3.amazonaws.com
 play.entretenimientolz.com
 player-abcd.glomex.com
@@ -668,6 +662,7 @@ rcm.amazon.com
 rcm-images.amazon.com
 rc.xxhrd.com
 redirector.desbloqueador.org
+registro.ig.com.br
 rel.nextinpact.com
 repro-sdk-log.s3.amazonaws.com
 resolutioncenter.paypalint.com.s3-website.eu-central-1.amazonaws.com
@@ -818,6 +813,7 @@ vmg-us.s3.amazonaws.com
 vml1.s3.amazonaws.com
 vm.timeinabottle.pw
 voipaudio.s3.amazonaws.com
+voxcards.ig.com.br
 vpc-prod-adsdk-lb-0-564898962.us-east-1.elb.amazonaws.com
 vrl.m.conviva.com
 vuukle-analytics.appspot.com
@@ -825,6 +821,7 @@ webiq-cdn.appspot.com
 webiq-cdn-hr.appspot.com
 webiq-warp.appspot.com
 webiq-warp-hrd.appspot.com
+webmail.ig.com.br
 whatcounts_saas.s3.amazonaws.com
 wiadomosci.onet.pl
 widget.cloud.opta.net.s3.amazonaws.com
@@ -886,9 +883,11 @@ www.exitsplash.s3.amazonaws.com
 www.flashads50.s3.amazonaws.com
 www.font-vmg.s3.amazonaws.com
 www.heigvd-ads.s3-website-eu-west-1.amazonaws.com
+www.hfh.blig.ig.com.br
 www.htmlads.s3.amazonaws.com
 www.hvtd.s3.amazonaws.com
 www.iacpromotion.s3.amazonaws.com
+www.ig.com.br
 www.inneractive-assets.s3.amazonaws.com
 www.interactive-assets.s3.amazonaws.com
 www.load.s3.amazonaws.com
@@ -923,6 +922,7 @@ www.uk-mimecast-voicemail.s3.eu-west-2.amazonaws.com
 www.vmg-us.s3.amazonaws.com
 www.vml1.s3.amazonaws.com
 www.voipaudio.s3.amazonaws.com
+www.voxcards.ig.com.br
 www.whatcounts_saas.s3.amazonaws.com
 www.widgixeu-beacon.s3.amazonaws.com
 www.wobble.s3.amazonaws.com
