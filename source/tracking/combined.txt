@@ -1760,6 +1760,8 @@ ewebanalytics.com
 ewebcounter.com
 e-webtrack.net
 exactag.com
+exacttargetapis.com
+exacttarget.com
 exclusiveclicks.com
 exdynsrv.com
 exelator.com
@@ -3241,6 +3243,7 @@ sageanalyst.net
 sajari.com
 salecycle.com
 salemove.com
+salesforce.com
 salesgenius.com
 salesmanago.pl
 salesviewer.com
@@ -3419,6 +3422,7 @@ social-sb.com
 socialtrack.co
 socialtrack.net
 sociaplus.com
+socital.com
 socketviking.net
 socsi.in
 sodoit.com
