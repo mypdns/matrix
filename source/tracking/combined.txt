@@ -1617,6 +1617,7 @@ dmxleo.com
 doclix.com
 dojomojo.com
 dojomojo.ninja
+domdex.com
 dominocounter.net
 domodomain.com
 dotaki.com
@@ -3298,6 +3299,8 @@ semanticverses.com
 semasio.net
 sematext.com
 send2delicious.com
+sendgrid.com
+sendgrid.net
 sendibm4.com
 sendinblue.com
 sendtraffic.com
