@@ -11,3 +11,5 @@ add_gambling.sh
 add_adware.sh
 scripts/adware.sh
 scripts/spam.sh
+api/api.cfg
+screenshots/
