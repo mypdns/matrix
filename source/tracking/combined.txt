@@ -2062,6 +2062,7 @@ hashnest.com
 hashvault.pro
 hashzone.io
 haveamint.com
+hcaptcha.com
 hdmtools.com
 heapanalytics.com
 heatmap.it
