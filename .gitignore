@@ -1,6 +1,7 @@
 source/safesearch/combined.txt
 source/dns-servers/combined.txt
 tmp/**.*
+pdns.py
 
 # prevent outputs from PyFunceble
 output/
