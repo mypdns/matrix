@@ -1,4 +1,4 @@
-# The matrix
+# The Matrix
 
 This repository is www.mypdns.org self maintained list of domains that 
 needs to be blocked for various reasons.
