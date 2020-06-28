@@ -374,6 +374,7 @@ discoveryad.castoola.tv
 distroscale.s3.amazonaws.com
 dk7rftbivnkgr.cloudfront.net
 dk-media.s3.amazonaws.com
+dkyp75kj7ldlr.cloudfront.net
 dlmagnetdl.maynemyltf.netdna-cdn.com
 dl.www.speedvid.net
 dm.hybrid.ai
