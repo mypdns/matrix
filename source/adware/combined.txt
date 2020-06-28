@@ -112,7 +112,6 @@ ads.lrb.co.uk
 adsmediaturf.indiatimes.com
 ads.miarroba.com
 ads.onet.pl
-ad-specs.guoshipartners.com
 ads.pro-market.net
 ads.puhutv.com
 ads.qz.com
@@ -6840,6 +6839,7 @@ gumgum.com
 gunimalpengu.com
 gunpartners.com
 guntinehughedf.info
+guoshipartners.com
 guoyhfjrpt.com
 gurktexxtpofyz.com
 gururevenue.com
@@ -10401,6 +10401,7 @@ onclicksuper.com
 onclicktop.com
 onclkds.com
 onderlea.info
+onead.com.tw
 oneblackjocker.online
 onedmp.com
 onegalact.com
