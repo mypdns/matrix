@@ -705,7 +705,6 @@ send-beta.pinpoint.us-east-1.amazonaws.com
 send-gamma.pinpoint.us-east-1.amazonaws.com
 send-prod.pinpoint.us-east-1.amazonaws.com
 sensytracker.appspot.com
-server.cpmstar.com
 server.iad.liveperson.net
 server.lon.liveperson.net
 serve.williamhill.com
