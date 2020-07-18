@@ -1998,6 +1998,7 @@ gnpge.com
 go2link.net
 go2pixel.org
 goadservices.com
+goatcounter.com
 gobba.myeffect.net
 go.bestmobiworld.com
 godhat.com
@@ -3379,6 +3380,8 @@ silvergamed.com
 silverpop.com
 silverpush.co
 simonsignal.com
+simpleanalyticscdn.com
+simpleanalytics.com
 simpleanalytics.io
 simpleheatmaps.com
 simplehitcounter.com
