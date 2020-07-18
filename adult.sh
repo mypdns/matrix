@@ -75,11 +75,44 @@ git push origin "$_branch_name"
 }
 
 git_commit_mypdns () {
-git checkout master
-git merge --no-ff "$_branch_name"
-git push origin master
-git push origin "$_branch_name"
-git branch -D "$_branch_name"
+    git checkout "${base}"
+    git merge --no-ff "${_branch_name}"
+    git push origin "${base}"
+    git push origin "${_branch_name}"
+    git branch -D "${_branch_name}"
+}
+
+ScreenShot () {
+    git checkout "${base}"
+    $(command -v firefox) -CreateProfile CleanFF --headless
+    $(command -v firefox) -P "CleanFF" --headless --screenshot "$_IP/screenshots/$domain.png" "http://$domain/"
+    git add "screenshots/$domain.png"
+    git commit -m "ScreenShot for $domain"
+    git push
+}
+
+json () {
+
+body="$(echo "${template}" | awk '{printf "%s\\r\\n", $0}')"
+
+cat <<EOF > output.json
+{
+"title": "${domain}",
+"head": "${_branch_name}",
+"base": "${base}",
+"body": "$body"
+}
+EOF
+
+commit_msg="$(jq -c '.' output.json)"
+}
+
+PullRequest () {
+    json
+    apiurl=$(git remote get-url origin | sed -e 's/\.git//g' | awk -F ":" '{ printf ("%s\n",tolower($2)) }')
+
+
+    "${_api_token}"
 }
 
 ###
