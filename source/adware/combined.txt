@@ -6676,6 +6676,7 @@ goo2anywhere.com
 gooblesdd.com
 goodadvert.ru
 goo.gl
+googleadservices.com
 google-analytics.com
 googleapi.club
 googlesyndication.com
@@ -10727,7 +10728,6 @@ parserwords.info
 particizedese.club
 partner-ads.com
 partnerearning.com
-partner.googleadservices.com
 partnermax.de
 partner.video.syndication.msn.com
 partuise.info
