@@ -512,7 +512,6 @@ interstitial.glsp.netdna-cdn.com
 iotanalytics.eu-central-1.amazonaws.com
 iotanalytics.eu-west-1.amazonaws.com
 ip-geo.appspot.com
-ipv6-wildcard.applovin.com.edgekey.net
 is-tracking-pixel-api-prod.appspot.com
 itad.linetv.tw
 j.77power.com
@@ -2974,6 +2973,7 @@ applicationgrabb.net
 applicationunificationcontroller.com
 apploading.mobi
 applovin.com
+applovin.com.edgekey.net
 appnexis.com
 appnext.com
 appnex.us

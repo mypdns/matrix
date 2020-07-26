@@ -342,7 +342,6 @@ instagram.flux1-1.fna.fbcdn.net
 ip-geo.appspot.com
 ip-info.ff.avast.com
 ipm-provider.ff.avast.com
-ipv6-wildcard.applovin.com.edgekey.net
 irty8pxzozx.appspot.com
 isfipxo9apzxap.appspot.com
 issuetracker.unity3d.com
@@ -989,6 +988,7 @@ apollofind.com
 apomaya.com
 appboycdn.com
 applovin.com
+applovin.com.edgekey.net
 appn.center
 appnexus.com
 appsha5.space
