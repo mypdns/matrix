@@ -270,6 +270,7 @@ eteo9zpsaz.appspot.com
 event-reporting-dot-webylytics.appspot.com
 events.api.bosecm.com
 events.guesttoguest.com
+events.iap.unity3d.com
 evt.mxplay.com
 eyq246ddpoas.appspot.com
 f63sdasa.appspot.com
@@ -319,6 +320,7 @@ hkofs924paazxpvma99a4s.appspot.com
 hm.baidu.com
 hnbutton.appspot.com
 hpn-collector.cliqz.com
+hwstats.unity3d.com
 ibeat.indiatimes.com
 ibeats.indiatimes.com
 iczopc9adozpxz.appspot.com
@@ -343,6 +345,7 @@ ipm-provider.ff.avast.com
 ipv6-wildcard.applovin.com.edgekey.net
 irty8pxzozx.appspot.com
 isfipxo9apzxap.appspot.com
+issuetracker.unity3d.com
 is-tracking-link-api-prod.appspot.com
 is-tracking-pixel-api-prod.appspot.com
 jacobbond81532.appspot.com
@@ -501,6 +504,7 @@ telemetry.v.dropbox.com
 terte9spxzias.appspot.com
 testdrive-fido.azurewebsites.net
 theresapullman26911.appspot.com
+thind-gke-euw.prd.data.corp.unity3d.com
 timeslog.indiatimes.com
 tim.nextinpact.com
 tinyrick.pixlee.com
@@ -519,6 +523,7 @@ tracker.affirm.com
 tracker.baidu.com
 tracker.winudf.com
 tracking-opi.fonpit.de
+tracking.prd.mz.internal.unity3d.com
 tracking.rightmessage.com
 tracking.scenepass.com
 tracking.swogo.net
@@ -852,6 +857,8 @@ adsco.re
 ad-score.com
 adsensedetective.com
 adservicemedia.dk
+ads.internal.unity3d.com
+ads.prd.ie.internal.unity3d.com
 adspsp.com
 adsrvx.com
 adswizz.com
@@ -1347,6 +1354,7 @@ cloud-iq.com
 cloud-miner.de
 cloud-miner.eu
 cloudtracer101.com
+cloud.unity3d.com
 cmcintra.net
 cmcore.com
 cmmeglobal.com
@@ -3928,6 +3936,7 @@ unbecominghall.com
 unequalbrake.com
 unicaondemand.com
 uniqodo.com
+unityads.unity3d.com
 unknowntray.com
 unrummaged.com
 untidyrice.com
