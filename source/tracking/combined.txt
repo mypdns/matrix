@@ -1651,6 +1651,7 @@ dotomi.com
 doubleclick.net
 doubleverify.com
 dpbolvw.net
+dpgmedia.net
 dprtb.com
 dps-reach.com
 dq95d35.com
@@ -3310,6 +3311,7 @@ schibsted.io
 schoolyeargo.com
 sciencerevenue.com
 scintillatingspace.com
+scopely.io
 scorecardresearch.com
 scoutanalytics.net
 scrippscontroller.com
