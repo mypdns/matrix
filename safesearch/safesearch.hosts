@@ -4,14 +4,14 @@
 # License: https://gitlab.com/my-privacy-dns/matrix/matrix/blob/master/LICENSE
 # Source: https://gitlab.com/my-privacy-dns/matrix/matrix/tree/master/safesearch
 
-# DuckDuckGo.com The only real safe serach engine
+# DuckDuckGo.com The only real safe search engine
 # EU region
 79.125.106.1 duckduckgo.com
 54.229.105.151 duckduckgo.com
 79.125.105.136 duckduckgo.com
 
 # Bing The second most inrelable and UNSAFE privacy invading "search" portal
-# Be aware, it ain't you who is searching here, it is Microsoft that search for you
+# Be aware, it ain't you who is searching here, it is Microsoft that search on you
 204.79.197.220 bing.com
 204.79.197.220 www.bing.com
 
@@ -31,7 +31,7 @@
 #216.239.38.119	youtubei.googleapis.com
 
 # Google The most inrelable and UNSAFE privacy invading "search" portal
-# Be aware, it ain't you who is searching here, it is Google that search for you
+# Be aware, it ain't you who is searching here, it is Google that search on you
 216.239.38.120 google.ad
 216.239.38.120 google.ae
 216.239.38.120 google.al
