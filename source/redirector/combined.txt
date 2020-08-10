@@ -5,7 +5,6 @@ dni-adops-proxy-prod-adopsmediaconverter.mercury.dnitv.com
 dni-adops-proxy-uat-adopsmediaconverter.mercury.dnitv.com
 dws.reporting.dnitv.com
 fuviseni.angelfire.com
-redirectiontool.trafficmanager.net
 reporting.dnitv.com
 static.dnitv.com
 1link.in
@@ -310,6 +309,7 @@ to.ly
 traceurl.com
 traffic.acwebconnecting.com
 trafficbroker.xyz
+trafficmanager.net
 trafficrouter.io
 tr.im
 tr.my
