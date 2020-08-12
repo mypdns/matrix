@@ -286,6 +286,7 @@ fhgfffdsf9.appspot.com
 fhgsd78asozxcauoxz.appspot.com
 f.hiphotos.baidu.com
 fhpo13papgnigidinams.appspot.com
+fimserve.ign.com
 fods392pszsafsd.appspot.com
 fox-eye.appspot.com
 frog.wix.com
@@ -296,6 +297,7 @@ ga-beacon.appspot.com
 gdown.baidu.com
 geoapi123.appspot.com
 geoapi.indiatimes.com
+geobeacon.ign.com
 geoip.ubuntu.com
 geo-locate.appspot.com
 geotargetly-1a441.appspot.com
@@ -485,6 +487,7 @@ stats.avast.com
 stats.cliqz.com
 stats.grafikart.fr
 stats.hprofits.com
+stats.ign.com
 stats.media.onet.pl
 stats.privacytools.io
 stats.vk-portal.net
@@ -543,6 +546,7 @@ ucstat.baidu.com
 uhf.microsoft.com
 uib.ff.avast.com
 ui.swogo.net
+unicast.ign.com
 union.baidu.com
 unstat.baidu.com
 updown.mobileassist.baidu.com
@@ -863,6 +867,7 @@ adrta.com
 adsco.re
 ad-score.com
 adsensedetective.com
+adserverlayer.com
 adservicemedia.dk
 ads.internal.unity3d.com
 ads.prd.ie.internal.unity3d.com
@@ -878,6 +883,7 @@ adtr.io
 adultadworld.com
 adultblogtoplist.com
 adultwebcam.world
+adultwebmasternet.com
 adunity.com
 advalo.com
 advanced-web-analytics.com
@@ -1222,6 +1228,7 @@ bunchbox.co
 burnbubble.com
 burstbeacon.com
 burt.io
+businesscatalyst.com
 butcalve.com
 butterbulb.com
 butterburst.com
@@ -1557,6 +1564,7 @@ damdoor.com
 dapxl.com
 darkgoose.com
 darking07.tk
+darkworldbynight.com
 dashboard.io
 data-analytics.jp
 databrain.com
@@ -1635,6 +1643,8 @@ discover-path.com
 discovertrail.net
 displaymarketplace.com
 display.studio
+disquscdn.com
+disqus.com
 distiltag.com
 distralytics.com
 districtm.io
@@ -1827,6 +1837,7 @@ f1tbit.com
 f92j5.com
 fabric.io
 fabricww.com
+fabrouter.com
 factortg.com
 fadedsnow.com
 faktor.io
@@ -2032,6 +2043,7 @@ gobba.myeffect.net
 go.bestmobiworld.com
 godhat.com
 goetime.com
+go.ign.com
 goingup.com
 goldoffer.online
 goldstats.com
@@ -2822,6 +2834,7 @@ netstad.com
 netstat.asia
 neustar.biz
 never.ovh
+newextra.com
 newrelic.com
 newscurve.com
 nexeps.com
@@ -2833,6 +2846,7 @@ nexttime.ovh
 nfwebminer.com
 ngmco.net
 nicequest.com
+nichehit.net
 nielsen.com
 niematego.tk
 niftyhospital.com
@@ -4222,6 +4236,7 @@ xtrafficads.com
 xtraffstat.com
 xtremline.com
 xxxcounter.com
+xxxtraffic.biz
 xyztraffic.com
 ya-counter.ru
 yadro.ru

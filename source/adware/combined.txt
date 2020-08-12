@@ -102,11 +102,13 @@ adserver-4.ig.com.br
 adserver-5.ig.com.br
 adserver.ad4link.com
 adserver-clarium-446793891.us-east-1.elb.amazonaws.com
+adserver.ign.com
 adservice.aliexpress.com
 adservice.google.com
 adserwer.xwords.pl
 ads.globalmedianet.netdna-cdn.com
 ads.heias.com
+ads.ign.com
 ads.indiatimes.com
 ads.lrb.co.uk
 adsmediaturf.indiatimes.com
@@ -428,6 +430,7 @@ fantasy.onrpg.com
 f.asdfzxcv1312.com
 f.iaftjs.info
 filestorage.chip.de
+fimserve.ign.com
 fishsnifferee.thefishsniffer.netdna-cdn.com
 flashads50.s3.amazonaws.com
 fldownloadnet.maynemyltf.netdna-cdn.com
@@ -629,6 +632,7 @@ plx.porndig.com
 pop.verplusonline.com
 post.7p.com
 ppco.trwba.com
+prerollads.ign.com
 prexyone.appspot.com
 priv6.onet.pl
 priv7.onet.pl
@@ -799,6 +803,7 @@ uedata.amazon.com
 uidesign.gbtcdn.com
 ukdtx.31202.fun
 uk-mimecast-voicemail.s3.eu-west-2.amazonaws.com
+unicast.ign.com
 us.b3018.pw
 users.51.la
 videos.porndig.com
@@ -835,6 +840,7 @@ ws.amazon.com
 wsp.mgid.com
 wsp.steepto.com
 wtosc.s3.amazonaws.com
+wum97myjdw.ent-cdn.com
 ww1.vidzi.tv
 ww2.vidzi.tv
 ww3.vidzi.tv
@@ -2334,6 +2340,7 @@ adserve.com
 adserved.net
 adserve.ph
 ad-server.co.za
+adserverlayer.com
 ad-serverparc.nl
 adserverplus.com
 adserverpub.com
@@ -2490,6 +2497,7 @@ adultadworld.com
 adultimate.net
 adulttds.com
 adultterritory.net
+adultwebmasternet.com
 adult.xyz
 adup-tech.com
 adurr.com
@@ -3465,6 +3473,7 @@ bestcasinopartner.com
 bestcontentcompany.top
 bestcontentfood.top
 bestcontentplan.top
+bestcontentsite.top
 bestcontentsoftware.top
 bestdeals.ws
 bestevernews.com
@@ -3859,6 +3868,7 @@ busandcob.site
 busfarmum.com
 bushoagh.com
 businesscare.com
+businesscatalyst.com
 businessclick.com
 busions.com
 busterzaster.de
@@ -4824,6 +4834,7 @@ dapper.net
 daqijjpjow.com
 dardwebertoha.info
 darersan.co
+darkworldbynight.com
 darwarvid.com
 das5ku9q.com
 dashbida.com
@@ -5816,6 +5827,7 @@ extrementtgfa.site
 extremereach.io
 extremetube.com
 exvrvcnlfc.com
+e-x.xyz
 exyubuwtwmepqi.com
 eyere.com
 eyereturn.com
@@ -5863,6 +5875,7 @@ fa00c331ceacc.com
 faayojxf.com
 fabolele.com
 fabrkrup.com
+fabrouter.com
 fabsdeals.com
 fadeatrighlet.com
 fadsabs.com
@@ -6665,6 +6678,7 @@ gogntrsm.com
 gogoplexer.com
 gogvo.com
 gohillgo.com
+go.ign.com
 g--o.info
 goingtocontent.com
 golizoli.com
@@ -8944,6 +8958,7 @@ luxupcdnb.com
 luxupcdnc.com
 luxup.ru
 luysvlnrb.com
+luyten-98c.com
 lvesgranticnor.fun
 lvesmhsex.com
 lvgldleilov.com
@@ -12540,6 +12555,7 @@ secure-cloud.pro
 securecloud-smart.com
 secured-iphone.club
 secured-phone.club
+securefastoffers.com
 securesmrt-dt.com
 secure-softwaremanager.com
 securesurf.biz
@@ -15345,6 +15361,7 @@ xxxbyhxp.com
 xxxmov.site
 xxxmyself.com
 xxxnavy.com
+xxxtraffic.biz
 xxxwebdlxxx.org
 xyepsjnt.com
 xylnwusfiyq.com
