@@ -73,6 +73,7 @@ adasiatagmanager.appspot.com
 adbetnet.advertserve.com
 adbroker.mp.dse.microsoft.com
 adc.stream.moe
+ad.dmm.com
 adelogs.adobe.com
 adelogs.wip4.adobe.com
 ad.ettoday.net
