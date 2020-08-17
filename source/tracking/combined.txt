@@ -140,6 +140,8 @@ analytics.developer.riotgames.com
 analytics.ext.go-tellm.com
 analytics.ff.avast.com
 analytics.getshogun.com
+analytics.global.sky.com
+analytics-ingress-global.bitmovin.com
 analytics.kidoz.net
 analytics.ns1.ff.avast.com
 analytics.sketchup.com
@@ -268,6 +270,7 @@ e-ddos.appspot.com
 edgecast.tags.tiqcdn.com
 eiv.baidu.com
 emisjawidgeet.onet.pl
+emp.bbci.co.uk
 eqit9pzsxz.appspot.com
 eqs-redserver.appspot.com
 eteo9zpsaz.appspot.com
@@ -387,6 +390,7 @@ media.onet.pl
 medisinkurs.appspot.com
 metrics.readme.io
 metrics.redgifs.com
+metrics.sky.com
 m.hotmail.com
 mine.nahnoji.cz
 mine.torrent.pw
@@ -401,7 +405,9 @@ muchbloom.appspot.com
 musculahq.appspot.com
 mxase.clmbtech.com
 mxvp-feature-toggle-prod-1.zenmxapps.com
+mybbc-analytics.files.bbci.co.uk
 nativex-sdk.appspot.com
+nav.files.bbci.co.uk
 neownesharepointdororescos.appspot.com
 no8lancelot.appspot.com
 nojsstats.appspot.com
@@ -447,6 +453,7 @@ p.yotpo.com
 qiao.baidu.com
 qubitanalytics.appspot.com
 query.prod.cms.rt.microsoft.com
+r.bbci.co.uk
 re7weozxpsasa.appspot.com
 reklama.onet.pl
 republika.onet.pl
@@ -481,6 +488,7 @@ sobar.baidu.com
 sow9dpszosa.appspot.com
 spine-insights.appspot.com
 s.shopify.com
+start.palemoon.org
 staticw2.yotpo.com
 statistic.ads24h.net
 stats.avast.com
@@ -526,6 +534,8 @@ traccoon.intellectsoft.net
 trace.svc.ui.com
 tracker.affirm.com
 tracker.baidu.com
+tracker.publico.pt
+tracker.remp.impresa.pt
 tracker.winudf.com
 tracking-opi.fonpit.de
 tracking.prd.mz.internal.unity3d.com
@@ -569,6 +579,7 @@ webiq-cdn.appspot.com
 webiq-cdn-hr.appspot.com
 webiq-warp.appspot.com
 webiq-warp-hrd.appspot.com
+whatismylocale.start.me
 whatsappcallinginvites.appspot.com
 white.ish.instagram.com
 wm.baidu.com
@@ -753,6 +764,7 @@ acuityplatform.com
 acxiomapac.com
 acxiom-online.com
 ad4.fr
+ad5track.com
 adabra.com
 adadvisor.net
 adalyser.com
@@ -1003,6 +1015,7 @@ api.inwemo.com
 apollofind.com
 apomaya.com
 appboycdn.com
+appcpi.net
 applovin.com
 applovin.com.edgekey.net
 appn.center
@@ -2133,6 +2146,7 @@ helloworldmail.com
 helloworldptqa.com
 hemnes.win
 hentaicounter.com
+hentaiser.com
 hexagon-analytics.com
 heyhelga.net
 heystaks.com
@@ -3474,6 +3488,7 @@ skimlinks.com
 skimresources.com
 skyglue.com
 sl-ct5.com
+sleeknote.com
 slingpic.com
 smadex.com
 smallseotools.com
@@ -4254,6 +4269,7 @@ yimg.jp
 yjtag.jp
 yldr.io
 ymetrica1.com
+yohoads.com
 yotraff.com
 youbora.com
 youborafds01.com
