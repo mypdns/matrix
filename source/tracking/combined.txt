@@ -135,7 +135,6 @@ alt.bugsense.appspot.com
 amp-error-reporting.appspot.com
 analytics.allovoisins.co
 analytics.alternativet.dk
-analytics.cliqz.com
 analytics.developer.riotgames.com
 analytics.ext.go-tellm.com
 analytics.ff.avast.com
@@ -152,12 +151,8 @@ androidapp.baidu.com
 android.bugly.qq.com
 androidc.mxplay.com
 androidquery.appspot.com
-anolysis-gid.cliqz.com
-anolysis.privacy.cliqz.com
-anolysis-telemetry.cliqz.com
 anti-bot.baidu.com
-antiphishing.cliqz.com
-api.cliqz.com
+an.yandex.ru
 api-dot-mwm-ab-testing.appspot.com
 api-dot-mwm-ad-mediation.appspot.com
 api.instagram.com
@@ -168,6 +163,7 @@ as54rdxfzxs.appspot.com
 asadg43sdsa.appspot.com
 asgh65tfsdxz.appspot.com
 auvm21.appspot.com
+awaps.yandex.ru
 axislogger.appspot.com
 az19942.vo.msecnd.net
 banery.onet.pl
@@ -193,13 +189,13 @@ br.baidu.com
 brianchurchill91814.appspot.com
 bright-zodiac-215416.appspot.com
 bsf9dspsaz.appspot.com
+bs-meta.yandex.ru
 bugsense.appspot.com
 cards.twitter.com
 caspionlog.appspot.com
 cb.baidu.com
 cbjs.baidu.com
 ccsv9psos.appspot.com
-cdn.cliqz.com
 cdn.shopify.com
 c.hiphotos.baidu.com
 chrome-devtools-frontend.appspot.com
@@ -207,14 +203,14 @@ chrome.google.com
 chtatic.appspot.com
 civso0qas.appspot.com
 cjhq.baidu.com
+clck.yandex.ru
 client.baidu.com
 cliqz.com
 cluster.chart.dk
 collector.githubapp.com
-collector-hpn.cliqz.com
-collector.hpn.cliqz.com
 connect.facebook.com
 connect.facebook.net
+connectivitycheck.gstatic.com
 contadores.miarroba.com
 counter.top.kg
 counter.yadro.ru
@@ -328,7 +324,6 @@ hjs9dpxzsa.appspot.com
 hkofs924paazxpvma99a4s.appspot.com
 hm.baidu.com
 hnbutton.appspot.com
-hpn-collector.cliqz.com
 hwstats.unity3d.com
 ibeat.indiatimes.com
 ibeats.indiatimes.com
@@ -343,6 +338,7 @@ imgtrack.domainmarket.com
 improving.duckduckgo.com
 inbound-analytics.pixlee.com
 inference.location.live.net
+informer.yandex.ru
 instafeed-api.pixlee.com.inscname.net
 instagram.fcdg1-1.fna.fbcdn.net
 instagram.felp1-1.fna.fbcdn.net
@@ -366,6 +362,7 @@ jsso.indiatimes.com
 katherineknox37213.appspot.com
 kcuak91pxzxcixciozxt.appspot.com
 khs9dpas.appspot.com
+kiks.yandex.ru
 kofadf9zxpaakgmioo.appspot.com
 kropka.onet.pl
 ktia8sozcaosfizxoop.appspot.com
@@ -386,11 +383,14 @@ majik102502.appspot.com
 malikobalo.appspot.com
 maps.googleapis.com
 maps.gstatic.com
+mc.yandex.ru
 media.onet.pl
 medisinkurs.appspot.com
+metrica.yandex.ru
 metrics.readme.io
 metrics.redgifs.com
 metrics.sky.com
+metrika.yandex.ru
 m.hotmail.com
 mine.nahnoji.cz
 mine.torrent.pw
@@ -399,8 +399,8 @@ mobile-campaigns.avast.com
 mobilemetrics.appspot.com
 modern.watson.data.microsoft.com.akadns.net
 moneymoneymoney.azurewebsites.net
-mozsocial.cliqz.com
 mparticle.com
+ms.yandex.ru
 muchbloom.appspot.com
 musculahq.appspot.com
 mxase.clmbtech.com
@@ -415,7 +415,6 @@ notify.bugsnag.com
 novem.onet.pl
 nsclick.baidu.com
 nvcuiaoc0aspxzcs.appspot.com
-offers-api.cliqz.com
 offerssyndication.appspot.com
 offerswall.appspot.com
 offibluemixsharebunner.appspot.com
@@ -465,8 +464,6 @@ rtb.connatix.com
 r.wdfl.co
 ry54sdfagsa.appspot.com
 sa.api.intl.miui.com
-safe-browsing.cliqz.com
-safe-browsing-quorum.cliqz.com
 sales-pop-dot-autoketing-production-sdk.appspot.com
 s.baidu.com
 sc-analytics.appspot.com
@@ -493,7 +490,6 @@ stat.i3.dmm.com
 staticw2.yotpo.com
 statistic.ads24h.net
 stats.avast.com
-stats.cliqz.com
 stats.grafikart.fr
 stats.hprofits.com
 stats.ign.com
@@ -1376,6 +1372,7 @@ clickzs.com
 clickzzs.nl
 clientgear.com
 clientmetrics-pa.googleapis.com
+cliqz.com
 clixcount.com
 clixpy.com
 clod.pw
