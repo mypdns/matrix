@@ -132,6 +132,7 @@ advancelocal-adapter-image-uploads.s3.amazonaws.com
 advert-creatives.s3.amazonaws.com
 advertising.amazon.com
 advertising.scoop.co.nz
+advertising.yandex.ru
 advice-ads.s3.amazonaws.com
 advmanager.techfun.pl
 adv.mediaharbor.co.kr
@@ -4003,6 +4004,7 @@ capquqhuiazl.com
 caprofitx.com
 captainad.com
 captifymedia.com
+caralla-ver.com
 carbian.info
 carbonads.com
 cardmrket.com
@@ -4656,6 +4658,8 @@ cryaptall.club
 cryartarm.online
 crykaxliilz.com
 crylukzsthjz.com
+crypt.casino
+cryptcasino.su
 cryptoads.space
 csdzhoku.com
 csionjbak.com
