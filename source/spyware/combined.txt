@@ -29,6 +29,7 @@ www3.l.google.com
 360.com
 360safe.com.cn
 360totalsecurity.com
+acrcloud.com
 adaware.com
 addthis.com
 aircanada.ca
@@ -63,6 +64,7 @@ recosenselabs.com
 rettighedsalliancen.dk
 sift.com
 siftscience.com
+stackpathdns.com
 tawk.to
 tdsjsext3.com
 terraclicks.com

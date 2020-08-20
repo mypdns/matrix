@@ -492,6 +492,7 @@ start.palemoon.org
 stat.i3.dmm.com
 staticw2.yotpo.com
 statistic.ads24h.net
+stats.artixlinux.org
 stats.avast.com
 stats.grafikart.fr
 stats.hprofits.com
@@ -755,6 +756,7 @@ acidpigs.com
 acint.net
 a-counters.com
 acq.io
+acrcloud.com
 acridtwist.com
 activeconversion.com
 activemeter.com
@@ -3596,6 +3598,7 @@ srcip.com
 srpx.net
 srv1010elan.com
 sslproxy.dk
+stackpathdns.com
 stack-sonar.com
 stadsvc.com
 star-cntr-5.com
