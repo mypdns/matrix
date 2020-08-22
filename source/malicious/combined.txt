@@ -276,6 +276,7 @@ park35.secureserver.net
 park36.secureserver.net
 p.download.uol.com.br
 pedtroneves.pr.sites.uol.com.br
+plurnt.bounceme.net
 proxyprincipal.appspot.com
 pr.sites.uol.com.br
 pubshop.img.uol.com.br
