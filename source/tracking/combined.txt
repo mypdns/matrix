@@ -1241,6 +1241,7 @@ btttag.com
 bubblestat.com
 buf.lemonde.fr
 bugherd.com
+bugsnag.appstore.a2z.com
 bunchbox.co
 burnbubble.com
 burstbeacon.com
