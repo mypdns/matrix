@@ -1024,6 +1024,7 @@ apollofind.com
 apomaya.com
 appboycdn.com
 appcpi.net
+appier.com
 applovin.com
 applovin.com.edgekey.net
 appn.center
@@ -3168,7 +3169,6 @@ qbaka.net
 qbop.com
 q-counter.com
 qgraph.io
-qgr.ph
 qlfsat.co.uk
 qlitics.com
 qlzn6i1l.com
