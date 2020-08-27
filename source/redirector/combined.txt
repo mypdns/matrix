@@ -9,8 +9,6 @@ reporting.dnitv.com
 static.dnitv.com
 1link.in
 1ts18.top
-1url.com
-1wrd.org
 22pixx.xyz
 2big.at
 2pl.us
@@ -235,6 +233,7 @@ rb6.me
 realcenter-mobileapps1.com
 realteenbeauty.com
 rebrand.ly
+rebrandly.com
 redirect.com
 redirx.com
 reducelnk.com
