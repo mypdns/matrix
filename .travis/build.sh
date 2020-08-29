@@ -37,9 +37,9 @@ do
 done
 
 # Import latest working example of safesearch from safesearc.mypdns.cloud
-rm $TRAVIS_BUILD_DIR/safesearch/safesearch.mypdns.cloud.rpz
+rm "$TRAVIS_BUILD_DIR/safesearch/safesearch.mypdns.cloud.rpz"
 
-dig axfr @axfr.ipv4.mypdns.cloud -p 5306 safesearch.mypdns.cloud \
+drill axfr @axfr.ipv4.mypdns.cloud -p 5306 safesearch.mypdns.cloud \
   | grep -vE '^($|;)' >> $TRAVIS_BUILD_DIR/safesearch/safesearch.mypdns.cloud.rpz
 
 # https://gist.github.com/domenic/ec8b0fc8ab45f39403dd
