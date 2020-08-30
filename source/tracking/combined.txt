@@ -498,6 +498,7 @@ stats.grafikart.fr
 stats.hprofits.com
 stats.ign.com
 stats.media.onet.pl
+stats.nba.com.edgekey.net
 stats.privacytools.io
 stats.vk-portal.net
 stat.tiara.kakao.com
@@ -4202,6 +4203,7 @@ webtrends.com
 webtrendslive.com
 webtrends-optimize.com
 webtuna.com
+webutation.net
 webxmr.com
 weesh.co.uk
 wemfbox.ch
