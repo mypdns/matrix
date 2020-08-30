@@ -3,6 +3,8 @@ source/dns-servers/combined.txt
 tmp/**.*
 pdns.py
 
+commit.txt
+
 # prevent outputs from PyFunceble
 output/
 dir_structure.json
