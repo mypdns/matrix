@@ -111,6 +111,7 @@ ads.globalmedianet.netdna-cdn.com
 ads.heias.com
 ads.ign.com
 ads.indiatimes.com
+ads.latinongroup.com
 ads.lrb.co.uk
 adsmediaturf.indiatimes.com
 ads.miarroba.com
