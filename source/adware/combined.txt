@@ -284,7 +284,6 @@ cdn.plopx.com
 cdn.pmdownloadcdn.com.s3.amazonaws.com
 cdn.provesrc.com
 cdn.pulpix.com
-cdn.sendpulse.com
 cdn.siteswithcontent.com
 cdn.videoplaza1.tv
 cdn.witchhut.com
@@ -2003,6 +2002,7 @@ adfoitjumerzge.com
 adfootprints.com
 adforgames.com
 adforgeinc.com
+adform.com
 adform.net
 adframesrc.com
 adfrastingathles.info
@@ -12615,6 +12615,7 @@ sendinblue.com
 sendit.cloud
 sendmepush.com
 sendptp.com
+sendpulse.com
 sendyourpush.com
 senhelhgsoov.com
 seniorbaniaasth.info
