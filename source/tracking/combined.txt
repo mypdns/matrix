@@ -173,6 +173,7 @@ banoaoxpasonga.appspot.com
 bar.baidu.com
 bat.bing.com
 b.baidu.com
+b.boyfriendtv.com
 bdg-analytics.appspot.com
 bf-analytics-tracker-useast-as.azurewebsites.net
 b.hiphotos.baidu.com
@@ -2171,6 +2172,7 @@ helloworldmail.com
 helloworldptqa.com
 hemnes.win
 hentaicounter.com
+hentaigold.net
 hentaiser.com
 hexagon-analytics.com
 heyhelga.net
@@ -2393,6 +2395,7 @@ ixiaa.com
 iyfnzgb.com
 izea.com
 izearanks.com
+izooto.com
 j93557g.com
 jadeitite.com
 jamexistence.com
