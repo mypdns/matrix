@@ -36,6 +36,7 @@ aisinsurance.com
 bex.com
 branch.io
 clickcease.com
+cloudflare-dns.com
 exoclick.com
 exosrv.com
 faymobi.com
