@@ -751,6 +751,7 @@ static.goaheadtours.netdna-cdn.com
 static.hoptopboy.com
 static-shareaholic.s3.amazonaws.com
 static.tellerium.com
+static.tits-guru.com
 static.tvtropes.org
 stats.adobe.com
 statscollectorloadbalancer-695351754.us-east-1.elb.amazonaws.com
@@ -3500,6 +3501,8 @@ bestvideo2019.xyz
 bestwebdeal.net
 bet3000partners.com
 bet365affiliates.com
+betacash.com
+betacash-tools.com
 betimbur.com
 betoga.com
 betpartners.it
@@ -8767,6 +8770,7 @@ linkz.net
 linoleictanzaniatitanic.com
 linstanintedter.site
 liocwxpkakrf.com
+liongetme.com
 liqwid.net
 lirawhivaoglha.com
 lisconcertain.site
@@ -13539,6 +13543,7 @@ thoudroa.net
 thoughtleadr.com
 thoughtsondance.info
 thqwivyhdpoem.com
+thrixxx.com
 throposehodger.pro
 thterras.com
 thump-night-stand.com
