@@ -13304,7 +13304,6 @@ syndapop.com
 syndicatedsearchresults.com
 syndication.exdynsrv.com
 syndication.exoclick.com
-syndication.exosrv.com
 syndicpop.com
 syngrestic.com
 synhandler.net
@@ -14860,6 +14859,7 @@ webmasterspub.com
 webodu.com
 weborama.fr
 weborama.io
+webpinp.com
 webpower.eu
 webpushcloud.info
 webseeds.com
