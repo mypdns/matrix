@@ -388,6 +388,7 @@ majik102502.appspot.com
 malikobalo.appspot.com
 maps.googleapis.com
 maps.gstatic.com
+ma.redhat.com
 mc.yandex.ru
 media.onet.pl
 medisinkurs.appspot.com
@@ -484,6 +485,7 @@ sessions.bugsnag.com
 settings.crashlytics.com
 sgmnt.ticketswap.com
 sgqcvfjvr.onet.pl
+share.9cdn.net
 shopogolik-ru.appspot.com
 sl-native-android-hm-logging.appspot.com
 snapabug.appspot.com
