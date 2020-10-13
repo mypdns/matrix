@@ -116,6 +116,7 @@ ads.latinongroup.com
 ads.lrb.co.uk
 adsmediaturf.indiatimes.com
 ads.miarroba.com
+adson.awempire.com
 ads.onet.pl
 ads.pro-market.net
 ads.puhutv.com
@@ -483,6 +484,7 @@ hfh.blig.ig.com.br
 hgss-savingyourlife.blog.onet.pl
 hipercontas.com.br
 hnbutton.appspot.com
+hostedads.realitykings.com
 hsrvt.com
 ht.keezmovies.com
 html5adkit.plusmo.s3.amazonaws.com
@@ -650,6 +652,7 @@ prod-east-stats-tap-alb-627711272.us-east-1.elb.amazonaws.com
 prodmg2.blob.core.windows.net
 prod.sms-voice.pinpoint.us-east-1.amazonaws.com
 prod-sunbets-widgets.s3-eu-west-1.amazonaws.com
+promo.awempire.com
 promo.bongacash.com
 promo.ferame.com
 promo-m.bongacash.com
@@ -3239,7 +3242,6 @@ awdigit.info
 awecr.com
 awehobrasp.live
 aweinkbum.com
-awempire.com
 awemwh.com
 aweproto.com
 awesome-revenue.com
@@ -8792,6 +8794,7 @@ liveadoptimizer.com
 liveadserver.net
 liveburst.com
 liveflirt.net
+livejasmin.com
 liverail.com
 liversely.com
 liversely.net
