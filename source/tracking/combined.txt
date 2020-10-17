@@ -1457,6 +1457,7 @@ coinpot.co
 coin-service.com
 coinwebmining.com
 coinzillatag.com
+coll2onf.com
 collarity.com
 collecting.click
 collserve.com
@@ -1674,6 +1675,7 @@ dialogtech.com
 did-it.com
 didit.com
 didna.io
+didomi.io
 diffusion-tracker.com
 digdeepdigital.com.au
 digitalanalytix.com
@@ -3167,6 +3169,7 @@ promotionengine.com
 proofpoint.com
 proofpositivemedia.com
 propellerads.com
+propermessage.io
 provenpixel.com
 prtawe.com
 prtracker.com
