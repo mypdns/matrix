@@ -587,6 +587,7 @@ mobileanalytics.us-east-1.amazonaws.com
 mobiledl.adobe.com
 mobilemetrics.appspot.com
 mondoads.s3.amazonaws.com
+movie.momo-net.com
 ms.awqsaged.cn
 msnads.vo.msecnd.net
 msnvidweb.vo.msecnd.net
@@ -609,6 +610,7 @@ netspiderads.indiatimes.com
 nnd.xyssp.com
 nojsstats.appspot.com
 notifications-api.cf.sky.com
+obliteratebedblue.com
 offerssyndication.appspot.com
 offerwall.s3.amazonaws.com
 ohpornosex.blog.onet.pl
@@ -8043,6 +8045,7 @@ joegamersapps.com
 johays.co
 joheeptaicat.com
 johonmtpyv.com
+joinpropeller.com
 jokerlivestream.com
 jokoshep.com
 jolic2.com
