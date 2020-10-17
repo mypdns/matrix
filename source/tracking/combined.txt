@@ -2421,6 +2421,7 @@ jirafe.com
 jivosite.com
 jixie.io
 joinmy.site
+joinpropeller.com
 jppol.dk
 jqassets.download
 jquery-cdn.download
@@ -3165,6 +3166,7 @@ promo-bc.com
 promotionengine.com
 proofpoint.com
 proofpositivemedia.com
+propellerads.com
 provenpixel.com
 prtawe.com
 prtracker.com
