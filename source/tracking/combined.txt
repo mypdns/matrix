@@ -564,6 +564,7 @@ trkpc.net
 trk.siliconevalleys.info
 truehits1.gits.net.th
 tryt5fdxsa.appspot.com
+tx.cdnjs.work
 ucstat.baidu.com
 uhf.microsoft.com
 uib.ff.avast.com
