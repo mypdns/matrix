@@ -3271,6 +3271,7 @@ rating.in
 rawtelemetry-east.servicebus.windows.net
 rays-counter.com
 reachforce.com
+reachlocalservices.com
 reachsocket.com
 reactandshare.com
 reactful.com
@@ -3367,6 +3368,7 @@ rkdms.com
 rktch.com
 rktu.com
 rlcdn.com
+rlets.com
 rmtag.com
 rnengage.com
 rng-snp-003.com
