@@ -196,6 +196,7 @@ appsflyer-web-4-962407740.eu-west-1.elb.amazonaws.com
 appsflyer-web-5-2093104013.eu-west-1.elb.amazonaws.com
 apture.s3.amazonaws.com
 arc-native-apps.s3.amazonaws.com
+asg.bhabhiporn.pro
 ashow.pcpop.com
 asset.pagefair.com
 asset.pagefair.net
@@ -13812,6 +13813,7 @@ trafficposse.com
 trafficrevenue.net
 trafficsan.com
 trafficshirts.com
+trafficshop.com
 trafficspaces.net
 trafficstars.com
 traffic-supremacy.com
