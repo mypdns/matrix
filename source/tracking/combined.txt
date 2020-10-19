@@ -282,6 +282,7 @@ event-reporting-dot-webylytics.appspot.com
 events.api.bosecm.com
 events.guesttoguest.com
 events.iap.unity3d.com
+events.launchdarkly.com
 evt.mxplay.com
 eyq246ddpoas.appspot.com
 f63sdasa.appspot.com
