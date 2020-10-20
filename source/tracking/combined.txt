@@ -388,6 +388,8 @@ live.github.com
 location-inference-westus.cloudapp.net
 log.ebonybooty.pics
 logger.instagram.com
+logsbin.dantri.com.vn
+log.ttbc-hcm.gov.vn
 lplbackoffice.azurewebsites.net
 mailfoogae.appspot.com
 majik102502.appspot.com
