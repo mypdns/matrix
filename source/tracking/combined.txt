@@ -284,6 +284,7 @@ events.api.bosecm.com
 events.guesttoguest.com
 events.iap.unity3d.com
 events.launchdarkly.com
+events.tubecup.org
 evt.mxplay.com
 eyq246ddpoas.appspot.com
 f63sdasa.appspot.com
@@ -4065,7 +4066,6 @@ tsw0.com
 tsyndicate.com
 tts1.site
 tubecorp.com
-tubecup.org
 tuberl.com
 tuinfra.com
 tulip18.com
