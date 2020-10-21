@@ -518,6 +518,7 @@ staticw2.yotpo.com
 statistic.ads24h.net
 stats.artixlinux.org
 stats.avast.com
+stats.fonecta.fi
 stats.grafikart.fr
 stats.hprofits.com
 stats.ign.com
@@ -695,6 +696,7 @@ zz.bdstatic.com
 24log.fr
 24log.it
 24log.ru
+24smi.net
 2cnt.net
 2giga.download
 2o7.net
@@ -3238,6 +3240,7 @@ pureairhits.com
 purechatcdn.com
 purechat.com
 purevideo.com
+push4site.com
 pushible.com
 pushowl.com
 push.zhanzhang.baidu.com
