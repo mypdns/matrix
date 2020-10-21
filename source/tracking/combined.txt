@@ -216,6 +216,7 @@ collector.githubapp.com
 connect.facebook.com
 connect.facebook.net
 connectivitycheck.gstatic.com
+connect.secure.wellsfargo.com
 contadores.miarroba.com
 counter.awempire.com
 counter.top.kg
@@ -292,6 +293,7 @@ eyq246ddpoas.appspot.com
 f63sdasa.appspot.com
 facebook-web-clients.appspot.com
 faithbuckland62726.appspot.com
+fathom.pixeldrain.com
 felicityavery52022.appspot.com
 ffg-analytics-functionsk3nvxfne4dp4s.azurewebsites.net
 fhgfffdsf9.appspot.com
@@ -484,6 +486,7 @@ ris.api.iris.microsoft.com
 ritr934papa.appspot.com
 rs-xpromotion.appspot.com
 rtb.connatix.com
+rubicon.wellsfargo.com
 r.wdfl.co
 ry54sdfagsa.appspot.com
 sa.api.intl.miui.com
@@ -2113,6 +2116,7 @@ giraffepiano.com
 gitads.io
 gitgrub.pro
 glanceguide.com
+glassboxcdn.com
 glbtracker.com
 globalviptraffic.com
 globalwebindex.net
@@ -3890,6 +3894,7 @@ td573.com
 tdsrmbl.net
 tdstats.com
 tealiumiq.com
+techlab-cdn.com
 techtarget.com
 tedioustooth.com
 telemetry.mozilla.org
