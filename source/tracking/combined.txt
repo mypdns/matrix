@@ -134,6 +134,7 @@ akamai.tags.tiqcdn.com
 aliciabot.azurewebsites.net
 alt.bugsense.appspot.com
 amp-error-reporting.appspot.com
+analytic-client.cuntempire.com
 analytics.allovoisins.co
 analytics.alternativet.dk
 analytics.developer.riotgames.com
@@ -557,6 +558,7 @@ tracker.baidu.com
 tracker.publico.pt
 tracker.remp.impresa.pt
 tracker.winudf.com
+tracking.aita.gov.vn
 tracking.fits.me
 tracking.g2crowd.com
 tracking.godatafeed.com
@@ -4257,6 +4259,7 @@ webiqonline.com
 webleads-tracker.com
 weblytics.io
 webmasterplan.com
+webmedia.pl
 webmine.cz
 webminepool.com
 webminepool.tk
