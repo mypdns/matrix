@@ -159,6 +159,7 @@ api-dot-mwm-ab-testing.appspot.com
 api-dot-mwm-ad-mediation.appspot.com
 api.instagram.com
 apphack.mobi
+a.quora.com
 arc.msn.com
 as43dsawqa.appspot.com
 as54rdxfzxs.appspot.com
@@ -391,6 +392,7 @@ live.github.com
 location-inference-westus.cloudapp.net
 log.ebonybooty.pics
 logger.instagram.com
+log.quora.com
 logsbin.dantri.com.vn
 log.ttbc-hcm.gov.vn
 lplbackoffice.azurewebsites.net
@@ -1005,6 +1007,7 @@ alikeaddition.com
 aliyuncs.com
 allbouttruth.info
 alleyarm.com
+alljapanesepass.com
 allowmailbox.com
 alltagcloud.info
 alltracked.com
