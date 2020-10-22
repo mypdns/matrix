@@ -244,6 +244,7 @@ cxs923psiazcxz.appspot.com
 cxzas0osa.appspot.com
 cy2.vortex.data.microsoft.com.akadns.net
 d1af033869koo7.cloudfront.net
+d1hi41nc56pmug.cloudfront.net
 d1lxhc4jvstzrp.cloudfront.net
 d303e3cdddb4ded4b6ff495a7b496ed5.s3.amazonaws.com
 d39yds8oe4n4jq.cloudfront.net
@@ -343,6 +344,7 @@ hkofs924paazxpvma99a4s.appspot.com
 hm.baidu.com
 hnbutton.appspot.com
 hwstats.unity3d.com
+i.bcicdn.com
 ibeat.indiatimes.com
 ibeats.indiatimes.com
 iczopc9adozpxz.appspot.com
@@ -2619,6 +2621,7 @@ logentries.com
 logger.pw
 loggly.com
 loginfra.com
+logly.co.jp
 logmatic.io
 lognormal.net
 logrocket.com
@@ -4079,6 +4082,7 @@ truste.com
 trustedsite.com
 trustpilot.com
 trustyfine.com
+trwl1.com
 trysera.com
 tscounter.com
 tsk4.com
