@@ -4358,6 +4358,7 @@ worldtraffic.trade
 wowanalytics.co.uk
 wpdstat.com
 wpfc.ml
+wpltx.com
 wp-monero-miner.de
 wp-stats.com
 wrating.com
