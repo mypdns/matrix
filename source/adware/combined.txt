@@ -129,6 +129,7 @@ ads.superawesome.tv
 adstil.indiatimes.com
 ads.tremorhub.com
 ads.viber.com
+ads.xhamster.com
 ads.yemonisoni.com
 ads.zalo.me
 adtago.s3.amazonaws.com
