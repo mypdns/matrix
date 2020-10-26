@@ -166,6 +166,8 @@ as43dsawqa.appspot.com
 as54rdxfzxs.appspot.com
 asadg43sdsa.appspot.com
 asgh65tfsdxz.appspot.com
+audio-akp-spotify-com.akamaized.net
+audio-ak-spotify-com.akamaized.net
 auvm21.appspot.com
 awaps.yandex.ru
 axislogger.appspot.com
@@ -220,6 +222,7 @@ connect.facebook.net
 connectivitycheck.gstatic.com
 connect.secure.wellsfargo.com
 contadores.miarroba.com
+contentclick.akamaized.net
 counter.awempire.com
 counter.top.kg
 counter.yadro.ru
@@ -272,6 +275,7 @@ dpl.baidu.com
 dramafeverw2.appspot.com
 ds.onet.pl
 dsow9sdxosa.appspot.com
+dyn-beacon.akamaized.net
 dzl.baidu.com
 e.baidu.com
 echofonads.appspot.com
@@ -352,6 +356,7 @@ iczopc9adozpxz.appspot.com
 i.instagram.com
 ima3vpaid.appspot.com
 images.dmca.com
+img-prod-cms-rt-microsoft-com.akamaized.net
 img.scoop.co.nz
 imgsrc.baidu.com
 imgstat.baidu.com
@@ -411,6 +416,7 @@ logsbin.dantri.com.vn
 log.ttbc-hcm.gov.vn
 log.zoom.us
 lplbackoffice.azurewebsites.net
+ma85-r-analytics.akamaized.net
 mailfoogae.appspot.com
 majik102502.appspot.com
 malikobalo.appspot.com
@@ -1654,6 +1660,7 @@ cz.cc
 czx5eyk0exbhwp43ya.biz
 d-1.co
 d1l6p2sc9645hc.cloudfront.net
+d2pass.com
 d31j93rd8oukbv.cloudfront.net
 d41.co
 dable.io
@@ -1783,6 +1790,7 @@ dsply.com
 dstrack2.info
 dtc-v6t.com
 dti-ranker.com
+dtiserv2.com
 dtscout.com
 dtxngr.com
 dwin1.com
