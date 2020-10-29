@@ -667,7 +667,6 @@ promotion.eurolotto.com
 propixel7-768394228.us-east-1.elb.amazonaws.com
 prostytutka.blog.onet.pl
 pto.awecr.com
-pub.nakedreel.com
 push.zhanzhang.baidu.com
 qd.maskbaby.com.cn
 qubitanalytics.appspot.com
@@ -9819,6 +9818,7 @@ naideema.com
 nailowhe.net
 najyzdlmqq.com
 nakednepaligirl.com
+nakedreel.com
 nalrxmmcs.com
 nameads.com
 namitol.com
@@ -10821,6 +10821,7 @@ pagnookr.net
 paibopse.com
 paidonresults.net
 paidsearchexperts.com
+painsko.com
 paintifiercute.club
 pakbanners.com
 palmtube.net

@@ -37,6 +37,7 @@ bex.com
 branch.io
 clickcease.com
 cloudflare-dns.com
+embrace.io
 exoclick.com
 exosrv.com
 faymobi.com
