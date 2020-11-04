@@ -321,6 +321,7 @@ gdown.baidu.com
 geoapi123.appspot.com
 geoapi.indiatimes.com
 geobeacon.ign.com
+geo.cliphunter.com
 geoip.ubuntu.com
 geo-locate.appspot.com
 geotargetly-1a441.appspot.com
@@ -339,6 +340,7 @@ gstaticadssl.l.google.com
 gu-pix.appspot.com
 h49wpzxosa.appspot.com
 hc.baidu.com
+h.cliphunter.com
 hds9pzoas.appspot.com
 hg76ytsdas.appspot.com
 hiphotos.baidu.com
