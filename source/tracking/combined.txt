@@ -1013,6 +1013,7 @@ agentinteractive.com
 agilecrm.com
 agilone.com
 agkn.com
+agorahtag.tech
 agreeabletouch.com
 aheadday.com
 aidata.io
@@ -3678,6 +3679,7 @@ snowsignal.com
 snplow.net
 snrcdn.net
 socialhoney.co
+socialnative.com
 socialprofitmachine.com
 social-sb.com
 socialtrack.co
@@ -3747,6 +3749,7 @@ srpx.net
 srv1010elan.com
 sslproxy.dk
 ssm.codes
+stackla.com
 stackpathdns.com
 stack-sonar.com
 stadsvc.com
@@ -4072,6 +4075,7 @@ trafficengine.net
 trafficfacts.com
 trafficfuel.com
 trafficjoint.com
+trafficjunky.com
 trafficjunky.net
 trafficmanager.net
 trafficregenerator.com
@@ -4406,6 +4410,7 @@ wt-safetag.com
 wtstats.com
 wty46.com
 wundercounter.com
+wunderkind.co
 wunderloop.net
 www-path.com
 wywy.com
