@@ -88,7 +88,6 @@ ad.pentabox.net
 adplus.co.id
 adpublisher.s3.amazonaws.com
 ads2-adnow.com
-ads2.contentabc.com
 ads.avocet.io
 ads.aws.viber.com
 ads-bidder-api.twitter.com
@@ -4557,6 +4556,7 @@ consumergenepool.com
 contadd.com
 contaxe.com
 contehos.com
+contentabc.com
 content-ad.net
 contentclick.co.uk
 content-cooperation.com
@@ -7077,6 +7077,7 @@ hd-streams.org
 hdvid.tv
 hdwjwooqvnm.com
 hdwkcfqzxhvx.com
+he7ll.com
 headbidder.net
 headerlift.com
 header.tech
