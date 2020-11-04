@@ -320,6 +320,7 @@ config-partner-platform-client-933515454346.s3.amazonaws.com
 contextual.media.net
 contilla-cdn.s3-eu-west-1.amazonaws.com
 c.pubguard.com
+creatives.cliphunter.com
 creative.stripchat.com
 crwscdn9.appspot.com
 crwscdn.appspot.com
@@ -960,4 +961,3 @@ znaptag-us.s3.amazonaws.com
 zone1.absoluteexhibits.netdna-cdn.com
 zontent.powvideo.net
 ztag-trackedevents-enterprise-1441845540.us-west-2.elb.amazonaws.com
-creatives.cliphunter.com
