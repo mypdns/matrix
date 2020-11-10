@@ -217,6 +217,7 @@ client.baidu.com
 cliqz.com
 cluster.chart.dk
 collector.githubapp.com
+collector.xhamster2.com
 collector.xhamster.com
 connect.facebook.com
 connect.facebook.net
@@ -228,6 +229,7 @@ counter.awempire.com
 counter.top.kg
 counter.yadro.ru
 counter.zerohedge.com
+countly.stackvaults.com
 count.mail.163.com.duncanhotcher.ga
 count.mail.163.com.humanrightsfront.org
 count.mail.163.com.onlinekushshop.com
@@ -322,6 +324,7 @@ geoapi123.appspot.com
 geoapi.indiatimes.com
 geobeacon.ign.com
 geo.cliphunter.com
+geoip.ativo.com
 geoip.ubuntu.com
 geo-locate.appspot.com
 geotargetly-1a441.appspot.com
@@ -537,6 +540,7 @@ s.shopify.com
 start.palemoon.org
 stat.i3.dmm.com
 statistic.ads24h.net
+stat.mydaddy.cc
 stats.artixlinux.org
 stats.avast.com
 stats.fonecta.fi
@@ -3815,7 +3819,9 @@ streambeam.io
 streamplay.to
 streamsend.com
 streamsense.com
+streamtape.cc
 streamtape.com
+streamtape.net
 streem.com.au
 stripedcollar.net
 strivesidewalk.com
