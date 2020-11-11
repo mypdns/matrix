@@ -407,6 +407,7 @@ laurenobrian248-dot-yamm-track.appspot.com
 lightboxapi1.azurewebsites.net
 lightboxapi2.azurewebsites.net
 lightboxapi3.azurewebsites.net
+link.getmailspring.com
 location-inference-westus.cloudapp.net
 log.ebonybooty.pics
 logfiles-va-3.zoom.us
@@ -1273,6 +1274,8 @@ bizspring.net
 bjcathay.com
 bkrtx.com
 bkvtrack.com
+blasze.com
+blasze.tk
 blockbreaker.io
 blockmetrics.com
 blogmeetsbrand.com
@@ -2467,6 +2470,7 @@ ipinfo.io
 ipinyou.com.cn
 ip-label.net
 iplocationtools.com
+iplogger.org
 ipqualityscore.com
 iproanalytics.com
 ipro.com
