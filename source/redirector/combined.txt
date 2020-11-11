@@ -38,6 +38,8 @@ bit.do
 bit.ly
 bitly.com
 bkite.com
+blasze.com
+blasze.tk
 bloat.me
 bnsjb1ab1e.com
 budurl.com
@@ -132,6 +134,7 @@ ift.tt
 imagepix.org
 incu.ca
 inreply.to
+iplogger.org
 iscool.net
 is.gd
 istaekni.is
