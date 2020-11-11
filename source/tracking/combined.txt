@@ -319,6 +319,7 @@ fsm.lapresse.ca
 fundingchoicesmessages.google.com
 g024pwsdoxc.appspot.com
 ga-beacon.appspot.com
+ganon.yahoo.com
 gdown.baidu.com
 geoapi123.appspot.com
 geoapi.indiatimes.com
@@ -340,6 +341,7 @@ gql.reddit.com
 graph.facebook.com
 green-griffin-860.appspot.com
 gstaticadssl.l.google.com
+guce.huffingtonpost.co.uk
 gu-pix.appspot.com
 h49wpzxosa.appspot.com
 hc.baidu.com
@@ -1565,6 +1567,7 @@ connectif.cloud
 consciouschairs.com
 consensu.org
 consent.dk
+consent.yahoo.com
 contactimpact.de
 contactmonkey.com
 contemporaryceremonies.ca
@@ -2234,6 +2237,7 @@ gtcslt-di2.com
 gtopstats.com
 guanoo.net
 guardwork.info
+guce.oath.com
 guiltlessbasketball.com
 gulliblecamp.com
 guoshipartners.com
@@ -4241,6 +4245,7 @@ ventivmedia.com
 vepxl1.net
 verifier.live
 verifypow.com
+verizonmedia.com
 verresof.com
 vertical-leap.co.uk
 vertical-leap.net
