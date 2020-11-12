@@ -407,6 +407,7 @@ dup.baidustatic.com
 dvdsm0rlx65fo.cloudfront.net
 dwf6crl4raal7.cloudfront.net
 dxedge-prod-lb-946522505.us-east-1.elb.amazonaws.com
+dyn.tnaflix.com
 e2rs-beta.pinpoint.us-east-1.amazonaws.com
 e2rs-gamma.pinpoint.us-east-1.amazonaws.com
 e2rs-prod.pinpoint.us-east-1.amazonaws.com
@@ -6365,6 +6366,7 @@ furtherescottom.info
 fusionads.net
 fuszkweba.com
 futbol-envivohd.com
+futilereposerefreshments.com
 futsoksu.com
 future-hawk-content.co.uk
 futureresiduals.com
@@ -7004,6 +7006,7 @@ hadarone.com
 hadczwhwfvhcc.com
 hadlacrighterthen.pro
 hadsabz.com
+hadsans.com
 hadsatz.com
 hadsecz.com
 hadsipz.com
