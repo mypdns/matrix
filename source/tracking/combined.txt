@@ -277,6 +277,7 @@ dpl.baidu.com
 dramafeverw2.appspot.com
 ds.onet.pl
 dsow9sdxosa.appspot.com
+dwh-tracking.it.auth0.com
 dyn-beacon.akamaized.net
 dzl.baidu.com
 e.baidu.com
@@ -539,6 +540,7 @@ sow9dpszosa.appspot.com
 spine-insights.appspot.com
 s.shopify.com
 start.palemoon.org
+stat.aporntv.com
 stat.i3.dmm.com
 statistic.ads24h.net
 stat.mydaddy.cc
