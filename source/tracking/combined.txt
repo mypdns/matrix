@@ -475,6 +475,7 @@ openamp-error-reporting.appspot.com
 optimize.google.com
 optimizely.appspot.com
 ourtime54321-dot-yamm-track.appspot.com
+outal.origo.hu
 p-alfred-m-worrall-dot-yamm-track.appspot.com
 pam.nextinpact.com
 party-vqgdyvoycc.now.sh
