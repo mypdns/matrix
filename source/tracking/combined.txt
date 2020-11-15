@@ -158,6 +158,7 @@ an.yandex.ru
 api-dot-mwm-ab-testing.appspot.com
 api-dot-mwm-ad-mediation.appspot.com
 api.instagram.com
+api-js.datadome.co
 apphack.mobi
 a.quora.com
 arc.msn.com
@@ -389,6 +390,7 @@ jacobbond81532.appspot.com
 jacqualinemccue66719.appspot.com
 jas8aspzxoias.appspot.com
 javascriptcounter.appspot.com
+js.datadome.co
 json-cricket.appspot.com
 jssocdn.indiatimes.com
 jsso.indiatimes.com
@@ -541,6 +543,7 @@ sobar.baidu.com
 sow9dpszosa.appspot.com
 spine-insights.appspot.com
 s.shopify.com
+ssl-ccstatic.highwebmedia.com
 start.palemoon.org
 stat.aporntv.com
 stat.i3.dmm.com
