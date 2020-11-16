@@ -304,6 +304,8 @@ f63sdasa.appspot.com
 facebook-web-clients.appspot.com
 faithbuckland62726.appspot.com
 fathom.pixeldrain.com
+fcmatch.google.com
+fcmatch.youtube.com
 felicityavery52022.appspot.com
 ffg-analytics-functionsk3nvxfne4dp4s.azurewebsites.net
 fhgfffdsf9.appspot.com
@@ -1803,6 +1805,7 @@ dojomojo.ninja
 domdex.com
 dominocounter.net
 domodomain.com
+do-not-tracker.org
 dotaki.com
 dotomi.com
 doubleclick.net
@@ -1943,6 +1946,7 @@ eventcapture03.com
 everestjs.net
 everesttech.net
 evergage.com
+eviltracker.net
 evisitanalyst.com
 evolvemediametrics.com
 evyy.net
@@ -3480,6 +3484,7 @@ roiservice.com
 roispy.com
 roitesting.com
 rollbar.com
+rollick.io
 rollingcounters.com
 roofrelation.com
 roosterfirework.com
@@ -4072,6 +4077,7 @@ trackdiscovery.net
 trackeame.com
 trackedlink.net
 trackedweb.net
+trackersimulator.org
 trackertest.org
 tracking100.com
 tracking202.com
