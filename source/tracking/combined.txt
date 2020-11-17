@@ -122,6 +122,7 @@ adm.baidu.com
 ads-bidder-api.twitter.com
 adscaspion.appspot.com
 ads-dot-o7apps.appspot.com
+adtrack.pichunter.com
 advancedtracker.appspot.com
 aerial-anagram-213320.appspot.com
 affiliates.goreminders.com
