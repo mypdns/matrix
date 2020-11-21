@@ -665,6 +665,7 @@ prod-sunbets-widgets.s3-eu-west-1.amazonaws.com
 promo.bongacash.com
 promo.ferame.com
 promo-m.bongacash.com
+promos.camsoda.com
 promotion.eurolotto.com
 propixel7-768394228.us-east-1.elb.amazonaws.com
 prostytutka.blog.onet.pl
