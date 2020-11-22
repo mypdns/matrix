@@ -200,6 +200,7 @@ appsflyer-web-3-1052820924.eu-west-1.elb.amazonaws.com
 appsflyer-web-4-962407740.eu-west-1.elb.amazonaws.com
 appsflyer-web-5-2093104013.eu-west-1.elb.amazonaws.com
 apture.s3.amazonaws.com
+arc.msn.com
 arc-native-apps.s3.amazonaws.com
 asg.bhabhiporn.pro
 ashow.pcpop.com
@@ -2328,8 +2329,10 @@ adrsp.net
 adrunnr.com
 ads01.com
 ads1-adnow.com
+ads1.msn.com
 ads2-adnow.com
 ads2ads.net
+ads2.msn.com
 ads2srv.com
 ads3-adnow.com
 ads4cheap.com
@@ -2416,6 +2419,7 @@ adsmarket.com
 adsmarket.es
 adsmeda.com
 adsmoon.com
+ads.msn.com
 adsnative.com
 adsnetworkserver.com
 adsniper.ru
@@ -9716,7 +9720,6 @@ msigpurubzkm.com
 mslimitagesmo.site
 mslimitages.site
 msmaijsxlo.com
-msn.com
 mspgkbvxtl.com
 msrigkqkdd.com
 mswysfgnr.com
