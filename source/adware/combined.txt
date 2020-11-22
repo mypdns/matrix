@@ -661,7 +661,6 @@ priv.onet.pl
 prm.sushis.kim
 prod.contentunlock.s3.amazonaws.com
 prod-east-stats-tap-alb-627711272.us-east-1.elb.amazonaws.com
-prodmg2.blob.core.windows.net
 prod.sms-voice.pinpoint.us-east-1.amazonaws.com
 prod-sunbets-widgets.s3-eu-west-1.amazonaws.com
 promo.bongacash.com
