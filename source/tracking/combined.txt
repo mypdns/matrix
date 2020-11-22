@@ -2209,9 +2209,11 @@ goo.gl
 google
 googleadservices.com
 googleanalytcs.com
+google-analytics.com
 googleapi.club
 googleoptimize.com
 googlerank.info
+googletagservices.com
 gooo.al
 gopjn.com
 goprediction.com
