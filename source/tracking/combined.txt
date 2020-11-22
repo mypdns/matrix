@@ -678,7 +678,6 @@ www.fox-eye.appspot.com
 www.is-tracking-link-api-prod.appspot.com
 www.majik102502.appspot.com
 www.malikobalo.appspot.com
-www.msftconnecttest.com
 www.muchbloom.appspot.com
 www.no8lancelot.appspot.com
 www.oew9spasa.appspot.com
