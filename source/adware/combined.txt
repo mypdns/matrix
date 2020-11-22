@@ -6793,7 +6793,6 @@ goodadvert.ru
 goo.gl
 google
 googleadservices.com
-google-analytics.com
 googleapi.club
 googlesyndication.com
 googletagmanager.com
