@@ -1285,6 +1285,7 @@ bkrtx.com
 bkvtrack.com
 blasze.com
 blasze.tk
+blob.core.windows.net
 blockbreaker.io
 blockmetrics.com
 blogmeetsbrand.com
@@ -2842,6 +2843,7 @@ mobileaccesspanel.com
 mobileapptracking.com
 mobilebenchmarck.com
 mobilebenchmark.com
+mobileengagement.windows.net
 mobilemarketmeasurement.com
 mobilemeter.com
 mobilemeter.net
@@ -3601,6 +3603,7 @@ serv-ac.com
 servebom.com
 servestats.com
 service4refresh.info
+servicebus.windows.net
 serving-sys.com
 servustats.com
 sessioncam.com
