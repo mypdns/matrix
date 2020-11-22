@@ -1756,6 +1756,7 @@ deqwas.net
 desiredirt.com
 desklks.com
 detectdiscovery.com
+detectportal.firefox.com
 devatics.com
 devatics.io
 device9.com
