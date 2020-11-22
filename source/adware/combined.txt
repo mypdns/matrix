@@ -92,6 +92,7 @@ ads2-adnow.com
 ads.avocet.io
 ads.aws.viber.com
 ads-bidder-api.twitter.com
+ads.bing.com
 adscaspion.appspot.com
 ads.cdngain.com
 ads.chaturbate.com
@@ -104,6 +105,7 @@ adserver-2.ig.com.br
 adserver-4.ig.com.br
 adserver-5.ig.com.br
 adserver.ad4link.com
+adserver.bing.com
 adserver-clarium-446793891.us-east-1.elb.amazonaws.com
 adserver.ign.com
 adservice.aliexpress.com
