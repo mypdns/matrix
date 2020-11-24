@@ -673,6 +673,8 @@ propixel7-768394228.us-east-1.elb.amazonaws.com
 prostytutka.blog.onet.pl
 pto.awecr.com
 push.zhanzhang.baidu.com
+pvn.mediamarkt.de
+pvn.saturn.de
 qd.maskbaby.com.cn
 qubitanalytics.appspot.com
 qwilt-cq-prod-prod-media-analytics-upload-pipeline-pickup.s3.amazonaws.com
@@ -5109,6 +5111,7 @@ diaobanstudio.com
 diekhxpwngawme.com
 differentdesk.com
 digadser.com
+digidip.net
 digipathmedia.com
 digitaladvertisingalliance.org
 digitalpush.org
@@ -5526,6 +5529,7 @@ easyflirt-partners.biz
 easyhits4u.com
 easyinline.com
 easylist-to.xyz
+easy-m.de
 eatayvgov.com
 eatxurmf.com
 eayyegrkujxcw.com
