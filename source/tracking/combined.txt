@@ -506,6 +506,8 @@ prj0011.appspot.com
 prod-mng-proxy-connext.azurewebsites.net
 promo.ferame.com
 proxyprincipal.appspot.com
+pvn.mediamarkt.de
+pvn.saturn.de
 px.redgifs.com
 px.spiceworks.com
 qiao.baidu.com
@@ -1771,6 +1773,7 @@ didna.io
 didomi.io
 diffusion-tracker.com
 digdeepdigital.com.au
+digidip.net
 digitalanalytix.com
 digitalanalytixmp.com
 digitalanalytixmp.net
@@ -1848,6 +1851,7 @@ easyhash.io
 easy-hit-counter.com
 easy-hit-counters.com
 easyhitcounters.com
+easy-m.de
 easyresearch.se
 ebtrk1.com
 eclampsialemontree.net
