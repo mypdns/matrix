@@ -154,6 +154,7 @@ aff.camplace.com
 afimg.liveperson.com
 a.gerasopa.com
 agilecrm-web-stats.appspot.com
+ahost.bulbagarden.net
 ajax2.scr.cr
 alb-prod-invenio-1916515004.us-west-2.elb.amazonaws.com
 alexa-sitestats.s3.amazonaws.com
@@ -262,6 +263,7 @@ bs-self.s3.amazonaws.com
 btf-analytics.s3.amazonaws.com
 buba65.co.pl
 bugsense.appspot.com
+bulba-ad-host-website.azurewebsites.net
 burdaffi.burdadigital.pl
 c1whupdt8.co.s3.us-east-2.amazonaws.com
 c2.xsu.cc
@@ -803,6 +805,7 @@ timestrends.indiatimes.com
 tim.nextinpact.com
 tm-offers.gamingadult.com
 t.mtagmonetizationb.com
+tools.lifeselector.com
 tor-sponsored-posts.s3.amazonaws.com
 track.bcvc.mobi
 trackers-1816877321.us-east-1.elb.amazonaws.com
@@ -857,6 +860,7 @@ wobble.s3.amazonaws.com
 world4ufree.com.co
 w.picsinfog.com
 wp-stat.s3.amazonaws.com
+wp.yourlustmedia.com
 ws.amazon.com
 wsp.mgid.com
 wsp.steepto.com
