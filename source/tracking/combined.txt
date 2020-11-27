@@ -129,6 +129,8 @@ affiliates.goreminders.com
 agaragar-agaragar.appspot.com
 a.gdown.baidu.com
 agilecrm-web-stats.appspot.com
+agl.hotstar.com
+agl-intl.hotstar.com
 a.hiphotos.baidu.com
 airbus-nda.azurewebsites.net
 aliciabot.azurewebsites.net
@@ -187,6 +189,7 @@ b.boyfriendtv.com
 bdg-analytics.appspot.com
 bf-analytics-tracker-useast-as.azurewebsites.net
 b.hiphotos.baidu.com
+bifrost-api.hotstar.com
 bitdash-reporting.appspot.com
 bitmovin-bitanalytics.appspot.com
 black.ish.instagram.com
@@ -319,6 +322,7 @@ fimserve.ign.com
 f-log-at.grammarly.io
 fods392pszsafsd.appspot.com
 fox-eye.appspot.com
+fp-analytics.hotstar.com
 frog.wix.com
 fsgko29oapsaasz.appspot.com
 fsm.lapresse.ca
@@ -351,6 +355,7 @@ gstaticadssl.l.google.com
 guce.huffingtonpost.co.uk
 gu-pix.appspot.com
 h49wpzxosa.appspot.com
+hb-analytics.hotstar.com
 hc.baidu.com
 h.cliphunter.com
 hds9pzoas.appspot.com
@@ -540,6 +545,7 @@ scloud-dlsw.br.baidu.com
 sealserver.trustwave.com
 securdserv1.appspot.com
 sedo.cachefly.net
+segment.hotstar.com
 sensytracker.appspot.com
 sessions.bugsnag.com
 settings.crashlytics.com
