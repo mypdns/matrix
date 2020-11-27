@@ -4383,6 +4383,8 @@ cleanbrowser.network
 cleaneryelded.site
 clean.gg
 clearadnetwork.com
+clearcode.cc
+clearcode.pl
 clearonclick.com
 clear-request.com
 clevernt.com
