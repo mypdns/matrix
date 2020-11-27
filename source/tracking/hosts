@@ -386,8 +386,10 @@ cemail.rollbar.com
 changelog.rollbar.com
 comapi.rollbar.com
 microsoft.comapi.rollbar.com
-telemetry.microsoft.comapi.rollbar.com
-watson.telemetry.microsoft.comapi.rollbar.com
+telemetry.microsoft.com
+api.rollbar.com
+watson.telemetry.microsoft.com
+api.rollbar.com
 rollbar.comapi.rollbar.com
 docs.rollbar.com
 email.mail.rollbar.com
