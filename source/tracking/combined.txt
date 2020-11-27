@@ -472,6 +472,7 @@ notify.bugsnag.com
 novem.onet.pl
 nsclick.baidu.com
 nvcuiaoc0aspxzcs.appspot.com
+nvmos.nvidia.com
 offerssyndication.appspot.com
 offerswall.appspot.com
 offibluemixsharebunner.appspot.com
@@ -483,6 +484,7 @@ oops.redditmedia.com
 openamp-error-reporting.appspot.com
 optimize.google.com
 optimizely.appspot.com
+ota.nvidia.com
 ourtime54321-dot-yamm-track.appspot.com
 outal.origo.hu
 p-alfred-m-worrall-dot-yamm-track.appspot.com
@@ -1105,6 +1107,7 @@ anametrix.com
 anametrix.net
 andagainanotherthing.com
 andlache.com
+android.com
 andyetanotherthing.com
 angelfishstats.com
 angorch-cdr7.com
@@ -2192,6 +2195,7 @@ getsmartlook.com
 getstatistics.se
 getviously.co
 gez.io
+gfe.nvidia.com
 gglscr.online
 giddycoat.com
 giddyuptrk.com
