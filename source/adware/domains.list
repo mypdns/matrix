@@ -1,8 +1,3 @@
-code.msdn.microsoft.com
-adbroker.mp.dse.microsoft.com
-ris.api.iris.microsoft.com
-advertising.microsoft.com
-displaycatalog.mp.microsoft.com
 1030z2bnst92zo6j523feq9e-wpengine.netdna-ssl.com
 2dprofessor.cadprofessor.netdna-cdn.com
 360.mediav.com
@@ -144,6 +139,7 @@ advancedtracker.appspot.com
 advancelocal-adapter-image-uploads.s3.amazonaws.com
 advert-creatives.s3.amazonaws.com
 advertising.amazon.com
+advertising.microsoft.com
 advertising.scoop.co.nz
 advertising.yandex.ru
 advice-ads.s3.amazonaws.com
@@ -320,6 +316,7 @@ c.mfstatic.cz
 cm.mediav.com
 cmp.evolok.net
 cmpsmarter-downloader.maynemyltf.netdna-cdn.com
+code.msdn.microsoft.com
 code.poptm.com
 com.djinnworks.scd.s3.amazonaws.com
 comms-telemetry-service.us-east-1.amazonaws.com
@@ -394,6 +391,7 @@ device-metrics-us-2.amazon.com
 device-metrics-us.amazon.com
 digital-ads.s3.amazonaws.com
 discoveryad.castoola.tv
+displaycatalog.mp.microsoft.com
 distroscale.s3.amazonaws.com
 dk7rftbivnkgr.cloudfront.net
 dk-media.s3.amazonaws.com
@@ -698,6 +696,7 @@ resolutioncenter.paypalint.com.s3-website.eu-central-1.amazonaws.com
 resu8.hjfile.cn
 revealads.appspot.com
 revmob-creatives.s3.amazonaws.com
+ris.api.iris.microsoft.com
 r.mail.ru
 roxedltd.co.id
 rpc-tapjoy-com-lb-1378811527.us-east-1.elb.amazonaws.com
@@ -787,6 +786,7 @@ student.telkomuniversity.ac.id
 subdo.tumejortorrent.com
 sun.torrentfunk.com
 super-promo.cyme.info
+survey.watson.microsoft.com
 sync.cmedia.s3.amazonaws.com
 syndication.globaltraffico.com
 syndication.jsadapi.com
@@ -976,4 +976,3 @@ znaptag-us.s3.amazonaws.com
 zone1.absoluteexhibits.netdna-cdn.com
 zontent.powvideo.net
 ztag-trackedevents-enterprise-1441845540.us-west-2.elb.amazonaws.com
-survey.watson.microsoft.com
