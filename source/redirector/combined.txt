@@ -5,6 +5,8 @@ dni-adops-proxy-prod-adopsmediaconverter.mercury.dnitv.com
 dni-adops-proxy-uat-adopsmediaconverter.mercury.dnitv.com
 dws.reporting.dnitv.com
 fuviseni.angelfire.com
+go.microsoft.com
+redir.metaservices.microsoft.com
 reporting.dnitv.com
 static.dnitv.com
 1link.in

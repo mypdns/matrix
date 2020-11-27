@@ -1,25 +1,3 @@
-i1.services.social.microsoft.com
-corp.sts.microsoft.com
-feedback.search.microsoft.com
-vortex-win.data.microsoft.com
-vortex-sandbox.data.microsoft.com
-settings-win.data.microsoft.com
-settings-sandbox.data.microsoft.com
-diagnostics.support.microsoft.com
-apprep.smartscreen.microsoft.com
-telemetry.urs.microsoft.com
-spynet2.microsoft.com
-spynetalt.microsoft.com
-choice.microsoft.com
-geo.settings-win.data.microsoft.com
-db5.settings-win.data.microsoft.com
-db5-eap.settings-win.data.microsoft.com
-v10.events.data.microsoft.com
-v10c.events.data.microsoft.com
-pti.store.microsoft.com
-manage.devcenter.microsoft.com
-settings-win.data.microsoft.com
-dmd.metaservices.microsoft.com
 010530072943355-dot-qfj-kyf-vsh.appspot.com
 012051995582106-dot-exj-ale-bsj.appspot.com
 023316807029161-dot-ifile-document.appspot.com
@@ -187,6 +165,7 @@ api-dot-mwm-ad-mediation.appspot.com
 api.instagram.com
 api-js.datadome.co
 apphack.mobi
+apprep.smartscreen.microsoft.com
 a.quora.com
 arc.msn.com
 as43dsawqa.appspot.com
@@ -234,6 +213,7 @@ cbjs.baidu.com
 ccsv9psos.appspot.com
 cdn.shopify.com
 c.hiphotos.baidu.com
+choice.microsoft.com
 chrome-devtools-frontend.appspot.com
 chrome.google.com
 chtatic.appspot.com
@@ -253,6 +233,7 @@ connectivitycheck.gstatic.com
 connect.secure.wellsfargo.com
 contadores.miarroba.com
 contentclick.akamaized.net
+corp.sts.microsoft.com
 counter.awempire.com
 counter.top.kg
 counter.zerohedge.com
@@ -287,11 +268,14 @@ d3mzokty951c5w.cloudfront.net
 d43gs-dot-wv9d5b-921fw-oxf3zc-8lj8sk.appspot.com
 da634fdas.appspot.com
 datas.virtuagirlhd.com
+db5-eap.settings-win.data.microsoft.com
+db5.settings-win.data.microsoft.com
 dc.tremormedia.com
 dd.nytimes.com
 dejavu.mlapps.com
 dfoagd9zxpsai.appspot.com
 d.haberler.com
+diagnostics.support.microsoft.com
 dir.onet.pl
 dj1.baidu.com
 dl.p2sp.baidu.com
@@ -333,6 +317,7 @@ faithbuckland62726.appspot.com
 fathom.pixeldrain.com
 fcmatch.google.com
 fcmatch.youtube.com
+feedback.search.microsoft.com
 feedback.windows.com
 felicityavery52022.appspot.com
 ffg-analytics-functionsk3nvxfne4dp4s.azurewebsites.net
@@ -360,6 +345,7 @@ geo.cliphunter.com
 geoip.ativo.com
 geoip.ubuntu.com
 geo-locate.appspot.com
+geo.settings-win.data.microsoft.com
 geotargetly-1a441.appspot.com
 geo.thehindu.com
 getonedrive.azurewebsites.net
@@ -391,6 +377,7 @@ hkofs924paazxpvma99a4s.appspot.com
 hm.baidu.com
 hnbutton.appspot.com
 hwstats.unity3d.com
+i1.services.social.microsoft.com
 i.bcicdn.com
 ibeat.indiatimes.com
 ibeats.indiatimes.com
@@ -464,6 +451,7 @@ ma85-r-analytics.akamaized.net
 mailfoogae.appspot.com
 majik102502.appspot.com
 malikobalo.appspot.com
+manage.devcenter.microsoft.com
 maps.googleapis.com
 maps.gstatic.com
 ma.redhat.com
@@ -538,6 +526,7 @@ prj0011.appspot.com
 prod-mng-proxy-connext.azurewebsites.net
 promo.ferame.com
 proxyprincipal.appspot.com
+pti.store.microsoft.com
 pvn.mediamarkt.de
 pvn.saturn.de
 px.redgifs.com
@@ -571,6 +560,8 @@ segment.hotstar.com
 sensytracker.appspot.com
 sessions.bugsnag.com
 settings.crashlytics.com
+settings-sandbox.data.microsoft.com
+settings-win.data.microsoft.com
 sgmnt.ticketswap.com
 sgqcvfjvr.onet.pl
 share.9cdn.net
@@ -581,6 +572,8 @@ snowplow.trx.gitlab.net
 sobar.baidu.com
 sow9dpszosa.appspot.com
 spine-insights.appspot.com
+spynet2.microsoft.com
+spynetalt.microsoft.com
 s.shopify.com
 ssl-ccstatic.highwebmedia.com
 start.palemoon.org
@@ -603,6 +596,7 @@ store-images.s-microsoft.com
 storsimpleorder.azurewebsites.net
 sugar.zhihu.com
 supertracker.flashget.com
+survey.watson.microsoft.com
 taktonet.pl
 tankfarmleaseagent-dot-yamm-track.appspot.com
 taonodaofofsiapeopodocsapp.appspot.com
@@ -610,6 +604,7 @@ tap-nexus.appspot.com
 tc-bic.appspot.com
 telegraph-ash.instagram.com
 telemetry.dropbox.com
+telemetry.urs.microsoft.com
 telemetry.v.dropbox.com
 terte9spxzias.appspot.com
 testdrive-fido.azurewebsites.net
@@ -677,12 +672,16 @@ unstat.baidu.com
 updown.mobileassist.baidu.com
 us04logfiles.zoom.us
 utility.baidu.com
+v10c.events.data.microsoft.com
+v10.events.data.microsoft.com
 v10.vortex-win.data.microsoft.com
 v7event.stats.avast.com
 v7.stats.avast.com
 vdsg2fasz.appspot.com
 vkbox93ppxzsaozxo.appspot.com
 vkcdnservice.appspot.com
+vortex-sandbox.data.microsoft.com
+vortex-win.data.microsoft.com
 v.shopify.com
 vuukle-analytics.appspot.com
 vvo138adoofoficnaszxoas.appspot.com
@@ -736,4 +735,3 @@ zhanzhang.baidu.com
 zmail221.appspot.com
 zminer.zaloapp.com
 zz.bdstatic.com
-survey.watson.microsoft.com
