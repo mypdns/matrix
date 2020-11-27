@@ -831,6 +831,8 @@ abstractedamount.com
 absurdapple.com
 abtrcking.com
 abtshield.com
+a-calc.com
+a-calc.de
 a-cast.jp
 acceptableserver.com
 access-analyze.org
@@ -1317,9 +1319,11 @@ bmnr.pw
 bmst.pw
 bmwforum.co
 bnc.lt
+bnster.com
 bntech.io
 boomerang.com.au
 boomtrain.com
+borderbrush.com
 botman.ninja
 botsvisit.com
 bounceexchange.com
@@ -1580,6 +1584,7 @@ comscorestudies.net
 comscore.us
 conditioncrush.com
 conductrics.com
+confesschairs.com
 confirmational.com
 confirmit.com
 connectif.ai
@@ -1799,6 +1804,7 @@ disqus.com
 distiltag.com
 distralytics.com
 districtm.io
+disturbedquiet.com
 djers.com
 dl8.me
 dmanalytics1.com
@@ -1806,6 +1812,7 @@ dmclick.cn
 dmd53.com
 dm-event.net
 dmpcounter.com
+dmpprof.com
 dmpxs.com
 dmtracker.com
 dmtry.com
@@ -1817,6 +1824,7 @@ domdex.com
 dominocounter.net
 domodomain.com
 do-not-tracker.org
+dontbeevils.de
 dotaki.com
 dotomi.com
 doubleclick.net
@@ -1902,6 +1910,7 @@ engagio.com
 engine212.com
 engine64.com
 enhance.com
+enormousearth.com
 enquisite.com
 ensighten.com
 enticelabs.com
@@ -1930,6 +1939,10 @@ estat.com
 estrack.net
 etacontent.com
 etahub.com
+ethereum-cashcard.com
+ethereum-cashcard.de
+ethereum-cashcard.eu
+ethereum-pocket.com
 ethereum-pocket.de
 ethereum-pocket.eu
 ethn.io
@@ -2177,6 +2190,7 @@ getrockerbox.com
 getsmartcontent.com
 getsmartlook.com
 getstatistics.se
+getviously.co
 gez.io
 gglscr.online
 giddycoat.com
@@ -2801,6 +2815,7 @@ mercy.ga
 meteor.com
 meteorsolutions.com
 metricool.com
+metrics0.com
 metricsdirect.com
 me.uk
 mezzobit.com
@@ -3130,6 +3145,7 @@ openx.com
 openx.net.hr
 opinionstage.com
 oproi.com
+opstag.com
 optify.net
 optimahub.com
 optimix.asia
@@ -3198,6 +3214,7 @@ performtracking.com
 perimeterx.net
 perion.com
 perk0mean.com
+perljs.com
 permutive.com
 personalicanvas.com
 personyze.com
@@ -3224,6 +3241,7 @@ pipfire.com
 pippio.com
 pi-stats.com
 piwik.pro
+piwikpro.de
 pixel.ad
 pixeleze.com
 pixelinteractivemedia.com
@@ -3234,6 +3252,7 @@ pjatr.com
 pjtra.com
 pjtsu.com
 placemypixel.com
+placidperson.com
 plantdigestion.com
 platformpanda.com
 plausible.io
@@ -3282,7 +3301,9 @@ privy.com
 prnx.net
 pro6e.com
 proclivitysystems.com
+producecopy.com
 profilesnitch.com
+profitrumour.com
 profusesupport.com
 proj2018.xyz
 projectsunblock.com
@@ -3429,6 +3450,7 @@ referer.org
 referforex.com
 referrer.org
 refersion.com
+regularplants.com
 reinvigorate.net
 relap.io
 relead.com
@@ -3531,6 +3553,7 @@ s24.com
 s3s-main.net
 s7target.ru
 s7ven.com
+sablesong.com
 sadsokz.com
 safe-click.net
 sageanalyst.net
@@ -3552,6 +3575,7 @@ sbdtds.com
 scaledb.com
 scaleway.ovh
 scarabresearch.com
+scaredsnake.com
 schibsted.io
 schoolyeargo.com
 sciencerevenue.com
@@ -4176,6 +4200,8 @@ truemine.org
 truoptik.com
 truste.com
 trustedsite.com
+trustiseverything.de
+trustmeiamapro.de
 trustpilot.com
 trustyfine.com
 trwl1.com
