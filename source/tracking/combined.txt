@@ -1159,6 +1159,7 @@ appier.com
 applicationinsights.microsoft.com
 applovin.com
 applovin.com.edgekey.net
+app-measurement.com
 appn.center
 appnexus.com
 appsha5.space
