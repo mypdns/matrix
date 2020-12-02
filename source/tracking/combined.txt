@@ -327,6 +327,8 @@ f.hiphotos.baidu.com
 fhpo13papgnigidinams.appspot.com
 fimserve.ign.com
 f-log-at.grammarly.io
+fls-eu.amazon.de
+fls-eu.amazon.nl
 fods392pszsafsd.appspot.com
 fox-eye.appspot.com
 fp-analytics.hotstar.com
