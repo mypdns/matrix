@@ -1,0 +1,66 @@
+name: PyFunceble CI tests
+on:
+    schedule:
+        - cron: "20 * * * *"
+
+env:
+    PYFUNCEBLE_AUTO_CONFIGURATION: "YES"
+    GIT_NAME: "${{ secrets.GIT_NAME }}"
+    GIT_EMAIL: "${{ secrets.GIT_EMAIL }}"
+    PYFUNCEBLE_CONFIG_DIR: "${{ github.workspace }}/.pyfunceble"
+    PYFUNCEBLE_OUTPUT_LOCATION: "${{ github.workspace }}/.pyfunceble"
+    GITHUB_TOKEN: "${{ secrets.GITHUB_TOKEN }}"
+    BUILD_NUMBER: "${{ github.run_number }}"
+
+jobs:
+    test_and_push:
+        name: Run PyFunceble against the files and push result to repository
+        runs-on: "${{ matrix.os }}"
+
+        strategy:
+            fail-fast: false
+            matrix:
+                python_version:
+                    - "3.9.1"
+                os:
+                    - ubuntu-20.04
+
+        steps:
+            - uses: actions/checkout@v2
+              name: Clone repository
+              with:
+                  token: ${{ secrets.GITHUB_TOKEN }}
+
+            - name: Set up Python ${{ matrix.python_version }}
+              uses: actions/setup-python@v2
+              with:
+                  python-version: ${{ matrix.python_version }}
+
+            - name: Install PyFunceble
+              run: |
+                  pip install --no-cache-dir --pre PyFunceble-dev
+
+            - name: Get PyFunceble version
+              run: |
+                  PyFunceble --version
+
+            - name: Run Domain tests
+              run: |
+                  pyfunceble -f "${{ github.workspace }}/" \
+                  "${{ github.workspace }}/source/adware/combined.txt" \
+                  "${{ github.workspace }}/source/bait_sites/combined.txt" \
+                  "${{ github.workspace }}/source/coin-blocker/combined.txt" \
+                  "${{ github.workspace }}/source/dns-servers/wildcard.rpz-nsdname" \
+                  "${{ github.workspace }}/source/fake-news/domains.list" \
+                  "${{ github.workspace }}/source/gambling/combined.txt" \
+                  "${{ github.workspace }}/source/ip-network-blocking/combined.txt" \
+                  "${{ github.workspace }}/source/malicious/combined.txt" \
+                  "${{ github.workspace }}/source/phishing/combined.txt" \
+                  "${{ github.workspace }}/source/redirector/combined.txt" \
+                  "${{ github.workspace }}/source/scamming/combined.txt" \
+                  "${{ github.workspace }}/source/sharked-domains/combined.txt" \
+                  "${{ github.workspace }}/source/spyware/combined.txt" \
+                  "${{ github.workspace }}/source/tracking/combined.txt" \
+                  "${{ github.workspace }}/source/typosquatting/combined.txt" \
+                  "${{ github.workspace }}/source/porno-sites/combined.txt" \
+                  "${{ github.workspace }}/source/porno-sites/wildcard.list.old"
