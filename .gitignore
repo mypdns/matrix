@@ -17,3 +17,6 @@ scripts/spam.sh
 api/api.cfg
 screenshots/
 source/porno-sites/wildcard.list.old
+api/api.cfg
+api/**
+danilo82.sh

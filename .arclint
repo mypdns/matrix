@@ -3,7 +3,11 @@
     "text": {
       "type": "text",
       "include": ["(\\.(list|md|txt|rst)$)"],
-      "exclude": ["(^source/(bait_sites|coin-blocker|fake-news)/domains\\.list)", "(combined\\.txt$)"],
+      "exclude": [
+        "(^source/(bait_sites|coin-blocker|fake-news)/domains\\.list)",
+        "(combined\\.txt$)",
+        "\\.gitkeep"
+      ],
       "severity.rules": {
         "(^E)": "warning",
         "(^W)": "advice"
