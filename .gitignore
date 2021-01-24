@@ -20,3 +20,7 @@ source/porno-sites/wildcard.list.old
 api/api.cfg
 api/**
 danilo82.sh
+
+# Visual Basic Code
+.vscode
+**.code-workspace
