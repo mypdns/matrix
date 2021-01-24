@@ -55,3 +55,17 @@ jobs:
 
           drill axfr @axfr.ipv4.mypdns.cloud -p 5306 safesearch.mypdns.cloud \
             | grep -vE '^($|;)' >> ${{ github.workspace }}/safesearch/safesearch.mypdns.cloud.rpz
+
+            - name: Commit changes
+        run: |
+          tag=$(date +'day: %j of year %Y %H:%M:%S')
+          git config --local user.email "$GIT_EMAIL"
+          git config --local user.name "$GIT_NAME"
+          git commit -m "Committed new lists $tag" -a
+          git pull --rebase
+
+      - name: Push changes
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          branch: ${{ github.ref }}
