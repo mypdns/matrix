@@ -50,8 +50,7 @@ jobs:
 
             - name: Run Domain tests
               run: |
-                  pyfunceble -f "${{ github.workspace }}/" \
-                  "${{ github.workspace }}/source/adware/combined.txt" \
+                  pyfunceble -f "${{ github.workspace }}/source/adware/combined.txt" \
                   "${{ github.workspace }}/source/bait_sites/combined.txt" \
                   "${{ github.workspace }}/source/coin-blocker/combined.txt" \
                   "${{ github.workspace }}/source/dns-servers/wildcard.rpz-nsdname" \
