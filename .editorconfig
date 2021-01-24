@@ -20,7 +20,7 @@ trim_trailing_whitespace = false
 
 [*.{yaml,yml,rst}]
 indent_style             = space
-indent_size              = 4
+indent_size              = 2
 
 
 [*.{sh,bash}]
