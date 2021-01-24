@@ -61,6 +61,10 @@ jobs:
           drill axfr @axfr.ipv4.mypdns.cloud -p 5306 safesearch.mypdns.cloud \
             | grep -vE '^($|;)' >> ${{ github.workspace }}/safesearch/safesearch.mypdns.cloud.rpz
 
+
+      - name: Git Status
+        run: git status
+
       - name: Commit changes
         run: |
           tag=$(date +'day: %j of year %Y %H:%M:%S')
