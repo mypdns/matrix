@@ -1,4 +1,4 @@
 # https://github.com/marketplace/actions/newline-action
 
-autoCommit: false # If false, the bot will still comment in the pull request, so you can known which files are wrong and fix them yourself.
+autoCommit: true # If false, the bot will still comment in the pull request, so you can known which files are wrong and fix them yourself.
 #ignorePaths: [""] # Globs to be ignored

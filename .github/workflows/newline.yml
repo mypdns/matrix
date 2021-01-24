@@ -2,6 +2,12 @@ name: Final new line
 on:
   pull_request:
     types: [synchronize, opened]
+
+env:
+  GIT_NAME: "${{ secrets.GIT_NAME }}"
+  GIT_EMAIL: "${{ secrets.GIT_EMAIL }}"
+  GITHUB_TOKEN: "${{ secrets.GITHUB_TOKEN }}"
+
 jobs:
   build:
     name: New line
