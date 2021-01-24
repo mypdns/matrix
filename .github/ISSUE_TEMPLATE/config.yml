@@ -14,13 +14,13 @@ contact_links:
     about: If you have found a DNS Server that is only is used for bad things or maybe only used for hosting domains in adult material
   - name: Gambling
     url: https://www.mypdns.org/maniphest/task/edit/form/14/
-    anout: Report any gambling realted domains
+    about: Report any gambling realted domains
   - name: Hijacked / Pirated / Sharked
     url: https://www.mypdns.org/maniphest/task/edit/form/10/
     about: Report any Hijacked or Pirated domain here.
   - name: IP Blocking
     url: https://www.mypdns.org/maniphest/task/edit/form/8/
-    about: If you would like to report IP Blocking addresses to be blocked. Report by CIDR range (/xx).
+    about: If you would like to report IP Blocking addresses to be blocked.Report by CIDR range (/xx).
   - name: Malicious
     url: https://www.mypdns.org/maniphest/task/edit/form/12/
     about: Report any Malicious domains here
@@ -29,7 +29,7 @@ contact_links:
     about: Any domains used explicit to redirect urls, Typically used as AdWare and Tracking at the same time
   - name: Scam / Spam
     url: https://www.mypdns.org/maniphest/task/edit/form/7/
-    about: Any domain araised from spam or domain used for scamming like pretending to be a Microsoft supporter who have called you, laiming you have a lot of issues with your installation
+    about: Any domain arises from spam or domain used for scamming like pretending to be a Microsoft supporter who have called you, laiming you have a lot of issues with your installation
   - name: SpyWare
     url: https://www.mypdns.org/maniphest/task/edit/form/6/
     about: Report any kind of SpyWare here. SpyWare is a weird classification, TrackWare actually also is SpyWare and SpyWare is used for Tracking you.. The definition is therefor SpyWare is unwanted Tracking installed by software. E.g. Google OS, 360totalsecurity, Avast

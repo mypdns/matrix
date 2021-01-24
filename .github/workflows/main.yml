@@ -36,7 +36,8 @@ jobs:
       - name: "Sort our lists for doublets and order by alphabet"
         run: |
           find "${{ github.workspace }}/source/" -type f -name '*.list' -exec \
-          bash -c "sort -i -u -f '{}' -o '{}' " \;
+          bash -c "awk -F "." '{for(i=NF; i > 1; i--) printf "%s.", $i; print $1}' '{}'  | \
+		  sort | awk -F "." '{for(i=NF; i > 1; i--) printf "%s.", $i; print $1}' >> '{}' " \;
 
       - name: "Sort our rpz-nsdname for doublets and order by alphabet"
         run: |
