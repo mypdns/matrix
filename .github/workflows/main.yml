@@ -5,6 +5,11 @@ on:
     branches:
       - "master"
 
+env:
+  GIT_NAME: "${{ secrets.GIT_NAME }}"
+  GIT_EMAIL: "${{ secrets.GIT_EMAIL }}"
+  GITHUB_TOKEN: "${{ secrets.GITHUB_TOKEN }}"
+
 jobs:
   scheduler:
     name: Trigger action
@@ -16,7 +21,7 @@ jobs:
         python_version:
           - "3.9.1"
         os:
-          - ubuntu-latest
+          - ubuntu-20.04
 
     steps:
       - uses: actions/checkout@main #Obviously yet another american...
