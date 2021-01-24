@@ -36,7 +36,7 @@ do
     cat ${d[@]}/*.list > ${d[@]}/combined.txt
 done
 
-# Import latest working example of safesearch from safesearc.mypdns.cloud
+# Import latest working example of safesearch from safesearch.mypdns.cloud
 rm "$TRAVIS_BUILD_DIR/safesearch/safesearch.mypdns.cloud.rpz"
 
 drill axfr @axfr.ipv4.mypdns.cloud -p 5306 safesearch.mypdns.cloud \

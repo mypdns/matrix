@@ -1,0 +1,57 @@
+name: Sort My Privacy DNS's lists
+
+on:
+  push:
+    branches:
+      - "master"
+
+jobs:
+  scheduler:
+    name: Trigger action
+    runs-on: "${{ matrix.os }}"
+
+    strategy:
+      fail-fast: false
+      matrix:
+        python_version:
+          - "3.9.1"
+        os:
+          - ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@main #Obviously yet another american...
+        name: Clone repository
+        with:
+          token: "${{ secrets.GITHUB_TOKEN }}"
+
+      - name: Install requirements
+        run: |
+          sudo bash "${{ github.workspace }}/scripts/dependencies.sh"
+
+      - name: "Sort our lists for doublets and order by alphabet"
+        run: |
+          find "${{ github.workspace }}/source/" -type f -name '*.list' -exec \
+          bash -c "sort -i -u -f '{}' -o '{}' " \;
+
+      - name: "Sort our rpz-nsdname for doublets and order by alphabet"
+        run: |
+            find "${{ github.workspace }}/source/" -type f -name '*.rpz-nsdname' \
+            -exec bash -c "sort -i -u -f '{}' -o '{}' " \;
+
+      - name: "Combine domain and wildcard domains for external usages"
+        run: |
+          cd "${{ github.workspace }}"
+          find "${{ github.workspace }}/source/" -type f -name 'combined.txt' \
+          -delete
+
+          for d in `find source/ -mindepth 1 -maxdepth 1 -type d`
+          do
+              cat ${d[@]}/*.list > ${d[@]}/combined.txt
+          done
+
+      - name: "Import latest working example of safesearch from safesearch.mypdns.cloud"
+        run: |
+          rm "${{ github.workspace }}/safesearch/safesearch.mypdns.cloud.rpz"
+
+          drill axfr @axfr.ipv4.mypdns.cloud -p 5306 safesearch.mypdns.cloud \
+            | grep -vE '^($|;)' >> ${{ github.workspace }}/safesearch/safesearch.mypdns.cloud.rpz
