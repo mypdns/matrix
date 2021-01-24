@@ -90,7 +90,7 @@ cli_testing:
         max_exec_minutes: 45
 
         # Sets the working branch. This is the branch from where we are testing.
-        branch: "masterdata-testing"
+        branch: "data-testing"
 
         # Sets the distribution branch. This is the branch that is going to get
         # the (final) results.

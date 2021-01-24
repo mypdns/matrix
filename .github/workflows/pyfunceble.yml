@@ -1,7 +1,11 @@
 name: PyFunceble CI tests
 on:
     schedule:
-        - cron: "20 * * * *"
+        - cron: "30 * * * *"
+    push:
+        branches:
+            - "master"
+            - "data-testing"
 
 env:
     PYFUNCEBLE_AUTO_CONFIGURATION: "YES"
