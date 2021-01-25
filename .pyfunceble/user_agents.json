@@ -1,0 +1,32 @@
+{
+    "chrome": {
+        "linux": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36 RuxitSynthetic/1.0 v3737953342986056187 t6583941071150805161 ath259cea6f altpriv smf=0",
+        "macosx": "Mozilla/5.0 (Macintosh; Intel Mac OS X 11_1_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4341.0 Safari/537.36",
+        "win10": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36/RHAZyHSD-27"
+    },
+    "edge": {
+        "linux": null,
+        "macosx": null,
+        "win10": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.0 Safari/537.36 Edg/89.0.774.0"
+    },
+    "firefox": {
+        "linux": "Mozilla/5.0 (X11; Linux x86_64; rv:45.0) Gecko/20100101 Firefox/45.0; on behalf of 92.150.169.191",
+        "macosx": "Mozilla/5.0 (Macintosh; U; PPC Mac OS X 10.4; zh-CN; rv:1.9.2.25) Gecko/20111212 Firefox/3.6.25",
+        "win10": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:78.6) Gecko/20100101 Firefox/78.6"
+    },
+    "ie": {
+        "linux": null,
+        "macosx": null,
+        "win10": "Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 10.0; Win64; x64; Trident/7.0; Microsoft Outlook 16.0.10370; Microsoft Outlook 16.0.10370; ms-office; MSOffice 16)"
+    },
+    "opera": {
+        "linux": "Opera/8.52.(X11; Linux x86_64; os-RU) Presto/2.9.183 Version/12.00",
+        "macosx": "Mozilla/5.0 (Macintosh; Intel Mac OS X 11_0_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36 OPR/73.0.3856.344 (Edition Yx 08)",
+        "win10": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36 OPR/71.0.3770.284\\x5Cx5CxC2\\x5Cx5CxA0"
+    },
+    "safari": {
+        "linux": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Safari/537.36 HeyTapBrowser/45.7.5.1",
+        "macosx": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_1) AppleWebKit/603.3.8 (KHTML, like Gecko) Version/10.0 Safari/603.3.8",
+        "win10": null
+    }
+}
