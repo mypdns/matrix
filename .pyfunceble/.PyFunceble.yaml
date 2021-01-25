@@ -4,196 +4,56 @@ cli_decoding:
     rpz: false
     wildcard: false
 cli_testing:
-  # Provides everything directly related to the CLI testing.
-
-  # Sets the Hosts IP to use while generation the hosts file(s)
-  hosts_ip: '0.0.0.0'
-
-  # Sets the number of maximal workers to use.
-  # If set to null, the system use: CPU Cores * 5.
-  max_workers: null
-
-  # Activates the automatic continuation after a break or shortage.
-  autocontinue: True
-
-  # Activates the storage and creation of a database of all INACTIVA and INVALID
-  # subjects for continuous testing.
-  inactive_db: True
-
-  # Activates the storage of some WHOIS information in order to avoid having
-  # to spam the WHOIS servers.
-  whois_db: True
-
-  # Activates the generation of complements.
-  complements: False
-
-  # Sets the cooldown time to apply between each tests.
-  cooldown_time: 0.0
-
-  # Sets the Database Connector type to use.
-  # Available: csv | mariadb | mysql
-  db_type: csv
-
-  # Sets the filter to apply while reading the given input.
-  # For example, if you give `\.info`, we will only test the subjects who match
-  # `\.info`.
-  file_filter: null
-
-  # Activates the mining of data.
-  mining: False
-
-  # Acknowledges that we may test for local network component.
-  # NOTE: Activating this, will remove the syntax checker completely.
-  local_network: False
-
-  # Activates or disable the preloading of the given input file(s).
-  # When this is activated, we take the time to pre load and decode the content
-  # of your file so that we can optimize some of our process regarding the
-  # auto continue.
-  #
-  # Note: This has no effect if the auto-continue is deactivated.
-  preload_file: False
-
-  ci:
-    # Provides everything related to the Continuous integration.
-
-    # Activates the continuous integration mode.
-    # WARNING: Do not activate without asking or knowing what you are doing.
-    active: True
-
-    # Sets the commit message to apply everytime except for the last one.
-    commit_message: 'My Privacy DNS - Temp results'
-
-    # Sets the commit message to apply at the very end of the test.
-    end_commit_message: 'My Privacy DNS - Results'
-
-    # Sets the number of minutes  to wait before starting to save and stop
-    # a session.
-    max_exec_minutes: 45
-
-    # Sets the working branch. This is the branch from where we are testing.
-    branch: master
-
-    # Sets the distribution branch. This is the branch that is going to get
-    # the (final) results.
-    distribution_branch: master
-
-    # Sets the command to execute everytime before each commits except the last
-    # one.
-    command: null
-
-    # Sets the command to execute before the last commit.
-    end_command: null
-
-  display_mode:
-    # Provides everything related to the display mode.
-
-    # Activates the printing of dots.
-    dots: True
-
-    # Activates the printing of the execution time.
-    execution_time: True
-
-    # Activates the output of the percentage information.
-    percentage: True
-
-    # Activates the quiet mode.
-    quiet: True
-
-    # Activates the output of very few information.
-    less: True
-
-    # Activates the output of all information.
-    all: False
-
-    # Activates the output of the status and it's status (only)
-    simple: False
-
-    # Activates the coloration of stdout.
-    colour: True
-
-    # Sets the status do display to STDOUT.
-    # NOTE: This does not have any effect with the generated files.
-    # Available values: ALL | ACTIVE | INACTIVE | INVALID | SANE | MALICIOUS
-    status: all
-
-  testing_mode:
-    # Provides all available testing modes.
-    # WARNING: Only one can be used at a time.
-
-    # Activates the availability test.
-    availability: True
-
-    # Activates the syntax test.
-    syntax: False
-
-    # Activates the reputation test.
-    reputation: False
-
-  days_between:
-    # Provides everything which is x days periodic.
-
-    # NOT IMPLEMENTED (Anticipation for future usage).
-    db_clean: 120
-
-    # Provides the number of days to wait before retesting subject which were
-    # stored into the inactive database.
-    db_retest: 1
-
-  sorting_mode:
-    # Provides all our sorting mode.
-    # WARNING: The sorting mode is only applied to the files. NOT STDOUT.
-
-    # Activates the hierarchical sorting.
-    hierarchical: True
-
-    # Activates the standard sorting.
-    standard: True
-
-  file_generation:
-    # Provides everything related to the generation of file.
-
-    # Deactivates the generation of any status file.
-    no_file: False
-
-    # Activates the generation of the hosts file(s).
-    hosts: False
-
-    # Activates the generation of the plain (or raw) file(s).
-    plain: True
-
-    # Activates the generation of the analytic file(s).
-    analytic: True
-
-    # Activate the generation of an unified file for the copy of what is
-    # outputted to STDOUT.
-    unified_results: True
-
-lookup:
-  # Provides everything related to the lookup.
-
-  # Activates the usage of the DNS lookup.
-  dns: True
-
-  # Activates the usage of the HTTP status code lookup.
-  http_status_code: True
-
-  # Activates the usage of the network information socket.
-  netinfo: True
-
-  # Activates the usage of our special rules.
-  special: True
-
-  # Activates the usage of the WHOIS record.
-  whois: True
-
-  # Activates the usage of the reputation data reputation.
-  reputation: False
-
-  # Sets the timeout to apply to each of our lookup tools who support a timeout
-  # option.
-  timeout: 5
-
+    autocontinue: true
+    ci:
+        active: true
+        branch: master
+        command: null
+        commit_message: My Privacy DNS - Temp results
+        distribution_branch: master
+        end_command: null
+        end_commit_message: My Privacy DNS - Results
+        max_exec_minutes: 45
+    complements: false
+    cooldown_time: 0.0
+    days_between:
+        db_clean: 120
+        db_retest: 1
+    db_type: csv
+    display_mode:
+        all: false
+        colour: true
+        dots: true
+        execution_time: true
+        less: true
+        percentage: true
+        quiet: true
+        simple: false
+        status: all
+    file_filter: null
+    file_generation:
+        analytic: true
+        hosts: false
+        no_file: false
+        plain: true
+        unified_results: true
+    hosts_ip: 0.0.0.0
+    inactive_db: true
+    local_network: false
+    max_workers: null
+    mining: false
+    preload_file: false
+    sorting_mode:
+        hierarchical: true
+        standard: true
+    testing_mode:
+        availability: true
+        reputation: false
+        syntax: false
+    whois_db: true
+debug:
+    active: false
+    level: info
 dns:
     protocol: UDP
     server:
@@ -237,7 +97,6 @@ http_codes:
         - 416
         - 451
         potentially_up:
-        - 0
         - 300
         - 301
         - 302
