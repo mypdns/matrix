@@ -495,7 +495,6 @@ nav.files.bbci.co.uk
 neownesharepointdororescos.appspot.com
 no8lancelot.appspot.com
 nojsstats.appspot.com
-notify.bugsnag.com
 novem.onet.pl
 nsclick.baidu.com
 nvcuiaoc0aspxzcs.appspot.com
@@ -572,7 +571,6 @@ securdserv1.appspot.com
 sedo.cachefly.net
 segment.hotstar.com
 sensytracker.appspot.com
-sessions.bugsnag.com
 settings-sandbox.data.microsoft.com
 settings-win.data.microsoft.com
 settings.crashlytics.com
@@ -1412,6 +1410,7 @@ buf.lemonde.fr
 bugfender.com
 bugherd.com
 bugsnag.appstore.a2z.com
+bugsnag.com
 bunchbox.co
 burnbubble.com
 burstbeacon.com
