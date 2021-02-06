@@ -1,32 +1,32 @@
 {
     "chrome": {
-        "linux": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.9 Safari/537.36",
-        "macosx": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_32_85) AppleWebKit/532.81.34 (KHTML, like Gecko) Chrome/57.4.9393.4665 Safari/534.51",
-        "win10": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2799.10 Safari/537.36"
+        "linux": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36 CWABrowser",
+        "macosx": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.146 Safari/537.36",
+        "win10": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.146 Safari/537.36/J6lm8rds-47"
     },
     "edge": {
         "linux": null,
         "macosx": null,
-        "win10": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; Cortana 1.8.12.15063; 10.0.0.0.15063.1418) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36 Edge/15.15063"
+        "win10": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.150 Safari/537.36 Edg/88.0.705.63"
     },
     "firefox": {
-        "linux": "Mozilla/5.0 (X11; U; Linux x86_64; fr; rv:1.9.0.1) Gecko/2008070400 SUSE/3.0.1-1.1 Firefox/3.0.1",
-        "macosx": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_33_86; rv:45.75.28) Gecko/20139338 Firefox/45.75.28",
-        "win10": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:60.0) Gecko/20100101 Firefox/60.0, Hello-World"
+        "linux": "Mozilla/5.0 (X11; U; Linux x86_64; en-US; rv:1.9.1.8pre) Gecko/20091227 Ubuntu/9.10 (karmic) Firefox/52.7.3",
+        "macosx": "Mozilla/5.0 (Macintosh; Intel Mac OS X 11.2; rv:85.0) Gecko/20100101 Firefox/85.0",
+        "win10": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; en-US) Gecko/20100101 Firefox/77.0"
     },
     "ie": {
         "linux": null,
         "macosx": null,
-        "win10": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; Trident/7.0; tb-gmx/2.7.0; rv:11.0) like Gecko"
+        "win10": "Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 10.0; Win64; x64; Trident/7.0; .NET4.0C; .NET4.0E; .NET CLR 2.0.50727; .NET CLR 3.0.30729; .NET CLR 3.5.30729; HCTE; wbx 1.0.0; wbxapp 1.0.0)"
     },
     "opera": {
-        "linux": "Opera/8.52.(X11; Linux x86_64; os-RU) Presto/2.9.183 Version/12.00",
-        "macosx": "Mozilla/5.0 (Macintosh; Intel Mac OS X 11_0_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36 OPR/73.0.3856.344 (Edition Yx 08)",
-        "win10": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.183 Safari/537.36 OPR/72.0.3815.320/CKpRbXCn-54"
+        "linux": "Opera/9.80 (X11; Linux x86_64; U; ja) Presto/2.10.229 Version/11.64",
+        "macosx": "Opera/9.52 (Macintosh; PPC Mac OS X; U; ja)",
+        "win10": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.104 Safari/537.36 OPR/74.0.3911.75"
     },
     "safari": {
         "linux": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/534.34 (KHTML, like Gecko) accountwizard/0.2 Safari/534.34",
-        "macosx": "Mozilla/5.0 (Macintosh; U; {proc} Mac OS X 10_11_8 rv:5.0; en-US) AppleWebKit/534.30.3 (KHTML, like Gecko) Version/4.0 Safari/534.30.3",
+        "macosx": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0 YaBrowser/20.11.2.199.10 SA/3 Safari/605.1.15",
         "win10": null
     }
 }
