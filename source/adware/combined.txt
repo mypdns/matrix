@@ -87,6 +87,7 @@ adbroker.mp.dse.microsoft.com
 adc.stream.moe
 adelogs.adobe.com
 adelogs.wip4.adobe.com
+admanager.alzura.com
 admarvel.s3.amazonaws.com
 admaster.com.cn
 adn.porndig.com
@@ -4779,6 +4780,7 @@ cspyozjbwb.com
 css-style-95.com
 cssimplicanab.info
 cstfzgckbtrb.com
+cstwpush.com
 ctasnet.com
 ctenetwork.com
 ctm-media.com
