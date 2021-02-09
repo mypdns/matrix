@@ -267,6 +267,7 @@ d.haberler.com
 d1af033869koo7.cloudfront.net
 d1hi41nc56pmug.cloudfront.net
 d1lxhc4jvstzrp.cloudfront.net
+d2wy8f7a9ursnm.cloudfront.net
 d303e3cdddb4ded4b6ff495a7b496ed5.s3.amazonaws.com
 d39yds8oe4n4jq.cloudfront.net
 d3lvir7538n0oi.cloudfront.net
@@ -1185,6 +1186,7 @@ aprtx.com
 apsislead.com
 apxy.io
 aqtracker.com
+aralego.net
 arcadeweb.com
 arda0hylt58g4wg0.pro
 arena-quantum.co.uk
