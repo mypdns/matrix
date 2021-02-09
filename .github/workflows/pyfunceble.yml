@@ -66,4 +66,5 @@ jobs:
           "${{ github.workspace }}/source/tracking/combined.txt" \
           "${{ github.workspace }}/source/typosquatting/combined.txt" \
           "${{ github.workspace }}/source/porno-sites/combined.txt" \
-          "${{ github.workspace }}/source/porno-sites/wildcard.list.old"
+          "${{ github.workspace }}/source/porno-sites/wildcard.list.old" \
+          --ci-command "git add ."
