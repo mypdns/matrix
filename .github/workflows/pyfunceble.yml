@@ -1,31 +1,31 @@
 name: PyFunceble CI tests
 on:
   schedule:
-    - cron: "0 * * * *"
+    - cron: '0 * * * *'
   push:
     branches:
-      - "master"
-      - "data-testing"
+      - 'master'
+      - 'data-testing'
 
 env:
-  PYFUNCEBLE_AUTO_CONFIGURATION: "YES"
-  GIT_NAME: "${{ secrets.GIT_NAME }}"
-  GIT_EMAIL: "${{ secrets.GIT_EMAIL }}"
-  PYFUNCEBLE_CONFIG_DIR: "${{ github.workspace }}/.pyfunceble"
-  PYFUNCEBLE_OUTPUT_LOCATION: "${{ github.workspace }}/.pyfunceble"
-  GITHUB_TOKEN: "${{ secrets.GITHUB_TOKEN }}"
-  BUILD_NUMBER: "${{ github.run_number }}"
+  PYFUNCEBLE_AUTO_CONFIGURATION: 'YES'
+  GIT_NAME: '${{ secrets.GIT_NAME }}'
+  GIT_EMAIL: '${{ secrets.GIT_EMAIL }}'
+  PYFUNCEBLE_CONFIG_DIR: '${{ github.workspace }}/.pyfunceble'
+  PYFUNCEBLE_OUTPUT_LOCATION: '${{ github.workspace }}/.pyfunceble'
+  GITHUB_TOKEN: '${{ secrets.GITHUB_TOKEN }}'
+  BUILD_NUMBER: '${{ github.run_number }}'
 
 jobs:
   test_and_push:
     name: Run PyFunceble against the files and push result to repository
-    runs-on: "${{ matrix.os }}"
+    runs-on: '${{ matrix.os }}'
 
     strategy:
       fail-fast: false
       matrix:
         python_version:
-          - "3.9.1"
+          - '3.9.1'
         os:
           - ubuntu-20.04
 
@@ -67,4 +67,5 @@ jobs:
           "${{ github.workspace }}/source/typosquatting/combined.txt" \
           "${{ github.workspace }}/source/porno-sites/combined.txt" \
           "${{ github.workspace }}/source/porno-sites/wildcard.list.old" \
-          --ci-command "git add ."
+          --preload
+          --ci-command "echo $(date +'%s' > ${{ github.workspace }}/.trigger && git add ."
