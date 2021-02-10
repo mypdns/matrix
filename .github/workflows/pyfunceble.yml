@@ -68,5 +68,4 @@ jobs:
           "${{ github.workspace }}/source/typosquatting/combined.txt" \
           "${{ github.workspace }}/source/porno-sites/combined.txt" \
           "${{ github.workspace }}/source/porno-sites/wildcard.list.old" \
-          --preload
-          --ci-command "git add ."
+          --preload --ci-command "git add ."
