@@ -50,7 +50,7 @@ jobs:
 
       - name: Run Domain tests
         run: |
-          echo "$(date +'%s'" > "${{ github.workspace }}/.trigger"
+          echo "$(date +'%s')" > "${{ github.workspace }}/.trigger"
           pyfunceble -f "${{ github.workspace }}/source/adware/combined.txt" \
           "${{ github.workspace }}/source/bait_sites/combined.txt" \
           "${{ github.workspace }}/source/coin-blocker/combined.txt" \
