@@ -142,6 +142,7 @@ alive.github.com
 alt.bugsense.appspot.com
 amp-error-reporting.appspot.com
 an.yandex.ru
+analysis.fc2.com
 analytic-client.cuntempire.com
 analytic.imlive.com
 analytics-ingress-global.bitmovin.com
@@ -160,6 +161,11 @@ analytics.ns1.ff.avast.com
 analytics.ovh.com
 analytics.sketchup.com
 analytics.smallpdf.com
+analyzer.fc2.com
+analyzer2.fc2.com
+analyzer51.fc2.com
+analyzer52.fc2.com
+analyzer55.fc2.com
 android.bugly.qq.com
 androidapi.mxplay.com
 androidapp.baidu.com
@@ -245,8 +251,10 @@ count.mail.163.com.onlinekushshop.com
 count.mail.163.com.shrmnigeria.org
 count.mail.163.com.statistic.uy.dlea.ir
 counter.awempire.com
+counter.fc2.com
 counter.top.kg
 counter.zerohedge.com
+counter1.fc2.com
 countly.stackvaults.com
 cplog.flashget.com
 cpro.baidu.com
@@ -469,6 +477,7 @@ manage.devcenter.microsoft.com
 maps.googleapis.com
 maps.gstatic.com
 mc.yandex.ru
+media.fc2.com
 media.onet.pl
 medisinkurs.appspot.com
 metrica.yandex.ru
@@ -509,6 +518,7 @@ okozpodanienais.appspot.com
 online.miarroba.com
 oops.redditmedia.com
 openamp-error-reporting.appspot.com
+openx.sales.e.fc2.com
 optimize.google.com
 optimizely.appspot.com
 ota.nvidia.com
@@ -541,6 +551,7 @@ proxyprincipal.appspot.com
 pti.store.microsoft.com
 pvn.mediamarkt.de
 pvn.saturn.de
+px.a8.net
 px.redgifs.com
 px.spiceworks.com
 qiao.baidu.com
