@@ -74,10 +74,13 @@ ad.linkprice.com
 ad.masteranime.es
 ad.mox.tv
 ad.pentabox.net
+ad.xrea.com
 ad1.udn.com
 ad2.udn.com
+ad2.xrea.com
 ad2017.meo4.info
 ad3.udn.com
+ad3.xrea.com
 ad4.udn.com
 ad5.udn.com
 adagiobanner.s3.amazonaws.com
