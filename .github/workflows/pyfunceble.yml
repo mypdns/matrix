@@ -50,6 +50,7 @@ jobs:
 
       - name: Run Domain tests
         run: |
+          echo "$(date +'%s'" > "${{ github.workspace }}/.trigger"
           pyfunceble -f "${{ github.workspace }}/source/adware/combined.txt" \
           "${{ github.workspace }}/source/bait_sites/combined.txt" \
           "${{ github.workspace }}/source/coin-blocker/combined.txt" \
@@ -68,4 +69,4 @@ jobs:
           "${{ github.workspace }}/source/porno-sites/combined.txt" \
           "${{ github.workspace }}/source/porno-sites/wildcard.list.old" \
           --preload
-          --ci-command "echo $(date +'%s' > ${{ github.workspace }}/.trigger && git add ."
+          --ci-command "git add ."
