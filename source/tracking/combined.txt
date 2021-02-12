@@ -550,6 +550,7 @@ laurenobrian248-dot-yamm-track.appspot.com
 lightboxapi1.azurewebsites.net
 lightboxapi2.azurewebsites.net
 lightboxapi3.azurewebsites.net
+lightstep-collectors-v2-lb-1870604286.us-east-1.elb.amazonaws.com
 link.getmailspring.com
 location-inference-westus.cloudapp.net
 log.ebonybooty.pics
@@ -2013,6 +2014,7 @@ dstrack2.info
 dtc-v6t.com
 dti-ranker.com
 dtiserv2.com
+dtrace.nvidia.com
 dtscout.com
 dtxngr.com
 dwin1.com
@@ -3341,6 +3343,7 @@ os-data.com
 osdata.solutions
 ositracker.com
 ospserver.net
+otaadmin.nvidia.com
 otoshiana.com
 otracking.com
 ournet-analytics.com
