@@ -176,6 +176,7 @@ api-dot-mwm-ab-testing.appspot.com
 api-dot-mwm-ad-mediation.appspot.com
 api-js.datadome.co
 api.instagram.com
+appanalysis.banggood.com
 apphack.mobi
 apprep.smartscreen.microsoft.com
 arc.msn.com
