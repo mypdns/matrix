@@ -301,6 +301,7 @@ d1r55yzuc1b1bw.cloudfront.net
 d1rgnfh960lz2b.cloudfront.net
 d1ros97qkrwjf5.cloudfront.net
 d1t9uctetvi0tu.cloudfront.net
+d1tcqh4bio8cty.cloudfront.net
 d1uanozc5el74n.cloudfront.net
 d1wirc5qsdb1y5.cloudfront.net
 d1xfq2052q7thw.cloudfront.net
