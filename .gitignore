@@ -25,3 +25,4 @@ danilo82.sh
 .vscode
 **.code-workspace
 no-git/**
+scripts/easylistloop.sh
