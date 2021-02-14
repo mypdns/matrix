@@ -111,6 +111,7 @@ gl.am
 go.9nl.com
 go2.me
 go2cut.com
+gomain2.pro
 goo.gl
 goshrink.com
 gowat.ch
