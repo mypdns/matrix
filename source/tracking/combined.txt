@@ -902,6 +902,7 @@ zz.bdstatic.com
 24businessnews.com
 24counter.com
 24log.com
+24log.de
 24log.es
 24log.fr
 24log.it
