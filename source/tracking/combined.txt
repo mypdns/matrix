@@ -535,6 +535,7 @@ jacqualinemccue66719.appspot.com
 jas8aspzxoias.appspot.com
 javascriptcounter.appspot.com
 js.datadome.co
+js.stripe.com
 json-cricket.appspot.com
 jsso.indiatimes.com
 jssocdn.indiatimes.com
@@ -573,6 +574,7 @@ logs.amap.com
 logsbin.dantri.com.vn
 lplbackoffice.azurewebsites.net
 m.hotmail.com
+m.stripe.network
 ma.redhat.com
 ma85-r-analytics.akamaized.net
 mailfoogae.appspot.com
@@ -723,6 +725,7 @@ stats.privacytools.io
 stats.vk-portal.net
 store-images.s-microsoft.com
 storsimpleorder.azurewebsites.net
+stripecdn.map.fastly.net
 sugar.zhihu.com
 supertracker.flashget.com
 survey.watson.microsoft.com
