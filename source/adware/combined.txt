@@ -14769,6 +14769,8 @@ url.rw
 urlads.net
 urlcash.net
 urldelivery.com
+urlshortx.com
+urlshortx.xyz
 urlty.in
 urmilan.info
 urnuvssumlrb.com
