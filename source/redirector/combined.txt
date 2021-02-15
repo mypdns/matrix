@@ -297,6 +297,8 @@ super-route.com
 sureectrus.xyz
 t.co
 tcrn.ch
+techrfour.com
+techymozo.com
 terrapsps.com
 thrdl.es
 tibacta.com
@@ -376,6 +378,7 @@ x.se
 xaddr.com
 xclick24.com
 xeeurl.com
+xpshort.com
 xr.com
 xrl.in
 xrl.us
