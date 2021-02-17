@@ -2118,6 +2118,7 @@ ad-stir.com
 ad-vice.biz
 ad.admitad.com
 ad.atdmt.com
+ad.atown.jp
 ad.linksynergy.com
 ad.mox.tv
 ad.style
@@ -2566,12 +2567,14 @@ ads-pixiv.net
 ads-twitter.com
 ads.adtube.de
 ads.cc
+ads.instacart.com
 ads.internal.unity3d.com
 ads.jeded.com
 ads.microsoft.com
 ads.msn.com
 ads.prd.ie.internal.unity3d.com
 ads.rd.linksynergy.com
+ads.viralize.tv
 ads01.com
 ads1-adnow.com
 ads1.msn.com
