@@ -233,6 +233,7 @@ chrome.google.com
 chtatic.appspot.com
 civso0qas.appspot.com
 cjhq.baidu.com
+clarity.microsoft.com
 clck.yandex.ru
 clicks.virtuagirlhd.com
 client.baidu.com
@@ -1639,6 +1640,7 @@ circular-counters.com
 civiccomputing.com
 civicuk.com
 ck-cdn.com
+clarity.ms
 claritytag.com
 clarivoy.com
 cleananalytics.com
