@@ -325,6 +325,7 @@ cluster.awmserve.com
 cm.mediav.com
 cmp.evolok.net
 cmpsmarter-downloader.maynemyltf.netdna-cdn.com
+cn.dap.dmm.co.jp
 cn.dap.dmm.com
 code.msdn.microsoft.com
 code.poptm.com
