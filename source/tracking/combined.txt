@@ -780,6 +780,7 @@ tracking-opi.fonpit.de
 tracking.aita.gov.vn
 tracking.fits.me
 tracking.g2crowd.com
+tracking.game8.jp
 tracking.godatafeed.com
 tracking.html5games.com
 tracking.interweave.com
