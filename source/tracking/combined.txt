@@ -712,7 +712,6 @@ spynetalt.microsoft.com
 ssl-ccstatic.highwebmedia.com
 start.palemoon.org
 stat.aporntv.com
-stat.i3.dmm.com
 stat.mydaddy.cc
 stat.tiara.kakao.com
 statistic.ads24h.net
