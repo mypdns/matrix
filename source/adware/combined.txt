@@ -70,6 +70,7 @@ acesso-safra-empresas.s3-sa-east-1.amazonaws.com
 ad.99x.mobi
 ad.dmm.com
 ad.ettoday.net
+ad.go.com
 ad.linkprice.com
 ad.masteranime.es
 ad.mox.tv
@@ -90,6 +91,7 @@ adbroker.mp.dse.microsoft.com
 adc.stream.moe
 adelogs.adobe.com
 adelogs.wip4.adobe.com
+adimages.go.com
 admanager.alzura.com
 admarvel.s3.amazonaws.com
 admaster.com.cn
@@ -823,6 +825,7 @@ ncads.s3.amazonaws.com
 netspiderads.indiatimes.com
 netspiderads2.indiatimes.com
 netspiderads3.indiatimes.com
+ngads.go.com
 nnd.xyssp.com
 nojsstats.appspot.com
 notifications-api.cf.sky.com

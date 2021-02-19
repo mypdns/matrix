@@ -239,6 +239,7 @@ click.envios.buscape.com.br
 clicks.virtuagirlhd.com
 client.baidu.com
 cliqz.com
+clog.go.com
 cluster.chart.dk
 collector.githubapp.com
 collector.xhamster.com
@@ -561,6 +562,7 @@ lightstep-collectors-v2-lb-1870604286.us-east-1.elb.amazonaws.com
 link.getmailspring.com
 location-inference-westus.cloudapp.net
 log.ebonybooty.pics
+log.go.com
 log.gomlab.com
 log.quora.com
 log.ttbc-hcm.gov.vn
@@ -591,6 +593,7 @@ mc.yandex.ru
 media.fc2.com
 media.onet.pl
 medisinkurs.appspot.com
+merlin.abc.go.com
 metrica.yandex.ru
 metrics.readme.io
 metrics.redgifs.com
@@ -790,6 +793,7 @@ tracking.scenepass.com
 tracking.swogo.net
 tracking.tchibo.de
 traffic.acwebconnecting.com
+tredir.go.com
 triggeredmail.appspot.com
 triggertag.gorillanation.com
 trk.siliconevalleys.info
@@ -819,12 +823,14 @@ v10c.events.data.microsoft.com
 v7.stats.avast.com
 v7event.stats.avast.com
 vdsg2fasz.appspot.com
+verdict.abc.go.com
 vkbox93ppxzsaozxo.appspot.com
 vkcdnservice.appspot.com
 vortex-sandbox.data.microsoft.com
 vortex-win.data.microsoft.com
 vuukle-analytics.appspot.com
 vvo138adoofoficnaszxoas.appspot.com
+w88.go.com
 wangmeng.baidu.com
 wapceu2ntlcd01.azurewebsites.net
 wblt.oui.sncf
@@ -1270,6 +1276,7 @@ analytics.126.net
 analytics.anvato.net
 analytics.blue
 analytics.edgekey.net
+analytics.go.com
 analytics.yahoo.com
 analyticschecker.com
 analyticson.com
@@ -4465,6 +4472,7 @@ unbecominghall.com
 unequalbrake.com
 unica.com
 unicaondemand.com
+unid.go.com
 uniqodo.com
 unityads.unity3d.com
 unknowntray.com
