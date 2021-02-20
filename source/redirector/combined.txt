@@ -265,6 +265,7 @@ short.ie
 short.to
 shortlinks.co.uk
 shortna.me
+shorturl.at
 shorturl.com
 shoturl.us
 shrinkify.com
