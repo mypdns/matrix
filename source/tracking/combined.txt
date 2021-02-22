@@ -713,6 +713,7 @@ sgmnt.ticketswap.com
 sgqcvfjvr.onet.pl
 share.9cdn.net
 shopogolik-ru.appspot.com
+sixpack.sanarmed.com
 sl-native-android-hm-logging.appspot.com
 snapabug.appspot.com
 snowplow.trx.gitlab.net
