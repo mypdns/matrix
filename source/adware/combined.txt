@@ -89,8 +89,10 @@ adasiatagmanager.appspot.com
 adbetnet.advertserve.com
 adbroker.mp.dse.microsoft.com
 adc.stream.moe
+adcreative.naver.com
 adelogs.adobe.com
 adelogs.wip4.adobe.com
+adgroup.naver.com
 adimages.go.com
 admanager.alzura.com
 admarvel.s3.amazonaws.com
@@ -766,6 +768,7 @@ kinesisanalytics.eu-west-1.amazonaws.com
 landing.meendo.com
 later-analytics-reports.s3-accelerate.amazonaws.com
 lb-adserver.ig.com.br
+lcs.naver.com
 limelightovp3.creatorcloud.netdna-cdn.com
 llnk.eu
 llsp.gfd80.com
@@ -935,6 +938,7 @@ scr.flashcast.org.uk
 sdk.digitalbees.it
 sdkvideo.s3.amazonaws.com
 search.stream.cr
+searchad.naver.com
 sedo.cachefly.net
 send-beta.pinpoint.us-east-1.amazonaws.com
 send-gamma.pinpoint.us-east-1.amazonaws.com
@@ -2133,6 +2137,7 @@ ad.atdmt.com
 ad.atown.jp
 ad.linksynergy.com
 ad.mox.tv
+ad.naver.com
 ad.style
 ad.yieldpartners.com
 ad120m.com
@@ -11010,6 +11015,7 @@ openadstreamcentral.net
 openadsystem.com
 openadsystems.com
 openadsystems.net
+openapi.naver.com
 openbook.net
 openloadmovies.net
 openloed.co
