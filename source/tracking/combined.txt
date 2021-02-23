@@ -2256,6 +2256,7 @@ filmoljupci.com
 finalid.com
 find-ip-address.org
 finderlocator.com
+fingerprintjs.com
 firebaseapp.com
 firebaselogging-pa.googleapis.com
 firebaselogging.googleapis.com
