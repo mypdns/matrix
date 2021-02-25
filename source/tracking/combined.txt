@@ -566,6 +566,7 @@ lightboxapi3.azurewebsites.net
 lightstep-collectors-v2-lb-1870604286.us-east-1.elb.amazonaws.com
 link.getmailspring.com
 location-inference-westus.cloudapp.net
+log.ca.gov.vn
 log.ebonybooty.pics
 log.go.com
 log.gomlab.com
