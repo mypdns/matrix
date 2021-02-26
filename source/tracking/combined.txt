@@ -493,6 +493,7 @@ goreminders.com
 gql.reddit.com
 graph.facebook.com
 green-griffin-860.appspot.com
+growth-pa.googleapis.com
 gstaticadssl.l.google.com
 gu-pix.appspot.com
 guce.huffingtonpost.co.uk
@@ -520,6 +521,7 @@ ibeats.indiatimes.com
 iczopc9adozpxz.appspot.com
 ima3vpaid.appspot.com
 images.dmca.com
+imasdk.googleapis.com
 img-prod-cms-rt-microsoft-com.akamaized.net
 img.scoop.co.nz
 imgsrc.baidu.com
@@ -2270,6 +2272,7 @@ find-ip-address.org
 finderlocator.com
 fingerprintjs.com
 firebaseapp.com
+firebasedynamiclinks-ipv4.googleapis.com
 firebaselogging-pa.googleapis.com
 firebaselogging.googleapis.com
 firebasestorage.googleapis.com
@@ -3100,10 +3103,12 @@ mobileaccesspanel.com
 mobileapptracking.com
 mobilebenchmarck.com
 mobilebenchmark.com
+mobilecrashreporting.googleapis.com
 mobileengagement.windows.net
 mobilemarketmeasurement.com
 mobilemeter.com
 mobilemeter.net
+mobilenetworkscoring-pa.googleapis.com
 mobilens.com
 mobilens.net
 mobilens.us

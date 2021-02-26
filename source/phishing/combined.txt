@@ -36,6 +36,7 @@ ipv4.login.msa.akadns6.net
 kristom.hopto.org
 lgin.msa.trafficmanager.net
 online-coronavirus-268608.firebaseio.com
+storage.googleapis.com
 vietnam.zing.photos
 vs.login.msa.akadns6.net
 wind.windmilldrops.com
