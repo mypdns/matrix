@@ -616,6 +616,7 @@ mine.nahnoji.cz
 mine.torrent.pw
 mobads.baidu.com
 mobile-campaigns.avast.com
+mobileads.indiatimes.com
 mobilemetrics.appspot.com
 modern.watson.data.microsoft.com.akadns.net
 moneymoneymoney.azurewebsites.net
