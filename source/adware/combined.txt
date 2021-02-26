@@ -133,6 +133,7 @@ ads.yemonisoni.com
 ads.zalo.me
 ads2-adnow.com
 adscaspion.appspot.com
+adscontent.indiatimes.com
 adscontent2.indiatimes.com
 adserver-2.ig.com.br
 adserver-4.ig.com.br
@@ -144,9 +145,12 @@ adserver.ign.com
 adservice.aliexpress.com
 adservice.google.com
 adserwer.xwords.pl
+adsipl.indiatimes.com
+adsiplytmedia.indiatimes.com
 adsmediaturf.indiatimes.com
 adsrvmedia.adk2.co
 adstil.indiatimes.com
+adsytipl.indiatimes.com
 adtago.s3.amazonaws.com
 adv.mediaharbor.co.kr
 advancedtracker.appspot.com
