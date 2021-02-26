@@ -481,6 +481,7 @@ geoapi.indiatimes.com
 geoapi123.appspot.com
 geobeacon.ign.com
 geoip.ativo.com
+geoip.redirect-ads.com
 geoip.ubuntu.com
 geotargetly-1a441.appspot.com
 getonedrive.azurewebsites.net
@@ -1497,6 +1498,7 @@ bionicclick.com
 bitclub.network
 bitclubnetwork.com
 bitcoin-pay.eu
+bitporno.com
 bizible.com
 bizo.com
 bizspring.net
