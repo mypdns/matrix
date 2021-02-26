@@ -204,6 +204,7 @@ banoaoxpasonga.appspot.com
 bar.baidu.com
 bdg-analytics.appspot.com
 beacon.errorception.com
+beacon.scorecardresearch.com.edgekey.net
 bf-analytics-tracker-useast-as.azurewebsites.net
 bifrost-api.hotstar.com
 bitdash-reporting.appspot.com
@@ -244,6 +245,7 @@ client.baidu.com
 cliqz.com
 clog.go.com
 cluster.chart.dk
+cn-sc.scorecardresearch.com.edgekey.net
 collector.githubapp.com
 collector.xhamster.com
 collector.xhamster2.com
@@ -698,6 +700,8 @@ s.shopify.com
 sa.api.intl.miui.com
 sales-pop-dot-autoketing-production-sdk.appspot.com
 salpato.numo.in
+sb.scorecardresearch.com.edgekey.net
+sb6.scorecardresearch.com.edgekey.net
 sc-analytics.appspot.com
 sclick.baidu.com
 scloud-dlsw.br.baidu.com
@@ -896,7 +900,3 @@ zhanzhang.baidu.com
 zmail221.appspot.com
 zminer.zaloapp.com
 zz.bdstatic.com
-beacon.scorecardresearch.com.edgekey.net
-cn-sc.scorecardresearch.com.edgekey.net
-sb.scorecardresearch.com.edgekey.net
-sb6.scorecardresearch.com.edgekey.net
