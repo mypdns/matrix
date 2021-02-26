@@ -750,6 +750,7 @@ itad.linetv.tw
 j.77power.com
 javascriptcounter.appspot.com
 ji.ihualun.com
+jioads.akamaized.net
 join.xlgirls.com
 jquerycdn.co.il
 jquerymin.co.il
