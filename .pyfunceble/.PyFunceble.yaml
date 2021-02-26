@@ -55,6 +55,7 @@ debug:
     active: false
     level: info
 dns:
+    follow_server_order: true
     protocol: UDP
     server:
     - 185.109.89.254
@@ -83,6 +84,7 @@ dns:
     - 188.226.146.136
     - 45.55.97.204
     - 79.124.7.81
+    trust_server: false
 http_codes:
     list:
         potentially_down:
