@@ -798,10 +798,10 @@
     ],
     "cloud": [
         "banzai.cloud",
+        "vip.jelastic.cloud",
         "statics.cloud",
         "es-1.axarnet.cloud",
         "diadem.cloud",
-        "vip.jelastic.cloud",
         "jele.cloud",
         "it1.eur.aruba.jenv-aruba.cloud",
         "it1.jenv-aruba.cloud",
