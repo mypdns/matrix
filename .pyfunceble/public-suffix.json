@@ -4824,6 +4824,7 @@
         "or.mu"
     ],
     "museum": [
+        "baths.museum",
         "academy.museum",
         "agriculture.museum",
         "air.museum",
@@ -4874,7 +4875,6 @@
         "barcelona.museum",
         "baseball.museum",
         "basel.museum",
-        "baths.museum",
         "bauern.museum",
         "beauxarts.museum",
         "beeldengeluid.museum",
