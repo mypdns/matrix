@@ -798,10 +798,10 @@
     ],
     "cloud": [
         "banzai.cloud",
-        "vip.jelastic.cloud",
         "statics.cloud",
         "es-1.axarnet.cloud",
         "diadem.cloud",
+        "vip.jelastic.cloud",
         "jele.cloud",
         "it1.eur.aruba.jenv-aruba.cloud",
         "it1.jenv-aruba.cloud",
@@ -4824,7 +4824,6 @@
         "or.mu"
     ],
     "museum": [
-        "baths.museum",
         "academy.museum",
         "agriculture.museum",
         "air.museum",
@@ -4875,6 +4874,7 @@
         "barcelona.museum",
         "baseball.museum",
         "basel.museum",
+        "baths.museum",
         "bauern.museum",
         "beauxarts.museum",
         "beeldengeluid.museum",
