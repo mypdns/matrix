@@ -241,6 +241,7 @@ clarity.microsoft.com
 clck.yandex.ru
 click.envios.buscape.com.br
 clicks.virtuagirlhd.com
+client-log.box.com
 client.baidu.com
 cliqz.com
 clog.go.com
