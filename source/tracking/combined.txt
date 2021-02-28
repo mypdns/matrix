@@ -730,6 +730,7 @@ sl-native-android-hm-logging.appspot.com
 snapabug.appspot.com
 snowplow.trx.gitlab.net
 sobar.baidu.com
+sourcepointcmp.bloomberg.com
 sow9dpszosa.appspot.com
 sp.naver.com
 spine-insights.appspot.com
