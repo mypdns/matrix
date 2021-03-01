@@ -278,6 +278,7 @@ csi.gstatic.com
 csp-collector.appspot.com
 csr.onet.pl
 ctagm.tchibo.de
+ctg-apps.intuitcdn.net
 cvgfsaz.appspot.com
 cvjibd9faspczxozo.appspot.com
 cxas32assa.appspot.com
@@ -540,6 +541,7 @@ instagram.fcdg1-1.fna.fbcdn.net
 instagram.felp1-1.fna.fbcdn.net
 instagram.fkgf1-1.fna.fbcdn.net
 instagram.flux1-1.fna.fbcdn.net
+intuitvisitorid.api.intuit.com
 ip-geo.appspot.com
 ip-info.ff.avast.com
 ipm-provider.ff.avast.com
