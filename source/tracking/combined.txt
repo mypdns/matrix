@@ -248,6 +248,7 @@ clog.go.com
 cluster.chart.dk
 cmstrendslog.indiatimes.com
 cn-sc.scorecardresearch.com.edgekey.net
+cnt.hd21.com
 collector.githubapp.com
 collector.xhamster.com
 collector.xhamster2.com
