@@ -1,4 +1,4 @@
-safesearch.mypdns.cloud.	3600	IN	SOA	auth1.fi.matrix.rocks. need.to.know.only. 2020060501 86400 7200 3600000 17200
+safesearch.mypdns.cloud.	3600	IN	SOA	need.to.know.only. pdns.ptotonmail.com. 2020060501 86400 7200 3600000 17200
 safesearch.mypdns.cloud.	600	IN	NS	ns0.dns.matrix.rocks.
 safesearch.mypdns.cloud.	600	IN	NS	ns1.dns.matrix.rocks.
 google.ad.safesearch.mypdns.cloud.	86400	IN	CNAME	forcesafesearch.google.com.
@@ -206,4 +206,4 @@ yandex.safesearch.mypdns.cloud.	86400	IN	TXT	"Please see //gitlab.com/my-privacy
 google.co.za.safesearch.mypdns.cloud.	86400	IN	CNAME	forcesafesearch.google.com.
 google.co.zm.safesearch.mypdns.cloud.	86400	IN	CNAME	forcesafesearch.google.com.
 google.co.zw.safesearch.mypdns.cloud.	86400	IN	CNAME	forcesafesearch.google.com.
-safesearch.mypdns.cloud.	3600	IN	SOA	auth1.fi.matrix.rocks. need.to.know.only. 2020060501 86400 7200 3600000 17200
+safesearch.mypdns.cloud.	3600	IN	SOA	need.to.know.only. pdns.ptotonmail.com. 2020060501 86400 7200 3600000 17200
