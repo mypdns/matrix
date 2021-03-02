@@ -32,6 +32,7 @@ dw.adyboh.com
 erasmus-plius.tomasjs.com
 fe-by01p-msa.trafficmanager.net
 flutter-covid19.firebaseio.com
+github.com.cnpmjs.org
 ipv4.login.msa.akadns6.net
 kristom.hopto.org
 lgin.msa.trafficmanager.net
