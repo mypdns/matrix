@@ -372,6 +372,11 @@ asetcaha.duckdns.org
 atblog.ru
 ath.com.bd
 attachmentnet01-outlookoffice0nline-owa.duckdns.org
+audacity.de
+audacity.es
+audacity.fr
+audacity.it
+audacity.pl
 ba97abc3263.duckdns.org
 baathman2121.duckdns.org
 balances.duckdns.org
