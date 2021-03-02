@@ -4193,6 +4193,11 @@ stats4all.com
 stats4u.net
 stats4you.com
 statsanalitic.net
+statsapi.tiendeo.de
+statsapi.tiendeo.fr
+statsapi.tiendeo.gr
+statsapi.tiendeo.in
+statsapi.tiendeo.us
 statsbox.nl
 statsevent.com
 statsinsight.com
