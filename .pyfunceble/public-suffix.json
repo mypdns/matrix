@@ -682,6 +682,9 @@
         "net.bt",
         "org.bt"
     ],
+    "builders": [
+        "cloudsite.builders"
+    ],
     "business": [
         "co.business"
     ],
@@ -1531,7 +1534,9 @@
     ],
     "dev": [
         "lcl.dev",
+        "lclstage.dev",
         "stg.dev",
+        "stgstage.dev",
         "pages.dev",
         "workers.dev",
         "curv.dev",
@@ -7229,7 +7234,8 @@
     ],
     "scot": [
         "edu.scot",
-        "gov.scot"
+        "gov.scot",
+        "service.gov.scot"
     ],
     "sd": [
         "com.sd",
@@ -7338,6 +7344,7 @@
         "opensocial.site",
         "platformsh.site",
         "byen.site",
+        "srht.site",
         "mintere.site"
     ],
     "sk": [
