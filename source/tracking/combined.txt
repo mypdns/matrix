@@ -123,7 +123,12 @@ accwww3.53kf.com
 acookie.aliexpress.com
 activation-dc1.gfe.nvidia.com
 activation.gfe.nvidia.com
+ad-track.paravi.jp
+ad.kddi-fs.com
+ad.udition.jp
 adasiatagmanager.appspot.com
+adebis.nursery.co.jp
+adebiscname.auone.jp
 adm.baidu.com
 ads-bidder-api.twitter.com
 ads-dot-o7apps.appspot.com
@@ -193,6 +198,7 @@ audio-akp-spotify-com.akamaized.net
 auvm21.appspot.com
 awaps.yandex.ru
 axislogger.appspot.com
+axjfkc.kobayashi.co.jp
 az19942.vo.msecnd.net
 b.baidu.com
 b.boyfriendtv.com
@@ -248,6 +254,7 @@ clog.go.com
 cluster.chart.dk
 cmstrendslog.indiatimes.com
 cn-sc.scorecardresearch.com.edgekey.net
+cnameebis.usagi-online.com
 cnt.hd21.com
 collector.githubapp.com
 collector.xhamster.com
@@ -428,6 +435,7 @@ dyv1bugovvq1g.cloudfront.net
 dzl.baidu.com
 e-ddos.appspot.com
 e.baidu.com
+ebis.rozetta.jp
 echofonads.appspot.com
 eclick.baidu.com
 ecolytics-collector-prod-1404130997.us-west-1.elb.amazonaws.com
@@ -565,6 +573,7 @@ kcuak91pxzxcixciozxt.appspot.com
 khs9dpas.appspot.com
 kiks.yandex.ru
 kofadf9zxpaakgmioo.appspot.com
+kraciecojp-ebis.kracie.co.jp
 kropka.onet.pl
 ktia8sozcaosfizxoop.appspot.com
 ktracker.kumparan.com
@@ -636,6 +645,7 @@ nativex-sdk.appspot.com
 nav.files.bbci.co.uk
 neownesharepointdororescos.appspot.com
 nil.naver.com
+nlp-japan.life-and-mind.com
 no8lancelot.appspot.com
 nojsstats.appspot.com
 novem.onet.pl
@@ -830,6 +840,7 @@ trk.siliconevalleys.info
 trkpc.net
 truehits1.gits.net.th
 tryt5fdxsa.appspot.com
+tukuru.cotta.jp
 tx.cdnjs.work
 u44.pnc.com
 u45.pnc.com
@@ -2135,6 +2146,7 @@ easyhash.de
 easyhash.io
 easyhitcounters.com
 easyresearch.se
+ebis.ne.jp
 ebtrk1.com
 ec-track.com
 eclampsialemontree.net
