@@ -1087,6 +1087,7 @@ actuallysheep.com
 acuityplatform.com
 acxiom-online.com
 acxiomapac.com
+ad-cloud.jp
 ad-creatives-public.commondatastorage.googleapis.com
 ad-miner.com
 ad-score.com
@@ -2461,6 +2462,8 @@ geetest.com
 geistm.com
 gemius.pl
 geni.us
+geniee.co.jp
+genieespv.jp
 genieesspv.jp
 geobytes.com
 geoedge.be
