@@ -68,6 +68,7 @@ abc.hostedbyfembed.com
 acesso-empresarial.s3.ap-south-1.amazonaws.com
 acesso-safra-empresas.s3-sa-east-1.amazonaws.com
 ad.99x.mobi
+ad.accesstrade.vn
 ad.dmm.com
 ad.ettoday.net
 ad.go.com
@@ -289,6 +290,7 @@ c.stream.moe
 c1whupdt8.co.s3.us-east-2.amazonaws.com
 c2.xsu.cc
 campaign-tapad.s3.amazonaws.com
+campaign.accesstrade.vn
 campaign.adobe.com
 campaign.rizk.com
 caspionlog.appspot.com
@@ -347,6 +349,7 @@ contilla-cdn.s3-eu-west-1.amazonaws.com
 creative.stripchat.com
 creatives.cliphunter.com
 creatives.pichunter.com
+crosspromotion.ubi.com
 crwscdn.appspot.com
 crwscdn9.appspot.com
 cs22.wpc.v0cdn.net
@@ -735,6 +738,7 @@ img.stomp.com.sg
 imgc.sythe.org
 imgca.sythe.org
 imgcache.sythe.org
+imp.accesstrade.vn
 in.bmgan.com
 incoming-data-sense360.s3.amazonaws.com
 inneractive-assets.s3.amazonaws.com
