@@ -208,6 +208,7 @@ banki.onet.pl
 bannerflow-live-feed-builder.azurewebsites.net
 banoaoxpasonga.appspot.com
 bar.baidu.com
+batchlogging4.truecaller.com
 bdg-analytics.appspot.com
 beacon.errorception.com
 beacon.scorecardresearch.com.edgekey.net
@@ -714,6 +715,7 @@ prod-mng-proxy-connext.azurewebsites.net
 promo.ferame.com
 proxyprincipal.appspot.com
 pti.store.microsoft.com
+pushid-noneu.truecaller.com
 pvn.mediamarkt.de
 pvn.saturn.de
 px.a8.net
