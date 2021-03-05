@@ -294,6 +294,8 @@ cxs923psiazcxz.appspot.com
 cxzas0osa.appspot.com
 cy2.vortex.data.microsoft.com.akadns.net
 d.haberler.com
+d.image-ad.jp
+d.newssuite.sony.net
 d.skk.moe
 d10gj7yjsfriaj.cloudfront.net
 d10lpsik1i8c69.cloudfront.net
@@ -527,7 +529,9 @@ hm.baidu.com
 hnbutton.appspot.com
 hwstats.unity3d.com
 i.bcicdn.com
+i.image-ad.jp
 i.instagram.com
+i.newssuite.sony.net
 i1.services.social.microsoft.com
 ibeat.indiatimes.com
 ibeats.indiatimes.com
@@ -559,6 +563,8 @@ is-tracking-link-api-prod.appspot.com
 is-tracking-pixel-api-prod.appspot.com
 isfipxo9apzxap.appspot.com
 issuetracker.unity3d.com
+j.image-ad.jp
+j.newssuite.sony.net
 jacobbond81532.appspot.com
 jacqualinemccue66719.appspot.com
 jas8aspzxoias.appspot.com
@@ -1201,6 +1207,7 @@ adplusplus.fr
 adprotraffic.com
 adregain.com
 adregain.ru
+adresult-sp.jp
 adrizer.com
 adrolays.com
 adrolays.de
