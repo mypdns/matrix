@@ -252,6 +252,7 @@ cjhq.baidu.com
 clarity.microsoft.com
 clck.yandex.ru
 click.envios.buscape.com.br
+click.tanx.com
 clicks.virtuagirlhd.com
 client-log.box.com
 client.baidu.com
@@ -707,6 +708,7 @@ paypalhelp78963-dot-yamm-track.appspot.com
 pb.m.naver.com
 pcappstore.baidu.com
 pcookie.aliexpress.com
+pcookie.tanx.com
 pcookie.taobao.com
 petitionermaster.appspot.com
 pindao.huoban.taobao.com
@@ -740,6 +742,7 @@ qubitanalytics.appspot.com
 query.prod.cms.rt.microsoft.com
 r.bbci.co.uk
 r.wdfl.co
+rdstat.tanx.com
 re.taobao.com
 re7weozxpsasa.appspot.com
 reklama.onet.pl
