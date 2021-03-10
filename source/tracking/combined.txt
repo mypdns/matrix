@@ -150,6 +150,7 @@ an.yandex.ru
 analista.icons8.com
 analyselog.dx.com
 analysis.fc2.com
+analysis.genstin.com
 analytic-client.cuntempire.com
 analytic.imlive.com
 analytics-ingress-global.bitmovin.com
