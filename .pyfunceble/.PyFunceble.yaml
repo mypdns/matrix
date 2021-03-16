@@ -14,6 +14,7 @@ cli_testing:
         end_command: null
         end_commit_message: My Privacy DNS - Results
         max_exec_minutes: 45
+    cidr_expand: false
     complements: false
     cooldown_time: 0.0
     days_between:
