@@ -3132,7 +3132,7 @@
         "kure.hiroshima.jp",
         "mihara.hiroshima.jp",
         "miyoshi.hiroshima.jp",
-        "gokase.miyazaki.jp",
+        "naka.hiroshima.jp",
         "onomichi.hiroshima.jp",
         "osakikamijima.hiroshima.jp",
         "otake.hiroshima.jp",
@@ -3648,6 +3648,7 @@
         "zao.miyagi.jp",
         "aya.miyazaki.jp",
         "ebino.miyazaki.jp",
+        "gokase.miyazaki.jp",
         "hyuga.miyazaki.jp",
         "kadogawa.miyazaki.jp",
         "kawaminami.miyazaki.jp",
@@ -4440,11 +4441,11 @@
         "kh"
     ],
     "ki": [
+        "gov.ki",
         "edu.ki",
         "biz.ki",
         "net.ki",
         "org.ki",
-        "gov.ki",
         "info.ki",
         "com.ki"
     ],
