@@ -5705,6 +5705,7 @@
         "demon.nl"
     ],
     "no": [
+        "kopervik.no",
         "fhs.no",
         "vgs.no",
         "fylkesbibl.no",
@@ -5782,7 +5783,6 @@
         "jorpeland.no",
         "xn--jrpeland-54a.no",
         "kirkenes.no",
-        "kopervik.no",
         "krokstadelva.no",
         "langevag.no",
         "xn--langevg-jxa.no",
@@ -8161,8 +8161,8 @@
         "mypets.ws"
     ],
     "xn--90a3ac": [
-        "xn--c1avg.xn--90a3ac",
         "xn--o1ac.xn--90a3ac",
+        "xn--c1avg.xn--90a3ac",
         "xn--90azh.xn--90a3ac",
         "xn--d1at.xn--90a3ac",
         "xn--o1ach.xn--90a3ac",
