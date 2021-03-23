@@ -1424,6 +1424,7 @@ apomaya.com
 app-measurement.com
 appboycdn.com
 appcpi.net
+appdynamics.com
 appier.com
 applicationinsights.microsoft.com
 applovin.com
@@ -3817,6 +3818,7 @@ rapidtrk.net
 rapleaf.com
 raresummer.com
 rating.in
+ravenjs.com
 rawtelemetry-east.servicebus.windows.net
 rays-counter.com
 rdrceting.com
