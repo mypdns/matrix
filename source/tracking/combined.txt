@@ -268,6 +268,7 @@ cnt.hd21.com
 collector.githubapp.com
 collector.xhamster.com
 collector.xhamster2.com
+collector1.xhamster.com
 connect.facebook.com
 connect.facebook.net
 connect.secure.wellsfargo.com
