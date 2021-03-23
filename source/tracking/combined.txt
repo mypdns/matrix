@@ -4044,6 +4044,7 @@ sendibm4.com
 sendinblue.com
 sendpulse.com
 sendtraffic.com
+sentry-cdn.com
 sentry.io
 seo-stats.com
 seomonitor.ro
