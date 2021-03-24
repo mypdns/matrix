@@ -1343,6 +1343,7 @@
         "pgfog.com",
         "pagefrontapp.com",
         "pagexl.com",
+        "paywhirl.com",
         "gotpantheon.com",
         "platter-app.com",
         "pleskns.com",
@@ -1553,6 +1554,7 @@
         "iserv.dev",
         "loginline.dev",
         "platter-app.dev",
+        "shiftcrypto.dev",
         "vercel.dev",
         "webhare.dev"
     ],
@@ -1883,6 +1885,9 @@
         "nym.gy",
         "be.gy"
     ],
+    "health": [
+        "hra.health"
+    ],
     "hk": [
         "com.hk",
         "edu.hk",
@@ -2143,6 +2148,7 @@
         "devices.resinstaging.io",
         "hzc.io",
         "sandcats.io",
+        "shiftcrypto.io",
         "shiftedit.io",
         "mo-siemens.io",
         "apps.lair.io",
