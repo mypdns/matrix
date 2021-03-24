@@ -23,6 +23,7 @@ fota5tbk.adups.com
 graph.facebook.com
 ip-info.ff.avast.com
 ipm-provider.ff.avast.com
+js.etimg.com
 kulkarni.bounceme.net
 maps.googleapis.com
 maps.gstatic.com
