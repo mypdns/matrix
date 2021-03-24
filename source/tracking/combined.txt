@@ -699,6 +699,7 @@ openamp-error-reporting.appspot.com
 openx.sales.e.fc2.com
 optimize.google.com
 optimizely.appspot.com
+ostats.mozilla.com
 ota.nvidia.com
 ourtime54321-dot-yamm-track.appspot.com
 outal.origo.hu
@@ -792,6 +793,7 @@ sl-native-android-hm-logging.appspot.com
 snapabug.appspot.com
 snowplow.trx.gitlab.net
 sobar.baidu.com
+sostats.mozilla.com
 sourcepointcmp.bloomberg.com
 sow9dpszosa.appspot.com
 sp.naver.com
