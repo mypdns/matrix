@@ -1224,6 +1224,7 @@
         "fastvps-server.com",
         "mydobiss.com",
         "firebaseapp.com",
+        "forgeblocks.com",
         "framercanvas.com",
         "freebox-os.com",
         "freeboxos.com",
@@ -5582,8 +5583,6 @@
         "nordeste-idc.saveincloud.net",
         "j.scaleforce.net",
         "jelastic.tsukaeru.net",
-        "atl.jelastic.vps-host.net",
-        "njs.jelastic.vps-host.net",
         "kinghost.net",
         "uni5.net",
         "krellian.net",
@@ -5643,7 +5642,11 @@
         "yandexcloud.net",
         "storage.yandexcloud.net",
         "website.yandexcloud.net",
-        "za.net"
+        "za.net",
+        "vps-host.net",
+        "atl.jelastic.vps-host.net",
+        "njs.jelastic.vps-host.net",
+        "ric.jelastic.vps-host.net"
     ],
     "network": [
         "alces.network",
@@ -7074,12 +7077,12 @@
         "barsy.pub"
     ],
     "pw": [
+        "belau.pw",
         "co.pw",
         "ne.pw",
         "or.pw",
         "ed.pw",
         "go.pw",
-        "belau.pw",
         "cloudns.pw",
         "x443.pw",
         "nom.pw"
