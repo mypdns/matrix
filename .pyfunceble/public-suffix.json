@@ -918,7 +918,8 @@
         "mypi.co",
         "n4t.co",
         "nodum.co",
-        "repl.co"
+        "repl.co",
+        "id.repl.co"
     ],
     "codes": [
         "owo.codes"
@@ -1279,6 +1280,7 @@
         "linodeobjects.com",
         "barsycenter.com",
         "barsyonline.com",
+        "mazeplay.com",
         "miniserver.com",
         "meteorapp.com",
         "eu.meteorapp.com",
@@ -1388,7 +1390,6 @@
         "bloxcms.com",
         "townnews-staging.com",
         "hk.com",
-        "js.wpenginepowered.com",
         "wafflecell.com",
         "idnblogger.com",
         "indowapblog.com",
@@ -1400,6 +1401,7 @@
         "u2-local.xnbay.com",
         "yolasite.com",
         "wpenginepowered.com",
+        "js.wpenginepowered.com",
         "impertrixcdn.com",
         "impertrix.com"
     ],
@@ -2037,6 +2039,7 @@
         "muni.il",
         "net.il",
         "org.il",
+        "ravpage.co.il",
         "blogspot.co.il"
     ],
     "im": [
@@ -2115,6 +2118,7 @@
         "customer.enonic.io",
         "fh-muenster.io",
         "shw.io",
+        "id.forgerock.io",
         "ghost.io",
         "github.io",
         "gitlab.io",
@@ -4746,6 +4750,7 @@
         "i234.me",
         "myds.me",
         "synology.me",
+        "tbits.me",
         "wbq.me",
         "wedeploy.me",
         "yombo.me",
@@ -7427,9 +7432,9 @@
         "shopware.store"
     ],
     "su": [
+        "aktyubinsk.su",
         "abkhazia.su",
         "adygeya.su",
-        "aktyubinsk.su",
         "arkhangelsk.su",
         "armenia.su",
         "ashgabad.su",
