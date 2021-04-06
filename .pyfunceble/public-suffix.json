@@ -1779,13 +1779,13 @@
         "cnpy.gdn"
     ],
     "ge": [
+        "pvt.ge",
         "com.ge",
         "edu.ge",
         "gov.ge",
         "org.ge",
         "mil.ge",
         "net.ge",
-        "pvt.ge",
         "nom.ge"
     ],
     "gg": [
