@@ -1400,6 +1400,7 @@
         "woltlab-demo.com",
         "wpenginepowered.com",
         "js.wpenginepowered.com",
+        "wixsite.com",
         "xnbay.com",
         "u2.xnbay.com",
         "u2-local.xnbay.com",
@@ -1779,13 +1780,13 @@
         "cnpy.gdn"
     ],
     "ge": [
-        "pvt.ge",
         "com.ge",
         "edu.ge",
         "gov.ge",
         "org.ge",
         "mil.ge",
         "net.ge",
+        "pvt.ge",
         "nom.ge"
     ],
     "gg": [
@@ -2167,6 +2168,7 @@
         "cust.testing.thingdust.io",
         "2038.io",
         "wedeploy.io",
+        "editorx.io",
         "basicserver.io",
         "virtualserver.io"
     ],
@@ -3156,7 +3158,7 @@
         "takehara.hiroshima.jp",
         "abashiri.hokkaido.jp",
         "abira.hokkaido.jp",
-        "aibetsu.hokkaido.jp",
+        "imakane.hokkaido.jp",
         "akabira.hokkaido.jp",
         "akkeshi.hokkaido.jp",
         "asahikawa.hokkaido.jp",
@@ -3195,7 +3197,6 @@
         "horokanai.hokkaido.jp",
         "horonobe.hokkaido.jp",
         "ikeda.hokkaido.jp",
-        "imakane.hokkaido.jp",
         "ishikari.hokkaido.jp",
         "iwamizawa.hokkaido.jp",
         "iwanai.hokkaido.jp",
