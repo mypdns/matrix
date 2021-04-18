@@ -20,6 +20,7 @@ fota5s.adups.com
 fota5t.adups.cn
 fota5t.adups.com
 fota5tbk.adups.com
+fpn.firefox.com
 graph.facebook.com
 ip-info.ff.avast.com
 ipm-provider.ff.avast.com
@@ -28,6 +29,7 @@ kulkarni.bounceme.net
 maps.googleapis.com
 maps.gstatic.com
 mobile-campaigns.avast.com
+monitor.firefox.com
 sedo.cachefly.net
 stats.avast.com
 thestar.serveblog.net

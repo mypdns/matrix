@@ -1039,6 +1039,7 @@ timesofindia.indiatimes.com
 timestrends.indiatimes.com
 tm-offers.gamingadult.com
 tools.lifeselector.com
+topsites.services.mozilla.com
 tor-sponsored-posts.s3.amazonaws.com
 track.bcvc.mobi
 tracker-sp-elb-1474841806.us-east-1.elb.amazonaws.com
@@ -1072,6 +1073,7 @@ vml1.s3.amazonaws.com
 voipaudio.s3.amazonaws.com
 voxcards.ig.com.br
 vpc-prod-adsdk-lb-0-564898962.us-east-1.elb.amazonaws.com
+vpn.mozilla.org
 vrl.m.conviva.com
 vuukle-analytics.appspot.com
 w.picsinfog.com
@@ -1204,5 +1206,3 @@ znaptag-us.s3.amazonaws.com
 zone1.absoluteexhibits.netdna-cdn.com
 zontent.powvideo.net
 ztag-trackedevents-enterprise-1441845540.us-west-2.elb.amazonaws.com
-vpn.mozilla.org
-topsites.services.mozilla.com
