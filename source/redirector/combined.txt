@@ -10,6 +10,7 @@ go.microsoft.com
 redir.metaservices.microsoft.com
 reporting.dnitv.com
 static.dnitv.com
+wl.hpyrdr.com
 1link.in
 1lzz.com
 1ts18.top
