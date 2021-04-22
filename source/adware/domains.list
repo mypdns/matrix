@@ -1,16 +1,3 @@
-api.d.xiaomi.com
-cc.sys.intl.xiaomi.com
-ccc.sys.intl.xiaomi.com
-d.xiaomi.com
-f1.market.xiaomi.com
-f2.market.xiaomi.com
-f3.market.xiaomi.com
-f4.market.xiaomi.com
-f5.market.xiaomi.com
-file.cdn.mvideo.xiaomi.com
-file.market.xiaomi.com
-o2o.api.xiaomi.com
-sgp.o2o.api.xiaomi.com
 1030z2bnst92zo6j523feq9e-wpengine.netdna-ssl.com
 2dprofessor.cadprofessor.netdna-cdn.com
 360.mediav.com
@@ -216,6 +203,7 @@ anvato-api-config.s3.amazonaws.com
 api-dot-mwm-ab-testing.appspot.com
 api-dot-mwm-ad-mediation.appspot.com
 api-ntv-elb-1185445618.us-east-1.elb.amazonaws.com
+api.d.xiaomi.com
 api.deep.bi
 api.digitalbees.it
 api.grumft.com
@@ -317,6 +305,8 @@ campaign.adobe.com
 campaign.rizk.com
 caspionlog.appspot.com
 cbanners.virtuagirlhd.com
+cc.sys.intl.xiaomi.com
+ccc.sys.intl.xiaomi.com
 cdn.adclerks.com
 cdn.adk2.com
 cdn.braun634.com
@@ -377,6 +367,7 @@ crwscdn9.appspot.com
 cs22.wpc.v0cdn.net
 csp-collector.appspot.com
 cycy.kxrxh.com
+d.xiaomi.com
 d10lumateci472.cloudfront.net
 d10lv7w3g0jvk9.cloudfront.net
 d10nkw6w2k1o10.cloudfront.net
@@ -684,7 +675,14 @@ exitsplash.s3.amazonaws.com
 ext.movixhub.com
 f.asdfzxcv1312.com
 f.iaftjs.info
+f1.market.xiaomi.com
+f2.market.xiaomi.com
+f3.market.xiaomi.com
+f4.market.xiaomi.com
+f5.market.xiaomi.com
 fantasy.onrpg.com
+file.cdn.mvideo.xiaomi.com
+file.market.xiaomi.com
 filestorage.chip.de
 fimserve.ign.com
 fishsnifferee.thefishsniffer.netdna-cdn.com
@@ -864,6 +862,7 @@ nnd.xyssp.com
 nojsstats.appspot.com
 notifications-api.cf.sky.com
 nytadvertising.nytimes.com
+o2o.api.xiaomi.com
 obliteratebedblue.com
 offerssyndication.appspot.com
 offerwall.s3.amazonaws.com
@@ -984,6 +983,7 @@ server.lon.liveperson.net
 serving.adbetclickin.pink
 sfo.xsgfhkwd.date
 sgcdn.duplomediaas.netdna-cdn.com
+sgp.o2o.api.xiaomi.com
 sgqcvfjvr.onet.pl
 shen.zgfszs.com
 show-g.mediav.com
