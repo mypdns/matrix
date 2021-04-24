@@ -846,13 +846,13 @@
         "net.cm"
     ],
     "cn": [
-        "mil.cn",
         "ac.cn",
         "com.cn",
         "edu.cn",
         "gov.cn",
         "net.cn",
         "org.cn",
+        "mil.cn",
         "xn--55qx5d.cn",
         "xn--io0a7i.cn",
         "xn--od0alg.cn",
@@ -7411,8 +7411,10 @@
         "com.ss",
         "edu.ss",
         "gov.ss",
+        "me.ss",
         "net.ss",
-        "org.ss"
+        "org.ss",
+        "sch.ss"
     ],
     "st": [
         "co.st",
