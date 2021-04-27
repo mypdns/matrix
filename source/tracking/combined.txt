@@ -3337,6 +3337,7 @@ mrycrypto.com
 msecure108.com
 msftconnecttest.com
 msgapp.com
+msgsndr.com
 msgtag.com
 msparktrk.com
 mstat.ga
