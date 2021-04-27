@@ -157,6 +157,7 @@ analysis.genstin.com
 analytic-client.cuntempire.com
 analytic.imlive.com
 analytics-ingress-global.bitmovin.com
+analytics-script.ad-shield.io
 analytics-stage.ff.avast.com
 analytics.allovoisins.co
 analytics.alternativet.dk
