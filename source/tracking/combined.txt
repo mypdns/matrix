@@ -162,11 +162,13 @@ analytics.allovoisins.co
 analytics.alternativet.dk
 analytics.appsbnet.com.br
 analytics.contents.by-fw.jp
+analytics.dev.htmedia.in
 analytics.developer.riotgames.com
 analytics.ext.go-tellm.com
 analytics.ff.avast.com
 analytics.getshogun.com
 analytics.global.sky.com
+analytics.htmedia.in
 analytics.kurocore.com
 analytics.mbga.jp
 analytics.ns1.ff.avast.com
