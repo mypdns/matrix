@@ -1,79 +1,79 @@
 name: Sort My Privacy DNS's lists
 
 on:
-    push:
-        branches:
-            - "master"
+  push:
+    branches:
+      - 'master'
 
 env:
-    GIT_NAME: "${{ secrets.GIT_NAME }}"
-    GIT_EMAIL: "${{ secrets.GIT_EMAIL }}"
-    GITHUB_TOKEN: "${{ secrets.GITHUB_TOKEN }}"
+  GIT_NAME: '${{ secrets.GIT_NAME }}'
+  GIT_EMAIL: '${{ secrets.GIT_EMAIL }}'
+  GITHUB_TOKEN: '${{ secrets.GITHUB_TOKEN }}'
 
 jobs:
-    scheduler:
-        name: Trigger action
-        runs-on: "${{ matrix.os }}"
+  scheduler:
+    name: Trigger action
+    runs-on: '${{ matrix.os }}'
 
-        strategy:
-            fail-fast: false
-            matrix:
-                python_version:
-                    - "3.9.1"
-                os:
-                    - ubuntu-20.04
+    strategy:
+      fail-fast: false
+      matrix:
+        python_version:
+          - '3.9.1'
+        os:
+          - ubuntu-20.04
 
-        steps:
-            - uses: actions/checkout@main #Obviously yet another american...
-              name: Clone repository
-              with:
-                  token: "${{ secrets.GITHUB_TOKEN }}"
+    steps:
+      - uses: actions/checkout@main #Obviously yet another american...
+        name: Clone repository
+        with:
+          token: '${{ secrets.GITHUB_TOKEN }}'
 
-            - name: Install requirements
-              run: |
-                  sudo bash "${{ github.workspace }}/scripts/dependencies.sh"
+      - name: Install requirements
+        run: |
+          sudo bash "${{ github.workspace }}/scripts/dependencies.sh"
 
-            - name: "Sort our lists for doublets and order by alphabet"
-              run: |
-                  find "${{ github.workspace }}/source/" -type f -name '*.list' -exec \
-                  bash -c "sort -i -u -f '{}' -o '{}' " \;
+      - name: 'Sort our lists for doublets and order by alphabet'
+        run: |
+          find "${{ github.workspace }}/source/" -type f -name '*.list' -exec \
+          bash -c "sort -i -u -f '{}' -o '{}' " \;
 
-            - name: "Sort our rpz-nsdname for doublets and order by alphabet"
-              run: |
-                  find "${{ github.workspace }}/source/" -type f -name '*.rpz-nsdname' \
-                  -exec bash -c "sort -i -u -f '{}' -o '{}' " \;
+      - name: 'Sort our rpz-nsdname for doublets and order by alphabet'
+        run: |
+          find "${{ github.workspace }}/source/" -type f -name '*.rpz-nsdname' \
+          -exec bash -c "sort -i -u -f '{}' -o '{}' " \;
 
-            - name: "Combine domain and wildcard domains for external usages"
-              run: |
-                  cd "${{ github.workspace }}"
-                  find "${{ github.workspace }}/source/" -type f -name 'combined.txt' \
-                  -delete
+      - name: 'Combine domain and wildcard domains for external usages'
+        run: |
+          cd "${{ github.workspace }}"
+          find "${{ github.workspace }}/source/" -type f -name 'combined.txt' \
+          -delete
 
-                  for d in `find source/ -mindepth 1 -maxdepth 1 -type d`
-                  do
-                      cat ${d[@]}/*.list > ${d[@]}/combined.txt
-                  done
+          for d in `find source/ -mindepth 1 -maxdepth 1 -type d`
+          do
+              cat ${d[@]}/*.list > ${d[@]}/combined.txt
+          done
 
-            - name: "Import latest working example of safe search from safesearch.mypdns.cloud"
-              run: |
-                  rm "${{ github.workspace }}/safesearch/safesearch.mypdns.cloud.rpz"
+      - name: 'Import latest working example of safe search from safesearch.mypdns.cloud'
+        run: |
+          rm "${{ github.workspace }}/safesearch/safesearch.mypdns.cloud.rpz"
 
-                  drill axfr @axfr.ipv4.mypdns.cloud -p 5306 safesearch.mypdns.cloud \
-                    | grep -vE '^($|;)' >> ${{ github.workspace }}/safesearch/safesearch.mypdns.cloud.rpz
+          drill axfr @axfr.mypdns.cloud -p 5303 safesearch.mypdns.cloud \
+            | grep -vE '^($|;)' >> ${{ github.workspace }}/safesearch/safesearch.mypdns.cloud.rpz
 
-            - name: Git Status
-              run: git status
+      - name: Git Status
+        run: git status
 
-            - name: Commit changes
-              run: |
-                  tag=$(date +'day: %j of year %Y %H:%M:%S')
-                  git config --local user.email "$GIT_EMAIL"
-                  git config --local user.name "$GIT_NAME"
-                  git commit -m "Committed new lists $tag" -a
-                  git pull --rebase
+      - name: Commit changes
+        run: |
+          tag=$(date +'day: %j of year %Y %H:%M:%S')
+          git config --local user.email "$GIT_EMAIL"
+          git config --local user.name "$GIT_NAME"
+          git commit -m "Committed new lists $tag" -a
+          git pull --rebase
 
-            - name: Push changes
-              uses: ad-m/github-push-action@master
-              with:
-                  github_token: ${{ secrets.GITHUB_TOKEN }}
-                  branch: ${{ github.ref }}
+      - name: Push changes
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          branch: ${{ github.ref }}
