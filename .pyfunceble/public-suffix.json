@@ -7702,7 +7702,8 @@
         "store.st"
     ],
     "store": [
-        "shopware.store"
+        "shopware.store",
+        "storebase.store"
     ],
     "su": [
         "abkhazia.su",
