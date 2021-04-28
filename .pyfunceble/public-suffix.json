@@ -1556,6 +1556,8 @@
         "deno.dev",
         "fly.dev",
         "gateway.dev",
+        "github.dev",
+        "githubpreview.dev",
         "iserv.dev",
         "lcl.dev",
         "lclstage.dev",
@@ -2661,7 +2663,6 @@
         "xn--valledaoste-ebb.it"
     ],
     "je": [
-        "co.je",
         "net.je",
         "of.je",
         "org.je"
@@ -2817,6 +2818,7 @@
         "chuo.osaka.jp",
         "chuo.tokyo.jp",
         "chuo.yamanashi.jp",
+        "co.je",
         "co.jp",
         "daigo.ibaraki.jp",
         "daisen.akita.jp",
@@ -5163,6 +5165,7 @@
         "gorge.museum",
         "grandrapids.museum",
         "graz.museum",
+        "gs.st.no",
         "guernsey.museum",
         "halloffame.museum",
         "hamburg.museum",
@@ -6362,7 +6365,6 @@
         "sandefjord.no",
         "sandnes.no",
         "sandnessjoen.no",
-        "sandnessjøen.no",
         "sandoy.no",
         "sandøy.no",
         "sarpsborg.no",
