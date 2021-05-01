@@ -167,6 +167,7 @@
     "app": [
         "a.run.app",
         "bookonline.app",
+        "developer.app",
         "edgecompute.app",
         "fireweb.app",
         "framer.app",
@@ -174,6 +175,7 @@
         "loginline.app",
         "multibaas.app",
         "netlify.app",
+        "noop.app",
         "northflank.app",
         "ondigitalocean.app",
         "platform0.app",
