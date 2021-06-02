@@ -37,10 +37,10 @@ do
 done
 
 # Import latest working example of safesearch from safesearch.mypdns.cloud
-rm "$TRAVIS_BUILD_DIR/safesearch/safesearch.mypdns.cloud.rpz"
+# rm "$TRAVIS_BUILD_DIR/safesearch/safesearch.mypdns.cloud.rpz"
 
-drill axfr @axfr.mypdns.cloud -p 5303 safesearch.mypdns.cloud \
-  | grep -vE '^($|;)' >> $TRAVIS_BUILD_DIR/safesearch/safesearch.mypdns.cloud.rpz
+# drill axfr @axfr.mypdns.cloud -p 5303 safesearch.mypdns.cloud \
+#   | grep -vE '^($|;)' >> $TRAVIS_BUILD_DIR/safesearch/safesearch.mypdns.cloud.rpz
 
 # https://gist.github.com/domenic/ec8b0fc8ab45f39403dd
 # Pull requests and commits to other branches shouldn't try to deploy, just build to verify

@@ -54,12 +54,12 @@ jobs:
               cat ${d[@]}/*.list > ${d[@]}/combined.txt
           done
 
-      - name: 'Import latest working example of safe search from safesearch.mypdns.cloud'
-        run: |
-          rm "${{ github.workspace }}/safesearch/safesearch.mypdns.cloud.rpz"
+      # - name: 'Import latest working example of safe search from safesearch.mypdns.cloud'
+      #   run: |
+      #     rm "${{ github.workspace }}/safesearch/safesearch.mypdns.cloud.rpz"
 
-          drill axfr @axfr.mypdns.cloud -p 5303 safesearch.mypdns.cloud \
-            | grep -vE '^($|;)' >> ${{ github.workspace }}/safesearch/safesearch.mypdns.cloud.rpz
+      #     drill axfr @axfr.mypdns.cloud -p 5303 safesearch.mypdns.cloud \
+      #       | grep -vE '^($|;)' >> ${{ github.workspace }}/safesearch/safesearch.mypdns.cloud.rpz
 
       - name: Git Status
         run: git status
