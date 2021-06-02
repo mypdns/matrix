@@ -270,7 +270,16 @@ cnameebis.usagi-online.com
 cnt.hd21.com
 collector.githubapp.com
 collector.xhamster.com
+collector.xhamster1.desi
+collector.xhamster10.desi
+collector.xhamster11.desi
 collector.xhamster2.com
+collector.xhamster2.desi
+collector.xhamster3.desi
+collector.xhamster4.desi
+collector.xhamster5.desi
+collector.xhamster7.desi
+collector.xhamster8.desi
 collector1.xhamster.com
 connect.facebook.com
 connect.facebook.net
@@ -483,6 +492,7 @@ evt.mxplay.com
 eyq246ddpoas.appspot.com
 f-emc.ngsp.gov.vn
 f-log-at.grammarly.io
+f-log-test.grammarly.io
 f.hiphotos.baidu.com
 f63sdasa.appspot.com
 facebook-web-clients.appspot.com
@@ -623,11 +633,13 @@ lightboxapi3.azurewebsites.net
 lightstep-collectors-v2-lb-1870604286.us-east-1.elb.amazonaws.com
 link.getmailspring.com
 location-inference-westus.cloudapp.net
+log.avlyun.com
 log.ca.gov.vn
 log.ebonybooty.pics
 log.go.com
 log.gomlab.com
 log.quora.com
+log.slb.avlyun.com
 log.ttbc-hcm.gov.vn
 log.video.taobao.com
 log.zoom.us
@@ -643,6 +655,7 @@ logger.instagram.com
 logger.yp.ca
 logs.amap.com
 logsbin.dantri.com.vn
+logupdate.avlyun.sec.miui.com
 lplbackoffice.azurewebsites.net
 m.hotmail.com
 m.stripe.network
@@ -809,11 +822,14 @@ start.palemoon.org
 stat.aporntv.com
 stat.mydaddy.cc
 stat.tiara.kakao.com
+static-hw.babescontent.com
 static.accesstrade.vn
 statistic.ads24h.net
+stats-public.grammarly.io
 stats.artixlinux.org
 stats.avast.com
 stats.dbc.dk
+stats.extreme-down.work
 stats.fonecta.fi
 stats.grafikart.fr
 stats.hprofits.com
@@ -824,6 +840,7 @@ stats.muasamcong.gov.vn
 stats.nba.com.edgekey.net
 stats.privacytools.io
 stats.vk-portal.net
+stats.zone-annuaire.casa
 store-images.s-microsoft.com
 storsimpleorder.azurewebsites.net
 stripecdn.map.fastly.net
@@ -889,6 +906,7 @@ tracking.game8.jp
 tracking.godatafeed.com
 tracking.html5games.com
 tracking.interweave.com
+tracking.intl.miui.com
 tracking.porndoelabs.com/
 tracking.prd.mz.internal.unity3d.com
 tracking.rightmessage.com
@@ -1512,6 +1530,7 @@ avero.xyz
 averoconnector.com
 avmws.com
 awasete.com
+awbbsat.com
 awemwh.com
 aweproto.com
 awesomelytics.com
@@ -1850,6 +1869,7 @@ clickzzs.nl
 clientgear.com
 clientmetrics-pa.googleapis.com
 cliqz.com
+cliv2508.com
 clixcount.com
 clixpy.com
 clmbtech.com
@@ -1903,6 +1923,7 @@ coinwebmining.com
 coinzillatag.com
 coll2onf.com
 collarity.com
+collect.data.intl.miui.com
 collecting.click
 collserve.com
 colorfulafterthought.com
@@ -2353,6 +2374,7 @@ exitmonitor.com
 exoclick.com
 exosrv.com
 exovueplatform.com
+exp-tas.com
 experianmarketingservices.digital
 explore-123.com
 exponea.com
@@ -3632,6 +3654,8 @@ penspade.com
 pepperjam.com
 perceivequarter.com
 percentmobile.com
+perf-serving.com
+perfalytics.com
 perfdrive.com
 perfectaudience.com
 perfiliate.com
@@ -3663,6 +3687,7 @@ pikzor.com
 ping-fast.com
 pingagenow.com
 pingclock.net
+pingdom.com
 pingdom.net
 pingil.com
 pingomatic.com
@@ -4606,6 +4631,7 @@ trackedlink.net
 trackedweb.net
 trackersimulator.org
 trackertest.org
+tracking.miui.com
 tracking100.com
 tracking202.com
 trackinglabs.com
@@ -4942,6 +4968,8 @@ webtrends.com
 webtrendslive.com
 webtuna.com
 webutation.net
+webvisor.com
+webvisor.org
 webxmr.com
 weesh.co.uk
 wemfbox.ch
