@@ -5544,6 +5544,7 @@ directadvert.net
 directleads.com
 directnavbt.com
 directorym.com
+directpaper.name
 directrev.com
 directtf.fun
 directtl.fun
@@ -10766,6 +10767,7 @@ notify.rocks
 notify.solutions
 notifypicture.info
 notifysrv.com
+notix.io
 nouseeth.com
 noutstancerewe.info
 novarevenue.com
@@ -14661,6 +14663,7 @@ tradeadexchange.com
 tradedoubler.com
 tradeexpert.net
 tradetracker.net
+tradplusad.com
 trafex.net
 traff6.com
 traffboost.net
