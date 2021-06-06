@@ -220,6 +220,7 @@ api2.accengage.com
 api3.accengage.com
 apigw.scmp.com
 apiproxy3.accengage.com
+app.convertful.com
 applab-sdk.amazon.com
 applicationinsights.us-east-1.amazonaws.com
 applovin-deploy.s3.amazonaws.com
@@ -2372,6 +2373,7 @@ adhigh.net
 adhitzads.com
 adhood.com
 adhostingsolutions.com
+adhy.pe
 adicate.com
 adigniter.org
 adikteev.com
@@ -2949,6 +2951,7 @@ adxxx.com
 adxxx.info
 adxxx.me
 adxxx.org
+adyou.me
 adyoulike.com
 adz.co.zw
 adzbazar.com
@@ -3263,6 +3266,7 @@ ampxchange.com
 amrfscxvdvfvpa.com
 amrnhiqy.com
 amxodxmsuwdhn.com
+amy.link
 analyticson.com
 analyticsq.com
 anatomicele.site
@@ -3977,6 +3981,7 @@ bimlocal.com
 bin-layer.de
 bin-layer.ru
 binalbamp.com
+binbucks.com
 binchoise.ml
 bingo4affiliates.com
 binlayer.com
@@ -4076,6 +4081,7 @@ blueserving.com
 bluestreak.com
 bluetoad.com
 bluposr.com
+blv.me
 blwfqlmhi.com
 blwgtqakqaxemz.com
 bmayyviswklkd.com
@@ -4894,6 +4900,7 @@ coinadvert.net
 coinhits.com
 coinmedia.co
 cointraffic.io
+coinurl.net
 coinverti.com
 coinzilla.io
 coinzillatag.com
@@ -6469,6 +6476,7 @@ far-far-star.com
 faracoon.com
 farpeiros.pw
 farvqaxaoid.com
+fas.li
 fast2earn.com
 fastapi.net
 fastclick.net
@@ -13608,6 +13616,7 @@ shoporielder.pro
 shoppanda.co
 shoppingads.com
 shopzyapp.com
+short.am
 short45.ga
 shortit.ca
 shorto.io
@@ -13869,6 +13878,7 @@ spankcdn.net
 spankmasters.com
 spankswindlewatchman.com
 sparkstudios.com
+spaste.com
 spcpgtepary.com
 speakol.com
 speciadnessing.pro
@@ -15219,6 +15229,7 @@ usersfiles.com
 usfmamdapvmfs.com
 ushooque.net
 usjguyybhhtjos.com
+uskip.me
 uslycoloursewo.info
 usrvgxowmn.com
 uss1star.com
