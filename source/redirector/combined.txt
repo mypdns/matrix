@@ -230,6 +230,7 @@ pen.is
 pic.gd
 ping.fm
 piurl.com
+pix4link.com
 playamo.com
 pnt.me
 po.st
@@ -414,6 +415,7 @@ youporn.com.bz
 yourls.sci.io
 yurisensei.com
 yweb.com
+za.gl
 zap.buzz
 zi.ma
 zi.pe

@@ -2502,6 +2502,13 @@ focus.de
 focussite.com
 followercounter.com
 fonderredd.info
+foodora.fi
+foodora.se
+foodpanda.bg
+foodpanda.hk
+foodpanda.ph
+foodpanda.pk
+foodpanda.ro
 foone.com.br
 footprintdns.com
 footprintlive.com
