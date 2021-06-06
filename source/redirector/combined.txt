@@ -66,6 +66,8 @@ clickaine.com
 clickbank.net
 clickmeter.com
 clickr.xyz
+clicksfly.com
+clk.sh
 codimenu.com
 coinurl.net
 comscore.net
@@ -179,6 +181,7 @@ lin.cr
 linkbee.com
 linkbun.ch
 linktr.ee
+linkvertise.net
 littitte.online
 liurl.cn
 llnk.eu
@@ -280,17 +283,21 @@ shorl.com
 short.am
 short.ie
 short.to
+shorte.st
 shortlinks.co.uk
 shortna.me
 shorturl.at
 shorturl.com
+shotly.io
 shoturl.us
 shrinkify.com
+shrinkme.io
 shrinkster.com
 shrinkurl.us
 shrt.st
 shrtbtc.com\
 shrten.com
+shrtfly.com
 shrunkin.com
 shw.me
 simurl.com
@@ -388,6 +395,7 @@ usenetoffer.download
 uskip.me
 v.gd
 virl.com
+vivads.net
 vl.am
 w3t.org
 wapurl.co.uk
