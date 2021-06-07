@@ -820,6 +820,7 @@ securdserv1.appspot.com
 sedo.cachefly.net
 segment.hotstar.com
 sensytracker.appspot.com
+sentry.arc.io
 service-api.accesstrade.vn
 settings-sandbox.data.microsoft.com
 settings-win.data.microsoft.com
@@ -887,6 +888,7 @@ tcdata.fnac.com
 tejia.taobao.com
 telegraph-ash.instagram.com
 telemetry.dropbox.com
+telemetry.tradingview.com
 telemetry.urs.microsoft.com
 telemetry.v.dropbox.com
 temai.taobao.com
@@ -920,6 +922,7 @@ track.thebase.in
 track.tiara.kakao.com
 track.totalav.com
 tracker.affirm.com
+tracker.arc.io
 tracker.baidu.com
 tracker.publico.pt
 tracker.remp.impresa.pt
