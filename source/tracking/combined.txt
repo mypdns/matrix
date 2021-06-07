@@ -497,6 +497,7 @@ events.guesttoguest.com
 events.iap.unity3d.com
 events.launchdarkly.com
 events.tubecup.org
+evs.sgmt.loom.com
 evt.mxplay.com
 eyq246ddpoas.appspot.com
 f-emc.ngsp.gov.vn
