@@ -4224,6 +4224,7 @@ simplycast.us
 simplymeasured.com
 singlefeed.com
 site24x7rum.com
+site24x7rum.eu
 siteapps.com
 sitebro.com
 sitebro.net
@@ -4550,6 +4551,7 @@ synthasite.net
 sysomos.com
 syyycc.com
 t-analytics.com
+t.ly
 taboola.com
 tag4arm.com
 tagcommander.com
