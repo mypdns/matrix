@@ -220,6 +220,7 @@ bar.baidu.com
 batchlogging4.truecaller.com
 bdg-analytics.appspot.com
 beacon.errorception.com
+beacon.netflix.com
 beacon.scorecardresearch.com.edgekey.net
 bf-analytics-tracker-useast-as.azurewebsites.net
 bifrost-api.hotstar.com
@@ -726,6 +727,7 @@ nbsdk-baichuan.taobao.com
 neownesharepointdororescos.appspot.com
 nil.naver.com
 nlp-japan.life-and-mind.com
+nmtracking.netflix.com
 no8lancelot.appspot.com
 nojsstats.appspot.com
 novem.onet.pl
@@ -774,6 +776,7 @@ pool.etn.spacepools.org
 portalhabitacional.azurewebsites.net
 pos.baidu.com
 poum.nextinpact.com
+presentationtracking.netflix.com
 prexyone.appspot.com
 prj0011.appspot.com
 prod-mng-proxy-connext.azurewebsites.net
