@@ -6777,7 +6777,6 @@
         "merseine.nu",
         "mine.nu",
         "nom.nu",
-        "nym.tw",
         "shacknet.nu",
         "uwu.nu"
     ],
@@ -7968,6 +7967,7 @@
         "mil.tw",
         "mymailer.com.tw",
         "net.tw",
+        "nym.tw",
         "org.tw",
         "url.tw",
         "xn--czrw28b.tw",
@@ -8282,7 +8282,6 @@
         "lib.gu.us",
         "lib.hi.us",
         "lib.ia.us",
-        "lib.id.us",
         "lib.il.us",
         "lib.in.us",
         "lib.ks.us",
@@ -8468,6 +8467,10 @@
         "mypets.ws",
         "net.ws",
         "org.ws"
+    ],
+    "xn--j6w193g": [
+        "lib.id.us",
+        "xn--uc0atv.xn--j6w193g"
     ],
     "xyz": [
         "blogsite.xyz",
