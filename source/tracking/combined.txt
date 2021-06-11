@@ -553,7 +553,6 @@ ganon.yahoo.com
 gdown.baidu.com
 geo-locate.appspot.com
 geo.cliphunter.com
-geo.netflix.com
 geo.settings-win.data.microsoft.com
 geo.thehindu.com
 geoapi.indiatimes.com
@@ -602,6 +601,7 @@ i.newssuite.sony.net
 i1.services.social.microsoft.com
 ibeat.indiatimes.com
 ibeats.indiatimes.com
+ichnaea.netflix.com
 iczopc9adozpxz.appspot.com
 ima3vpaid.appspot.com
 images.dmca.com
@@ -800,6 +800,7 @@ re.taobao.com
 re7weozxpsasa.appspot.com
 reklama.onet.pl
 republika.onet.pl
+research.netflix.com
 revealads.appspot.com
 ris.api.iris.microsoft.com
 ritr934papa.appspot.com
@@ -2617,6 +2618,7 @@ geni.us
 geniee.co.jp
 genieespv.jp
 genieesspv.jp
+geo.netflix.com
 geobytes.com
 geoedge.be
 geoip-db.com
