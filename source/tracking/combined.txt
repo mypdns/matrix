@@ -553,6 +553,7 @@ ganon.yahoo.com
 gdown.baidu.com
 geo-locate.appspot.com
 geo.cliphunter.com
+geo.netflix.com
 geo.settings-win.data.microsoft.com
 geo.thehindu.com
 geoapi.indiatimes.com
@@ -3815,6 +3816,7 @@ privy.com
 prnx.net
 pro6e.com
 proclivitysystems.com
+prodaa.netflix.com
 producecopy.com
 profilesnitch.com
 profitrumour.com
