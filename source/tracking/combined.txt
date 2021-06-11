@@ -795,7 +795,6 @@ qubitanalytics.appspot.com
 query.prod.cms.rt.microsoft.com
 r.bbci.co.uk
 r.wdfl.co
-r2.linksynergy.com
 rdstat.tanx.com
 re.taobao.com
 re7weozxpsasa.appspot.com
@@ -1341,6 +1340,7 @@ adservicemedia.dk
 adshrink.it
 adspsp.com
 adsrvx.com
+adstune.com
 adswizz.com
 adsymptotic.com
 adtarget.me
