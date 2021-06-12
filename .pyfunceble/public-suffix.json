@@ -699,6 +699,7 @@
         "blogspot.com.by",
         "com.by",
         "gov.by",
+        "mediatech.by",
         "mil.by",
         "mycloud.by",
         "nym.by",
@@ -1566,6 +1567,7 @@
         "lcl.dev",
         "lclstage.dev",
         "loginline.dev",
+        "mediatech.dev",
         "pages.dev",
         "platter-app.dev",
         "shiftcrypto.dev",
@@ -7443,6 +7445,7 @@
         "nom.rs",
         "org.rs",
         "ox.rs",
+        "shop.brendly.rs",
         "ua.rs"
     ],
     "ru": [
@@ -8282,6 +8285,7 @@
         "lib.gu.us",
         "lib.hi.us",
         "lib.ia.us",
+        "lib.id.us",
         "lib.il.us",
         "lib.in.us",
         "lib.ks.us",
@@ -8467,10 +8471,6 @@
         "mypets.ws",
         "net.ws",
         "org.ws"
-    ],
-    "xn--j6w193g": [
-        "lib.id.us",
-        "xn--uc0atv.xn--j6w193g"
     ],
     "xyz": [
         "blogsite.xyz",
