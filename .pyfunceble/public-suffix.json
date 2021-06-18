@@ -7601,8 +7601,7 @@
         "z.se"
     ],
     "services": [
-        "loginline.services",
-        "nom.vg"
+        "loginline.services"
     ],
     "sg": [
         "blogspot.sg",
@@ -7738,7 +7737,6 @@
         "dagestan.su",
         "east-kazakhstan.su",
         "exnet.su",
-        "for-the.biz",
         "georgia.su",
         "grozny.su",
         "ivanovo.su",
