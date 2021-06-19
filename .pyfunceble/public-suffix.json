@@ -5600,7 +5600,6 @@
         "atl.jelastic.vps-host.net",
         "azure-mobile.net",
         "azurestaticapps.net",
-        "azurewebsites.net",
         "b.ssl.fastly.net",
         "bar0.net",
         "bar1.net",
@@ -6775,6 +6774,7 @@
         "org.nr"
     ],
     "nu": [
+        "azurewebsites.net",
         "enterprisecloud.nu",
         "merseine.nu",
         "mine.nu",
