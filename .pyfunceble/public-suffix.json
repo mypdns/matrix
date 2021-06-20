@@ -5146,7 +5146,6 @@
         "filatelia.museum",
         "film.museum",
         "fineart.museum",
-        "finearts.museum",
         "finland.museum",
         "flanders.museum",
         "florida.museum",
@@ -5600,6 +5599,7 @@
         "atl.jelastic.vps-host.net",
         "azure-mobile.net",
         "azurestaticapps.net",
+        "azurewebsites.net",
         "b.ssl.fastly.net",
         "bar0.net",
         "bar1.net",
@@ -5973,6 +5973,7 @@
         "fet.no",
         "fetsund.no",
         "fhs.no",
+        "finearts.museum",
         "finnoy.no",
         "finnøy.no",
         "fitjar.no",
@@ -6774,7 +6775,6 @@
         "org.nr"
     ],
     "nu": [
-        "azurewebsites.net",
         "enterprisecloud.nu",
         "merseine.nu",
         "mine.nu",
