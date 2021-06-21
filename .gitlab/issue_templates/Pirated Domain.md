@@ -36,6 +36,6 @@ domain   CNAME . ; Pirated
 - [ ] Added to Source file
 
 /label ~Pirated
-/assign @spirillen @matrix @Maintainer
+/assign @all
 /weight 1
 /publish

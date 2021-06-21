@@ -36,6 +36,6 @@ domain   CNAME . ; CryptoMiner
 - [ ] Added to Source file
 
 /label ~CryptoMiner
-/assign @spirillen @matrix @Maintainer
+/assign @all
 /weight 2
 /publish

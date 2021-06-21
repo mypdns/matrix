@@ -37,6 +37,6 @@ domain   CNAME . ; AdWare
 - [X] Added to Source file
 
 /label ~AdWare
-/assign @spirillen @matrix @Maintainer
+/assign @all
 /weight 2
 /publish

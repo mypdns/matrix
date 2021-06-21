@@ -36,6 +36,6 @@ domain   CNAME . ; Scamming Spam
 - [ ] Added to Source file
 
 /label ~Scamming ~Spam
-/assign @spirillen @matrix @Maintainer
+/assign @all
 /weight 10
 /publish

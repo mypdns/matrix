@@ -36,6 +36,6 @@ domain   CNAME . ; Redirecting
 - [ ] Added to Source file
 
 /label ~Redirecting
-/assign @spirillen @matrix @Maintainer
+/assign @all
 /weight 4
 /publish

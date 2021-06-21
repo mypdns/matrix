@@ -36,6 +36,6 @@ domain   CNAME . ; Phishing
 - [ ] Added to Source file
 
 /label ~Phishing
-/assign @spirillen @matrix @Maintainer
+/assign @all
 /weight 5
 /publish

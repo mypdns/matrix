@@ -36,6 +36,6 @@ domain   CNAME . ; Tracking
 - [ ] Added to Source file
 
 /label ~Tracking
-/assign @spirillen @matrix @Maintainer
+/assign @all
 /weight 8
 /publish

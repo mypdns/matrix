@@ -46,6 +46,6 @@ I believe this DNS Server needs to be blocked as...
 ```
 
 /label ~DNS-Server
-/assign @spirillen @matrix @Maintainer
+/assign @all
 /weight 2
 /publish
