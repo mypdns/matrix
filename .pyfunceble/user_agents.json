@@ -2,7 +2,7 @@
     "chrome": {
         "linux": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4548.0 Safari/537.36",
         "macosx": "Mozilla/5.0 (Macintosh; PPC Mac OS X 10_8_8) AppleWebKit/5321 (KHTML, like Gecko) Chrome/36.0.844.0 Mobile Safari/5321",
-        "win10": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.106 Safari/537.36/PhvhY5Oi-24"
+        "win10": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.48 CitizenFX/1.0.0.4122 Safari/537.36"
     },
     "edge": {
         "linux": null,
@@ -22,7 +22,7 @@
     "opera": {
         "linux": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.144 Safari/537.36 OPR/67.1.2207.75",
         "macosx": "Mozilla/5.0 (Macintosh; Intel Mac OS X 11_4_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.150 Safari/537.36 OPR/74.0.3911.107",
-        "win10": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36 OPR/76.0.4017.177/vGfJ57JJU2h3GUI2KWhR/vGfJ57JJU2h3GUI2KWhR"
+        "win10": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36 OPR/76.0.4017.208 (Edition Yx GX 03)"
     },
     "safari": {
         "linux": "Mozilla/5.0 (X11; Linux x86_64) plus Build/PPWS29.98-111-5; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/78.0.3904.96 Safari/537.36",
