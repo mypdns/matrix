@@ -7,7 +7,7 @@ contact_links:
     url: https://mypdns.org/my-privacy-dns/matrix/-/issues/new?issue[issue_type]=issue&issuable_template=AdWare
     about: Report any AdWare domain here
   - name: Adult contents
-    url: https://mypdns.org/my-privacy-dns/porn-records/-/issues/new?issue[issue_type]=issue&issuable_template=
+    url: https://mypdns.org/my-privacy-dns/porn-records/-/issues/new?issue[issue_type]=issue&issuable_template=Adult%20contents
     about: Please report adult contents here.
   - name: Block DNS Server
     url: https://mypdns.org/my-privacy-dns/matrix/-/issues/new?issue[issue_type]=issue&issuable_template=DNS%20Server
