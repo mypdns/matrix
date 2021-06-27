@@ -618,6 +618,7 @@ inbound-analytics.pixlee.com
 inference.location.live.net
 info.indiatimes.com
 informer.yandex.ru
+insights.samsung.com
 instafeed-api.pixlee.com.inscname.net
 instagram.fcdg1-1.fna.fbcdn.net
 instagram.felp1-1.fna.fbcdn.net
@@ -730,6 +731,7 @@ nbsdk-baichuan.taobao.com
 neownesharepointdororescos.appspot.com
 nil.naver.com
 nlp-japan.life-and-mind.com
+nmetrics.samsung.com
 nmtracking.netflix.com
 no8lancelot.appspot.com
 nojsstats.appspot.com
@@ -844,6 +846,7 @@ show.re.taobao.com
 simaba.taobao.com
 sixpack.sanarmed.com
 sl-native-android-hm-logging.appspot.com
+smetrics.samsung.com
 snapabug.appspot.com
 snowplow.trx.gitlab.net
 sobar.baidu.com
