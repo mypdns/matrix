@@ -1,4 +1,4 @@
-name: PyFunceble CI tests
+name: PyFunceble CI My Privacy DNS
 on:
   schedule:
     - cron: '0 * * * *'
