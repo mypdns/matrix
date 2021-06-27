@@ -5188,3 +5188,5 @@ zroitracker.com
 ztsrv.com
 zyf03k.xyz
 zzgalleries.com
+appsignal-endpoint.net
+appsignal.com
