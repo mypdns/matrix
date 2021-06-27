@@ -36,6 +36,9 @@ domain   CNAME . ; Phishing
 - [ ] Added to Source file
 
 /label ~Phishing
-/assign @all
+
+/assign @Spirillen @Anonymous @MypDNS
+
 /weight 5
+
 /publish

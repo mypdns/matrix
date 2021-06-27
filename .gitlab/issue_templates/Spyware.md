@@ -36,6 +36,9 @@ domain   CNAME . ; Spyware
 - [ ] Added to Source file
 
 /label ~Spyware
-/assign @all
+
+/assign @Spirillen @Anonymous @MypDNS
+
 /weight 8
+
 /publish

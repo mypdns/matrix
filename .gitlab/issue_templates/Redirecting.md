@@ -36,6 +36,9 @@ domain   CNAME . ; Redirecting
 - [ ] Added to Source file
 
 /label ~Redirecting
-/assign @all
+
+/assign @Spirillen @Anonymous @MypDNS
+
 /weight 4
+
 /publish

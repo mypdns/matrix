@@ -46,6 +46,9 @@ I believe this DNS Server needs to be blocked as...
 ```
 
 /label ~"DNS Server"
+
 /assign @all
+
 /weight 2
+
 /publish

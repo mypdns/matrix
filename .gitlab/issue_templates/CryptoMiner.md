@@ -36,6 +36,9 @@ domain   CNAME . ; CryptoMiner
 - [ ] Added to Source file
 
 /label ~CryptoMiner
-/assign @all
+
+/assign @Spirillen @Anonymous @MypDNS
+
 /weight 2
+
 /publish

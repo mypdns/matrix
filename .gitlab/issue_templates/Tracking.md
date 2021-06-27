@@ -36,6 +36,9 @@ domain   CNAME . ; Tracking
 - [ ] Added to Source file
 
 /label ~Tracking
-/assign @all
+
+/assign @Spirillen @Anonymous @MypDNS
+
 /weight 8
+
 /publish

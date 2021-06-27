@@ -36,6 +36,9 @@ domain   CNAME . ; AdWare
 - [X] Added to Source file
 
 /label ~AdWare
+
 /assign @Spirillen @Anonymous @MypDNS
+
 /weight 2
+
 /publish

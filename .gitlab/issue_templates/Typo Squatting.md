@@ -36,6 +36,9 @@ domain   CNAME . ; Typo Squatting
 - [ ] Added to Source file
 
 /label ~"Typo Squatting"
-/assign @all
+
+/assign @Spirillen @Anonymous @MypDNS
+
 /weight 5
+
 /publish

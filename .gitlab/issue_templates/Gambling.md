@@ -36,6 +36,9 @@ domain   CNAME . ; Gambling
 - [ ] Added to Source file
 
 /label ~Gambling
-/assign @all
+
+/assign @Spirillen @Anonymous @MypDNS
+
 /weight 1
+
 /publish
