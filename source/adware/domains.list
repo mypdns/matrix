@@ -68,8 +68,10 @@ aax.amazon-adsystem.amazon.com
 ab.advertiserurl.com
 abam.s3.amazonaws.com
 abc.hostedbyfembed.com
+abtauthprd.samsungcloudsolution.com
 acesso-empresarial.s3.ap-south-1.amazonaws.com
 acesso-safra-empresas.s3-sa-east-1.amazonaws.com
+acr0.samsungcloudsolution.com
 ad.99x.mobi
 ad.accesstrade.vn
 ad.dmm.com
@@ -332,6 +334,7 @@ cdn.plopx.com
 cdn.pmdownloadcdn.com.s3.amazonaws.com
 cdn.provesrc.com
 cdn.pulpix.com
+cdn.samsungcloudsolution.com
 cdn.siteswithcontent.com
 cdn.videoplaza1.tv
 cdn.witchhut.com
@@ -693,6 +696,7 @@ file.market.xiaomi.com
 filestorage.chip.de
 fimserve.ign.com
 fishsnifferee.thefishsniffer.netdna-cdn.com
+fkp.samsungcloudsolution.com
 flashads50.s3.amazonaws.com
 fldownloadnet.maynemyltf.netdna-cdn.com
 fls-eu.amazon.com
@@ -855,6 +859,7 @@ multipurposecall.s3.eu-west-2.amazonaws.com
 munaluchibridal.munaluchibridema.netdna-cdn.com
 musculahq.appspot.com
 music.126.net
+musicid.samsungcloudsolution.com
 my.top100.photo
 myap.liveperson.com
 mycdn.cdn492812.netdna-cdn.com
@@ -868,10 +873,13 @@ netspiderads3.indiatimes.com
 ngads.go.com
 nnd.xyssp.com
 nojsstats.appspot.com
+noticecdn.samsungcloudsolution.com
+noticefile.samsungcloudsolution.com
 notifications-api.cf.sky.com
 nytadvertising.nytimes.com
 o2o.api.xiaomi.com
 obliteratebedblue.com
+oempprd.samsungcloudsolution.com
 offerssyndication.appspot.com
 offerwall.s3.amazonaws.com
 ohpornosex.blog.onet.pl
@@ -1056,6 +1064,7 @@ te.latimes.com
 test.verplusonline.com
 thetradedesk-ads-video.s3.amazonaws.com
 tim.nextinpact.com
+time.samsungcloudsolution.com
 timesofindia.indiatimes.com
 timestrends.indiatimes.com
 tm-offers.gamingadult.com
@@ -1085,6 +1094,7 @@ ukdtx.31202.fun
 unicast.ign.com
 us.b3018.pw
 users.51.la
+vdterms.samsungcloudsolution.com
 videos.porndig.com
 viewerstats.docstoc.com.s3.amazonaws.com
 vkcdnservice.appspot.com
@@ -1227,13 +1237,3 @@ znaptag-us.s3.amazonaws.com
 zone1.absoluteexhibits.netdna-cdn.com
 zontent.powvideo.net
 ztag-trackedevents-enterprise-1441845540.us-west-2.elb.amazonaws.com
-acr0.samsungcloudsolution.com
-cdn.samsungcloudsolution.com
-fkp.samsungcloudsolution.com
-musicid.samsungcloudsolution.com
-noticecdn.samsungcloudsolution.com
-abtauthprd.samsungcloudsolution.com
-noticefile.samsungcloudsolution.com
-oempprd.samsungcloudsolution.com
-time.samsungcloudsolution.com
-vdterms.samsungcloudsolution.com
