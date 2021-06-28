@@ -5195,3 +5195,4 @@ appsignal.com
 vtex.com
 vtex.com.br
 ibeat-analytics.com
+privacymanager.io
