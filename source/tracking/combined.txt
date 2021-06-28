@@ -5193,3 +5193,4 @@ appsignal-endpoint.net
 appsignal.com
 vtex.com
 vtex.com.br
+ibeat-analytics.com
