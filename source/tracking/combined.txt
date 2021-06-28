@@ -1,3 +1,5 @@
+device-metrics-us-2.amazon.com
+device-metrics-us.amazon.com
 mc.yandex.md
 010530072943355-dot-qfj-kyf-vsh.appspot.com
 012051995582106-dot-exj-ale-bsj.appspot.com

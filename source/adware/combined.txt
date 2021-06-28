@@ -588,8 +588,6 @@ delivery.adten.eu
 delivery.trafficfabrik.com
 deoi3kwqhv0d5.cloudfront.net
 device-fingerprintdb-v1.s3.amazonaws.com
-device-metrics-us-2.amazon.com
-device-metrics-us.amazon.com
 dew9ckzjyt2gn.cloudfront.net
 digital-ads.s3.amazonaws.com
 discoveryad.castoola.tv
