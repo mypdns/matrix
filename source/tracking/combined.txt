@@ -1,3 +1,4 @@
+datacollector-dra.dt.hicloud.com
 log.radiko.jp
 device-metrics-us-2.amazon.com
 device-metrics-us.amazon.com
@@ -5197,3 +5198,4 @@ vtex.com
 vtex.com.br
 ibeat-analytics.com
 privacymanager.io
+tapdb.net\
