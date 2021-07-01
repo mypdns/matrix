@@ -5225,3 +5225,4 @@ vtex.com.br
 ibeat-analytics.com
 privacymanager.io
 tapdb.net\sentry.fo4.qq.com
+visitorqueue.com
