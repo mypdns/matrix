@@ -1,3 +1,4 @@
+event.ridegoshare.com
 stats.pstream.net
 beam-ws.giraffe360.com
 beam.giraffe360.com

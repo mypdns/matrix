@@ -1,3 +1,4 @@
+event.ridegoshare.com
 sda.seesaa.jp
 adapp.qq.com
 adbox.qq.com
