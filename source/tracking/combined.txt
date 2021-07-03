@@ -1,3 +1,4 @@
+stats.pstream.net
 beam-ws.giraffe360.com
 beam.giraffe360.com
 fresnel-events.vimeocdn.com
@@ -5229,3 +5230,4 @@ ibeat-analytics.com
 privacymanager.io
 tapdb.net\sentry.fo4.qq.com
 visitorqueue.com
+faceitanalytics.com
