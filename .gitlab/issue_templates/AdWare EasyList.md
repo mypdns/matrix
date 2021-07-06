@@ -11,6 +11,11 @@ domain   CNAME . ; AdWare
 ## Relevant logs and/or screenshots
 A big thank you to @ryanbr in <https://github.com/easylist/easylist/commit/24d8c4ebf4990e9df2d089b41e3c692a374a2cd6>
 
+Fixed in:
+  - --
+  - --
+
+Thanks to @smed79 in https://github.com/easylist/easylist/pull/5523
 ## Screenshots
 
 ### All Submissions:
