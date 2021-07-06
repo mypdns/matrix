@@ -1,11 +1,11 @@
 name: PyFunceble CI My Privacy DNS
 on:
   schedule:
-    - cron: '0 * * * *'
-  push:
-    branches:
-      - 'master'
-      - 'data-testing'
+    - cron: '0 */6 * * *'
+  # push:
+  #   branches:
+  #     - 'master'
+  #     - 'data-testing'
 
 env:
   PYFUNCEBLE_AUTO_CONFIGURATION: 'YES'
@@ -43,6 +43,7 @@ jobs:
       - name: Install PyFunceble
         run: |
           pip install --no-cache-dir --pre PyFunceble-dev
+          pip install --no-cache-dir mypdns
 
       - name: Get PyFunceble version
         run: |
@@ -50,7 +51,7 @@ jobs:
 
       - name: Run Domain tests
         run: |
-          echo "$(date +'%s')" > "${{ github.workspace }}/.trigger"
+          # echo "$(date +'%s')" > "${{ github.workspace }}/.trigger"
           pyfunceble -f "${{ github.workspace }}/source/adware/combined.txt" \
           "${{ github.workspace }}/source/bait_sites/combined.txt" \
           "${{ github.workspace }}/source/coin-blocker/combined.txt" \

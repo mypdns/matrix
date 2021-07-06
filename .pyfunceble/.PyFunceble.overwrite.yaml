@@ -8,7 +8,7 @@ cli_testing:
         distribution_branch: master
         end_command: null
         end_commit_message: My Privacy DNS - Results
-        max_exec_minutes: 45
+        max_exec_minutes: 320
     days_between:
         db_clean: 120
     display_mode:
