@@ -38,7 +38,7 @@ domain   CNAME . ; Redirecting
 
 /label ~Redirector
 
-/assign @Spirillen @Anonymous @MypDNS
+/assign @Spirillen
 
 /weight 4
 
