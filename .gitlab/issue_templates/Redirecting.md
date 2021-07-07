@@ -15,6 +15,7 @@ domain   CNAME . ; Redirecting
 <details><summary>Click to unfold</summary>
 
 
+
 </details>
 
 ### All Submissions:
@@ -35,7 +36,7 @@ domain   CNAME . ; Redirecting
 - [ ] RPZ Server (Team @Spirillen)
 - [ ] Added to Source file
 
-/label ~Redirecting
+/label ~Redirector
 
 /assign @Spirillen @Anonymous @MypDNS
 
