@@ -37,7 +37,7 @@ domain   CNAME . ; Spyware
 
 /label ~Spyware
 
-/assign @Spirillen @Anonymous @MypDNS
+/assign @Spirillen
 
 /weight 8
 

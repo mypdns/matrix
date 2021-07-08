@@ -37,7 +37,7 @@ domain   CNAME . ; CryptoMiner
 
 /label ~CryptoMiner
 
-/assign @Spirillen @Anonymous @MypDNS
+/assign @Spirillen
 
 /weight 2
 

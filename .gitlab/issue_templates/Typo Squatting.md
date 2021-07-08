@@ -37,7 +37,7 @@ domain   CNAME . ; Typo Squatting
 
 /label ~"Typo Squatting"
 
-/assign @Spirillen @Anonymous @MypDNS
+/assign @Spirillen
 
 /weight 5
 

@@ -37,7 +37,7 @@ domain   CNAME . ; Phishing
 
 /label ~Phishing
 
-/assign @Spirillen @Anonymous @MypDNS
+/assign @Spirillen
 
 /weight 5
 

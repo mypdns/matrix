@@ -37,7 +37,7 @@ domain   CNAME . ; Gambling
 
 /label ~Gambling
 
-/assign @Spirillen @Anonymous @MypDNS
+/assign @Spirillen
 
 /weight 1
 

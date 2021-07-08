@@ -37,7 +37,7 @@ domain   CNAME . ; AdWare
 
 /label ~AdWare
 
-/assign @Spirillen @Anonymous @MypDNS
+/assign @Spirillen
 
 /weight 2
 

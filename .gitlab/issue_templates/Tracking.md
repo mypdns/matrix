@@ -37,7 +37,7 @@ domain   CNAME . ; Tracking
 
 /label ~Tracking
 
-/assign @Spirillen @Anonymous @MypDNS
+/assign @Spirillen
 
 /weight 8
 

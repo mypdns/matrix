@@ -37,7 +37,7 @@ domain   CNAME . ; Scamming Spam
 
 /label ~Scamming ~Spam
 
-/assign @Spirillen @Anonymous @MypDNS
+/assign @Spirillen
 
 /weight 10
 

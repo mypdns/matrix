@@ -37,7 +37,7 @@ domain   CNAME . ; Pirated
 
 /label ~Pirated
 
-/assign @Spirillen @Anonymous @MypDNS
+/assign @Spirillen
 
 /weight 1
 
