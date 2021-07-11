@@ -35,6 +35,7 @@ cli_testing:
     file_generation:
         analytic: true
         hosts: false
+        merge_output_dirs: false
         no_file: false
         plain: true
         unified_results: false
@@ -74,7 +75,6 @@ http_codes:
         - 416
         - 451
         potentially_up:
-        - 0
         - 300
         - 301
         - 302
