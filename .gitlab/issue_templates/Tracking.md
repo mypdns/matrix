@@ -23,7 +23,8 @@ domain   CNAME . ; Tracking
 - [x] Have you checked to ensure there aren't other open
       [Merge Requests (MR)](../merge_requests) or [Issues](../issues) for the
       same update/change?
-- [ ] Added [[ screenshot/ ]] for prove of [[ falsenegative/ | False Negative ]]
+- [ ] Added [screenshot](https://mypdns.org/MypDNS/support/-/wikis/Screenshot)
+	  for prove of [False Negative](https://mypdns.org/MypDNS/support/-/wikis/False-Negative)
 - [X] Have you added an explanation of what your submission do and why you'd
 	  like us to include them??
 
