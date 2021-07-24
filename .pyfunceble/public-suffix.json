@@ -1,6 +1,7 @@
 {
     "ac": [
         "com.ac",
+        "drr.ac",
         "edu.ac",
         "gov.ac",
         "mil.ac",
@@ -305,7 +306,8 @@
         "gov.ba",
         "mil.ba",
         "net.ba",
-        "org.ba"
+        "org.ba",
+        "rs.ba"
     ],
     "basketball": [
         "aus.basketball",
@@ -1379,6 +1381,7 @@
         "townnews-staging.com",
         "try-snowplow.com",
         "trycloudflare.com",
+        "tuleap-partners.com",
         "u2-local.xnbay.com",
         "u2.xnbay.com",
         "uk.com",
@@ -1417,6 +1420,7 @@
     ],
     "community": [
         "myforum.community",
+        "nog.community",
         "ravendb.community"
     ],
     "cool": [
@@ -2141,6 +2145,7 @@
         "backyards.banzaicloud.io",
         "barsy.io",
         "basicserver.io",
+        "bitbucket.io",
         "bluebite.io",
         "boxfuse.io",
         "browsersafetymark.io",
@@ -4922,6 +4927,9 @@
         "and.mom",
         "for.mom"
     ],
+    "mp": [
+        "ju.mp"
+    ],
     "mr": [
         "blogspot.mr",
         "gov.mr"
@@ -5616,6 +5624,7 @@
         "buyshouses.net",
         "casacam.net",
         "cdn-edges.net",
+        "cdn.prod.atlassian-dev.net",
         "cdn77-ssl.net",
         "centralus.azurestaticapps.net",
         "channelsdvr.net",
@@ -6779,8 +6788,7 @@
         "merseine.nu",
         "mine.nu",
         "nom.nu",
-        "shacknet.nu",
-        "uwu.nu"
+        "shacknet.nu"
     ],
     "nz": [
         "ac.nz",
@@ -7575,6 +7583,7 @@
         "h.se",
         "i.se",
         "iopsys.se",
+        "itcouldbewor.se",
         "k.se",
         "komforb.se",
         "kommunalforbund.se",
@@ -7718,6 +7727,7 @@
         "store.st"
     ],
     "store": [
+        "sellfy.store",
         "shopware.store",
         "storebase.store"
     ],
