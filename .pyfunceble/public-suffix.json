@@ -1922,6 +1922,7 @@
         "edu.gy",
         "gov.gy",
         "net.gy",
+        "nym.gy",
         "org.gy"
     ],
     "health": [
@@ -4734,6 +4735,9 @@
         "dweb.link",
         "mypep.link"
     ],
+    "live": [
+        "hlx.live"
+    ],
     "lk": [
         "ac.lk",
         "assn.lk",
@@ -6813,7 +6817,6 @@
         "merseine.nu",
         "mine.nu",
         "nom.nu",
-        "nym.gy",
         "shacknet.nu"
     ],
     "nz": [
@@ -6857,7 +6860,9 @@
         "under.one"
     ],
     "online": [
-        "barsy.online"
+        "barsy.online",
+        "eero-stage.online",
+        "eero.online"
     ],
     "org": [
         "accesscam.org",
@@ -7052,6 +7057,8 @@
         "sld.pa"
     ],
     "page": [
+        "hlx.page",
+        "hlx3.page",
         "magnet.page",
         "pdns.page",
         "plesk.page",
