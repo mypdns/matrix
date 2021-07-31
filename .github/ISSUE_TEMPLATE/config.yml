@@ -24,6 +24,12 @@ contact_links:
   - name: Malicious
     url: https://mypdns.org/my-privacy-dns/matrix/-/issues/new?issue[issue_type]=issue&issuable_template=Malicious%20MalWare
     about: Report any Malicious domains here
+  - name: Phishing
+    url: https://mypdns.org/my-privacy-dns/matrix/-/issues/new?issue%5Bissue_type%5D=issue&issuable_template=Phishing
+    about: Report anny phishing domains here
+  - name: Phishing Url's
+    url: https://github.com/mitchellkrogza/phishing/blob/main/add-link
+    about: Report anny phishing uri's here
   - name: Redirecting
     url: https://mypdns.org/my-privacy-dns/matrix/-/issues/new?issue[issue_type]=issue&issuable_template=Redirecting
     about: Any domains used explicit to redirect urls, Typically used as AdWare and Tracking at the same time
