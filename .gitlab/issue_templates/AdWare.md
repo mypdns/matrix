@@ -9,17 +9,12 @@ domain   CNAME . ; AdWare
 ```
 
 ## Relevant logs and/or screenshots
-
+A big thanks to [@smed79](https://github.com/smed79) in https://github.com/easylist/easylist/pull/8464
 
 ## Screenshots
 <details><summary>Click to unfold</summary>
 
 
-<<<<<<< HEAD
-
-</details>
-=======
->>>>>>> 9f6297449 (0w1rqq69fi0e.com)
 
 </details>
 
