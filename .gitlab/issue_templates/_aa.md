@@ -9,11 +9,7 @@ domain   CNAME . ; AdWare
 ```
 
 ## Relevant logs and/or screenshots
-<<<<<<< HEAD
 A big thanks to @smed79 in https://github.com/easylist/easylist/pull/8411
-=======
-A big thanks to [@smed79](https://github.com/smed79) in https://github.com/easylist/easylist/pull/8464
->>>>>>> 35447fcbb (New bulk submit template)
 
 ## Screenshots
 
