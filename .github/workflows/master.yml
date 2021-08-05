@@ -4,6 +4,8 @@ on:
   push:
     branches:
       - 'master'
+    schedule:
+      - cron: '10 * * * *'
 
 env:
   GIT_NAME: '${{ secrets.GIT_NAME }}'
