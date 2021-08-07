@@ -44,7 +44,7 @@ console output, logs, and code as it's very hard to read otherwise. -->
 		[Merge Requests (MR)](../merge_requests) or [Issues](../issues) for the
 		same update/change?
   - [ ] Added [screenshot](https://mypdns.org/MypDNS/support/-/wikis/Screenshot)
-		for prove of [False Negative](https://mypdns.org/MypDNS/support/-/wikis/False-Negative)
+		for prove of [False Positive](https://mypdns.org/MypDNS/support/-/wikis/False-Positive)
   - [ ] Have you added an explanation of what your submission do and why you'd like us to include them??
 
 ### Testing face
