@@ -8,7 +8,7 @@ domain   CNAME . ; Tracking
 ```
 
 ## Relevant logs and/or screenshots
-  - https://github.com/easylist/easylist/commit/3f97440cc288f6cd9e71687b35162defcb56fe1e
+  - https://github.com/easylist/easylist/commit/5f7da808659f9016387bdd02dd53f8ecaeb8707a
 
 ## Screenshots
 
