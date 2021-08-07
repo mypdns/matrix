@@ -42,7 +42,7 @@ This IP address or IP range (CIDR) that have to be blocked as..
 - [X] RPZ Server (Team @Spirillen)
 - [X] Added to Source file
 
-/label ~"Ip Blocking"
+/label ~"IP Blocking"
 
 /assign @Spirillen
 
