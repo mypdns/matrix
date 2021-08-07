@@ -1,15 +1,14 @@
-I believe this domain is an [AdWare](https://mypdns.org/MypDNS/support/-/wikis/Adware) domain(s) --> that have to be blocked as..
+I believe this domain is an Tracking domain(s) --> which should be blocked as..
 
-- [X] Wildcarded
-- [ ] Single domain blocking
+- [ ] Wildcarded
+- [x] Single domain blocking
 
 ```python
-domain   CNAME . ; AdWare
-*.domain   CNAME . ; AdWare
+domain   CNAME . ; Tracking
 ```
 
 ## Relevant logs and/or screenshots
-A big thanks to @smed79 in https://github.com/easylist/easylist/pull/8464
+  - https://github.com/easylist/easylist/commit/3f97440cc288f6cd9e71687b35162defcb56fe1e
 
 ## Screenshots
 
@@ -33,10 +32,10 @@ A big thanks to @smed79 in https://github.com/easylist/easylist/pull/8464
 - [X] RPZ Server (Team @Spirillen)
 - [X] Added to Source file
 
-/label ~AdWare
+/label ~Tracking
 
 /assign @Spirillen
 
-/weight 2
+/weight 8
 
 /publish
