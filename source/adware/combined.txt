@@ -330,6 +330,7 @@ bitmovin-bitanalytics.appspot.com
 blammo.onrpg.com
 bleua.ecefibwja.xyz
 bms.adjarabet.com
+bms1.adjarabet.com
 bootstrapcdn.jdorfman.netdna-cdn.com
 bps.sysact.cn
 br.com.tapps.analytics.s3.amazonaws.com
@@ -1482,6 +1483,7 @@ yxbtyzqcczra.com
 zaperplop.info
 zharezhi.info
 zptncsir.com
+
 0026645142c89aeb1.com
 006a039c957c142bb.com
 00aaa2d81c1d174.com
@@ -15019,6 +15021,8 @@ tradeadexchange.com
 tradedoubler.com
 tradeexpert.net
 tradetracker.net
+tradplus.cn
+tradplus.com
 tradplusad.com
 trafex.net
 traff6.com
@@ -17262,6 +17266,7 @@ zinphyra.com
 zinrora.pw
 zinturax.com
 zip-zip-swan.com
+ziphentai.com
 ziphoumt.net
 zipovoma.com
 zipropyl.com
