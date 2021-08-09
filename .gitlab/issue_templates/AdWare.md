@@ -15,11 +15,6 @@ domain   CNAME . ; AdWare
 <details><summary>Click to unfold</summary>
 
 
-<<<<<<< HEAD
-
-</details>
-=======
->>>>>>> 9f6297449 (0w1rqq69fi0e.com)
 
 </details>
 
