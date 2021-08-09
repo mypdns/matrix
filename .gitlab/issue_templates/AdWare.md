@@ -15,7 +15,6 @@ domain   CNAME . ; AdWare
 <details><summary>Click to unfold</summary>
 
 
-
 </details>
 
 ### All Submissions:

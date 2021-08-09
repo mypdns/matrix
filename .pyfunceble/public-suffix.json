@@ -21,7 +21,6 @@
         "gov.ae",
         "mil.ae",
         "net.ae",
-        "nom.ae",
         "org.ae",
         "sch.ae"
     ],
@@ -118,7 +117,6 @@
         "edu.af",
         "gov.af",
         "net.af",
-        "nom.af",
         "org.af"
     ],
     "ag": [
@@ -131,7 +129,6 @@
     "ai": [
         "com.ai",
         "net.ai",
-        "nom.ai",
         "off.ai",
         "org.ai",
         "uwu.ai"
@@ -143,7 +140,6 @@
         "gov.al",
         "mil.al",
         "net.al",
-        "nom.al",
         "org.al"
     ],
     "am": [
@@ -707,7 +703,6 @@
         "mediatech.by",
         "mil.by",
         "mycloud.by",
-        "nym.by",
         "of.by"
     ],
     "bz": [
@@ -716,8 +711,6 @@
         "gov.bz",
         "gsj.bz",
         "net.bz",
-        "nom.bz",
-        "nym.bz",
         "org.bz",
         "za.bz"
     ],
@@ -807,8 +800,7 @@
         "co.cl",
         "gob.cl",
         "gov.cl",
-        "mil.cl",
-        "nom.cl"
+        "mil.cl"
     ],
     "cloud": [
         "banzai.cloud",
@@ -1653,7 +1645,6 @@
         "med.ec",
         "mil.ec",
         "net.ec",
-        "nym.ec",
         "org.ec",
         "pro.ec"
     ],
@@ -1811,8 +1802,7 @@
     ],
     "gd": [
         "edu.gd",
-        "gov.gd",
-        "nom.gd"
+        "gov.gd"
     ],
     "gdn": [
         "cnpy.gdn"
@@ -1823,7 +1813,6 @@
         "gov.ge",
         "mil.ge",
         "net.ge",
-        "nom.ge",
         "org.ge",
         "pvt.ge"
     ],
@@ -1857,7 +1846,6 @@
         "com.gl",
         "edu.gl",
         "net.gl",
-        "nom.gl",
         "org.gl",
         "xx.gl"
     ],
@@ -1888,7 +1876,6 @@
         "edu.gr",
         "gov.gr",
         "net.gr",
-        "nym.gr",
         "org.gr"
     ],
     "group": [
@@ -1903,7 +1890,6 @@
         "ind.gt",
         "mil.gt",
         "net.gt",
-        "nom.gt",
         "org.gt",
         "to.gt"
     ],
@@ -1924,7 +1910,6 @@
         "edu.gy",
         "gov.gy",
         "net.gy",
-        "nym.gy",
         "org.gy"
     ],
     "health": [
@@ -1939,7 +1924,6 @@
         "inc.hk",
         "ltd.hk",
         "net.hk",
-        "nym.hk",
         "org.hk",
         "secaas.hk",
         "xn--55qx5d.hk",
@@ -1980,7 +1964,6 @@
         "gob.hn",
         "mil.hn",
         "net.hn",
-        "nom.hn",
         "org.hn"
     ],
     "host": [
@@ -2081,8 +2064,7 @@
     "ie": [
         "blogspot.ie",
         "gov.ie",
-        "myspreadshop.ie",
-        "nym.ie"
+        "myspreadshop.ie"
     ],
     "il": [
         "ac.il",
@@ -2102,7 +2084,6 @@
         "com.im",
         "ltd.co.im",
         "net.im",
-        "nom.im",
         "org.im",
         "plc.co.im",
         "ro.im",
@@ -4565,7 +4546,6 @@
         "me.ke",
         "mobi.ke",
         "ne.ke",
-        "nom.ke",
         "or.ke",
         "sc.ke"
     ],
@@ -4687,7 +4667,6 @@
         "jcloud.kz",
         "mil.kz",
         "net.kz",
-        "nym.kz",
         "org.kz",
         "upaas.kazteleport.kz"
     ],
@@ -4700,7 +4679,6 @@
         "info.la",
         "int.la",
         "net.la",
-        "nym.la",
         "org.la",
         "per.la"
     ],
@@ -4722,15 +4700,12 @@
         "edu.lc",
         "gov.lc",
         "net.lc",
-        "nym.lc",
         "org.lc",
         "oy.lc"
     ],
     "li": [
         "blogspot.li",
-        "caa.li",
-        "nom.li",
-        "nym.li"
+        "caa.li"
     ],
     "link": [
         "cyon.link",
@@ -4785,12 +4760,10 @@
     ],
     "lt": [
         "blogspot.lt",
-        "gov.lt",
-        "nym.lt"
+        "gov.lt"
     ],
     "lu": [
-        "blogspot.lu",
-        "nym.lu"
+        "blogspot.lu"
     ],
     "lv": [
         "asn.lv",
@@ -4801,7 +4774,6 @@
         "id.lv",
         "mil.lv",
         "net.lv",
-        "nom.lv",
         "org.lv"
     ],
     "ly": [
@@ -4877,7 +4849,6 @@
         "net.me",
         "nohost.me",
         "noip.me",
-        "nym.me",
         "org.me",
         "priv.me",
         "ravendb.me",
@@ -4917,7 +4888,6 @@
         "inf.mk",
         "name.mk",
         "net.mk",
-        "nom.mk",
         "org.mk"
     ],
     "ml": [
@@ -4936,7 +4906,6 @@
         "edu.mn",
         "gov.mn",
         "nyc.mn",
-        "nym.mn",
         "org.mn"
     ],
     "mo": [
@@ -5574,7 +5543,6 @@
         "edu.mx",
         "gob.mx",
         "net.mx",
-        "nym.mx",
         "org.mx"
     ],
     "my": [
@@ -6818,7 +6786,6 @@
         "enterprisecloud.nu",
         "merseine.nu",
         "mine.nu",
-        "nom.nu",
         "shacknet.nu"
     ],
     "nz": [
@@ -6836,7 +6803,6 @@
         "mil.nz",
         "māori.nz",
         "net.nz",
-        "nym.nz",
         "org.nz",
         "parliament.nz",
         "school.nz",
@@ -7077,7 +7043,6 @@
         "mil.pe",
         "net.pe",
         "nom.pe",
-        "nym.pe",
         "org.pe"
     ],
     "pf": [
@@ -7406,7 +7371,6 @@
         "int.pt",
         "net.pt",
         "nome.pt",
-        "nym.pt",
         "org.pt",
         "publ.pt"
     ],
@@ -7420,7 +7384,6 @@
         "ed.pw",
         "go.pw",
         "ne.pw",
-        "nom.pw",
         "or.pw",
         "x443.pw"
     ],
@@ -7441,7 +7404,6 @@
         "mil.qa",
         "name.qa",
         "net.qa",
-        "nom.qa",
         "org.qa",
         "sch.qa"
     ],
@@ -7466,7 +7428,6 @@
         "info.ro",
         "nom.ro",
         "nt.ro",
-        "nym.ro",
         "org.ro",
         "rec.ro",
         "shop.ro",
@@ -7486,7 +7447,6 @@
         "edu.rs",
         "gov.rs",
         "in.rs",
-        "nom.rs",
         "org.rs",
         "ox.rs",
         "shop.brendly.rs",
@@ -7682,8 +7642,7 @@
     "si": [
         "blogspot.si",
         "gitapp.si",
-        "gitpage.si",
-        "nom.si"
+        "gitpage.si"
     ],
     "site": [
         "barsy.site",
@@ -7705,8 +7664,7 @@
         "tst.site"
     ],
     "sk": [
-        "blogspot.sk",
-        "nym.sk"
+        "blogspot.sk"
     ],
     "sl": [
         "com.sl",
@@ -7758,7 +7716,6 @@
         "mil.st",
         "net.st",
         "noho.st",
-        "nom.st",
         "org.st",
         "principe.st",
         "saotome.st",
@@ -7807,7 +7764,6 @@
         "navoi.su",
         "north-kazakhstan.su",
         "nov.su",
-        "nym.su",
         "obninsk.su",
         "penza.su",
         "pokrovsk.su",
@@ -7835,8 +7791,7 @@
         "red.sv"
     ],
     "sx": [
-        "gov.sx",
-        "nym.sx"
+        "gov.sx"
     ],
     "sy": [
         "com.sy",
@@ -7893,7 +7848,6 @@
         "name.tj",
         "net.tj",
         "nic.tj",
-        "nom.tj",
         "org.tj",
         "test.tj",
         "web.tj"
@@ -8018,7 +7972,6 @@
         "mil.tw",
         "mymailer.com.tw",
         "net.tw",
-        "nym.tw",
         "org.tw",
         "url.tw",
         "xn--czrw28b.tw",
@@ -8134,7 +8087,6 @@
         "com.ug",
         "go.ug",
         "ne.ug",
-        "nom.ug",
         "or.ug",
         "org.ug",
         "sc.ug"
@@ -8427,7 +8379,6 @@
         "gub.uy",
         "mil.uy",
         "net.uy",
-        "nom.uy",
         "org.uy"
     ],
     "uz": [
@@ -8445,7 +8396,6 @@
         "gv.vc",
         "mil.vc",
         "net.vc",
-        "nom.vc",
         "org.vc"
     ],
     "ve": [
@@ -8468,8 +8418,7 @@
         "web.ve"
     ],
     "vg": [
-        "at.vg",
-        "nom.vg"
+        "at.vg"
     ],
     "vi": [
         "co.vi",
