@@ -608,6 +608,7 @@ gimg.baidu.com
 giuliana-rancic-pregnant.appspot.com
 gjf9pxzosa.appspot.com
 gnar.grammarly.com
+go.fap18.net
 go.xhamster.com
 goreminders.com
 gql.reddit.com
@@ -904,6 +905,7 @@ segment.hotstar.com
 sensytracker.appspot.com
 sentry.arc.io
 sentry.fo4.qq.com
+sentry.stripchat.com
 service-api.accesstrade.vn
 settings-sandbox.data.microsoft.com
 settings-win.data.microsoft.com
@@ -2915,6 +2917,7 @@ hexagon-analytics.com
 heyhelga.net
 heystaks.com
 hfc195b.com
+hgame.link
 hhb123.tk
 hiconversion.com
 hide.ovh
