@@ -1,4 +1,3 @@
-# Date of generation: 2020-04-17T03:52:40.651261
 34e127b2acf56a344457e1537dce906d-dot-w-opqwerrr.appspot.com
 371945315565313-dot-qfj-kyf-vsh.appspot.com
 377648215106865-dot-buc-ksa-lrf.appspot.com
@@ -160,6 +159,7 @@ hkofs924paazxpvma99a4s.appspot.com
 iczopc9adozpxz.appspot.com
 images.secureserver.net
 imagesak.secureserver.net
+imdownloads.rediff.com
 img.uol.com.br
 ip-104-238-92-74.ip.secureserver.net
 ip-132-148-243-176.ip.secureserver.net
@@ -286,8 +286,10 @@ ritr934papa.appspot.com
 s176884.gridserver.com
 sandroalencar0102.xpg.uol.com.br
 saverhl.xpg.uol.com.br
+search.rediff.com
 securdserv1.appspot.com
 sedo.cachefly.net
+server.toolbar.rediff.com
 sg2plcpnl0033.prod.sin2.secureserver.net
 sg2plcpnl0046.prod.sin2.secureserver.net
 sg2plcpnl0075.prod.sin2.secureserver.net
@@ -407,6 +409,7 @@ broadband.duckdns.org
 buhiya.ru
 c-dr.ru
 captainsgroup.com.bd
+captcharesolving-universe.com
 careathome.com.bd
 careers.ua
 carenutrition.com.bd
@@ -658,6 +661,7 @@ proxestable.duckdns.org
 psnpsnpsn.duckdns.org
 purgeblood.duckdns.org
 quasir.info
+quatrefeuillepolonaise.xyz
 qusi.duckdns.org
 qusi007.duckdns.org
 qweruiop.duckdns.org
@@ -680,6 +684,7 @@ rgoodiblaze.duckdns.org
 rifat01.info
 rigifoor.ru
 rj.gov.br
+rockcabs247.in
 rocket.com.bd
 rocksresort.com.au
 rzhakatops.ru
@@ -803,6 +808,7 @@ webwidgetz.duckdns.org
 whorim.duckdns.org
 winloggers.duckdns.org
 wiredjay.duckdns.org
+wishuiuck.net
 wowyourleet.duckdns.org
 wtfpost.ru
 www-google-com-0017174001usermail.duckdns.org
@@ -833,5 +839,3 @@ zhirrtrests.ru
 zikadanger.duckdns.org
 zkhack.duckdns.org
 zp1.duckdns.org
-quatrefeuillepolonaise.xyz
-captcharesolving-universe.com
