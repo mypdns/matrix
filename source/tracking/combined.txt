@@ -193,6 +193,7 @@ androidquery.appspot.com
 anti-bot.baidu.com
 api-dot-mwm-ab-testing.appspot.com
 api-dot-mwm-ad-mediation.appspot.com
+api-iam.intercom.io
 api-js.datadome.co
 api.instagram.com
 api.waptest.taobao.com
@@ -1662,6 +1663,7 @@ bazaarvoice.com
 baztrack.com
 bbthat.com
 bc.vc
+bc0a.com
 bdash-cloud.com
 beacon-v2.helpscout.net
 beaconapi.helpscout.net
@@ -1896,6 +1898,7 @@ cguru.ga
 chartaca.com
 chartbeat.com
 chartbeat.net
+chartboost.com
 chatra.io
 checkstat.nl
 chickensaladandads.com
@@ -3345,6 +3348,7 @@ meetrics.de
 meetrics.net
 meetrics.org
 mega-stats.com
+megastats.net
 memecounter.com
 memo.co
 mepirtedic.com
