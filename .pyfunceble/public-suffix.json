@@ -164,6 +164,8 @@
     "app": [
         "a.run.app",
         "bookonline.app",
+        "clerk.app",
+        "clerkstage.app",
         "developer.app",
         "edgecompute.app",
         "fireweb.app",
@@ -1039,6 +1041,9 @@
         "dynns.com",
         "elasticbeanstalk.com",
         "elb.amazonaws.com",
+        "elluciancrmadvance.com",
+        "elluciancrmadvise.com",
+        "elluciancrmrecruit.com",
         "est-a-la-maison.com",
         "est-a-la-masion.com",
         "est-le-patron.com",
@@ -1546,6 +1551,7 @@
         "my-wan.de",
         "myhome-server.de",
         "myspreadshop.de",
+        "pages.it.hs-heilbronn.de",
         "schulserver.de",
         "spdns.de",
         "square7.de",
@@ -2057,6 +2063,7 @@
         "net.id",
         "or.id",
         "ponpes.id",
+        "rss.my.id",
         "sch.id",
         "wblog.id",
         "web.id"
@@ -2076,7 +2083,8 @@
         "muni.il",
         "net.il",
         "org.il",
-        "ravpage.co.il"
+        "ravpage.co.il",
+        "tabitorder.co.il"
     ],
     "im": [
         "ac.im",
@@ -2157,7 +2165,6 @@
         "cust.disrec.thingdust.io",
         "cust.prod.thingdust.io",
         "cust.testing.thingdust.io",
-        "customer.enonic.io",
         "dedyn.io",
         "definima.io",
         "devices.resinstaging.io",
@@ -2165,7 +2172,6 @@
         "dyn53.io",
         "dyndns.dappnode.io",
         "editorx.io",
-        "enonic.io",
         "fh-muenster.io",
         "g.vbrplsbx.io",
         "ghost.io",
@@ -4857,6 +4863,7 @@
         "tbits.me",
         "tcp4.me",
         "ukco.me",
+        "vp4.me",
         "wbq.me",
         "webhop.me",
         "wedeploy.me",
@@ -7108,6 +7115,7 @@
         "czeladz.pl",
         "czest.pl",
         "dlugoleka.pl",
+        "ecommerce-shop.pl",
         "edu.pl",
         "elblag.pl",
         "elk.pl",
@@ -7123,6 +7131,7 @@
         "grajewo.pl",
         "griw.gov.pl",
         "gsm.pl",
+        "homesklep.pl",
         "ic.gov.pl",
         "ilawa.pl",
         "info.pl",
@@ -7692,6 +7701,9 @@
         "org.so",
         "sch.so"
     ],
+    "solutions": [
+        "diher.solutions"
+    ],
     "space": [
         "myfast.space",
         "uber.space",
@@ -8094,6 +8106,7 @@
     "uk": [
         "ac.uk",
         "adimo.co.uk",
+        "affinitylottery.org.uk",
         "barsy.co.uk",
         "barsy.uk",
         "barsyonline.co.uk",
@@ -8122,9 +8135,11 @@
         "plc.uk",
         "police.uk",
         "pymnt.uk",
+        "raffleentry.org.uk",
         "sch.uk",
         "service.gov.uk",
         "vm.bytemark.co.uk",
+        "weeklylottery.org.uk",
         "wellbeingzone.co.uk"
     ],
     "us": [
@@ -8400,6 +8415,7 @@
     ],
     "ve": [
         "arts.ve",
+        "bib.ve",
         "co.ve",
         "com.ve",
         "e12.ve",
@@ -8411,7 +8427,9 @@
         "int.ve",
         "mil.ve",
         "net.ve",
+        "nom.ve",
         "org.ve",
+        "rar.ve",
         "rec.ve",
         "store.ve",
         "tec.ve",
