@@ -172,6 +172,7 @@ analytics.ext.go-tellm.com
 analytics.ff.avast.com
 analytics.getshogun.com
 analytics.global.sky.com
+analytics.hashnode.com
 analytics.htmedia.in
 analytics.kurocore.com
 analytics.mbga.jp
@@ -285,6 +286,7 @@ cmstrendslog.indiatimes.com
 cn-sc.scorecardresearch.com.edgekey.net
 cnameebis.usagi-online.com
 cnt.hd21.com
+cognito-identity.us-east-1.amazonaws.com
 collector.githubapp.com
 collector.unsplash.com
 collector.xhamster.com
@@ -512,6 +514,7 @@ emp.bbci.co.uk
 eqit9pzsxz.appspot.com
 eqs-redserver.appspot.com
 eteo9zpsaz.appspot.com
+evbeacon.godaddy.com
 event-reporting-dot-webylytics.appspot.com
 event.ridegoshare.com
 events.api.bosecm.com
@@ -581,6 +584,7 @@ geoapi.indiatimes.com
 geoapi123.appspot.com
 geobeacon.ign.com
 geoip.ativo.com
+geoip.finanzen.net
 geoip.redirect-ads.com
 geoip.ubuntu.com
 geotargetly-1a441.appspot.com
@@ -809,6 +813,7 @@ pool.etn.spacepools.org
 portalhabitacional.azurewebsites.net
 pos.baidu.com
 poum.nextinpact.com
+prairiedog.hashnode.com
 presentationtracking.netflix.com
 prexyone.appspot.com
 prj0011.appspot.com
@@ -920,6 +925,7 @@ sugar.zhihu.com
 supertracker.flashget.com
 survey.watson.microsoft.com
 t.kelkoogroup.net
+t.wizards.com
 tag.boulanger.fr
 tagcommander.laredoute.co.uk
 taktonet.pl
@@ -1050,6 +1056,7 @@ webiq-cdn-hr.appspot.com
 webiq-cdn.appspot.com
 webiq-warp-hrd.appspot.com
 webiq-warp.appspot.com
+webstats.empflix.com
 webstats.tnaflix.com
 whatismylocale.start.me
 whatsappcallinginvites.appspot.com
@@ -1091,6 +1098,7 @@ yirwo8sovznov21omas.appspot.com
 yiw9posasz.appspot.com
 ytudf432as.appspot.com
 zhanzhang.baidu.com
+zion-telemetry.api.cnn.io
 zmail221.appspot.com
 zminer.zaloapp.com
 zz.bdstatic.com
@@ -1395,6 +1403,7 @@ adtelligence.de
 adtr.io
 adtrackers.net
 adtraction.com
+adult-trade.nl
 adultadworld.com
 adultbaron.com
 adultblogtoplist.com
@@ -2032,6 +2041,7 @@ company-target.com
 completecabbage.com
 complextoad.com
 compteur.cc
+compteur.fr
 comscore.com
 comscore.eu
 comscore.net
@@ -2081,6 +2091,7 @@ conviva.com
 cookiebot.com
 cookieinformation.com
 cookielaw.org
+cookies.lmt.lv
 cookiescript.info
 cooladata.com
 coordinatedcoat.com
@@ -2541,6 +2552,7 @@ firebasedynamiclinks-ipv4.googleapis.com
 firebaselogging-pa.googleapis.com
 firebaselogging.googleapis.com
 firebasestorage.googleapis.com
+firstpromoter.com
 fishhoo.com
 fitanalytics.com
 flagcounter.com
@@ -2665,6 +2677,7 @@ g1thub.com
 ga87z2o.com
 gadasource.storage.googleapis.com
 gameanalytics.com
+gamesight.io
 gammachug.com
 gasolina.ml
 gatorleads.co.uk
@@ -2731,6 +2744,7 @@ go.bestmobiworld.com
 go.ign.com
 go2link.net
 go2pixel.org
+goadopt.io
 goadservices.com
 goatanalytics.com
 goatcounter.com
@@ -2788,6 +2802,7 @@ group-ib.ru
 growthrx.in
 grumrt.com
 gsecondscreen.com
+gsght.com
 gsimedia.net
 gsspat.jp
 gssprt.jp
@@ -2873,6 +2888,7 @@ hitwebcounter.com
 hivps.xyz
 hlserve.com
 hmstats.com
+hockeyapp.net
 hockeystack.com
 home.neustar
 homelycrown.com
@@ -2912,6 +2928,7 @@ hyfntrak.com
 hyperactivate.com
 hypestat.com
 i-stats.com
+i218435.net
 i3.dmm.com
 i401xox.com
 ianimes.org
@@ -2946,6 +2963,7 @@ imgvc.com
 immanalytics.com
 immensehoney.com
 impact.com
+impactcdn.com
 impactradius-event.com
 impactradius-go.com
 impactradius.com
@@ -2970,6 +2988,10 @@ infoprodata.com
 informz.net
 inimbus.com.au
 ininmacerad.pro
+inmobi.cninmobi.usinmobicdn.netinmobicdn.comkochava.com
+inmobi.com
+inmobi.info
+inmobi.net
 inmoment.com
 innocentinvention.com
 innocentwax.com
@@ -3465,6 +3487,7 @@ movoxi.net
 movoxy.com
 movoxy.net
 mowfruit.com
+mp3vizor.com
 mparticle.com
 mpianalytics.com
 mpire.com
@@ -3683,6 +3706,7 @@ onefeed.co.uk
 oneimpress.io
 onelink-translations.com
 onelink.me
+oneplus.cn
 onesignal.com
 onestat.com
 onetag-sys.com
@@ -3751,6 +3775,7 @@ panelsave.com
 papoto.com
 parcelcreature.com
 pardot.com
+parking.godaddy.com
 parklogic.com
 parrable.com
 parse.ly
@@ -4122,6 +4147,7 @@ roi-rocket.net
 roia.biz
 roiservice.com
 roispy.com
+roistat.com
 roitesting.com
 rollbar.com
 rollick.io
@@ -4345,6 +4371,7 @@ smart-digital-solutions.com
 smart-dmp.com
 smart-ip.net
 smart-traffik.com
+smartcj.com
 smartctr.com
 smarterhq.io
 smarterremarketer.net
@@ -4684,6 +4711,7 @@ terethat.ru
 termly.io
 terraclicks.com
 terrapsps.com
+teser.net
 testin.cn
 tetoolbox.com
 tgdaudience.com
@@ -4749,6 +4777,7 @@ torbit.com
 toro-tags.com
 touchclarity.com
 towerdata.com
+tpocdm.com
 tracc.it
 trace-2000.com
 trace.events
@@ -4887,6 +4916,7 @@ txmoadserver.net
 tynt.com
 typicalairplane.com
 typicalteeth.com
+tyrantdb.com
 tyxo.com
 tz284.com
 tzwaw.pw
@@ -5063,6 +5093,7 @@ weather.microsoft.com
 web-boosting.net
 web-counter.net
 web-stat.com
+web-stat.fr
 web-stat.net
 webassembly.stream
 webclicks24.com
@@ -5096,10 +5127,12 @@ websiteperform.com
 websitewelcome.com
 webspectator.com
 webstat.com
+webstat.fr
 webstat.net
 webstat.se
 webstats.com
 webstats4u.com
+webtrackingservices.com
 webtraffic.se
 webtrafficagents.com
 webtraffiq.com
@@ -5163,6 +5196,7 @@ wt-eu02.net
 wt-safetag.com
 wtmtrack.com
 wtp101.com
+wts2.one
 wtstats.com
 wty46.com
 wundercounter.com
@@ -5190,6 +5224,8 @@ xovq5nemr.com
 xox.to
 xref.io
 xtify.com
+xtr2020.com
+xtrackme.com
 xtrafficads.com
 xtraffstat.com
 xtremline.com
@@ -5232,6 +5268,7 @@ zanox.com
 zap.buzz
 zarget.com
 zbwp6ghm.com
+zdassets.com
 zdbb.net
 zdtag.com
 zedwhyex.com
