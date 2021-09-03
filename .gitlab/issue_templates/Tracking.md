@@ -9,10 +9,12 @@ domain   CNAME . ; Tracking
 ```
 
 ## Relevant logs and/or screenshots
+<!-- Be as clear as possible: nobody can read your mind, and nobody is looking at your issue over your shoulder. -->
 
 
 ## Screenshots
 <details><summary>Click to unfold</summary>
+
 
 
 </details>
@@ -33,8 +35,8 @@ domain   CNAME . ; Tracking
 - [X] Have you successfully ran tests with your changes locally?
 
 ### Todo
-- [ ] RPZ Server (Team @Spirillen)
-- [ ] Added to Source file
+- [X] RPZ Server (Team @Spirillen)
+- [X] Added to Source file
 
 /label ~Tracking
 

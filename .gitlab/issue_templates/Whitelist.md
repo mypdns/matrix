@@ -54,3 +54,12 @@ console output, logs, and code as it's very hard to read otherwise. -->
 ### Todo:
   - [ ] Added to Source file
   - [ ] RPZ Server  (Team @Spirillen)
+
+
+/label ~WhiteList
+
+/assign @spirillen
+
+/weight 6
+
+/publish

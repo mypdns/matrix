@@ -9,10 +9,12 @@ domain   CNAME . ; AdWare
 ```
 
 ## Relevant logs and/or screenshots
+<!-- Be as clear as possible: nobody can read your mind, and nobody is looking at your issue over your shoulder. -->
 
 
 ## Screenshots
 <details><summary>Click to unfold</summary>
+
 
 
 </details>
