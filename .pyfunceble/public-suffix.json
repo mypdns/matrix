@@ -1922,6 +1922,7 @@
         "hra.health"
     ],
     "hk": [
+        "arakawa.tokyo.jp",
         "blogspot.hk",
         "com.hk",
         "edu.hk",
@@ -2764,7 +2765,6 @@
         "aomori.jp",
         "arai.shizuoka.jp",
         "arakawa.saitama.jp",
-        "arakawa.tokyo.jp",
         "arao.kumamoto.jp",
         "ariake.saga.jp",
         "arida.wakayama.jp",
@@ -7430,6 +7430,7 @@
     ],
     "ro": [
         "arts.ro",
+        "barsy.ro",
         "blogspot.ro",
         "co.ro",
         "com.ro",
@@ -7512,7 +7513,8 @@
         "development.run",
         "hs.run",
         "ravendb.run",
-        "repl.run"
+        "repl.run",
+        "servers.run"
     ],
     "rw": [
         "ac.rw",
