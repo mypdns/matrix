@@ -1574,7 +1574,6 @@
     "dev": [
         "curv.dev",
         "deno-staging.dev",
-        "deno.dev",
         "fly.dev",
         "gateway.dev",
         "githubpreview.dev",
@@ -6330,7 +6329,6 @@
         "oyer.no",
         "oygarden.no",
         "oystre-slidre.no",
-        "polkowice.pl",
         "porsanger.no",
         "porsangu.no",
         "porsgrunn.no",
@@ -8214,6 +8212,7 @@
         "ct.us",
         "dc.us",
         "de.us",
+        "deno.dev",
         "dni.us",
         "drud.us",
         "dst.mi.us",
