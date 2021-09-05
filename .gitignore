@@ -4,6 +4,7 @@ source/dns-servers/combined.txt
 pdns.py
 scripts/bulk_add.sh
 commit.txt
+rpz.json
 
 # prevent outputs from PyFunceble
 output/
