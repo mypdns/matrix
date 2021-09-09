@@ -1,8 +1,8 @@
-root = true
-
 ; Check http://editorconfig.org/ for more informations
 
 ; Top-most EditorConfig file
+
+root = true
 
 [*]
 trim_trailing_whitespace = true
@@ -13,16 +13,12 @@ indent_style             = tab
 indent_size              = 4
 
 [*.py]
-end_of_line = LF
-insert_final_newline = true
-charset = utf-8
-indent_style             = tab
 indent_size = 4
 
-[*.{md,rst}]
+[*.md]
 trim_trailing_whitespace = false
 
-[*.{yaml,yml}]
+[*.{yaml,yml,rst}]
 indent_style             = space
 indent_size              = 2
 

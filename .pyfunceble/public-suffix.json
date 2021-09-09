@@ -748,6 +748,7 @@
         "fantasyleague.cc",
         "ftpaccess.cc",
         "game-server.cc",
+        "instances.spawn.cc",
         "myphotos.cc",
         "scrapping.cc",
         "twmail.cc"
@@ -1574,6 +1575,7 @@
     "dev": [
         "curv.dev",
         "deno-staging.dev",
+        "deno.dev",
         "fly.dev",
         "gateway.dev",
         "githubpreview.dev",
@@ -8212,7 +8214,6 @@
         "ct.us",
         "dc.us",
         "de.us",
-        "deno.dev",
         "dni.us",
         "drud.us",
         "dst.mi.us",
@@ -8243,7 +8244,6 @@
         "k12.dc.us",
         "k12.de.us",
         "k12.fl.us",
-        "k12.ga.us",
         "k12.gu.us",
         "k12.ia.us",
         "k12.id.us",
@@ -8485,6 +8485,7 @@
         "dyndns.ws",
         "edu.ws",
         "gov.ws",
+        "k12.ga.us",
         "mypets.ws",
         "net.ws",
         "org.ws"
