@@ -184,16 +184,20 @@
         "wnext.app"
     ],
     "ar": [
+        "bet.ar",
         "blogspot.com.ar",
         "com.ar",
+        "coop.ar",
         "edu.ar",
         "gob.ar",
         "gov.ar",
         "int.ar",
         "mil.ar",
         "musica.ar",
+        "mutual.ar",
         "net.ar",
         "org.ar",
+        "senasa.ar",
         "tur.ar"
     ],
     "arpa": [
@@ -8244,6 +8248,7 @@
         "k12.dc.us",
         "k12.de.us",
         "k12.fl.us",
+        "k12.ga.us",
         "k12.gu.us",
         "k12.ia.us",
         "k12.id.us",
@@ -8485,7 +8490,6 @@
         "dyndns.ws",
         "edu.ws",
         "gov.ws",
-        "k12.ga.us",
         "mypets.ws",
         "net.ws",
         "org.ws"
