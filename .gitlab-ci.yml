@@ -1,6 +1,6 @@
 # you can delete this line if you're not using Docker
-image: busybox:latest
-#image: ubuntu:20.04
+# image: busybox:latest
+image: ubuntu:20.04
 
 variables:
   GIT_DEPTH: 5
