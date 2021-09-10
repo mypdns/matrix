@@ -22,7 +22,7 @@ after_script:
   - echo -e "After script section...\n"
   # - git add .
   # - git commit -m "Auto committed from the CI runner `date '+%F %T %Z %z'` [skip ci]"
-  # - git status
+  - git status
   # - git push -u origin ${CI_COMMIT_REF_NAME}
 
 build:
@@ -33,8 +33,12 @@ build:
   script:
     - echo "Do your build here"
     # - git checkout -b "${CI_COMMIT_REF_NAME}"
-    - find "$CI_PROJECT_DIR/source/" -type f -name '*.list' -exec bash -c "sort -i -u -f '{}' -o '{}' " \;
-    - find "${CI_PROJECT_DIR}/source/" -type f -name '*.list' -exec awk -F "." '{for(i=NF; i > 1; i--) printf "%s.", $i; print $1}' "{}" | sort -u | awk -F "." '{for(i=NF; i > 1; i--) printf "%s.", $i; print $1}' \;
+    - find "$CI_PROJECT_DIR/source/" -type f -name '*.list' \
+        -exec bash -c "sort -i -u -f '{}' -o '{}' " \;
+    # - find "${CI_PROJECT_DIR}/source/" -type f -name '*.list' \
+    #     -exec awk -F "." '{for(i=NF; i > 1; i--) printf "%s.", $i; print $1}' \
+    #     "{}" | sort -u | awk -F "." '{for(i=NF; i > 1; i--) printf "%s.", \
+    #     $i; print $1}' \;
 
 test1:
   stage: test
