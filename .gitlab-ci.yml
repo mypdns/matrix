@@ -10,7 +10,8 @@ before_script:
   - echo "For example you might run an update here or install a build dependency"
   - echo "Or perhaps you might print out some debugging details"
   - export DEBIAN_FRONTEND=noninteractive
-  - apt-fast install -yq bash openssh-client ldnsutils sort
+  - apt-get install -yq bash openssh-client ldnsutils sort
+  - bash "$CI_PROJECT_DIR/scripts/dependencies.sh"
   # - git config --global user.email "4593890-MypDNS@users.noreply.gitlab.com"
   # - git config --global user.name "MypDNS"
   # - git remote set-url origin https://mypdns:$MypDNS_CI@gitlab.com/$CI_PROJECT_PATH.git
