@@ -9,9 +9,8 @@ before_script:
   - echo "Before script section"
   - echo "For example you might run an update here or install a build dependency"
   - echo "Or perhaps you might print out some debugging details"
-  - echo -e "(bash|git) --version"
-  - bash --version
-  - git --version
+  - export DEBIAN_FRONTEND=noninteractive
+  - apt-get install -yq bash git
   # - git config --global user.email "4593890-MypDNS@users.noreply.gitlab.com"
   # - git config --global user.name "MypDNS"
   # - git remote set-url origin https://mypdns:$MypDNS_CI@gitlab.com/$CI_PROJECT_PATH.git
@@ -34,7 +33,7 @@ build:
     - echo "Do your build here"
     # - git checkout -b "${CI_COMMIT_REF_NAME}"
     - find "$CI_PROJECT_DIR/source/" -type f -name '*.list' -exec bash -c "sort -i -u -f '{}' -o '{}' " \;
-    - find "${CI_PROJECT_DIR}/source/" -type f -name '*.list' -exec awk -F "." '{for(i=NF; i > 1; i--) printf "%s.", $i; print $1}' "{}" | sort -u | awk -F "." '{for(i=NF; i > 1; i--) printf "%s.", $i; print $1}' \;
+    - find "${CI_PROJECT_DIR}/source/" -type f -name '*.list' -exec awk -F "." '{for(i=NF; i > 1; i--) printf "%s.", $i; print $1}' "{}" | sort -u | awk -F "." '{for(i=NF; i > 1; i--) printf "%s.", $i; print $1}';
 
 test1:
   stage: test
