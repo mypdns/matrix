@@ -2,26 +2,37 @@
 image: busybox:latest
 #image: ubuntu:20.04
 
+variables:
+  GIT_DEPTH: 5
+
 before_script:
   - echo "Before script section"
   - echo "For example you might run an update here or install a build dependency"
   - echo "Or perhaps you might print out some debugging details"
+  # - git config --global user.email "4593890-MypDNS@users.noreply.gitlab.com"
+  # - git config --global user.name "MypDNS"
+  # - git remote set-url origin https://mypdns:$MypDNS_CI@gitlab.com/$CI_PROJECT_PATH.git
 
 after_script:
   - echo "After script section"
   - echo "For example you might do some clean up here"
+  - echo -e "After script section...\n"
+  - bash "$CI_PROJECT_DIR/scripts/dependencies.sh"
+  # - git add .
+  # - git commit -m "Auto committed from the CI runner `date '+%F %T %Z %z'` [skip ci]"
+  # - git status
+  # - git push -u origin ${CI_COMMIT_REF_NAME}
 
-build1:
+build:
   stage: build
+  only:
+    - master
+    - merge_requests
   script:
     - echo "Do your build here"
-    - >
-      find $CI_PROJECT_DIR/source/ -type f -name '*.list' -exec
-      bash -c "sort -i -u -f '{}' -o '{}' " \;
-    - >
-      find "${{ github.workspace }}/source/" -type f -name '*.list' -exec
-      awk -F "." '{for(i=NF; i > 1; i--) printf "%s.", $i; print $1}' "{}" |
-      sort -u | awk -F "." '{for(i=NF; i > 1; i--) printf "%s.", $i; print $1}'
+    - git checkout -b "${CI_COMMIT_REF_NAME}"
+    - find "$CI_PROJECT_DIR/source/" -type f -name '*.list' -exec bash -c "sort -i -u -f '{}' -o '{}' " \;
+    - find "${CI_PROJECT_DIR}/source/" -type f -name '*.list' -exec awk -F "." '{for(i=NF; i > 1; i--) printf "%s.", $i; print $1}' "{}" | sort -u | awk -F "." '{for(i=NF; i > 1; i--) printf "%s.", $i; print $1}'
 
 test1:
   stage: test
