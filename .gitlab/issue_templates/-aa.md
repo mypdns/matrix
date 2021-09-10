@@ -9,7 +9,7 @@ domain   CNAME . ; AdWare
 ```
 
 ## Relevant logs and/or screenshots
-A big thanks to @ryanbr in https://github.com/easylist/easylist/commit/60de2af21bb538e841ca73f0eb9b91bfb47a8885
+
 
 ## Screenshots
 
