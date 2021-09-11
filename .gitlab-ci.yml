@@ -25,7 +25,8 @@ after_script:
   - git add .
   - git commit -m "Auto committed from the CI runner `date '+%F %T %Z %z'`"
   - git status
-  - git push -u origin ${CI_COMMIT_REF_NAME} "HEAD:${CI_COMMIT_REF_NAME}" -o skip-ci
+  # - git push -u origin ${CI_COMMIT_REF_NAME} "HEAD:${CI_COMMIT_REF_NAME}" -o skip-ci
+  - git push "https://${GITLAB_USER_NAME}:${MYPDNS_CI_ACCESS_TOKEN}@${CI_REPOSITORY_URL#*@}" "HEAD:${CI_COMMIT_REF_NAME}" -o skip-ci
 
 build:
   stage: build
@@ -60,4 +61,4 @@ build:
     # - git add .
     # - git commit -m "Auto committed from the CI runner `date '+%F %T %Z %z'`"
     # - git status
-    # - git push "https://${GITLAB_USER_NAME}:${CI_ACCESS_TOKEN}@${CI_REPOSITORY_URL#*@}" "HEAD:${CI_COMMIT_REF_NAME}" -o skip-ci
+    # - git push "https://${GITLAB_USER_NAME}:${MYPDNS_CI_ACCESS_TOKEN}@${CI_REPOSITORY_URL#*@}" "HEAD:${CI_COMMIT_REF_NAME}" -o skip-ci
