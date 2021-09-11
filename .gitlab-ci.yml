@@ -11,13 +11,12 @@ before_script:
   - echo "Or perhaps you might print out some debugging details"
   - export DEBIAN_FRONTEND=noninteractive
   - apt-get update
-  - apt-get install -yq bash git
-  # - git config --global user.email "${GIT_USER_EMAIL:-$GITLAB_USER_EMAIL}"
-  # - git config --global user.name "${GIT_USER_NAME:-$GITLAB_USER_NAME}"
+  - apt-get install -yqqf bash git
+  - git config --global user.email "${GIT_USER_EMAIL:-$GITLAB_USER_EMAIL}"
+  - git config --global user.name "${GIT_USER_NAME:-$GITLAB_USER_NAME}"
   # - git config --global user.email "4593890-MypDNS@users.noreply.gitlab.com"
   # - git config --global user.name "MypDNS"
-  - git remote set-url origin https://mypdns:$MypDNS_CI@mypdns.org/$CI_PROJECT_PATH.git
-  - git remote set-url origin "https://${GIT_USER_NAME:-$GITLAB_USER_NAME}${GITLAB_TOKEN}:@mypdns.org/$CI_PROJECT_PATH.git"
+  - git remote set-url origin https://mypdns:$MYPDNS_CI_ACCESS_TOKEN@mypdns.org/$CI_PROJECT_PATH.git
 
 after_script:
   - echo "After script section"
@@ -58,7 +57,7 @@ deploy1:
   stage: deploy
   script:
     - echo "Do your deploy here"
-    - git remote show origin
-    - git remote set-url --push origin https://mypdns.org:$CI_PROJECT_PATH
-    - git remote show origin
-    - git push --follow-tags origin HEAD:$CI_COMMIT_REF_NAME -o skip-ci
+    - git add .
+    - git commit -m "Auto committed from the CI runner `date '+%F %T %Z %z'`"
+    - git status
+    - git push "https://${GITLAB_USER_NAME}:${CI_ACCESS_TOKEN}@${CI_REPOSITORY_URL#*@}" "HEAD:${CI_COMMIT_REF_NAME}" -o skip-ci
