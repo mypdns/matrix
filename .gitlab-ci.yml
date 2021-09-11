@@ -12,6 +12,8 @@ before_script:
   - export DEBIAN_FRONTEND=noninteractive
   - apt-get update
   - apt-get install -yq bash git
+  - git config --global user.email "${GIT_USER_EMAIL:-$GITLAB_USER_EMAIL}"
+  - git config --global user.name "${GIT_USER_NAME:-$GITLAB_USER_NAME}"
   # - git config --global user.email "4593890-MypDNS@users.noreply.gitlab.com"
   # - git config --global user.name "MypDNS"
   # - git remote set-url origin https://mypdns:$MypDNS_CI@gitlab.com/$CI_PROJECT_PATH.git
@@ -20,10 +22,24 @@ after_script:
   - echo "After script section"
   - echo "For example you might do some clean up here"
   - echo -e "After script section...\n"
-  # - git add .
+  - git add .
   # - git commit -m "Auto committed from the CI runner `date '+%F %T %Z %z'` [skip ci]"
   - git status
   # - git push -u origin ${CI_COMMIT_REF_NAME}
+  - |-
+    # Check if we have modifications to commit
+    CHANGES=$(git status --porcelain | wc -l)
+
+    if ["$CHANGES" -gt "0"]; then
+      # Show the status of files that are about to be created, updated or deleted
+      git status
+
+      # Commit all changes
+      git commit -m "Auto committed from the CI runner `date '+%F %T %Z %z'`
+
+      # Update the repository and make sure to skip the pipeline create for this commit
+      git push origin "${CI_DEFAULT_BRANCH}" -o ci.skip
+    fi
 
 build:
   stage: build
