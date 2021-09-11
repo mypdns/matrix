@@ -16,7 +16,8 @@ before_script:
   # - git config --global user.name "${GIT_USER_NAME:-$GITLAB_USER_NAME}"
   # - git config --global user.email "4593890-MypDNS@users.noreply.gitlab.com"
   # - git config --global user.name "MypDNS"
-  # - git remote set-url origin https://mypdns:$MypDNS_CI@gitlab.com/$CI_PROJECT_PATH.git
+  - git remote set-url origin https://mypdns:$MypDNS_CI@mypdns.org/$CI_PROJECT_PATH.git
+  - git remote set-url origin "https://${GIT_USER_NAME:-$GITLAB_USER_NAME}${GITLAB_TOKEN}:@mypdns.org/$CI_PROJECT_PATH.git"
 
 after_script:
   - echo "After script section"
@@ -58,6 +59,6 @@ deploy1:
   script:
     - echo "Do your deploy here"
     - git remote show origin
-    - git remote set-url --push origin git@mypdns.org:$CI_PROJECT_PATH
+    - git remote set-url --push origin https://mypdns.org:$CI_PROJECT_PATH
     - git remote show origin
     - git push --follow-tags origin HEAD:$CI_COMMIT_REF_NAME -o skip-ci
