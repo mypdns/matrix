@@ -26,6 +26,8 @@ and the comment, by which we can't add in other ways, as all the lists needs to
 be raw data; from which other scripts easily can work with, without first have 
 to run several cleanup processes.
 
+Please also read our [Writing Guide](https://mypdns.org/mypdns/support/-/wikis/contributing/Writing-Guide) before continuing with your issue contribution
+
 # GPG signed
 We require all submissions to be signed with a valid GPG key.
 
