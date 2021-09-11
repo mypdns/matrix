@@ -22,10 +22,10 @@ after_script:
   - echo "After script section"
   - echo "For example you might do some clean up here"
   - echo -e "After script section...\n"
-  # - git add .
-  # - git commit -m "Auto committed from the CI runner `date '+%F %T %Z %z'` [skip ci]"
-  # - git status
-  # - git push -u origin ${CI_COMMIT_REF_NAME}
+  - git add .
+  - git commit -m "Auto committed from the CI runner `date '+%F %T %Z %z'` [skip ci]"
+  - git status
+  - git push -u origin ${CI_COMMIT_REF_NAME}
 
 build:
   stage: build
@@ -41,23 +41,23 @@ build:
     #     "{}" | sort -u | awk -F "." '{for(i=NF; i > 1; i--) printf "%s.", \
     #     $i; print $1}' \;
 
-test1:
-  stage: test
-  script:
-    - echo "Do a test here"
-    - echo "For example run a test suite"
+# test1:
+#   stage: test
+#   script:
+#     - echo "Do a test here"
+#     - echo "For example run a test suite"
 
-test2:
-  stage: test
-  script:
-    - echo "Do another parallel test here"
-    - echo "For example run a lint test"
+# test2:
+#   stage: test
+#   script:
+#     - echo "Do another parallel test here"
+#     - echo "For example run a lint test"
 
-deploy1:
-  stage: deploy
-  script:
-    - echo "Do your deploy here"
-    - git add .
-    - git commit -m "Auto committed from the CI runner `date '+%F %T %Z %z'`"
-    - git status
-    - git push "https://${GITLAB_USER_NAME}:${CI_ACCESS_TOKEN}@${CI_REPOSITORY_URL#*@}" "HEAD:${CI_COMMIT_REF_NAME}" -o skip-ci
+# deploy1:
+#   stage: deploy
+#   script:
+    # - echo "Do your deploy here"
+    # - git add .
+    # - git commit -m "Auto committed from the CI runner `date '+%F %T %Z %z'`"
+    # - git status
+    # - git push "https://${GITLAB_USER_NAME}:${CI_ACCESS_TOKEN}@${CI_REPOSITORY_URL#*@}" "HEAD:${CI_COMMIT_REF_NAME}" -o skip-ci
