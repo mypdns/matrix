@@ -12,8 +12,8 @@ before_script:
   - export DEBIAN_FRONTEND=noninteractive
   - apt-get update
   - apt-get install -yq bash git
-  - git config --global user.email "${GIT_USER_EMAIL:-$GITLAB_USER_EMAIL}"
-  - git config --global user.name "${GIT_USER_NAME:-$GITLAB_USER_NAME}"
+  # - git config --global user.email "${GIT_USER_EMAIL:-$GITLAB_USER_EMAIL}"
+  # - git config --global user.name "${GIT_USER_NAME:-$GITLAB_USER_NAME}"
   # - git config --global user.email "4593890-MypDNS@users.noreply.gitlab.com"
   # - git config --global user.name "MypDNS"
   # - git remote set-url origin https://mypdns:$MypDNS_CI@gitlab.com/$CI_PROJECT_PATH.git
@@ -57,8 +57,7 @@ deploy1:
   stage: deploy
   script:
     - echo "Do your deploy here"
-    - 'standard-version --releaseCommitMessageFormat "chore(release): {{currentTag}}"'
     - git remote show origin
     - git remote set-url --push origin git@gitlab:$CI_PROJECT_PATH
     - git remote show origin
-    - git push --follow-tags origin HEAD:$CI_COMMIT_REF_NAME
+    - git push --follow-tags origin HEAD:$CI_COMMIT_REF_NAME -o skip-ci
