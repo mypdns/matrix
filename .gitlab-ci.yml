@@ -11,17 +11,19 @@ before_script:
   - echo "Or perhaps you might print out some debugging details"
   - export DEBIAN_FRONTEND=noninteractive
   - apt-get update
-  - apt-get install -yqqf bash git npm
+  - apt-get install -yqqf bash git pgp
+  - git config --global commit.gpgsign true
   - git config --global user.email "${GIT_USER_EMAIL:-$GITLAB_USER_EMAIL}"
   - git config --global user.name "${GIT_USER_NAME:-$GITLAB_USER_NAME}"
-  - git remote set-url origin https://mypdns:$MYPDNS_CI_ACCESS_TOKEN@mypdns.org/$CI_PROJECT_PATH.git
+  - git remote set-url origin https://${GIT_USER_NAME:-$GITLAB_USER_NAME}:${GIT_USER_NAME:-$GITLAB_USER_NAME}_CI_ACCESS_TOKEN@mypdns.org/$CI_PROJECT_PATH.git
+  - - gpg -v --import <(echo "${GIT_USER_NAME:-$GITLAB_USER_NAME}_$GPG_PRIVATE_KEY")
 
 after_script:
   - echo "After script section"
   - echo "For example you might do some clean up here"
   - echo -e "After script section...\n"
   - git add .
-  - git commit -m "Auto committed from the CI runner `date '+%F %T %Z %z'`"
+  - git commit -S -m "Source sorted by CI runner `date '+%F %T %Z %z'`"
   - git status
   - git push "https://${GITLAB_USER_NAME}:${MYPDNS_CI_ACCESS_TOKEN}@${CI_REPOSITORY_URL#*@}" "HEAD:${CI_COMMIT_REF_NAME}" -o skip-ci
 
@@ -38,13 +40,6 @@ build:
     #     -exec awk -F "." '{for(i=NF; i > 1; i--) printf "%s.", $i; print $1}' \
     #     "{}" | sort -u | awk -F "." '{for(i=NF; i > 1; i--) printf "%s.", \
     #     $i; print $1}' \;
-
-test1:
-  ## Bump the project version
-  stage: test
-  script:
-    - echo "Bumping project version"
-    - npm version --no-git-tag-version patch
 
 # test1:
 #   stage: test
