@@ -11,7 +11,7 @@ before_script:
   - echo "Or perhaps you might print out some debugging details"
   - export DEBIAN_FRONTEND=noninteractive
   - apt-get update
-  - apt-get install -yqqf bash git
+  - apt-get install -yqqf bash git npm
   - git config --global user.email "${GIT_USER_EMAIL:-$GITLAB_USER_EMAIL}"
   - git config --global user.name "${GIT_USER_NAME:-$GITLAB_USER_NAME}"
   - git remote set-url origin https://mypdns:$MYPDNS_CI_ACCESS_TOKEN@mypdns.org/$CI_PROJECT_PATH.git
