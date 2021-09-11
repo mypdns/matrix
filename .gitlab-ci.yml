@@ -39,9 +39,9 @@ build:
     #     "{}" | sort -u | awk -F "." '{for(i=NF; i > 1; i--) printf "%s.", \
     #     $i; print $1}' \;
 
-npm-bump:
+test1:
   ## Bump the project version
-  stage: "Bump Version"
+  stage: test
   script:
     - echo "Bumping project version"
     - npm version --no-git-tag-version patch
