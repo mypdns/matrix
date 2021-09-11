@@ -21,8 +21,8 @@ before_script:
   - git config --global user.email "pdns@pm.me"
   - git config --global user.name "mypdns"
   - git remote set-url origin https://$mypdns:$mypdns_CI_ACCESS_TOKEN@mypdns.org/$CI_PROJECT_PATH.git
-  - gpg -v --import <(echo "mypdns_GPG_PUB_KEY")
-  - gpg -v --import <(echo "mypdns_GPG_PRIVATE_KEY")
+  - gpg -v --import <(echo "$mypdns_GPG_PUB_KEY")
+  - gpg -v --import <(echo "$mypdns_GPG_PRIVATE_KEY")
 
 after_script:
   - echo "After script section"
