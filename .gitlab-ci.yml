@@ -16,7 +16,8 @@ before_script:
   - git config --global user.email "${GIT_USER_EMAIL:-$GITLAB_USER_EMAIL}"
   - git config --global user.name "${GIT_USER_NAME:-$GITLAB_USER_NAME}"
   - git remote set-url origin https://$GIT_USER_NAME:$GIT_USER_NAME_CI_ACCESS_TOKEN@mypdns.org/$CI_PROJECT_PATH.git
-  - gpg -v --import-options merge-only --import <(echo "$$GITLAB_USER_NAME_$GPG_PRIVATE_KEY")
+  - gpg -v --import <(echo "$$GITLAB_USER_NAME_$GPG_PUB_KEY")
+  - gpg -v --import <(echo "$$GITLAB_USER_NAME_$GPG_PRIVATE_KEY")
 
 after_script:
   - echo "After script section"
