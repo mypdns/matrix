@@ -9,18 +9,20 @@ before_script:
   - echo "Before script section"
   - echo "For example you might run an update here or install a build dependency"
   - echo "Or perhaps you might print out some debugging details"
-  - echo "'"$GIT_USER_NAME""_CI_ACCESS_TOKEN"'"
-  - echo "$GITLAB_USER_LOGIN"
-  - echo "$GITLAB_USER_NAME"
   - export DEBIAN_FRONTEND=noninteractive
   - apt-get update
   - apt-get install -yqqf bash git pgp
   - git config --global commit.gpgsign true
-  - git config --global user.email "$GITLAB_USER_EMAIL"
-  - git config --global user.name "$GIT_USER_NAME"
-  - git remote set-url origin https://$GIT_USER_NAME:$GIT_USER_NAME_CI_ACCESS_TOKEN@mypdns.org/$CI_PROJECT_PATH.git
-  - gpg -v --import <(echo "$$GITLAB_USER_LOGIN_$GPG_PUB_KEY")
-  - gpg -v --import <(echo "$$GITLAB_USER_LOGIN_$GPG_PRIVATE_KEY")
+  # - git config --global user.email "$GITLAB_USER_EMAIL"
+  # - git config --global user.name "$GIT_USER_NAME"
+  # - git remote set-url origin https://$GIT_USER_NAME:$GIT_USER_NAME_CI_ACCESS_TOKEN@mypdns.org/$CI_PROJECT_PATH.git
+  # - gpg -v --import <(echo "$GITLAB_USER_LOGIN_$GPG_PUB_KEY")
+  # - gpg -v --import <(echo "$GITLAB_USER_LOGIN_$GPG_PRIVATE_KEY")
+    - git config --global user.email "$pdns@pm.me"
+  - git config --global user.name "$mypdns"
+  - git remote set-url origin https://$mypdns:$mypdns_CI_ACCESS_TOKEN@mypdns.org/$CI_PROJECT_PATH.git
+  - gpg -v --import <(echo "$GITLAB_USER_LOGIN_$GPG_PUB_KEY")
+  - gpg -v --import <(echo "$GITLAB_USER_LOGIN_$GPG_PRIVATE_KEY")
 
 after_script:
   - echo "After script section"
