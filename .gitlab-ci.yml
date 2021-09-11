@@ -12,7 +12,6 @@ before_script:
   - export DEBIAN_FRONTEND=noninteractive
   - apt-get update
   - apt-get install -yqqf bash git pgp
-  - git config --global commit.gpgsign true
   # - git config --global user.email "$GITLAB_USER_EMAIL"
   # - git config --global user.name "$GIT_USER_NAME"
   - git config --global user.email "pdns@pm.me"
@@ -24,11 +23,9 @@ after_script:
   - echo "For example you might do some clean up here"
   - echo -e "After script section...\n"
   - git add .
-  - git commit -S -m "Source sorted by CI runner `date '+%F %T %Z %z'`"
+  - git commit -m "Source sorted by CI runner `date '+%F %T %Z %z'`"
   - git status
-  - git push "https://${GITLAB_USER_LOGIN}:${MYPDNS_CI_ACCESS_TOKEN}@${CI_REPOSITORY_URL#*@}" "HEAD:${CI_COMMIT_REF_NAME}" -o skip-ci
-  - gpg --list-keys
-  - gpg --list-secret-keys
+  - git push "https://mypdns:${MYPDNS_CI_ACCESS_TOKEN}@${CI_REPOSITORY_URL#*@}" "HEAD:${CI_COMMIT_REF_NAME}" -o skip-ci
 
 build:
   stage: build
