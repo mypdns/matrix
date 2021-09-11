@@ -58,6 +58,6 @@ deploy1:
   script:
     - echo "Do your deploy here"
     - git remote show origin
-    - git remote set-url --push origin git@gitlab:$CI_PROJECT_PATH
+    - git remote set-url --push origin git@mypdns.org:$CI_PROJECT_PATH
     - git remote show origin
     - git push --follow-tags origin HEAD:$CI_COMMIT_REF_NAME -o skip-ci
