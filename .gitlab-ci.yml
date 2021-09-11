@@ -14,8 +14,6 @@ before_script:
   - apt-get install -yqqf bash git
   - git config --global user.email "${GIT_USER_EMAIL:-$GITLAB_USER_EMAIL}"
   - git config --global user.name "${GIT_USER_NAME:-$GITLAB_USER_NAME}"
-  # - git config --global user.email "4593890-MypDNS@users.noreply.gitlab.com"
-  # - git config --global user.name "MypDNS"
   - git remote set-url origin https://mypdns:$MYPDNS_CI_ACCESS_TOKEN@mypdns.org/$CI_PROJECT_PATH.git
 
 after_script:
@@ -25,7 +23,6 @@ after_script:
   - git add .
   - git commit -m "Auto committed from the CI runner `date '+%F %T %Z %z'`"
   - git status
-  # - git push -u origin ${CI_COMMIT_REF_NAME} "HEAD:${CI_COMMIT_REF_NAME}" -o skip-ci
   - git push "https://${GITLAB_USER_NAME}:${MYPDNS_CI_ACCESS_TOKEN}@${CI_REPOSITORY_URL#*@}" "HEAD:${CI_COMMIT_REF_NAME}" -o skip-ci
 
 build:
@@ -41,6 +38,13 @@ build:
     #     -exec awk -F "." '{for(i=NF; i > 1; i--) printf "%s.", $i; print $1}' \
     #     "{}" | sort -u | awk -F "." '{for(i=NF; i > 1; i--) printf "%s.", \
     #     $i; print $1}' \;
+
+npm-bump:
+  ## Bump the project version
+  stage: "Bump Version"
+  script:
+    - echo "Bumping project version"
+    - npm version --no-git-tag-version patch
 
 # test1:
 #   stage: test
