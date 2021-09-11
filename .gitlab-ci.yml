@@ -35,7 +35,7 @@ after_script:
       git status
 
       # Commit all changes
-      git commit -m "Auto committed from the CI runner `date '+%F %T %Z %z'`
+      git commit -m "Auto committed from the CI runner `date '+%F %T %Z %z'` [skip ci]"
 
       # Update the repository and make sure to skip the pipeline create for this commit
       git push origin "${CI_DEFAULT_BRANCH}" -o ci.skip
