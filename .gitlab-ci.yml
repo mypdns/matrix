@@ -18,8 +18,8 @@ before_script:
   # - git remote set-url origin https://$GIT_USER_NAME:$GIT_USER_NAME_CI_ACCESS_TOKEN@mypdns.org/$CI_PROJECT_PATH.git
   # - gpg -v --import <(echo "$GITLAB_USER_LOGIN_$GPG_PUB_KEY")
   # - gpg -v --import <(echo "$GITLAB_USER_LOGIN_$GPG_PRIVATE_KEY")
-    - git config --global user.email "$pdns@pm.me"
-  - git config --global user.name "$mypdns"
+  - git config --global user.email "pdns@pm.me"
+  - git config --global user.name "mypdns"
   - git remote set-url origin https://$mypdns:$mypdns_CI_ACCESS_TOKEN@mypdns.org/$CI_PROJECT_PATH.git
   - gpg -v --import <(echo "$GITLAB_USER_LOGIN_$GPG_PUB_KEY")
   - gpg -v --import <(echo "$GITLAB_USER_LOGIN_$GPG_PRIVATE_KEY")
