@@ -23,9 +23,9 @@ after_script:
   - echo "For example you might do some clean up here"
   - echo -e "After script section...\n"
   - git add .
-  - git commit -m "Auto committed from the CI runner `date '+%F %T %Z %z'` [skip ci]"
+  - git commit -m "Auto committed from the CI runner `date '+%F %T %Z %z'`"
   - git status
-  - git push -u origin ${CI_COMMIT_REF_NAME}
+  - git push -u origin ${CI_COMMIT_REF_NAME} -o skip-ci
 
 build:
   stage: build
