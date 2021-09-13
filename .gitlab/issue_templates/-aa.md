@@ -69,3 +69,5 @@ Please find more details in either https://mypdns.org/my-privacy-dns/matrix/-/is
 /weight 2
 
 /publish
+
+<!-- template link https://mypdns.org/my-privacy-dns/matrix/-/issues/new?issuable_template=-aa -->
