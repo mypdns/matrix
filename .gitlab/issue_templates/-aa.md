@@ -62,7 +62,7 @@ Please find more details in either https://mypdns.org/my-privacy-dns/matrix/-/is
 - [X] RPZ Server (Team @Spirillen)
 - [X] Added to Source file
 
-/label ~AdWare
+/label ~Tracking
 
 /assign @Spirillen
 
