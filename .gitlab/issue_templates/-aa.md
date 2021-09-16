@@ -22,6 +22,8 @@ About: Leading international trade associations and companies involved in online
 
 Let me help you out here @mattyEyes. No ads is netter ads. Ads that doesn't requires our first born and would respect the human right of freedom and privacy.
 
+It would also help the world if you stopped spreading all the lies from your costumers about how unnecessary there crappy products are
+
 ## Screenshots
 
 
