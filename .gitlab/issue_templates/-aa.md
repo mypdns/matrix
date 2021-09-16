@@ -9,7 +9,18 @@ domain   CNAME . ; AdWare
 ```
 
 ## Relevant logs and/or screenshots
-This domain have been reported for ~AdWare by @ryanbr in https://github.com/easylist/easylist/pull/7835
+Sometimes you are entitled to feeling like a lucky punk. (Dirty Harry)
+
+Found at https://github.com/easylist/easylist/issues/9135
+
+>>>
+CJ is a participant in the Coalition for Better Ads. We do not track and store user specific data.
+
+Coalition for Better Ads
+About: Leading international trade associations and companies involved in online media formed the Coalition for Better Ads to improve consumers’ experience with online advertising. The Coalition for Better Ads has leveraged consumer insights and cross-industry expertise to develop and implement new global standards, the Better Ad Standards, for online advertising that address consumer expectations.
+>>>
+
+Let me help you out here @mattyEyes. No ads is netter ads. Ads that doesn't requires our first born and would respect the human right of freedom and privacy.
 
 ## Screenshots
 
