@@ -9,8 +9,7 @@ domain   CNAME . ; AdWare
 ```
 
 ## Relevant logs and/or screenshots
-This domain have been reported for ~AdWare by @ryanbr in https://github.com/easylist/easylist/commit/f0e75e49abe261d835f76f15154183268496d712
-
+This domain have been reported for ~AdWare by @ryanbr in https://github.com/easylist/easylist/pull/7835
 
 ## Screenshots
 
