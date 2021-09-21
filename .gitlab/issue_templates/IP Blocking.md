@@ -5,7 +5,7 @@ This IP address or IP range (CIDR) that have to be blocked as..
 - [ ] rpz-ip
 
 (NOTE) You can find a guide for right selection at
-[RPZ records](https://mypdns.org/mypdns/support/-/wikis/rpz)
+[RPZ records](https://mypdns.org/mypdns/support/-/wikis/RPZ-record-types)
 
 ```
 16.0.1.168.192.rpz-client-ip   CNAME rpz-drop. ; reason
