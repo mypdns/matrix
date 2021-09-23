@@ -12,6 +12,7 @@ before_script:
   - export DEBIAN_FRONTEND=noninteractive
   - apt-get update
   - apt-get install -yqqf bash git pgp python3.9
+  - which python python3 python3.8 python3.9
   # - git config --global user.email "$GITLAB_USER_EMAIL"
   # - git config --global user.name "$GIT_USER_NAME"
   - git config --global user.email "pdns@pm.me"
