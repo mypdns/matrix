@@ -11,7 +11,7 @@ before_script:
   - echo "Or perhaps you might print out some debugging details"
   - export DEBIAN_FRONTEND=noninteractive
   - apt-get update
-  - apt-get install -yqqf bash git pgp python3.9 pip3
+  - apt-get install -yqqf bash git pgp python3-pip
   # - git config --global user.email "$GITLAB_USER_EMAIL"
   # - git config --global user.name "$GIT_USER_NAME"
   - git config --global user.email "pdns@pm.me"
