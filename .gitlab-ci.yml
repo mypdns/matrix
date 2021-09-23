@@ -11,7 +11,7 @@ before_script:
   - echo "Or perhaps you might print out some debugging details"
   - export DEBIAN_FRONTEND=noninteractive
   - apt-get update
-  - apt-get install -yqqf bash git pgp python3.9
+  - apt-get install -yqqf bash git pgp python3.9 pip3
   # - git config --global user.email "$GITLAB_USER_EMAIL"
   # - git config --global user.name "$GIT_USER_NAME"
   - git config --global user.email "pdns@pm.me"
@@ -34,7 +34,7 @@ build:
     - merge_requests
   script:
     - echo "Do your build here"
-    - python -m pip install mypdns -yq
+    - pip3 install mypdns -yq
     # - git checkout -b "${CI_COMMIT_REF_NAME}"
     - find "$CI_PROJECT_DIR/source/" -type f -name '*.list' -exec bash -c "sort -i -u -f '{}' -o '{}' " \;
     # - find "${CI_PROJECT_DIR}/source/" -type f -name '*.list' \
