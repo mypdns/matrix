@@ -34,7 +34,7 @@ build:
     - merge_requests
   script:
     - echo "Do your build here"
-    - pip3 install mypdns -yq
+    - pip3 install -q mypdns
     # - git checkout -b "${CI_COMMIT_REF_NAME}"
     - find "$CI_PROJECT_DIR/source/" -type f -name '*.list' -exec bash -c "sort -i -u -f '{}' -o '{}' " \;
     # - find "${CI_PROJECT_DIR}/source/" -type f -name '*.list' \
