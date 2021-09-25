@@ -20,6 +20,6 @@
 /**/wildcard.list text eol=lf working-tree-encoding=UTF-8
 
 # Ensure the non-standard windows understand files ending....
-# PS: Before you comments on this comment... *nix is bar far the most used OS
+# PS: Before you comments on this comment... *nix is by far the most used OS
 # EVER!!!
 **_windows_** text eol=crlf working-tree-encoding=ISO-8859-1
