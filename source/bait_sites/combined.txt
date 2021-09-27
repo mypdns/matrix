@@ -66,7 +66,6 @@ blogspot.pe
 blogspot.pt
 blogspot.qa
 blogspot.re
-blogspot.ro
 blogspot.rs
 blogspot.ru
 blogspot.se
