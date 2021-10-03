@@ -1,11 +1,10 @@
 I believe this domain is an [AdWare](https://mypdns.org/MypDNS/support/-/wikis/Adware) domain(s) --> that have to be blocked as..
 
-- [X] Wildcarded
-- [ ] Single domain blocking
+- [ ] Wildcarded
+- [x] Single domain blocking
 
 ```python
-domain   CNAME . ; Tracking
-*.domain   CNAME . ; Tracking
+stats.domain   CNAME . ; Tracking
 ```
 
 ## Relevant logs and/or screenshots
