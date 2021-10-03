@@ -4,25 +4,12 @@ I believe this domain is an [AdWare](https://mypdns.org/MypDNS/support/-/wikis/A
 - [ ] Single domain blocking
 
 ```python
-domain   CNAME . ; AdWare
-*.domain   CNAME . ; AdWare
+domain   CNAME . ; Tracking
+*.domain   CNAME . ; Tracking
 ```
 
 ## Relevant logs and/or screenshots
-Sometimes you are entitled to feeling like a lucky punk. (Dirty Harry)
-
-Found at https://github.com/easylist/easylist/issues/9135
-
->>>
-CJ is a participant in the Coalition for Better Ads. We do not track and store user specific data.
-
-Coalition for Better Ads
-About: Leading international trade associations and companies involved in online media formed the Coalition for Better Ads to improve consumers’ experience with online advertising. The Coalition for Better Ads has leveraged consumer insights and cross-industry expertise to develop and implement new global standards, the Better Ad Standards, for online advertising that address consumer expectations.
->>>
-
-Let me help you out here @mattyEyes. No ads is netter ads. Ads that doesn't requires our first born and would respect the human right of freedom and privacy.
-
-It would also help the world if you stopped spreading all the lies from your costumers about how unnecessary there crappy products are
+- https://github.com/easylist/easylist/pull/9301 by @smed79
 
 ## Screenshots
 
@@ -47,8 +34,6 @@ It would also help the world if you stopped spreading all the lies from your cos
 - [X] Added to Source file
 
 /label ~Tracking
-
-/assign @Spirillen
 
 /weight 2
 
