@@ -9,7 +9,32 @@ If you feel like contributing there are a couple of ways to do this
 1. You can through **Damned** good arguments try to get a domain into the 
     whitelisted
 
-# Workflow
+### Adding a new domain
+The workflow is a bit clumsy, but the most reliable and fail-safe.
+   1. You add an issue with you question, feature request or contribution
+      via [this form](https://mypdns.org/my-privacy-dns/porn-records/-/issues/new?issue[issue_type]=issue&issuable_template=Adult%20contents)
+      (This is the history of _why_ to blacklist a record)
+
+      ALL fields MOST be filled out, the questions is there for a
+      good reason...
+
+   2. Add your new domain record(s) to suitable file(s) in the `submit_here/`
+      folder.
+      A issue is required to be able to historically trace why you
+      have committed the records and for other to verify your commit
+      without having to visit a pornographic site, for which they actualle
+      try to avoid by using this list.
+
+   3. If you added any content to any of the files in `submit_here/`l
+      You open a PR (Merge Request) where you'll add your contribution
+      (This is the _when_ we did the blacklisting)
+
+   4. You add the new domain record entry in the top or bottom of the list,
+      then it is easier to find.
+      The CI/CD code will make it appear in alphanumeric order
+
+   5. Follow the [New commit](#new-commit) guide
+
 
 The workflow is a bit clumsy, but the most reliable and simple.
 1. You add an [issue](issues/new), and describing your submission.
