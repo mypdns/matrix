@@ -4,11 +4,12 @@ I believe this domain is an [AdWare](https://mypdns.org/MypDNS/support/-/wikis/A
 - [x] Single domain blocking
 
 ```python
-stats.domain   CNAME . ; Tracking
+domain   CNAME . ; AdWare
+*.domain	CNAME . ; AdWare
 ```
 
 ## Relevant logs and/or screenshots
-- https://github.com/easylist/easylist/pull/9301 by @smed79
+- https://github.com/anudeepND/blacklist/issues/177
 
 ## Screenshots
 
@@ -32,7 +33,7 @@ stats.domain   CNAME . ; Tracking
 - [X] RPZ Server (Team @Spirillen)
 - [X] Added to Source file
 
-/label ~Tracking
+/label ~Adware
 
 /weight 2
 
