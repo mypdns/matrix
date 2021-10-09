@@ -49,9 +49,15 @@ It's you and only you who has submitted bad code and mis-written your
 website to behave badly. Be happy we haven't blocked your website
 already for leaking privacy to third party.
 
-**Q**: My website relies on googleapis.* could you whitelist it?
+**Q**: Why don't you whitelist example.com?
 
-**A**: Read the first question...
+**A**:
+
+1) It's up to individual users (i.e you) to create and maintain their own whitelist.
+
+2) By whitelisting bad domain X because website Y uses bad domain X, we're deceiving our users who believe they're protected against bad domain X.
+
+3) Through this repository's issue board, we're trying our best to give people the right information for them to decide whether or not they should allow access to some domains, despite them being marked as bad."
 # Keywords
 A few keywords for this project is Enhanced Privacy, DNS Firewall,
 Privacy First
