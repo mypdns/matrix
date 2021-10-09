@@ -4,15 +4,20 @@ I believe this domain is an [AdWare](https://mypdns.org/MypDNS/support/-/wikis/A
 - [x] Single domain blocking
 
 ```python
-domain   CNAME . ; AdWare
-*.domain	CNAME . ; AdWare
+domain   CNAME . ; Phishing
+*.domain   CNAME . ; Phishing
 ```
 
 ## Relevant logs and/or screenshots
-- https://github.com/anudeepND/blacklist/issues/177
+- https://github.com/mitchellkrogza/phishing/pull/78
+
 
 ## Screenshots
+<details><summary>Click to unfold</summary>
 
+![Screenshot of phishing domain copyright-communit-rules.xyz](https://user-images.githubusercontent.com/91695795/136650486-e47a3461-90d4-4c4f-a4bb-4800e27849b5.png)
+
+</details>
 
 ### All Submissions:
 - [X] Have you followed the guidelines in our [Contributing](CONTRIBUTING.md)
@@ -20,7 +25,7 @@ domain   CNAME . ; AdWare
 - [x] Have you checked to ensure there aren't other open
       [Merge Requests (MR)](../merge_requests) or [Issues](../issues) for the
       same update/change?
-- [ ] Added [screenshot](https://mypdns.org/MypDNS/support/-/wikis/Screenshot)
+- [X] Added [screenshot](https://mypdns.org/MypDNS/support/-/wikis/Screenshot)
 	  for prove of [False Negative](https://mypdns.org/MypDNS/support/-/wikis/False-Negative)
 - [X] Have you added an explanation of what your submission do and why you'd
 	  like us to include them??
@@ -33,9 +38,9 @@ domain   CNAME . ; AdWare
 - [X] RPZ Server (Team @Spirillen)
 - [X] Added to Source file
 
-/label ~Adware
+/label ~Phishing
 
-/weight 2
+/weight 10
 
 /publish
 
