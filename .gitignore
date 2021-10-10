@@ -28,3 +28,4 @@ danilo82.sh
 no-git/**
 scripts/easylistloop.sh
 LICENSE.agpl2
+scripts/bulk_clean.sh
