@@ -2,7 +2,7 @@
 
 # This script is intended to list all active lists from the data/
 # directory for easier imports from external sources....
-# Happy havesting :)
+# Happy harvesting :)
 
 truncate -s 0 "$CI_PROJECT_DIR/source.list"
 
