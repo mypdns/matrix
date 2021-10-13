@@ -20,10 +20,15 @@ I believe this DNS Server needs to be blocked as...
 </details>
 
 ### All Submissions:
-- [ ] Have you followed the guidelines in our [Contributing](CONTRIBUTING.md) document?
-- [ ] Have you checked to ensure there aren't other open [Merge Requests (MR)](../merge_requests) or [Issues](../issues) for the same update/change?
-- [ ] Added screenshot for prove of False Negative
-- [ ] Have you added an explanation of what your submission do and why you'd like us to include them??
+- [ ] Have you followed the guidelines in our [Contributing](CONTRIBUTING.md)
+	  document?
+- [ ] Have you checked to ensure there aren't other open
+      [Merge Requests (MR)](../merge_requests) or [Issues](../issues) for the
+      same update/change?
+- [ ] Added [screenshot](https://mypdns.org/MypDNS/support/-/wikis/Screenshot)
+	  for prove of [False Negative](https://mypdns.org/MypDNS/support/-/wikis/False-Negative)
+- [ ] Have you added an explanation of what your submission do and why you'd
+	  like us to include them??
 
 ### Testing face
 - [ ] Checked the internet for verification?
@@ -49,7 +54,7 @@ I believe this DNS Server needs to be blocked as...
 
 /label ~"DNS Server"
 
-/assign @all
+/assign @spirillen
 
 /weight 2
 
