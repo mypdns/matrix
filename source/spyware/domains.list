@@ -1,5 +1,3 @@
-phonedeviceverification-pa.googleapis.com
-deviceintegritytokens-pa.googleapis.com
 accountsx.bounceme.net
 analytics-stage.ff.avast.com
 analytics.alternativet.dk
@@ -10,6 +8,7 @@ byfleur.myftp.org
 chrome.google.com
 daisy.ubuntu.com
 data.beop.io
+deviceintegritytokens-pa.googleapis.com
 events.api.bosecm.com
 fota4.adups.cn
 fota5.adups.cn
@@ -31,6 +30,7 @@ maps.googleapis.com
 maps.gstatic.com
 mobile-campaigns.avast.com
 monitor.firefox.com
+phonedeviceverification-pa.googleapis.com
 sedo.cachefly.net
 stats.avast.com
 thestar.serveblog.net
