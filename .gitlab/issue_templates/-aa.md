@@ -33,8 +33,6 @@ domain   CNAME . ; Tracking
 
 /label ~Tracking
 
-/assign @Spirillen
-
 /weight 8
 
 /publish
