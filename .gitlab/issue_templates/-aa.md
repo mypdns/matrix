@@ -8,7 +8,7 @@ domain   CNAME . ; Tracking
 ```
 
 ## Relevant logs and/or screenshots
-- `https://github.com/easylist/easylist/pull/9579`
+- `https://github.com/AdguardTeam/cname-trackers/blob/master/trackers/tracedock.txt`
 
 ## Screenshots
 
