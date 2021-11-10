@@ -1,9 +1,9 @@
 #!/usr/bin/env bash
 
 # Copyright: https://mypdns.org/
-# Content: https://mypdns.org/p/Spirillen/
-# Source: https://github.com/Import-External-Sources/pornhosts
-# License: https://mypdns.org/w/License
+# Content: @spirillen https://mypdns.org/spirillen
+# Source: https://mypdns.org/groups/import-external-sources/pornhosts
+# License: https://mypdns.org/mypdns/support/-/wikis/License
 # License Comment: GNU AGPLv3, MODIFIED FOR NON COMMERCIAL USE
 #
 # License in short:
@@ -11,7 +11,7 @@
 # as long the original URL and attribution is included.
 #
 # Please forward any additions, corrections or comments by logging an
-# issue at https://mypdns.org/maniphest/
+# issue at https://mypdns.org/mypdns/support/-/issues
 
 set -e #-x
 
