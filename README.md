@@ -30,9 +30,9 @@ but not on others. It can also be that a domain in general is 99,9%
 right, but because of it's nature of user based submissions, could do a
 lot of evil.
 
-##### Ex. Gitlab.com
+##### Ex. Github.com
 
-Gitlab is hosting 100% user submitted content, but for the same reason, is also a 
+Gitlab is hosting 100% user submitted content, but for the same reason, is also a
 target for cyber criminals to host their evil
 [Malware](https://en.wikipedia.org/wiki/Malware). For that reason, Gitlab often
 pops up on lists for malicious code. But as that

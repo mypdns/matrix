@@ -1,5 +1,5 @@
 --[[
-This is the regex based rewrites from moderate or unsafe searches into safe 
+This is the regex based rewrites from moderate or unsafe searches into safe
 search for known domains. Listed from most privacy enhanged to least privacy
 
 You can activate this file in your dnsdist.conf by:
@@ -14,10 +14,10 @@ Have fun.
 addAction('duckduckgo.com.', SpoofCNAMEAction('safe.duckduckgo.com.'))
 
 -- Yandex
--- See https://gitlab.com/my-privacy-dns/matrix/matrix/issues/582
+-- See https://mypdns.org/my-privacy-dns/matrix/-/issues/582
 
 -- Yahoo
--- See https://gitlab.com/my-privacy-dns/matrix/matrix/issues/582
+-- See https://mypdns.org/my-privacy-dns/matrix/-/issues/582
 
 -- Bing
 addAction(RegexRule("(^|\\.)bing[.][a-z]{2,5}([.][a-z]{2})?$"), SpoofCNAMEAction('strict.bing.com.'))

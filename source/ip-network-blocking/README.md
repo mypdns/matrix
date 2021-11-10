@@ -1,5 +1,3 @@
-![Build Status](https://gitlab.com/pages/plain-html/badges/master/build.svg)
-
 ---
 
 Query database: [radb.net](https://www.radb.net/query)
@@ -35,5 +33,3 @@ Query database: [radb.net](https://www.radb.net/query)
 - [Troubleshooting](#troubleshooting)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
-
-

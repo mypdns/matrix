@@ -15,7 +15,7 @@
 *.yml text eol=lf working-tree-encoding=UTF-8
 *.yaml text eol=lf working-tree-encoding=UTF-8
 
-# Should ensure submitted domain.list are encode with LF (\n) on gitlab
+# Should ensure submitted domain.list are encode with LF (\n) in a git
 /**/domain.list text eol=lf working-tree-encoding=UTF-8
 /**/wildcard.list text eol=lf working-tree-encoding=UTF-8
 

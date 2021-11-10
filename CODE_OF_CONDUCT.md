@@ -55,9 +55,9 @@ a project may be further defined and clarified by project maintainers.
 ## Enforcement
 
 Instances of abusive, harassing, or otherwise unacceptable behavior may be
-reported by contacting the project team at this 
-[EMAIL ADDRESS](incoming+my-privacy-dns-support-12528762-issue-@incoming.gitlab.com) alternatively
-You can open a issue [here](https://gitlab.com/my-privacy-dns/support/issues/new). 
+reported by contacting the project team at this
+[EMAIL ADDRESS](incoming+mypdns-support-21-issue-@noreply.mypdns.org) alternatively
+You can open a issue [here](https://mypdns.org/MypDNS/support/issues/new).
 All complaints will be reviewed and investigated and will result in a response that
 is deemed necessary and appropriate to the circumstances. The project team is
 obligated to maintain confidentiality with regard to the reporter of an incident.

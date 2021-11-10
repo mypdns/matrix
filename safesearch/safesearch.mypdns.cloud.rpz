@@ -201,8 +201,8 @@ google.co.vi.safesearch.mypdns.cloud.	86400	IN	CNAME	forcesafesearch.google.com.
 google.com.vn.safesearch.mypdns.cloud.	86400	IN	CNAME	forcesafesearch.google.com.
 google.vu.safesearch.mypdns.cloud.	86400	IN	CNAME	forcesafesearch.google.com.
 google.ws.safesearch.mypdns.cloud.	86400	IN	CNAME	forcesafesearch.google.com.
-yahoo.safesearch.mypdns.cloud.	86400	IN	TXT	"Please see //gitlab.com/my-privacy-dns/matrix/matrix/issues/582"
-yandex.safesearch.mypdns.cloud.	86400	IN	TXT	"Please see //gitlab.com/my-privacy-dns/matrix/matrix/issues/582"
+yahoo.safesearch.mypdns.cloud.	86400	IN	TXT	"Please see //mypdns.org/my-privacy-dns/matrix/-/issues/582"
+yandex.safesearch.mypdns.cloud.	86400	IN	TXT	"Please see //mypdns.org/my-privacy-dns/matrix/-/issues/582"
 google.co.za.safesearch.mypdns.cloud.	86400	IN	CNAME	forcesafesearch.google.com.
 google.co.zm.safesearch.mypdns.cloud.	86400	IN	CNAME	forcesafesearch.google.com.
 google.co.zw.safesearch.mypdns.cloud.	86400	IN	CNAME	forcesafesearch.google.com.

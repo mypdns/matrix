@@ -1,9 +1,9 @@
 #!/usr/bin/env bash
 
-# Copyright: https://www.mypdns.org/
-# Content: https://www.mypdns.org/p/Spirillen/
+# Copyright: https://mypdns.org/
+# Content: https://mypdns.org/p/Spirillen/
 # Source: https://github.com/Import-External-Sources/pornhosts
-# License: https://www.mypdns.org/w/License
+# License: https://mypdns.org/w/License
 # License Comment: GNU AGPLv3, MODIFIED FOR NON COMMERCIAL USE
 #
 # License in short:
@@ -11,7 +11,7 @@
 # as long the original URL and attribution is included.
 #
 # Please forward any additions, corrections or comments by logging an
-# issue at https://www.mypdns.org/maniphest/
+# issue at https://mypdns.org/maniphest/
 
 set -e #-x
 
@@ -148,36 +148,36 @@ git commit -am "Adding new porno domain \`${domain}\`
 Related issue: https://github.com/spirillen/pornhosts/issues/${issue}
 
 You can read more about this particular Porn blocking project at
-https://www.mypdns.org/project/view/10/
+https://mypdns.org/project/view/10/
 
 If you would like to learn more about how to use the RPZ powered DNS
 Firewall with our zone files, you can read more about it here
-https://www.mypdns.org/w/rpz
+https://mypdns.org/w/rpz
 
 You can read about about our different zones here
-https://www.mypdns.org/w/rpzList"
+https://mypdns.org/w/rpzList"
 else
 git commit -am "Adding new porno domain \`${domain}\`
 
-Closes T${mypdns_id}	https://www.mypdns.org/T${mypdns_id}
+Closes T${mypdns_id}	https://mypdns.org/T${mypdns_id}
 
 Related issue: https://github.com/spirillen/pornhosts/issues/${issue}
 
 You can read more about this particular Porn blocking project at
-https://www.mypdns.org/project/view/10/
+https://mypdns.org/project/view/10/
 
 If you would like to learn more about how to use the RPZ powered DNS
 Firewall with our zone files, you can read more about it here
-https://www.mypdns.org/w/rpz
+https://mypdns.org/w/rpz
 
 You can read about about our different zones here
-https://www.mypdns.org/w/rpzList"
+https://mypdns.org/w/rpzList"
 fi
 
 git_commit_mypdns
 
 # Following code will only succeed if you have admin access to our DNS
-# Servers at https://www.mypdns.org/
+# Servers at https://mypdns.org/
 # Everybody else needs to out comment the following lines
 printf "\nAdding %s to our RPZ\n" "$domain"
 pdnsutil add-record "adult.mypdns.cloud" "${domain}" CNAME 86400 .
@@ -219,14 +219,14 @@ git commit -am "Adding new porno domain \`${domain}\`
 Closes https://github.com/Import-External-Sources/pornhosts/issues/${issue}
 
 You can read more about this particular Porn blocking project at
-https://www.mypdns.org/project/view/10/
+https://mypdns.org/project/view/10/
 
 If you would like to learn more about how to use the RPZ powered DNS
 Firewall with our zone files, you can read more about it here
-https://www.mypdns.org/w/rpz
+https://mypdns.org/w/rpz
 
 You can read about about our different zones here
-https://www.mypdns.org/w/rpzList"
+https://mypdns.org/w/rpzList"
 
 else
 
@@ -234,17 +234,17 @@ git commit -am "Adding new porno domain \`${domain}\`
 
 Closes https://github.com/Import-External-Sources/pornhosts/issues/${issue}
 
-Related issue: https://www.mypdns.org/T${mypdns_id}
+Related issue: https://mypdns.org/T${mypdns_id}
 
 You can read more about this particular Porn blocking project at
-https://www.mypdns.org/project/view/10/
+https://mypdns.org/project/view/10/
 
 If you would like to learn more about how to use the RPZ powered DNS
 Firewall with our zone files, you can read more about it here
-https://www.mypdns.org/w/rpz
+https://mypdns.org/w/rpz
 
 You can read about about our different zones here
-https://www.mypdns.org/w/rpzList"
+https://mypdns.org/w/rpzList"
 fi
 
 git_commit
