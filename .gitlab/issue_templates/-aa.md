@@ -9,18 +9,10 @@ domain   CNAME . ; AdWare
 ```
 
 ## Relevant logs and/or screenshots
-- `https://github.com/easylist/easylist/pull/9682`
+- `https://github.com/easylist/easylist/commit/e346c04ed579d9ed1d5a74c38e16afdf34df794b`
 
 ## Screenshots
-<details><summary>Click to unfold</summary>
 
-![Screenshot](https://user-images.githubusercontent.com/65717387/141348959-a530ccb4-9aef-47bf-bdcf-e0036252fc3c.png)
-
-![Screenshot](https://user-images.githubusercontent.com/65717387/141349460-ca039c09-1138-478f-8bc4-402c6ee0f496.png)
-
-![Screenshot](https://user-images.githubusercontent.com/65717387/141349483-8a799116-98ae-4420-8d78-d3a42da29eb8.png)
-
-</details>
 
 ### All Submissions:
 - [X] Have you followed the guidelines in our [Contributing](CONTRIBUTING.md)
