@@ -14,7 +14,11 @@ domain   CNAME . ; AdWare
 ## Screenshots
 <details><summary>Click to unfold</summary>
 
-![Screenshot](https://user-images.githubusercontent.com/65717387/140910493-0e3175d7-e196-415d-b338-987de22ce6ac.png "Screenshot of cuntlick.net")
+![Screenshot](https://user-images.githubusercontent.com/65717387/141348959-a530ccb4-9aef-47bf-bdcf-e0036252fc3c.png)
+
+![Screenshot](https://user-images.githubusercontent.com/65717387/141349460-ca039c09-1138-478f-8bc4-402c6ee0f496.png)
+
+![Screenshot](https://user-images.githubusercontent.com/65717387/141349483-8a799116-98ae-4420-8d78-d3a42da29eb8.png)
 
 </details>
 
