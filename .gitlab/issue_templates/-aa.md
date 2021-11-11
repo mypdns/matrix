@@ -9,7 +9,7 @@ domain   CNAME . ; AdWare
 ```
 
 ## Relevant logs and/or screenshots
-- `https://github.com/easylist/easylist/pull/9650`
+- `https://github.com/easylist/easylist/pull/9682`
 
 ## Screenshots
 <details><summary>Click to unfold</summary>
