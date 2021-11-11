@@ -9,12 +9,12 @@ domain   CNAME . ; AdWare
 ```
 
 ## Relevant logs and/or screenshots
-- `https://github.com/easylist/easylist/pull/9647`
+- `https://github.com/easylist/easylist/pull/9650`
 
 ## Screenshots
 <details><summary>Click to unfold</summary>
 
-![Screenshot](https://user-images.githubusercontent.com/65717387/140881355-8dbc1d8f-21d8-4ec7-aa1e-4083e164fd3d.png "Screenshot of pornone.com/")
+![Screenshot](https://user-images.githubusercontent.com/65717387/140910493-0e3175d7-e196-415d-b338-987de22ce6ac.png "Screenshot of cuntlick.net")
 
 </details>
 
