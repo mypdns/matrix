@@ -1,16 +1,22 @@
-I believe this domain is an Tracking domain(s) --> which should be blocked as..
+I believe this domain is an [AdWare](https://mypdns.org/MypDNS/support/-/wikis/Adware) domain(s) --> that have to be blocked as..
 
-- [ ] Wildcarded
-- [x] Single domain blocking
+- [X] Wildcarded
+- [ ] Single domain blocking
 
 ```python
-domain   CNAME . ; Tracking
+domain   CNAME . ; AdWare
+*.domain   CNAME . ; AdWare
 ```
 
 ## Relevant logs and/or screenshots
-- `https://github.com/AdguardTeam/cname-trackers/blob/master/trackers/tracedock.txt`
+- `https://github.com/easylist/easylist/pull/9647`
 
 ## Screenshots
+<details><summary>Click to unfold</summary>
+
+![Screenshot](https://user-images.githubusercontent.com/65717387/140881355-8dbc1d8f-21d8-4ec7-aa1e-4083e164fd3d.png "Screenshot of pornone.com/")
+
+</details>
 
 ### All Submissions:
 - [X] Have you followed the guidelines in our [Contributing](CONTRIBUTING.md)
@@ -18,7 +24,7 @@ domain   CNAME . ; Tracking
 - [x] Have you checked to ensure there aren't other open
       [Merge Requests (MR)](../merge_requests) or [Issues](../issues) for the
       same update/change?
-- [ ] Added [screenshot](https://mypdns.org/MypDNS/support/-/wikis/Screenshot)
+- [X] Added [screenshot](https://mypdns.org/MypDNS/support/-/wikis/Screenshot)
 	  for prove of [False Negative](https://mypdns.org/MypDNS/support/-/wikis/False-Negative)
 - [X] Have you added an explanation of what your submission do and why you'd
 	  like us to include them??
@@ -31,10 +37,8 @@ domain   CNAME . ; Tracking
 - [X] RPZ Server (Team @Spirillen)
 - [X] Added to Source file
 
-/label ~Tracking
+/label ~AdWare
 
-/weight 8
+/weight 2
 
 /publish
-
-/relate https://mypdns.org/my-privacy-dns/matrix/-/issues/3256
