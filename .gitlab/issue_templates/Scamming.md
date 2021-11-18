@@ -1,21 +1,23 @@
-I believe this domain is an Typo Squatting domain(s) --> which should be blocked as..
+I believe this domain is an Scamming / Spam domain(s) --> which should be blocked as..
 
 - [X] Wildcarded
 - [ ] Single domain blocking
 
 ```python
-domain   CNAME . ; Typo Squatting
-*.domain   CNAME . ; Typo Squatting
+domain   CNAME . ; Scamming
+*.domain   CNAME . ; Scamming
 ```
 
 ## Relevant comments
+<!-- Be as clear as possible: nobody can read your mind, and nobody is looking at your issue over your shoulder. -->
 
 
 ## Screenshots
 
 
 ## Relevant External sources
-- `https://github.com/StevenBlack/hosts/issues/1764#issuecomment-926497777`
+- ``
+- ``
 
 ### All Submissions:
 - [X] Have you followed the guidelines in our [Contributing](CONTRIBUTING.md)
@@ -36,10 +38,10 @@ domain   CNAME . ; Typo Squatting
 - [X] RPZ Server (Team @Spirillen)
 - [X] Added to Source file
 
-/label ~"Typo Squatting"
+/label ~Scamming
 
 /assign @Spirillen
 
-/weight 5
+/weight 10
 
 /publish

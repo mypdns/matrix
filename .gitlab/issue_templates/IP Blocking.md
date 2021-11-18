@@ -13,15 +13,16 @@ This IP address or IP range (CIDR) that have to be blocked as..
 16.0.1.168.192.rpz-ip   CNAME . ; reason
 ```
 
-## Relevant logs and/or screenshots
+## Relevant comments
+<!-- Be as clear as possible: nobody can read your mind, and nobody is looking at your issue over your shoulder. -->
 
 
 ## Screenshots
-<details><summary>Click to unfold</summary>
 
 
-
-</details>
+## Relevant External sources
+- ``
+- ``
 
 ### All Submissions:
 - [X] Have you followed the guidelines in our [Contributing](CONTRIBUTING.md)
@@ -29,10 +30,10 @@ This IP address or IP range (CIDR) that have to be blocked as..
 - [x] Have you checked to ensure there aren't other open
       [Merge Requests (MR)](../merge_requests) or [Issues](../issues) for the
       same update/change?
-- [ ] Added [screenshot](https://mypdns.org/MypDNS/support/-/wikis/Screenshot)
-	  for prove of [False Negative](https://mypdns.org/MypDNS/support/-/wikis/False-Negative)
 - [X] Have you added an explanation of what your submission do and why you'd
 	  like us to include them??
+- [ ] Added [screenshot](https://mypdns.org/MypDNS/support/-/wikis/Screenshot)
+	  for prove of [False Negative](https://mypdns.org/MypDNS/support/-/wikis/False-Negative)
 
 ### Testing face
 - [X] Checked the internet for verification?

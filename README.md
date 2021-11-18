@@ -3,8 +3,8 @@
 
 # The Matrix
 
-This repository is [MyPDNS'](https://mypdns.org/explore) self maintained list of domains that
-need to be blocked for various reasons.
+This repository is [MyPDNS](https://mypdns.org/explore)'s self maintained
+list of domains that need to be blocked for various reasons.
 
 # Source list
 The `source` folder contains several sub-folders, each named as groups,
@@ -32,12 +32,12 @@ lot of evil.
 
 ##### Ex. Github.com
 
-Gitlab is hosting 100% user submitted content, but for the same reason, is also a
-target for cyber criminals to host their evil
-[Malware](https://en.wikipedia.org/wiki/Malware). For that reason, Gitlab often
-pops up on lists for malicious code. But as that
-would have a huge influence on our workflow, it would, of course, have to be
-whitelisted on our list.
+Gitlab is hosting 100% user submitted content, but for the same reason,
+is also a target for cyber criminals to host their evil
+[Malware](https://en.wikipedia.org/wiki/Malware). For that reason, Gitlab
+often pops up on lists for malicious code. But as that would have a huge
+influence on our workflow, it would, of course, have to be whitelisted on
+our list.
 
 # FAQ
 **Q**: Your lists have broken my website, by blocking a third party
@@ -53,11 +53,56 @@ already for leaking privacy to third party.
 
 **A**:
 
-1) It's up to individual users (i.e you) to create and maintain their own whitelist.
+1) It's up to individual users (i.e you) to create and maintain their own
+   whitelist.
 
-2) By whitelisting bad domain X because website Y uses bad domain X, we're deceiving our users who believe they're protected against bad domain X.
+2) By whitelisting bad domain X because website Y uses bad domain X,
+   we're deceiving our users who believe they're protected against bad
+   domain X.
 
-3) Through this repository's issue board, we're trying our best to give people the right information for them to decide whether or not they should allow access to some domains, despite them being marked as bad."
+3) Through this repository's issue board, we're trying our best to give
+   people the right information for them to decide whether or not they
+   should allow access to some domains, despite them being marked as bad."
+
+## Quick links
+You can use the following quick links to generate issues within matrix
+
+| Category                                         | Raw url code                                                                                  |
+| :----------------------------------------------- | :-------------------------------------------------------------------------------------------- |
+| [AdWare][AdWare]                                 | `https://mypdns.org/my-privacy-dns/matrix/-/issues/new?issuable_template=AdWare`              |
+| [Crypto Miners][CryptoMiners]                    | `https://mypdns.org/my-privacy-dns/matrix/-/issues/new?issuable_template=CryptoMiner`         |
+| [DNS Server][DNS-Server]                         | `https://mypdns.org/my-privacy-dns/matrix/-/issues/new?issuable_template=DNS%20Server`        |
+| [Gambling][Gambling]                             | `https://mypdns.org/my-privacy-dns/matrix/-/issues/new?issuable_template=Gambling`            |
+| [IP Blocking][IP-Blocking]                       | `https://mypdns.org/my-privacy-dns/matrix/-/issues/new?issuable_template=IP%20Blocking`       |
+| [Malicious/MalWare][MalWare]                     | `https://mypdns.org/my-privacy-dns/matrix/-/issues/new?issuable_template=Malicious%20MalWare` |
+| [Phishing][Phishing]                             | `https://mypdns.org/my-privacy-dns/matrix/-/issues/new?issuable_template=Phishing`            |
+| [Pirated Domain][PiratedDomain]                  | `https://mypdns.org/my-privacy-dns/matrix/-/issues/new?issuable_template=Pirated%20Domain`    |
+| [Redirecting][Redirecting]                       | `https://mypdns.org/my-privacy-dns/matrix/-/issues/new?issuable_template=Redirecting`         |
+| [Scamming][Scamming] *Upcoming* (In development) | `https://mypdns.org/my-privacy-dns/matrix/-/issues/new?issuable_template=Scamming`            |
+| [Spam][Spam]                                     | `https://mypdns.org/my-privacy-dns/matrix/-/issues/new?issuable_template=Spam`                |
+| [Spyware][Spyware]                               | `https://mypdns.org/my-privacy-dns/matrix/-/issues/new?issuable_template=Spyware`             |
+| [Tracking][Tracking]                             | `https://mypdns.org/my-privacy-dns/matrix/-/issues/new?issuable_template=Tracking`            |
+| [Typo Squatting][TypoSquatting]                  | `https://mypdns.org/my-privacy-dns/matrix/-/issues/new?issuable_template=Typo%20Squatting`    |
+| [Whitelist/False Negatives/Removals][Whitelist]  | `https://mypdns.org/my-privacy-dns/matrix/-/issues/new?issuable_template=Whitelist`           |
+
+
+[AdWare]: https://mypdns.org/my-privacy-dns/matrix/-/issues/new?issuable_template=AdWare
+[CryptoMiners]: https://mypdns.org/my-privacy-dns/matrix/-/issues/new?issuable_template=CryptoMiner
+[DNS-Server]: https://mypdns.org/my-privacy-dns/matrix/-/issues/new?issuable_template=DNS%20Server
+[Gambling]: https://mypdns.org/my-privacy-dns/matrix/-/issues/new?issuable_template=Gambling
+[IP-Blocking]: https://mypdns.org/my-privacy-dns/matrix/-/issues/new?issuable_template=IP%20Blocking
+[MalWare]: https://mypdns.org/my-privacy-dns/matrix/-/issues/new?issuable_template=Malicious%20MalWare
+[Phishing]: https://mypdns.org/my-privacy-dns/matrix/-/issues/new?issuable_template=Phishing
+[PiratedDomain]: https://mypdns.org/my-privacy-dns/matrix/-/issues/new?issuable_template=Pirated%20Domain
+[Redirecting]: https://mypdns.org/my-privacy-dns/matrix/-/issues/new?issuable_template=Redirecting
+[Scamming]: https://mypdns.org/my-privacy-dns/matrix/-/issues/new?issuable_template=Scamming
+[Spam]: https://mypdns.org/my-privacy-dns/matrix/-/issues/new?issuable_template=Spam
+[Spyware]: https://mypdns.org/my-privacy-dns/matrix/-/issues/new?issuable_template=Spyware
+[Tracking]: https://mypdns.org/my-privacy-dns/matrix/-/issues/new?issuable_template=Tracking
+[TypoSquatting]: https://mypdns.org/my-privacy-dns/matrix/-/issues/new?issuable_template=Typo%20Squatting
+[Whitelist]: https://mypdns.org/my-privacy-dns/matrix/-/issues/new?issuable_template=Whitelist
+
+
 # Keywords
 A few keywords for this project is Enhanced Privacy, DNS Firewall,
 Privacy First

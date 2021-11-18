@@ -1,23 +1,23 @@
-I believe this domain is an Scamming / Spam domain(s) --> which should be blocked as..
+I believe this domain is an Spam domain(s) --> which should be blocked as..
 
 - [X] Wildcarded
 - [ ] Single domain blocking
 
 ```python
-domain   CNAME . ; Scamming Spam
-*.domain   CNAME . ; Scamming Spam
+domain   CNAME . ; Spam
+*.domain   CNAME . ; Spam
 ```
 
-## Relevant logs and/or screenshots
+## Relevant comments
 <!-- Be as clear as possible: nobody can read your mind, and nobody is looking at your issue over your shoulder. -->
 
 
 ## Screenshots
-<details><summary>Click to unfold</summary>
 
 
-
-</details>
+## Relevant External sources
+- ``
+- ``
 
 ### All Submissions:
 - [X] Have you followed the guidelines in our [Contributing](CONTRIBUTING.md)
@@ -25,10 +25,10 @@ domain   CNAME . ; Scamming Spam
 - [x] Have you checked to ensure there aren't other open
       [Merge Requests (MR)](../merge_requests) or [Issues](../issues) for the
       same update/change?
-- [ ] Added [screenshot](https://mypdns.org/MypDNS/support/-/wikis/Screenshot)
-	  for prove of [False Negative](https://mypdns.org/MypDNS/support/-/wikis/False-Negative)
 - [X] Have you added an explanation of what your submission do and why you'd
 	  like us to include them??
+- [ ] Added [screenshot](https://mypdns.org/MypDNS/support/-/wikis/Screenshot)
+	  for prove of [False Negative](https://mypdns.org/MypDNS/support/-/wikis/False-Negative)
 
 ### Testing face
 - [X] Checked the internet for verification?
@@ -38,7 +38,7 @@ domain   CNAME . ; Scamming Spam
 - [X] RPZ Server (Team @Spirillen)
 - [X] Added to Source file
 
-/label ~Scamming ~Spam
+/label ~Spam
 
 /assign @Spirillen
 

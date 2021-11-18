@@ -5,9 +5,9 @@ site before reporting. Remove all revolving ad servers, popup ads, adblock
 countering etc. Only then will this request be reviewed.
 
 Screenshot is required within the <details> pane. Leave a blank line before
-and after the image link -->
+and after the image link
 
-<!-- Summarize the reason encountered precisely, and keep any domains in
+Summarize the reason encountered precisely, and keep any domains in
 back ticks `(`)` -->
 
 This domain Should be whitelist be curse .. I have A seriously damned good
@@ -26,12 +26,10 @@ example.com   CNAME . ; whitelisted
 whitelist -->
 
 ## Relevant logs and/or screenshots
-
 <!-- Paste any relevant logs - please use code blocks (```) to format
 console output, logs, and code as it's very hard to read otherwise. -->
 
 ## Screenshots
-
 <details><Summary>Screenshot required</summary>
 
 
