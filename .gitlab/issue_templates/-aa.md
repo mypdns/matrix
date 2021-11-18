@@ -4,8 +4,8 @@ I believe this domain is an Typo Squatting domain(s) --> which should be blocked
 - [ ] Single domain blocking
 
 ```python
-domain   CNAME . ; Typo Squatting
-*.domain   CNAME . ; Typo Squatting
+domain   CNAME . ; Phishing
+*.domain   CNAME . ; Phishing
 ```
 
 ## Relevant comments
@@ -36,7 +36,7 @@ domain   CNAME . ; Typo Squatting
 - [X] RPZ Server (Team @Spirillen)
 - [X] Added to Source file
 
-/label ~"Typo Squatting"
+/label ~Phishing
 
 /assign @Spirillen
 
