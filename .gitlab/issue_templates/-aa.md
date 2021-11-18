@@ -1,15 +1,14 @@
-I believe this domain is an [AdWare](https://mypdns.org/MypDNS/support/-/wikis/Adware) domain(s) --> that have to be blocked as..
+I believe this domain is an Tracking domain(s) --> which should be blocked as..
 
-- [X] Wildcarded
-- [ ] Single domain blocking
+- [ ] Wildcarded
+- [x] Single domain blocking
 
 ```python
-domain   CNAME . ; AdWare
-*.domain   CNAME . ; AdWare
+pixel.archive.vn   CNAME . ; Tracking
 ```
 
 ## Relevant logs and/or screenshots
-- `https://github.com/easylist/easylist/commit/e346c04ed579d9ed1d5a74c38e16afdf34df794b`
+- https://github.com/easylist/easylist/issues/9729
 
 ## Screenshots
 
@@ -20,7 +19,7 @@ domain   CNAME . ; AdWare
 - [x] Have you checked to ensure there aren't other open
       [Merge Requests (MR)](../merge_requests) or [Issues](../issues) for the
       same update/change?
-- [X] Added [screenshot](https://mypdns.org/MypDNS/support/-/wikis/Screenshot)
+- [ ] Added [screenshot](https://mypdns.org/MypDNS/support/-/wikis/Screenshot)
 	  for prove of [False Negative](https://mypdns.org/MypDNS/support/-/wikis/False-Negative)
 - [X] Have you added an explanation of what your submission do and why you'd
 	  like us to include them??
@@ -32,9 +31,3 @@ domain   CNAME . ; AdWare
 ### Todo
 - [X] RPZ Server (Team @Spirillen)
 - [X] Added to Source file
-
-/label ~AdWare
-
-/weight 2
-
-/publish
