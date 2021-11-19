@@ -1,9 +1,10 @@
+scripts/bulk_add.sh
 source/safesearch/combined.txt
 source/dns-servers/combined.txt
 #tmp/**.*
-pdns.py
-scripts/bulk_add.sh
+commit.msg
 commit.txt
+pdns.py
 rpz.json
 
 # prevent outputs from PyFunceble

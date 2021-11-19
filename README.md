@@ -39,6 +39,16 @@ often pops up on lists for malicious code. But as that would have a huge
 influence on our workflow, it would, of course, have to be whitelisted on
 our list.
 
+# Bulk commits
+Bulk commits will only be tolerated, if done by a @developer of the
+repository, does it and **_ONLY_** if and when the source is commonly
+trusted **_and_** if the amount of domains can justify it will be way to
+time consuming to open a issue for each domains changed in the targeted
+lists.
+
+**note**: This rule shall always be a copy of the common
+[Bulk commits][Bulk-commits] rule.
+
 # FAQ
 **Q**: Your lists have broken my website, by blocking a third party
 domain!
@@ -87,6 +97,7 @@ You can use the following quick links to generate issues within matrix
 
 
 [AdWare]: https://mypdns.org/my-privacy-dns/matrix/-/issues/new?issuable_template=AdWare
+[Bulk-commits]: https://mypdns.org/mypdns/support/-/wikis/Contributing#bulk-commits
 [CryptoMiners]: https://mypdns.org/my-privacy-dns/matrix/-/issues/new?issuable_template=CryptoMiner
 [DNS-Server]: https://mypdns.org/my-privacy-dns/matrix/-/issues/new?issuable_template=DNS%20Server
 [Gambling]: https://mypdns.org/my-privacy-dns/matrix/-/issues/new?issuable_template=Gambling
