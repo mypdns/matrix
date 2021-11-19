@@ -4288,7 +4288,7 @@ shorturl.com
 showheroes.com
 showroomlogic.com
 shrinkme.io
-shrtbtc.com\
+shrtbtc.com
 shrtfly.com
 shyseed.com
 sicksmash.com
@@ -4653,7 +4653,8 @@ tagtool.de
 tail.digital
 tailtarget.com
 tamgrt.com
-tapdb.net\sentry.fo4.qq.com
+tapdb.net
+sentry.fo4.qq.com
 tapfiliate.com
 taplytics.com
 taps.io
