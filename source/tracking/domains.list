@@ -1,18 +1,3 @@
-connect.facebook.com
-pixel.facebook.com
-staticxx.facebook.com
-b-graph.facebook.com
-mqtt-p4.facebook.com
-z-p3-api.facebook.com
-functional.events.data.microsoft.com
-datacollector-dre.dt.dbankcloud.cn
-datacollector-drcn.dt.dbankcloud.cn
-analytics.keepassxc.org
-api.metrics.heroku.com
-metrics.heroku.com
-metrics.freemake.com
-cookielaw.emea.fcagroup.com
-tracking.foliovision.com
 010530072943355-dot-qfj-kyf-vsh.appspot.com
 012051995582106-dot-exj-ale-bsj.appspot.com
 023316807029161-dot-ifile-document.appspot.com
@@ -197,6 +182,7 @@ analytics.getshogun.com
 analytics.global.sky.com
 analytics.hashnode.com
 analytics.htmedia.in
+analytics.keepassxc.org
 analytics.kurocore.com
 analytics.mbga.jp
 analytics.ninjakiwi.com
@@ -223,6 +209,7 @@ api-js.datadome.co
 api-telemetry.servers.getgo.com
 api.bunzlaucastle.com
 api.instagram.com
+api.metrics.heroku.com
 api.radar.cloudflare.com
 api.waptest.taobao.com
 api.weltevree.eu
@@ -248,6 +235,7 @@ awaps.yandex.ru
 axislogger.appspot.com
 axjfkc.kobayashi.co.jp
 az19942.vo.msecnd.net
+b-graph.facebook.com
 b.baidu.com
 b.boyfriendtv.com
 b.hiphotos.baidu.com
@@ -377,6 +365,7 @@ contents2.00110.citi.com
 cookie.disneylandparis.com
 cookieapi.incomit.dk
 cookieapi2.incomit.dk
+cookielaw.emea.fcagroup.com
 core.bruynzeelkeukens.nl
 corp.sts.microsoft.com
 count.candou.com
@@ -526,6 +515,8 @@ data.ouigo.com
 data.ubi.com
 data.wptag.net
 datacollector-dra.dt.hicloud.com
+datacollector-drcn.dt.dbankcloud.cn
+datacollector-dre.dt.dbankcloud.cn
 datas.virtuagirlhd.com
 daxab.com
 db5-eap.settings-win.data.microsoft.com
@@ -654,6 +645,7 @@ fresnel-events.vimeocdn.com
 frog.wix.com
 fsgko29oapsaasz.appspot.com
 fsm.lapresse.ca
+functional.events.data.microsoft.com
 fundingchoicesmessages.google.com
 g.msn.com.nsatc.net
 g024pwsdoxc.appspot.com
@@ -841,6 +833,8 @@ medisinkurs.appspot.com
 merlin.abc.go.com
 metrica.yandex.ru
 metrics.apple.com
+metrics.freemake.com
+metrics.heroku.com
 metrics.pico.tools
 metrics.readme.io
 metrics.redgifs.com
@@ -858,6 +852,7 @@ moneymoneymoney.azurewebsites.net
 mp.huangye.miui.com
 mp.weixin.qq.com
 mparticle.com
+mqtt-p4.facebook.com
 ms.yandex.ru
 muchbloom.appspot.com
 musculahq.appspot.com
@@ -923,6 +918,7 @@ pixel.archive.fo
 pixel.archive.li
 pixel.archive.md
 pixel.coccoc.com
+pixel.facebook.com
 pixel.ionos.fr
 pixel.retargetapp.com
 pixel.runative-syndicate.com
@@ -1029,6 +1025,7 @@ stat.mydaddy.cc
 stat.tiara.kakao.com
 static-hw.babescontent.com
 static.accesstrade.vn
+staticxx.facebook.com
 statistic.ads24h.net
 statistic.qzone.qq.com
 stats-public.grammarly.io
@@ -1152,6 +1149,7 @@ tracking-opi.fonpit.de
 tracking.aita.gov.vn
 tracking.chilipiper.com
 tracking.fits.me
+tracking.foliovision.com
 tracking.g2crowd.com
 tracking.game8.jp
 tracking.godatafeed.com
@@ -1268,6 +1266,7 @@ yi9pzxosadz.appspot.com
 yirwo8sovznov21omas.appspot.com
 yiw9posasz.appspot.com
 ytudf432as.appspot.com
+z-p3-api.facebook.com
 zhanzhang.baidu.com
 ziege.gecko.space
 zion-telemetry.api.cnn.io
