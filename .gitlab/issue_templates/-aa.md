@@ -1,21 +1,22 @@
-I believe this domain is an Tracking domain(s) --> which should be blocked as..
+I believe this domain is an Malware domain(s) --> which should be blocked as..
 
-- [ ] Wildcarded
-- [x] Single domain blocking
+- [X] Wildcarded
+- [ ] Single domain blocking
 
 ```python
-er.domain   CNAME . ; Tracking
+domain   CNAME . ; Malicious
+*.domain   CNAME . ; Malicious
 ```
 
 ## Relevant comments
-Thanks to @peace2000
+Thanks to @iam-py-test
+
 
 ## Screenshots
 
 
 ## Relevant External sources
-- `https://github.com/easylist/easylist/pull/9793`
-
+- `https://github.com/blocklistproject/Lists/issues/562`
 
 ### All Submissions:
 - [X] Have you followed the guidelines in our [Contributing](CONTRIBUTING.md)
@@ -36,10 +37,10 @@ Thanks to @peace2000
 - [X] RPZ Server (Team @Spirillen)
 - [X] Added to Source file
 
-/label ~Tracking
+/label ~Malicious
 
 /assign @Spirillen
 
-/weight 8
+/weight 5
 
 /publish
