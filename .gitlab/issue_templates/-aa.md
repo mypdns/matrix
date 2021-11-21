@@ -1,11 +1,10 @@
-I believe this domain is an Typo Squatting domain(s) --> which should be blocked as..
+I believe this domain is an Tracking domain(s) --> which should be blocked as..
 
-- [X] Wildcarded
-- [ ] Single domain blocking
+- [ ] Wildcarded
+- [x] Single domain blocking
 
 ```python
-domain   CNAME . ; Phishing
-*.domain   CNAME . ; Phishing
+er.domain   CNAME . ; Tracking
 ```
 
 ## Relevant comments
@@ -15,7 +14,8 @@ domain   CNAME . ; Phishing
 
 
 ## Relevant External sources
-- `https://github.com/StevenBlack/hosts/issues/1764#issuecomment-926497777`
+- `https://github.com/easylist/easylist/pull/9793`
+
 
 ### All Submissions:
 - [X] Have you followed the guidelines in our [Contributing](CONTRIBUTING.md)
@@ -36,10 +36,10 @@ domain   CNAME . ; Phishing
 - [X] RPZ Server (Team @Spirillen)
 - [X] Added to Source file
 
-/label ~Phishing
+/label ~Tracking
 
 /assign @Spirillen
 
-/weight 5
+/weight 8
 
 /publish
