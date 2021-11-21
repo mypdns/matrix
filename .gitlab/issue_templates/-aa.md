@@ -8,7 +8,7 @@ er.domain   CNAME . ; Tracking
 ```
 
 ## Relevant comments
-
+Thanks to @peace2000
 
 ## Screenshots
 
