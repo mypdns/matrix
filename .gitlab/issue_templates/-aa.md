@@ -1,22 +1,22 @@
-I believe this domain is an Malware domain(s) --> which should be blocked as..
+I believe this domain is an Gambling domain(s) --> which should be blocked as..
 
 - [X] Wildcarded
 - [ ] Single domain blocking
 
 ```python
-domain   CNAME . ; Malicious
-*.domain   CNAME . ; Malicious
+domain   CNAME . ; Gambling
+*.domain   CNAME . ; Gambling
 ```
 
 ## Relevant comments
-Thanks to @iam-py-test
 
 
 ## Screenshots
 
 
 ## Relevant External sources
-- `https://github.com/blocklistproject/Lists/issues/562`
+- `https://github.com/blocklistproject/Lists/issues/566` Thanks to @Titomrock21
+
 
 ### All Submissions:
 - [X] Have you followed the guidelines in our [Contributing](CONTRIBUTING.md)
@@ -37,10 +37,10 @@ Thanks to @iam-py-test
 - [X] RPZ Server (Team @Spirillen)
 - [X] Added to Source file
 
-/label ~Malicious
+/label ~Gambling
 
 /assign @Spirillen
 
-/weight 5
+/weight 1
 
 /publish
