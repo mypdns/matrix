@@ -1,11 +1,11 @@
-I believe this domain is an Gambling domain(s) --> which should be blocked as..
+I believe this is an [AdWare](https://mypdns.org/MypDNS/support/-/wikis/Adware) domain
 
 - [X] Wildcarded
 - [ ] Single domain blocking
 
 ```python
-domain   CNAME . ; Gambling
-*.domain   CNAME . ; Gambling
+domain   CNAME . ; AdWare
+*.domain   CNAME . ; AdWare
 ```
 
 ## Relevant comments
@@ -15,7 +15,7 @@ domain   CNAME . ; Gambling
 
 
 ## Relevant External sources
-- `https://github.com/blocklistproject/Lists/issues/566` Thanks to @Titomrock21
+- `https://github.com/easylist/easylist/commit/9ec935835b544192e34000589223aaa4d7c0151b`
 
 
 ### All Submissions:
@@ -37,10 +37,8 @@ domain   CNAME . ; Gambling
 - [X] RPZ Server (Team @Spirillen)
 - [X] Added to Source file
 
-/label ~Gambling
+/label ~AdWare
 
-/assign @Spirillen
-
-/weight 1
+/weight 2
 
 /publish
