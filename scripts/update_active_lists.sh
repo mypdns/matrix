@@ -12,7 +12,8 @@ cd "$ROOT_DIR"
 
 for lists in `find source/ -type f -name "*.list"`
 do
-	printf "$CI_PROJECT_URL/raw/master/$lists\n" | sort -u >> "$ROOT_DIR/source/source.list"
+	printf "https://raw.githubusercontent.com/mypdns/matrix/master/source/$lists\n" | sort -u >> "$ROOT_DIR/source/source.list"
+	printf "$CI_PROJECT_URL/-/raw/master/$lists\n" | sort -u >> "$ROOT_DIR/source/source.list"
 done
 
 ls -lh $ROOT_DIR/source/
