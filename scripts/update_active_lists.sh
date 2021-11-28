@@ -4,13 +4,15 @@
 # directory for easier imports from external sources....
 # Happy harvesting :)
 
-truncate -s 0 "$CI_PROJECT_DIR/source.list"
+ROOT_DIR="$(git rev-parse --show-toplevel)"
 
-cd "$CI_PROJECT_DIR"
+truncate -s 0 "$ROOT_DIR/source/source.list"
+
+cd "$ROOT_DIR"
 
 for lists in `find source/ -type f -name "*.list"`
 do
-	printf "$CI_PROJECT_URL/raw/master/$lists\n" | sort -u >> "$CI_PROJECT_DIR/source.list"
+	printf "$CI_PROJECT_URL/raw/master/$lists\n" | sort -u >> "$ROOT_DIR/source/source.list"
 done
 
-ls -lh $CI_PROJECT_DIR/
+ls -lh $ROOT_DIR/source/

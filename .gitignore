@@ -1,32 +1,26 @@
-scripts/bulk_add.sh
-source/safesearch/combined.txt
-source/dns-servers/combined.txt
-#tmp/**.*
+# My Privacy DNS hidden scripts
 commit.msg
 commit.txt
-pdns.py
 rpz.json
+scripts/adware.sh
+scripts/bulk_add.sh
+scripts/bulk_clean.sh
+scripts/easylistloop.sh
+scripts/spam.sh
+source/dns-servers/combined.txt
+source/safesearch/combined.txt
+scripts/easylistloop.sh
+
 
 # prevent outputs from PyFunceble
-output/
-dir_structure.json
-gambling.sh
-del_adware.sh
-add_gambling.sh
-add_adware.sh
-scripts/adware.sh
-scripts/spam.sh
-api/api.cfg
-screenshots/
-source/porno-sites/wildcard.list.old
-api/api.cfg
 api/**
-danilo82.sh
+api/api.cfg
+dir_structure.json
+output/
+screenshots/
+
 
 # Visual Basic Code
 .vscode
 **.code-workspace
 no-git/**
-scripts/easylistloop.sh
-LICENSE.agpl2
-scripts/bulk_clean.sh
