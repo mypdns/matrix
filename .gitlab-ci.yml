@@ -37,7 +37,7 @@ build:
     - pip3 install -q mypdns
     - git checkout -b "${CI_COMMIT_REF_NAME}"
     - find "$CI_PROJECT_DIR/source/" -type f -name '*.list' -exec bash -c "sort -i -u -f '{}' -o '{}' " \;
-    - bash "$CI_PROJECT_DIR/scripts/update_active_lists.sh"
+    # - bash "$CI_PROJECT_DIR/scripts/update_active_lists.sh"
 
 # test1:
 #   stage: test
