@@ -42,3 +42,5 @@ This text appears on all Admirals owned domains
 - [X] Added to Source file
 
 [getadmiral]: https://mypdns.org/my-privacy-dns/matrix/-/issues/3023
+
+/relate https://mypdns.org/my-privacy-dns/matrix/-/issues/3023
