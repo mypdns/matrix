@@ -1,8 +1,5 @@
-webrtc.github.io
-amd-athena-rs-install-logs.s3.amazonaws.com
-d2werg7o2mztut.cloudfront.net
-d1t4ekjh9ps4ob.cloudfront.net
 accountsx.bounceme.net
+amd-athena-rs-install-logs.s3.amazonaws.com
 analytics-stage.ff.avast.com
 analytics.alternativet.dk
 analytics.ff.avast.com
@@ -10,6 +7,8 @@ analytics.ns1.ff.avast.com
 bigdata.adups.com
 byfleur.myftp.org
 chrome.google.com
+d1t4ekjh9ps4ob.cloudfront.net
+d2werg7o2mztut.cloudfront.net
 daisy.ubuntu.com
 data.beop.io
 deviceintegritytokens-pa.googleapis.com
@@ -42,4 +41,5 @@ trace.svc.ui.com
 uib.ff.avast.com
 v7.stats.avast.com
 v7event.stats.avast.com
+webrtc.github.io
 www3.l.google.com
