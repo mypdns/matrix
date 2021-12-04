@@ -19,7 +19,7 @@ This text appears on all Admirals owned domains
 ![Screeshot](https://user-images.githubusercontent.com/3980843/29331670-df921aa0-81c2-11e7-89aa-e95bab2b8cb9.png)
 
 ## Relevant External sources
-- `https://github.com/easylist/easylist/issues/9832` Thanks to @Mennaruuk
+- `https://github.com/easylist/easylist/issues/9933` Thanks to @Mennaruuk
 
 
 ### All Submissions:
@@ -40,19 +40,5 @@ This text appears on all Admirals owned domains
 ### Todo
 - [X] RPZ Server (Team @Spirillen)
 - [X] Added to Source file
-
-/label ~Tracking
-
-/weight 8
-
-/publish
-
-/done
-
-/relate https://mypdns.org/my-privacy-dns/matrix/-/issues/3023
-
-/milestone %"getadmiral.com"
-
-/severity critical
 
 [getadmiral]: https://mypdns.org/my-privacy-dns/matrix/-/issues/3023
