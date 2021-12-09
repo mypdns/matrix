@@ -4,8 +4,8 @@ I believe this domain is an Redirecting domain(s) --> which should be blocked as
 - [ ] Single domain blocking
 
 ```python
-domain   CNAME . ; Redirecting
-*.domain   CNAME . ; Redirecting
+domain   CNAME . ; Redirecting, Tracking
+*.domain   CNAME . ; Redirecting, Tracking
 ```
 
 ## Relevant comments
@@ -19,7 +19,6 @@ domain   CNAME . ; Redirecting
 
 
 ## Relevant External sources
-- ``
 - ``
 
 ### All Submissions:
@@ -41,10 +40,10 @@ domain   CNAME . ; Redirecting
 - [X] RPZ Server (Team @Spirillen)
 - [X] Added to Source file
 
-/label ~Redirector
+/label ~Redirector ~Tracking
 
 /assign @Spirillen
 
-/weight 4
+/weight 7
 
 /publish
