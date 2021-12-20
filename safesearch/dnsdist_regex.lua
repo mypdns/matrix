@@ -5,9 +5,16 @@ search for known domains. Listed from most privacy enhanged to least privacy
 You can activate this file in your dnsdist.conf by:
 dofile(conf/dnsdist_regex.lua)
 
-And don't forget order matters. = Line 2 overrules line 1
+And don't forget order matters. = Line 1 overrules line 2 (First match)
 
 Have fun.
+
+Copyright: https://mypdns.org/my-privacy-dns/matrix/blob/master/COPYRIGHT.md
+Source: https://mypdns.org/my-privacy-dns/matrix/tree/master/safesearch
+License: AGPL-3.0 (modified)
+You should have received a copy of the license along with this
+work. If not, see
+  - https://mypdns.org/my-privacy-dns/matrix/blob/master/LICENSE
 --]]
 
 -- duckduckgo.com static

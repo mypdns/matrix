@@ -1,8 +1,14 @@
 # Safe Search Domains by https://mypdns.org
 # If you know about other safe search setup, please submit it here
 # https://mypdns.org/my-privacy-dns/matrix/-/issues/582
-# License: https://mypdns.org/my-privacy-dns/matrix/blob/master/LICENSE
+#
+# Copyright: https://mypdns.org/my-privacy-dns/matrix/blob/master/COPYRIGHT.md
+# Content: https://mypdns.org/
 # Source: https://mypdns.org/my-privacy-dns/matrix/tree/master/safesearch
+# License: AGPL-3.0 (modified)
+# You should have received a copy of the license along with this
+# work. If not, see
+#   - https://mypdns.org/my-privacy-dns/matrix/blob/master/LICENSE
 
 # DuckDuckGo.com The only real safe search engine
 # EU region
