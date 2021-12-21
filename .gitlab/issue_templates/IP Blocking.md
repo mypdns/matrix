@@ -50,3 +50,5 @@ This IP address or IP range (CIDR) that have to be blocked as..
 /weight 2
 
 /publish
+
+/severity low

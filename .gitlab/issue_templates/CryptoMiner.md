@@ -45,3 +45,5 @@ domain   CNAME . ; CryptoMiner
 /weight 2
 
 /publish
+
+/severity low

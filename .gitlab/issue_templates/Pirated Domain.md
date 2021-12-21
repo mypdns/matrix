@@ -45,3 +45,5 @@ domain   CNAME . ; Pirated
 /weight 1
 
 /publish
+
+/severity low

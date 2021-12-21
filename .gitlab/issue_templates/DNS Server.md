@@ -59,3 +59,5 @@ I believe this DNS Server needs to be blocked as...
 /weight 2
 
 /publish
+
+/severity medium

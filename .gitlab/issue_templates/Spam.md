@@ -45,3 +45,5 @@ domain   CNAME . ; Spam
 /weight 10
 
 /publish
+
+/severity low

@@ -45,3 +45,5 @@ domain   CNAME . ; Gambling
 /weight 1
 
 /publish
+
+/severity low

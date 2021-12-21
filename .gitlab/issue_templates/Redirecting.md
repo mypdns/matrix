@@ -12,7 +12,7 @@ domain   CNAME . ; Redirecting, Tracking
 <!-- Be as clear as possible: nobody can read your mind, and nobody is looking at your issue over your shoulder. -->
 | Redirects from | Redirect to |
 | :------------: | :---------: |
-| `` | `` |
+|       ``       |     ``      |
 
 
 ## Screenshots
@@ -47,3 +47,5 @@ domain   CNAME . ; Redirecting, Tracking
 /weight 7
 
 /publish
+
+/severity low

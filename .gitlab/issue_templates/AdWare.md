@@ -45,3 +45,5 @@ domain   CNAME . ; AdWare
 /weight 2
 
 /publish
+
+/severity low

@@ -45,3 +45,5 @@ domain   CNAME . ; Tracking
 /weight 8
 
 /publish
+
+/severity critical

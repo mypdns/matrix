@@ -45,3 +45,5 @@ domain   CNAME . ; Typo Squatting
 /weight 5
 
 /publish
+
+/severity low

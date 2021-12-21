@@ -45,3 +45,5 @@ domain   CNAME . ; Scamming
 /weight 10
 
 /publish
+
+/severity high

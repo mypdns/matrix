@@ -45,3 +45,5 @@ domain   CNAME . ; Phishing
 /weight 5
 
 /publish
+
+/severity high

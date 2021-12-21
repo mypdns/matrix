@@ -48,4 +48,6 @@ Adserver found at `` by @felippesantos46
 
 /weight 2
 
+/severity low
+
 /publish
