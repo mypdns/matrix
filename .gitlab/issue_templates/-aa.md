@@ -16,15 +16,15 @@ Big thanks to @felippesantos46 and @ryanbr at `https://github.com/easylist/easyl
 ## Screenshots
 <details><summary>Click to expand</summary>
 
-![Screeshot]()
+![Screeshot](https://user-images.githubusercontent.com/65717387/146549892-1194cf1f-f7cc-4e69-b771-a6137c17145a.png)
 
-![Screeshot]()
+![Screeshot](https://user-images.githubusercontent.com/65717387/146549899-63b84406-fa23-4b29-a4af-c1497370bc7a.png)
 
-![Screeshot]()
+![Screeshot](https://user-images.githubusercontent.com/65717387/146549903-bea4fb98-d63b-48ce-b400-cc2294a98487.png)
 
-![Screeshot]()
+![Screeshot](https://user-images.githubusercontent.com/65717387/146737237-e7c6c8df-ec71-446f-998a-64e00941fb16.png)
 
-![Screeshot]()
+![Screeshot](https://user-images.githubusercontent.com/65717387/146737256-93c153ff-74d4-41d8-aef0-03270e849eae.png)
 
 </details>
 
