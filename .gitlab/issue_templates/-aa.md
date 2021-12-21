@@ -11,14 +11,12 @@ domain   CNAME . ; AdWare
 ## Relevant comments
 Adserver found at `` by @felippesantos46
 
-
 ## Screenshots
 <details><summary>Click to expand</summary>
 
 ![Screeshot]()
 
 </details>
-
 
 ## Relevant External sources
 - ``
@@ -43,8 +41,6 @@ Adserver found at `` by @felippesantos46
 - [X] Added to Source file
 
 /label ~AdWare
-
-/assign @felippesantos46
 
 /weight 2
 
