@@ -1,26 +1,35 @@
-I believe this domain is an Tracking domain(s) --> which should be blocked as..
+I believe this domain is an [AdWare](https://mypdns.org/MypDNS/support/-/wikis/Adware) domain(s) --> that have to be blocked as..
 
 - [X] Wildcarded
 - [ ] Single domain blocking
 
 ```python
-domain   CNAME . ; Tracking
-*.domain   CNAME . ; Tracking
+domain   CNAME . ; AdWare
+*.domain   CNAME . ; AdWare
 ```
 
 ## Relevant comments
-This domain is used by [`getadmiral.com`][getadmiral] to collect your surfing habits and the are using a variety of scripts to generate a personal identification of you and your devices. Follow [getadmiral][getadmiral] for updates.
+Adservers responsible for redirects and popups on `strtpe.link`
 
-You can always find the latest list of Admiral's Active domains in https://mypdns.org/-/snippets/42
+Big thanks to @felippesantos46 and @ryanbr at `https://github.com/easylist/easylist/pull/10130` for sharing there observations.
 
 ## Screenshots
-This text appears on all Admirals owned domains
+<details><summary>Click to expand</summary>
 
-![Screeshot](https://user-images.githubusercontent.com/3980843/29331670-df921aa0-81c2-11e7-89aa-e95bab2b8cb9.png)
+![Screeshot]()
+
+![Screeshot]()
+
+![Screeshot]()
+
+![Screeshot]()
+
+![Screeshot]()
+
+</details>
 
 ## Relevant External sources
-- `https://github.com/easylist/easylist/issues/9933` Thanks to @Mennaruuk
-
+- `https://github.com/easylist/easylist/pull/10130`
 
 ### All Submissions:
 - [X] Have you followed the guidelines in our [Contributing](CONTRIBUTING.md)
@@ -41,6 +50,8 @@ This text appears on all Admirals owned domains
 - [X] RPZ Server (Team @Spirillen)
 - [X] Added to Source file
 
-[getadmiral]: https://mypdns.org/my-privacy-dns/matrix/-/issues/3023
+/label ~AdWare
 
-/relate https://mypdns.org/my-privacy-dns/matrix/-/issues/3023
+/weight 2
+
+/publish
