@@ -9,7 +9,7 @@ domain   CNAME . ; AdWare
 ```
 
 ## Relevant comments
-Adserver found at `` by @felippesantos46
+Adserver found at `` by @felippesantos
 
 ## Screenshots
 <details><summary>Click to expand</summary>
