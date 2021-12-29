@@ -47,3 +47,5 @@ Adserver found at ``
 /severity low
 
 /publish
+
+/assign @spirillen
