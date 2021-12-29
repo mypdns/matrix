@@ -75,45 +75,52 @@ already for leaking privacy to third party.
    people the right information for them to decide whether or not they
    should allow access to some domains, despite them being marked as bad."
 
-## Quick links
+## Issue templates Quick links
 You can use the following quick links to generate issues within matrix
 
-| Category                                         | Raw url code                                                                                  |
-| :----------------------------------------------- | :-------------------------------------------------------------------------------------------- |
-| [AdWare][AdWare]                                 | `https://mypdns.org/my-privacy-dns/matrix/-/issues/new?issuable_template=AdWare`              |
-| [Crypto Miners][CryptoMiners]                    | `https://mypdns.org/my-privacy-dns/matrix/-/issues/new?issuable_template=CryptoMiner`         |
-| [DNS Server][DNS-Server]                         | `https://mypdns.org/my-privacy-dns/matrix/-/issues/new?issuable_template=DNS%20Server`        |
-| [Gambling][Gambling]                             | `https://mypdns.org/my-privacy-dns/matrix/-/issues/new?issuable_template=Gambling`            |
-| [IP Blocking][IP-Blocking]                       | `https://mypdns.org/my-privacy-dns/matrix/-/issues/new?issuable_template=IP%20Blocking`       |
-| [Malicious/MalWare][MalWare]                     | `https://mypdns.org/my-privacy-dns/matrix/-/issues/new?issuable_template=Malicious%20MalWare` |
-| [Phishing][Phishing]                             | `https://mypdns.org/my-privacy-dns/matrix/-/issues/new?issuable_template=Phishing`            |
-| [Pirated Domain][PiratedDomain]                  | `https://mypdns.org/my-privacy-dns/matrix/-/issues/new?issuable_template=Pirated%20Domain`    |
-| [Redirecting][Redirecting]                       | `https://mypdns.org/my-privacy-dns/matrix/-/issues/new?issuable_template=Redirecting`         |
-| [Scamming][Scamming] *Upcoming* (In development) | `https://mypdns.org/my-privacy-dns/matrix/-/issues/new?issuable_template=Scamming`            |
-| [Spam][Spam]                                     | `https://mypdns.org/my-privacy-dns/matrix/-/issues/new?issuable_template=Spam`                |
-| [Spyware][Spyware]                               | `https://mypdns.org/my-privacy-dns/matrix/-/issues/new?issuable_template=Spyware`             |
-| [Tracking][Tracking]                             | `https://mypdns.org/my-privacy-dns/matrix/-/issues/new?issuable_template=Tracking`            |
-| [Typo Squatting][TypoSquatting]                  | `https://mypdns.org/my-privacy-dns/matrix/-/issues/new?issuable_template=Typo%20Squatting`    |
-| [Whitelist/False Negatives/Removals][Whitelist]  | `https://mypdns.org/my-privacy-dns/matrix/-/issues/new?issuable_template=Whitelist`           |
+| <h2>Category</h2>                                                                                                                                    | <h2>Raw url code</h2>                                                                         |
+| :--------------------------------------------------------------------------------------------------------------------------------------------------- | :-------------------------------------------------------------------------------------------- |
+| [AdWare][AdWare]                                                                                                                                     | `https://mypdns.org/my-privacy-dns/matrix/-/issues/new?issuable_template=AdWare`              |
+| [Crypto Miners][CryptoMiners]                                                                                                                        | `https://mypdns.org/my-privacy-dns/matrix/-/issues/new?issuable_template=CryptoMiner`         |
+| [DNS Server][DNS-Server]                                                                                                                             | `https://mypdns.org/my-privacy-dns/matrix/-/issues/new?issuable_template=DNS%20Server`        |
+| [Gambling][Gambling]                                                                                                                                 | `https://mypdns.org/my-privacy-dns/matrix/-/issues/new?issuable_template=Gambling`            |
+| [IP Blocking][IP-Blocking]                                                                                                                           | `https://mypdns.org/my-privacy-dns/matrix/-/issues/new?issuable_template=IP%20Blocking`       |
+| [Malicious/MalWare][MalWare]                                                                                                                         | `https://mypdns.org/my-privacy-dns/matrix/-/issues/new?issuable_template=Malicious%20MalWare` |
+| [Phishing][Phishing]                                                                                                                                 | `https://mypdns.org/my-privacy-dns/matrix/-/issues/new?issuable_template=Phishing`            |
+| [Pirated Domain][PiratedDomain]                                                                                                                      | `https://mypdns.org/my-privacy-dns/matrix/-/issues/new?issuable_template=Pirated%20Domain`    |
+| [Redirecting][Redirecting]                                                                                                                           | `https://mypdns.org/my-privacy-dns/matrix/-/issues/new?issuable_template=Redirecting`         |
+| [Removal][Removal] Read the F.A.Q. *BEFORE* you proceed!                                                                                             | `https://mypdns.org/my-privacy-dns/matrix/-/issues/new?issuable_template=Removal`             |
+| [Scamming][Scamming] *Upcoming* (In development)                                                                                                     | `https://mypdns.org/my-privacy-dns/matrix/-/issues/new?issuable_template=Scamming`            |
+| [Spam][Spam]                                                                                                                                         | `https://mypdns.org/my-privacy-dns/matrix/-/issues/new?issuable_template=Spam`                |
+| [Spyware][Spyware]                                                                                                                                   | `https://mypdns.org/my-privacy-dns/matrix/-/issues/new?issuable_template=Spyware`             |
+| [Tracking][Tracking]                                                                                                                                 | `https://mypdns.org/my-privacy-dns/matrix/-/issues/new?issuable_template=Tracking`            |
+| [Typo Squatting][TypoSquatting]                                                                                                                      | `https://mypdns.org/my-privacy-dns/matrix/-/issues/new?issuable_template=Typo%20Squatting`    |
+| [Whitelist/False Negatives/Removals][Whitelist]                                                                                                      | `https://mypdns.org/my-privacy-dns/matrix/-/issues/new?issuable_template=Whitelist`           |
+|                                                                                                                                                      |                                                                                               |
+| <h2>Special Templates</h2>                                                                                                                           |                                                                                               |
+| [-aa][Bulk-commits] A fast bulk template modified constantly to match a specific case                                                                | `https://mypdns.org/my-privacy-dns/matrix/-/issues/new?issuable_template=-aa`                 |
+| [@felippesantos][Bulk-commits] A Template to match @felippesantos (@felippesantos46) many adware commits from [EasyList][EasyList]                   | `https://mypdns.org/my-privacy-dns/matrix/-/issues/new?issuable_template=@felippesantos`      |
+| [getadmiral][] A Template to ensuring the needed data while committing [getadmiral].com treats to make them connected and optimize the rekation data | `https://mypdns.org/my-privacy-dns/matrix/-/issues/new?issuable_template=getadmiral`          |
 
-
-[AdWare]: https://mypdns.org/my-privacy-dns/matrix/-/issues/new?issuable_template=AdWare
+[AdWare]: https://mypdns.org/my-privacy-dns/matrix/-/issues/new?issuable_template=AdWare "Issue template to commit adserver domains"
 [Bulk-commits]: https://mypdns.org/mypdns/support/-/wikis/Contributing#bulk-commits
-[CryptoMiners]: https://mypdns.org/my-privacy-dns/matrix/-/issues/new?issuable_template=CryptoMiner
-[DNS-Server]: https://mypdns.org/my-privacy-dns/matrix/-/issues/new?issuable_template=DNS%20Server
-[Gambling]: https://mypdns.org/my-privacy-dns/matrix/-/issues/new?issuable_template=Gambling
-[IP-Blocking]: https://mypdns.org/my-privacy-dns/matrix/-/issues/new?issuable_template=IP%20Blocking
-[MalWare]: https://mypdns.org/my-privacy-dns/matrix/-/issues/new?issuable_template=Malicious%20MalWare
-[Phishing]: https://mypdns.org/my-privacy-dns/matrix/-/issues/new?issuable_template=Phishing
-[PiratedDomain]: https://mypdns.org/my-privacy-dns/matrix/-/issues/new?issuable_template=Pirated%20Domain
-[Redirecting]: https://mypdns.org/my-privacy-dns/matrix/-/issues/new?issuable_template=Redirecting
-[Scamming]: https://mypdns.org/my-privacy-dns/matrix/-/issues/new?issuable_template=Scamming
-[Spam]: https://mypdns.org/my-privacy-dns/matrix/-/issues/new?issuable_template=Spam
-[Spyware]: https://mypdns.org/my-privacy-dns/matrix/-/issues/new?issuable_template=Spyware
-[Tracking]: https://mypdns.org/my-privacy-dns/matrix/-/issues/new?issuable_template=Tracking
-[TypoSquatting]: https://mypdns.org/my-privacy-dns/matrix/-/issues/new?issuable_template=Typo%20Squatting
+[CryptoMiners]: https://mypdns.org/my-privacy-dns/matrix/-/issues/new?issuable_template=CryptoMiner "Issue template to commit Crypto miners"
+[DNS-Server]: https://mypdns.org/my-privacy-dns/matrix/-/issues/new?issuable_template=DNS%20Server "Issue template to commit For blacklisting at the DNS level"
+[EasyList]: https://github.com/easylist/easylist/
+[Gambling]: https://mypdns.org/my-privacy-dns/matrix/-/issues/new?issuable_template=Gambling "Issue template to commit Gambling site"
+[getadmiral]: https://mypdns.org/my-privacy-dns/matrix/-/issues/3023
+[IP-Blocking]: https://mypdns.org/my-privacy-dns/matrix/-/issues/new?issuable_template=IP%20Blocking "Issue template to commit Blocking by IP addresses"
+[MalWare]: https://mypdns.org/my-privacy-dns/matrix/-/issues/new?issuable_template=Malicious%20MalWare "Issue template to commit Malicious and or Malware"
+[Phishing]: https://mypdns.org/my-privacy-dns/matrix/-/issues/new?issuable_template=Phishing "Issue template to commit Phishing"
+[PiratedDomain]: https://mypdns.org/my-privacy-dns/matrix/-/issues/new?issuable_template=Pirated%20Domain "Issue template to commit Outdated domain, pirated and hijacked by domains Jackal's"
+[Redirecting]: https://mypdns.org/my-privacy-dns/matrix/-/issues/new?issuable_template=Redirecting "Issue template to commit URL shortening and other redirecting only domain"
+[Removal]: #faq "Read the F.A.Q. *BEFORE* you proceed!"
+[Scamming]: https://mypdns.org/my-privacy-dns/matrix/-/issues/new?issuable_template=Scamming "Issue template to commit Scamming sites"
+[Spam]: https://mypdns.org/my-privacy-dns/matrix/-/issues/new?issuable_template=Spam "Issue template to commit Spam records"
+[Spyware]: https://mypdns.org/my-privacy-dns/matrix/-/issues/new?issuable_template=Spyware "Issue template to commit Spyware domains"
+[Tracking]: https://mypdns.org/my-privacy-dns/matrix/-/issues/new?issuable_template=Tracking "Issue template to commit Tracking records"
+[TypoSquatting]: https://mypdns.org/my-privacy-dns/matrix/-/issues/new?issuable_template=Typo%20Squatting "Issue template to commit Typo Squatting"
 [Whitelist]: https://mypdns.org/my-privacy-dns/matrix/-/issues/new?issuable_template=Whitelist
-
 
 # Keywords
 A few keywords for this project is Enhanced Privacy, DNS Firewall,

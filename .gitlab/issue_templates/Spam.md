@@ -23,7 +23,7 @@ domain   CNAME . ; Spam
 - [X] Have you followed the guidelines in our [Contributing](CONTRIBUTING.md)
 	  document?
 - [x] Have you checked to ensure there aren't other open
-      [Merge Requests (MR)](../merge_requests) or [Issues](../issues) for the
+      [Merge Requests (MR)](../merge_requests) or [Issues](../../issues) for the
       same update/change?
 - [X] Have you added an explanation of what your submission do and why you'd
 	  like us to include them??
@@ -42,7 +42,7 @@ domain   CNAME . ; Spam
 
 /assign @Spirillen
 
-/weight 10
+/weight 3
 
 /publish
 

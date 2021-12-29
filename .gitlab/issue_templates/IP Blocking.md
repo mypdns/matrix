@@ -28,7 +28,7 @@ This IP address or IP range (CIDR) that have to be blocked as..
 - [X] Have you followed the guidelines in our [Contributing](CONTRIBUTING.md)
 	  document?
 - [x] Have you checked to ensure there aren't other open
-      [Merge Requests (MR)](../merge_requests) or [Issues](../issues) for the
+      [Merge Requests (MR)](../merge_requests) or [Issues](../../issues) for the
       same update/change?
 - [X] Have you added an explanation of what your submission do and why you'd
 	  like us to include them??
