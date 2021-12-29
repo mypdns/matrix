@@ -228,7 +228,6 @@ bdg-analytics.appspot.com
 beacon.errorception.com
 beacon.netflix.com
 beacon.qq.com
-beacon.scorecardresearch.com.edgekey.net
 beacon2.qq.com
 beaconapi.qq.com
 beaconcdn.qq.com
@@ -284,7 +283,6 @@ clk.boulanger.fr
 clog.go.com
 cluster.chart.dk
 cmstrendslog.indiatimes.com
-cn-sc.scorecardresearch.com.edgekey.net
 cnameebis.usagi-online.com
 cnt.hd21.com
 cognito-identity.us-east-1.amazonaws.com
@@ -855,8 +853,6 @@ sa.api.intl.miui.com
 sales-pop-dot-autoketing-production-sdk.appspot.com
 sales.disneylandparis.com
 salpato.numo.in
-sb.scorecardresearch.com.edgekey.net
-sb6.scorecardresearch.com.edgekey.net
 sc-analytics.appspot.com
 sclick.baidu.com
 scloud-dlsw.br.baidu.com
