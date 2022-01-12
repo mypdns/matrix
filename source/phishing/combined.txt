@@ -39,7 +39,6 @@ ipv4.login.msa.akadns6.net
 kristom.hopto.org
 lgin.msa.trafficmanager.net
 mailbox_0upgrade.godaddysites.com
-micr050ft.weebly.com
 online-coronavirus-268608.firebaseio.com
 postgo.webpostgo.icu
 restore637908-coinbase-us.web.app
