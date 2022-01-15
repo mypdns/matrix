@@ -2,12 +2,20 @@
 
 If you feel like contributing there are a couple of ways to do this
 
-1. You can add new super high speed bash code, optimizing existing, rewrite for 
+1. You can add new super high speed bash code, optimizing existing, rewrite for
     broader support of bash environments across OS's
-1. You can add domains to either the wildcard.list or domain.list in there 
+1. You can add domains to either the wildcard.list or domain.list in there
     respective folders
-1. You can through **Damned** good arguments try to get a domain into the 
+1. You can through **Damned** good arguments try to get a domain into the
     whitelisted
+
+**NOTE**: When you first starts to commit issues, the [akismet][akismet]
+unfortunately very fast to mark you as a spammer, but don't this
+includes everyone even admin accounts.
+
+When this happens, please add this 'Ping @spirillen, i've got mark as spam`
+to this [issue](https://mypdns.org/mypdns/support/-/issues/268) and we will
+get your account back on track.
 
 ### Adding a new domain
 The workflow is a bit clumsy, but the most reliable and fail-safe.
@@ -45,10 +53,10 @@ The workflow is a bit clumsy, but the most reliable and simple.
    ```
 
 ## Why first issue then MR?
-The simplest idea is often the most safe, and this is the very reason for this 
+The simplest idea is often the most safe, and this is the very reason for this
 workflow. It is also giving the project a searchable database for added domains
-and the comment, by which we can't add in other ways, as all the lists needs to 
-be raw data; from which other scripts easily can work with, without first have 
+and the comment, by which we can't add in other ways, as all the lists needs to
+be raw data; from which other scripts easily can work with, without first have
 to run several cleanup processes.
 
 Please also read our [Writing Guide](https://mypdns.org/mypdns/support/-/wikis/contributing/Writing-Guide) before continuing with your issue contribution
@@ -59,12 +67,12 @@ We require all submissions to be signed with a valid GPG key.
 Only exception for this rule is the CI/CD bot
 
 ## How do I sign with GPG
-If you know nothing about GPG keys I, really suggest you search on 
-[duckduckgo.com](https://duckduckgo.com) for the best way, to do it for the OS you 
+If you know nothing about GPG keys I, really suggest you search on
+[duckduckgo.com](https://duckduckgo.com) for the best way, to do it for the OS you
 are using.
 
 However if you do have a GPG key, add it to you submission profile and add a `-S`
-to `git commit -S -m "Some very cool enhancements"` and that's is. You can also 
+to `git commit -S -m "Some very cool enhancements"` and that's is. You can also
 set this globally or pr git. Do a search on [duckduckgo.com](https://duckduckgo.com)
 to figure out the current way.
 
