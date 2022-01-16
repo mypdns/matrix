@@ -899,7 +899,6 @@ statistic.qzone.qq.com
 stats-public.grammarly.io
 stats.artixlinux.org
 stats.avast.com
-stats.dbc.dk
 stats.esecured.net
 stats.extreme-down.work
 stats.fonecta.fi
