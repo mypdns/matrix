@@ -77,7 +77,6 @@ blogspot.td
 blogspot.tw
 blogspot.ug
 blogspot.vn
-facebook-web-clients.appspot.com
 facebook.com
 facebook.de
 facebook.fr

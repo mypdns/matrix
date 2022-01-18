@@ -499,7 +499,6 @@
 7x7.fun
 7x749.xyz
 7y6.xyz
-8.dramafeverw2.appspot.com
 8000818.com
 8006688.com
 800d24d61daea3c.com
@@ -917,7 +916,6 @@ adapp.qq.com
 adaptiveads.com
 adaranth.com
 adaround.net
-adasiatagmanager.appspot.com
 adatrix.com
 adaware.com
 adback.co
@@ -1361,7 +1359,6 @@ adrunnr.com
 ads-4u.com
 ads-bidder-api.twitter.com
 ads-d.viber.com
-ads-dot-o7apps.appspot.com
 ads-elsevier.net
 ads-for-free.com
 ads-pixiv.net
@@ -1436,7 +1433,6 @@ adscale.io
 adscale.net
 adscale.pl
 adscampaign.net
-adscaspion.appspot.com
 adscendmedia.com
 adsclick.qq.com
 adsco.re
@@ -1653,7 +1649,6 @@ adv.mediaharbor.co.kr
 adv.qq.com
 adv.sec.intl.miui.com
 adv9.net
-advancedtracker.appspot.com
 advancellsclo.site
 advancelocal-adapter-image-uploads.s3.amazonaws.com
 advanseads.com
@@ -1896,7 +1891,6 @@ agcdn.com
 agdvemtd.com
 aggravedgaree.info
 aggregateknowledge.com
-agilecrm-web-stats.appspot.com
 agkn.com
 aglocobanners.com
 agmtrk.com
@@ -2044,7 +2038,6 @@ alphabird.com
 alphagodaddy.com
 alreadygrippatsy.com
 alszaaceaz.com
-alt.bugsense.appspot.com
 alternads.info
 alternativeadverts.com
 altitude-arena.com
@@ -2089,7 +2082,6 @@ amjrfmhtmoyan.com
 amkwvxhw.com
 ammankeyan.com
 amobee.com
-amp-error-reporting.appspot.com
 amp.services
 ampallall.site
 ampleteexis.info
@@ -2122,7 +2114,6 @@ andbeyond.media
 andohs.net
 andomedia.com
 andomediagroup.com
-androidquery.appspot.com
 androidtvwatsonfe-pa.googleapis.com
 angege.com
 anglishreasts.site
@@ -2179,8 +2170,6 @@ apeartalb.site
 apexcdn.com
 aphookkensidah.pro
 aphycolourses.info
-api-dot-mwm-ab-testing.appspot.com
-api-dot-mwm-ad-mediation.appspot.com
 api-ntv-elb-1185445618.us-east-1.elb.amazonaws.com
 api.d.xiaomi.com
 api.deep.bi
@@ -2518,7 +2507,6 @@ axeclbthp.com
 axeldivision.com
 axfsqwyidpml.com
 axgkizsmtgks.com
-axislogger.appspot.com
 axlwizxolfby.com
 axmtrack.com
 axsczaklngkxx.com
@@ -2725,7 +2713,6 @@ bcngvwvewfvw.com
 bcvrczvqlm.com
 bczxmlqcugwgs.com
 bd202457b.com
-bdg-analytics.appspot.com
 bdhbtrizb.com
 bdisnqwfcq.com
 bdnfszdqwaduv.com
@@ -2937,12 +2924,10 @@ bitcoadz.io
 bitcoinadvertise.net
 bitcoinadvertisers.com
 bitcoset.com
-bitdash-reporting.appspot.com
 biteburied.com
 bitests.pro
 bitmedia.io
 bitmedianetwork.com
-bitmovin-bitanalytics.appspot.com
 bitonclick.com
 bitraffic.com
 bitslot.se
@@ -3243,7 +3228,6 @@ budgetcolt.com
 budgetedbauer.com
 budurl.com
 buggrater.com
-bugsense.appspot.com
 buhlhkkvljt.com
 buhxsaifjxupaj.com
 buildhoodpip.club
@@ -3460,7 +3444,6 @@ cashworld.biz
 casino-zilla.com
 casinohacksforyou.com
 caspion.com
-caspionlog.appspot.com
 casterist.info
 casterpretic.com
 castoola.com
@@ -3720,11 +3703,9 @@ chqspuonctkgz.com
 christingera.site
 christinglatvian.site
 christingsugged.site
-chrome-devtools-frontend.appspot.com
 chrome.google.com
 chronicads.com
 chsrkred.com
-chtatic.appspot.com
 chufudsi.net
 chugagre.com
 chukalapopi.com
@@ -4211,8 +4192,6 @@ crrgnnqidpf.com
 cruisteerses.co
 crupntgybilt.com
 crvtrk.com
-crwscdn.appspot.com
-crwscdn9.appspot.com
 crwzxtuhvzv.com
 crxhbchbd.com
 cryaptall.club
@@ -4231,7 +4210,6 @@ csmcfetvb.com
 csnd.xyz
 csnqzwwdtjg.com
 csouqeeviwo.com
-csp-collector.appspot.com
 cspyozjbwb.com
 css-style-95.com
 cssimplicanab.info
@@ -5386,7 +5364,6 @@ eca1d7792ad5de43.com
 ecb.onejumpwebinc.netdna-cdn.com
 ecezkkrm.com
 echoazou.com
-echofonads.appspot.com
 eclick.vn
 eclkmpsa.com
 eclkspbn.com
@@ -5631,7 +5608,6 @@ eqdxwctuflfc.com
 eqfnhtthkog.com
 eqnqxfrxsmuy.com
 eqrauafet.com
-eqs-redserver.appspot.com
 equjalkngu.com
 eqzjfqkioowkle.com
 eralsstroying.info
@@ -5742,7 +5718,6 @@ evalynbrought.pro
 evantative.top
 evdveuys.com
 evemasoil.com
-event-reporting-dot-webylytics.appspot.com
 event.ridegoshare.com
 eventifiederik.pro
 eventurypol.site
@@ -6455,7 +6430,6 @@ g3938452447.com
 g3j2wzmon8b.com
 g4058683381.com
 g5fzq2l.com
-ga-beacon.appspot.com
 ga87z2o.com
 gadsabz.com
 gadsans.com
@@ -6583,13 +6557,11 @@ gentside.com
 gentside.com.br
 gentside.de
 gentside.it
-geo-locate.appspot.com
 geo.yahoo.com
 geo2.adobe.com
 geoadnxs.com
 geoadnxs.net
 geoadnxs.org
-geoapi123.appspot.com
 geodestricy.site
 geogslb.com
 geogslb.net
@@ -6916,7 +6888,6 @@ greeandjou.biz
 greedseed.world
 greekomythpo.com
 greemeek.net
-green-griffin-860.appspot.com
 green-red.com
 greenads.org
 greenlabelppc.com
@@ -7001,7 +6972,6 @@ gtkikiwa.com
 gtlcgovlg.com
 gtnlyyxfhkjv.com
 gtnmyddlf.com
-gu-pix.appspot.com
 guamokqekridi.com
 guanglijiudian.com
 guangzizai.com
@@ -7336,7 +7306,6 @@ hmjtutipevtmg.com
 hmmmcjgho.com
 hmongcash.com
 hmpumxcsex.com
-hnbutton.appspot.com
 hnhsvlswqtoxgn.com
 hnrfwtlvlnzumb.com
 hnsamgkrtliye.com
@@ -7729,7 +7698,6 @@ ilxwlsnzhzukj.com
 ilzjjdujrgaa.com
 ilzwenpgf.com
 im2ss2ss.top
-ima3vpaid.appspot.com
 image.ig.com.br
 imageadvantage.net
 imagehostnetwork.com
@@ -7949,7 +7917,6 @@ iouxtayinkmu.com
 iozpujvmlojzhp.com
 iozsmwjezobro.com
 ip-adress.com
-ip-geo.appspot.com
 ipacpdxmvwyi.com
 ipbiydocgvllrg.com
 ipbsgpm4.top
@@ -7998,7 +7965,6 @@ irresponsibleclassplunge.com
 irtya.com
 irtyf.com
 irvelcchuvsis.com
-is-tracking-pixel-api-prod.appspot.com
 isffnlbsuyinnv.com
 isfmvohloskgw.com
 isfxsiooyjad.com
@@ -8134,7 +8100,6 @@ jautaush.net
 javacript.cf
 javacript.ga
 javacript.tk
-javascriptcounter.appspot.com
 javblow.com
 jawcloud.co
 jaxwrwvxfscq.com
@@ -8393,7 +8358,6 @@ jscount.com
 jsfuz.com
 jsmentry.com
 jsmpsi.com
-json-cricket.appspot.com
 jsretra.com
 jssearch.net
 jsybwjivrlhx.com
@@ -9928,7 +9892,6 @@ mobileadspopup.com
 mobileanalytics.us-east-1.amazonaws.com
 mobilebanner.ru
 mobiledl.adobe.com
-mobilemetrics.appspot.com
 mobileofferplace.site
 mobileoffers-7-b-download.com
 mobileoffers-a-download.com
@@ -10126,7 +10089,6 @@ muoiuxfj.com
 mupteekr.net
 muqson0kgr.com
 murkymouse.online
-musculahq.appspot.com
 muscularstraight.com
 music-desktop.com
 music.126.net
@@ -10271,7 +10233,6 @@ nativeroll.tv
 nativeserv.com
 nativespot.com
 nativesubscribe.pro
-nativex-sdk.appspot.com
 naturalbd.com
 naucaips.com
 nauchegy.link
@@ -10568,7 +10529,6 @@ nofejectontrab.info
 nogerefron.info
 noglolra.com
 nojbconvtg.com
-nojsstats.appspot.com
 nokia-n8.com
 nolpjfsu.com
 nompakru.click
@@ -10890,7 +10850,6 @@ offerimage.com
 offers-tracking.com
 offerserve.com
 offersquared.com
-offerssyndication.appspot.com
 offerwall.s3.amazonaws.com
 offgashah.club
 offickiekizashi.site
@@ -11107,7 +11066,6 @@ openadstreamcentral.net
 openadsystem.com
 openadsystems.com
 openadsystems.net
-openamp-error-reporting.appspot.com
 openapi.naver.com
 openbook.net
 opencdb84507.com
@@ -11144,7 +11102,6 @@ opten.hu
 opter.co
 optiads.org
 optimaladbid.com
-optimizely.appspot.com
 optimizely.s3.amazonaws.com
 optimizesocial.com
 optimizesrv.com
@@ -11533,7 +11490,6 @@ peskyexecutionyouthful.com
 pestilentdarwinuphill.com
 pestrike.com
 petchesa.net
-petitionermaster.appspot.com
 petsarlaaafru.com
 petsoocm.com
 pewdewgeehc.com
@@ -12066,7 +12022,6 @@ presumablyclaimedlatest.com
 pretencemassage.com
 prevealhealth.info
 prexista.com
-prexyone.appspot.com
 prf.hn
 prfctmney.com
 prfxrfkrvzroz.com
@@ -12622,7 +12577,6 @@ quaves.info
 quavomi.com
 quazhzeih.com
 qubeslate.com
-qubitanalytics.appspot.com
 quensillo.com
 querylead.com
 questionmarket.com
@@ -12958,7 +12912,6 @@ revbigo.com
 revcatch.com
 revcontent.com
 revdepo.com
-revealads.appspot.com
 revenue.com
 revenueflex.com
 revenuegiants.com
@@ -13175,7 +13128,6 @@ rrshibwsq.com
 rrvpscehvjuz.com
 rrxlynihw.com
 rs-stripe.com
-rs-xpromotion.appspot.com
 rsalcch.com
 rsalcdp.com
 rsalchk.com
@@ -13377,7 +13329,6 @@ sal4m649fke3.com
 salarity.info
 salaure.pro
 salemyticket.com
-sales-pop-dot-autoketing-production-sdk.appspot.com
 sales.liveperson.net
 salesforce.com
 salesnleads.com
@@ -13433,7 +13384,6 @@ sbmdsfld.com
 sbopaitvwpzilp.com
 sbroughhig.info
 sbscribeme.com
-sc-analytics.appspot.com
 sc.rvtlife.com
 scahqyriepu.com
 scanmedios.com
@@ -13552,7 +13502,6 @@ seniorbaniaasth.info
 senolati.com
 sensible-ads.com
 sensortoluy.club
-sensytracker.appspot.com
 seoaelrfdy.com
 separatesilver.com
 separenujilo.club
@@ -13869,7 +13818,6 @@ sn00.net
 snack-media.com
 snambepupkjggz.com
 snap.com
-snapabug.appspot.com
 snapcheat.app
 snbybgwiyfug.com
 snckdjuymeopsc.com
@@ -14432,7 +14380,6 @@ tanx.com
 taodropship.com
 taowjygwtm.com
 taozgpkjzpdtgr.com
-tap-nexus.appspot.com
 tapad.com
 tapffdskgjr.com
 tapfiliate.com
@@ -14469,7 +14416,6 @@ tbtrck.com
 tbupszmmzn.com
 tbv157xq.com
 tbxvgojzcbxpoc.com
-tc-bic.appspot.com
 tcadops.ca
 tcatkrccxgc.com
 tcblwdybgbtzl.com
@@ -14981,7 +14927,6 @@ tricsdqejmu.com
 tridentpercy.com
 trido.club
 trigami.com
-triggeredmail.appspot.com
 trigr.co
 trikersuccessar.site
 trimpur.com
@@ -15805,7 +15750,6 @@ vjqshoyjxwk.com
 vkafirac.com
 vkaofq64zz.com
 vkbftstazhjgdx.com
-vkcdnservice.appspot.com
 vkkpv.com
 vknrfwwxhxaxupqp.pro
 vkudpjuvg.com
@@ -15927,7 +15871,6 @@ vulging.pro
 vungle.com
 vupulse.com
 vuqufeqv.com
-vuukle-analytics.appspot.com
 vuuwd.com
 vuvcwrxn.com
 vuwojxgklca.com
@@ -16098,10 +16041,6 @@ webeatyouradblocker.com
 weberotic.net
 webgekeniuos.com
 webinstats.com
-webiq-cdn-hr.appspot.com
-webiq-cdn.appspot.com
-webiq-warp-hrd.appspot.com
-webiq-warp.appspot.com
 webma.space
 webmail.ig.com.br
 webmasterspub.com
