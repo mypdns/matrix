@@ -7,6 +7,17 @@
 This repository is [MyPDNS](https://mypdns.org/explore)'s self maintained
 list of domains that need to be blocked for various reasons.
 
+## TOC
+- [The Matrix](#the-matrix)
+	- [TOC](#toc)
+- [Source list](#source-list)
+- [Categorising](#categorising)
+- [Whitelist](#whitelist)
+- [Bulk commits](#bulk-commits)
+- [FAQ](#faq)
+	- [Issue templates Quick links](#issue-templates-quick-links)
+- [Keywords](#keywords)
+
 # Source list
 The `source` folder contains several sub-folders, each named as groups,
 for which a submission should be put. This however doesn't necessary
@@ -31,7 +42,7 @@ but not on others. It can also be that a domain in general is 99,9%
 right, but because of it's nature of user based submissions, could do a
 lot of evil.
 
-##### Ex. Github.com
+Ex. Github.com
 
 Gitlab is hosting 100% user submitted content, but for the same reason,
 is also a target for cyber criminals to host their evil
