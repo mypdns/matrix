@@ -3,6 +3,9 @@
 Query database: [radb.net](https://www.radb.net/query)
 
 ---
+This folder should be re-distributed to the right categories and not just
+stored like this lump of IP addresses
+
 
 ## NXDOMAIN quries to ip
 
@@ -23,13 +26,9 @@ Query database: [radb.net](https://www.radb.net/query)
 
 ---
 
-<!-- START doctoc generated TOC please keep comment here to allow auto update -->
-<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
-**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
+**Table of Contents**
 
 - [GitLab CI](#gitlab-ci)
 - [GitLab User or Group Pages](#gitlab-user-or-group-pages)
 - [Did you fork this project?](#did-you-fork-this-project)
 - [Troubleshooting](#troubleshooting)
-
-<!-- END doctoc generated TOC please keep comment here to allow auto update -->

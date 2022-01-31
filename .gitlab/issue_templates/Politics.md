@@ -1,11 +1,11 @@
-I believe this domain is an [AdWare](https://mypdns.org/MypDNS/support/-/wikis/Categories/Adware) domain(s) --> that have to be blocked as..
+I believe this domain is an [Politics](https://mypdns.org/MypDNS/support/-/wikis/Categories/Politics) domain(s) --> that have to be blocked as..
 
 - [X] Wildcarded
 - [ ] Single domain blocking
 
 ```python
-domain   CNAME . ; AdWare
-*.domain   CNAME . ; AdWare
+domain   CNAME . ; Politics
+*.domain   CNAME . ; Politics
 ```
 
 ## Relevant comments
@@ -38,7 +38,7 @@ domain   CNAME . ; AdWare
 - [X] RPZ Server (Team @Spirillen)
 - [X] Added to Source file
 
-/label ~AdWare
+/label ~Politics
 
 /assign @Spirillen
 
