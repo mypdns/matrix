@@ -1,11 +1,11 @@
-I believe this domain is an [AdWare](https://mypdns.org/MypDNS/support/-/wikis/Categories/Adware) domain(s) --> that have to be blocked as..
+I believe this domain is an [Movie](https://mypdns.org/MypDNS/support/-/wikis/Categories/Movies) domain(s) --> that have to be blocked as..
 
 - [X] Wildcarded
 - [ ] Single domain blocking
 
 ```python
-domain   CNAME . ; AdWare
-*.domain   CNAME . ; AdWare
+domain   CNAME . ; Movies-Stream
+*.domain   CNAME . ; Movies-Stream
 ```
 
 ## Relevant comments
@@ -38,7 +38,7 @@ domain   CNAME . ; AdWare
 - [X] RPZ Server (Team @Spirillen)
 - [X] Added to Source file
 
-/label ~AdWare
+/label ~Movies-Stream
 
 /assign @Spirillen
 

@@ -1,4 +1,4 @@
-I believe this domain is an [AdWare](https://mypdns.org/MypDNS/support/-/wikis/Adware) domain(s) --> that have to be blocked as..
+I believe this domain is an [AdWare](https://mypdns.org/MypDNS/support/-/wikis/Categories/Adware) domain(s) --> that have to be blocked as..
 
 - [X] Wildcarded
 - [ ] Single domain blocking
