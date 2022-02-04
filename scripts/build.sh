@@ -2,7 +2,7 @@
 
 # Copyright: https://mypdns.org/
 # Content: https://mypdns.org/spirillen
-# Source: https://mypdns.org/import-external-sources/pornhosts
+# Source: https://mypdns.org/my-privacy-dns/matrix
 # License: https://mypdns.org/wiki/License
 # License Comment: GNU AGPLv3, MODIFIED FOR NON COMMERCIAL USE
 #

@@ -7,6 +7,7 @@ scripts/adware.sh
 scripts/bulk_add.sh
 scripts/bulk_clean.sh
 scripts/easylistloop.sh
+scripts/pirated_bot.bash
 scripts/spam.sh
 source/dns-servers/combined.txt
 source/safesearch/combined.txt
