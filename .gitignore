@@ -25,3 +25,5 @@ screenshots/
 .vscode
 **.code-workspace
 no-git/**
+scripts/pirated_batchupdater.php
+scripts/lib.gitlab.php
