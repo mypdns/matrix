@@ -7,7 +7,10 @@ scripts/adware.sh
 scripts/bulk_add.sh
 scripts/bulk_clean.sh
 scripts/easylistloop.sh
+scripts/lib.gitlab.php
+scripts/pirated_batchupdater.php
 scripts/pirated_bot.bash
+scripts/pirated.bash
 scripts/spam.sh
 source/dns-servers/combined.txt
 source/safesearch/combined.txt
@@ -25,5 +28,3 @@ screenshots/
 .vscode
 **.code-workspace
 no-git/**
-scripts/pirated_batchupdater.php
-scripts/lib.gitlab.php

@@ -4,8 +4,8 @@ I believe this domain is an [Movie](https://mypdns.org/MypDNS/support/-/wikis/Ca
 - [ ] Single domain blocking
 
 ```python
-domain   CNAME . ; Movies-Stream
-*.domain   CNAME . ; Movies-Stream
+domain   CNAME . ; Movie - Stream
+*.domain   CNAME . ; Movie - Stream
 ```
 
 ## Relevant comments
@@ -38,7 +38,7 @@ domain   CNAME . ; Movies-Stream
 - [X] RPZ Server (Team @Spirillen)
 - [X] Added to Source file
 
-/label ~Movies-Stream
+/label ~Movies
 
 /assign @Spirillen
 
