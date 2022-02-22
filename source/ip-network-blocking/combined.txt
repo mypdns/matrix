@@ -1,0 +1,8 @@
+# This list is no longer updated. You will need to combine the lists your
+# self in the future.
+#
+# https://mypdns.org/mypdns/support/-/issues/307
+#
+# Best regards
+#
+# My Privacy DNS

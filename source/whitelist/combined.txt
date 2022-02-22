@@ -1,27 +1,8 @@
-edgekey.net
-i.ebayimg.com
-i.imgur.com
-ig.com.br
-s3.amazonaws.com
-www.ig.com.br
-adguard.com
-adtidy.org
-discordapp.com
-eff.org
-github.com
-github.io
-gitlab.io
-gtld-servers.net
-insomniagamingfestival.com
-matrix.rocks
-mypdns.cloud
-mypdns.com
-mypdns.org
-pusher.com
-spb.ru
-thepiratebay.org
-tinypic.com
-travis-ci.com
-travis-ci.org
-ubuntu101.co.za
-wwwfacebook.com
+# This list is no longer updated. You will need to combine the lists your
+# self in the future.
+#
+# https://mypdns.org/mypdns/support/-/issues/307
+#
+# Best regards
+#
+# My Privacy DNS

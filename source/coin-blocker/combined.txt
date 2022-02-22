@@ -1,11 +1,8 @@
-0x1f4b0.com
-binance.com
-btcc.com
-btcchina.com
-coin-hive.com
-coinhive.com
-coinlab.biz
-f2pool.com
-foxypool.cf
-nanopool.org
-vip69.ru
+# This list is no longer updated. You will need to combine the lists your
+# self in the future.
+#
+# https://mypdns.org/mypdns/support/-/issues/307
+#
+# Best regards
+#
+# My Privacy DNS

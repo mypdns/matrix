@@ -1,34 +1,8 @@
-24houraliexpress.com
-aliexpress.com.ua
-amazonco.uk
-best.aliexpress.com
-bitbuket.org
-bitcoinaliexpress.com
-cashback-aliexpress.com
-cashpreso.com
-dnsviz.com
-githuv.com
-giyhub.com
-gotlab.com
-hphost.com
-hphosts.com
-httpaliexpress.com
-httpswwwaliexpress.com
-imicrosoft.com
-microsoftsupport.xyz
-multpprn.net
-myishop.co.uk
-nort2on.com
-nottepad-plus-plus.org
-rarbgunblock.com
-s-aliexpress.com
-subscenes.com
-topaliexpress.com
-tor-project.org
-trucknoww.com
-ttwitter.com
-whatsap.com
-xn--discrd-zxa.com
-xn--disordapp-s3a.com
-xn--minecrft-5za.com
-xn--yotu-1ra.be
+# This list is no longer updated. You will need to combine the lists your
+# self in the future.
+#
+# https://mypdns.org/mypdns/support/-/issues/307
+#
+# Best regards
+#
+# My Privacy DNS
