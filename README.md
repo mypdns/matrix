@@ -11,11 +11,13 @@ list of domains that need to be blocked for various reasons.
 - [The Matrix](#the-matrix)
 	- [TOC](#toc)
 - [Source list](#source-list)
-- [Categorising](#categorising)
+- [Categorizing](#categorizing)
+- [Submitting](#submitting)
+	- [File structure and Category explained](#file-structure-and-category-explained)
+	- [Issue templates Quick links](#issue-templates-quick-links)
 - [Whitelist](#whitelist)
 - [Bulk commits](#bulk-commits)
 - [FAQ](#faq)
-	- [Issue templates Quick links](#issue-templates-quick-links)
 - [Keywords](#keywords)
 
 # Source list
@@ -91,7 +93,8 @@ You can use the following quick links to generate issues within matrix
 | [Tracking][Tracking]                                                                                                                                     | `https://mypdns.org/my-privacy-dns/matrix/-/issues/new?issuable_template=Tracking`            |
 | [Typo Squatting][TypoSquatting]                                                                                                                          | `https://mypdns.org/my-privacy-dns/matrix/-/issues/new?issuable_template=Typo%20Squatting`    |
 | Weapons                                                                                                                                                  |                                                                                               |
-| [Whitelist/False Negatives/Removals][Whitelist]                                                                                                          | `https://mypdns.org/my-privacy-dns/matrix/-/issues/new?issuable_template=Whitelist`           |
+| [Whitelist][Whitelist]                                                                                                                                   | `https://mypdns.org/my-privacy-dns/matrix/-/issues/new?issuable_template=Whitelist`           |
+| [False Negatives/Removals][Removals]                                                                                                                     | `https://mypdns.org/my-privacy-dns/matrix/-/issues/new?issuable_template=False%20Positive`    |
 |                                                                                                                                                          |                                                                                               |
 | <h2>Special Templates</h2>                                                                                                                               |                                                                                               |
 | [-aa][Bulk-commits]<br>  A fast bulk template modified constantly to match a specific case                                                               | `https://mypdns.org/my-privacy-dns/matrix/-/issues/new?issuable_template=-aa`                 |
@@ -177,6 +180,7 @@ already for leaking privacy to third party.
 [PiratedDomain]: https://mypdns.org/my-privacy-dns/matrix/-/issues/new?issuable_template=Pirated%20Domain "Issue template to commit Outdated domain, pirated and hijacked by domains Jackal's"
 [Redirecting]: https://mypdns.org/my-privacy-dns/matrix/-/issues/new?issuable_template=Redirecting "Issue template to commit URL shortening and other redirecting only domain"
 [Removal]: #faq "Read the F.A.Q. *BEFORE* you proceed!"
+[Removals]: https://mypdns.org/my-privacy-dns/matrix/-/issues/new?issuable_template=False%20Positive "False Positive or removal of domains"
 [Scamming]: https://mypdns.org/my-privacy-dns/matrix/-/issues/new?issuable_template=Scamming "Issue template to commit Scamming sites"
 [Spam]: https://mypdns.org/my-privacy-dns/matrix/-/issues/new?issuable_template=Spam "Issue template to commit Spam records"
 [Spyware]: https://mypdns.org/my-privacy-dns/matrix/-/issues/new?issuable_template=Spyware "Issue template to commit Spyware domains"
