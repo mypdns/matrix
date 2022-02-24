@@ -1,0 +1,22 @@
+name: 'Lock down repository'
+
+on:
+  issues:
+    types: opened
+  pull_request:
+    types: opened
+  schedule:
+    - cron: '0 * * * *'
+
+jobs:
+  lockdown:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: dessant/repo-lockdown@v2
+        with:
+          github-token: ${{ github.token }}
+          pr-comment: >
+            This repository does not accept pull requests.
+            Please help us at http://mypdns.org
+          skip-closed-issue-comment: true
+          skip-closed-pr-comment: true
