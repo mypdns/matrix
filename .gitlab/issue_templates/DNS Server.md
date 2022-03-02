@@ -52,7 +52,7 @@ I believe this DNS Server needs to be blocked as...
 128.57.zz.1.0.db8.2001.rpz-nsip
 ```
 
-/label ~"DNS Server"
+/label ~DNS_Server
 
 /assign @spirillen
 

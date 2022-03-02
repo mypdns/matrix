@@ -38,7 +38,7 @@ domain   CNAME . ; Typo Squatting
 - [X] RPZ Server (Team @Spirillen)
 - [X] Added to Source file
 
-/label ~"Typo Squatting"
+/label ~Typo_Squatting
 
 /assign @Spirillen
 
