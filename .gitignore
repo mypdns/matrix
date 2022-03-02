@@ -7,6 +7,7 @@ scripts/adware.sh
 scripts/bulk_add.sh
 scripts/bulk_clean.sh
 scripts/easylistloop.sh
+scripts/getadmiral.bash
 scripts/lib.gitlab.php
 scripts/pirated_batchupdater.php
 scripts/pirated_bot.bash
