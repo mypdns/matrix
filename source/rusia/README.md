@@ -17,5 +17,15 @@ The list [IThinkImCoolByRuinItForEveryone.csv][IThinkImCoolByRuinItForEveryone.c
 Is to (white)lists the oversmart commits which have nothing to do with
 blackisting the war mongering Putin-land.
 
+Note for `source/rusia/rpz-ip.csv` This syntax is in .in-addr.arpa. (PTR)
+format:
+
+This mean, to blacklist 192.0.2.10/24 (192.0.2.10 / 255.255.255.0), you
+make the following line
+
+```
+24.10.2.0.192
+```
+
 
 [False Positive]: https://mypdns.org/mypdns/support/-/wikis/False-Positive
