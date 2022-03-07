@@ -17,8 +17,8 @@ reason
 - [ ] Wildcard
 
 ```python
-domain   CNAME . ; whitelisted
-*.domain   CNAME . ; whitelisted
+domain   CNAME rpz-passthru. ; whitelisted
+*.domain   CNAME rpz-passthru. ; whitelisted
 ```
 
 ## Extravagant good reason

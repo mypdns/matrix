@@ -18,8 +18,8 @@ reason
 - [ ] Wildcard
 
 ```css
-domain   CNAME . ; Write new Category
-*.domain   CNAME . ; Write new Category
+domain   CNAME rpz-passthru. ; Write new Category
+*.domain   CNAME rpz-passthru. ; Write new Category
 ```
 
 ## Extravagant good reason
