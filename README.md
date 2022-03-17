@@ -13,6 +13,7 @@ list of domains that need to be blocked for various reasons.
 - [Source list](#source-list)
 - [Categorizing](#categorizing)
 - [Submitting](#submitting)
+	- [Reporting tool](#reporting-tool)
 	- [File structure and Category explained](#file-structure-and-category-explained)
 	- [Issue templates Quick links](#issue-templates-quick-links)
 - [Whitelist](#whitelist)
@@ -35,6 +36,11 @@ short describes what the list is all about and the criteria to add a domain
 into it's `domain.list` or `wildcard.list`.
 
 # Submitting
+## Reporting tool
+You can also use our new [MyPDNS Reporter][mypdnsReport], which is one of
+three things, a Browser-based add-on, API and a CLI (Command LIne
+Interface), for which you can choose between as you prefer.
+
 ## File structure and Category explained
 
 This list is on hold in relation to https://mypdns.org/infrastructure/workboard/-/issues/14
@@ -176,6 +182,7 @@ already for leaking privacy to third party.
 [getadmiral]: https://mypdns.org/my-privacy-dns/matrix/-/issues/3023
 [IP-Blocking]: https://mypdns.org/my-privacy-dns/matrix/-/issues/new?issuable_template=IP%20Blocking "Issue template to commit Blocking by IP addresses"
 [MalWare]: https://mypdns.org/my-privacy-dns/matrix/-/issues/new?issuable_template=Malicious%20MalWare "Issue template to commit Malicious and or Malware"
+[mypdnsReport]: https://mypdns.org/infrastructure/mypdns-report
 [Phishing]: https://mypdns.org/my-privacy-dns/matrix/-/issues/new?issuable_template=Phishing "Issue template to commit Phishing"
 [PiratedDomain]: https://mypdns.org/my-privacy-dns/matrix/-/issues/new?issuable_template=Pirated%20Domain "Issue template to commit Outdated domain, pirated and hijacked by domains Jackal's"
 [Redirecting]: https://mypdns.org/my-privacy-dns/matrix/-/issues/new?issuable_template=Redirecting "Issue template to commit URL shortening and other redirecting only domain"
