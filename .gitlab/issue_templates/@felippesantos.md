@@ -34,7 +34,7 @@ Adserver found at ``
 - [X] Added [screenshot](https://mypdns.org/MypDNS/support/-/wikis/Screenshot)
 	  for prove of [False Negative](https://mypdns.org/MypDNS/support/-/wikis/False-Negative)
 
-### Testing face
+### Testing phace
 - [X] Checked the internet for verification?
 - [X] Have you successfully ran tests with your changes locally?
 

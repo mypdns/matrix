@@ -30,7 +30,7 @@ I believe this DNS Server needs to be blocked as...
 - [ ] Added [screenshot](https://mypdns.org/MypDNS/support/-/wikis/Screenshot)
 	  for prove of [False Negative](https://mypdns.org/MypDNS/support/-/wikis/False-Negative)
 
-### Testing face
+### Testing phace
 - [ ] Checked the internet for verification?
 - [ ] Have you successfully ran tests with your changes locally?
 

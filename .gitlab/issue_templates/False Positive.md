@@ -46,7 +46,7 @@ console output, logs, and code as it's very hard to read otherwise. -->
   - [ ] Added [screenshot][screenshot] for prove of [False Negative][False Negative]
   - [ ] Have you added an explanation of what your submission do and why you'd like us to include them??
 
-### Testing face
+### Testing phace
   - [ ] Checked the internet for verification?
   - [ ] Have you successfully ran tests with your changes locally?
 
