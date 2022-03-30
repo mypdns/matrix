@@ -28,19 +28,19 @@ Adserver found at ``
 ```
 
 ### All Submissions:
-- [ ] Did you follow the guidelines in the [Contributing](CONTRIBUTING.md)
+- [X] Did you follow the guidelines in the [Contributing](CONTRIBUTING.md)
 	  document?
-- [ ] Have you checked to ensure there aren't other open
+- [X] Have you checked to ensure there aren't other open
       [Merge Requests (MR)](../merge_requests) or [Issues](../../issues) for the
       same domain?
-- [ ] Have you added an explanation of what your submission do and why you'd
+- [X] Have you added an explanation of what your submission do and why you'd
 	  like us to include them??
 - [X] Added [screenshot](https://mypdns.org/MypDNS/support/-/wikis/Screenshot)
 	  for prove of [False Negative](https://mypdns.org/MypDNS/support/-/wikis/False-Negative)
 
 ### Testing phase
-- [ ] Checked the internet for verification?
-- [ ] Successfully tested changes locally?
+- [X] Checked the internet for verification?
+- [X] Successfully tested changes locally?
 
 ### Todo
 - [X] RPZ Server (Team @Spirillen)
@@ -53,5 +53,3 @@ Adserver found at ``
 /severity low
 
 /publish
-
-/assign @spirillen
