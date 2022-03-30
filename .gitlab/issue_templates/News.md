@@ -7,7 +7,7 @@ I believe this domain is an [News](https://mypdns.org/MypDNS/support/-/wikis/Cat
 - [X] Wildcarded
 - [ ] Single domain blocking
 
-```python
+```css
 domain   CNAME . ; News
 *.domain   CNAME . ; News
 ```

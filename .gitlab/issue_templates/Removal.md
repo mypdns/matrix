@@ -12,7 +12,7 @@ url's in back ticks `(`)`, we are not a linking service (TGP) -->
 
 This domain Should be remove because...
 
-```python
+```css
 domain   CNAME . ; Removal
 *.domain   CNAME . ; Removal
 ```

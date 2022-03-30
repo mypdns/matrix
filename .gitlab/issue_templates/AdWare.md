@@ -7,7 +7,7 @@ I believe this domain is an [AdWare](https://mypdns.org/MypDNS/support/-/wikis/C
 - [X] Wildcarded
 - [ ] Single domain blocking
 
-```python
+```css
 domain   CNAME . ; AdWare
 *.domain   CNAME . ; AdWare
 ```

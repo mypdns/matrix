@@ -7,7 +7,7 @@ I believe this domain is an [Movie](https://mypdns.org/MypDNS/support/-/wikis/Ca
 - [X] Wildcarded
 - [ ] Single domain blocking
 
-```python
+```css
 domain   CNAME . ; Movie - Stream
 *.domain   CNAME . ; Movie - Stream
 ```

@@ -7,7 +7,7 @@ I believe this domain is an CryptoMiner domain(s) --> which should be blocked as
 - [X] Wildcarded
 - [ ] Single domain blocking
 
-```python
+```css
 domain   CNAME . ; CryptoMiner
 *.domain   CNAME . ; CryptoMiner
 ```

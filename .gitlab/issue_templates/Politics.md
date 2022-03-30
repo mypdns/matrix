@@ -7,7 +7,7 @@ I believe this domain is an [Politics](https://mypdns.org/MypDNS/support/-/wikis
 - [X] Wildcarded
 - [ ] Single domain blocking
 
-```python
+```css
 domain   CNAME . ; Politics
 *.domain   CNAME . ; Politics
 ```

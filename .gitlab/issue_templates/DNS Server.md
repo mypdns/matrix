@@ -3,7 +3,7 @@ I believe this DNS Server needs to be blocked as...
 - [X] Wildcarded
 - [ ] Single domain blocking
 
-```python
+```css
 *.example.org.rpz-nsdname   CNAME . ; DNSServer
 24.0.2.3.4.rpz-nsip   CNAME . ; DNSServer
 ```

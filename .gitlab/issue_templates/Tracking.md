@@ -7,7 +7,7 @@ I believe this domain is an Tracking domain(s) --> which should be blocked as..
 - [X] Wildcarded
 - [ ] Single domain blocking
 
-```python
+```css
 domain   CNAME . ; Tracking
 *.domain   CNAME . ; Tracking
 ```

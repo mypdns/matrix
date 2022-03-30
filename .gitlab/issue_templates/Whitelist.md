@@ -16,7 +16,7 @@ reason
 - [X] Domain(s)
 - [ ] Wildcard
 
-```python
+```css
 domain   CNAME rpz-passthru. ; whitelisted
 *.domain   CNAME rpz-passthru. ; whitelisted
 ```

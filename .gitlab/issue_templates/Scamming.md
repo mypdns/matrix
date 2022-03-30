@@ -7,7 +7,7 @@ I believe this domain is an Scamming / Spam domain(s) --> which should be blocke
 - [X] Wildcarded
 - [ ] Single domain blocking
 
-```python
+```css
 domain   CNAME . ; Scamming
 *.domain   CNAME . ; Scamming
 ```

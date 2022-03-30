@@ -7,7 +7,7 @@ I believe this domain is an Spyware domain(s) --> which should be blocked as..
 - [X] Wildcarded
 - [ ] Single domain blocking
 
-```python
+```css
 domain   CNAME . ; Spyware
 *.domain   CNAME . ; Spyware
 ```

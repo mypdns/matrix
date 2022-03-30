@@ -7,7 +7,7 @@ I believe this domain is an [Torrent](https://mypdns.org/MypDNS/support/-/wikis/
 - [X] Wildcarded
 - [ ] Single domain blocking
 
-```python
+```css
 domain   CNAME . ; Torrent
 *.domain   CNAME . ; Torrent
 ```

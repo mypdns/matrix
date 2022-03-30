@@ -7,7 +7,7 @@ I believe this domain is an Redirecting domain(s) --> which should be blocked as
 - [X] Wildcarded
 - [ ] Single domain blocking
 
-```python
+```css
 domain   CNAME . ; Redirecting, Tracking
 *.domain   CNAME . ; Redirecting, Tracking
 ```

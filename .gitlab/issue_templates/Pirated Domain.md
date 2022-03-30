@@ -7,7 +7,7 @@ I believe this domain is an Hijacked/Pirated/Sharked domain(s) --> which should 
 - [X] Wildcarded
 - [ ] Single domain blocking
 
-```python
+```css
 domain   CNAME . ; Pirated
 *.domain   CNAME . ; Pirated
 ```

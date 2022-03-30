@@ -7,7 +7,7 @@ I believe this domain is an Typo Squatting domain(s) --> which should be blocked
 - [X] Wildcarded
 - [ ] Single domain blocking
 
-```python
+```css
 domain   CNAME . ; Typo Squatting
 *.domain   CNAME . ; Typo Squatting
 ```

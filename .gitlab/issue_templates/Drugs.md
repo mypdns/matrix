@@ -7,7 +7,7 @@ I believe this domain is an [Drugs](https://mypdns.org/MypDNS/support/-/wikis/Ca
 - [X] Wildcarded
 - [ ] Single domain blocking
 
-```python
+```css
 domain   CNAME . ; Drugs
 *.domain   CNAME . ; Drugs
 ```

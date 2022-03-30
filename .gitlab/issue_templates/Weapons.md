@@ -7,7 +7,7 @@ I believe this domain is an [Weapons](https://mypdns.org/MypDNS/support/-/wikis/
 - [X] Wildcarded
 - [ ] Single domain blocking
 
-```python
+```css
 domain   CNAME . ; Weapons
 *.domain   CNAME . ; Weapons
 ```
