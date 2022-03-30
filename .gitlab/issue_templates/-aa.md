@@ -16,8 +16,8 @@ $DOMAINs
 
 (!Comment: we prefer blacklisting by wildcard as much as possible)
 ```css
-$DOMAIN   CNAME . ; $cat1 elif , $cat2 for other comment
-*.$DOMAIN   CNAME . ; $cat1 elif , $cat2 Room for other comment
+$DOMAIN   CNAME . ; $cat1 elif , $cat2 # other comment
+*.$DOMAIN   CNAME . ; $cat1 elif , $cat2 # other comment
 ```
 
 ```
