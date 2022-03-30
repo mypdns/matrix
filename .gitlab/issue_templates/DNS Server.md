@@ -20,19 +20,19 @@ I believe this DNS Server needs to be blocked as...
 - ``
 
 ### All Submissions:
-- [X] Have you followed the guidelines in our [Contributing](CONTRIBUTING.md)
+- [ ] Did you follow the guidelines in the [Contributing](CONTRIBUTING.md)
 	  document?
-- [x] Have you checked to ensure there aren't other open
+- [ ] Have you checked to ensure there aren't other open
       [Merge Requests (MR)](../merge_requests) or [Issues](../../issues) for the
-      same update/change?
-- [X] Have you added an explanation of what your submission do and why you'd
+      same domain?
+- [ ] Have you added an explanation of what your submission do and why you'd
 	  like us to include them??
 - [ ] Added [screenshot](https://mypdns.org/MypDNS/support/-/wikis/Screenshot)
 	  for prove of [False Negative](https://mypdns.org/MypDNS/support/-/wikis/False-Negative)
 
-### Testing phace
+### Testing phase
 - [ ] Checked the internet for verification?
-- [ ] Have you successfully ran tests with your changes locally?
+- [ ] Successfully tested changes locally?
 
 ### Todo:
 - [ ] RPZ Server (Team @Spirillen)
@@ -53,8 +53,6 @@ I believe this DNS Server needs to be blocked as...
 ```
 
 /label ~DNS_Server
-
-/assign @spirillen
 
 /weight 2
 

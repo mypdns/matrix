@@ -1,4 +1,4 @@
-I believe this domain is an [Religion](https://mypdns.org/MypDNS/support/-/wikis/Categories/Religion) domain(s) --> that have to be blocked as..
+I believe this domain is an [Torrent](https://mypdns.org/MypDNS/support/-/wikis/Categories/Torrent) domain(s) --> that have to be blocked as..
 
 ```
 (please input basedomain here)
@@ -8,8 +8,8 @@ I believe this domain is an [Religion](https://mypdns.org/MypDNS/support/-/wikis
 - [ ] Single domain blocking
 
 ```python
-domain   CNAME . ; Religion
-*.domain   CNAME . ; Religion
+domain   CNAME . ; Torrent
+*.domain   CNAME . ; Torrent
 ```
 
 ## Relevant comments
@@ -23,7 +23,7 @@ domain   CNAME . ; Religion
 - ``
 - ``
 
-### All Submissions:
+### All User Submissions:
 - [ ] Did you follow the guidelines in the [Contributing](CONTRIBUTING.md)
 	  document?
 - [ ] Have you checked to ensure there aren't other open
@@ -42,9 +42,9 @@ domain   CNAME . ; Religion
 - [X] RPZ Server (Team @Spirillen)
 - [X] Added to Source file
 
-/label ~Religion
+/label ~Torrent
 
-/weight 2
+/weight 1
 
 /publish
 

@@ -42,13 +42,13 @@ console output, logs, and code as it's very hard to read otherwise. -->
   - [ ] Have you followed the guidelines in our [Contributing](CONTRIBUTING.md) document?
   - [ ] Have you checked to ensure there aren't other open
 		[Merge Requests (MR)](../merge_requests) or [Issues](../../issues) for the
-		same update/change?
+		same domain?
   - [ ] Added [screenshot][screenshot] for prove of [False Negative][False Negative]
   - [ ] Have you added an explanation of what your submission do and why you'd like us to include them??
 
-### Testing phace
+### Testing phase
   - [ ] Checked the internet for verification?
-  - [ ] Have you successfully ran tests with your changes locally?
+  - [ ] Successfully tested changes locally?
 
 ### Todo:
   - [ ] Added to Source file
@@ -56,8 +56,6 @@ console output, logs, and code as it's very hard to read otherwise. -->
 
 
 /label ~"Removal::False Positive"
-
-/assign @spirillen
 
 /weight 6
 

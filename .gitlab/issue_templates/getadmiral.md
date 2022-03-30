@@ -23,19 +23,19 @@ This text appears on all Admirals owned domains
 
 
 ### All Submissions:
-- [X] Have you followed the guidelines in our [Contributing](CONTRIBUTING.md)
+- [ ] Did you follow the guidelines in the [Contributing](CONTRIBUTING.md)
 	  document?
-- [x] Have you checked to ensure there aren't other open
+- [ ] Have you checked to ensure there aren't other open
       [Merge Requests (MR)](../merge_requests) or [Issues](../../issues) for the
-      same update/change?
-- [X] Have you added an explanation of what your submission do and why you'd
+      same domain?
+- [ ] Have you added an explanation of what your submission do and why you'd
 	  like us to include them??
 - [X] Added [screenshot](https://mypdns.org/MypDNS/support/-/wikis/Screenshot)
 	  for prove of [False Negative](https://mypdns.org/MypDNS/support/-/wikis/False-Negative)
 
-### Testing phace
-- [X] Checked the internet for verification?
-- [X] Have you successfully ran tests with your changes locally?
+### Testing phase
+- [ ] Checked the internet for verification?
+- [ ] Successfully tested changes locally?
 
 ### Todo
 - [X] RPZ Server (Team @Spirillen)
@@ -48,8 +48,6 @@ This text appears on all Admirals owned domains
 /milestone %"getadmiral.com"
 
 /label ~Tracking
-
-/assign @Spirillen
 
 /weight 8
 
