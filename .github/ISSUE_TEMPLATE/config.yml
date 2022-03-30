@@ -1,8 +1,8 @@
 blank_issues_enabled: false
 contact_links:
   - name: My Privacy DNS Community Support
-    url: https://mypdns.org/MypDNS/support/
-    about: Please ask and answer questions here.
+    url: https://mypdns.org/MypDNS/support/-/wikis/
+    about: Please ask your non rules questions here.
   - name: AdWare
     url: https://mypdns.org/my-privacy-dns/matrix/-/issues/new?issue[issue_type]=issue&issuable_template=AdWare
     about: Report any AdWare domain here
@@ -26,10 +26,10 @@ contact_links:
     about: Report any Malicious domains here
   - name: Phishing
     url: https://mypdns.org/my-privacy-dns/matrix/-/issues/new?issue%5Bissue_type%5D=issue&issuable_template=Phishing
-    about: Report anny phishing domains here
+    about: Report any phishing domains here
   - name: Phishing Url's
     url: https://github.com/mitchellkrogza/phishing/blob/main/add-link
-    about: Report anny phishing uri's here
+    about: Report any phishing uri's here
   - name: Redirecting
     url: https://mypdns.org/my-privacy-dns/matrix/-/issues/new?issue[issue_type]=issue&issuable_template=Redirecting
     about: Any domains used explicit to redirect urls, Typically used as AdWare and Tracking at the same time

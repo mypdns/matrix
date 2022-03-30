@@ -1,36 +1,91 @@
-I believe this domain is an Malware domain(s) --> which should be blocked as..
+> This issue is committed via our add-on.
+
+@${USER} believe this domain should be reported as ${$cat1, $cat2}
+
+-------------------
+`Alternative intro`
+@${USER} believes this domain should be reported
+-------------------
+
+```
+$DOMAINs
+```
 
 - [X] Wildcarded
-- [ ] Single domain blocking
+- [ ] Single domain (Only sub domains) (Comment: Sub.$domain can be wildcarded as well!!!)
 
-```python
-domain   CNAME . ; Malicious
-*.domain   CNAME . ; Malicious
+(!Comment: we prefer blacklisting by wildcard as much as possible)
+```css
+$DOMAIN   CNAME . ; $cat1 elif , $cat2 for other comment
+*.$DOMAIN   CNAME . ; $cat1 elif , $cat2 Room for other comment
+```
+
+```
+IF [ ISSUE == Porn Record ]
+THEN
+	### Additional requirements for hosts and Pi-hole
+
+	```css
+	IF [ ! -n sub.$domain ]
+	THEN
+		sub.$domain
+		sub1.$domain
+		...
+		sub829.$domain
+	ELSE
+		null
+	FI
+	```
+
+	```css
+	+ www (HTTP 200 on both $DOMAIN & www.$DOMAIN)
+	- www (HTTP 200 only on $DOMAIN )
+	www.$DOMAIN (HTTP 200 only on www.$DOMAIN)
+	```
+FI
 ```
 
 ## Relevant comments
-New SysJoker Backdoor Targets Windows, Linux, and macOS
 
-> Malware targeting multiple operating systems has become no exception in the malware threat landscape. Vermilion Strike, which was documented just last September, is among the latest examples until now.
->
-> In December 2021, we discovered a new multi-platform backdoor that targets Windows, Mac, and Linux. The Linux and Mac versions are fully undetected in VirusTotal. We named this backdoor SysJoker.
->
-> SysJoker was first discovered during an active attack on a Linux-based web server of a leading educational institution. After further investigation, we found that SysJoker also has Mach-O and Windows PE versions. Based on Command and Control (C2) domain registration and samples found in VirusTotal, we estimate that the SysJoker attack was initiated during the second half of 2021.
->
-> SysJoker masquerades as a system update and generates its C2 by decoding a string retrieved from a text file hosted on Google Drive. During our analysis the C2 changed three times, indicating the attacker is active and monitoring for infected machines. Based on victimology and malware’s behavior, we assess that SysJoker is after specific targets.
->
-> SysJoker was uploaded to VirusTotal with the suffix .ts which is used for TypeScript files. A possible attack vector for this malware is via an infected npm package.
->
-> Below we provide a technical analysis of this malware together with IoCs and detection and response mitigations.
-
-Read the full analytic report on `intezer.com`
 
 ## Screenshots
-![](https://149520725.v2.pressablecdn.com/wp-content/uploads/2022/01/Untitled-22.png)
+<details><summary>Screenshot</summary>
+
+![ScreenShot]($IMAGE.webp)
+
+</details>
 
 ## Relevant External sources
-- https://www.intezer.com/blog/malware-analysis/new-backdoor-sysjoker/
+
+(Comment: External urls should always be covered in backticks to avoid
+generating unwanted links)
+
+- `https://www.intezer.com/blog/malware-analysis/new-backdoor-sysjoker/`
 - `https://github.com/blocklistproject/Lists/issues/623`
+
+#### Test URL
+```
+${REPORTED_URI}
+```
+
+#### IP Information
+```
+$DOMAIN = $IP [$COUNTRY]
+ASN: $ASN_INFO
+```
+
+#### 3rd party Domains
+```
+$3P_DOMAIN(S)
+```
+
+> Linked issues
+
+- [facebook.com](https://mypdns.org/my-privacy-dns/matrix/-/issues/1728)
+- [scorecardresearch.com](https://mypdns.org/my-privacy-dns/matrix/-/issues/502)
+- [wp.com](https://mypdns.org/my-privacy-dns/matrix/-/issues/4515)
+- [youtube.com](https://mypdns.org/my-privacy-dns/matrix/-/issues/3868)
+
 
 ### All Submissions:
 - [X] Have you followed the guidelines in our [Contributing](CONTRIBUTING.md)
@@ -47,14 +102,25 @@ Read the full analytic report on `intezer.com`
 - [X] Checked the internet for verification?
 - [X] Have you successfully ran tests with your changes locally?
 
+(!Comment: IF = Possible, then make this unmarked until actually committed and have
+the post officer (bot) to mark the fixed once. We can maybe use the gitlab
+runner for this job, to offload your server(s))
+
 ### Todo
-- [X] RPZ Server (Team @Spirillen)
+- [X] RPZ Server
 - [X] Added to Source file
 
-/label ~Malicious
+/label ~$cat1 ~$cat2 ~$cat3
 
-/weight 6
+```
+IF = issue
+/weight $WEIGHT (Only in issues, based on category)
+
+ELIF = INCIDENT
+
+/severity $Severity (Only on incident, based on category)
+
+fi
+```
 
 /publish
-
-/severity high
