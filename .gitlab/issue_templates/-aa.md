@@ -86,7 +86,6 @@ $3P_DOMAIN(S)
 - [wp.com](https://mypdns.org/my-privacy-dns/matrix/-/issues/4515)
 - [youtube.com](https://mypdns.org/my-privacy-dns/matrix/-/issues/3868)
 
-
 ### All Submissions:
 - [ ] Did you follow the guidelines in the [Contributing](CONTRIBUTING.md)
 	  document?

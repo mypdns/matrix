@@ -12,10 +12,8 @@ domain   CNAME . ; Phishing
 *.domain   CNAME . ; Phishing
 ```
 
-
 ## Relevant comments
 <!-- Be as clear as possible: nobody can read your mind, and nobody is looking at your issue over your shoulder. -->
-
 
 ### Impersonated domain
 <!-- Required -->
