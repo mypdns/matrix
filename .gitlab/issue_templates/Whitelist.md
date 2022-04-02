@@ -17,8 +17,8 @@ reason
 - [ ] Wildcard
 
 ```css
-domain   CNAME rpz-passthru. ; whitelisted
-*.domain   CNAME rpz-passthru. ; whitelisted
+domain   CNAME rpz-passthru. ; WhiteList
+*.domain   CNAME rpz-passthru. ; WhiteList
 ```
 
 ## Extravagant good reason
