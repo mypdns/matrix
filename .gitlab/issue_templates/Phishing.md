@@ -24,7 +24,11 @@ domain or url
 ```
 
 ## Screenshots
+<details><summary>Click to show screenshot</summary>
 
+![Screenshot]()
+
+</details>
 
 ## Relevant External sources
 - ``
