@@ -1,10 +1,4 @@
-load.xxxdb.io
-widgets.guppy.live
-d1ezlc9vy4yc7g.cloudfront.net
-geobanner.seniorfriendfinder.com
-api.vidy.com
-static.vidy.com
-sikr.chimeratool.com
+
 1030z2bnst92zo6j523feq9e-wpengine.netdna-ssl.com
 1080872514.rsc.cdn77.org
 360.mediav.com
@@ -37,8 +31,6 @@ ad-center.line.me
 ad.accesstrade.vn
 ad.dmm.com
 ad.ettoday.net
-ad1.ettoday.net
-ad2.ettoday.net
 ad.fpncash.com
 ad.go.com
 ad.lgappstv.com
@@ -48,8 +40,10 @@ ad.mox.tv
 ad.nettvservices.com
 ad.sina.com.cn
 ad.xrea.com
+ad1.ettoday.net
 ad1.qq.com
 ad1.udn.com
+ad2.ettoday.net
 ad2.sina.com.cn
 ad2.udn.com
 ad2.xrea.com
@@ -218,6 +212,7 @@ api.deep.bi
 api.grumft.com
 api.mediatailor.eu-west-1.amazonaws.com
 api.mixpanel.com
+api.vidy.com
 api1.accengage.com
 api2.accengage.com
 api3.accengage.com
@@ -382,6 +377,7 @@ d1crt12zco2cvf.cloudfront.net
 d1diqetif5itzx.cloudfront.net
 d1e28xq8vu3baf.cloudfront.net
 d1ebha2k07asm5.cloudfront.net
+d1ezlc9vy4yc7g.cloudfront.net
 d1f05vr3sjsuy7.cloudfront.net
 d1fs2ef81chg3.cloudfront.net
 d1il9t8pu4dsoj.cloudfront.net
@@ -687,6 +683,7 @@ gentside.co.uk
 gentside.com.br
 geo.yahoo.com
 geo2.adobe.com
+geobanner.seniorfriendfinder.com
 gggo.xmbhj.com
 go.clicknplay.to
 go.mobiprotg.com
@@ -765,6 +762,7 @@ lgad.cjpowercast.com.edgesuite.net
 live.camigula.com
 llsp.gfd80.com
 load.s3.amazonaws.com
+load.xxxdb.io
 log-c-907025318.us-east-1.elb.amazonaws.com
 logger-prod-us-east-1-vpc-alb-1251201355.us-east-1.elb.amazonaws.com
 lptag.liveperson.net
@@ -926,6 +924,8 @@ sgqcvfjvr.onet.pl
 show-g.mediav.com
 show.g.mediav.com
 sift-campaign-creatives.s3.amazonaws.com
+sikr.chimeratool.com
+skmarketingassetsprod.blob.core.windows.net
 slate-ad-scripts.s3.amazonaws.com
 sm-campaign.s3-us-west-2.amazonaws.com
 smartwall.swisspay.ch
@@ -947,6 +947,7 @@ static.hoptopboy.com
 static.tellerium.com
 static.tits-guru.com
 static.tvtropes.org
+static.vidy.com
 stats-wynkmusic-285784487.ap-south-1.elb.amazonaws.com
 stats.adobe.com
 stats.hprofits.com
@@ -1015,6 +1016,7 @@ widget.cloud.opta.net.s3.amazonaws.com
 widget.convertiser.com
 widgethost.barnebys.com
 widgets.cryptopicture.com
+widgets.guppy.live
 widgixeu-beacon.s3.amazonaws.com
 wildcard-ads-new-1653986885.us-east-1.elb.amazonaws.com
 wimg.golden-gateway.com
