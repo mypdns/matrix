@@ -8,8 +8,8 @@ I believe this domain is an Redirecting domain(s) --> which should be blocked as
 - [ ] Single domain blocking
 
 ```css
-domain   CNAME . ; Redirecting, Tracking
-*.domain   CNAME . ; Redirecting, Tracking
+domain   CNAME . ; Redirector, Tracking
+*.domain   CNAME . ; Redirector, Tracking
 ```
 
 ## Relevant comments
