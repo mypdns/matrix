@@ -17,6 +17,6 @@ jobs:
           github-token: ${{ github.token }}
           pr-comment: >
             This repository does not accept pull requests.
-            Please help us at http://mypdns.org
+            Please help us at https://mypdns.org/my-privacy-dns/matrix
           skip-closed-issue-comment: true
           skip-closed-pr-comment: true
