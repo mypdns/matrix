@@ -25,7 +25,6 @@ The following Project, website, domains are banned (prohibited) from
 using **any** of our work is:
 
 - `https://github.com/Sinfonietta/hostfiles`
-- ``
 
 
 ## Infringement

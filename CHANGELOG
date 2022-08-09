@@ -1,3 +1,14 @@
+1.0.1
+		# 4th August 2022
+		Today we will re-import the pornographic blacklist from Porn
+		Records and add it back into [My Privacy DNS][mpd] as a
+		consequence it haven't been very popular to keep the PR issues
+		in a closed section, where login was required, to ensure My
+		Privacy DNS didn't participated in spreading ADult NSFW material.
+
+		Related Issues can be found here:
+		https://mypdns.org/mypdns/support/-/issues/802#note_2889150
+
 1.0.0
 		Moved the `./source.list` to `./source/source.list`
 
