@@ -1,11 +1,13 @@
-I believe this domain is an [AdWare](https://mypdns.org/MypDNS/support/-/wikis/Categories/Adware) domain(s) --> that have to be blocked as..
+I report this [AdWare](https://mypdns.org/MypDNS/support/-/wikis/Categories/Adware) related domain to be added into the [MyPDNS RPZ Firewall][mpdrf]
 
 ```
 (please input basedomain here)
 ```
 
 - [X] Wildcarded
-- [ ] Single domain blocking
+- [ ] Individual domain blocking
+
+## RPZ (Response Policy Zone) Rules
 
 ```css
 domain   CNAME . ; AdWare
@@ -22,7 +24,12 @@ Adserver found at ``
 
 </details>
 
-## Relevant External sources
+
+## My Privacy DNS issues
+
+- #
+
+## External sources
 ```
 
 ```
@@ -31,20 +38,27 @@ Adserver found at ``
 - [X] Did you follow the guidelines in the [Contributing](CONTRIBUTING.md)
 	  document?
 - [X] Have you checked to ensure there aren't other open
-      [Merge Requests (MR)](../merge_requests) or [Issues](../../issues) for the
+      [Merge Requests (MR)][NR] or [issues] for the
       same domain?
 - [X] Have you added an explanation of what your submission do and why you'd
 	  like us to include them??
-- [X] Added [screenshot](https://mypdns.org/MypDNS/support/-/wikis/Screenshot)
-	  for prove of [False Negative](https://mypdns.org/MypDNS/support/-/wikis/False-Negative)
+- [X] Added [screenshot] for prove of [False Negative][FN]
 
 ### Testing phase
 - [X] Checked the internet for verification?
 - [X] Successfully tested changes locally?
 
 ### Todo
-- [X] RPZ Server (Team @Spirillen)
+- [X] RPZ Server (Team \@Spirillen)
 - [X] Added to Source file
+
+[FN]: https://mypdns.org/MypDNS/support/-/wikis/False-Negative "About False Positive"
+[hosts]: https://mypdns.org/mypdns/support/-/wikis/dns/DnsHosts "Hosts files a outdated blacklist format"
+[issue]: https://mypdns.org/my-privacy-dns/matrix/-/issues "My Privacy DNS Domain records"
+[mpdrf]: https://mypdns.org/my-privacy-dns/matrix/-/tree/master/source/porn_filters "My Privacy DNS RPZ Parental Firewall Filter"
+[MR]: https://mypdns.org/my-privacy-dns/matrix/-/merge_requests "My Privacy DNS Merge Requests"
+[Pi-hole]: https://mypdns.org/my-privacy-dns/matrix/-/blob/master/source/porn_filters/README.md#pi-hole "What is Pi-hole and it limitations"
+[screenshot]: https://mypdns.org/MypDNS/support/-/wikis/Screenshot "What is a screenshot"
 
 /label ~AdWare
 

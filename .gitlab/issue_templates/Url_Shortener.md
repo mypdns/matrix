@@ -1,4 +1,4 @@
-I report this [AdWare] related domain to be added into the [MyPDNS RPZ Firewall][mpdrf]
+I report this ~Url_Shortener domain(s) to be added into the [MyPDNS RPZ Firewall][mpdrf]
 
 ```
 (please input basedomain here)
@@ -10,10 +10,9 @@ I report this [AdWare] related domain to be added into the [MyPDNS RPZ Firewall]
 ## RPZ (Response Policy Zone) Rules
 
 ```css
-domain   CNAME . ; AdWare
-*.domain   CNAME . ; AdWare
+domain   CNAME . ; Url Shortener, Tracking
+*.domain   CNAME . ; Url Shortener, Tracking
 ```
-
 ### Additional requirements for
 
 #### [hosts] and [Pi-hole]
@@ -45,6 +44,10 @@ N/A
 
 ## Comments
 <!-- Be as clear as possible: nobody can read your mind, and nobody is looking at your issue over your shoulder. -->
+| Sorce url | Destination Url |
+| :-------: | :-------------: |
+|  ``       |       ``        |
+
 
 ## My Privacy DNS issues
 
@@ -71,17 +74,6 @@ N/A
 - [X] RPZ Server (Team \@Spirillen)
 - [X] Added to Source file
 
-#### Logger output
-
-<details><summary>3rd party Domains</summary>
-
-```python
-N/A
-```
-
-</details>
-
-[AdWare]: https://mypdns.org/MypDNS/support/-/wikis/Categories/Adware
 [FN]: https://mypdns.org/MypDNS/support/-/wikis/False-Negative "About False Positive"
 [hosts]: https://mypdns.org/mypdns/support/-/wikis/dns/DnsHosts "Hosts files a outdated blacklist format"
 [issue]: https://mypdns.org/my-privacy-dns/matrix/-/issues "My Privacy DNS Domain records"
@@ -90,9 +82,9 @@ N/A
 [Pi-hole]: https://mypdns.org/my-privacy-dns/matrix/-/blob/master/source/porn_filters/README.md#pi-hole "What is Pi-hole and it limitations"
 [screenshot]: https://mypdns.org/MypDNS/support/-/wikis/Screenshot "What is a screenshot"
 
-/label ~AdWare
+/label ~Url_Shortener ~Tracking
 
-/weight 2
+/weight 7
 
 /publish
 

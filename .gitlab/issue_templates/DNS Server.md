@@ -1,44 +1,83 @@
-I believe this DNS Server needs to be blocked as...
+I believe this [DNS Server][dnsserver] needs to be be added into the [MyPDNS RPZ Firewall][mpdrf]
 
 - [X] Wildcarded
-- [ ] Single domain blocking
+- [ ] Individual domain blocking
+
+## RPZ (Response Policy Zone) Rules
 
 ```css
 *.example.org.rpz-nsdname   CNAME . ; DNSServer
 24.0.2.3.4.rpz-nsip   CNAME . ; DNSServer
 ```
 
-## Relevant comments
-<!-- Be as clear as possible: nobody can read your mind, and nobody is looking at your issue over your shoulder. -->
+### Additional requirements for
 
+#### [hosts] and [Pi-hole]
+<details><summary>Click to expand</summary>
+
+```css
+NULL
+```
+
+```css
++ www
+- www
+www.
+```
+
+</details>
+
+#### uBlock Origin adblocker
+<details><summary>Click to expand</summary>
+
+```css
+N/A
+```
+
+</details>
 
 ## Screenshots
 
 
-## Relevant External sources
-- ``
+## Comments
+<!-- Be as clear as possible: nobody can read your mind, and nobody is looking at your issue over your shoulder. -->
+
+## My Privacy DNS issues
+
+- #
+
+## External sources
+<!-- If you found this domain on another issueboard -->
 - ``
 
 ### All Submissions:
 - [ ] Did you follow the guidelines in the [Contributing](CONTRIBUTING.md)
 	  document?
-- [ ] Have you checked to ensure there aren't other open
-      [Merge Requests (MR)](../merge_requests) or [Issues](../../issues) for the
-      same domain?
 - [ ] Have you added an explanation of what your submission do and why you'd
 	  like us to include them??
-- [ ] Added [screenshot](https://mypdns.org/MypDNS/support/-/wikis/Screenshot)
-	  for prove of [False Negative](https://mypdns.org/MypDNS/support/-/wikis/False-Negative)
+- [ ] Have you checked to ensure there aren't other open
+      [Merge Requests (MR)][MR] or [issue] for the same update/change?
+- [ ] Added [screenshot] for prove of [False Negative][FN]
 
 ### Testing phase
 - [ ] Checked the internet for verification?
 - [ ] Successfully tested changes locally?
 
 ### Todo:
-- [ ] RPZ Server (Team @Spirillen)
+- [ ] RPZ Server (Team \@Spirillen)
 - [ ] Added to Source file
 
-**_Note_**:
+#### Logger output
+
+<details><summary>3rd party Domains</summary>
+
+```python
+N/A
+```
+
+</details>
+
+<details><summary>**_Help Note_**:</summary>
 
 ```python
 # blocking an NS IPv4 address of 192.0.2.3
@@ -51,6 +90,16 @@ I believe this DNS Server needs to be blocked as...
 # IPv6 NSIP transform
 128.57.zz.1.0.db8.2001.rpz-nsip
 ```
+</details>
+
+[dnsserver]: https://mypdns.org/mypdns/support/-/wikis/RPZ-record-types#the-nsdname-trigger-rpz-nsdname
+[FN]: https://mypdns.org/MypDNS/support/-/wikis/False-Negative "About False Positive"
+[hosts]: https://mypdns.org/mypdns/support/-/wikis/dns/DnsHosts "Hosts files a outdated blacklist format"
+[issue]: https://mypdns.org/my-privacy-dns/matrix/-/issues "My Privacy DNS Domain records"
+[mpdrf]: https://mypdns.org/my-privacy-dns/matrix/-/tree/master/source/porn_filters "My Privacy DNS RPZ Parental Firewall Filter"
+[MR]: https://mypdns.org/my-privacy-dns/matrix/-/merge_requests "My Privacy DNS Merge Requests"
+[Pi-hole]: https://mypdns.org/my-privacy-dns/matrix/-/blob/master/source/porn_filters/README.md#pi-hole "What is Pi-hole and it limitations"
+[screenshot]: https://mypdns.org/MypDNS/support/-/wikis/Screenshot "What is a screenshot"
 
 /label ~DNS_Server
 

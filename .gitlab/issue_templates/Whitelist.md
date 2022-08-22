@@ -1,14 +1,10 @@
 ## Summary
 <!--
-Note: If you're a website owner that has been specifically targeted, fix the
-site before reporting. Remove all revolving ad servers, popup ads, adblock
-countering etc. Only then will this request be reviewed.
+This template is only for my privacy dns to keep things running.
 
-Screenshot is required within the <details> pane. Leave a blank line before
-and after the image link
-
-Summarize the reason encountered precisely, and keep any domains in
-back ticks `(`)` -->
+If you are looking to have your domain removed, please use the removal
+template, and ONLY if your domaindo not exict as issue in advance.
+-->
 
 This domain Should be whitelist be curse .. I have A seriously damned good
 reason
@@ -29,20 +25,21 @@ whitelist -->
 <!-- Paste any relevant logs - please use code blocks (```) to format
 console output, logs, and code as it's very hard to read otherwise. -->
 
+## My Privacy DNS issues
+
+- #
+
 ## Screenshots
-<details><Summary>Screenshot required</summary>
 
-
-
-</details>
 
 ### All Submissions:
-  - [ ] Have you followed the guidelines in our [Contributing](CONTRIBUTING.md) document?
-  - [ ] Have you checked to ensure there aren't other open
-		[Merge Requests (MR)](../merge_requests) or [Issues](../../issues) for the
-		same domain?
-  - [ ] Added [screenshot][screenshot] for prove of [False Negative][False Negative]
-  - [ ] Have you added an explanation of what your submission do and why you'd like us to include them??
+- [ ] Did you follow the guidelines in the [Contributing](CONTRIBUTING.md)
+	  document?
+- [ ] Have you added an explanation of what your submission do and why you'd
+	  like us to include them??
+- [ ] Have you checked to ensure there aren't other open
+      [Merge Requests (MR)][MR] or [issue] for the same update/change?
+- [ ] Added [screenshot] for prove of [False Negative][FN]
 
 ### Testing phase
   - [ ] Checked the internet for verification?
@@ -52,12 +49,16 @@ console output, logs, and code as it's very hard to read otherwise. -->
   - [ ] Added to Source file
   - [ ] RPZ Server  (Team @Spirillen)
 
+[FN]: https://mypdns.org/MypDNS/support/-/wikis/False-Negative "About False Positive"
+[hosts]: https://mypdns.org/mypdns/support/-/wikis/dns/DnsHosts "Hosts files a outdated blacklist format"
+[issue]: https://mypdns.org/my-privacy-dns/matrix/-/issues "My Privacy DNS Domain records"
+[mpdrf]: https://mypdns.org/my-privacy-dns/matrix/-/tree/master/source/porn_filters "My Privacy DNS RPZ Parental Firewall Filter"
+[MR]: https://mypdns.org/my-privacy-dns/matrix/-/merge_requests "My Privacy DNS Merge Requests"
+[Pi-hole]: https://mypdns.org/my-privacy-dns/matrix/-/blob/master/source/porn_filters/README.md#pi-hole "What is Pi-hole and it limitations"
+[screenshot]: https://mypdns.org/MypDNS/support/-/wikis/Screenshot "What is a screenshot"
 
 /label ~WhiteList
 
 /weight 6
 
 /publish
-
-[False Negative]: https://mypdns.org/MypDNS/support/-/wikis/False-Negative "About False Positive"
-[screenshot]: https://mypdns.org/MypDNS/support/-/wikis/Screenshot "What is a screenshot"

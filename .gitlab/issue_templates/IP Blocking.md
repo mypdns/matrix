@@ -1,4 +1,4 @@
-This IP address or IP range (CIDR) that have to be blocked as..
+This IP address or IP range (CIDR) to be added into the [MyPDNS RPZ Firewall][mpdrf]
 
 - [ ] rpz-client-ip
 - [ ] rpz-drop
@@ -9,39 +9,53 @@ This IP address or IP range (CIDR) that have to be blocked as..
 
 ```
 16.0.1.168.192.rpz-client-ip   CNAME rpz-drop. ; reason
-32.73.234.225.35.rpz-ip   CNAME rpz-drop. ; reason
+32.123.1.168.192.rpz-ip   CNAME rpz-drop. ; reason
 16.0.1.168.192.rpz-ip   CNAME . ; reason
 ```
 
-## Relevant comments
-<!-- Be as clear as possible: nobody can read your mind, and nobody is looking at your issue over your shoulder. -->
-
-
 ## Screenshots
 
+<details><summary>Click to expand</summary>
 
-## Relevant External sources
-- ``
-- ``
+
+
+</details>
+
+## Comments
+<!-- comments like a specific url to see contents -->
+
+## My Privacy DNS issues
+
+- #
+
+## External sources
+<!-- If you found this domain on another issueboard -->
 
 ### All Submissions:
 - [ ] Did you follow the guidelines in the [Contributing](CONTRIBUTING.md)
 	  document?
-- [ ] Have you checked to ensure there aren't other open
-      [Merge Requests (MR)](../merge_requests) or [Issues](../../issues) for the
-      same domain?
 - [ ] Have you added an explanation of what your submission do and why you'd
 	  like us to include them??
-- [ ] Added [screenshot](https://mypdns.org/MypDNS/support/-/wikis/Screenshot)
-	  for prove of [False Negative](https://mypdns.org/MypDNS/support/-/wikis/False-Negative)
+- [ ] Have you checked to ensure there aren't other open
+      [Merge Requests (MR)][MR] or [issue] for the same update/change?
+- [ ] Added [screenshot] for prove of [False Negative][FN]
+
 
 ### Testing phase
 - [ ] Checked the internet for verification?
 - [ ] Successfully tested changes locally?
 
 ### Todo
-- [X] RPZ Server (Team @Spirillen)
+- [X] RPZ Server (Team \@Spirillen)
 - [X] Added to Source file
+
+[FN]: https://mypdns.org/MypDNS/support/-/wikis/False-Negative "About False Positive"
+[hosts]: https://mypdns.org/mypdns/support/-/wikis/dns/DnsHosts "Hosts files a outdated blacklist format"
+[issue]: https://mypdns.org/my-privacy-dns/matrix/-/issues "My Privacy DNS Domain records"
+[mpdrf]: https://mypdns.org/my-privacy-dns/matrix/-/tree/master/source/porn_filters "My Privacy DNS RPZ Parental Firewall Filter"
+[MR]: https://mypdns.org/my-privacy-dns/matrix/-/merge_requests "My Privacy DNS Merge Requests"
+[Pi-hole]: https://mypdns.org/my-privacy-dns/matrix/-/blob/master/source/porn_filters/README.md#pi-hole "What is Pi-hole and it limitations"
+[screenshot]: https://mypdns.org/MypDNS/support/-/wikis/Screenshot "What is a screenshot"
 
 /label ~"IP::BlackListing"
 

@@ -1,47 +1,66 @@
-I believe this domain is a NSFW Snuff domain --> that have to be blocked as..
+I report this ~"NSFW::Snuff" related domain(s) to be added into the [MyPDNS RPZ Firewall][mpdrf]
 
 - [X] Wildcard
-- [ ] Single domain blocking
+- [ ] Individual domain blocking
 
+
+## RPZ (Response Policy Zone) Rules
 
 ```css
 domain   CNAME . ; Snuff
 *.domain   CNAME . ; Snuff
 ```
 
-### Additional requirements for hosts and Pi-hole
+### Additional requirements for
+
+#### [hosts] and [Pi-hole]
+<details><summary>Click to expand</summary>
 
 ```css
-null
+NULL
 ```
+
+</details>
 
 ```css
 + www
 - www
-www.?
+www.
 ```
 
-## Relevant logs or comments
-<!-- comments like a specific url to see contents -->
+#### uBlock Origin adblocker
+<details><summary>Click to expand</summary>
 
-## Relevant External sources
-<!-- If you found this domain on another issue board -->
+```css
+N/A
+```
+
+</details>
+
 
 ## Screenshots
-Not for the faint hearten...
 
-<details><summary>Screenshot NSFW/SNUFF</summary>
+<details><summary>:underage: NSFW Screenshot :underage:</summary>
 
 
 
 </details>
 
+## Comments
+<!-- comments like a specific url to see contents -->
+
+## My Privacy DNS issues
+
+- #
+
+## External sources
+<!-- If you found this domain on another issueboard -->
+- ``
+
 ### All Submissions:
-- [x] Have you followed the guidelines in our [Contributing](CONTRIBUTING.md) documentation?
-- [x] Have you checked to ensure there aren't other open
-      [Merge Requests (MR)](../merge_requests) or [Issues](../issues) for the
-      same update/change?
-- [x] Added screenshot for proof of False Negative
+- [ ] Have you followed the guidelines in our [Contributing](CONTRIBUTING.md) documentation?
+- [ ] Added [screenshot] for prove of [False Negative][FN]
+- [ ] Added screenshot for proof of False Negative
 
 ### Todo
 - [ ] Added to Source file?
@@ -58,9 +77,16 @@ N/A
 </details>
 
 
-/assign @spirillen 
-
-/label ~"NSFW::Snuff" 
+ /label ~"NSFW::Snuff" 
 
 
 <!-- Template url:https://mypdns.org/my-privacy-dns/porn-records/-/issues/new?issuable_template=Snuff -->
+
+[FN]: https://mypdns.org/MypDNS/support/-/wikis/False-Negative "About False Positive"
+[hosts]: https://mypdns.org/mypdns/support/-/wikis/dns/DnsHosts "Hosts files a outdated blacklist format"
+[issue]: https://mypdns.org/my-privacy-dns/matrix/-/issues "My Privacy DNS Domain records"
+[mpdrf]: https://mypdns.org/my-privacy-dns/matrix/-/tree/master/source/porn_filters "My Privacy DNS RPZ Parental Firewall Filter"
+[MR]: https://mypdns.org/my-privacy-dns/matrix/-/merge_requests "My Privacy DNS Merge Requests"
+[Pi-hole]: https://mypdns.org/my-privacy-dns/matrix/-/blob/master/source/porn_filters/README.md#pi-hole
+[Pi-hole]: https://mypdns.org/my-privacy-dns/matrix/-/blob/master/source/porn_filters/README.md#pi-hole "What is Pi-hole and it limitations"
+[screenshot]: https://mypdns.org/MypDNS/support/-/wikis/Screenshot "What is a screenshot"

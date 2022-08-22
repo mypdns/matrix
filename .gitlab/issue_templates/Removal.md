@@ -10,7 +10,9 @@ and after the image link.
 Summarize the reason encountered precisely, and keep any domains and/or
 url's in back ticks `(`)`, we are not a linking service (TGP) -->
 
-This domain Should be remove because...
+This domain Should be removed because...
+
+## RPZ (Response Policy Zone) Rules
 
 ```css
 domain   CNAME . ; Removal
@@ -19,26 +21,58 @@ domain   CNAME . ; Removal
 
 ## Reason
 <!-- Try to convince the team of why this domain should be added to the
-removed -->
+removal job -->
 
-## Relevant logs or comments
+## Comments
 <!-- Paste any relevant logs - please use code blocks (```) to format
 console output, logs, and code as it's very hard to read otherwise. -->
 
 ## Screenshots
-<details><Summary>Screenshot</summary>
 
 
+### Additional requirements for
+
+#### [hosts] and [Pi-hole]
+<details><summary>Click to expand</summary>
+
+```css
+NULL
+```
 
 </details>
 
+```css
++ www
+- www
+www.
+```
+
+#### uBlock Origin adblocker
+<details><summary>Click to expand</summary>
+
+```css
+N/A
+```
+
+</details>
+
+
+## My Privacy DNS issues
+
+- #
+
+## External sources
+<!-- If you found this domain on another issueboard -->
+- ``
+
 ### All Submissions:
-  - [ ] Have you followed the guidelines in our [Contributing](CONTRIBUTING.md) document?
-  - [ ] Have you checked to ensure there aren't other open
-		[Merge Requests (MR)](../merge_requests) or [Issues](../../issues) for the
-		same domain?
-  - [ ] Added [screenshot][screenshot] for prove of [False Negative][False Negative]
-  - [ ] Have you added an explanation of what your submission do and why you'd like us to include them??
+- [ ] Did you follow the guidelines in the [Contributing](CONTRIBUTING.md)
+	  document?
+- [ ] Have you added an explanation of what your submission do and why you'd
+	  like us to include them??
+- [ ] Have you checked to ensure there aren't other open
+      [Merge Requests (MR)][MR] or [issue] for the same update/change?
+- [ ] Added [screenshot] for prove of [False Negative][FN]
 
 ### Testing phase
   - [ ] Checked the internet for verification?
@@ -57,5 +91,10 @@ console output, logs, and code as it's very hard to read otherwise. -->
 
 /severity s4
 
-[False Negative]: https://mypdns.org/MypDNS/support/-/wikis/False-Negative "About False Positive"
+[FN]: https://mypdns.org/MypDNS/support/-/wikis/False-Negative "About False Positive"
+[hosts]: https://mypdns.org/mypdns/support/-/wikis/dns/DnsHosts "Hosts files a outdated blacklist format"
+[issue]: https://mypdns.org/my-privacy-dns/matrix/-/issues "My Privacy DNS Domain records"
+[mpdrf]: https://mypdns.org/my-privacy-dns/matrix/-/tree/master/source/porn_filters "My Privacy DNS RPZ Parental Firewall Filter"
+[MR]: https://mypdns.org/my-privacy-dns/matrix/-/merge_requests "My Privacy DNS Merge Requests"
+[Pi-hole]: https://mypdns.org/my-privacy-dns/matrix/-/blob/master/source/porn_filters/README.md#pi-hole "What is Pi-hole and it limitations"
 [screenshot]: https://mypdns.org/MypDNS/support/-/wikis/Screenshot "What is a screenshot"

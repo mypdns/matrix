@@ -11,10 +11,10 @@ assignees: AnonymousPoster, spirillen
 
 <!-- Keep any domains in back ticks `(`)` -->
 
-I believe this domain is an (AdWare)[https://mypdns.org/w/adware/] domain(s) --> that have to be blocked as..
+I report this (AdWare)[https://mypdns.org/w/adware/] related domain to be added into the [MyPDNS RPZ Firewall][mpdrf]
 
 - [X] Wildcarded
-- [ ] Single domain blocking
+- [ ] Individual domain blocking
 
 ```python
 example.org   CNAME . ; AdWare
@@ -45,5 +45,5 @@ console output, logs, and code as it's very hard to read otherwise. -->
 - [ ] Have you successfully ran tests with your changes locally?
 
 ### Todo
-- [ ] RPZ Server (Team @Spirillen)
+- [ ] RPZ Server (Team \@Spirillen)
 - [ ] Added to Source file

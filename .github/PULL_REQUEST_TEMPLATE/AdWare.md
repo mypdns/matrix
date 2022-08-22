@@ -14,11 +14,11 @@ assignees: AnonymousPoster, spirillen
 Screenshot is required within the <details> pane. Leave a blank line before
 and after the image link -->
 
-I believe this domain is an AdWare domain(s) --> that have to be
+I report this AdWare domain(s) --> that have to be
 blocked as..
 
 - [X] [Wildcarded](source/adware/wildcard.list)
-- [ ] [Single domain blocking](source/adware/domains.list)
+- [ ] [Individual domain blocking](source/adware/domains.list)
 
 ```python
 example.org   CNAME . ; AdWare
@@ -54,5 +54,5 @@ console output, logs, and code as it's very hard to read otherwise. -->
 - [ ] Have you successfully ran tests with your changes locally?
 
 ### Todo
-- [ ] RPZ Server (Team @Spirillen)
+- [ ] RPZ Server (Team \@Spirillen)
 - [ ] Added to Source file
