@@ -42,7 +42,7 @@ N/A
 </details>
 
 ## My Privacy DNS issues
-- #
+- `` #
 
 ## Comments
 <!-- comments like a specific url to see contents -->

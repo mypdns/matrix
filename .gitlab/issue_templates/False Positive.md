@@ -42,7 +42,7 @@ console output, logs, and code as it's very hard to read otherwise. -->
 </details>
 
 ## My Privacy DNS issues
-- #
+- `` #
 
 ## External sources
 <!-- If you found this domain on another issueboard -->

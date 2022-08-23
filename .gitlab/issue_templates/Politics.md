@@ -48,7 +48,7 @@ N/A
 <!-- comments like a specific url to see contents -->
 
 ## My Privacy DNS issues
-- #
+- `` #
 
 ## External sources
 <!-- If you found this domain on another issueboard -->

@@ -43,7 +43,7 @@ N/A
 <!-- Be as clear as possible: nobody can read your mind, and nobody is looking at your issue over your shoulder. -->
 
 ## My Privacy DNS issues
-- #
+- `` #
 
 ## External sources
 <!-- If you found this domain on another issueboard -->
