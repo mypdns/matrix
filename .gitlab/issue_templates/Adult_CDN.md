@@ -38,7 +38,6 @@ N/A
 </details>
 
 ## My Privacy DNS issues
-
 - #
 
 ## Comments

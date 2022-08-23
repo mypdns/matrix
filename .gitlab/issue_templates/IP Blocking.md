@@ -25,7 +25,6 @@ This IP address or IP range (CIDR) to be added into the [MyPDNS RPZ Firewall][mp
 <!-- comments like a specific url to see contents -->
 
 ## My Privacy DNS issues
-
 - #
 
 ## External sources

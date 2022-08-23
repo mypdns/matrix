@@ -26,7 +26,6 @@ whitelist -->
 console output, logs, and code as it's very hard to read otherwise. -->
 
 ## My Privacy DNS issues
-
 - #
 
 ## Screenshots
