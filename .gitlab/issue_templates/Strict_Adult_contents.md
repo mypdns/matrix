@@ -2,6 +2,10 @@
 
 I report this ~"NSFW::Strict" related domain to be added into the [MyPDNS RPZ Firewall][mpdrf]
 
+```
+(please input basedomain here)
+```
+
 - [X] Wildcarded
 - [ ] Individual domain blocking
 
