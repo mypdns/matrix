@@ -39,7 +39,7 @@ N/A
 ## Screenshots
 This text appears on all Admirals owned domains
 
-![Screeshot](https://user-images.githubusercontent.com/3980843/29331670-df921aa0-81c2-11e7-89aa-e95bab2b8cb9.png)
+![Screeshot](https://mypdns.org/my-privacy-dns/matrix/uploads/d9aae9b533ce6a4620dafa5da4533e58/image.png)
 
 ## Comments
 This domain is used by [`getadmiral.com`][getadmiral] to collect your surfing habits and the are using a variety of scripts to generate a personal identification of you and your devices. Follow [getadmiral][getadmiral] for updates.
