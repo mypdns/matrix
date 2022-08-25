@@ -1,6 +1,6 @@
 <!-- Find tips in the bottom -->
 
-I report this ~"NSFW:Porn" related domain to be added into the [MyPDNS RPZ Firewall][mpdrf]
+I report this ~"NSFW::Porn" related domain to be added into the [MyPDNS RPZ Firewall][mpdrf]
 
 ```
 (please input basedomain here)
