@@ -1,4 +1,4 @@
-tracking.opencandy.com.s3.amazonaws.com
+
 29627a66.api.splkmobile.com
 2tty.overstappen.nl
 3.redirect.appmetrica.yandex.com
@@ -239,6 +239,7 @@ cmws.iad.apple.com
 cnameebis.usagi-online.com
 cnt.hd21.com
 cognito-identity.us-east-1.amazonaws.com
+collector.github.com
 collector.githubapp.com
 collector.hamsterix.cam
 collector.hamsterix.click
@@ -662,6 +663,7 @@ lightstep-collectors-v2-lb-1870604286.us-east-1.elb.amazonaws.com
 line1-log.biligame.net
 link.getmailspring.com
 live-trace.bilibili.com
+live.github.com
 location-inference-westus.cloudapp.net
 log.avlyun.com
 log.ca.gov.vn
@@ -1037,6 +1039,7 @@ tracking.hostgator.com
 tracking.html5games.com
 tracking.interweave.com
 tracking.intl.miui.com
+tracking.opencandy.com.s3.amazonaws.com
 tracking.porndoelabs.com/
 tracking.prd.mz.internal.unity3d.com
 tracking.rightmessage.com
