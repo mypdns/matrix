@@ -7,36 +7,36 @@ pre-configured output zone files in this project, we are simply only
 storing, and verifying the availability of the records.
 
 - [Porn Records](#porn-records)
-    - [Who can use this project](#who-can-use-this-project)
-        - [DNS RPZ Firewall](#dns-rpz-firewall)
-        - [Hosts files](#hosts-files)
-        - [Pi-Hole](#pi-hole)
-        - [AdGuard](#adguard)
-        - [Ad blockers](#ad-blockers)
-    - [Combining the Source Matrix](#combining-the-source-matrix)
-    - [Classifications Definitions](#classifications-definitions)
-        - [Porn](#porn)
-        - [Strict Porn](#strict-porn)
-        - [Educational](#educational)
-        - [Artistic and Art](#artistic-and-art)
-        - [News and Articles](#news-and-articles)
-        - [Not to include in black- blocklist](#not-to-include-in-black--blocklist)
-    - [Underage material (CSAM)](#underage-material-csam)
-    - [DNS zones](#dns-zones)
-        - [Safe search enabled](#safe-search-enabled)
-    - [How to Contribute](#how-to-contribute)
-    - [Support and comments](#support-and-comments)
-        - [Common support](#common-support)
-        - [Rules](#rules)
-    - [Reporting tool](#reporting-tool)
-    - [File structure explained](#file-structure-explained)
-    - [Why contributing](#why-contributing)
-    - [Test result](#test-result)
-    - [Conclusion](#conclusion)
-    - [The most common name for porn domain-name](#the-most-common-name-for-porn-domain-name)
-        - [Browser history](#browser-history)
-    - [Buzz words and keyword](#buzz-words-and-keyword)
-    - [Contact](#contact)
+  - [Who can use this project](#who-can-use-this-project)
+    - [DNS RPZ Firewall](#dns-rpz-firewall)
+    - [Hosts files](#hosts-files)
+    - [Pi-Hole](#pi-hole)
+    - [AdGuard](#adguard)
+    - [Ad blockers](#ad-blockers)
+  - [Combining the Source Matrix](#combining-the-source-matrix)
+  - [Classifications Definitions](#classifications-definitions)
+    - [Porn](#porn)
+    - [Strict Porn](#strict-porn)
+    - [Educational](#educational)
+    - [Artistic and Art](#artistic-and-art)
+    - [News and Articles](#news-and-articles)
+    - [Not to include in black blocklist](#not-to-include-in-black-blocklist)
+  - [Underage material (CSAM)](#underage-material-csam)
+  - [DNS zones](#dns-zones)
+    - [Safe search enabled](#safe-search-enabled)
+  - [How to Contribute](#how-to-contribute)
+  - [Support and comments](#support-and-comments)
+    - [Common support](#common-support)
+    - [Rules](#rules)
+  - [Reporting tool](#reporting-tool)
+  - [File structure explained](#file-structure-explained)
+  - [Why contributing](#why-contributing)
+  - [Test result](#test-result)
+  - [Conclusion](#conclusion)
+  - [The most common name for porn domain-name](#the-most-common-name-for-porn-domain-name)
+    - [Browser history](#browser-history)
+  - [Buzz words and keyword](#buzz-words-and-keyword)
+  - [Contact](#contact)
 
 
 We do however serve a full DNS RPZ Firewall zone from
@@ -105,14 +105,14 @@ How this is done depends on the Software you have chosen.
 | ---------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :--------------------------------------: | :-----------------------------: | :-------------------------------------: | :-----------------------------: | :---------------------------------------: |
 | `domains.list`         | This file is only for domains that can not be blocked with the `wildcard.list`. This is a list of subdomains, which solely is used for porn hosting, This file is relevant in IE. open blogs domains as `*.blogspot.TLD` or [disqus.com (Adult Only)][disqus.com].                                                                                              |            :heavy_check_mark:            |       :heavy_check_mark:        |           :heavy_check_mark:            |       :heavy_check_mark:        |            :heavy_check_mark:             |
 | `hosts.txt`            | This list is unrelated to `domains.list` and contains only supplementary records required by dumb hosts files, such as `lang.$domain.$TLD` or `cdn.$domain.$TLD` as hosts files requires exact match to function [rfc:952][rfc_952] and [rfc:1123][rfc_1123]. You should also take a look at this [wiki page][wiki_DNS_host] to read more about the hosts file. |         :heavy_multiplication_x:         |       :heavy_check_mark:        |           :heavy_check_mark:            |       :heavy_check_mark:        |            :heavy_check_mark:             |
-| `mobile.txt`           | Same as `hosts.txt` but only mobile-specific domains like `m.example.net` as this is otherwise covered by the `wildcard.list`. This list is probably as good as dead, thanks to the responsive design nowadays. This list is swallowed by the ordinary hosts or subsidiaries of the domain.list                                                                       |         :heavy_multiplication_x:         |       :heavy_check_mark:        |           :heavy_check_mark:            |       :heavy_check_mark:        |         :heavy_multiplication_x:          |
-| `rpz-ip`               | To block any [#NSFW][NSFW] by their [IP addresses][IP_Addresses], yes, yet another cool DNS RPZ feature, that hosts files don't have.                                                                                                                                                                                                                              |            :heavy_check_mark:            |    :heavy_multiplication_x:     |        :heavy_multiplication_x:         |    :heavy_multiplication_x:     |         :heavy_multiplication_x:          |
-| `snuff.list`           | Snuff Porno (No wildcard this far as the zone is way too small for that) These records will be part of the [adult.mypdns.cloud][adult.mypdns.cloud] RPZ Firewall zone                                                                                                                                                                                            |            :heavy_check_mark:            |       :heavy_check_mark:        |           :heavy_check_mark:            |       :heavy_check_mark:        |         :heavy_multiplication_x:          |
-| `tld.list`             | This list contains Top Level Domains like `.xxx` which with wildcard allow us to make a huge impact on an adult-specific domain. A very short list, was made to avoid FP while testing with @Pyfunceble.                                                                                                                                                               |            :heavy_check_mark:            |    :heavy_multiplication_x:     |        :heavy_multiplication_x:         |    :heavy_multiplication_x:     |            :heavy_check_mark:             |
+| `mobile.txt`           | Same as `hosts.txt` but only mobile-specific domains like `m.example.net` as this is otherwise covered by the `wildcard.list`. This list is probably as good as dead, thanks to the responsive design nowadays. This list is swallowed by the ordinary hosts or subsidiaries of the domain.list                                                                 |         :heavy_multiplication_x:         |       :heavy_check_mark:        |           :heavy_check_mark:            |       :heavy_check_mark:        |         :heavy_multiplication_x:          |
+| `rpz-ip`               | To block any [#NSFW][NSFW] by their [IP addresses][IP_Addresses], yes, yet another cool DNS RPZ feature, that hosts files don't have.                                                                                                                                                                                                                           |            :heavy_check_mark:            |    :heavy_multiplication_x:     |        :heavy_multiplication_x:         |    :heavy_multiplication_x:     |         :heavy_multiplication_x:          |
+| `snuff.list`           | Snuff Porno (No wildcard this far as the zone is way too small for that) These records will be part of the [adult.mypdns.cloud][adult.mypdns.cloud] RPZ Firewall zone                                                                                                                                                                                           |            :heavy_check_mark:            |       :heavy_check_mark:        |           :heavy_check_mark:            |       :heavy_check_mark:        |         :heavy_multiplication_x:          |
+| `tld.list`             | This list contains Top Level Domains like `.xxx` which with wildcard allow us to make a huge impact on an adult-specific domain. A very short list, was made to avoid FP while testing with @Pyfunceble.                                                                                                                                                        |            :heavy_check_mark:            |    :heavy_multiplication_x:     |        :heavy_multiplication_x:         |    :heavy_multiplication_x:     |            :heavy_check_mark:             |
 | `wildcard.list`        | This is the core domains for the rest of the "sub" files for which domains primarily hosting Porno and therefore can be in wildcard formats used by proper [DNS recursor's][DNS_recursor] that in full supports [DNS RPZ][DNS_RPZ]                                                                                                                              |            :heavy_check_mark:            |       :heavy_check_mark:        |           :heavy_check_mark:            |       :heavy_check_mark:        |            :heavy_check_mark:             |
 | `white.list`           | The locally hosted list for domains that never should be put into any of the above categories or lists                                                                                                                                                                                                                                                          |            :heavy_check_mark:            |    :heavy_multiplication_x:     |        :heavy_multiplication_x:         |    :heavy_multiplication_x:     |         :heavy_multiplication_x:          |
-| `wildcard.rpz-nsdname` | This file is to blacklist any DNS servers, that are solely used for serving porn. By using a zone like this, we can minimize the entire number of entries quite a bit, as ex. all `.xxx` domains are served from the same root server. Read more about how the rpz-nsdname records on this [wiki page][wiki_rpz-nsdname]                                  |            :heavy_check_mark:            |    :heavy_multiplication_x:     |        :heavy_multiplication_x:         |    :heavy_multiplication_x:     |            :heavy_check_mark:             |
-| `README.md`            | See [source/parental_control/README.md](../source/parental_control/README.md)                                                                                                                                                                                                                                                                                                           |                                          |                                 |                                         |                                 |
+| `wildcard.rpz-nsdname` | This file is to blacklist any DNS servers, that are solely used for serving porn. By using a zone like this, we can minimize the entire number of entries quite a bit, as ex. all `.xxx` domains are served from the same root server. Read more about how the rpz-nsdname records on this [wiki page][wiki_rpz-nsdname]                                        |            :heavy_check_mark:            |    :heavy_multiplication_x:     |        :heavy_multiplication_x:         |    :heavy_multiplication_x:     |            :heavy_check_mark:             |
+| `README.md`            | See [source/parental_control/README.md](../source/parental_control/README.md)                                                                                                                                                                                                                                                                                   |                                          |                                 |                                         |                                 |
 
 
 ## Classifications Definitions
@@ -161,7 +161,7 @@ accident, based on facts should have a wider range of acceptance for
 usage of NSFW content as long it relates to the article(s).
 
 
-### Not to include in black- blocklist
+### Not to include in black blocklist
 The following are examples of what [My Privacy DNS](mypdns)
 projects will not be blocking access. Domains that host content for
 which it isn't hard to find in the western public sphere and for which
@@ -236,15 +236,15 @@ When this happens, please message this text "`Ping @spirillen, I've got
 marked as spam`" to [issue](https://mypdns.org/mypdns/support/-/issues/268)
 and we will get your account back on track.
 
-| Category              | Commit issue                                                                                        |
-| :-------------------- | :-------------------------------------------------------------------------------------------------- |
+| Category              | Commit issue                                                                                  |
+| :-------------------- | :-------------------------------------------------------------------------------------------- |
 | Adult contents        | https://mypdns.org/my-privacy-dns/matrix/-/issues/new?issuable_template=Adult_contents        |
 | Adult CDN             | https://mypdns.org/my-privacy-dns/matrix/-/issues/new?issuable_template=Adult_CDN             |
 | Strict Adult contents | https://mypdns.org/my-privacy-dns/matrix/-/issues/new?issuable_template=Strict_Adult_contents |
 | Strict Adult CDN      | https://mypdns.org/my-privacy-dns/matrix/-/issues/new?issuable_template=Strict_Adult_CDN      |
 | Snuff & gore          | https://mypdns.org/my-privacy-dns/matrix/-/issues/new?issuable_template=Snuff                 |
-| Common support        | https://mypdns.org/MypDNS/support/-/wikis/-/issues/new                                              |
-| Common wiki           | https://mypdns.org/MypDNS/support/-/wikis/                                                          |
+| Common support        | https://mypdns.org/MypDNS/support/-/wikis/-/issues/new                                        |
+| Common wiki           | https://mypdns.org/MypDNS/support/-/wikis/                                                    |
 
 
 This is where you contribute with new domains matching any of these
@@ -289,26 +289,26 @@ submit_here
 └── submit_here/white.list
 ```
 
-| File / path                               | Description - Attended Usage / Covering                                                                                                                                                                                                             |
-| :---------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| `source/explicit_content/`:        |                                                                                                                                                                                                                                                     |
-| domains.list                              | This file is used to blacklist subdomain, which can't be covered by using a wildcard methods because either the main- or other sub-domains do not match a ~"NSFW::Porn" rule                                                                   |
-| hosts.list                                | This file should only be used as a support to [RFC:952][rfc_952] based BlackList in combination with a wildcard blacklisted domain. This list has nothing to do with the `domain.list` as this is the *ONLY* addition for hosts driven blacklists    |
-| mobile.list                               | This list is considered dying, as the time where responsive web design has taken over the initial days with specific web design for mobile devices. There will (probably) not be added further to this lists.                                       |
-| rpz-ip                                    | A lists is `.in-addr.arpa.` reverse styled IP Blacklist to be used for DNS RPZ [Response IP Address](https://mypdns.org/mypdns/support/-/wikis/RPZ-record-types#the-response-ip-address-trigger-rpz-ip)                                             |
-| snuff.list                                | This list is used for blacklisting **both** ~"NSFW::Gore" and ~snuff, even these these are very two different things, the list is just to small, to separate it                                                                                       |
-| tld.list                                  | [TLD][TLD] means Top Level Domain like `.org` is a top-level domain, we can with DNS RPZ benefit from the wildcard capability be able to blacklist a few TLD's as they are reserved the adult entertainment industry such as `.sex` and `.adult`    |
-| white.list                                | :thinking: :thought_balloon: :coffee: Do you need more time to figure this one out?                                                                                                                                                                 |
-| wildcard.list                             | The wildcard Blacklist is the list used to blacklist any (second level from the [TLD][TLD]) domains for which the contents are pornographic (NSFW) concepts. This means explicit nudity or sexual acts for pornographic entertainment purpose *only* |
-| wildcard.rpz-nsdname                      | This list contains DNS names of DNS Servers which only used for hosting Porno domains.                                                                                                                                                           |
-|                                           |                                                                                                                                                                                                                                                     |
-| `source/strict_filters/`: |                                                                                                                                                                                                                                                     |
-| domains.list                       | See sibling above :arrow_heading_up: But for [Strict Blacklisting](#strict-porn)                                                                                                                                                                    |
-| hosts.list                         | See sibling above :arrow_heading_up: But for [Strict Blacklisting](#strict-porn)                                                                                                                                                                    |
-| rpz-ip                             | See sibling above :arrow_heading_up: But for [Strict Blacklisting](#strict-porn)                                                                                                                                                                    |
-| white.list                         | See sibling above :arrow_heading_up: But for [Strict Blacklisting](#strict-porn)                                                                                                                                                                    |
-| wildcard.list                      | See sibling above :arrow_heading_up: But for [Strict Blacklisting](#strict-porn)                                                                                                                                                                    |
-| wildcard.rpz-nsdname               | See sibling above :arrow_heading_up: But for [Strict Blacklisting](#strict-porn)                                                                                                                                                                    |
+| File / path                 | Description - Attended Usage / Covering                                                                                                                                                                                                              |
+| :-------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `source/explicit_content/`: |                                                                                                                                                                                                                                                      |
+| domains.list                | This file is used to blacklist subdomain, which can't be covered by using a wildcard methods because either the main- or other sub-domains do not match a ~"NSFW::Porn" rule                                                                         |
+| hosts.list                  | This file should only be used as a support to [RFC:952][rfc_952] based BlackList in combination with a wildcard blacklisted domain. This list has nothing to do with the `domain.list` as this is the *ONLY* addition for hosts driven blacklists    |
+| mobile.list                 | This list is considered dying, as the time where responsive web design has taken over the initial days with specific web design for mobile devices. There will (probably) not be added further to this lists.                                        |
+| rpz-ip                      | A lists is `.in-addr.arpa.` reverse styled IP Blacklist to be used for DNS RPZ [Response IP Address](https://mypdns.org/mypdns/support/-/wikis/RPZ-record-types#the-response-ip-address-trigger-rpz-ip)                                              |
+| snuff.list                  | This list is used for blacklisting **both** ~"NSFW::Gore" and ~snuff, even these these are very two different things, the list is just to small, to separate it                                                                                      |
+| tld.list                    | [TLD][TLD] means Top Level Domain like `.org` is a top-level domain, we can with DNS RPZ benefit from the wildcard capability be able to blacklist a few TLD's as they are reserved the adult entertainment industry such as `.sex` and `.adult`     |
+| white.list                  | :thinking: :thought_balloon: :coffee: Do you need more time to figure this one out?                                                                                                                                                                  |
+| wildcard.list               | The wildcard Blacklist is the list used to blacklist any (second level from the [TLD][TLD]) domains for which the contents are pornographic (NSFW) concepts. This means explicit nudity or sexual acts for pornographic entertainment purpose *only* |
+| wildcard.rpz-nsdname        | This list contains DNS names of DNS Servers which only used for hosting Porno domains.                                                                                                                                                               |
+|                             |                                                                                                                                                                                                                                                      |
+| `source/strict_filters/`:   |                                                                                                                                                                                                                                                      |
+| domains.list                | See sibling above :arrow_heading_up: But for [Strict Blacklisting](#strict-porn)                                                                                                                                                                     |
+| hosts.list                  | See sibling above :arrow_heading_up: But for [Strict Blacklisting](#strict-porn)                                                                                                                                                                     |
+| rpz-ip                      | See sibling above :arrow_heading_up: But for [Strict Blacklisting](#strict-porn)                                                                                                                                                                     |
+| white.list                  | See sibling above :arrow_heading_up: But for [Strict Blacklisting](#strict-porn)                                                                                                                                                                     |
+| wildcard.list               | See sibling above :arrow_heading_up: But for [Strict Blacklisting](#strict-porn)                                                                                                                                                                     |
+| wildcard.rpz-nsdname        | See sibling above :arrow_heading_up: But for [Strict Blacklisting](#strict-porn)                                                                                                                                                                     |
 
 
 ## Why contributing
