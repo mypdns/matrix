@@ -14,11 +14,11 @@ assignees: AnonymousPoster, spirillen
 Screenshot is required within the <details> pane. Leave a blank line before 
 and after the image link -->
 
-I believe this domain is an Adult(-related) domain --> that have to 
+I report this Adult(-related) domain --> that have to 
 be blocked as..
 
 - [X] [Wildcarded](source/porno-sites/wildcard.list)
-- [ ] [Single domain blocking](source/porno-sites/domains.list)
+- [ ] [Individual domain blocking](source/porno-sites/domains.list)
 
 ```python
 example.org   CNAME . ; Adult

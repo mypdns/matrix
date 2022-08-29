@@ -17,7 +17,7 @@ and after the image link -->
 This domain hosts 'Fake News' that have to be blocked as..
 
 - [x] [Wildcarded](source/fake-news/wildcard.list)
-- [ ] [Single domain blocking](source/fake-news/domains.list)
+- [ ] [Individual domain blocking](source/fake-news/domains.list)
 
 ```python
 example.org   CNAME . ; FakeNews
@@ -51,5 +51,5 @@ console output, logs, and code as it's very hard to read otherwise. -->
 - [ ] Have you successfully ran tests with your changes locally?
 
 ### Todo:
-- [ ] RPZ Server (Team @Spirillen)
+- [ ] RPZ Server (Team \@Spirillen)
 - [ ] Added to Source file

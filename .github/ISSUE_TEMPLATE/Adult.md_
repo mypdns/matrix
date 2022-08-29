@@ -8,10 +8,10 @@ assignees: AnonymousPoster, spirillen
 ---
 
 ## Summary
-I believe this domain is an Adult(-related) domain --> that have to be blocked as..
+I report this Adult(-related) domain --> that have to be blocked as..
 
 - [X] [Wildcarded](source/porno-sites/wildcard.list)
-- [ ] [Single domain blocking](source/porno-sites/domains.list)
+- [ ] [Individual domain blocking](source/porno-sites/domains.list)
 
 ```python
 example.org   CNAME . ; Adult

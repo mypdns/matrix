@@ -1,52 +1,75 @@
 <!-- Find tips in the bottom -->
 
-I believe this domain is a Strict Adult(-related) domain --> that have to be blocked as..
+I report this ~"NSFW::Strict" related domain to be added into the [MyPDNS RPZ Firewall][mpdrf]
+
+```
+(please input basedomain here)
+```
 
 - [X] Wildcarded
-- [ ] Single domain blocking
+- [ ] Individual domain blocking
 
+## RPZ (Response Policy Zone) Rules
 
 ```css
 domain   CNAME . ; Strict.Adult
 *.domain   CNAME . ; Strict.Adult
 ```
 
-### Additional requirements for hosts and Pi-hole
+### Additional requirements for
+
+#### [hosts] and [Pi-hole]
+<details><summary>Click to expand</summary>
 
 ```css
-null
+NULL
 ```
+
+</details>
 
 ```css
 + www
 - www
-www.?
+www.
 ```
 
-## Relevant logs or comments
-<!-- comments like a specific url to see contents -->
+#### uBlock Origin adblocker
+<details><summary>Click to expand</summary>
 
-## Relevant External sources
-<!-- If you found this domain on another issueboard -->
+```css
+N/A
+```
+
+</details>
+
 
 ## Screenshots
 
-<details><summary>Screenshot</summary>
+<details><summary>:underage: NSFW Screenshot :underage:</summary>
 
 
 
 </details>
 
+## Comments
+<!-- comments like a specific url to see contents -->
+
+## My Privacy DNS issues
+- `` #
+
+## External sources
+<!-- If you found this domain on another issueboard -->
+- ``
+
+
 ### All Submissions:
-- [x] Have you followed the guidelines in our [Contributing](CONTRIBUTING.md) documentation?
-- [x] Have you checked to ensure there aren't other open
-      [Merge Requests (MR)](../merge_requests) or [Issues](../issues) for the
-      same update/change?
-- [x] Added screenshot for proof of False Negative
+- [ ] Have you followed the guidelines in our [Contributing](CONTRIBUTING.md) documentation?
+- [ ] Added [screenshot] for prove of [False Negative][FN]
+- [ ] Added screenshot for proof of False Negative
 
 ### Todo
 - [ ] Added to Source file?
-- [ ] Added to the RPZ zone [strict.adult.mypdns.cloud](https://mypdns.org/mypdns/support/-/wikis/RPZ-List#strictadultmypdnscloud) (@spirillen)
+- [X] Added to the RPZ zone [strict.adult.mypdns.cloud] (spirillen)
 
 #### Logger output
 
@@ -58,22 +81,19 @@ N/A
 
 </details>
 
-
-/assign @spirillen 
-
 /label ~"NSFW::Strict"
 
 
 <!--
 usage of www or not
 
-Please check if you submission is using the the www or not and put that into
-the section of
+Please check if you submission is using the the www or not
+and put that into the section
 
 You can tell us you have checked this by adding either a {key +}, a {key -} or `none` in front of the `www`
 
 + www  The domain uses **both** the `www` and the _none_ `www` names.
-- www  The domain uses **only** the _none_ `www` name.
+- www  The domain is not using `www` name _or_ `www` is redirecting.
 www.domain  The domain uses **only** the `www.` name.
 www.? Leaving the question mark tells us you haven't tested this
 
@@ -84,5 +104,12 @@ one-liner in bash.
 See snippet: https://mypdns.org/-/snippets/30
 -->
 
-
-<!-- Template url:https://mypdns.org/my-privacy-dns/porn-records/-/issues/new?issuable_template=Strict%20Adult%20contents -->
+[FN]: https://mypdns.org/MypDNS/support/-/wikis/False-Negative "About False Positive"
+[hosts]: https://mypdns.org/mypdns/support/-/wikis/dns/DnsHosts "Hosts files a outdated blacklist format"
+[issue]: https://mypdns.org/my-privacy-dns/matrix/-/issues "My Privacy DNS Domain records"
+[mpdrf]: https://mypdns.org/my-privacy-dns/matrix/-/tree/master/source/porn_filters "My Privacy DNS RPZ Parental Firewall Filter"
+[MR]: https://mypdns.org/my-privacy-dns/matrix/-/merge_requests "My Privacy DNS Merge Requests"
+[Pi-hole]: https://mypdns.org/my-privacy-dns/matrix/-/blob/master/source/porn_filters/README.md#pi-hole
+[Pi-hole]: https://mypdns.org/my-privacy-dns/matrix/-/blob/master/source/porn_filters/README.md#pi-hole "What is Pi-hole and it limitations"
+[screenshot]: https://mypdns.org/MypDNS/support/-/wikis/Screenshot "What is a screenshot"
+[strict.adult.mypdns.cloud]: https://mypdns.org/mypdns/support/-/wikis/RPZ-List#strictadultmypdnscloud
