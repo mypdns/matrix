@@ -44,7 +44,12 @@ N/A
 
 
 ## Screenshots
+<details><summary><b><i>NSFW</b></i> Screenshot</summary>
+
 Not used for CSAM
+
+</details>
+
 
 ## Comments
 <!-- comments like a specific url to see contents -->
