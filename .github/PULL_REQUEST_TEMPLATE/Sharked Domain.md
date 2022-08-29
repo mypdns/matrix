@@ -17,7 +17,7 @@ and after the image link -->
 This outdated domain have been Sharked and should be blocked to avoid
 scam in this format..
 
-- [ ] [Single domain blocking](source/sharked-domains/domains.list)
+- [ ] [Individual domain blocking](source/sharked-domains/domains.list)
 - [X] [Wildcarded](source/sharked-domains/wildcard.list)
 
 ```python
