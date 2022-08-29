@@ -45,7 +45,7 @@ N/A
 
 ## Screenshots
 
-<details><summary>:underage: NSFW Screenshot :underage:</summary>
+<details><summary><b><i>NSFW</b></i> Screenshot</summary>
 
 
 
