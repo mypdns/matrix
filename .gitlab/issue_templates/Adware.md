@@ -51,18 +51,18 @@ N/A
 - ``
 
 ### All Submissions:
-- [ ] Have you followed the guidelines in our Contributing document?
-- [ ] Have you checked to ensure there aren't other open MR or Issues for the same update/change?
+- [ ] Have you followed the guidelines in our [Contributing](CONTRIBUTING.md) document?
+- [ ] Have you checked to ensure there aren't other open [Merge Requests (MR)][MR] or [issue] for the same update/change?
 - [ ] Have you added an explanation of what your submission do and why you'd like us to include them??
-- [ ] Added screenshot for prove of False Negative
+- [ ] Added [screenshot] for prove of [False Negative][FN]
 
 ### Testing face
 - [ ] Checked the internet for verification?
 - [ ] Have you successfully ran tests with your changes locally?
 
 ### Todo
-- [ ] RPZ Server
-- [ ] Added to Source file
+- [X] RPZ Server
+- [X] Added to Source file
 
 #### Logger output
 
