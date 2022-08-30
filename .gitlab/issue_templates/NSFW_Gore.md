@@ -1,6 +1,8 @@
-<!-- Find tips in the bottom -->
-
 I report this ~"NSFW::Gore" related domain to be added into the [MyPDNS RPZ Firewall][mpdrf]
+
+```
+(input your domain name here)
+```
 
 - [X] Wildcarded
 - [ ] Individual domain blocking
@@ -8,20 +10,17 @@ I report this ~"NSFW::Gore" related domain to be added into the [MyPDNS RPZ Fire
 ## RPZ (Response Policy Zone) Rules
 
 ```css
-domain   CNAME . ; Gore
-*.domain   CNAME . ; Gore
+domain_name_here   CNAME . ; Gore
+www.domain_name_here   CNAME . ; Gore
 ```
 
 ### Additional requirements for
 
 #### [hosts] and [Pi-hole]
-<details><summary>Click to expand</summary>
 
 ```css
-NULL
+null
 ```
-
-</details>
 
 ```css
 + www
@@ -38,37 +37,33 @@ N/A
 
 </details>
 
-
 ## Screenshots
 
-<details><summary>Click to expand</summary>
+<details><summary><b><i>NSFW</i></b> Screenshot</summary>
 
-
+(Upload your screenshot here)
 
 </details>
 
 ## Comments
-<!-- comments like a specific url to see contents -->
+<!-- Comments such as specific URL to view contents -->
 
 ## My Privacy DNS issues
 - `` #
 
 ## External sources
-<!-- If you found this domain on another issueboard -->
+<!-- if you took this domain from other board -->
+- ``
 
 ### All Submissions:
-- [ ] Did you follow the guidelines in the [Contributing](CONTRIBUTING.md)
-	  document?
-- [ ] Have you added an explanation of what your submission do and why you'd
-	  like us to include them??
-- [ ] Have you checked to ensure there aren't other open
-      [Merge Requests (MR)][MR] or [issue] for the same update/change?
-- [ ] Added [screenshot] for prove of [False Negative][FN]
-
+- [ ] Did you follow the guidelines in the Contributing document?
+- [ ] Have you added an explanation of what your submission do and why you'd like us to include them??
+- [ ] Have you checked to ensure there aren't other open Merge Requests (MR) or issue for the same update/change?
+- [ ] Added screenshot for prove of False Negative
 
 ### Todo
 - [ ] Added to Source file?
-- [ ] Added to the RPZ zone [adult.mypdns.cloud][adultmypdnscloud] (spirillen)
+- [ ] Added to the RPZ zone
 
 #### Logger output
 
@@ -90,23 +85,3 @@ N/A
 [screenshot]: https://mypdns.org/MypDNS/support/-/wikis/Screenshot "What is a screenshot"
 
 /label ~"NSFW::Gore"
-
-<!--
-usage of www or not
-
-Please check if you submission is using the the www or not
-and put that into the section
-
-You can tell us you have checked this by adding either a {key +}, a {key -} or `none` in front of the `www`
-
-+ www  The domain uses **both** the `www` and the _none_ `www` names.
-- www  The domain is not using `www` name _or_ `www` is redirecting.
-www.domain  The domain uses **only** the `www.` name.
-www.? Leaving the question mark tells us you haven't tested this
-
-Tips & Tricks
-
-If you are using ie. uBlock Origin, you can sort the log output with this
-one-liner in bash.
-See snippet: https://mypdns.org/-/snippets/30
--->

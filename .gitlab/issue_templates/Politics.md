@@ -1,7 +1,7 @@
-I report this [Politics](https://mypdns.org/MypDNS/support/-/wikis/Categories/Politics) related domain to be added into the [MyPDNS RPZ Firewall][mpdrf]
+I report this [Politics][catinfo] related domain to be added into the [MyPDNS RPZ Firewall][mpdrf]
 
 ```
-(please input basedomain here)
+(input your domain name here)
 ```
 
 - [X] Wildcarded
@@ -10,20 +10,17 @@ I report this [Politics](https://mypdns.org/MypDNS/support/-/wikis/Categories/Po
 ## RPZ (Response Policy Zone) Rules
 
 ```css
-domain   CNAME . ; Politics
-*.domain   CNAME . ; Politics
+domain_name_here   CNAME . ; Politics
+www.domain_name_here   CNAME . ; Politics
 ```
 
 ### Additional requirements for
 
 #### [hosts] and [Pi-hole]
-<details><summary>Click to expand</summary>
 
 ```css
-NULL
+null
 ```
-
-</details>
 
 ```css
 + www
@@ -40,37 +37,51 @@ N/A
 
 </details>
 
-
 ## Screenshots
-
+(Upload your screenshot here)
 
 ## Comments
-<!-- comments like a specific url to see contents -->
+<!-- Comments such as specific URL to view contents -->
 
 ## My Privacy DNS issues
 - `` #
 
 ## External sources
-<!-- If you found this domain on another issueboard -->
+<!-- if you took this domain from other board -->
 - ``
 
-
 ### All Submissions:
-- [ ] Did you follow the guidelines in the [Contributing](CONTRIBUTING.md)
-	  document?
-- [ ] Have you added an explanation of what your submission do and why you'd
-	  like us to include them??
-- [ ] Have you checked to ensure there aren't other open
-      [Merge Requests (MR)][MR] or [issue] for the same update/change?
-- [ ] Added [screenshot] for prove of [False Negative][FN]
+- [ ] Have you followed the guidelines in our Contributing document?
+- [ ] Have you checked to ensure there aren't other open MR or Issues for the same update/change?
+- [ ] Have you added an explanation of what your submission do and why you'd like us to include them??
+- [ ] Added screenshot for prove of False Negative
 
-### Testing phase
+### Testing face
 - [ ] Checked the internet for verification?
-- [ ] Successfully tested changes locally?
+- [ ] Have you successfully ran tests with your changes locally?
 
 ### Todo
-- [X] RPZ Server (Team \@Spirillen)
-- [X] Added to Source file
+- [ ] RPZ Server
+- [ ] Added to Source file
+
+#### Logger output
+
+<details><summary>3rd party Domains</summary>
+
+```css
+N/A
+```
+
+</details>
+
+[catinfo]: http://mypdns.org
+[FN]: https://mypdns.org/MypDNS/support/-/wikis/False-Negative "About False Positive"
+[hosts]: https://mypdns.org/mypdns/support/-/wikis/dns/DnsHosts "Hosts files a outdated blacklist format"
+[issue]: https://mypdns.org/my-privacy-dns/matrix/-/issues "My Privacy DNS Domain records"
+[mpdrf]: https://mypdns.org/my-privacy-dns/matrix/ "My Privacy DNS RPZ Firewall Filter"
+[MR]: https://mypdns.org/my-privacy-dns/matrix/-/merge_requests "My Privacy DNS Merge Requests"
+[Pi-hole]: https://mypdns.org/my-privacy-dns/matrix/-/blob/master/source/porn_filters/README.md#pi-hole "What is Pi-hole and it limitations"
+[screenshot]: https://mypdns.org/MypDNS/support/-/wikis/Screenshot "What is a screenshot"
 
 /label ~Politics
 
@@ -79,11 +90,3 @@ N/A
 /publish
 
 /severity low
-
-[FN]: https://mypdns.org/MypDNS/support/-/wikis/False-Negative "About False Positive"
-[hosts]: https://mypdns.org/mypdns/support/-/wikis/dns/DnsHosts "Hosts files a outdated blacklist format"
-[issue]: https://mypdns.org/my-privacy-dns/matrix/-/issues "My Privacy DNS Domain records"
-[mpdrf]: https://mypdns.org/my-privacy-dns/matrix/ "My Privacy DNS RPZ Firewall Filter"
-[MR]: https://mypdns.org/my-privacy-dns/matrix/-/merge_requests "My Privacy DNS Merge Requests"
-[Pi-hole]: https://mypdns.org/my-privacy-dns/matrix/-/blob/master/source/porn_filters/README.md#pi-hole "What is Pi-hole and it limitations"
-[screenshot]: https://mypdns.org/MypDNS/support/-/wikis/Screenshot "What is a screenshot"

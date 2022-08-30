@@ -1,7 +1,7 @@
-I report this [Drugs] related domain to be added into the [MyPDNS RPZ Firewall][mpdrf]
+I report this [Drugs][catinfo] related domain to be added into the [MyPDNS RPZ Firewall][mpdrf]
 
 ```
-(please input basedomain here)
+(input your domain name here)
 ```
 
 - [X] Wildcarded
@@ -10,17 +10,16 @@ I report this [Drugs] related domain to be added into the [MyPDNS RPZ Firewall][
 ## RPZ (Response Policy Zone) Rules
 
 ```css
-domain   CNAME . ; Drugs
-*.domain   CNAME . ; Drugs
+domain_name_here   CNAME . ; Drugs
+www.domain_name_here   CNAME . ; Drugs
 ```
 
 ### Additional requirements for
 
 #### [hosts] and [Pi-hole]
-<details><summary>Click to expand</summary>
 
 ```css
-NULL
+null
 ```
 
 ```css
@@ -28,8 +27,6 @@ NULL
 - www
 www.
 ```
-
-</details>
 
 #### uBlock Origin adblocker
 <details><summary>Click to expand</summary>
@@ -41,36 +38,43 @@ N/A
 </details>
 
 ## Screenshots
-
+(Upload your screenshot here)
 
 ## Comments
-<!-- Be as clear as possible: nobody can read your mind, and nobody is looking at your issue over your shoulder. -->
+<!-- Comments such as specific URL to view contents -->
 
 ## My Privacy DNS issues
 - `` #
 
 ## External sources
-<!-- If you found this domain on another issueboard -->
+<!-- if you took this domain from other board -->
 - ``
 
 ### All Submissions:
-- [ ] Did you follow the guidelines in the [Contributing](CONTRIBUTING.md)
-	  document?
-- [ ] Have you added an explanation of what your submission do and why you'd
-	  like us to include them??
-- [ ] Have you checked to ensure there aren't other open
-      [Merge Requests (MR)][MR] or [issue] for the same update/change?
-- [ ] Added [screenshot] for prove of [False Negative][FN]
+- [ ] Have you followed the guidelines in our Contributing document?
+- [ ] Have you checked to ensure there aren't other open MR or Issues for the same update/change?
+- [ ] Have you added an explanation of what your submission do and why you'd like us to include them??
+- [ ] Added screenshot for prove of False Negative
 
-### Testing phase
+### Testing face
 - [ ] Checked the internet for verification?
-- [ ] Successfully tested changes locally?
+- [ ] Have you successfully ran tests with your changes locally?
 
 ### Todo
-- [X] RPZ Server (Team \@Spirillen)
-- [X] Added to Source file
+- [ ] RPZ Server
+- [ ] Added to Source file
 
-[Drugs]: https://mypdns.org/MypDNS/support/-/wikis/Categories/Drugs
+#### Logger output
+
+<details><summary>3rd party Domains</summary>
+
+```css
+N/A
+```
+
+</details>
+
+[catinfo]: https://mypdns.org/MypDNS/support/-/wikis/Categories/Drugs
 [FN]: https://mypdns.org/MypDNS/support/-/wikis/False-Negative "About False Positive"
 [hosts]: https://mypdns.org/mypdns/support/-/wikis/dns/DnsHosts "Hosts files a outdated blacklist format"
 [issue]: https://mypdns.org/my-privacy-dns/matrix/-/issues "My Privacy DNS Domain records"

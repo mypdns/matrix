@@ -1,7 +1,7 @@
-I report this [Weapons] related domain to be added into the [MyPDNS RPZ Firewall][mpdrf]
+I report this [Weapons][catinfo] related domain to be added into the [MyPDNS RPZ Firewall][mpdrf]
 
 ```
-(please input basedomain here)
+(input your domain name here)
 ```
 
 - [X] Wildcarded
@@ -10,20 +10,17 @@ I report this [Weapons] related domain to be added into the [MyPDNS RPZ Firewall
 ## RPZ (Response Policy Zone) Rules
 
 ```css
-domain   CNAME . ; Weapons
-*.domain   CNAME . ; Weapons
+domain_name_here   CNAME . ; Weapons
+www.domain_name_here   CNAME . ; Weapons
 ```
 
 ### Additional requirements for
 
 #### [hosts] and [Pi-hole]
-<details><summary>Click to expand</summary>
 
 ```css
-NULL
+null
 ```
-
-</details>
 
 ```css
 + www
@@ -41,35 +38,43 @@ N/A
 </details>
 
 ## Screenshots
-
+(Upload your screenshot here)
 
 ## Comments
-<!-- Be as clear as possible: nobody can read your mind, and nobody is looking at your issue over your shoulder. -->
+<!-- Comments such as specific URL to view contents -->
 
 ## My Privacy DNS issues
 - `` #
 
 ## External sources
-<!-- If you found this domain on another issueboard -->
+<!-- if you took this domain from other board -->
 - ``
 
 ### All Submissions:
-- [ ] Did you follow the guidelines in the [Contributing](CONTRIBUTING.md)
-	  document?
-- [ ] Have you added an explanation of what your submission do and why you'd
-	  like us to include them??
-- [ ] Have you checked to ensure there aren't other open
-      [Merge Requests (MR)][MR] or [issue] for the same update/change?
-- [ ] Added [screenshot] for prove of [False Negative][FN]
+- [ ] Have you followed the guidelines in our Contributing document?
+- [ ] Have you checked to ensure there aren't other open MR or Issues for the same update/change?
+- [ ] Have you added an explanation of what your submission do and why you'd like us to include them??
+- [ ] Added screenshot for prove of False Negative
 
-### Testing phase
+### Testing face
 - [ ] Checked the internet for verification?
-- [ ] Successfully tested changes locally?
+- [ ] Have you successfully ran tests with your changes locally?
 
 ### Todo
-- [X] RPZ Server (Team \@Spirillen)
-- [X] Added to Source file
+- [ ] RPZ Server
+- [ ] Added to Source file
 
+#### Logger output
+
+<details><summary>3rd party Domains</summary>
+
+```css
+N/A
+```
+
+</details>
+
+[catinfo]: https://mypdns.org/MypDNS/support/-/wikis/Categories/Weapons
 [FN]: https://mypdns.org/MypDNS/support/-/wikis/False-Negative "About False Positive"
 [hosts]: https://mypdns.org/mypdns/support/-/wikis/dns/DnsHosts "Hosts files a outdated blacklist format"
 [issue]: https://mypdns.org/my-privacy-dns/matrix/-/issues "My Privacy DNS Domain records"
@@ -77,7 +82,6 @@ N/A
 [MR]: https://mypdns.org/my-privacy-dns/matrix/-/merge_requests "My Privacy DNS Merge Requests"
 [Pi-hole]: https://mypdns.org/my-privacy-dns/matrix/-/blob/master/source/porn_filters/README.md#pi-hole "What is Pi-hole and it limitations"
 [screenshot]: https://mypdns.org/MypDNS/support/-/wikis/Screenshot "What is a screenshot"
-[Weapons]: https://mypdns.org/MypDNS/support/-/wikis/Categories/Weapons
 
 /label ~Weapons
 
