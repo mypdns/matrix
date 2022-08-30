@@ -56,14 +56,14 @@ N/A
 - ``
 
 ### All Submissions:
-- [ ] Did you follow the guidelines in the Contributing document?
+- [ ] Did you follow the guidelines in the [Contributing](CONTRIBUTING.md) document?
 - [ ] Have you added an explanation of what your submission do and why you'd like us to include them??
-- [ ] Have you checked to ensure there aren't other open Merge Requests (MR) or issue for the same update/change?
-- [ ] Added screenshot for prove of False Negative
+- [ ] Have you checked to ensure there aren't other open [Merge Requests (MR)][MR] or [issue] for the same update/change?
+- [ ] Added [screenshot] for prove of [False Negative][FN]
 
 ### Todo
-- [ ] Added to Source file?
-- [ ] Added to the RPZ zone
+- [X] Added to Source file?
+- [X] Added to the RPZ zone
 
 #### Logger output
 
