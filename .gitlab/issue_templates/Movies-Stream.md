@@ -1,4 +1,4 @@
-I report this [Movie] related domain to be added into the [MyPDNS RPZ Firewall][mpdrf]
+I report this [Movies] related domain to be added into the [MyPDNS RPZ Firewall][mpdrf]
 
 ```
 (please input basedomain here)
@@ -10,8 +10,8 @@ I report this [Movie] related domain to be added into the [MyPDNS RPZ Firewall][
 ## RPZ (Response Policy Zone) Rules
 
 ```css
-domain   CNAME . ; Movie - Stream
-*.domain   CNAME . ; Movie - Stream
+domain   CNAME . ; Movies
+*.domain   CNAME . ; Movies
 ```
 
 ### Additional requirements for
