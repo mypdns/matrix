@@ -10,8 +10,8 @@ I report this ~Url_Shortener domain(s) to be added into the [MyPDNS RPZ Firewall
 ## RPZ (Response Policy Zone) Rules
 
 ```css
-domain   CNAME . ; Url Shortener, Tracking
-*.domain   CNAME . ; Url Shortener, Tracking
+domain   CNAME . ; Url_Shortener, Tracking
+*.domain   CNAME . ; Url_Shortener, Tracking
 ```
 ### Additional requirements for
 
