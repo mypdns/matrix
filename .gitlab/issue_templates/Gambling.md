@@ -1,4 +1,4 @@
-I report this ~Gambling related domain(s) to be added into the [MyPDNS RPZ Firewall][mpdrf]
+I report this [Gambling] related domain(s) to be added into the [MyPDNS RPZ Firewall][mpdrf]
 
 ```
 (please input basedomain here)

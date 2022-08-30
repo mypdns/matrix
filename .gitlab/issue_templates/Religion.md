@@ -1,4 +1,4 @@
-I report this [Religion](https://mypdns.org/MypDNS/support/-/wikis/Categories/Religion) related domain to be added into the [MyPDNS RPZ Firewall][mpdrf]
+I report this [Religion] related domain to be added into the [MyPDNS RPZ Firewall][mpdrf]
 
 ```
 (please input basedomain here)
@@ -79,6 +79,7 @@ N/A
 /severity low
 
 
+[Religion]: https://mypdns.org/MypDNS/support/-/wikis/Categories/Religion
 [FN]: https://mypdns.org/MypDNS/support/-/wikis/False-Negative "About False Positive"
 [hosts]: https://mypdns.org/mypdns/support/-/wikis/dns/DnsHosts "Hosts files a outdated blacklist format"
 [issue]: https://mypdns.org/my-privacy-dns/matrix/-/issues "My Privacy DNS Domain records"
