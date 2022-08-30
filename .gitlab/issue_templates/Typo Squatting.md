@@ -10,8 +10,8 @@ I report this [Typo Squatting][TS] related domain(s) to be added into the [MyPDN
 ## RPZ (Response Policy Zone) Rules
 
 ```css
-domain   CNAME . ; Typo Squatting
-*.domain   CNAME . ; Typo Squatting
+domain   CNAME . ; Typo_Squatting
+*.domain   CNAME . ; Typo_Squatting
 ```
 
 ## Typo Squatting domain
