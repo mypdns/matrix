@@ -1,4 +1,4 @@
-I report this [Scamming](https://mypdns.org/mypdns/support/-/wikis/Categories/Scamming) related domain(s) to be added into the [MyPDNS RPZ Firewall][mpdrf]
+I report this [Scamming] related domain(s) to be added into the [MyPDNS RPZ Firewall][mpdrf]
 
 ```
 (please input basedomain here)
@@ -89,6 +89,8 @@ N/A
 
 /severity high
 
+
+[Scamming]: https://mypdns.org/mypdns/support/-/wikis/Categories/Scamming
 [FN]: https://mypdns.org/MypDNS/support/-/wikis/False-Negative "About False Positive"
 [hosts]: https://mypdns.org/mypdns/support/-/wikis/dns/DnsHosts "Hosts files a outdated blacklist format"
 [issue]: https://mypdns.org/my-privacy-dns/matrix/-/issues "My Privacy DNS Domain records"
