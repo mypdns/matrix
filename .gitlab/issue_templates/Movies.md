@@ -1,26 +1,26 @@
-I report this ~"NSFW::Snuff" related domain(s) to be added into the [MyPDNS RPZ Firewall][mpdrf]
+I report this [Movies][catinfo] related domain to be added into the [MyPDNS RPZ Firewall][mpdrf]
 
-- [X] Wildcard
+```
+(input your domain name here)
+```
+
+- [X] Wildcarded
 - [ ] Individual domain blocking
-
 
 ## RPZ (Response Policy Zone) Rules
 
 ```css
-domain   CNAME . ; Snuff
-*.domain   CNAME . ; Snuff
+domain_name_here   CNAME . ; Movies
+www.domain_name_here   CNAME . ; Movies
 ```
 
 ### Additional requirements for
 
 #### [hosts] and [Pi-hole]
-<details><summary>Click to expand</summary>
 
 ```css
-NULL
+null
 ```
-
-</details>
 
 ```css
 + www
@@ -37,55 +37,56 @@ N/A
 
 </details>
 
-
 ## Screenshots
-
-<details><summary>:underage: NSFW Screenshot :underage:</summary>
-
-
-
-</details>
+(Upload your screenshot here)
 
 ## Comments
-<!-- comments like a specific url to see contents -->
+<!-- Comments such as specific URL to view contents -->
 
 ## My Privacy DNS issues
 - `` #
 
 ## External sources
-<!-- If you found this domain on another issueboard -->
+<!-- if you took this domain from other board -->
 - ``
 
 ### All Submissions:
-- [ ] Have you followed the guidelines in our [Contributing](CONTRIBUTING.md) documentation?
-- [ ] Added [screenshot] for prove of [False Negative][FN]
-- [ ] Added screenshot for proof of False Negative
+- [ ] Have you followed the guidelines in our Contributing document?
+- [ ] Have you checked to ensure there aren't other open MR or Issues for the same update/change?
+- [ ] Have you added an explanation of what your submission do and why you'd like us to include them??
+- [ ] Added screenshot for prove of False Negative
+
+### Testing face
+- [ ] Checked the internet for verification?
+- [ ] Have you successfully ran tests with your changes locally?
 
 ### Todo
-- [ ] Added to Source file?
-- [ ] Added to the RPZ zone [adult.mypdns.cloud](https://mypdns.org/mypdns/support/-/wikis/RPZ-List#adultmypdnscloud) (@spirillen)
+- [ ] RPZ Server
+- [ ] Added to Source file
 
 #### Logger output
 
 <details><summary>3rd party Domains</summary>
 
-```python
+```css
 N/A
 ```
 
 </details>
 
-
- /label ~"NSFW::Snuff" 
-
-
-<!-- Template url:https://mypdns.org/my-privacy-dns/porn-records/-/issues/new?issuable_template=Snuff -->
-
+[catinfo]: https://mypdns.org/MypDNS/support/-/wikis/Categories/Movies
 [FN]: https://mypdns.org/MypDNS/support/-/wikis/False-Negative "About False Positive"
 [hosts]: https://mypdns.org/mypdns/support/-/wikis/dns/DnsHosts "Hosts files a outdated blacklist format"
 [issue]: https://mypdns.org/my-privacy-dns/matrix/-/issues "My Privacy DNS Domain records"
 [mpdrf]: https://mypdns.org/my-privacy-dns/matrix/ "My Privacy DNS RPZ Firewall Filter"
 [MR]: https://mypdns.org/my-privacy-dns/matrix/-/merge_requests "My Privacy DNS Merge Requests"
-[Pi-hole]: https://mypdns.org/my-privacy-dns/matrix/-/blob/master/source/porn_filters/README.md#pi-hole
 [Pi-hole]: https://mypdns.org/my-privacy-dns/matrix/-/blob/master/source/porn_filters/README.md#pi-hole "What is Pi-hole and it limitations"
 [screenshot]: https://mypdns.org/MypDNS/support/-/wikis/Screenshot "What is a screenshot"
+
+/label ~Movies
+
+/weight 2
+
+/publish
+
+/severity low

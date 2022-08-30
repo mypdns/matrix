@@ -1,9 +1,7 @@
-<!-- Find tips in the bottom -->
-
 I report this ~"NSFW::Strict" related domain to be added into the [MyPDNS RPZ Firewall][mpdrf]
 
 ```
-(please input basedomain here)
+(input your domain name here)
 ```
 
 - [X] Wildcarded
@@ -12,20 +10,17 @@ I report this ~"NSFW::Strict" related domain to be added into the [MyPDNS RPZ Fi
 ## RPZ (Response Policy Zone) Rules
 
 ```css
-domain   CNAME . ; Strict.Adult
-*.domain   CNAME . ; Strict.Adult
+domain_name_here   CNAME . ; Strict.Adult
+www.domain_name_here   CNAME . ; Strict.Adult
 ```
 
 ### Additional requirements for
 
 #### [hosts] and [Pi-hole]
-<details><summary>Click to expand</summary>
 
 ```css
-NULL
+null
 ```
-
-</details>
 
 ```css
 + www
@@ -42,34 +37,33 @@ N/A
 
 </details>
 
-
 ## Screenshots
 
-<details><summary>:underage: NSFW Screenshot :underage:</summary>
+<details><summary><b><i>NSFW</i></b> Screenshot</summary>
 
-
+(Upload your screenshot here)
 
 </details>
 
 ## Comments
-<!-- comments like a specific url to see contents -->
+<!-- Comments such as specific URL to view contents -->
 
 ## My Privacy DNS issues
 - `` #
 
 ## External sources
-<!-- If you found this domain on another issueboard -->
+<!-- if you took this domain from other board -->
 - ``
 
-
 ### All Submissions:
-- [ ] Have you followed the guidelines in our [Contributing](CONTRIBUTING.md) documentation?
-- [ ] Added [screenshot] for prove of [False Negative][FN]
-- [ ] Added screenshot for proof of False Negative
+- [ ] Did you follow the guidelines in the Contributing document?
+- [ ] Have you added an explanation of what your submission do and why you'd like us to include them??
+- [ ] Have you checked to ensure there aren't other open Merge Requests (MR) or issue for the same update/change?
+- [ ] Added screenshot for prove of False Negative
 
 ### Todo
 - [ ] Added to Source file?
-- [X] Added to the RPZ zone [strict.adult.mypdns.cloud] (spirillen)
+- [ ] Added to the RPZ zone
 
 #### Logger output
 
@@ -81,29 +75,6 @@ N/A
 
 </details>
 
-/label ~"NSFW::Strict"
-
-
-<!--
-usage of www or not
-
-Please check if you submission is using the the www or not
-and put that into the section
-
-You can tell us you have checked this by adding either a {key +}, a {key -} or `none` in front of the `www`
-
-+ www  The domain uses **both** the `www` and the _none_ `www` names.
-- www  The domain is not using `www` name _or_ `www` is redirecting.
-www.domain  The domain uses **only** the `www.` name.
-www.? Leaving the question mark tells us you haven't tested this
-
-Tips & Tricks
-
-If you are using ie. uBlock Origin, you can sort the log output with this
-one-liner in bash.
-See snippet: https://mypdns.org/-/snippets/30
--->
-
 [FN]: https://mypdns.org/MypDNS/support/-/wikis/False-Negative "About False Positive"
 [hosts]: https://mypdns.org/mypdns/support/-/wikis/dns/DnsHosts "Hosts files a outdated blacklist format"
 [issue]: https://mypdns.org/my-privacy-dns/matrix/-/issues "My Privacy DNS Domain records"
@@ -113,3 +84,5 @@ See snippet: https://mypdns.org/-/snippets/30
 [Pi-hole]: https://mypdns.org/my-privacy-dns/matrix/-/blob/master/source/porn_filters/README.md#pi-hole "What is Pi-hole and it limitations"
 [screenshot]: https://mypdns.org/MypDNS/support/-/wikis/Screenshot "What is a screenshot"
 [strict.adult.mypdns.cloud]: https://mypdns.org/mypdns/support/-/wikis/RPZ-List#strictadultmypdnscloud
+
+/label ~"NSFW::Strict"

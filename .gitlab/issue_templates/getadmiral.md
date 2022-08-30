@@ -1,4 +1,8 @@
-I report this [Tracking](https://mypdns.org/mypdns/support/-/wikis/Categories/Trackware) related domain(s) to be added into the [MyPrivacy DNS RPZ Firewall][mpdrf]
+I report this [Tracking] related domain(s) to be added into the [MyPrivacy DNS RPZ Firewall][mpdrf]
+
+```
+(input your domain name here)
+```
 
 - [X] Wildcarded
 - [ ] Individual domain blocking
@@ -6,17 +10,16 @@ I report this [Tracking](https://mypdns.org/mypdns/support/-/wikis/Categories/Tr
 ## RPZ (Response Policy Zone) Rules
 
 ```css
-domain   CNAME . ; Tracking
-*.domain   CNAME . ; Tracking
+domain_name_here   CNAME . ; Tracking
+www.domain_name_here   CNAME . ; Tracking
 ```
 
 ### Additional requirements for
 
 #### [hosts] and [Pi-hole]
-<details><summary>Click to expand</summary>
 
 ```css
-NULL
+null
 ```
 
 ```css
@@ -24,8 +27,6 @@ NULL
 - www
 www.
 ```
-
-</details>
 
 #### uBlock Origin adblocker
 <details><summary>Click to expand</summary>
@@ -42,30 +43,31 @@ This text appears on all Admirals owned domains
 ![Screeshot](https://mypdns.org/my-privacy-dns/matrix/uploads/d9aae9b533ce6a4620dafa5da4533e58/image.png)
 
 ## Comments
+<!-- Comments such as specific URL to view contents -->
+
 This domain is used by [`getadmiral.com`][getadmiral] to collect your surfing habits and the are using a variety of scripts to generate a personal identification of you and your devices. Follow [getadmiral][getadmiral] for updates.
 
 You can always find the latest list of Admiral's Active domains in milestone %"getadmiral.com"
 
 ## External sources
-- `` Thanks to @
-
+<!-- if you took this domain from other board -->
+- ``
 
 ### All Submissions:
-- [ ] Did you follow the guidelines in the [Contributing](CONTRIBUTING.md)
-	  document?
-- [X] Added [screenshot] for prove of [False Negative][FN]
-- [ ] Have you added an explanation of what your submission do and why you'd
-	  like us to include them??
-- [ ] Added [screenshot] for prove of [False Negative][FN]
+- [ ] Have you followed the guidelines in our Contributing document?
+- [ ] Have you checked to ensure there aren't other open MR or Issues for the same update/change?
+- [ ] Have you added an explanation of what your submission do and why you'd like us to include them??
+- [ ] Added screenshot for prove of False Negative
 
-### Testing phase
+### Testing face
 - [ ] Checked the internet for verification?
-- [ ] Successfully tested changes locally?
+- [ ] Have you successfully ran tests with your changes locally?
 
 ### Todo
-- [X] RPZ Server (Team \@Spirillen)
-- [X] Added to Source file
+- [ ] RPZ Server
+- [ ] Added to Source file
 
+[Tracking]: https://mypdns.org/mypdns/support/-/wikis/Categories/Trackware
 [FN]: https://mypdns.org/MypDNS/support/-/wikis/False-Negative "About False Positive"
 [getadmiral]: https://mypdns.org/my-privacy-dns/matrix/-/issues/3023
 [hosts]: https://mypdns.org/mypdns/support/-/wikis/dns/DnsHosts "Hosts files a outdated blacklist format"
