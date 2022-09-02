@@ -11,7 +11,7 @@ I report this [Drugs][catinfo] related domain to be added into the [MyPDNS RPZ F
 
 ```css
 domain_name_here   CNAME . ; Drugs
-www.domain_name_here   CNAME . ; Drugs
+*.domain_name_here   CNAME . ; Drugs
 ```
 
 ### Additional requirements for

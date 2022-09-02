@@ -11,7 +11,7 @@ I report this [Url Shortener][catinfo] related domain to be added into the [MyPD
 
 ```css
 domain_name_here   CNAME . ; Url_Shortener
-www.domain_name_here   CNAME . ; Url_Shortener
+*.domain_name_here   CNAME . ; Url_Shortener
 ```
 
 ### Additional requirements for

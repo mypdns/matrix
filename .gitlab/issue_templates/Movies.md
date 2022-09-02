@@ -11,7 +11,7 @@ I report this [Movies][catinfo] related domain to be added into the [MyPDNS RPZ 
 
 ```css
 domain_name_here   CNAME . ; Movies
-www.domain_name_here   CNAME . ; Movies
+*.domain_name_here   CNAME . ; Movies
 ```
 
 ### Additional requirements for

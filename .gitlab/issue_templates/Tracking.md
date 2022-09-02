@@ -11,7 +11,7 @@ I report this [Tracking][catinfo] related domain to be added into the [MyPDNS RP
 
 ```css
 domain_name_here   CNAME . ; Tracking
-www.domain_name_here   CNAME . ; Tracking
+*.domain_name_here   CNAME . ; Tracking
 ```
 
 ### Additional requirements for

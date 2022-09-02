@@ -11,7 +11,7 @@ I report this Hijacked/Pirated/Sharked related domain(s) to be added into the [M
 
 ```css
 domain_name_here   CNAME . ; Pirated
-www.domain_name_here   CNAME . ; Pirated
+*.domain_name_here   CNAME . ; Pirated
 ```
 
 ## DNS server

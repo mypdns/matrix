@@ -11,7 +11,7 @@ I report this ~"NSFW::Porn" related domain to be added into the [MyPDNS RPZ Fire
 
 ```css
 domain_name_here   CNAME . ; Adult
-www.domain_name_here   CNAME . ; Adult
+*.domain_name_here   CNAME . ; Adult
 ```
 
 ### Additional requirements for

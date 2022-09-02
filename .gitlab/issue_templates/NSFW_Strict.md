@@ -11,7 +11,7 @@ I report this ~"NSFW::Strict" related domain to be added into the [MyPDNS RPZ Fi
 
 ```css
 domain_name_here   CNAME . ; Strict.Adult
-www.domain_name_here   CNAME . ; Strict.Adult
+*.domain_name_here   CNAME . ; Strict.Adult
 ```
 
 ### Additional requirements for

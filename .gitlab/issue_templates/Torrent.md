@@ -11,7 +11,7 @@ I report this [Torrent][catinfo] related domain to be added into the [MyPDNS RPZ
 
 ```css
 domain_name_here   CNAME . ; Torrent
-www.domain_name_here   CNAME . ; Torrent
+*.domain_name_here   CNAME . ; Torrent
 ```
 
 ### Additional requirements for

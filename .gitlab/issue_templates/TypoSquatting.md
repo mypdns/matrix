@@ -11,7 +11,7 @@ I report this [Typo Squatting][catinfo] related domain to be added into the [MyP
 
 ```css
 domain_name_here   CNAME . ; Typo_Squatting
-www.domain_name_here   CNAME . ; Typo_Squatting
+*.domain_name_here   CNAME . ; Typo_Squatting
 ```
 
 ## Typo Squatting domain

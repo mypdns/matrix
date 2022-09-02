@@ -11,7 +11,7 @@ I report this [Religion][catinfo] related domain to be added into the [MyPDNS RP
 
 ```css
 domain_name_here   CNAME . ; Religion
-www.domain_name_here   CNAME . ; Religion
+*.domain_name_here   CNAME . ; Religion
 ```
 
 ### Additional requirements for

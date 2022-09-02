@@ -11,7 +11,7 @@ I report this [News][catinfo] related domain to be added into the [MyPDNS RPZ Fi
 
 ```css
 domain_name_here   CNAME . ; News
-www.domain_name_here   CNAME . ; News
+*.domain_name_here   CNAME . ; News
 ```
 
 ### Additional requirements for

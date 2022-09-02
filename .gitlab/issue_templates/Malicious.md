@@ -11,7 +11,7 @@ I report this [Malware][catinfo] related domain to be added into the [MyPDNS RPZ
 
 ```css
 domain_name_here   CNAME . ; Malicious
-www.domain_name_here   CNAME . ; Malicious
+*.domain_name_here   CNAME . ; Malicious
 ```
 
 ### Additional requirements for

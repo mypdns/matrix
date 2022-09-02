@@ -11,7 +11,7 @@ I report this [Spyware][catinfo] related domain to be added into the [MyPDNS RPZ
 
 ```css
 domain_name_here   CNAME . ; Spyware
-www.domain_name_here   CNAME . ; Spyware
+*.domain_name_here   CNAME . ; Spyware
 ```
 
 ### Additional requirements for

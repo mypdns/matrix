@@ -11,7 +11,7 @@ I report this [Weapons][catinfo] related domain to be added into the [MyPDNS RPZ
 
 ```css
 domain_name_here   CNAME . ; Weapons
-www.domain_name_here   CNAME . ; Weapons
+*.domain_name_here   CNAME . ; Weapons
 ```
 
 ### Additional requirements for

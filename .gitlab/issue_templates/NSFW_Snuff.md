@@ -11,7 +11,7 @@ I report this ~"NSFW::Snuff" related domain to be added into the [MyPDNS RPZ Fir
 
 ```css
 domain_name_here   CNAME . ; Snuff
-www.domain_name_here   CNAME . ; Snuff
+*.domain_name_here   CNAME . ; Snuff
 ```
 
 ### Additional requirements for

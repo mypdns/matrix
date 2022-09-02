@@ -11,7 +11,7 @@ I report this [Scamming][catinfo] related domain to be added into the [MyPDNS RP
 
 ```css
 domain_name_here   CNAME . ; Scamming
-www.domain_name_here   CNAME . ; Scamming
+*.domain_name_here   CNAME . ; Scamming
 ```
 
 ## Impersonated - Typo Squatting domain

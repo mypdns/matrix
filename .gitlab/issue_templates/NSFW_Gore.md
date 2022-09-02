@@ -11,7 +11,7 @@ I report this ~"NSFW::Gore" related domain to be added into the [MyPDNS RPZ Fire
 
 ```css
 domain_name_here   CNAME . ; Gore
-www.domain_name_here   CNAME . ; Gore
+*.domain_name_here   CNAME . ; Gore
 ```
 
 ### Additional requirements for

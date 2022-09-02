@@ -11,7 +11,7 @@ I report this [Politics][catinfo] related domain to be added into the [MyPDNS RP
 
 ```css
 domain_name_here   CNAME . ; Politics
-www.domain_name_here   CNAME . ; Politics
+*.domain_name_here   CNAME . ; Politics
 ```
 
 ### Additional requirements for

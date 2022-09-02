@@ -11,7 +11,7 @@ I report this [AdWare][catinfo] related domain to be added into the [MyPDNS RPZ 
 
 ```css
 domain_name_here   CNAME . ; AdWare
-www.domain_name_here   CNAME . ; AdWare
+*.domain_name_here   CNAME . ; AdWare
 ```
 
 ### Additional requirements for

@@ -11,7 +11,7 @@ I report this [Gambling][catinfo] related domain to be added into the [MyPDNS RP
 
 ```css
 domain_name_here   CNAME . ; Gambling
-www.domain_name_here   CNAME . ; Gambling
+*.domain_name_here   CNAME . ; Gambling
 ```
 
 ### Additional requirements for
