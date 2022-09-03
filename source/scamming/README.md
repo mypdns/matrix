@@ -7,4 +7,4 @@ when you receive the goods, you get a bike cycle or toy car.
 
 Wiki: https://mypdns.org/mypdns/support/-/wikis/Categories/Scamming
 
-This zone is served via [scam.mypdns.cloud](https://mypdns.org/mypdns/support/-/wikis/RPZ-List#scammypdnscloud)
+This zone is served via [scamming.mypdns.cloud](https://mypdns.org/mypdns/support/-/wikis/RPZ-List#scammingmypdnscloud)
