@@ -236,15 +236,15 @@ When this happens, please message this text "`Ping @spirillen, I've got
 marked as spam`" to [issue](https://mypdns.org/mypdns/support/-/issues/268)
 and we will get your account back on track.
 
-| Category              | Commit issue                                                                                  |
-| :-------------------- | :-------------------------------------------------------------------------------------------- |
-| Adult contents        | https://mypdns.org/my-privacy-dns/matrix/-/issues/new?issuable_template=Adult_contents        |
-| Adult CDN             | https://mypdns.org/my-privacy-dns/matrix/-/issues/new?issuable_template=Adult_CDN             |
-| Strict Adult contents | https://mypdns.org/my-privacy-dns/matrix/-/issues/new?issuable_template=Strict_Adult_contents |
-| Strict Adult CDN      | https://mypdns.org/my-privacy-dns/matrix/-/issues/new?issuable_template=Strict_Adult_CDN      |
-| Snuff & gore          | https://mypdns.org/my-privacy-dns/matrix/-/issues/new?issuable_template=Snuff                 |
-| Common support        | https://mypdns.org/MypDNS/support/-/wikis/-/issues/new                                        |
-| Common wiki           | https://mypdns.org/MypDNS/support/-/wikis/                                                    |
+| Category              | Commit issue                                                                             |
+| :-------------------- | :--------------------------------------------------------------------------------------- |
+| Adult contents        | https://mypdns.org/my-privacy-dns/matrix/-/issues/new?issuable_template=NSFW_Porn        |
+| Adult CDN             | https://mypdns.org/my-privacy-dns/matrix/-/issues/new?issuable_template=Adult_CDN        |
+| Strict Adult contents | https://mypdns.org/my-privacy-dns/matrix/-/issues/new?issuable_template=NSFW_Strict      |
+| Strict Adult CDN      | https://mypdns.org/my-privacy-dns/matrix/-/issues/new?issuable_template=Strict_Adult_CDN |
+| Snuff & gore          | https://mypdns.org/my-privacy-dns/matrix/-/issues/new?issuable_template=NSFW_Snuff       |
+| Common support        | https://mypdns.org/mypdns/support/-/issues/new                                           |
+| Common wiki           | https://mypdns.org/MypDNS/support/-/wikis/                                               |
 
 
 This is where you contribute with new domains matching any of these
