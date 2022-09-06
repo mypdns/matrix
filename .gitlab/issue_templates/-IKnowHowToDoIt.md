@@ -27,7 +27,7 @@ NULL
 www.
 ```
 
-#### uBlock Origin adblocker
+#### Adblocker
 <details><summary>Click to expand</summary>
 
 ```css

@@ -33,7 +33,7 @@ www.
 
 </details>
 
-#### uBlock Origin adblocker
+#### Adblocker
 <details><summary>Click to expand</summary>
 
 ```css
