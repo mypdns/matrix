@@ -6,6 +6,7 @@ rpz.json
 scripts/adware.sh
 scripts/bulk_add.sh
 scripts/bulk_clean.sh
+scripts/config.php
 scripts/commits_to_bash.php
 scripts/commits_to_bash.sh
 scripts/commits_to_bash.since.txt
