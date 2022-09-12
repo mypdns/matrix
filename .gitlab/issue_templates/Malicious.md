@@ -90,3 +90,5 @@ N/A
 /publish
 
 /severity high
+
+/health_status at_risk

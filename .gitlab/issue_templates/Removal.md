@@ -15,8 +15,8 @@ This domain Should be removed because...
 ## RPZ (Response Policy Zone) Rules
 
 ```css
-domain   CNAME . ; Removal
-*.domain   CNAME . ; Removal
+domain_name_here   CNAME . ; Removal
+*.domain_name_here   CNAME . ; Removal
 ```
 
 ## Reason
@@ -81,6 +81,13 @@ N/A
   - [ ] Added to Source file
   - [ ] RPZ Server  (Team @Spirillen)
 
+[FN]: https://mypdns.org/MypDNS/support/-/wikis/False-Negative "About False Positive"
+[hosts]: https://mypdns.org/mypdns/support/-/wikis/dns/DnsHosts "Hosts files a outdated blacklist format"
+[issue]: https://mypdns.org/my-privacy-dns/matrix/-/issues "My Privacy DNS Domain records"
+[mpdrf]: https://mypdns.org/my-privacy-dns/matrix/ "My Privacy DNS RPZ Firewall Filter"
+[MR]: https://mypdns.org/my-privacy-dns/matrix/-/merge_requests "My Privacy DNS Merge Requests"
+[Pi-hole]: https://mypdns.org/my-privacy-dns/matrix/-/blob/master/source/porn_filters/README.md#pi-hole "What is Pi-hole and it limitations"
+[screenshot]: https://mypdns.org/MypDNS/support/-/wikis/Screenshot "What is a screenshot"
 
 /label ~"Removal::False Positive"
 
@@ -90,10 +97,4 @@ N/A
 
 /severity s4
 
-[FN]: https://mypdns.org/MypDNS/support/-/wikis/False-Negative "About False Positive"
-[hosts]: https://mypdns.org/mypdns/support/-/wikis/dns/DnsHosts "Hosts files a outdated blacklist format"
-[issue]: https://mypdns.org/my-privacy-dns/matrix/-/issues "My Privacy DNS Domain records"
-[mpdrf]: https://mypdns.org/my-privacy-dns/matrix/ "My Privacy DNS RPZ Firewall Filter"
-[MR]: https://mypdns.org/my-privacy-dns/matrix/-/merge_requests "My Privacy DNS Merge Requests"
-[Pi-hole]: https://mypdns.org/my-privacy-dns/matrix/-/blob/master/source/porn_filters/README.md#pi-hole "What is Pi-hole and it limitations"
-[screenshot]: https://mypdns.org/MypDNS/support/-/wikis/Screenshot "What is a screenshot"
+/health_status on_track

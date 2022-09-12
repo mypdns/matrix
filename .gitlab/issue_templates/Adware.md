@@ -85,8 +85,10 @@ N/A
 
 /label ~AdWare
 
-/weight 2
+/weight 6
 
 /publish
 
 /severity low
+
+/health_status on_track

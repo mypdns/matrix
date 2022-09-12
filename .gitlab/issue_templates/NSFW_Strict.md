@@ -86,3 +86,11 @@ N/A
 [strict.adult.mypdns.cloud]: https://mypdns.org/mypdns/support/-/wikis/RPZ-List#strictadultmypdnscloud
 
 /label ~"NSFW::Strict"
+
+/weight 0
+
+/health_status on_track
+
+/severity low
+
+/publish

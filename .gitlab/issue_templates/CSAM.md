@@ -12,8 +12,8 @@ I report this ~"NSFW::Porn" related domain to be added into the [MyPDNS RPZ Fire
 ## RPZ (Response Policy Zone) Rules
 
 ```css
-domain   CNAME . ; CSAM, Adult
-*.domain   CNAME . ; CSAM, Adult
+domain_name_here   CNAME . ; CSAM, Adult
+*.domain_name_here   CNAME . ; CSAM, Adult
 ```
 
 ### Additional requirements for
@@ -97,6 +97,13 @@ N/A
 
 /confidential 
 
+/weight 10
+
+/health_status at_risk
+
+/severity critical
+
+/publish
 
 <!--
 usage of www or not

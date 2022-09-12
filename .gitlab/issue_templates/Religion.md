@@ -85,8 +85,10 @@ N/A
 
 /label ~Religion
 
-/weight 2
+/weight 4
 
 /publish
 
 /severity low
+
+/health_status on_track

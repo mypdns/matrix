@@ -90,8 +90,10 @@ N/A
 
 /label ~Phishing ~Typo_Squatting
 
-/weight 8
+/weight 10
 
 /publish
 
 /severity high
+
+/health_status at_risk

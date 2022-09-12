@@ -102,8 +102,10 @@ N/A
 
 /label ~DNS_Server
 
-/weight 2
+/weight 7
 
 /publish
 
 /severity medium
+
+/health_status needs_attention

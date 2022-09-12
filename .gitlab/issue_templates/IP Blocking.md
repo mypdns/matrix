@@ -63,3 +63,5 @@ This IP address or IP range (CIDR) to be added into the [MyPDNS RPZ Firewall][mp
 /publish
 
 /severity low
+
+/health_status on_track
