@@ -83,10 +83,12 @@ N/A
 [Pi-hole]: https://mypdns.org/my-privacy-dns/matrix/-/blob/master/source/porn_filters/README.md#pi-hole "What is Pi-hole and it limitations"
 [screenshot]: https://mypdns.org/MypDNS/support/-/wikis/Screenshot "What is a screenshot"
 
-/label ~Torrent
+/health_status on_track
 
-/weight 1
+/label ~Torrent
 
 /publish
 
 /severity low
+
+/weight 1

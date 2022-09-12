@@ -10,8 +10,8 @@ I report this ~"NSFW::Porn" related domain to be added into the [MyPDNS RPZ Fire
 - [ ] Individual domain blocking
 
 ```css
-domain   CNAME . ; Adult
-*.domain   CNAME . ; Adult
+domain_name_here   CNAME . ; Adult
+*.domain_name_here   CNAME . ; Adult
 ```
 
 CDN See [Linked issues](#linked-issues) for details
@@ -74,22 +74,10 @@ N/A
 
 /label ~"CDN::NSFW"
 
-<!--
-usage of www or not
+/weight 0
 
-Please check if you submission is using the the www or not and put that into
-the section of
+/health_status on_track
 
-You can tell us you have checked this by adding either a {key +}, a {key -} or `none` in front of the `www`
+/severity low
 
-+ www  The domain uses **both** the `www` and the _none_ `www` names.
-- www  The domain uses **only** the _none_ `www` name.
-www.domain  The domain uses **only** the `www.` name.
-www.? Leaving the question mark tells us you haven't tested this
-
-Tips & Tricks
-
-If you are using ie. uBlock Origin, you can sort the log output with this
-one-liner in bash.
-See snippet: https://mypdns.org/-/snippets/30
--->
+/publish

@@ -10,8 +10,8 @@ I report this [AdWare](https://mypdns.org/MypDNS/support/-/wikis/Categories/Adwa
 ## RPZ (Response Policy Zone) Rules
 
 ```css
-domain   CNAME . ; AdWare
-*.domain   CNAME . ; AdWare
+domain_name_here   CNAME . ; AdWare
+*.domain_name_here   CNAME . ; AdWare
 ```
 
 ## Relevant comments
@@ -61,7 +61,9 @@ Adserver found at ``
 
 /label ~AdWare
 
-/weight 2
+/weight 6
+
+/health_status needs_attention
 
 /severity low
 

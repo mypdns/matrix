@@ -10,8 +10,8 @@ I report this [Spam](https://mypdns.org/mypdns/support/-/wikis/Categories/Spam) 
 ## RPZ (Response Policy Zone) Rules
 
 ```css
-domain   CNAME . ; Spam
-*.domain   CNAME . ; Spam
+domain_name_here   CNAME . ; Spam
+*.domain_name_here   CNAME . ; Spam
 ```
 
 ## Impersonated - Typo Squatting domain
@@ -75,14 +75,6 @@ N/A
 - [X] RPZ Server (Team \@Spirillen)
 - [X] Added to Source file
 
-/label ~Spam
-
-/weight 3
-
-/publish
-
-/severity low
-
 [FN]: https://mypdns.org/MypDNS/support/-/wikis/False-Negative "About False Positive"
 [hosts]: https://mypdns.org/mypdns/support/-/wikis/dns/DnsHosts "Hosts files a outdated blacklist format"
 [issue]: https://mypdns.org/my-privacy-dns/matrix/-/issues "My Privacy DNS Domain records"
@@ -91,3 +83,13 @@ N/A
 [Pi-hole]: https://mypdns.org/my-privacy-dns/matrix/-/blob/master/source/porn_filters/README.md#pi-hole
 [Pi-hole]: https://mypdns.org/my-privacy-dns/matrix/-/blob/master/source/porn_filters/README.md#pi-hole "What is Pi-hole and it limitations"
 [screenshot]: https://mypdns.org/MypDNS/support/-/wikis/Screenshot "What is a screenshot"
+
+/label ~Spam
+
+/weight 3
+
+/publish
+
+/severity low
+
+/health_status needs_attention

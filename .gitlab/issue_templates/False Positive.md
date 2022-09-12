@@ -20,8 +20,8 @@ reason
 ## RPZ (Response Policy Zone) Rules
 
 ```css
-domain   CNAME rpz-passthru. ; Write new Category
-*.domain   CNAME rpz-passthru. ; Write new Category
+domain_name_here   CNAME rpz-passthru. ; Write new Category
+*.domain_name_here   CNAME rpz-passthru. ; Write new Category
 ```
 
 ## Extravagant good reason
@@ -75,6 +75,10 @@ console output, logs, and code as it's very hard to read otherwise. -->
 
 /label ~"Removal::False Positive"
 
-/weight 6
+/weight 8
+
+/health_status needs_attention
+
+/severity critical
 
 /publish

@@ -85,3 +85,11 @@ N/A
 [screenshot]: https://mypdns.org/MypDNS/support/-/wikis/Screenshot "What is a screenshot"
 
 /label ~"NSFW::Gore"
+
+/weight 0
+
+/health_status on_track
+
+/severity low
+
+/publish

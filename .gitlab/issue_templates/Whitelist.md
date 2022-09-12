@@ -13,8 +13,8 @@ reason
 - [ ] Wildcard
 
 ```css
-domain   CNAME rpz-passthru. ; WhiteList
-*.domain   CNAME rpz-passthru. ; WhiteList
+domain_name_here   CNAME rpz-passthru. ; WhiteList
+*.domain_name_here   CNAME rpz-passthru. ; WhiteList
 ```
 
 ## Extravagant good reason
@@ -61,3 +61,7 @@ console output, logs, and code as it's very hard to read otherwise. -->
 /weight 6
 
 /publish
+
+/health_status on_track
+
+/severity low

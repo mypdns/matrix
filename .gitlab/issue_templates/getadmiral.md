@@ -54,14 +54,14 @@ You can always find the latest list of Admiral's Active domains in milestone %"g
 - ``
 
 ### All Submissions:
-- [ ] Have you followed the guidelines in our [Contributing](CONTRIBUTING.md) document?
-- [ ] Have you checked to ensure there aren't other open [Merge Requests (MR)][MR] or [issue] for the same update/change?
-- [ ] Have you added an explanation of what your submission do and why you'd like us to include them??
-- [ ] Added [screenshot] for prove of [False Negative][FN]
+- [X] Have you followed the guidelines in our [Contributing](CONTRIBUTING.md) document?
+- [X] Have you checked to ensure there aren't other open [Merge Requests (MR)][MR] or [issue] for the same update/change?
+- [X] Have you added an explanation of what your submission do and why you'd like us to include them??
+- [X] Added [screenshot] for prove of [False Negative][FN]
 
 ### Testing face
-- [ ] Checked the internet for verification?
-- [ ] Have you successfully ran tests with your changes locally?
+- [X] Checked the internet for verification?
+- [X] Have you successfully ran tests with your changes locally?
 
 ### Todo
 - [X] RPZ Server
@@ -81,8 +81,10 @@ You can always find the latest list of Admiral's Active domains in milestone %"g
 
 /label ~Tracking
 
-/weight 8
+/weight 10
 
 /publish
 
 /severity critical
+
+/health_status at_risk

@@ -10,8 +10,8 @@ I report this ~CryptoMiner related domain(s) to be added into the [MyPDNS RPZ Fi
 ## RPZ (Response Policy Zone) Rules
 
 ```css
-domain   CNAME . ; CryptoMiner
-*.domain   CNAME . ; CryptoMiner
+domain_name_here   CNAME . ; CryptoMiner
+*.domain_name_here   CNAME . ; CryptoMiner
 ```
 
 ### Additional requirements for
@@ -95,3 +95,7 @@ N/A
 /publish
 
 /severity low
+
+/weight 0
+
+/health_status needs_attention

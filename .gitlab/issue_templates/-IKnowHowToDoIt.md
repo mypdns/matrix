@@ -6,8 +6,8 @@ I report this ~"NSFW::Porn" related domain to be added into the [MyPDNS RPZ Fire
 ## RPZ (Response Policy Zone) Rules
 
 ```css
-domain   CNAME . ; Adult
-*.domain   CNAME . ; Adult
+domain_name_here   CNAME . ; Adult
+*.domain_name_here   CNAME . ; Adult
 ```
 
 ### Additional requirements for
@@ -73,7 +73,6 @@ N/A
 
 </details>
 
-/label ~"NSFW::Porn"
 
 [adultmypdnscloud]: https://mypdns.org/mypdns/support/-/wikis/RPZ-List#adultmypdnscloud "Rpz Zone for blocking Porn"
 [FN]: https://mypdns.org/MypDNS/support/-/wikis/False-Negative "About False Positive"
@@ -83,3 +82,13 @@ N/A
 [MR]: https://mypdns.org/my-privacy-dns/matrix/-/merge_requests "My Privacy DNS Merge Requests"
 [Pi-hole]: https://mypdns.org/my-privacy-dns/matrix/-/blob/master/source/porn_filters/README.md#pi-hole "What is Pi-hole and it limitations"
 [screenshot]: https://mypdns.org/MypDNS/support/-/wikis/Screenshot "What is a screenshot"
+
+/label ~"NSFW::Porn"
+
+/weight 0
+
+/health_status on_track
+
+/severity low
+
+/publish

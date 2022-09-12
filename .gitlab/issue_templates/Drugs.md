@@ -90,3 +90,5 @@ N/A
 /publish
 
 /severity low
+
+/health_status on_track
