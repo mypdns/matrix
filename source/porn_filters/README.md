@@ -120,7 +120,8 @@ How this is done depends on the Software you have chosen.
 ### Porn
 The  ~"NSFW::Porn" is used by My Privacy DNS moderators for any domains
 for which the contents are pornographic (NSFW) concepts. This means explicit
-nudity or sexual acts for pornographic entertainment purposes *only*
+nudity or sexual acts for pornographic purposes and sited such as dating
+sites.
 
 ### Strict Porn
 This list serves two goals, blocking domains that ordinary might be
@@ -130,7 +131,8 @@ NSFW Classifiable content which as such would be considered as NSFW
 explicit content.
 
 What is *NOT* strict- or porn by My Privacy DNS is domains that are or
-can be categorized as [educational](#educational) or [art](#artistic---art)
+can be categorized as [News][news], [educational](#educational) or
+[art](#artistic---art)
 
 These files will contain domains which primary is used to host non-adult
 related contents and for that, you might feel like experiencing several
@@ -376,6 +378,7 @@ Please see [contact information][contact]
 [IP_Addresses]: https://mypdns.org/mypdns/support/-/wikis/RPZ-record-types#the-response-ip-address-trigger-rpz-ip
 [matrix]: https://mypdns.org/my-privacy-dns/matrix "My Privacy DNS is aiming to be the most intelligent DNS Firewall throughout using the modern DNS RPZ approach"
 [mypdns]: https://mypdns.org/
+[news]: https://mypdns.org/mypdns/support/-/wikis/Categories/News
 [NSFW]: https://mypdns.org/groups/my-privacy-dns/-/issues?scope=all&state=all&label_name[]=NSFW%3A%3APorn "Not Safe For Weaklings"
 [pi-hole_combo]: https://mypdns.org/mypdns/support/-/issues/253 "What lists to use in pi-hole"
 [MyPrivacyDNSReporter]: https://mypdns.org/infrastructure/mypdns-reporter "Awesome tool to commit porn sites"
