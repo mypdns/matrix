@@ -14,6 +14,11 @@ domain_name_here   CNAME . ; Typo_Squatting
 *.domain_name_here   CNAME . ; Typo_Squatting
 ```
 
+## Impersonated - Typo Squatting domain
+```css
+Required or issue is marked invalid.
+```
+
 ## Typo Squatting domain
 ```css
 Required or issue is marked invalid.
