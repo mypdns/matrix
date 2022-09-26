@@ -95,15 +95,15 @@ www.google.com
 [screenshot]: https://mypdns.org/MypDNS/support/-/wikis/Screenshot "What is a screenshot"
 
 
+/health_status on_track
+
 /label ~"NSFW::Strict" ~AdWare 
+
+/publish
 
 /weight 8
 
-/health_status on_track
-
 /severity low
-
-/publish
 
 /epic my-privacy-dns&2 
 
