@@ -1,125 +1,112 @@
-> This issue is committed via our add-on.
-
-@${USER} believe this domain should be reported as ${$cat1, $cat2}
-
--------------------
-`Alternative intro`
-@${USER} believes this domain should be reported
--------------------
+**@cathub** report this [AdWare][catinfo] related domain to be added into the [MyPDNS RPZ Firewall][mpdrf]
 
 ```
-$DOMAINs
+domain_name_here
 ```
 
 - [X] Wildcarded
-- [ ] Single domain (Only sub domains) (Comment: Sub.$domain can be wildcarded as well!!!)
+- [ ] Individual domain blocking
 
-(!Comment: we prefer blacklisting by wildcard as much as possible)
+## RPZ (Response Policy Zone) Rules
+
 ```css
-$DOMAIN   CNAME . ; $cat1 elif , $cat2 # other comment
-*.$DOMAIN   CNAME . ; $cat1 elif , $cat2 # other comment
+domain_name_here   CNAME . ; AdWare, Strict.Adult
+*.domain_name_here   CNAME . ; AdWare, Strict.Adult
 ```
 
-```
-IF [ ISSUE == Porn Record ]
-THEN
-	### Additional requirements for hosts and Pi-hole
+### Additional requirements for
 
-	```css
-	IF [ ! -n sub.$domain ]
-	THEN
-		sub.$domain
-		sub1.$domain
-		...
-		sub829.$domain
-	ELSE
-		null
-	FI
-	```
+#### [hosts] and [Pi-hole]
 
-	```css
-	+ www (HTTP 200 on both $DOMAIN & www.$DOMAIN)
-	- www (HTTP 200 only on $DOMAIN )
-	www.$DOMAIN (HTTP 200 only on www.$DOMAIN)
-	```
-FI
+```css
+adservice.domain_name_here
 ```
 
-## Relevant comments
+```css
+www.domain_name_here
+```
 
+#### Adblocker
+<details><summary>Click to expand</summary>
 
-## Screenshots
-<details><summary>Screenshot</summary>
-
-![ScreenShot]($IMAGE.webp)
+```css
+N/A
+```
 
 </details>
 
+## Screenshots
+
+<details><summary><b><i>NSFW</i></b> Screenshot</summary>
+
+
+
+</details>
+
+## Comments
+- Reported URL
+```
+https://adservice.domain_name_here
+```
+- by Github `ShadowWhisperer`
+
+- IP:`172.217.16.194` [US] AS15169 GOOGLE
+- Redirected: `domain_name_here` --> `www.domain_name_here` (`https://www.domain_name_here/?gws_rd=ssl`)
+
+## My Privacy DNS issues
+- `google.com` `#1078012`
+
+
 ## External sources
+- `https://raw.githubusercontent.com/ShadowWhisperer/BlockLists/master/RAW/Ads`
 
-(Comment: External urls should always be covered in backticks to avoid
-generating unwanted links)
-
-- `https://www.intezer.com/blog/malware-analysis/new-backdoor-sysjoker/`
-- `https://github.com/blocklistproject/Lists/issues/623`
-
-#### Test URL
-```
-${REPORTED_URI}
-```
-
-#### IP Information
-```
-$DOMAIN = $IP [$COUNTRY]
-ASN: $ASN_INFO
-```
-
-#### 3rd party Domains
-```
-$3P_DOMAIN(S)
-```
-
-> Linked issues
-
-- [facebook.com](https://mypdns.org/my-privacy-dns/matrix/-/issues/1728)
-- [scorecardresearch.com](https://mypdns.org/my-privacy-dns/matrix/-/issues/502)
-- [wp.com](https://mypdns.org/my-privacy-dns/matrix/-/issues/4515)
-- [youtube.com](https://mypdns.org/my-privacy-dns/matrix/-/issues/3868)
 
 ### All Submissions:
-- [ ] Did you follow the guidelines in the [Contributing](CONTRIBUTING.md)
-	  document?
-- [ ] Have you added an explanation of what your submission do and why you'd
-	  like us to include them??
-- [ ] Have you checked to ensure there aren't other open
-      [Merge Requests (MR)][MR] or [issue] for the same update/change?
-- [ ] Added [screenshot] for prove of [False Negative][FN]
+- [X] Have you followed the guidelines in our Contributing document?
+- [X] Have you checked to ensure there aren't other open MR or Issues for the same update/change?
+- [X] Have you added an explanation of what your submission do and why you'd like us to include them??
+- [X] Added screenshot for prove of False Negative
 
-- [ ] Added [screenshot] for prove of [False Negative][FN]
-
-### Testing phase
-- [ ] Checked the internet for verification?
-- [ ] Successfully tested changes locally?
-
-(!Comment: IF = Possible, then make this unmarked until actually committed and have
-the post officer (bot) to mark the fixed once. We can maybe use the gitlab
-runner for this job, to offload your server(s))
+### Testing face
+- [X] Checked the internet for verification?
+- [X] Have you successfully ran tests with your changes locally?
 
 ### Todo
 - [X] RPZ Server
 - [X] Added to Source file
 
-/label ~$cat1 ~$cat2 ~$cat3
+#### Logger output
 
+<details><summary>3rd party Domains</summary>
+
+```css
+www.google.com
 ```
-IF = issue
-/weight $WEIGHT (Only in issues, based on category)
 
-ELIF = INCIDENT
+</details>
 
-/severity $Severity (Only on incident, based on category)
+[catinfo]: https://mypdns.org/MypDNS/support/-/wikis/Categories/Adware
+[FN]: https://mypdns.org/MypDNS/support/-/wikis/False-Negative "About False Positive"
+[hosts]: https://mypdns.org/mypdns/support/-/wikis/dns/DnsHosts "Hosts files a outdated blacklist format"
+[issue]: https://mypdns.org/my-privacy-dns/matrix/-/issues "My Privacy DNS Domain records"
+[mpdrf]: https://mypdns.org/my-privacy-dns/matrix/ "My Privacy DNS RPZ Firewall Filter"
+[MR]: https://mypdns.org/my-privacy-dns/matrix/-/merge_requests "My Privacy DNS Merge Requests"
+[Pi-hole]: https://mypdns.org/my-privacy-dns/matrix/-/blob/master/source/porn_filters/README.md#pi-hole "What is Pi-hole and it limitations"
+[screenshot]: https://mypdns.org/MypDNS/support/-/wikis/Screenshot "What is a screenshot"
 
-fi
-```
+
+/label ~"NSFW::Strict" ~AdWare 
+
+/weight 8
+
+/health_status on_track
+
+/severity low
 
 /publish
+
+/epic my-privacy-dns&2 
+
+/milestone %"Google LLC." 
+
+/iteration *iteration:14
