@@ -32,6 +32,7 @@ ad-creatives-public.commondatastorage.googleapis.com
 ad-track.paravi.jp
 ad.kddi-fs.com
 ad.udition.jp
+adaggreg-ali.shalltry.com
 adebis.nursery.co.jp
 adebiscname.auone.jp
 adm.baidu.com
@@ -40,6 +41,7 @@ ads-bidder-api.twitter.com
 ads-tracking.beop.io
 adtrack.pichunter.com
 adtracker.qq.com
+af.shalltry.com
 affiliates.goreminders.com
 agi-static.indiatimes.com
 agl-intl.hotstar.com
@@ -47,6 +49,7 @@ agl.hotstar.com
 ah.pricegrabber.com
 ai.taobao.com
 airbus-nda.azurewebsites.net
+aireport.shalltry.com
 alarm.youku.com
 aliciabot.azurewebsites.net
 alive.github.com
@@ -466,6 +469,7 @@ download.pcappstore.baidu.com
 dpl.baidu.com
 dps.bing.com
 ds.onet.pl
+ds.shalltry.com
 dt1pxsve3tgas.cloudfront.net
 dtch.brunel.nl
 dtym7iokkjlif.cloudfront.net
@@ -543,6 +547,7 @@ feedback.search.microsoft.com
 feedback.windows.com
 feedbackws.icloud.com
 feedbackws.icloud.com.cn
+feeds.shalltry.com
 ffg-analytics-functionsk3nvxfne4dp4s.azurewebsites.net
 fimserve.ign.com
 firebasedynamiclinks-ipv4.googleapis.com
@@ -598,6 +603,7 @@ graph.facebook.com
 graph.instagram.com
 growth-pa.googleapis.com
 grs.platform.dbankcloud.cn
+gslb.shalltry.com
 gstaticadssl.l.google.com
 guce.huffingtonpost.co.uk
 guid.tpns.tencent.com
@@ -646,9 +652,12 @@ improving.duckduckgo.com
 improving.wuzhuiso.com
 in.mydirtyhobby.de
 inbound-analytics.pixlee.com
+ind-dsc.shalltry.com
+ind-dsu.shalltry.com
 inference.location.live.net
 info.indiatimes.com
 informer.yandex.ru
+ins.shalltry.com
 insights.samsung.com
 instafeed-api.pixlee.com.inscname.net
 instagram.fcdg1-1.fna.fbcdn.net
@@ -662,6 +671,8 @@ intuitvisitorid.api.intuit.com
 ip-info.ff.avast.com
 ip.taobao.com
 ipm-provider.ff.avast.com
+ire-dsc.shalltry.com
+ire-dsu.shalltry.com
 iris.iad.apple.com
 issuetracker.unity3d.com
 j.image-ad.jp
@@ -753,6 +764,7 @@ metrics.sky.com
 metrics.spbtv.com
 metrics.vodafone.com.eg
 metrika.yandex.ru
+mi-pre.shalltry.com
 mine.nahnoji.cz
 mine.torrent.pw
 mktgtc.knt.co.jp
@@ -770,6 +782,7 @@ mp.weixin.qq.com
 mplusps.ims.vodafone.com
 mpluswf.ims.vodafone.com
 mqtt-p4.facebook.com
+ms.shalltry.com
 ms.yandex.ru
 mxvp-feature-toggle-prod-1.zenmxapps.com
 mybbc-analytics.files.bbci.co.uk
@@ -780,6 +793,7 @@ nbsdk-baichuan.taobao.com
 netperform-is.vodafone.com.tr
 neverending-story.cf
 news.iadsdk.apple.com
+newsaggreg.shalltry.com
 nil.naver.com
 nlp-japan.life-and-mind.com
 nmetrics.samsung.com
@@ -795,6 +809,7 @@ online.miarroba.com
 oops.redditmedia.com
 openx.sales.e.fc2.com
 optimize.google.com
+os-code.shalltry.com
 ostats.mozilla.com
 ota.nvidia.com
 outal.origo.hu
@@ -868,6 +883,7 @@ rcgi.video.qq.com
 rdstat.tanx.com
 re.taobao.com
 redditstatic.com
+redshift.shalltry.com
 refer.wordpress.com
 reklama.onet.pl
 report-uri.cloudflare.com
@@ -1044,6 +1060,7 @@ tongji.baidu.com
 tongji.mafengwo.cn
 tongji.xinmin.cn
 toolbar.baidu.com
+toolgroup.shalltry.com
 top-fwz1.mail.ru
 top.mail.ru
 toyota-tagging-tagserver-prod.azurewebsites.net
@@ -1127,6 +1144,7 @@ unicast.ign.com
 union.baidu.com
 unstat.baidu.com
 updown.mobileassist.baidu.com
+upgrade.shalltry.com
 us01-analysis.ymcart.com
 us04logfiles.zoom.us
 usageanalytics.coveo.com
