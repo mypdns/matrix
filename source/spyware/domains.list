@@ -1,5 +1,3 @@
-jep-asset.akamaized.net
-t.paypal.com
 accountsx.bounceme.net
 amd-athena-rs-install-logs.s3.amazonaws.com
 analytics-stage.ff.avast.com
@@ -15,6 +13,7 @@ d2werg7o2mztut.cloudfront.net
 daisy.ubuntu.com
 data.beop.io
 deviceintegritytokens-pa.googleapis.com
+edu.google.com
 events.api.bosecm.com
 firebaseinstallations.googleapis.com
 fota4.adups.cn
@@ -32,6 +31,7 @@ graph.facebook.com
 image.uc.cn
 ip-info.ff.avast.com
 ipm-provider.ff.avast.com
+jep-asset.akamaized.net
 js.etimg.com
 kulkarni.bounceme.net
 maps.googleapis.com
@@ -42,6 +42,7 @@ phonedeviceverification-pa.googleapis.com
 sedo.cachefly.net
 stats.avast.com
 stats.dbc.dk
+t.paypal.com
 telemetry.docusign.net
 thestar.serveblog.net
 trace.svc.ui.com
