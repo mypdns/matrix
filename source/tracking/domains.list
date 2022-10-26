@@ -137,6 +137,7 @@ apollo.plein.nl
 app1.maatwerkonline.nl
 appanalysis.banggood.com
 apphack.mobi
+applicationinsights.microsoft.com
 apprep.smartscreen.microsoft.com
 apps.iad.apple.com
 appsbnet-a.akamaihd.net
@@ -193,6 +194,8 @@ boot.pbstck.com
 boscdn.bpc.baidu.com
 box.bossdata.be
 br.baidu.com
+browser.events.data.microsoft.com
+browser.pipe.aria.microsoft.com
 bs-meta.yandex.ru
 btrace.video.qq.com
 bug2.onlyfans.com
@@ -656,6 +659,7 @@ hitcounters.miarroba.com
 hits.golem.de
 hm.baidu.com
 hn-ping.hashnode.com
+hops.glbdns.microsoft.com
 host10.carl-ras.dk
 host10.ncoi.nl
 host11.polaroid.com
@@ -879,6 +883,7 @@ phpstat.cntcm.com.cn
 pindao.huoban.taobao.com
 ping.hashnode.com
 ping.instantsearchplus.com
+pipe.aria.microsoft.com
 piwik.disconnect.me
 piwik.geile-heisse-girls.com
 piwik.information.dk
@@ -1095,6 +1100,7 @@ teamnijhuis.com
 tejia.taobao.com
 telemetry.acronis.com
 telemetry.dropbox.com
+telemetry.microsoft.com
 telemetry.servers.getgo.com
 telemetry.tradingview.com
 telemetry.urs.microsoft.com
@@ -1231,9 +1237,11 @@ v7event.stats.avast.com
 verdict.abc.go.com
 vortex-sandbox.data.microsoft.com
 vortex-win.data.microsoft.com
+vortex.data.microsoft.com
 w88.go.com
 wangmeng.baidu.com
 wapceu2ntlcd01.azurewebsites.net
+watson.microsoft.com
 wawacity.bz
 wawacity.co
 wawacity.ec
@@ -1245,6 +1253,7 @@ wblt.oui.sncf
 wbmwss.beetv.net
 wcs.naver.com
 weather-analytics-events.apple.com
+weather.microsoft.com
 web-player-tracker.biliapi.net
 web-tracker.smsbump.com
 webstats.empflix.com
@@ -1253,6 +1262,7 @@ whatismylocale.start.me
 wl.hpyrdr.com
 wm.baidu.com
 wn.pos.baidu.com
+ws.microsoft.com
 wstats.gameblog.fr
 wtm.monitoringservice.co
 www.olark.com
