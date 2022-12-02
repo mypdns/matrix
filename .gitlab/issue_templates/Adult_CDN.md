@@ -41,14 +41,15 @@ N/A
 ```
 </details>
 
-## My Privacy DNS issues
-- `` #
-
 ## Comments
 <!-- comments like a specific url to see contents -->
 
+## My Privacy DNS issues
+- `` #
+
 ## External sources
 <!-- If you found this domain on another issueboard -->
+- ``
 
 ### All Submissions:
 - [ ] Did you follow the guidelines in the [Contributing](CONTRIBUTING.md)
