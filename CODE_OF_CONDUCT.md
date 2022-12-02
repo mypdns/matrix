@@ -56,7 +56,7 @@ a project may be further defined and clarified by project maintainers.
 
 Instances of abusive, harassing, or otherwise unacceptable behavior may be
 reported by contacting the project team at this
-[EMAIL ADDRESS](incoming+mypdns-support-21-issue-@noreply.mypdns.org) alternatively
+[EMAIL ADDRESS](mypdns+mypdns-support-121-issue-@danwin1210.de) alternatively
 You can open a issue [here](https://mypdns.org/MypDNS/support/issues/new).
 All complaints will be reviewed and investigated and will result in a response that
 is deemed necessary and appropriate to the circumstances. The project team is

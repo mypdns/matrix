@@ -4,10 +4,10 @@ contributors (Users) who freely have added either through a ISSUE or a
 MergeRequest (Added any type of code) Hold the copyright (Ownership)
 of that specific part of code.
 
-As Contributor you will also accept the material is shared for free with
-any NON-profit project that is to be accepted a a FOSS (Free Open Source
-Software), as long as they provide the the individual full credit plus
-as minimum a link back to this project and it's code base.
+As Contributor, you will also accept the material is shared for free with
+any NON-profit project that is to be accepted a FOSS (Free Open Source
+Software), as long as they provide the individual full credit plus
+as minimum a link back to this project, and it's code base.
 
 
 ## Backlink
@@ -17,7 +17,7 @@ or file at this project.
 
 
 ## License
-The current License for this repository is always to be found at the
+The current Licence for this repository is always to be found at the
 folder root [LICENSE][]
 
 ## Disallowed projects

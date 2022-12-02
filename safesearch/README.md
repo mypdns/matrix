@@ -10,6 +10,7 @@ for this.
 
 ### Dnsdist
 For example in PowerDns Dnsdist you will do it like this:
+
 ```lua
 addAction('duckduckgo.com.', SpoofCNAMEAction('safe.duckduckgo.com.'))
 ```

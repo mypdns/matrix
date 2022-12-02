@@ -1,20 +1,20 @@
-# 2 contribute
+# Contribute
 
 If you feel like contributing there are a couple of ways to do this
 
 1. You can add new super high speed bash code, optimizing existing, rewrite for
     broader support of bash environments across OS's
-1. You can add domains to either the wildcard.list or domain.list in there
+2. You can add domains to either the wildcard.list or domain.list in their
     respective folders
-1. You can through **Damned** good arguments try to get a domain into the
+3. You can through **Damned** good arguments try to get a domain into the
     whitelisted
 
-**NOTE**: When you first starts to commit issues, the [akismet][akismet]
+**NOTE**: When you first start to commit issues, the [akismet][akismet]
 unfortunately very fast to mark you as a spammer, but don't this
 includes everyone even admin accounts.
 
-When this happens, please add this 'Ping @spirillen, i've got mark as spam`
-to this [issue](https://mypdns.org/mypdns/support/-/issues/268) and we will
+When this happens, please add this 'Ping @spirillen, I've got mark as spam`
+to this [issue,](https://mypdns.org/mypdns/support/-/issues/268) and we will
 get your account back on track.
 
 ### Adding a new domain
@@ -28,13 +28,13 @@ The workflow is a bit clumsy, but the most reliable and fail-safe.
 
    2. Add your new domain record(s) to suitable file(s) in the `submit_here/`
       folder.
-      A issue is required to be able to historically trace why you
+      An issue is required to be able to historically trace why you
       have committed the records and for other to verify your commit
       without having to visit a pornographic site, for which they actually
       try to avoid by using this list.
 
    3. If you added any content to any of the files in `submit_here/`
-      You open a [MR](/merge_requests/new) (Merge Request) where you'll
+      You open an [MR](/merge_requests/new) (Merge Request) where you'll
 	  add your contribution (This is the _when_ we did the blacklisting)
 
    4. You add the new domain record entry in the top or bottom of the list,
@@ -48,9 +48,9 @@ Add then in same style and with the usual minimum of need data in a
 comment to the primary domain, then if the report is confirmed, it will
 be edited into the original issue.
 
-Each individual subdomain should have it's own "master" comment.
+Each individual subdomain should have its own "master" comment.
 
-In that way you can challenge/comment to each sub-domain as things will
+In that way you can challenge/comment to each subdomain as things will
 change over time.
 
 As practised here: https://mypdns.org/my-privacy-dns/matrix/-/issues/201#note_32072
@@ -74,22 +74,22 @@ Please also read our [Writing Guide](https://mypdns.org/mypdns/support/-/wikis/c
 # GPG signed
 We require all submissions to be signed with a valid GPG key.
 
-Only exception for this rule is the CI/CD bot
+Only exception to this rule is the CI/CD bot
 
 ## How do I sign with GPG
 If you know nothing about GPG keys I, really suggest you search on
-[duckduckgo.com](https://duckduckgo.com) for the best way, to do it for the OS you
+[duckduckgo.com][DDG] for the best way, to do it for the OS you
 are using.
 
-However if you do have a GPG key, add it to you submission profile and add a `-S`
-to `git commit -S -m "Some very cool enhancements"` and that's is. You can also
-set this globally or pr git. Do a search on [duckduckgo.com](https://duckduckgo.com)
+However, if you do have a GPG key, add it to you submission profile and add a `-S`
+to `git commit -S -m "Some very cool enhancements"` and that is. You can also
+set this globally or pr git. Do a search on [duckduckgo.com][DDG]
 to figure out the current way.
 
 # Writing files/lines
 - All files most end with a newline `\n` (LF) UTF-8.
 - All files have to be in universal UTF-8 style without BOM
-- Files containing `_windows_` in it's filename most be encoded in `ISO-8859-1`
+- Files containing `_windows_` in its filename most be encoded in `ISO-8859-1`
   Latin1 and newlines shall end in (CRLF).
 - Line length should not be more than 80 chars for terminals support.
 
@@ -105,7 +105,7 @@ If you feel like contributing there are a couple of ways to do this
    or rewrite for broader support of bash environments across *nix
    OS's
 
-1. You should **_not_** add domains to the `submit_here/` folder of
+2. You should **_not_** add domains to the `submit_here/` folder of
    this repo. It has to be committed via an ISSUE.
 
    Because I do have some scripts that handle/maintains several things
@@ -120,7 +120,7 @@ All commits of new NSFW adult records should be done to
 You can use the following quick links
 
 | Category              | Commit issue                                                                                        |
-| :-------------------- | :-------------------------------------------------------------------------------------------------- |
+|:----------------------|:----------------------------------------------------------------------------------------------------|
 | Adult contents        | https://mypdns.org/my-privacy-dns/porn-records/-/issues/new?issuable_template=Adult_contents        |
 | Adult CDN             | https://mypdns.org/my-privacy-dns/porn-records/-/issues/new?issuable_template=Adult_CDN             |
 | Strict Adult contents | https://mypdns.org/my-privacy-dns/porn-records/-/issues/new?issuable_template=Strict_Adult_contents |
@@ -174,7 +174,7 @@ be edited into the original issue.
 
 Each subdomain should have its own "master" comment.
 
-In that way, you can challenge/comment to each sub-domain as things will
+In that way, you can challenge/comment to each subdomain as things will
 change over time.
 
 As practiced here: https://mypdns.org/my-privacy-dns/matrix/-/issues/201#note_32072
@@ -193,11 +193,11 @@ available for him to handle this. You should also have read this
 [comment](#issue-comment)
 
 We prefer you upload your fresh screenshot directly to us, as
-hotlinking screenshots is bad in most ways, such as 3rd party tracking
+hot-linking screenshots is bad in most ways, such as 3rd party tracking
 and other user data collection and tracking cookies. Minimize the number
 of hotlinks used, it's not forbidden as long this won't be abused.
 There are also cases where people simply block all 3rd party contents, 
-they are not able to see any hotlinked contents.
+they are not able to see any hot-linked contents.
 
 ### New code
 If you feel like adding new code or modifying existing code to make it run
@@ -237,7 +237,7 @@ If you know nothing about GPG keys I suggest you search on
 current OS.
 
 However, if you do have a GPG key, add it to your submission profile add a
-`-S` to the `git commit -S -m "Some very cool enhancements"` and that's
+`-S` to the `git commit -S -m "Some very cool enhancements"` and that
 is. You can set this globally or pr git. Search [duckduckgo][duckduckgo] to figure out the current way.
 
 ### Encoding when writing files/lines
@@ -250,8 +250,10 @@ is. You can set this globally or pr git. Search [duckduckgo][duckduckgo] to figu
 
 
 <!-- Document links -->
+[DDG]: https://duckduckgo.com
 [PR]: https://mypdns.org/my-privacy-dns/porn-records
 [duckduckgo]: https://safe.duckduckgo.com
+[akismet]: https://akismet.com/ "Akismet stops spam."
 
 
 This version supersedes <https://mypdns.org/MypDNS/support/-/wikis/Contributing>
