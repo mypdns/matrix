@@ -610,6 +610,7 @@ fp-analytics.hotstar.com
 fresnel-events.vimeocdn.com
 frog.wix.com
 frog.yuanfudao.com
+frontier-va.tiktokv.com
 fsm.lapresse.ca
 functional.events.data.microsoft.com
 fundingchoicesmessages.google.com
@@ -683,6 +684,7 @@ iad.apple.com
 iadfeed.iad.apple.com
 iadsdk.apple.com
 iadworkbench-soak.iad.apple.com
+ib.tiktokv.com
 ibeat.indiatimes.com
 ibeats.indiatimes.com
 ichnaea.netflix.com
@@ -753,6 +755,7 @@ linksharing.samsungcloud.com
 live-trace.bilibili.com
 live.github.com
 location-inference-westus.cloudapp.net
+log-va.tiktokv.com
 log.avlyun.com
 log.ca.gov.vn
 log.ebonybooty.pics
@@ -763,6 +766,7 @@ log.quora.com
 log.radiko.jp
 log.sina.cn
 log.slb.avlyun.com
+log.tiktokv.com
 log.tpns.tencent.com
 log.ttbc-hcm.gov.vn
 log.video.taobao.com
@@ -770,6 +774,10 @@ log.viettimes.vn
 log.weixin.qq.com
 log.zongheng.com
 log.zoom.us
+log16-applog-useast5.us.tiktokv.com
+log16-normal-c-useast1a.tiktokv.com
+log16-normal-c-useast2a.tiktokv.com
+log16-platform-ycru.tiktokv.com
 logapi.alza.cz
 logfiles-va-3.zoom.us
 logfiles-va-4.zoom.us
@@ -800,6 +808,8 @@ mastat.3g.qq.com
 mayybstat.3g.qq.com
 mc.yandex.md
 mc.yandex.ru
+mcs-va.tiktokv.com
+mcs.us.tiktokv.com
 media.fc2.com
 media.onet.pl
 merlin.abc.go.com
@@ -833,6 +843,11 @@ mobilecrashreporting.googleapis.com
 mobileengagement.windows.net
 mobilenetworkscoring-pa.googleapis.com
 modern.watson.data.microsoft.com.akadns.net
+mon-va.tiktokv.com
+mon.tiktokv.com
+mon.us.tiktokv.com
+mon15-normal-useast1a.tiktokv.com
+mon16-normal-useast1a.tiktokv.com
 moneymoneymoney.azurewebsites.net
 mp.huangye.miui.com
 mp.weixin.qq.com
@@ -892,6 +907,7 @@ pindao.huoban.taobao.com
 ping.hashnode.com
 ping.instantsearchplus.com
 pipe.aria.microsoft.com
+pitaya-task-va.tiktokv.com
 piwik.disconnect.me
 piwik.geile-heisse-girls.com
 piwik.information.dk
@@ -957,6 +973,7 @@ research.netflix.com
 responder.wt.heise.de
 retargeting.newsmanapp.com
 ris.api.iris.microsoft.com
+rtlog.tiktokv.com
 rubicon.wellsfargo.com
 s.baidu.com
 s.beop.io
@@ -1292,6 +1309,8 @@ www.trustarc.com
 www2.gwmholding.com
 www3.l.google.com
 x.babe.today
+xlog-va.tiktokv.com
+xlog.tiktokv.com
 xslt.alexa.com
 xy.nullrefexcep.com
 ybp.yahoo.com
