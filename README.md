@@ -9,13 +9,14 @@ list of domains that need to be blocked for various reasons.
 
 ## TOC
 - [The Matrix](#the-matrix)
-	- [TOC](#toc)
+  - [TOC](#toc)
 - [Source list](#source-list)
 - [Categorizing](#categorizing)
 - [Submitting](#submitting)
-	- [Reporting tool](#reporting-tool)
-	- [File structure and Category explained](#file-structure-and-category-explained)
-	- [Issue templates Quick links](#issue-templates-quick-links)
+  - [Reporting tool](#reporting-tool)
+  - [File structure and Category explained](#file-structure-and-category-explained)
+  - [Issue templates Quick links](#issue-templates-quick-links)
+  - [The Matrix](#the-matrix-1)
 - [Whitelist](#whitelist)
 - [Bulk commits](#bulk-commits)
 - [FAQ](#faq)
@@ -46,7 +47,7 @@ Interface), for which you can choose between as you prefer.
 This list is on hold in relation to https://mypdns.org/infrastructure/workboard/-/issues/14
 
 | Category                               | description                                                                                                                                                                                                                                                                                                                                                                                       |
-|----------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| -------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | ~AdWare, adv                           | All about advertising: This includes sites offering banners and banner creation as well as sites delivering banners to be shown in webpages. Advertising companies are listed, too. <br> Everything related with ads. It is domain that server ads and sell ads / adware                                                                                                                          |
 | ~"Bait Site"                           | An attempt to generate a list of sites that's uses baits like youtube to harvest peoples organs                                                                                                                                                                                                                                                                                                   |
 | ~CryptoMiner / Coinblocker             | bitCoin miners                                                                                                                                                                                                                                                                                                                                                                                    |
@@ -75,7 +76,7 @@ This list is on hold in relation to https://mypdns.org/infrastructure/workboard/
 You can use the following quick links to generate issues within matrix
 
 | <h2>Category</h2>                                                                                                                                        | <h2>Raw url code</h2>                                                                         |
-|:---------------------------------------------------------------------------------------------------------------------------------------------------------|:----------------------------------------------------------------------------------------------|
+| :------------------------------------------------------------------------------------------------------------------------------------------------------- | :-------------------------------------------------------------------------------------------- |
 | [AdWare][AdWare]                                                                                                                                         | `https://mypdns.org/my-privacy-dns/matrix/-/issues/new?issuable_template=AdWare`              |
 | Bait sites                                                                                                                                               |                                                                                               |
 | [Crypto Miners][CryptoMiners]                                                                                                                            | `https://mypdns.org/my-privacy-dns/matrix/-/issues/new?issuable_template=CryptoMiner`         |
@@ -105,6 +106,24 @@ You can use the following quick links to generate issues within matrix
 | <h2>Special Templates</h2>                                                                                                                               |                                                                                               |
 | [-aa][Bulk-commits]<br>  A fast bulk template modified constantly to match a specific case                                                               | `https://mypdns.org/my-privacy-dns/matrix/-/issues/new?issuable_template=-aa`                 |
 | [getadmiral][]<br> A Template to ensuring the needed data while committing [getadmiral].com treats to make them connected and optimize the reaction data | `https://mypdns.org/my-privacy-dns/matrix/-/issues/new?issuable_template=getadmiral`          |
+
+## The Matrix
+For the Adult filtering, please refer to the [README](source/README.md)
+
+**Intro**: The difference between files inside `source/category_name` is
+that, with [RPZ][RPZ] We do not nessesarily need to apply any found
+subdomain records, as wildcard is recognized as a valid blacklist record.
+This allow us to use only two types of record sheets `wildcard.list` and
+`domain.list`, this is also the explanation for why you haven't seen a 
+hosts file within our source list.  
+So to use hour records with a non [RPZ][RPZ] reconizing system such as Pi-
+hole and `/etc/hosts` or for spydoze 
+`%SystemRoot%\System32\drivers\etc\hosts`, you would need to combine both
+the `wildcard.list` and `domain.list`.
+
+Alternatively you can use our automatically combined weekly updated
+[hosts-list][hosts-list]
+
 
 # Whitelist
 This list has its own life, as it's a very, very tricky one to
@@ -193,6 +212,8 @@ already for leaking privacy to third party.
 [Tracking]: https://mypdns.org/my-privacy-dns/matrix/-/issues/new?issuable_template=Tracking "Issue template to commit Tracking records"
 [TypoSquatting]: https://mypdns.org/my-privacy-dns/matrix/-/issues/new?issuable_template=Typo%20Squatting "Issue template to commit Typo Squatting"
 [Whitelist]: https://mypdns.org/my-privacy-dns/matrix/-/issues/new?issuable_template=Whitelist
+[RPZ]: https://mypdns.org/mypdns/support/-/wikis/RPZ "Response Policy Zone"
+[hosts-list]: https://mypdns.org/my-privacy-dns/hosts/-/tree/master/download "Hosts foratted blacklists"
 
 # Keywords
 A few keywords for this project is Enhanced Privacy, DNS Firewall,
