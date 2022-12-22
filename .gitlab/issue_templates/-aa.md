@@ -1,7 +1,7 @@
-**@cathub** report this [AdWare][catinfo] related domain to be added into the [MyPDNS RPZ Firewall][mpdrf]
+I report this [Tracking][catinfo] related domain to be added into the [MyPDNS RPZ Firewall][mpdrf]
 
 ```
-domain_name_here
+
 ```
 
 - [X] Wildcarded
@@ -10,8 +10,8 @@ domain_name_here
 ## RPZ (Response Policy Zone) Rules
 
 ```css
-domain_name_here   CNAME . ; AdWare, Strict.Adult
-*.domain_name_here   CNAME . ; AdWare, Strict.Adult
+domain_name_here   CNAME . ; Tracking
+*.domain_name_here   CNAME . ; Tracking
 ```
 
 ### Additional requirements for
@@ -19,11 +19,11 @@ domain_name_here   CNAME . ; AdWare, Strict.Adult
 #### [hosts] and [Pi-hole]
 
 ```css
-adservice.domain_name_here
+
 ```
 
 ```css
-www.domain_name_here
+- www
 ```
 
 #### Adblocker
@@ -36,36 +36,22 @@ N/A
 </details>
 
 ## Screenshots
-
-<details><summary><b><i>NSFW</i></b> Screenshot</summary>
-
-
-
-</details>
+N/P
 
 ## Comments
-- Reported URL
-```
-https://adservice.domain_name_here
-```
-- by Github `ShadowWhisperer`
 
-- IP:`172.217.16.194` [US] AS15169 GOOGLE
-- Redirected: `domain_name_here` --> `www.domain_name_here` (`https://www.domain_name_here/?gws_rd=ssl`)
 
 ## My Privacy DNS issues
-- `google.com` `#1078012`
-
+- `` #
 
 ## External sources
-- `https://raw.githubusercontent.com/ShadowWhisperer/BlockLists/master/RAW/Ads`
 
 
 ### All Submissions:
-- [X] Have you followed the guidelines in our Contributing document?
-- [X] Have you checked to ensure there aren't other open MR or Issues for the same update/change?
+- [X] Have you followed the guidelines in our [Contributing](CONTRIBUTING.md) document?
+- [X] Have you checked to ensure there aren't other open [Merge Requests (MR)][MR] or [issue] for the same update/change?
 - [X] Have you added an explanation of what your submission do and why you'd like us to include them??
-- [X] Added screenshot for prove of False Negative
+- [ ] Added [screenshot] for prove of [False Negative][FN]
 
 ### Testing face
 - [X] Checked the internet for verification?
@@ -80,12 +66,12 @@ https://adservice.domain_name_here
 <details><summary>3rd party Domains</summary>
 
 ```css
-www.google.com
+N/A
 ```
 
 </details>
 
-[catinfo]: https://mypdns.org/MypDNS/support/-/wikis/Categories/Adware
+[catinfo]: https://mypdns.org/mypdns/support/-/wikis/Categories/Trackware
 [FN]: https://mypdns.org/MypDNS/support/-/wikis/False-Negative "About False Positive"
 [hosts]: https://mypdns.org/mypdns/support/-/wikis/dns/DnsHosts "Hosts files a outdated blacklist format"
 [issue]: https://mypdns.org/my-privacy-dns/matrix/-/issues "My Privacy DNS Domain records"
@@ -94,19 +80,14 @@ www.google.com
 [Pi-hole]: https://mypdns.org/my-privacy-dns/matrix/-/blob/master/source/porn_filters/README.md#pi-hole "What is Pi-hole and it limitations"
 [screenshot]: https://mypdns.org/MypDNS/support/-/wikis/Screenshot "What is a screenshot"
 
-
-/health_status on_track
-
-/label ~"NSFW::Strict" ~AdWare 
-
-/publish
+/label ~Tracking
 
 /weight 8
 
-/severity low
+/publish
 
-/epic my-privacy-dns&2 
+/severity critical
 
-/milestone %"Google LLC." 
+/health_status at_risk
 
-/iteration *iteration:14
+/relate #3059
