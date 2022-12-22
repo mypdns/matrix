@@ -42,10 +42,11 @@ N/P
 
 
 ## My Privacy DNS issues
-- `` #
+- `adobe.com` #matrix-3059
 
 ## External sources
-
+- `https://helpx.adobe.com/ca/enterprise/kb/network-endpoints.html`
+- `https://www.adobe.com/ca/devnet-docs/acrobatetk/tools/AdminGuide/endpoints.html`
 
 ### All Submissions:
 - [X] Have you followed the guidelines in our [Contributing](CONTRIBUTING.md) document?
