@@ -10,8 +10,8 @@ I report this [Url Shortener][catinfo] related domain to be added into the [MyPD
 ## RPZ (Response Policy Zone) Rules
 
 ```css
-domain_name_here   CNAME . ; Url_Shortener
-*.domain_name_here   CNAME . ; Url_Shortener
+domain_name_here   CNAME . ; Url_Shortener, Tracking
+*.domain_name_here   CNAME . ; Url_Shortener, Tracking
 ```
 
 ### Additional requirements for
