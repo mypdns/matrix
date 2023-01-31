@@ -64,14 +64,14 @@ N/A
 - [ ] Added to Source file?
 - [ ] Added to the RPZ zone [adult.mypdns.cloud][adultmypdnscloud] (spirillen)
 
-[adultmypdnscloud]: https://mypdns.org/mypdns/support/-/wikis/RPZ-List#adultmypdnscloud "Rpz Zone for blocking Porn"
-[FN]: https://mypdns.org/MypDNS/support/-/wikis/False-Negative "About False Positive"
-[hosts]: https://mypdns.org/mypdns/support/-/wikis/dns/DnsHosts "Hosts files a outdated blacklist format"
-[issue]: https://mypdns.org/my-privacy-dns/matrix/-/issues "My Privacy DNS Domain records"
-[mpdrf]: https://mypdns.org/my-privacy-dns/matrix/-/tree/master/source/porn_filters "My Privacy DNS RPZ Parental Firewall Filter"
-[MR]: https://mypdns.org/my-privacy-dns/matrix/-/merge_requests "My Privacy DNS Merge Requests"
-[Pi-hole]: https://mypdns.org/my-privacy-dns/matrix/-/blob/master/source/porn_filters/README.md#pi-hole "What is Pi-hole and it limitations"
-[screenshot]: https://mypdns.org/MypDNS/support/-/wikis/Screenshot "What is a screenshot"
+[adultmypdnscloud]: https://framagit.org/my-privacy-dns/support/-/wikis/RPZ-List#adultmypdnscloud "Rpz Zone for blocking Porn"
+[FN]: https://framagit.org/my-privacy-dns/support/-/wikis/False-Negative "About False Positive"
+[hosts]: https://framagit.org/my-privacy-dns/support/-/wikis/dns/DnsHosts "Hosts files a outdated blacklist format"
+[issue]: https://framagit.org/my-privacy-dns/matrix/-/issues "My Privacy DNS Domain records"
+[mpdrf]: https://framagit.org/my-privacy-dns/matrix/-/tree/master/source/porn_filters "My Privacy DNS RPZ Parental Firewall Filter"
+[MR]: https://framagit.org/my-privacy-dns/matrix/-/merge_requests "My Privacy DNS Merge Requests"
+[Pi-hole]: https://framagit.org/my-privacy-dns/matrix/-/blob/master/source/porn_filters/README.md#pi-hole "What is Pi-hole and it limitations"
+[screenshot]: https://framagit.org/my-privacy-dns/support/-/wikis/Screenshot "What is a screenshot"
 
 /label ~"CDN::NSFW"
 

@@ -3,9 +3,9 @@ choice, it will be listed in the politic ECO system
 
 See also question at the following related issues
 
-- What is Russia folder in matrix? https://mypdns.org/mypdns/support/-/issues/638
-- New issue label named `Boycott_Russia` https://mypdns.org/mypdns/support/-/issues/640
-- Politics WW3 [NATO/EU/US vs Russia] https://mypdns.org/mypdns/support/-/issues/642
+- What is Russia folder in matrix? https://framagit.org/my-privacy-dns/support/-/issues/638
+- New issue label named `Boycott_Russia` https://framagit.org/my-privacy-dns/support/-/issues/640
+- Politics WW3 [NATO/EU/US vs Russia] https://framagit.org/my-privacy-dns/support/-/issues/642
 
 Unlike any other categories on My Privacy DNS we will in this particular
 category allow bulk commits WITHOUT issues.
@@ -28,4 +28,4 @@ make the following line
 ```
 
 
-[False Positive]: https://mypdns.org/mypdns/support/-/wikis/False-Positive
+[False Positive]: https://framagit.org/my-privacy-dns/support/-/wikis/False-Positive

@@ -14,13 +14,13 @@ unfortunately very fast to mark you as a spammer, but don't this
 includes everyone even admin accounts.
 
 When this happens, please add this 'Ping @spirillen, I've got mark as spam`
-to this [issue,](https://mypdns.org/mypdns/support/-/issues/268) and we will
+to this [issue,](https://framagit.org/my-privacy-dns/support/-/issues/268) and we will
 get your account back on track.
 
 ### Adding a new domain
 The workflow is a bit clumsy, but the most reliable and fail-safe.
    1. You add an issue with you question, feature request or contribution
-      via [Issue templates](https://mypdns.org/my-privacy-dns/matrix#issue-templates-quick-links)
+      via [Issue templates](https://framagit.org/my-privacy-dns/matrix#issue-templates-quick-links)
       (This is the history of _why_ to blacklist a record)
 
       ALL fields MOST be filled out, the questions is there for a
@@ -53,11 +53,11 @@ Each individual subdomain should have its own "master" comment.
 In that way you can challenge/comment to each subdomain as things will
 change over time.
 
-As practised here: https://mypdns.org/my-privacy-dns/matrix/-/issues/201#note_32072
+As practised here: https://framagit.org/my-privacy-dns/matrix/-/issues/201#note_32072
 
 <details><summary>Click to expand</summary>
 
-![Manage sub-domains](https://mypdns.org/mypdns/support/uploads/fe17e6b1382738e24a90abfe054432ab/image.png)
+![Manage sub-domains](https://framagit.org/my-privacy-dns/support/uploads/fe17e6b1382738e24a90abfe054432ab/image.png)
 
 </details>
 
@@ -69,7 +69,7 @@ and the comment, by which we can't add in other ways, as all the lists needs to
 be raw data; from which other scripts easily can work with, without first have
 to run several cleanup processes.
 
-Please also read our [Writing Guide](https://mypdns.org/mypdns/support/-/wikis/contributing/Writing-Guide) before continuing with your issue contribution
+Please also read our [Writing Guide](https://framagit.org/my-privacy-dns/support/-/wikis/contributing/Writing-Guide) before continuing with your issue contribution
 
 # GPG signed
 We require all submissions to be signed with a valid GPG key.
@@ -119,15 +119,15 @@ All commits of new NSFW adult records should be done to
 
 You can use the following quick links
 
-| Category              | Commit issue                                                                                        |
-|:----------------------|:----------------------------------------------------------------------------------------------------|
-| Adult contents        | https://mypdns.org/my-privacy-dns/porn-records/-/issues/new?issuable_template=Adult_contents        |
-| Adult CDN             | https://mypdns.org/my-privacy-dns/porn-records/-/issues/new?issuable_template=Adult_CDN             |
-| Strict Adult contents | https://mypdns.org/my-privacy-dns/porn-records/-/issues/new?issuable_template=Strict_Adult_contents |
-| Strict Adult CDN      | https://mypdns.org/my-privacy-dns/porn-records/-/issues/new?issuable_template=Strict_Adult_CDN      |
-| Snuff & gore          | https://mypdns.org/my-privacy-dns/porn-records/-/issues/new?issuable_template=Snuff                 |
-| Common support        | https://mypdns.org/MypDNS/support/-/wikis/-/issues/new                                              |
-| Common wiki           | https://mypdns.org/MypDNS/support/-/wikis/                                                          |
+| Category              | Commit issue                                                                                          |
+| :-------------------- | :---------------------------------------------------------------------------------------------------- |
+| Adult contents        | https://framagit.org/my-privacy-dns/porn-records/-/issues/new?issuable_template=Adult_contents        |
+| Adult CDN             | https://framagit.org/my-privacy-dns/porn-records/-/issues/new?issuable_template=Adult_CDN             |
+| Strict Adult contents | https://framagit.org/my-privacy-dns/porn-records/-/issues/new?issuable_template=Strict_Adult_contents |
+| Strict Adult CDN      | https://framagit.org/my-privacy-dns/porn-records/-/issues/new?issuable_template=Strict_Adult_CDN      |
+| Snuff & gore          | https://framagit.org/my-privacy-dns/porn-records/-/issues/new?issuable_template=Snuff                 |
+| Common support        | https://framagit.org/my-privacy-dns/support/-/wikis/-/issues/new                                      |
+| Common wiki           | https://framagit.org/my-privacy-dns/support/-/wikis/                                                  |
 
 
 ## Workflow
@@ -177,11 +177,11 @@ Each subdomain should have its own "master" comment.
 In that way, you can challenge/comment to each subdomain as things will
 change over time.
 
-As practiced here: https://mypdns.org/my-privacy-dns/matrix/-/issues/201#note_32072
+As practiced here: https://framagit.org/my-privacy-dns/matrix/-/issues/201#note_32072
 
 <details><summary>Click to expand</summary>
 
-![Manage sub-domains](https://mypdns.org/mypdns/support/uploads/fe17e6b1382738e24a90abfe054432ab/image.png)
+![Manage sub-domains](https://framagit.org/my-privacy-dns/support/uploads/fe17e6b1382738e24a90abfe054432ab/image.png)
 
 </details>
 
@@ -210,11 +210,11 @@ a new branch. Don't forget to make a full reference to the issue in
 your commit message as a full URL to issue:
 
 ```md
-https://mypdns.org/my-privacy-dns/porn-records/-/issues/<ID>
+https://framagit.org/my-privacy-dns/porn-records/-/issues/<ID>
 ```
 
 Replace the `<ID>` with the issue id from
-https://mypdns.org/my-privacy-dns/porn-records/-/issues
+https://framagit.org/my-privacy-dns/porn-records/-/issues
 
 ![new commit](https://user-images.githubusercontent.com/44526987/134584727-5ce2cc04-6eac-485d-a934-1b730cb1fe44.png)
 
@@ -251,12 +251,12 @@ is. You can set this globally or pr git. Search [duckduckgo][duckduckgo] to figu
 
 <!-- Document links -->
 [DDG]: https://duckduckgo.com
-[PR]: https://mypdns.org/my-privacy-dns/porn-records
+[PR]: https://framagit.org/my-privacy-dns/porn-records
 [duckduckgo]: https://safe.duckduckgo.com
 [akismet]: https://akismet.com/ "Akismet stops spam."
 
 
-This version supersedes <https://mypdns.org/MypDNS/support/-/wikis/Contributing>
+This version supersedes <https://framagit.org/my-privacy-dns/support/-/wikis/Contributing>
 
 Revision date: 26. Nov 2021.
 

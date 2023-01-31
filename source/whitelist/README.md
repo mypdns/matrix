@@ -26,7 +26,7 @@ workflow, it's of curse have to be whitelisted within the
 [DNS firewall][DNS firewall] projects.
 
 
-[BlackLists]: https://mypdns.org/mypdns/support/-/wikis/BlackLists
-[DNS firewall]: https://mypdns.org/MypDNS/support/-/wikis/DnsFirewall
-[MalWare]: https://mypdns.org/MypDNS/support/-/wikis/MalWare
+[BlackLists]: https://framagit.org/my-privacy-dns/support/-/wikis/BlackLists
+[DNS firewall]: https://framagit.org/my-privacy-dns/support/-/wikis/DnsFirewall
+[MalWare]: https://framagit.org/my-privacy-dns/support/-/wikis/MalWare
 [My Privacy DNS]: https://mypdns.org/ "DNS Firewall through RPZ (Response Policy Zones"

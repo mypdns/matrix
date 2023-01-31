@@ -2,7 +2,7 @@
 
 # Copyright: https://mypdns.org/
 # Content: https://mypdns.org/spirillen
-# Source: https://mypdns.org/my-privacy-dns/matrix
+# Source: https://framagit.org/my-privacy-dns/matrix
 # License: https://mypdns.org/wiki/License
 # License Comment: GNU AGPLv3, MODIFIED FOR NON COMMERCIAL USE
 #
@@ -11,23 +11,21 @@
 # as long the original URL and attribution is included.
 #
 # Please forward any additions, corrections or comments by logging an
-# issue at https://mypdns.org/my-privacy-dns/matrix/-/issues
+# issue at https://framagit.org/my-privacy-dns/matrix/-/issues
 
 # Exit on any errors
 set -e
 
 # Determine CI root dir
-if [ -d "${TRAVIS_BUILD_DIR}" ]
-then
-  ROOT_DIR="${TRAVIS_BUILD_DIR}"
+if [ -d "${TRAVIS_BUILD_DIR}" ]; then
+    ROOT_DIR="${TRAVIS_BUILD_DIR}"
 
-elif [ -d "${CI_BUILDS_DIR}" ]
-then
-  ROOT_DIR="${CI_BUILDS_DIR}"
+elif [ -d "${CI_BUILDS_DIR}" ]; then
+    ROOT_DIR="${CI_BUILDS_DIR}"
 
 else
-  printf "\nNo CI Dir found\n"
-  exit 1
+    printf "\nNo CI Dir found\n"
+    exit 1
 fi
 
 # Sort our lists for doublets and order by alphabet
@@ -38,16 +36,14 @@ find "$ROOT_DIR/source/" -type f -name '*.list' -exec \
 find "$ROOT_DIR/source/" -type f -name '*.rpz-nsdname' -exec bash -c "sort -i -u \
 	-f '{}' -o '{}' " \;
 
-
 # Combine domain and wildcard domains for external usages
 
 cd "$ROOT_DIR/"
 
 find "$ROOT_DIR/source/" -type f -name 'combined.txt' -delete
 
-for d in `find source/ -mindepth 1 -maxdepth 1 -type d`
-do
-    cat "${d[@]}/*.list" > "${d[@]}/combined.txt"
+for d in $(find source/ -mindepth 1 -maxdepth 1 -type d); do
+    cat "${d[@]}/*.list" >"${d[@]}/combined.txt"
 done
 
 # Import latest working example of safesearch from safesearc.mypdns.cloud
