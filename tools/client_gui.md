@@ -1,0 +1,40 @@
+## GUI tool (Windows)
+
+### Usage
+  - How to use
+    - Extract the ZIP file to some folder and run `mypdns.exe`.
+  - Uninstall/Remove
+    - Just simply delete those files.
+
+### Config
+You can configure this software by editing `mypdns.conf` file.
+_Close mypdns.exe before editing this file!_
+The config file is like this:
+
+```
+50 (the last window position)
+50 (the last window position)
+xxxxxxx (your token)
+#noTop
+#useTor
+```
+
+- `#noTop`
+  - By default the window always stay on top.
+  - You can disable this by changing this line to `noTop` (just remove `#`)
+- `#useTor`
+  - By default the software connect directly (just like above API examples)
+  - If you have Tor listening on `127.0.0.1:9050` you can enable this by
+    changing it to `useTor`.
+
+### Download
+
+  - [**for Windows**: gui.zip](https://framagit.org/dCF/deCloudflare/-/raw/master/tool/mypdns/reporter/gui/gui.zip)
+  - [Source code](https://framagit.org/dCF/deCloudflare/-/raw/master/tool/mypdns/reporter/gui/source.sp), The above source code so you can compile it yourself
+
+```
+Version: 1.0.1.2
+What is changed from previous?
+
+- Add CoinBlocker
+```
