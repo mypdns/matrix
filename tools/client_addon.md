@@ -1,24 +1,3 @@
-# note:: !! add-ons links will be replaced & merged into Matrix !!
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 # Browser Add-ons
 
 - [MyPDNS Reporter](addon.md#mypdns-reporter) for _reporting_ domains
@@ -78,8 +57,8 @@ And here is a reason:
 ### Download Browser Add-on
 
 - Firefox
-  - [**Download from Git**: addon.xpi](https://framagit.org/dCF/deCloudflare/-/raw/master/tool/mypdns/reporter/addon/firefox/addon.xpi)
-  - [Download from MyPDNS](https://mypdns.org/addons/firefox/reporter.xpi) _sync hourly_
+  - [**Download from Git**](https://framagit.org/dCF/deCloudflare/-/raw/master/tool/mypdns/reporter/addon/firefox/addon.xpi)
+  - [Download from MyPDNS](releases/reporter.xpi) _sync hourly_
 
 
 ```
@@ -124,8 +103,8 @@ What is changed from previous?
 ### Download Browser Add-on
 
 #### Firefox
-  - [**Download from Git**: addon.xpi](https://framagit.org/dCF/deCloudflare/-/raw/master/tool/mypdns/defender/addon/firefox/addon.xpi)
-  - [Download from MyPDNS](https://mypdns.org/addons/firefox/defender.xpi) _sync hourly_
+  - [**Download from Git**](https://framagit.org/dCF/deCloudflare/-/raw/master/tool/mypdns/defender/addon/firefox/addon.xpi)
+  - [Download from MyPDNS](releases/defender.xpi) _sync hourly_
 
 
 ```
@@ -162,8 +141,8 @@ All you have to do is,
 ### Download Browser Add-on
 
 #### Firefox
-  - [**Download from Git**: addon.xpi](https://framagit.org/dCF/deCloudflare/-/raw/master/tool/mypdns/sa/addon/firefox/addon.xpi)
-  - [Download from MyPDNS](https://mypdns.org/addons/firefox/sa.xpi) _sync hourly_
+  - [**Download from Git**](https://framagit.org/dCF/deCloudflare/-/raw/master/tool/mypdns/sa/addon/firefox/addon.xpi)
+  - [Download from MyPDNS](releases/sa.xpi) _sync hourly_
 
 
 ```
@@ -187,8 +166,8 @@ If this is the first time you use this add-on, you might need to close the brows
 ### Download Browser Add-on
 
 #### Firefox
-  - [**Download from Git**: addon.xpi](https://framagit.org/dCF/deCloudflare/-/raw/master/tool/mypdns/ld/addon/firefox/addon.xpi)
-  - [Download from MyPDNS](https://mypdns.org/addons/firefox/ld.xpi) _sync hourly_
+  - [**Download from Git**](https://framagit.org/dCF/deCloudflare/-/raw/master/tool/mypdns/ld/addon/firefox/addon.xpi)
+  - [Download from MyPDNS](releases/ld.xpi) _sync hourly_
 
 
 ```

@@ -46,7 +46,7 @@ sudo cp mypdnsrep.linux /usr/local/bin/mypdnsrep && \
 ```
 
 ```terminal
-sudo wget -O /usr/local/bin/mypdnsrep https://mypdns.org/infrastructure/mypdns-report/-/raw/master/cli/mypdnsrep.linux && \
+sudo wget -O /usr/local/bin/mypdnsrep https://framagit.org/dCF/deCloudflare/-/raw/master/tool/mypdns/reporter/cli/mypdnsrep.linux && \
     sudo chmod +x /usr/local/bin/mypdnsrep && \
     sudo chown root:root /usr/local/bin/mypdnsrep
 ```

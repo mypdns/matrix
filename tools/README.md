@@ -1,4 +1,4 @@
-This is an easy way to commit `new websites` to [Matrix Issues](https://mypdns.org/my-privacy-dns/matrix/-/issues).
+This is an easy way to commit `new websites` to [Matrix Issues](../).
 
 
 From the time you have committed a domain / uri you can see it as a
@@ -7,11 +7,11 @@ request, [the server](http://crimeflare.eu.org) then process and
 validating your contribution towards some simple rules like below and
 then issue will be created.
 
-- Is the website `online`?
-- Is the domain `not listed in files`?
-- Is the `issue` not exist?
-- Is the domain `not parked`?
-- Is the `screenshot` ready?
+- Is the website _online_?
+- Is the domain _not listed in files_?
+- Is the _issue_ not exist?
+- Is the domain _not parked_?
+- Is the _screenshot_ ready?
 
 Process flow: `Taking the screenshot`, `Reading the website`,
 `Checking DNS` and `Searching for existing issues within mypdns.org` for
@@ -29,9 +29,9 @@ Android mentioned you on issue #XXX "example.com" at My Privacy DNS
 
 ## Clients
 
-| CLI | GUI | Add-ons | Websites |
+| CLI | GUI | Add-ons | Website |
 | -- | -- | -- | -- |
-| [![](../.assets/reporter/img/client_cli.png)](client_cli.md) | [![](../.assets/reporter/img/client_gui.png)](client_gui.md) | [![](../.assets/reporter/img/client_addon.png)](client_addon.md) | [![](../.assets/reporter/img/client_web.png)](https://mypdns.org/matrix/committer/)<br>[![](../.assets/reporter/img/client_web.png)](https://woot-woot-this-will-be-replaced-to-new-location.org/matrix/reporter/) |
+| [![](../.assets/reporter/img/client_cli.png)](client_cli.md) | [![](../.assets/reporter/img/client_gui.png)](client_gui.md) | [![](../.assets/reporter/img/client_addon.png)](client_addon.md) | [![](../.assets/reporter/img/client_web.png)](client_web.md) |
 
 ## For Developers
 
