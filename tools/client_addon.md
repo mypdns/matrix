@@ -1,3 +1,24 @@
+# note:: !! add-ons links will be replaced & merged into Matrix !!
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # Browser Add-ons
 
 - [MyPDNS Reporter](addon.md#mypdns-reporter) for _reporting_ domains
@@ -74,7 +95,7 @@ What is changed from previous?
 
 | ? | ? | ? |
 | -- | -- | -- |
-| ![Sidebar with room for adding comment](../.assets/ff-sidebar.webp) | ![Right cllick menu options](../.assets/screenshot_20220317-6.webp) | ![popup instead of sidebar](../.assets/popup.webp) |
+| ![Sidebar with room for adding comment](../.assets/reporter/img/ffaddon-1.webp) | ![Right cllick menu options](../.assets/reporter/img/ffaddon-2.webp) | ![popup instead of sidebar](../.assets/reporter/img/popup.webp) |
 
 
 ----
@@ -121,7 +142,7 @@ What is changed from previous?
 # MyPDNS Screenshot Assistant
 
 ### Usage
-This add-on is for updating those [Bad screenshot Issues](https://mypdns.org/my-privacy-dns/matrix/-/issues/?label_name%5B%5D=Need%3A%3AScreenshot). Since there are many anti-bot solutions and services, the quality of the screenshot created by bot is degraded by them. Cetralized screenshot services is always bad because the website can block it by script or IP address.
+This add-on is for updating those [Bad screenshot Issues](https://0xacab.org/my-privacy-dns/matrix/-/issues/?label_name%5B%5D=Need%3A%3AScreenshot). Since there are many anti-bot solutions and services, the quality of the screenshot created by bot is degraded by them. Cetralized screenshot services is always bad because the website can block it by script or IP address.
 
 With your help, those issues can get fresh, clean screenshot. All the add-on need is just one Window (and _clean_ internet). So, what will this add-on do?
 

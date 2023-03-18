@@ -1,12 +1,6 @@
 This is an easy way to commit `new websites` to [Matrix Issues](https://mypdns.org/my-privacy-dns/matrix/-/issues).
 
 
-
-**Waiting in Line**: ![status image](https://status.mypdns.org/waiting.svg)
-
-
---------
-
 From the time you have committed a domain / uri you can see it as a
 committed issue is depending on the current queue for handling of your
 request, [the server](http://crimeflare.eu.org) then process and
@@ -27,22 +21,22 @@ current wait-in-line status.
 You will find your issue later on your To-do list.
 
 ```
-Reporter mentioned you on issue #XXX "example.com" at My Privacy DNS
+Android mentioned you on issue #XXX "example.com" at My Privacy DNS
 ```
 
 - By using this service you agree to our [Privacy Policy](privacy_policy.md).
-- [Leaderboard](leaderboard.md)
+
 
 ## Clients
 
 | CLI | GUI | Add-ons | Websites |
 | -- | -- | -- | -- |
-| [![](.assets/lp/cli.png)](client/cli.md) | [![](.assets/lp/gui.png)](client/gui.md) | [![](.assets/lp/addon.png)](client/addon.md) | [![](.assets/lp/web.png)](https://mypdns.org/matrix/committer/)<br>[![](.assets/lp/web.png)](https://mypdns.org/matrix/reporter/) |
+| [![](../.assets/reporter/img/client_cli.png)](client_cli.md) | [![](../.assets/reporter/img/client_gui.png)](client_gui.md) | [![](../.assets/reporter/img/client_addon.png)](client_addon.md) | [![](../.assets/reporter/img/client_web.png)](https://mypdns.org/matrix/committer/)<br>[![](../.assets/reporter/img/client_web.png)](https://woot-woot-this-will-be-replaced-to-new-location.org/matrix/reporter/) |
 
 ## For Developers
 
-- [Basic API Guide](guide/api.md)
-- [Advanced API Guide](guide/apiadv.md)
+- [Basic API Guide](guide_api.md)
+- [Advanced API Guide](guide_apiadv.md)
 
 --------
 
@@ -65,31 +59,31 @@ You cannot control other user's issue _except_  [Super users](lists/su.txt).
 
 | Comment                                                          | Result                        |
 | ---------------------------------------------------------------- | ----------------------------- |
-| `@reporter /close`                                               | Close this issue.             |
-| `@reporter /reopen`                                              | Reopen this issue.            |
-| `@reporter /update URL`<br>`@reporter /update` (=`/update this`) | Update the issue description. |
+| `@matrix /close`                                               | Close this issue.             |
+| `@matrix /reopen`                                              | Reopen this issue.            |
+| `@matrix /update URL`<br>`@matrix /update` (=`/update this`) | Update the issue description. |
 
 
 ### Super users ONLY
 
 | Comment                                                                                        | Result                                                                                                                                             |
 | ---------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------- |
-| `@reporter /invalid`                                                                           | Set `Invalid` label & close the issue.<br>(same as `/label Invalid` + `/close`)                                                                    |
-| `@reporter /wontfix`                                                                           | Set `Wontfix` label & close the issue.<br>(same as `/label Wontfix` + `/close`)                                                                    |
-| `@reporter /label LABEL`                                                                       | Set `LABEL` label. Comma-separated, Case-Sensitive.<br>e.g. `/label Linked,Tracking`                                                               |
-| `@reporter /pirated`                                                                           | Set `Pirated` label.<br>(same to `/label Pirated`)                                                                                                 |
-| `@reporter /change category URL`<br>`@reporter /change category`<br>(=`/change category this`) | Change the category and update the issue with a new issue format.                                                                                  |
-| `@reporter /include category URL`<br>`@reporter /include guess URL` | Add/Update new subdomain to exisiting issue.<br>The "_guess_" category will use the primary reported category.                                                                                  |
-| `@reporter /ss`                                           | Add `Need::Screenshot` label.                                          |
-| `@reporter /translate URL`<br>`@reporter /translate` (=`/translate this`)                                           | Translate the website into English.                                          |
-| `@reporter /investigate`                                           | Investigate the issue domain.                                       |
-| `@reporter /crawl` | Download & analyze reported website for links. |
-| `@reporter /commit`<br>`@reporter /ok`                                                         | Commit this issue                                                                                                                                  |
-| `@reporter /csam` | Turn on confidential,<br>Remove screenshot,<br>Add CSAM label,<br>and Commit the issue. |
+| `@matrix /invalid`                                                                           | Set `Invalid` label & close the issue.<br>(same as `/label Invalid` + `/close`)                                                                    |
+| `@matrix /wontfix`                                                                           | Set `Wontfix` label & close the issue.<br>(same as `/label Wontfix` + `/close`)                                                                    |
+| `@matrix /label LABEL`                                                                       | Set `LABEL` label. Comma-separated, Case-Sensitive.<br>e.g. `/label Linked,Tracking`                                                               |
+| `@matrix /pirated`                                                                           | Set `Pirated` label.<br>(same to `/label Pirated`)                                                                                                 |
+| `@matrix /change category URL`<br>`@matrix /change category`<br>(=`/change category this`) | Change the category and update the issue with a new issue format.                                                                                  |
+| `@matrix /include category URL`<br>`@matrix /include guess URL` | Add/Update new subdomain to exisiting issue.<br>The "_guess_" category will use the primary reported category.                                                                                  |
+| `@matrix /ss`                                           | Add `Need::Screenshot` label.                                          |
+| `@matrix /translate URL`<br>`@matrix /translate` (=`/translate this`)                                           | Translate the website into English.                                          |
+| `@matrix /investigate`                                           | Investigate the issue domain.                                       |
+| `@matrix /crawl` | Download & analyze reported website for links. |
+| `@matrix /commit`<br>`@matrix /ok`                                                         | Commit this issue                                                                                                                                  |
+| `@matrix /csam` | Turn on confidential,<br>Remove screenshot,<br>Add CSAM label,<br>and Commit the issue. |
 
 
-You can remove the first `/`. For example `@reporter close` is identical
-to `@reporter /close`.
+You can remove the first `/`. For example `@matrix close` is identical
+to `@matrix /close`.
 
 If the command is not actionable the bot will add `!` as reaction.
 
@@ -102,15 +96,15 @@ If the command is not actionable the bot will add `!` as reaction.
 
 > **About `/update URL`**
 - The URL's base domain must match the title's domain.
-  - e.g. `@reporter /update https://blog.example.com` for updating
+  - e.g. `@matrix /update https://blog.example.com` for updating
     `example.com` issue
 - You can also write
     ```
-    @reporter /update https://blog.example.com/blog/
+    @matrix /update https://blog.example.com/blog/
     ```
   (The \` will be ignored automatically)
 
 > **About `/change category URL`**
-- The `category` value is [listed here](guide/api.md#the-cat-value) - pick either `Category`(recommend) or `Case-sensitive format`
+- The `category` value is [listed here](guide_api.md#the-cat-value) - pick either `Category`(recommend) or `Case-sensitive format`
 - For example if you want to resubmit `Porn` issue as `NSFW::Strict`, 
-  you will write `@reporter /change pornstrict https://www.example.com`.
+  you will write `@matrix /change pornstrict https://www.example.com`.

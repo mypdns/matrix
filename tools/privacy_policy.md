@@ -14,7 +14,7 @@
 **2. How we use `1` data**
 
   We use those data **ONLY** to provide this service and never share them with others.
-  - `a`:  to read `account status` (banned or not) and `username` on mypdns.org
+  - `a`:  to read GitLab 's `account status` (banned or not) and its `username`
     - _Other information like your email address is NEVER read, shared, or collected._
   - `b`, `c`:
     - 1. to create, update or improve an issue on your behalf
