@@ -39,8 +39,8 @@ into it's `domain.list` or `wildcard.list`.
 # Submitting
 ## Reporting tool
 You can also use our new [MyPDNS Reporter][mypdnsReport], which is one of
-three things, a Browser-based add-on, API and a CLI (Command LIne
-Interface), for which you can choose between as you prefer.
+four things, a Browser-based add-on, API, CLI (Command LIne
+Interface) and a website for which you can choose between as you prefer.
 
 ## File structure and Category explained
 

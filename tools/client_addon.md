@@ -58,16 +58,13 @@ And here is a reason:
 
 - Firefox
   - [**Download from Git**](https://framagit.org/dCF/deCloudflare/-/raw/master/tool/mypdns/reporter/addon/firefox/addon.xpi)
-  - [Download from MyPDNS](https://0xacab.org/my-privacy-dns/matrix/-/raw/master/tools/releases/reporter.xpi) _sync hourly_
 
 
 ```
-Version: 1.0.2.2
+Version: 1.0.2.4
 What is changed from previous?
 
-- New option: "Create an issue as myself instead of reporter if possible"
-  - By default the reporter will create an issue on your behalf. If you enable this option the reporter will try to create an issue by using your token (so this orignal issue will be created as you). This might be useful to non-superuser users because they can edit issues directly.
-    - If you enable this option & the issue is not created this is probably not our fault but Akismet spam protection or API limit.
+- 0xacab support
 ```
 
 ### Screenshots
@@ -87,7 +84,7 @@ What is changed from previous?
 - Auto-update lists once per day (disabled by default)
 
 ### About list update
-- The add-on use browser cache to prevent DDoS against mypdns.org. You can check for update once per hour.
+- The add-on use browser cache to prevent DDoS against Gitlab. You can check for update once per hour.
   - Clicking "_Apply my settings_" multiple times only download once.
   - If you _really_ want to download latest list try again in next hour. (e.g downloaded at 8AM, try again in 9AM)
 
@@ -104,14 +101,13 @@ What is changed from previous?
 
 #### Firefox
   - [**Download from Git**](https://framagit.org/dCF/deCloudflare/-/raw/master/tool/mypdns/defender/addon/firefox/addon.xpi)
-  - [Download from MyPDNS](https://0xacab.org/my-privacy-dns/matrix/-/raw/master/tools/releases/defender.xpi) _sync hourly_
 
 
 ```
 Version: 1.0.0.4
 What is changed from previous?
 
-- minor improvement
+- 0xacab support
 ```
 
 
@@ -142,14 +138,13 @@ All you have to do is,
 
 #### Firefox
   - [**Download from Git**](https://framagit.org/dCF/deCloudflare/-/raw/master/tool/mypdns/sa/addon/firefox/addon.xpi)
-  - [Download from MyPDNS](https://0xacab.org/my-privacy-dns/matrix/-/raw/master/tools/releases/sa.xpi) _sync hourly_
 
 
 ```
-Version: 1.0.0.1
+Version: 1.0.0.2
 What is changed from previous?
 
-- minor improvement
+- 0xacab support
 ```
 
 ----
@@ -167,12 +162,11 @@ If this is the first time you use this add-on, you might need to close the brows
 
 #### Firefox
   - [**Download from Git**](https://framagit.org/dCF/deCloudflare/-/raw/master/tool/mypdns/ld/addon/firefox/addon.xpi)
-  - [Download from MyPDNS](https://0xacab.org/my-privacy-dns/matrix/-/raw/master/tools/releases/ld.xpi) _sync hourly_
 
 
 ```
-Version: 1.0.0.3
+Version: 1.0.0.4
 What is changed from previous?
 
-- Fixed: The icon streched out in some pages such as https://githubcopilotinvestigation.com
+- 0xacab support
 ```
