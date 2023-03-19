@@ -58,7 +58,7 @@ And here is a reason:
 
 - Firefox
   - [**Download from Git**](https://framagit.org/dCF/deCloudflare/-/raw/master/tool/mypdns/reporter/addon/firefox/addon.xpi)
-  - [Download from MyPDNS](releases/reporter.xpi) _sync hourly_
+  - [Download from MyPDNS](https://0xacab.org/my-privacy-dns/matrix/-/raw/master/tools/releases/reporter.xpi) _sync hourly_
 
 
 ```
@@ -104,7 +104,7 @@ What is changed from previous?
 
 #### Firefox
   - [**Download from Git**](https://framagit.org/dCF/deCloudflare/-/raw/master/tool/mypdns/defender/addon/firefox/addon.xpi)
-  - [Download from MyPDNS](releases/defender.xpi) _sync hourly_
+  - [Download from MyPDNS](https://0xacab.org/my-privacy-dns/matrix/-/raw/master/tools/releases/defender.xpi) _sync hourly_
 
 
 ```
@@ -142,7 +142,7 @@ All you have to do is,
 
 #### Firefox
   - [**Download from Git**](https://framagit.org/dCF/deCloudflare/-/raw/master/tool/mypdns/sa/addon/firefox/addon.xpi)
-  - [Download from MyPDNS](releases/sa.xpi) _sync hourly_
+  - [Download from MyPDNS](https://0xacab.org/my-privacy-dns/matrix/-/raw/master/tools/releases/sa.xpi) _sync hourly_
 
 
 ```
@@ -167,7 +167,7 @@ If this is the first time you use this add-on, you might need to close the brows
 
 #### Firefox
   - [**Download from Git**](https://framagit.org/dCF/deCloudflare/-/raw/master/tool/mypdns/ld/addon/firefox/addon.xpi)
-  - [Download from MyPDNS](releases/ld.xpi) _sync hourly_
+  - [Download from MyPDNS](https://0xacab.org/my-privacy-dns/matrix/-/raw/master/tools/releases/ld.xpi) _sync hourly_
 
 
 ```
