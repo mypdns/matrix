@@ -1,6 +1,6 @@
-[![My Privacy DNS](https://img.shields.io/badge/View-Mirror-e24329.svg?logo=gitlab&style=plastic)](https://0xacab.org/my-privacy-dns/matrix)
-[![Github Mirror](https://img.shields.io/badge/View-Mirror-e24329.svg?logo=github&style=plastic)](https://github.com/mypdns/matrix)
-[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/X8X37FUGU)
+[![My Privacy DNS](.assets/icons/gitlab.png)](https://0xacab.org/my-privacy-dns/matrix)
+[![Github Mirror](.assets/icons/github.png)](https://github.com/mypdns/matrix)
+[![ko-fi](.assets/icons/ko-fi.png)](https://ko-fi.com/X8X37FUGU)
 
 # The Matrix
 
