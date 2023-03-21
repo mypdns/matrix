@@ -40,7 +40,7 @@ N/A
 ## Screenshots
 This text appears on all Admirals owned domains
 
-![Screeshot](https://framagit.org/my-privacy-dns/matrix/uploads/d9aae9b533ce6a4620dafa5da4533e58/image.png)
+![Screeshot](https://0xacab.org/my-privacy-dns/matrix/uploads/d9aae9b533ce6a4620dafa5da4533e58/image.png)
 
 ## Comments
 <!-- Comments such as specific URL to view contents -->
@@ -67,15 +67,15 @@ You can always find the latest list of Admiral's Active domains in milestone %"g
 - [X] RPZ Server
 - [X] Added to Source file
 
-[Tracking]: https://framagit.org/my-privacy-dns/support/-/wikis/Categories/Trackware
-[FN]: https://framagit.org/my-privacy-dns/support/-/wikis/False-Negative "About False Positive"
-[getadmiral]: https://framagit.org/my-privacy-dns/matrix/-/issues/3023
-[hosts]: https://framagit.org/my-privacy-dns/support/-/wikis/dns/DnsHosts "Hosts files a outdated blacklist format"
-[issue]: https://framagit.org/my-privacy-dns/matrix/-/issues "My Privacy DNS Domain records"
-[mpdrf]: https://framagit.org/my-privacy-dns/matrix/ "My Privacy DNS RPZ Firewall Filter"
-[MR]: https://framagit.org/my-privacy-dns/matrix/-/merge_requests "My Privacy DNS Merge Requests"
-[Pi-hole]: https://framagit.org/my-privacy-dns/matrix/-/blob/master/source/porn_filters/README.md#pi-hole "What is Pi-hole and it limitations"
-[screenshot]: https://framagit.org/my-privacy-dns/support/-/wikis/Screenshot "What is a screenshot"
+[Tracking]: https://0xacab.org/my-privacy-dns/support/-/wikis/Categories/Trackware
+[FN]: https://0xacab.org/my-privacy-dns/support/-/wikis/False-Negative "About False Positive"
+[getadmiral]: https://0xacab.org/my-privacy-dns/matrix/-/issues/3023
+[hosts]: https://0xacab.org/my-privacy-dns/support/-/wikis/dns/DnsHosts "Hosts files a outdated blacklist format"
+[issue]: https://0xacab.org/my-privacy-dns/matrix/-/issues "My Privacy DNS Domain records"
+[mpdrf]: https://0xacab.org/my-privacy-dns/matrix/ "My Privacy DNS RPZ Firewall Filter"
+[MR]: https://0xacab.org/my-privacy-dns/matrix/-/merge_requests "My Privacy DNS Merge Requests"
+[Pi-hole]: https://0xacab.org/my-privacy-dns/matrix/-/blob/master/source/porn_filters/README.md#pi-hole "What is Pi-hole and it limitations"
+[screenshot]: https://0xacab.org/my-privacy-dns/support/-/wikis/Screenshot "What is a screenshot"
 
 /milestone %"getadmiral.com"
 

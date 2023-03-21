@@ -1,4 +1,4 @@
-I report this [Spam](https://framagit.org/my-privacy-dns/support/-/wikis/Categories/Spam) related domain(s) to be added into the [MyPDNS RPZ Firewall][mpdrf]
+I report this [Spam](https://0xacab.org/my-privacy-dns/support/-/wikis/Categories/Spam) related domain(s) to be added into the [MyPDNS RPZ Firewall][mpdrf]
 
 ```
 (please input basedomain here)
@@ -75,14 +75,14 @@ N/A
 - [X] RPZ Server (Team \@Spirillen)
 - [X] Added to Source file
 
-[FN]: https://framagit.org/my-privacy-dns/support/-/wikis/False-Negative "About False Positive"
-[hosts]: https://framagit.org/my-privacy-dns/support/-/wikis/dns/DnsHosts "Hosts files a outdated blacklist format"
-[issue]: https://framagit.org/my-privacy-dns/matrix/-/issues "My Privacy DNS Domain records"
-[mpdrf]: https://framagit.org/my-privacy-dns/matrix/ "My Privacy DNS RPZ Firewall Filter"
-[MR]: https://framagit.org/my-privacy-dns/matrix/-/merge_requests "My Privacy DNS Merge Requests"
-[Pi-hole]: https://framagit.org/my-privacy-dns/matrix/-/blob/master/source/porn_filters/README.md#pi-hole
-[Pi-hole]: https://framagit.org/my-privacy-dns/matrix/-/blob/master/source/porn_filters/README.md#pi-hole "What is Pi-hole and it limitations"
-[screenshot]: https://framagit.org/my-privacy-dns/support/-/wikis/Screenshot "What is a screenshot"
+[FN]: https://0xacab.org/my-privacy-dns/support/-/wikis/False-Negative "About False Positive"
+[hosts]: https://0xacab.org/my-privacy-dns/support/-/wikis/dns/DnsHosts "Hosts files a outdated blacklist format"
+[issue]: https://0xacab.org/my-privacy-dns/matrix/-/issues "My Privacy DNS Domain records"
+[mpdrf]: https://0xacab.org/my-privacy-dns/matrix/ "My Privacy DNS RPZ Firewall Filter"
+[MR]: https://0xacab.org/my-privacy-dns/matrix/-/merge_requests "My Privacy DNS Merge Requests"
+[Pi-hole]: https://0xacab.org/my-privacy-dns/matrix/-/blob/master/source/porn_filters/README.md#pi-hole
+[Pi-hole]: https://0xacab.org/my-privacy-dns/matrix/-/blob/master/source/porn_filters/README.md#pi-hole "What is Pi-hole and it limitations"
+[screenshot]: https://0xacab.org/my-privacy-dns/support/-/wikis/Screenshot "What is a screenshot"
 
 /label ~Spam
 
