@@ -7,11 +7,11 @@
 		Privacy DNS didn't participated in spreading Adult NSFW material.
 
 		Related Issues can be found here:
-		https://framagit.org/my-privacy-dns/support/-/issues/802#note_2889150
+		https://0xacab.org/my-privacy-dns/support/-/issues/802#note_2889150
 
 1.0.0
 		Moved the `./source.list` to `./source/source.list`
 
-		Removed all adult only contents to https://framagit.org/my-privacy-dns/porn-records
+		Removed all adult only contents to https://0xacab.org/my-privacy-dns/porn-records
 
 		Just some clean up after the years have gone by.
