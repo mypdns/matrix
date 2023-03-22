@@ -1,5 +1,8 @@
 # Websites
 
-- [MyPDNS Reporter](xyz) for _reporting_ domains
-- [MyPDNS Committer](xyz) for _committing_ domains (need su level)
-- [Is Listed?](xyz) for _checking_ whether the domain has Matrix issue
+- [MyPDNS Reporter](https://karma.crimeflare.eu.org:1984/api/mypdns/html/reporter/) for _reporting_ domains
+- [MyPDNS Committer](https://karma.crimeflare.eu.org:1984/api/mypdns/html/committer/) for _committing_ domains (need su level)
+- [Is Listed?](https://karma.crimeflare.eu.org:1984/api/mypdns/html/is_listed/) for _checking_ whether the domain has Matrix issue
+
+
+**URL will be replaced again in April|May. But don't wait for it, you'll be redirected to new location when the time comes**
