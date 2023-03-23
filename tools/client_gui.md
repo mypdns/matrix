@@ -1,3 +1,7 @@
+_Clients_:    [CLI](client_cli.md) | [**GUI**](client_gui.md) | [Add-ons](client_addon.md) | [Website](client_web.md)
+
+----
+
 ## GUI tool (Windows)
 
 ### Usage
