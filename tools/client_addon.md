@@ -4,10 +4,10 @@ _Clients_:    [CLI](client_cli.md) | [GUI](client_gui.md) | [**Add-ons**](client
 
 # Browser Add-ons
 
-- [MyPDNS Reporter](addon.md#mypdns-reporter) for _reporting_ domains
-- [MyPDNS Defender](addon.md#mypdns-defender) for _blocking_ domains
-- [MyPDNS Screenshot Assistant](addon.md#mypdns-screenshot-assistant) for _taking screenshots_ to improve Matrix issues
-- [MyPDNS Link Details](addon.md#mypdns-link-details) for _easily spot on links_ before click
+- [MyPDNS Reporter](client_addon.md#mypdns-reporter) for _reporting_ domains
+- [MyPDNS Defender](client_addon.md#mypdns-defender) for _blocking_ domains
+- [MyPDNS Screenshot Assistant](client_addon.md#mypdns-screenshot-assistant) for _taking screenshots_ to improve Matrix issues
+- [MyPDNS Link Details](client_addon.md#mypdns-link-details) for _easily spot on links_ before click
 
 
 ----
@@ -65,10 +65,10 @@ And here is a reason:
 
 
 ```
-Version: 1.0.2.4
+Version: 1.0.2.5
 What is changed from previous?
 
-- 0xacab support
+- SmartButton: Add Delete button (under Tools)
 ```
 
 ### Screenshots
