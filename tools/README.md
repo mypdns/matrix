@@ -80,6 +80,7 @@ You cannot control other user's issue _except_  [Super users](lists/su.txt).
 | `@matrix /crawl` | Download & analyze reported website for links. |
 | `@matrix /commit`<br>`@matrix /ok`                                                         | Commit this issue                                                                                                                                  |
 | `@matrix /csam` | Turn on confidential,<br>Remove screenshot,<br>Add CSAM label,<br>and Commit the issue. |
+| `@matrix /delete` | Delete this domain (and its subdomains) from all existing lists. |
 
 
 You can remove the first `/`. For example `@matrix close` is identical
