@@ -57,7 +57,7 @@ There are too many so we pick up some of useful actions below.
 | -- | -- |
 | Request Method | POST |
 | Input | `k` Access Token<br>`act = galleryget`<br>`resp` JSON array `page number` and `search keyword` (e.g. nothing or `AS13335`) |
-| Output | JSON value as array<br>`[false, stringReason]` (if there is a problem with your request)<br>`[true, [resultArray]]` the `resultArray` contains `iid`(IssueID) `domain`(Domain) `ss`(ScreenshotURL) |
+| Output | JSON value as array<br>`[false, stringReason]` (if there is a problem with your request)<br>`[true, [resultArray]]` the `resultArray` contains `iid`(IssueID) `domain`(Domain) `ss`(ScreenshotURL) `cat`(CATegory) |
 | Example | `curl -X POST -F 'act=galleryget' -F 'k=XXXXXX' -F 'resp={"page":1,"search":""}' -k --http2 [API_URL]`<br>`curl -X POST -F 'act=galleryget' -F 'k=XXXXXX' -F 'resp={"page":2,"search":"AS13335"}' -k --http2 [API_URL]` |
 
 > **[Gallery mode] Report issue as**
