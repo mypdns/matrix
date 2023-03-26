@@ -18,15 +18,13 @@
     - _Other information like your email address is NEVER read, shared, or collected._
   - `b`, `c`:
     - 1. to create, update or improve an issue on your behalf
-    - 2. to show overall count on the leaderboard (_you can hide your username from `matrix_committer`_)
-    - 3. to return requested data to you
+    - 2. to return requested data to you
   - `d`: to save your custom configuration so you can use it again later
 
 **3. How long do we keep those data**
 
   Basically, we keep nothing. The bot process your request and that's all.
   Exceptions are:
-  - `c`: A simple count of how many issues you created, committed or edited.
   - `d`: Your Committer settings. It will be automatically destroyed after 30 days of using the website.
 
 **4. Who can I talk to about your server?**
