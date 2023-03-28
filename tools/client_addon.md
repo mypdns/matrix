@@ -65,10 +65,10 @@ And here is a reason:
 
 
 ```
-Version: 1.0.2.5
+Version: 1.0.2.6
 What is changed from previous?
 
-- SmartButton: Add Delete button (under Tools)
+- relaxed ReplaceIssueScreenshot requirement
 ```
 
 ### Screenshots
