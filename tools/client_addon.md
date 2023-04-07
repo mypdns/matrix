@@ -61,7 +61,7 @@ And here is a reason:
 ### Download Browser Add-on
 
 - Firefox
-  - [**Download from Git**](https://framagit.org/dCF/deCloudflare/-/raw/master/tool/mypdns/reporter/addon/firefox/addon.xpi)
+  - [**Download from Git**](https://0xacab.org/dCF/deCloudflare/-/raw/master/tool/mypdns/reporter/addon/firefox/addon.xpi)
 
 
 ```
@@ -106,7 +106,7 @@ What is changed from previous?
 ### Download Browser Add-on
 
 #### Firefox
-  - [**Download from Git**](https://framagit.org/dCF/deCloudflare/-/raw/master/tool/mypdns/defender/addon/firefox/addon.xpi)
+  - [**Download from Git**](https://0xacab.org/dCF/deCloudflare/-/raw/master/tool/mypdns/defender/addon/firefox/addon.xpi)
 
 
 ```
@@ -143,7 +143,7 @@ All you have to do is,
 ### Download Browser Add-on
 
 #### Firefox
-  - [**Download from Git**](https://framagit.org/dCF/deCloudflare/-/raw/master/tool/mypdns/sa/addon/firefox/addon.xpi)
+  - [**Download from Git**](https://0xacab.org/dCF/deCloudflare/-/raw/master/tool/mypdns/sa/addon/firefox/addon.xpi)
 
 
 ```
@@ -167,7 +167,7 @@ If this is the first time you use this add-on, you might need to close the brows
 ### Download Browser Add-on
 
 #### Firefox
-  - [**Download from Git**](https://framagit.org/dCF/deCloudflare/-/raw/master/tool/mypdns/ld/addon/firefox/addon.xpi)
+  - [**Download from Git**](https://0xacab.org/dCF/deCloudflare/-/raw/master/tool/mypdns/ld/addon/firefox/addon.xpi)
 
 
 ```
