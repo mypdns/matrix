@@ -43,6 +43,7 @@ Android mentioned you on issue #XXX "example.com" at My Privacy DNS
 #### TOC
 
 - [Control your issue](#control-your-issue)
+  - [Access Level](#access-level)
   - [All users](#all-users)
   - [Super users ONLY](#super-users-only)
 
@@ -52,8 +53,15 @@ Android mentioned you on issue #XXX "example.com" at My Privacy DNS
 
 You can close, reopen, or rescan your issue created **by you**.
 Just write a comment in issue and it will be handled quickly.
+You cannot control other user's issue _except_  Superusers.
 
-You cannot control other user's issue _except_  [Super users](lists/su.txt).
+
+### Access Level
+
+_Superuser_ is a person who have Maintainer access to this repository. They can edit files and issues directly. To become a Superuser ask for permission whoever owns Matrix project.
+
+_Banned user_ is a person who got banned (prohibited) from using this Reporter service. Chances are you pushed too many bogus reports and fail to reply for very long time. Such users can be found in [ban.txt](../.assets/reporter/ban.txt). To unban a person, edit the file and the bot will retrieve it within an hour.
+
 
 ### All users
 
@@ -64,7 +72,7 @@ You cannot control other user's issue _except_  [Super users](lists/su.txt).
 | `@matrix /update URL`<br>`@matrix /update` (=`/update this`) | Update the issue description. |
 
 
-### Super users ONLY
+### Superusers ONLY
 
 | Comment                                                                                        | Result                                                                                                                                             |
 | ---------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------- |
