@@ -1,6 +1,0 @@
-# add usernames (case sensitive)
-#my-privacy-dns
-spirillen
-matrix
-kiwi
-duck
