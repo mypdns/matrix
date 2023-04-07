@@ -65,10 +65,12 @@ And here is a reason:
 
 
 ```
-Version: 1.0.2.6
+Version: 1.0.2.7
 What is changed from previous?
 
-- relaxed ReplaceIssueScreenshot requirement
+- Renamed `Remove "mentioned in issue" lines` -> `Remove useless lines from Activity notes`
+- fixed: Some screenshot was not displayed correctly in sidebar
+- fixed: in some issue webpages "Replace matrix-IID keyword to Issue link" caused the unnecessary loop
 ```
 
 ### Screenshots
