@@ -28,10 +28,10 @@ committed.
 
 ### Download
 
-  - [**for Windows**: mypdnsrep.exe](https://framagit.org/dCF/deCloudflare/-/raw/master/tool/mypdns/reporter/cli/mypdnsrep.exe)
-  - [**for Linux**: mypdnsrep.linux](https://framagit.org/dCF/deCloudflare/-/raw/master/tool/mypdns/reporter/cli/mypdnsrep.linux)
-  - [**for Mac OS**: mypdnsrep.macos](https://framagit.org/dCF/deCloudflare/-/raw/master/tool/mypdns/reporter/cli/mypdnsrep.app)
-  - [Source code](https://framagit.org/dCF/deCloudflare/-/raw/master/tool/mypdns/reporter/cli/source.js), The above source code so you can compile it yourself
+  - [**for Windows**: mypdnsrep.exe](https://0xacab.org/dCF/deCloudflare/-/raw/master/tool/mypdns/reporter/cli/mypdnsrep.exe)
+  - [**for Linux**: mypdnsrep.linux](https://0xacab.org/dCF/deCloudflare/-/raw/master/tool/mypdns/reporter/cli/mypdnsrep.linux)
+  - [**for Mac OS**: mypdnsrep.macos](https://0xacab.org/dCF/deCloudflare/-/raw/master/tool/mypdns/reporter/cli/mypdnsrep.app)
+  - [Source code](https://0xacab.org/dCF/deCloudflare/-/raw/master/tool/mypdns/reporter/cli/source.js), The above source code so you can compile it yourself
 
 ```
 Version: 1.0.3.4
@@ -50,7 +50,7 @@ sudo cp mypdnsrep.linux /usr/local/bin/mypdnsrep && \
 ```
 
 ```terminal
-sudo wget -O /usr/local/bin/mypdnsrep https://framagit.org/dCF/deCloudflare/-/raw/master/tool/mypdns/reporter/cli/mypdnsrep.linux && \
+sudo wget -O /usr/local/bin/mypdnsrep https://0xacab.org/dCF/deCloudflare/-/raw/master/tool/mypdns/reporter/cli/mypdnsrep.linux && \
     sudo chmod +x /usr/local/bin/mypdnsrep && \
     sudo chown root:root /usr/local/bin/mypdnsrep
 ```
