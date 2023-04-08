@@ -33,8 +33,8 @@ xxxxxxx (your token)
 
 ### Download
 
-  - [**for Windows**: gui.zip](https://framagit.org/dCF/deCloudflare/-/raw/master/tool/mypdns/reporter/gui/gui.zip)
-  - [Source code](https://framagit.org/dCF/deCloudflare/-/raw/master/tool/mypdns/reporter/gui/source.sp), The above source code so you can compile it yourself
+  - [**for Windows**: gui.zip](https://0xacab.org/dCF/deCloudflare/-/raw/master/tool/mypdns/reporter/gui/gui.zip)
+  - [Source code](https://0xacab.org/dCF/deCloudflare/-/raw/master/tool/mypdns/reporter/gui/source.sp), The above source code so you can compile it yourself
 
 ```
 Version: 1.0.1.2
