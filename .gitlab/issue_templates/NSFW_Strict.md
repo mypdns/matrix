@@ -1,4 +1,4 @@
-I report this ~Tracking [related][catinfo] domain to be added into the [MyPDNS RPZ Firewall][mpdrf]
+I report this ~NSFW::Strict [related][catinfo] domain to be added into the [MyPDNS RPZ Firewall][mpdrf]
 
 ## Reported URL
 
@@ -12,8 +12,8 @@ I report this ~Tracking [related][catinfo] domain to be added into the [MyPDNS R
 ## RPZ (Response Policy Zone) Rules
 
 ```css
-domain_name_here   CNAME . ; Tracking
-*.domain_name_here   CNAME . ; Tracking
+domain_name_here   CNAME . ; Strict.Adult
+*.domain_name_here   CNAME . ; Strict.Adult
 ```
 
 ### Additional requirements for
@@ -60,15 +60,11 @@ N/A
 - [X] Added to RPZ zone
 
 
-[catinfo]: https://0xacab.org/my-privacy-dns/matrix/-/tree/master/source/tracking
+[catinfo]: https://0xacab.org/my-privacy-dns/matrix/-/tree/master/source/porn_filters/strict_filters
 [mpdrf]: https://0xacab.org/my-privacy-dns/matrix/
 [hosts]: https://0xacab.org/my-privacy-dns/support/-/wikis/dns/DnsHosts
 [Pi-hole]: https://0xacab.org/my-privacy-dns/matrix/-/blob/master/source/porn_filters/README.md#pi-hole
 
 [//]: # ( write SHA-1 value of base domain here )
 
-/milestone %"getadmiral.com"
-
-/label ~Tracking
-
-/severity critical
+/label ~"NSFW::Strict"

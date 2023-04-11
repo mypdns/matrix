@@ -1,4 +1,4 @@
-I report this ~NSFW::Strict [related][catinfo] domain to be added into the [MyPDNS RPZ Firewall][mpdrf]
+I report this ~NSFW::Gore [related][catinfo] domain to be added into the [MyPDNS RPZ Firewall][mpdrf]
 
 ## Reported URL
 
@@ -12,8 +12,8 @@ I report this ~NSFW::Strict [related][catinfo] domain to be added into the [MyPD
 ## RPZ (Response Policy Zone) Rules
 
 ```css
-domain_name_here   CNAME . ; NSFW::Strict
-*.domain_name_here   CNAME . ; NSFW::Strict
+domain_name_here   CNAME . ; Gore
+*.domain_name_here   CNAME . ; Gore
 ```
 
 ### Additional requirements for
@@ -60,11 +60,11 @@ N/A
 - [X] Added to RPZ zone
 
 
-[catinfo]: https://0xacab.org/my-privacy-dns/matrix/-/tree/master/source/porn_filters/strict_filters
+[catinfo]: https://0xacab.org/my-privacy-dns/matrix/-/tree/master/source/porn_filters/explicit_content
 [mpdrf]: https://0xacab.org/my-privacy-dns/matrix/
 [hosts]: https://0xacab.org/my-privacy-dns/support/-/wikis/dns/DnsHosts
 [Pi-hole]: https://0xacab.org/my-privacy-dns/matrix/-/blob/master/source/porn_filters/README.md#pi-hole
 
 [//]: # ( write SHA-1 value of base domain here )
 
-/label ~"NSFW::Strict"
+/label ~"NSFW::Gore"

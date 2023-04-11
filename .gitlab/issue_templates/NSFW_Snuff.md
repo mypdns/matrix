@@ -12,8 +12,8 @@ I report this ~NSFW::Snuff [related][catinfo] domain to be added into the [MyPDN
 ## RPZ (Response Policy Zone) Rules
 
 ```css
-domain_name_here   CNAME . ; NSFW::Snuff
-*.domain_name_here   CNAME . ; NSFW::Snuff
+domain_name_here   CNAME . ; Snuff
+*.domain_name_here   CNAME . ; Snuff
 ```
 
 ### Additional requirements for

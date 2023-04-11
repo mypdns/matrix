@@ -1,4 +1,4 @@
-I report this ~NSFW::Gore [related][catinfo] domain to be added into the [MyPDNS RPZ Firewall][mpdrf]
+I report this ~NSFW::Porn [related][catinfo] domain to be added into the [MyPDNS RPZ Firewall][mpdrf]
 
 ## Reported URL
 
@@ -12,8 +12,8 @@ I report this ~NSFW::Gore [related][catinfo] domain to be added into the [MyPDNS
 ## RPZ (Response Policy Zone) Rules
 
 ```css
-domain_name_here   CNAME . ; NSFW::Gore
-*.domain_name_here   CNAME . ; NSFW::Gore
+domain_name_here   CNAME . ; Adult
+*.domain_name_here   CNAME . ; Adult
 ```
 
 ### Additional requirements for
@@ -67,4 +67,4 @@ N/A
 
 [//]: # ( write SHA-1 value of base domain here )
 
-/label ~"NSFW::Gore"
+/label ~"NSFW::Porn"

@@ -1,4 +1,4 @@
-I report this ~NSFW::Porn [related][catinfo] domain to be added into the [MyPDNS RPZ Firewall][mpdrf]
+I report this ~Tracking [related][catinfo] domain to be added into the [MyPDNS RPZ Firewall][mpdrf]
 
 ## Reported URL
 
@@ -12,8 +12,8 @@ I report this ~NSFW::Porn [related][catinfo] domain to be added into the [MyPDNS
 ## RPZ (Response Policy Zone) Rules
 
 ```css
-domain_name_here   CNAME . ; NSFW::Porn
-*.domain_name_here   CNAME . ; NSFW::Porn
+domain_name_here   CNAME . ; Tracking
+*.domain_name_here   CNAME . ; Tracking
 ```
 
 ### Additional requirements for
@@ -40,10 +40,11 @@ N/A
 </details>
 
 ## Screenshots
-<!-- add screenshot below -->
+![image](https://0xacab.org/my-privacy-dns/support/uploads/9baedebe69aa576d9d0ddd1309eb0128/admiral.jpg)
 
 ## Comments
-<!-- some comment about this domain -->
+This domain is used by `getadmiral.com` to collect your surfing habits and the are using a variety of scripts to generate a personal identification of you and your devices.
+You can always find the latest list of Admiral's Active domains in milestone %"getadmiral.com"
 
 
 ## External sources
@@ -60,11 +61,15 @@ N/A
 - [X] Added to RPZ zone
 
 
-[catinfo]: https://0xacab.org/my-privacy-dns/matrix/-/tree/master/source/porn_filters/explicit_content
+[catinfo]: https://0xacab.org/my-privacy-dns/matrix/-/tree/master/source/tracking
 [mpdrf]: https://0xacab.org/my-privacy-dns/matrix/
 [hosts]: https://0xacab.org/my-privacy-dns/support/-/wikis/dns/DnsHosts
 [Pi-hole]: https://0xacab.org/my-privacy-dns/matrix/-/blob/master/source/porn_filters/README.md#pi-hole
 
 [//]: # ( write SHA-1 value of base domain here )
 
-/label ~"NSFW::Porn"
+/milestone %"getadmiral.com"
+
+/label ~Tracking
+
+/severity critical

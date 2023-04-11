@@ -12,8 +12,8 @@ I report this ~Url_Shortener [related][catinfo] domain to be added into the [MyP
 ## RPZ (Response Policy Zone) Rules
 
 ```css
-domain_name_here   CNAME . ; Url_Shortener
-*.domain_name_here   CNAME . ; Url_Shortener
+domain_name_here   CNAME . ; Url_Shortener, Tracking
+*.domain_name_here   CNAME . ; Url_Shortener, Tracking
 ```
 
 ### Additional requirements for
