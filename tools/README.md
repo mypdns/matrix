@@ -76,7 +76,6 @@ _Banned user_ is a person who got banned (prohibited) from using this Reporter s
 
 | Comment                                                                                        | Result                                                                                                                                             |
 | ---------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------- |
-| `@matrix /invalid`                                                                           | Set `Invalid` label & close the issue.<br>(same as `/label Invalid` + `/close`)                                                                    |
 | `@matrix /wontfix`                                                                           | Set `Wontfix` label & close the issue.<br>(same as `/label Wontfix` + `/close`)                                                                    |
 | `@matrix /label LABEL`                                                                       | Set `LABEL` label. Comma-separated, Case-Sensitive.<br>e.g. `/label Linked,Tracking`                                                               |
 | `@matrix /pirated`                                                                           | Set `Pirated` label.<br>(same to `/label Pirated`)                                                                                                 |
