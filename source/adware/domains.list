@@ -859,8 +859,10 @@ llsp.gfd80.com
 load.s3.amazonaws.com
 load.xxxdb.io
 log-c-907025318.us-east-1.elb.amazonaws.com
+log4x.nixcdn.com
 logger-prod-us-east-1-vpc-alb-1251201355.us-east-1.elb.amazonaws.com
 lptag.liveperson.net
+lrc.nct.nixcdn.com
 lunametrics.wpengine.netdna-cdn.com
 madmen.alastonsuomi.com
 madmen2.alastonsuomi.com
@@ -1054,6 +1056,8 @@ static.vidy.com
 stats-wynkmusic-285784487.ap-south-1.elb.amazonaws.com
 stats.adobe.com
 stats.hprofits.com
+stc-nas.nixcdn.com
+stc.nas.nixcdn.com
 sticker.yadro.ru
 storage.googleapis.com
 strikeadcdn.s3.amazonaws.com
