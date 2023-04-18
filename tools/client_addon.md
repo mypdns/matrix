@@ -65,12 +65,16 @@ And here is a reason:
 
 
 ```
-Version: 1.0.2.7
+Version: 1.0.2.8
 What is changed from previous?
 
-- Renamed `Remove "mentioned in issue" lines` -> `Remove useless lines from Activity notes`
-- fixed: Some screenshot was not displayed correctly in sidebar
-- fixed: in some issue webpages "Replace matrix-IID keyword to Issue link" caused the unnecessary loop
+- Changed
+  - When you try to report a new website from Sidebar, reporter will automatically add website title to comment section.
+- Added
+  - New Option: Sidebar > 
+    - "Do not auto-input website title into comment"
+    - "Disable "Website domain does not match." reporting check"
+  - Added new feature to the Mass Reporter tool.
 ```
 
 ### Screenshots
