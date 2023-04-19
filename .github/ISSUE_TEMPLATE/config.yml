@@ -4,10 +4,10 @@ contact_links:
     url: https://0xacab.org/my-privacy-dns/support/-/wikis/
     about: Please ask your non rules questions here.
   - name: AdWare
-    url: https://0xacab.org/my-privacy-dns/matrix/-/issues/new?issue[issue_type]=issue&issuable_template=AdWare
+    url: https://0xacab.org/my-privacy-dns/matrix/-/issues/new?issue[issue_type]=issue&issuable_template=Adware
     about: Report any AdWare domain here
   - name: Adult contents
-    url: https://0xacab.org/my-privacy-dns/porn-records/-/issues/new?issue[issue_type]=issue&issuable_template=Adult%20contents
+    url: https://0xacab.org/my-privacy-dns/porn-records/-/issues/new?issue[issue_type]=issue&issuable_template=NSFW_PORN
     about: Please report adult contents here.
   - name: Block DNS Server
     url: https://0xacab.org/my-privacy-dns/matrix/-/issues/new?issue[issue_type]=issue&issuable_template=DNS%20Server
@@ -16,13 +16,13 @@ contact_links:
     url: https://0xacab.org/my-privacy-dns/matrix/-/issues/new?issue[issue_type]=issue&issuable_template=Gambling
     about: Report any gambling related domains
   - name: Hijacked / Pirated / Sharked
-    url: https://0xacab.org/my-privacy-dns/matrix/-/issues/new?issue[issue_type]=issue&issuable_template=Pirated%20Domain
+    url: https://0xacab.org/my-privacy-dns/matrix/-/issues/new?issue[issue_type]=issue&issuable_template=Pirated
     about: Report any Hijacked or Pirated domain here.
   - name: IP Blocking
-    url: https://0xacab.org/my-privacy-dns/matrix/-/issues/new
+    url: https://0xacab.org/my-privacy-dns/matrix/-/issues/new?issue[issue_type]=issue&issuable_template=IP%20Blocking
     about: If you would like to report IP Blocking addresses to be blocked.Report by CIDR range (/xx).
   - name: Malicious
-    url: https://0xacab.org/my-privacy-dns/matrix/-/issues/new?issue[issue_type]=issue&issuable_template=Malicious%20MalWare
+    url: https://0xacab.org/my-privacy-dns/matrix/-/issues/new?issue[issue_type]=issue&issuable_template=Malicious
     about: Report any Malicious domains here
   - name: Phishing
     url: https://0xacab.org/my-privacy-dns/matrix/-/issues/new?issue%5Bissue_type%5D=issue&issuable_template=Phishing
@@ -31,10 +31,10 @@ contact_links:
     url: https://github.com/mitchellkrogza/phishing/blob/main/add-link
     about: Report any phishing uri's here
   - name: Redirecting
-    url: https://0xacab.org/my-privacy-dns/matrix/-/issues/new?issue[issue_type]=issue&issuable_template=Redirecting
+    url: https://0xacab.org/my-privacy-dns/matrix/-/issues/new?issue[issue_type]=issue&issuable_template=UrlShortener
     about: Any domains used explicit to redirect urls, Typically used as AdWare and Tracking at the same time
   - name: Scam / Spam
-    url: https://0xacab.org/my-privacy-dns/matrix/-/issues/new?issue[issue_type]=issue&issuable_template=Scamming%20Spam
+    url: https://0xacab.org/my-privacy-dns/matrix/-/issues/new?issue[issue_type]=issue&issuable_template=Scamming
     about: Any domain arises from spam or domain used for scamming like pretending to be a Microsoft supporter who have called you, claiming you have a lot of issues with your installation
   - name: SpyWare
     url: https://0xacab.org/my-privacy-dns/matrix/-/issues/new?issue[issue_type]=issue&issuable_template=Spyware
@@ -43,7 +43,7 @@ contact_links:
     url: https://0xacab.org/my-privacy-dns/matrix/-/issues/new?issue[issue_type]=issue&issuable_template=Tracking
     about: Report any domain used for Tracking
   - name: Typo Squatting
-    url: https://0xacab.org/my-privacy-dns/matrix/-/issues/new?issue[issue_type]=issue&issuable_template=Typo%20Squatting
+    url: https://0xacab.org/my-privacy-dns/matrix/-/issues/new?issue[issue_type]=issue&issuable_template=TypoSquatting
     about: Typo Squatting or Cyber Squatting domains
   - name: White list / Record removal
     url: https://0xacab.org/my-privacy-dns/matrix/-/issues/new?issue[issue_type]=issue&issuable_template=Whitelist
