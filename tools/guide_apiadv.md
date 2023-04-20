@@ -1,6 +1,10 @@
+_API_:    [Basic](guide_api.md) | [**Advanced**](guide_apiadv.md)
+
+----
+
+
 _This guide is for developers who already know the basics._
 
------
 
 ## API URL
 

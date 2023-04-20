@@ -1,3 +1,8 @@
+_API_:    [**Basic**](guide_api.md) | [Advanced](guide_apiadv.md)
+
+----
+
+
 ## About API Token scope
 
 To use this service you need `MyPDNS.org` API Token. This is for preventing
