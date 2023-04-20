@@ -10,14 +10,15 @@ _This guide is for developers who already know the basics._
 
 We provide additional 3 API for My Privacy DNS: `cat`, `committer` and `issue` endpoint.
 
-- **`cat`** provide `Issue CATegory` and `labels` for requested domain.
-- **`committer`** provide services to _Committer website_.
-- **`issue`** provide issue-editing service.
+- [**`cat`** API](guide_apiadv.md#the-cat-api) provide `Issue CATegory` and `labels` for requested domain.
+- [**`committer`** API](guide_apiadv.md#the-committer-api) provide services to _Committer website_.
+- [**`issue`** API](guide_apiadv.md#the-issue-api) provide issue-editing service.
+
 
 | Type     | URL                                                                                       |
 | -------- | ----------------------------------------------------------------------------------------- |
-| Clearnet | `https://karma.crimeflare.eu.org:1984/api/mypdns/cat/`<br>`https://karma.crimeflare.eu.org:1984/api/mypdns/committer/`<br>`https://karma.crimeflare.eu.org:1984/api/mypdns/issue/`                                        |
-| Tor    | `http://karma.im5wixghmfmt7gf7wb4xrgdm6byx2gj26zn47da6nwo7xvybgxnqryid.onion/api/mypdns/cat/`<br>`http://karma.im5wixghmfmt7gf7wb4xrgdm6byx2gj26zn47da6nwo7xvybgxnqryid.onion/api/mypdns/committer/`<br>`http://karma.im5wixghmfmt7gf7wb4xrgdm6byx2gj26zn47da6nwo7xvybgxnqryid.onion/api/mypdns/issue/` |
+| Clearnet | cat: `https://karma.crimeflare.eu.org:1984/api/mypdns/cat/`<br>committer: `https://karma.crimeflare.eu.org:1984/api/mypdns/committer/`<br>issue: `https://karma.crimeflare.eu.org:1984/api/mypdns/issue/`                                        |
+| Tor    | cat: `http://karma.im5wixghmfmt7gf7wb4xrgdm6byx2gj26zn47da6nwo7xvybgxnqryid.onion/api/mypdns/cat/`<br>committer: `http://karma.im5wixghmfmt7gf7wb4xrgdm6byx2gj26zn47da6nwo7xvybgxnqryid.onion/api/mypdns/committer/`<br>issue: `http://karma.im5wixghmfmt7gf7wb4xrgdm6byx2gj26zn47da6nwo7xvybgxnqryid.onion/api/mypdns/issue/` |
 
 There are too many so we pick up some of useful actions below.
 
