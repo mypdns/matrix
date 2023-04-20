@@ -30,6 +30,7 @@ acookie.aliexpress.com
 acookie.taobao.com
 activation-dc1.gfe.nvidia.com
 activation.gfe.nvidia.com
+activity-stream-icons.services.mozilla.com
 activity.fiverr.com
 ad-center.line.me
 ad-creatives-public.commondatastorage.googleapis.com
@@ -186,6 +187,7 @@ bf-analytics-tracker-useast-as.azurewebsites.net
 bifrost-api.hotstar.com
 bigdata.qq.com
 blob.core.windows.net
+blocklists.settings.services.mozilla.com
 blueprints.iad.apple.com
 boksy.dir.onet.pl
 boksy.onet.pl
@@ -226,6 +228,7 @@ choice.microsoft.com.nstac.net
 chrome.google.com
 cjhq.baidu.com
 clarity.microsoft.com
+classify-client.services.mozilla.com
 clck.adskeeper.com
 clck.yandex.ru
 click.envios.buscape.com.br
@@ -327,6 +330,8 @@ countly.stackvaults.com
 cplog.flashget.com
 cpro.baidu.com
 cpt-static.gannettdigital.com
+crash-reports.mozilla.com
+crash-stats.mozilla.com
 cs.iadsdk.apple.com
 csi.gstatic.com
 csr.onet.pl
@@ -453,6 +458,7 @@ data.decathlon.fr
 data.decathlon.it
 data.digitalks.az
 data.grammarly.com
+data.mozilla.com
 data.ouigo.com
 data.ubi.com
 data.wptag.net
@@ -580,11 +586,13 @@ feedbackws.icloud.com
 feedbackws.icloud.com.cn
 feeds.shalltry.com
 ffg-analytics-functionsk3nvxfne4dp4s.azurewebsites.net
+fhr.data.mozilla.com
 fimserve.ign.com
 firebasedynamiclinks-ipv4.googleapis.com
 firebaselogging-pa.googleapis.com
 firebaselogging.googleapis.com
 firebasestorage.googleapis.com
+firefox.settings.services.mozilla.com
 flask.us.nextdoor.com
 fls-cn.amazon.cn
 fls-eu.amazon.ae
@@ -661,6 +669,7 @@ guce.huffingtonpost.co.uk
 guid.tpns.tencent.com
 h.cliphunter.com
 h5log.zongheng.com
+hardware.metrics.mozilla.com
 harvester.hnonline.sk
 hb-analytics.hotstar.com
 hc.baidu.com
@@ -711,6 +720,7 @@ ind-dsu.shalltry.com
 inference.location.live.net
 info.indiatimes.com
 informer.yandex.ru
+input.mozilla.com
 ins.shalltry.com
 insights.samsung.com
 inspector-collector.m.naver.com
@@ -760,6 +770,7 @@ link.getmailspring.com
 linksharing.samsungcloud.com
 live-trace.bilibili.com
 location-inference-westus.cloudapp.net
+location.services.mozilla.com
 log-va.tiktokv.com
 log.avlyun.com
 log.ca.gov.vn
@@ -953,6 +964,7 @@ prod-mng-proxy-connext.azurewebsites.net
 promo.ferame.com
 pti.store.microsoft.com
 public-api.wordpress.com
+push.services.mozilla.com
 pushid-noneu.truecaller.com
 pvn.mediamarkt.de
 pvn.saturn.de
@@ -962,6 +974,7 @@ px.redgifs.com
 px.spiceworks.com
 qcc.qualcomm.com
 qiao.baidu.com
+qsurvey.mozilla.com
 query.prod.cms.rt.microsoft.com
 r.bbci.co.uk
 r.kleertjes.com
@@ -1029,6 +1042,7 @@ settings-sandbox.data.microsoft.com
 settings-win.data.microsoft.com
 sgqcvfjvr.onet.pl
 share.9cdn.net
+shavar.services.mozilla.com
 shop115048570.taobao.com
 shoutout.wix.com
 show.re.taobao.com
@@ -1045,6 +1059,7 @@ smetrics.samsung.com
 smetrics.sunshinehealth.com
 smetrics.thewolf.ca
 smetrics.vogue-eyewear.com
+snippets.mozilla.com
 snowplow.trx.gitlab.net
 sobar.baidu.com
 sofire.bdstatic.com
@@ -1113,6 +1128,7 @@ store-images.s-microsoft.com
 storeen.ldmnq.com
 storsimpleorder.azurewebsites.net
 stripecdn.map.fastly.net
+stun.services.mozilla.com
 style.onvz.nl
 su.iadsdk.apple.com
 sugar.zhihu.com
@@ -1147,6 +1163,8 @@ tdep.theofficeservice.com
 tdk.petsplace.nl
 teamnijhuis.com
 tejia.taobao.com
+telemetry-data.r53-2.services.mozilla.com
+telemetry-incoming.r53-2.services.mozilla.com
 telemetry.acronis.com
 telemetry.dropbox.com
 telemetry.microsoft.com
@@ -1163,8 +1181,11 @@ temptation.gelderlander.nl
 temptation.hln.be
 temptation.pzc.nl
 testdrive-fido.azurewebsites.net
+testpilot.r53-2.services.mozilla.com
 thind-gke-euw.prd.data.corp.unity3d.com
 tilanalytics.timesinternet.in
+tiles.r53-2.services.mozilla.com
+tiles.services.mozilla.com
 tim.nextinpact.com
 timeslog.indiatimes.com
 timestrends.indiatimes.com
@@ -1240,6 +1261,7 @@ tracking.porndoelabs.com/
 tracking.prd.mz.internal.unity3d.com
 tracking.rightmessage.com
 tracking.scenepass.com
+tracking.services.mozilla.com
 tracking.tchibo.de
 tracking3.vnncdn.net
 traffic.acwebconnecting.com
