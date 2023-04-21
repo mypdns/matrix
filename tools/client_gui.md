@@ -37,8 +37,8 @@ xxxxxxx (your token)
   - [Source code](https://mypdns.eu.org/dl/gui/source.sp), The above source code so you can compile it yourself
 
 ```
-Version: 1.0.1.2
+Version: 1.0.1.3
 What is changed from previous?
 
-- Add CoinBlocker
+- Update MEO
 ```
