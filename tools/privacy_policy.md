@@ -29,4 +29,4 @@
 
 **4. Who can I talk to about your server?**
   - This is not my server. Shared server with zero-log policy.
-    - http://about-karmaapi.go.crimeflare.eu.org/
+    - https://clearnetonion.eu.org/
