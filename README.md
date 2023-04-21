@@ -1,6 +1,6 @@
 [![My Privacy DNS](.assets/icons/gitlab.png)](https://0xacab.org/my-privacy-dns/matrix)
 [![Github Mirror](.assets/icons/github.png)](https://github.com/mypdns/matrix)
-[![ko-fi](.assets/icons/ko-fi.png)](https://ko-fi.com/X8X37FUGU)
+[![ko-fi](.assets/icons/ko-fi.png)](DONATION.md)
 
 # The Matrix
 
