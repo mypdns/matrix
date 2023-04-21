@@ -34,11 +34,11 @@ committed.
   - [Source code](https://mypdns.eu.org/dl/cli/source.js), The above source code so you can compile it yourself
 
 ```
-Version: 1.0.3.4
+Version: 1.0.3.5
 
 What is changed from previous?
 
-- IDN support
+- Update MEO
 ```
 
 #### Linux usage
