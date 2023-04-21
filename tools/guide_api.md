@@ -29,11 +29,6 @@ Clearnet & Tor:
 curl --http2 -d "k=yourApiTokenHere&cat=news&url=https://nytimes.com/" -X POST https://apiUrlHere
 ```
 
-Tor:
-
-```
-curl -x socks5h://127.0.0.1:9050 -d "k=yourApiTokenHere&cat=news&url=https://nytimes.com/" -X POST http://apiUrlHere
-```
 
 - Change `k` to your personal access token.
   - e.g. `k=byIe_ns-39cWCQ` (_not `k="ab-Cd_E"` nor `k='a_bc-DE'`_)
@@ -44,8 +39,7 @@ curl -x socks5h://127.0.0.1:9050 -d "k=yourApiTokenHere&cat=news&url=https://nyt
 
 | Type     | URL                                                                                       |
 | -------- | ----------------------------------------------------------------------------------------- |
-| Clearnet | `https://karma.crimeflare.eu.org:1984/api/mypdns/`                                        |
-| Tor    | `http://karma.im5wixghmfmt7gf7wb4xrgdm6byx2gj26zn47da6nwo7xvybgxnqryid.onion/api/mypdns/` |
+| Clearnet/Tor | `https://mypdns.eu.org/api/reporting/`                                        |
 
 
 ### POST data
