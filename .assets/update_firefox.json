@@ -1,0 +1,60 @@
+{
+  "addons": {
+    "reporter@cat.mypdns.org": {
+      "updates": [
+        {
+          "applications": {
+            "gecko": {
+              "strict_min_version": "102.0"
+            }
+          },
+          "version": "1.0.2.11",
+          "update_link": "https://mypdns.eu.org/dl/addon/reporter.xpi",
+          "update_hash": "sha256:XXX"
+        }
+      ]
+    },
+    "defender@cat.mypdns.org": {
+      "updates": [
+        {
+          "applications": {
+            "gecko": {
+              "strict_min_version": "102.0"
+            }
+          },
+          "version": "1.0.0.8",
+          "update_link": "https://mypdns.eu.org/dl/addon/defender.xpi",
+          "update_hash": "sha256:XXX"
+        }
+      ]
+    },
+    "screenshotter@cat.mypdns.org": {
+      "updates": [
+        {
+          "applications": {
+            "gecko": {
+              "strict_min_version": "102.0"
+            }
+          },
+          "version": "1.0.0.4",
+          "update_link": "https://mypdns.eu.org/dl/addon/screenshot.xpi",
+          "update_hash": "sha256:XXX"
+        }
+      ]
+    },
+    "linkdetails@cat.mypdns.org": {
+      "updates": [
+        {
+          "applications": {
+            "gecko": {
+              "strict_min_version": "102.0"
+            }
+          },
+          "version": "1.0.0.6",
+          "update_link": "https://mypdns.eu.org/dl/addon/linkdetails.xpi",
+          "update_hash": "sha256:XXX"
+        }
+      ]
+    }
+  }
+}
