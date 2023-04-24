@@ -61,14 +61,14 @@ And here is a reason:
 ### Download Browser Add-on
 
 - Firefox
-  - [**Download from Git**](https://mypdns.eu.org/dl/addon/reporter.xpi)
+  - [**Download from My Privacy DNS**](https://mypdns.eu.org/dl/addon/reporter.xpi)
 
 
 ```
-Version: 1.0.2.10
+Version: 1.0.2.11
 What is changed from previous?
 
-- sync encoding
+- minor change
 ```
 
 ### Screenshots
@@ -104,14 +104,14 @@ What is changed from previous?
 ### Download Browser Add-on
 
 #### Firefox
-  - [**Download from Git**](https://mypdns.eu.org/dl/addon/defender.xpi)
+  - [**Download from My Privacy DNS**](https://mypdns.eu.org/dl/addon/defender.xpi)
 
 
 ```
-Version: 1.0.0.4
+Version: 1.0.0.8
 What is changed from previous?
 
-- 0xacab support
+- minor change
 ```
 
 
@@ -141,14 +141,14 @@ All you have to do is,
 ### Download Browser Add-on
 
 #### Firefox
-  - [**Download from Git**](https://mypdns.eu.org/dl/addon/screenshot.xpi)
+  - [**Download from My Privacy DNS**](https://mypdns.eu.org/dl/addon/screenshot.xpi)
 
 
 ```
-Version: 1.0.0.2
+Version: 1.0.0.4
 What is changed from previous?
 
-- 0xacab support
+- minor change
 ```
 
 ----
@@ -165,12 +165,12 @@ If this is the first time you use this add-on, you might need to close the brows
 ### Download Browser Add-on
 
 #### Firefox
-  - [**Download from Git**](https://mypdns.eu.org/dl/addon/linkdetails.xpi)
+  - [**Download from My Privacy DNS**](https://mypdns.eu.org/dl/addon/linkdetails.xpi)
 
 
 ```
-Version: 1.0.0.4
+Version: 1.0.0.6
 What is changed from previous?
 
-- 0xacab support
+- minor change
 ```
