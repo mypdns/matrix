@@ -107,6 +107,6 @@ There are too many so we pick up some of useful actions below.
 | ? | ? |
 | -- | -- |
 | Request Method | POST |
-| Input | `k` Access Token<br>`act = write`<br>`f` `IssueID.example.org` (e.g. `12345.example.org` for `Issue 12345`)<br>`body` UTF-16LE BASE64 encoded string |
+| Input | `k` Access Token<br>`act = write`<br>`f` `IssueID.example.org` (e.g. `12345.example.org` for `Issue 12345`)<br>`body` UTF-8 encoded string |
 | Output | JSON value as array<br>`[false, stringReason]` (if there is a problem)<br>`[true, true]` Success |
 | Example | `curl -X POST -F 'act=write' -F 'k=XXXXXX' -F 'f=123456.example.org' -F 'body=XXXXX'-k --http2 [API_URL]` |

@@ -49,11 +49,9 @@ curl --http2 -d "k=yourApiTokenHere&cat=news&url=https://nytimes.com/" -X POST h
 | :heavy_check_mark: | k     | **K**ey. MyPDNS Token (`read_user + api` _or_ `read_user` permission)                                                                                          |
 | :heavy_check_mark: | url   | Full URL of the website. If you do not know the URL just add `https://` or something (discouraged for good screenshot)                                                                                     |
 | :heavy_check_mark: | cat   | Category of the website<br>(the `cat` value _OR_ `in Matrix` value) |
-| :heavy_minus_sign: | wmemo | **Optional** Comment. UTF-16LE BASE64 encoded.                                                               |
+| :heavy_minus_sign: | wmemo | **Optional** Comment. UTF-8 encoded string                                                               |
 | :heavy_minus_sign: | wdesc | **Optional** Existence. If set & there is already an issue, the reply value will be the issue's description. |
 | :heavy_minus_sign: | byme | **Optional** Existence. If set, issue will be created using your token instead of reporter's. |
-
-If you want to send `wmemo` encode it like this `echo "This is my comment." | iconv -f UTF-8 -t UTF-16LE | base64` then run `curl --http2 -d "...&wmemo=(BASE64 Encoded)" -X...`.
 
 
 ### The `cat` value
