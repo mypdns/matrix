@@ -65,16 +65,10 @@ And here is a reason:
 
 
 ```
-Version: 1.0.2.8
+Version: 1.0.2.10
 What is changed from previous?
 
-- Changed
-  - When you try to report a new website from Sidebar, reporter will automatically add website title to comment section.
-- Added
-  - New Option: Sidebar > 
-    - "Do not auto-input website title into comment"
-    - "Disable "Website domain does not match." reporting check"
-  - Added new feature to the Mass Reporter tool.
+- sync encoding
 ```
 
 ### Screenshots
