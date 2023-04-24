@@ -37,8 +37,8 @@ xxxxxxx (your token)
   - [Source code](https://mypdns.eu.org/dl/gui/source.sp), The above source code so you can compile it yourself
 
 ```
-Version: 1.0.1.3
+Version: 1.0.1.4
 What is changed from previous?
 
-- Update MEO
+- sync encoding
 ```
