@@ -150,6 +150,8 @@ audio-ak-spotify-com.akamaized.net
 audio-akp-spotify-com.akamaized.net
 autolinkmaker.itunes.apple.com
 awaps.yandex.ru
+awssgp0-files.fds.api.xiaomi.com
+awsusor0-cdn.fds-ssl.api.xiaomi.com
 axjfkc.kobayashi.co.jp
 az19942.vo.msecnd.net
 b-graph.facebook.com
@@ -216,6 +218,8 @@ cb.baidu.com
 cbjs.baidu.com
 ccportal.iad.apple.com
 cdn-databox.jobrapido.com
+cdn.fds-ssl.api.xiaomi.com
+cdn.fds.api.xiaomi.com
 cdn.jsdelivr.net
 cdn.shopify.com
 cdn.stripchat.com
@@ -706,6 +710,7 @@ iclick.qq.com
 icrash.qq.com
 images.dmca.com
 imasdk.googleapis.com
+ime.api.xiaomi.com
 img-prod-cms-rt-microsoft-com.akamaized.net
 img.scoop.co.nz
 imgsrc.baidu.com
@@ -714,6 +719,7 @@ imgtrack.domainmarket.com
 improving.duckduckgo.com
 improving.wuzhuiso.com
 in.mydirtyhobby.de
+in.o2o.api.xiaomi.com
 inbound-analytics.pixlee.com
 ind-dsc.shalltry.com
 ind-dsu.shalltry.com
@@ -834,6 +840,7 @@ media.onet.pl
 merlin.abc.go.com
 metrica.yandex.ru
 metrics.ancestry.com
+metrics.api.xiaomi.com
 metrics.apple.com
 metrics.bangbros.com
 metrics.freemake.com
@@ -851,6 +858,7 @@ metrics.spbtv.com
 metrics.vodafone.com.eg
 metrika.yandex.ru
 mi-pre.shalltry.com
+mibi.api.xiaomi.com
 mine.nahnoji.cz
 mine.torrent.pw
 mktgtc.knt.co.jp
@@ -893,6 +901,8 @@ notes-analytics-events.apple.com
 novem.onet.pl
 nsclick.baidu.com
 nvmos.nvidia.com
+o2o.api.xiaomi.com
+o2o.xiaomi.com
 obs.line-scdn.net
 offers.sheerid.com
 online.miarroba.com
@@ -1046,6 +1056,8 @@ service-api.accesstrade.vn
 services.zam.com
 settings-sandbox.data.microsoft.com
 settings-win.data.microsoft.com
+sgp.o2o.api.xiaomi.com
+sgp.o2o.xiaomi.com
 sgqcvfjvr.onet.pl
 share.9cdn.net
 shavar.services.mozilla.com
@@ -1080,6 +1092,7 @@ spynetalt.microsoft.com
 ssl-ccstatic.highwebmedia.com
 ssl-stats.wordpress.com
 sstats2.gq.com
+staging.ai.api.xiaomi.com
 start.palemoon.org
 startup-mobile.ap.yandex.net
 startup.mobile.yandex.net
@@ -1355,6 +1368,7 @@ www3.l.google.com
 x.babe.today
 xlog-va.tiktokv.com
 xlog.tiktokv.com
+xshare.api.xiaomi.com
 xslt.alexa.com
 xy.nullrefexcep.com
 ybp.yahoo.com
