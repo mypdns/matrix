@@ -205,6 +205,8 @@ boot.pbstck.com
 boscdn.bpc.baidu.com
 box.bossdata.be
 br.baidu.com
+br.lgtvsdp.com
+br.rdx2.lgtvsdp.com
 browser.events.data.microsoft.com
 browser.pipe.aria.microsoft.com
 bs-meta.yandex.ru
@@ -768,6 +770,8 @@ iris.iad.apple.com
 issuetracker.unity3d.com
 j.image-ad.jp
 j.newssuite.sony.net
+jp.lgtvsdp.com
+jp.rdx2.lgtvsdp.com
 js.datadome.co
 js.stripe.com
 jsso.indiatimes.com
@@ -1094,6 +1098,7 @@ show.re.taobao.com
 signifyd.com
 simaba.taobao.com
 sixpack.sanarmed.com
+smartshare.lgtvsdp.com
 smetrics.bt.com
 smetrics.eastwestbank.com
 smetrics.hpe.com
@@ -1343,6 +1348,7 @@ union.baidu.com
 unstat.baidu.com
 updown.mobileassist.baidu.com
 upgrade.shalltry.com
+us.rdx2.lgtvsdp.com
 us01-analysis.ymcart.com
 us04logfiles.zoom.us
 usageanalytics.coveo.com
