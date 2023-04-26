@@ -119,11 +119,14 @@ analyzer2.fc2.com
 analyzer51.fc2.com
 analyzer52.fc2.com
 analyzer55.fc2.com
+android-appboot.netflix.com
 android.bugly.qq.com
+android.prod.cloud.netflix.com
 androidapi.mxplay.com
 androidapp.baidu.com
 androidc.mxplay.com
 anti-bot.baidu.com
+api-global.netflix.com
 api-js.datadome.co
 api-telemetry.servers.getgo.com
 api.bunzlaucastle.com
@@ -138,6 +141,7 @@ api.weltevree.eu
 apollo.plein.nl
 app1.maatwerkonline.nl
 appanalysis.banggood.com
+appboot.netflix.com
 applicationinsights.microsoft.com
 apprep.smartscreen.microsoft.com
 apps.iad.apple.com
@@ -168,10 +172,14 @@ bar.baidu.com
 batchlogging4.truecaller.com
 bc.semwerkt.nl
 beacon.errorception.com
+beacon.eu-west-1.prodaa.netflix.com
+beacon.geo.netflix.com
 beacon.netflix.com
 beacon.qq.com
 beacon.s.llnwi.net
 beacon.sina.com.cn
+beacon.us-east-1.prodaa.netflix.com
+beacon.us-west-2.prodaa.netflix.com
 beacon2.qq.com
 beaconapi.qq.com
 beaconcdn.qq.com
@@ -343,6 +351,8 @@ csr.onet.pl
 cstat.wap.sasisa.ru
 ctagm.tchibo.de
 ctg-apps.intuitcdn.net
+customerevents.dradis.netflix.com
+customerevents.netflix.com
 cv.accesstrade.vn
 cy2.vortex.data.microsoft.com.akadns.net
 d.adlpo.com
@@ -515,6 +525,7 @@ dtch.brunel.nl
 dtym7iokkjlif.cloudfront.net
 du4rq1xqh3i1k.cloudfront.net
 duu8lzqdm8tsz.cloudfront.net
+dvd.netflix.com
 dwh-tracking.it.auth0.com
 dxwgpw0lkcum5.cloudfront.net
 dy2xcjk8s1dbz.cloudfront.net
@@ -580,6 +591,7 @@ f-log-win-extension.grammarly.io
 f-log-wrex.grammarly.io
 f-log.grammarly.io
 f.hiphotos.baidu.com
+fast.latency.prodaa.netflix.com
 fathom.pixeldrain.com
 fclog.baidu.com
 fcmatch.google.com
@@ -639,6 +651,7 @@ gecko01.uber.space
 geo.cliphunter.com
 geo.dailymotion.com
 geo.gfycat.com
+geo.netflix.com
 geo.settings-win.data.microsoft.com
 geo.thehindu.com
 geoapi.indiatimes.com
@@ -678,6 +691,7 @@ hardware.metrics.mozilla.com
 harvester.hnonline.sk
 hb-analytics.hotstar.com
 hc.baidu.com
+help.netflix.com
 hiphotos.baidu.com
 history.google.com
 hitcounters.miarroba.com
@@ -706,6 +720,8 @@ iadworkbench-soak.iad.apple.com
 ib.tiktokv.com
 ibeat.indiatimes.com
 ibeats.indiatimes.com
+ichnaea-web.latency.prodaa.netflix.com
+ichnaea-web.netflix.com
 ichnaea.netflix.com
 iclick.qq.com
 icrash.qq.com
@@ -900,6 +916,11 @@ nmtracking.netflix.com
 normandy.cdn.mozilla.net
 notes-analytics-events.apple.com
 novem.onet.pl
+nrdp-anycast.prod.ftl.netflix.com
+nrdp.nccp.netflix.com
+nrdp.prod.cloud.netflix.com
+nrdp.prod.ftl.netflix.com
+nrdp52-appboot.netflix.com
 nsclick.baidu.com
 nvmos.nvidia.com
 o2o.api.xiaomi.com
@@ -978,9 +999,12 @@ pre-mpnewyear.uc.cn
 presentationtracking.netflix.com
 privacyfriendly.netlify.app
 prod-mng-proxy-connext.azurewebsites.net
+prodaa.netflix.com
 promo.ferame.com
 pti.store.microsoft.com
 public-api.wordpress.com
+push.prod.ftl.netflix.com
+push.prod.netflix.com
 push.services.mozilla.com
 pushid-noneu.truecaller.com
 pvn.mediamarkt.de
@@ -1043,6 +1067,7 @@ script-sh.d2cdm.jp
 sdk-logs.matomy.com
 sdkinit.taobao.com
 sealserver.trustwave.com
+secure.netflix.com
 securemetrics.apple.com
 sedo.cachefly.net
 segment.hotstar.com
@@ -1306,6 +1331,7 @@ u47.pnc.com
 ucstat.baidu.com
 uhf.microsoft.com
 uib.ff.avast.com
+uiboot.netflix.com
 uk-tracking.nextdoor.com
 umami.gofile.io
 unagi.amazon.com
