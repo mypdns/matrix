@@ -8,9 +8,9 @@
               "strict_min_version": "102.0"
             }
           },
-          "version": "1.0.2.11",
+          "version": "1.0.2.12",
           "update_link": "https://mypdns.eu.org/dl/addon/reporter.xpi",
-          "update_hash": "sha256:b780fae05fd1c179b9ac5dce420855d077f93bccd3c06e37330bc1722ba39daf"
+          "update_hash": "sha256:0c498732f86fbf55217c4b6e5bd74fe9d31401846169d8c7940fbc6bad522bed"
         }
       ]
     },
@@ -36,9 +36,9 @@
               "strict_min_version": "102.0"
             }
           },
-          "version": "1.0.0.4",
+          "version": "1.0.0.5",
           "update_link": "https://mypdns.eu.org/dl/addon/screenshot.xpi",
-          "update_hash": "sha256:54b4785497623e6dcd4650ca84327f32c34ec2b28a43bba89c2d23bcfc11b84d"
+          "update_hash": "sha256:a65b402c44c8169830b7299d786e53f1affb94925bf51764c2756e67a63e55f3"
         }
       ]
     },
