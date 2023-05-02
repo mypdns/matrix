@@ -65,10 +65,10 @@ And here is a reason:
 
 
 ```
-Version: 1.0.2.11
+Version: 1.0.2.13
 What is changed from previous?
 
-- minor change
+- Added new Sidebar option
 ```
 
 ### Screenshots

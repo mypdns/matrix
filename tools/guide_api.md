@@ -50,6 +50,7 @@ curl --http2 -d "k=yourApiTokenHere&cat=news&url=https://nytimes.com/" -X POST h
 | :heavy_check_mark: | url   | Full URL of the website. If you do not know the URL just add `https://` or something (discouraged for good screenshot)                                                                                     |
 | :heavy_check_mark: | cat   | Category of the website<br>(the `cat` value _OR_ `in Matrix` value) |
 | :heavy_minus_sign: | wmemo | **Optional** Comment. UTF-8 encoded string                                                               |
+| :heavy_minus_sign: | wimg | **Optional** JPEG BASE64 encoded image. `data:image/jpeg;base64,/9j/4AA....`                                                   | 
 | :heavy_minus_sign: | wdesc | **Optional** Existence. If set & there is already an issue, the reply value will be the issue's description. |
 | :heavy_minus_sign: | byme | **Optional** Existence. If set, issue will be created using your token instead of reporter's. |
 
