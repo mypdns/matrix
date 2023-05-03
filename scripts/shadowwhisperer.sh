@@ -1,7 +1,7 @@
 #!/bin/sh
 
 # Run this script as cron task
-set -e
+set -x
 REPO_DIR="/home/$USER/Downloads/git_projects/my_privacy_dns/matrix"
 
 GIT_DIR="$(git rev-parse --show-toplevel)"
@@ -17,6 +17,6 @@ if [ -d "$REPO_DIR" ]; then
 
     git commit -am "Updated ShadowWhisperer Adult list"
 
-    git pull --rebase origin master
-    git push #origin master
+    git push origin master || git pull --rebase origin master && git push origin master
+
 fi
