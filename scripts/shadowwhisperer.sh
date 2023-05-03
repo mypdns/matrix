@@ -1,7 +1,8 @@
 #!/bin/sh
 
 # Run this script as cron task
-set -x
+# set -x
+
 REPO_DIR="/home/$USER/Downloads/git_projects/my_privacy_dns/matrix"
 
 GIT_DIR="$(git rev-parse --show-toplevel)"
