@@ -18,5 +18,5 @@ if [ -d "$REPO_DIR" ]; then
     git commit -am "Updated ShadowWhisperer Adult list"
 
     git pull --rebase origin master
-    git push origin master
+    git push #origin master
 fi
