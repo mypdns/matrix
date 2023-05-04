@@ -22,9 +22,9 @@
     - If you do not want to send token, there are ways you can collaborate:
       - "reporter_guest website" and "Reporter add-on" allows you to join as guest.
   - `b`, `c`:
-    - 1. To create, update or improve an issue on your behalf
-    - 2. To return requested data to you
-    - 3. To improve project Matrix
+    - To create, update or improve an issue on your behalf
+    - To return requested data to you
+    - To improve project Matrix
   - `d`:
     - To save your custom configuration so you can use it again later.
       - The website does not use Cookies at all.
@@ -40,5 +40,4 @@
 **4. Who can I talk to about your server?**
   - This is not my server. Shared server with zero-log policy.
     - http://crimeflare.eu.org/
-  - Unlike vast majority of websites, which hide the server-side code, it is worth noting that My Privacy DNS' website's source code is reviewable to the privilleged user.
-    - If you collaborate enough to this project you have a right to review them yourself, should you decided not to trust us.
+
