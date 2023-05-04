@@ -65,10 +65,14 @@ And here is a reason:
 
 
 ```
-Version: 1.0.2.13
+Version: 1.0.3
 What is changed from previous?
 
-- Added new Sidebar option
+- Added Guest mode
+  - The "Guest mode" allows you to participate in Matrix project without providing your token.
+    Of course some features are not available when you are using Guest mode in order to prevent abuse.
+  - If you are currently using your token and want to try out "Guest mode", simply remove your token 
+    and click Check icon. Your other settings will not reset.
 ```
 
 ### Screenshots
