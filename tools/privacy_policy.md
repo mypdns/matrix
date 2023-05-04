@@ -40,3 +40,5 @@
 **4. Who can I talk to about your server?**
   - This is not my server. Shared server with zero-log policy.
     - http://crimeflare.eu.org/
+  - Unlike vast majority of websites, which hide the server-side code, it is worth noting that My Privacy DNS' website's source code is reviewable to the privilleged user.
+    - If you collaborate enough to this project you have a right to review them yourself, should you decided not to trust us.
