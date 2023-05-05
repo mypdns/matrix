@@ -19,6 +19,7 @@ aan.amazon.com
 aan.amazon.in
 aaqrvt.thefryecompany.com
 aax-cpm.amazon-adsystem.amazon.com
+aax-dtb-cf.amazon-adsystem.amazon.com
 aax-us-cpm.amazon-adsystem.amazon.com
 aax-us-iad.amazon.com
 aax-us.amazon-adsystem.amazon.com
@@ -108,6 +109,7 @@ ads-router-noneu.truecaller.com
 ads-static.phonepe.com
 ads-tracking.beop.io
 ads.adultfriendfinder.com
+ads.amazon.com
 ads.atlanticunionbank.com
 ads.ausdisability.com.au
 ads.autotrader.com
@@ -242,6 +244,9 @@ advert.sci-lib.com
 advertise.ldplayer.net
 advertiseonbing-blob.azureedge.net
 advertisers.dailymotion.com
+advertising-api-eu.amazon.com
+advertising-eu.amazon.com
+advertising-fe.amazon.com
 advertising.amazon.com
 advertising.apple.com
 advertising.microsoft.com
@@ -884,6 +889,7 @@ lrc.nct.nixcdn.com
 lunametrics.wpengine.netdna-cdn.com
 madmen.alastonsuomi.com
 madmen2.alastonsuomi.com
+mads-eu.amazon.com
 mads.amazon.com
 magicplayer-api.torrentstream.org
 magicplayer-s.acestream.net
@@ -893,6 +899,8 @@ marketing.al.ly
 marketing.botcomics.com
 marketingkaizen.s3-eu-west-1.amazonaws.com
 marketingplatform.google.com
+mas-ext.amazon.com
+mas-sdk.amazon.com
 matchbin-assets.s3.amazonaws.com
 max-l.mediav.com
 mcs-va.tiktokv.com
@@ -1161,6 +1169,7 @@ uedata.amazon.com
 ui.ads.microsoft.com
 uidesign.gbtcdn.com
 uk-mimecast-voicemail.s3.eu-west-2.amazonaws.com
+unagi-na.amazon.com
 unicast.ign.com
 us.b3018.pw
 us.ibs.lgappstv.com
