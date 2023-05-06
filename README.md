@@ -42,6 +42,8 @@ You can also use our new [MyPDNS Reporter][mypdnsReport], which is one of
 four things, a Browser-based add-on, API, CLI (Command LIne
 Interface) and a website for which you can choose between as you prefer.
 
+![](.assets/reporter/count.svg)
+
 ## File structure and Category explained
 
 This list is on hold in relation to [API's cat values](tools/guide_api.md):

@@ -1,5 +1,6 @@
 This is an easy way to commit `new websites` to [Matrix Issues](../).
 
+![](../.assets/reporter/count.svg)
 
 From the time you have committed a domain / uri you can see it as a
 committed issue is depending on the current queue for handling of your
