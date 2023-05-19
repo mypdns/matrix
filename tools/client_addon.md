@@ -173,8 +173,8 @@ If this is the first time you use this add-on, you might need to close the brows
 
 
 ```
-Version: 1.0.0.6
+Version: 1.0.0.7
 What is changed from previous?
 
-- minor change
+- add whitelist option
 ```
