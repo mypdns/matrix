@@ -34,3 +34,4 @@ screenshots/
 no-git/**
 
 .idea
+.idea/dataSources.xml
