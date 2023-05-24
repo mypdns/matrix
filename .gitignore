@@ -28,8 +28,9 @@ dir_structure.json
 output/
 screenshots/
 
-
 # Visual Basic Code
 .vscode
 **.code-workspace
 no-git/**
+
+.idea
