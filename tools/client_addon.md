@@ -65,14 +65,12 @@ And here is a reason:
 
 
 ```
-Version: 1.0.3
+Version: 1.0.3.1
 What is changed from previous?
 
-- Added Guest mode
-  - The "Guest mode" allows you to participate in Matrix project without providing your token.
-    Of course some features are not available when you are using Guest mode in order to prevent abuse.
-  - If you are currently using your token and want to try out "Guest mode", simply remove your token 
-    and click Check icon. Your other settings will not reset.
+- Improved Sidebar
+- "Insert Template": you created too many templates? you can add some directory to sort your templates.
+  - Use new syntax "<DirectoryName>|<TemplateName>" for example: "Cooking|Side-menu1" "Cooking|Side-menu2".
 ```
 
 ### Screenshots
