@@ -2,6 +2,8 @@
 [![Github Mirror](.assets/icons/github.png)](https://github.com/mypdns/matrix)
 [![ko-fi](.assets/icons/ko-fi.png)](DONATION.md)
 
+<script src="https://liberapay.com/MyPDNS/widgets/receiving.js"></script>
+
 # The Matrix
 
 This repository is [MyPDNS](https://mypdns.org/explore)'s self maintained
