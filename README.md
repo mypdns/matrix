@@ -1,4 +1,4 @@
-[![My Privacy DNS](.assets/icons/gitlab.png)](https://0xacab.org/my-privacy-dns/matrix My Privacy DNS)
+[![My Privacy DNS](.assets/icons/gitlab.png)](https://0xacab.org/my-privacy-dns/matrix "My Privacy DNS")
 [![Github Mirror](.assets/icons/github.png)](https://github.com/mypdns/matrix)
 [![ko-fi](.assets/icons/ko-fi.png)](DONATION.md)
 
