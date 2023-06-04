@@ -4,8 +4,8 @@
 My Privacy DNS is a handcrafted and completely self-managed DNS Firewall through Response Policy Zones (RPZ) . The project aims to protect online privacy. However, the search results do not provide additional information about the features and benefits of My Privacy DNS.
 
 
-- [My P DNS: Liberapay](https://liberapay.com/whatnametoaddhere)
-- [My P DNS Coffee](https://ko-fi.com/X8X37FUGU)
+- [My Privacy DNS: Liberapay](https://liberapay.com/mypdns)
+- [My Privacy DNS: Coffee](https://ko-fi.com/X8X37FUGU)
 
 
 
