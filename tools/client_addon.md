@@ -65,12 +65,11 @@ And here is a reason:
 
 
 ```
-Version: 1.0.3.1
+Version: 1.0.3.2
 What is changed from previous?
 
-- Improved Sidebar
-- "Insert Template": you created too many templates? you can add some directory to sort your templates.
-  - Use new syntax "<DirectoryName>|<TemplateName>" for example: "Cooking|Side-menu1" "Cooking|Side-menu2".
+- You can create support issue/comment {without login to 0xacab}.
+  - Just log out from 0xacab.org and open my-privacy-dns/support/ issue board.
 ```
 
 ### Screenshots

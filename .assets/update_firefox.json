@@ -8,9 +8,9 @@
               "strict_min_version": "102.0"
             }
           },
-          "version": "1.0.3.1",
+          "version": "1.0.3.2",
           "update_link": "https://mypdns.eu.org/dl/addon/reporter.xpi",
-          "update_hash": "sha256:075c6cc88d9fb582ccba7b3847973bd062deb5284f8e4c283eb37bb9f7ed4e3e"
+          "update_hash": "sha256:72ebf46d2204f4ae82ae4df6c764204bb4a4ec6ef2779e29e2f83d60eb8f10f8"
         }
       ]
     },
