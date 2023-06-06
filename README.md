@@ -1,8 +1,7 @@
 [![My Privacy DNS](.assets/icons/gitlab.png)](https://0xacab.org/my-privacy-dns/matrix "My Privacy DNS")
 [![Github Mirror](.assets/icons/github.png)](https://github.com/mypdns/matrix)
 [![ko-fi](.assets/icons/ko-fi.png)](DONATION.md)
-[![liberapay](https://img.shields.io/liberapay/receives/MyPDNS.svg?logo=liberapay)](https://liberapay.com/MyPDNS/donate)
-[![liberapay](https://img.shields.io/liberapay/goal/MyPDNS.svg?logo=liberapay)](https://liberapay.com/MyPDNS/donate)
+[![liberapay](https://mypdns.eu.org/api/fileproxy/?i=liberapay_receives)](https://0xacab.org/my-privacy-dns/matrix/-/blob/master/DONATION.md)
 
 <script src="https://liberapay.com/MyPDNS/widgets/receiving.js"></script>
 
