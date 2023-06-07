@@ -32,12 +32,13 @@ Some info:
 - Those 4 domains will be reported as ~News with a comment "`those are news sites about airplane or aeroplane`"
 
 ```
+those are news sites about airplane
+
 alpha.com
 www.beta.net
 blog.charlie.com
 https://airlines.delta.com/
 
-those are news sites about airplane
 or aeroplane
 ```
 
