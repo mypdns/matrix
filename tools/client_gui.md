@@ -1,8 +1,8 @@
-_Clients_:    [CLI](client_cli.md) | [**GUI**](client_gui.md) | [Add-ons](client_addon.md) | [Website](client_web.md)
+_Clients_:    [CLI](client_cli.md) | [**GUI**](client_gui.md) | [Add-ons](client_addon.md) | [Website](client_web.md) | [Mail](client_mail.md)
 
 ----
 
-## GUI tool (Windows)
+# GUI tool (Windows)
 
 ### Usage
   - How to use

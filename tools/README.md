@@ -30,9 +30,9 @@ Android mentioned you on issue #XXX "example.com" at My Privacy DNS
 
 ## Clients
 
-| CLI | GUI | Add-ons | Website |
-| -- | -- | -- | -- |
-| [![](../.assets/reporter/img/client_cli.png)](client_cli.md) | [![](../.assets/reporter/img/client_gui.png)](client_gui.md) | [![](../.assets/reporter/img/client_addon.png)](client_addon.md) | [![](../.assets/reporter/img/client_web.png)](client_web.md) |
+| CLI | GUI | Add-ons | Website | Mail |
+| -- | -- | -- | -- | -- |
+| [![](../.assets/reporter/img/client_cli.png)](client_cli.md) | [![](../.assets/reporter/img/client_gui.png)](client_gui.md) | [![](../.assets/reporter/img/client_addon.png)](client_addon.md) | [![](../.assets/reporter/img/client_web.png)](client_web.md) | [![](../.assets/reporter/img/client_mail.png)](client_mail.md) |
 
 ## For Developers
 

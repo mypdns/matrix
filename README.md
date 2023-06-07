@@ -3,7 +3,7 @@
 [![ko-fi](.assets/icons/ko-fi.png)](DONATION.md)
 [![liberapay](https://mypdns.eu.org/api/fileproxy/?i=liberapay_receives)](https://0xacab.org/my-privacy-dns/matrix/-/blob/master/DONATION.md)
 
-<script src="https://liberapay.com/MyPDNS/widgets/receiving.js"></script>
+
 
 # The Matrix
 
@@ -43,8 +43,8 @@ into it's `domain.list` or `wildcard.list`.
 # Submitting
 ## Reporting tool
 You can also use our new [MyPDNS Reporter][mypdnsReport], which is one of
-four things, a Browser-based add-on, API, CLI (Command LIne
-Interface) and a website for which you can choose between as you prefer.
+many things, a Browser-based add-on, API, CLI (Command LIne
+Interface) , website and email for which you can choose between as you prefer.
 
 ![](.assets/reporter/count.svg)
 
