@@ -37,7 +37,7 @@ www.beta.net
 blog.charlie.com
 https://airlines.delta.com/
 
-those are news sites about airplane.
+those are news sites about airplane
 or aeroplane
 ```
 
