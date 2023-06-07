@@ -44,14 +44,16 @@ or aeroplane
 
 > Bad Example
 
-- No comment = no category
+- No comment
+  - Unable to detect category
 ```
 alpha.com
 www.beta.net
 blog.charlie.com
 ```
 
-- `abc.net.au` line will be ignored.
+- `abc.net.au` will not be reported because of wrong format (not domain, fqdn or URL)
+  - The final comment will be "`abc.net.au,news,USA this is news okay?`"
 ```
 xyz.net.au
 abc.net.au,news,USA
@@ -60,8 +62,8 @@ def.net.au
 this is news okay?
 ```
 
-- The comment does not explain the category
-  - The issue will be created to Support board instead
+- The comment does not have the category
+  - The entire issue will be created to Support board instead
 ```
 russian.cat
 russian.blue
@@ -69,7 +71,7 @@ russian.blue
 I like Russian Blue. How about you?
 ```
 
-- You cannot mix categories.
+- You cannot mix categories
   - Only the first category will be considered. In below example, `thepiratebay.org` will be reported as ~News
 ```
 here is some news
