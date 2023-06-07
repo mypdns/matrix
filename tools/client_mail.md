@@ -68,3 +68,15 @@ russian.blue
 
 I like Russian Blue. How about you?
 ```
+
+- You cannot mix categories.
+  - Only the first category will be considered. In below example, `thepiratebay.org` will be reported as ~News
+```
+here is some news
+alpha.com
+www.beta.net
+blog.charlie.com
+
+and a torrent
+thepiratebay.org
+```
