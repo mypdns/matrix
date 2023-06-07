@@ -9,6 +9,12 @@ You can report domains or create new support issue via email.
 - `mypdns_report@riseup.net` for _reporting_ domains (details below)
 - `mypdns_support@riseup.net` for _creating new support issue_
 
+Some info:
+- You will not receive any replies.
+- Emails are deleted instantly after process (means we do not collect your address)
+- To protect you from spam, the first half of email address will be masked.
+  - `yourname@gmail.com` will become `[scrubbed]@gmail.com`
+
 
 ----
 ----
@@ -23,16 +29,16 @@ You can report domains or create new support issue via email.
 
 > Good Example
 
-- Those 4 domains will be reported as ~News with a comment "`those are news sites about airplane. or should I write aeroplane??`"
+- Those 4 domains will be reported as ~News with a comment "`those are news sites about airplane or aeroplane`"
 
 ```
 alpha.com
 www.beta.net
 blog.charlie.com
-https://airlines.charlie.com/
+https://airlines.delta.com/
 
 those are news sites about airplane.
-or should I write aeroplane??
+or aeroplane
 ```
 
 
@@ -45,9 +51,11 @@ www.beta.net
 blog.charlie.com
 ```
 
-- The line is not domain, FQDN, or URL.
+- `abc.net.au` line will be ignored.
 ```
+xyz.net.au
 abc.net.au,news,USA
+def.net.au
 
 this is news okay?
 ```
@@ -56,6 +64,7 @@ this is news okay?
   - The issue will be created to Support board instead
 ```
 russian.cat
+russian.blue
 
 I like Russian Blue. How about you?
 ```
