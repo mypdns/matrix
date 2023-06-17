@@ -12,3 +12,9 @@ My Privacy DNS is a handcrafted and completely self-managed DNS Firewall through
 |  🐱 |  🐱  |
 | --- | --- |
 | ![](.assets/img/cat1.jpg) | ![](.assets/img/cat2.jpg) |
+
+
+- **Disclaimer**:
+  - Above donation links contains Cloudflare.
+  - Also above DOES NOT related to [deCloudflare](https://0xacab.org/my-privacy-dns/deCloudflare) in any way.
+  - Above donation link is for My Privacy DNS only and we (Crimeflare|deCloudflare) DOES NOT use Cloudflare sites - above is NOT an exception. Think twice before you badmouth us.
