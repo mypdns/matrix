@@ -2,6 +2,9 @@ _Clients_:    [CLI](client_cli.md) | [GUI](client_gui.md) | [**Add-ons**](client
 
 ----
 
+📢 Looking for [Crimeflare (deCloudflare)'s Add-ons](https://0xacab.org/my-privacy-dns/deCloudflare/-/blob/master/addons/README.md) instead?
+
+
 # Browser Add-ons
 
 - [MyPDNS Reporter](client_addon.md#mypdns-reporter) for _reporting_ domains
