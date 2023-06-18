@@ -1,14 +1,20 @@
 [![My Privacy DNS](.assets/icons/gitlab.png)](https://0xacab.org/my-privacy-dns/matrix "My Privacy DNS")
 [![Github Mirror](.assets/icons/github.png)](https://github.com/mypdns/matrix)
 [![ko-fi](.assets/icons/ko-fi.png)](DONATION.md)
-[![liberapay](https://mypdns.eu.org/api/fileproxy/?i=liberapay_receives)](https://0xacab.org/my-privacy-dns/matrix/-/blob/master/DONATION.md)
+[![liberapay](https://mypdns.eu.org/api/fileproxy/?i=liberapay_receives)](DONATION.md)
 
 
 
 # The Matrix
 
-This repository is [MyPDNS](https://mypdns.org/explore)'s self maintained
-list of domains that need to be blocked for various reasons.
+[My Privacy DNS](https://mypdns.org/explore)' "Matrix" project is a handcrafted and completely self-managed DNS Firewall through Response Policy Zones (RPZ).
+
+The project aims to protect your privacy by blocking access to malicious domains and tracking servers to help you stay safe and secure.
+With the rise of online tracking and data breaches, it's more important than ever to take steps to protect your privacy online.
+
+One of these features is the anti-porn (anti-NSFW) list, which blocks access to pornographic and explicit sites.
+This feature is especially useful for parents who want to ensure that their children are not exposed to inappropriate content online.
+
 
 ## TOC
 - [The Matrix](#the-matrix)

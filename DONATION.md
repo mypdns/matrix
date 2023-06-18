@@ -1,7 +1,10 @@
 # Donate to My Privacy DNS
 
 
-My Privacy DNS is a handcrafted and completely self-managed DNS Firewall through Response Policy Zones (RPZ) . The project aims to protect online privacy. However, the search results do not provide additional information about the features and benefits of My Privacy DNS.
+By donating to My Privacy DNS, you are not only supporting a great project that helps protect your privacy online, 
+but you are also supporting the development of other privacy-friendly assets.
+So, if you believe in the importance of online privacy and want to help support a great cause, 
+consider donating to My Privacy DNS today.
 
 
 - [My Privacy DNS: Liberapay](https://liberapay.com/mypdns) ![goal](https://mypdns.eu.org/api/fileproxy/?i=liberapay_goal) ![receives](https://mypdns.eu.org/api/fileproxy/?i=liberapay_receives)
