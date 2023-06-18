@@ -7,7 +7,7 @@
 
 # The Matrix
 
-[My Privacy DNS](https://mypdns.org/explore)' "Matrix" project is a handcrafted and completely self-managed DNS Firewall through Response Policy Zones (RPZ).
+[My Privacy DNS](https://0xacab.org/my-privacy-dns)' "Matrix" project is a handcrafted and completely self-managed DNS Firewall through Response Policy Zones (RPZ).
 
 The project aims to protect your privacy by blocking access to malicious domains and tracking servers to help you stay safe and secure.
 With the rise of online tracking and data breaches, it's more important than ever to take steps to protect your privacy online.
