@@ -302,7 +302,10 @@ api.deep.bi
 api.grumft.com
 api.mediatailor.eu-west-1.amazonaws.com
 api.mixpanel.com
+api.mobojoy.baidu.com
+api.tuisong.baidu.com
 api.vidy.com
+api0.tuisong.baidu.com
 api1.accengage.com
 api2.accengage.com
 api3.accengage.com
@@ -375,6 +378,7 @@ bleua.ecefibwja.xyz
 bms.adjarabet.com
 bms1.adjarabet.com
 bootstrapcdn.jdorfman.netdna-cdn.com
+br.bmbs.baidu.com
 br.com.tapps.analytics.s3.amazonaws.com
 br.rk.com
 br3azil334nutsz.com
@@ -453,6 +457,7 @@ contextual.media.net
 contile.services.mozilla.com
 contilla-cdn.s3-eu-west-1.amazonaws.com
 cpv.ad.naver.com
+crab.baidu.com
 creative.schjmp.com
 creative.stripchat.com
 creatives.cliphunter.com
@@ -726,6 +731,7 @@ dtto8zfzskfoa.cloudfront.net
 dtv5loup63fac.cloudfront.net
 du01z5hhojprz.cloudfront.net
 du2uh7rq0r0d3.cloudfront.net
+duclick.baidu.com
 dup.baidustatic.com
 duzt6rhr7wo8p.cloudfront.net
 dv7t7qyvgyrt5.cloudfront.net
@@ -736,6 +742,7 @@ dw9uc6c6b8nwx.cloudfront.net
 dwf6crl4raal7.cloudfront.net
 dxedge-prod-lb-946522505.us-east-1.elb.amazonaws.com
 dxkkb5tytkivf.cloudfront.net
+dxp.baidu.com
 dxprljqoay4rt.cloudfront.net
 dxz454z33ibrc.cloudfront.net
 dybxezbel1g44.cloudfront.net
@@ -831,6 +838,8 @@ hesads.akamaized.net
 hfh.blig.ig.com.br
 hgss-savingyourlife.blog.onet.pl
 hipercontas.com.br
+hm.baidu.com
+hmma.baidu.com
 hooks.punchh.com
 hostedads.realitykings.com
 ht.keezmovies.com
@@ -853,6 +862,7 @@ image.ig.com.br
 images-pw.secureserver.net
 imasdk.googleapis.com
 img.bimg.126.net
+img.phone.baidu.com
 img.stomp.com.sg
 img.ucweb.com
 imgca.sythe.org
@@ -874,6 +884,7 @@ ji.ihualun.com
 jioads.akamaized.net
 join.xlgirls.com
 js.133u.com
+js.mobojoy.baidu.com
 js.srcsmrtgs.com
 jsc.mgid.com
 jscdn.yieldbird.com
@@ -884,6 +895,7 @@ kinesisanalytics.eu-central-1.amazonaws.com
 kinesisanalytics.eu-west-1.amazonaws.com
 landing.meendo.com
 later-analytics-reports.s3-accelerate.amazonaws.com
+launcher.baidu.com
 lb-adserver.ig.com.br
 lcs.naver.com
 lgad.cjpowercast.com.edgesuite.net
@@ -891,7 +903,9 @@ live.camigula.com
 llsp.gfd80.com
 load.s3.amazonaws.com
 load.xxxdb.io
+loc.map.baidu.com
 log-c-907025318.us-east-1.elb.amazonaws.com
+log.hm.baidu.com
 log4x.nixcdn.com
 logger-prod-us-east-1-vpc-alb-1251201355.us-east-1.elb.amazonaws.com
 lptag.liveperson.net
@@ -928,6 +942,7 @@ metrics.readme.io
 mg.yadro.ru
 mid4.linkedin.com
 mkt.momentoeditorial.com.br
+mobile-global.baidu.com
 mobileads.indiatimes.com
 mobileanalytics.us-east-1.amazonaws.com
 mobileandroidapi.punchh.com
@@ -937,6 +952,8 @@ motd.ubuntu.com
 movie.momo-net.com
 movip.wps.com
 mp3ad.scdn.co
+msc.baidu.com
+mscbos.baidu.com
 msitadfs.glbdns2.microsoft.com
 msnads.vo.msecnd.net
 msnvidweb.vo.msecnd.net
@@ -963,6 +980,7 @@ offerwall.s3.amazonaws.com
 ohpornosex.blog.onet.pl
 olakrydz.blog.onet.pl
 openapi.naver.com
+openrcv.baidu.com
 openx.sales.e.fc2.com
 openx.sexsearch.com
 openx.sexsearchcom.com
@@ -1049,9 +1067,12 @@ rpc-tapjoy-com-lb-1378811527.us-east-1.elb.amazonaws.com
 rumcollector-lb-304223083.us-east-1.elb.amazonaws.com
 s-ad.rmp.rakuten.co.jp
 s.beop.io
+s.mobile-global.baidu.com
 s0.2mdn.net
 s3.us-east-1.amazonaws.com
 s3.us-east-2.amazonaws.com
+sa.tuisong.baidu.com
+sa0.tuisong.baidu.com
 safraempresas.s3.ca-central-1.amazonaws.com
 sales.liveperson.net
 sana.newsinccom.s3.amazonaws.com
@@ -1105,6 +1126,7 @@ static.vidy.com
 stats-wynkmusic-285784487.ap-south-1.elb.amazonaws.com
 stats.adobe.com
 stats.hprofits.com
+statsonline.pushct.baidu.com
 stc-nas.nixcdn.com
 stc.nas.nixcdn.com
 sticker.yadro.ru
@@ -1114,6 +1136,7 @@ student.telkomuniversity.ac.id
 supply.upjers.com
 survey.watson.microsoft.com
 sync.cmedia.s3.amazonaws.com
+sync.mobojoy.baidu.com
 syndication.globaltraffico.com
 syndication.jsadapi.com
 syndication.openapi.naver.com
