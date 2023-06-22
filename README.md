@@ -1,38 +1,69 @@
 [![My Privacy DNS](.assets/icons/gitlab.png)](https://0xacab.org/my-privacy-dns/matrix "My Privacy DNS")
 [![Github Mirror](.assets/icons/github.png)](https://github.com/mypdns/matrix)
 [![ko-fi](.assets/icons/ko-fi.png)](DONATION.md)
-[![liberapay](https://mypdns.eu.org/api/fileproxy/?i=liberapay_receives)](DONATION.md)
+[![liberapay](https://mypdns.eu.org/api/fileproxy/?i=liberapay_receives)](DONATION.md) 
+[![goal](https://mypdns.eu.org/api/fileproxy/?i=liberapay_goal)](DONATION.md)
 
+## TOC
+- [The Matrix](#the-matrix)
+  - [Donations](#donations)
+  - [Source list](#source-list)
+  - [Categorizing](#categorizing)
+  - [Submitting](#submitting)
+    - [Reporting tool](#reporting-tool)
+    - [File structure and Category explained](#file-structure-and-category-explained)
+    - [Issue templates Quick links](#issue-templates-quick-links)
+  - [The Matrix](#the-matrix-1)
+  - [Whitelist](#whitelist)
+  - [Bulk commits](#bulk-commits)
+  - [FAQ](#faq)
+  - [Official mirrors](#official-mirrors)
+  - [Project Keywords](#project-keywords)
 
 
 # The Matrix
 
-[My Privacy DNS](https://0xacab.org/my-privacy-dns)' "Matrix" project is a handcrafted and completely self-managed DNS Firewall through Response Policy Zones (RPZ).
+[My Privacy DNS](https://0xacab.org/my-privacy-dns)' "Matrix" project is
+a handcrafted and completely self-managed DNS Firewall through Response
+Policy Zones (RPZ).
 
-The project aims to protect your privacy by blocking access to malicious domains and tracking servers to help you stay safe and secure.
-With the rise of online tracking and data breaches, it's more important than ever to take steps to protect your privacy online.
+The project aims to protect your privacy by blocking access to malicious
+domains and tracking servers to help you stay safe and secure.
+With the rise of online tracking and data breaches, it's more important
+than ever to take steps to protect your privacy online.
 
-One of these features is the anti-porn (anti-NSFW) list, which blocks access to pornographic and explicit sites.
-This feature is especially useful for parents who want to ensure that their children are not exposed to inappropriate content online.
+One of these features is the anti-porn (anti-NSFW) list, which blocks access
+to pornographic and explicit sites.
+This feature is especially useful for parents who want to ensure that their
+children are not exposed to inappropriate content online.
 
+## Donations
 
-## TOC
-- [The Matrix](#the-matrix)
-  - [TOC](#toc)
-- [Source list](#source-list)
-- [Categorizing](#categorizing)
-- [Submitting](#submitting)
-  - [Reporting tool](#reporting-tool)
-  - [File structure and Category explained](#file-structure-and-category-explained)
-  - [Issue templates Quick links](#issue-templates-quick-links)
-  - [The Matrix](#the-matrix-1)
-- [Whitelist](#whitelist)
-- [Bulk commits](#bulk-commits)
-- [FAQ](#faq)
-  - [Official mirrors](#official-mirrors)
-- [Keywords](#keywords)
+My Privacy DNS is an excellent way to protect your privacy online, and it also
+ offers additional features to help you stay safe and secure. One of these
+ features is the anti-porn list, which blocks access to pornographic and
+ explicit sites.
+This feature is especially useful for parents who want to ensure that their
+ children are not exposed to inappropriate content online.
 
-# Source list
+With the rise of online tracking and data breaches, it's become more important
+than ever to take steps to protect your privacy online.
+My Privacy DNS is a great way to do just that. It's easy to use, highly
+ effective, and completely free.
+
+By donating to My Privacy DNS, you are not only supporting a great project
+ that helps protect your privacy online, but you are also helping to ensure
+ that it continues to provide this valuable service free of charge to the public.
+ Additionally, you are supporting the development of other privacy-friendly
+ software.
+That's why I'm donating to My Privacy DNS, and I encourage you to do the same.
+Together, we can help protect our privacy and keep the internet safe and
+secure for everyone.
+
+- [My Privacy DNS: Liberapay](https://liberapay.com/mypdns)
+- [My Privacy DNS: Ko-fi](https://ko-fi.com/X8X37FUGU)
+
+## Source list
 The `source` folder contains several sub-folders, each named as groups,
 for which a submission should be put. This however doesn't necessary
 mean that one domain can't be put into several 'groups'.
@@ -41,20 +72,22 @@ Ex. `google.*` which belongs to several groups as they represent all
 online evil, when we talk about privacy and anti-brainwashing/manipulation;
 Facebook is also well represented in several categories.
 
-# Categorizing
+## Categorizing
 Each sub-folder of `sources` should contain its own README which in
 short describes what the list is all about and the criteria to add a domain
 into it's `domain.list` or `wildcard.list`.
 
-# Submitting
-## Reporting tool
+## Submitting
+### Reporting tool
 You can also use our new [MyPDNS Reporter][mypdnsReport], which is one of
 many things, a Browser-based add-on, API, CLI (Command LIne
 Interface) , website and email for which you can choose between as you prefer.
 
-![](.assets/reporter/count.svg)
+Number of new reported domains that awaites processing
 
-## File structure and Category explained
+![Reporting queue](.assets/reporter/count.svg)
+
+### File structure and Category explained
 
 This list is on hold in relation to [API's cat values](tools/guide_api.md):
 
@@ -84,7 +117,7 @@ This list is on hold in relation to [API's cat values](tools/guide_api.md):
 | ~Weapons                               | Sites offering all kinds of weapons or accessories for weapons: Firearms, knifes, swords, bows,... . Armory shops are included as well as sites holding general information about arms (manufacturing, usage).                                                                                                                                                                                    |
 | ~WhiteList                             | [whitelist](https://0xacab.org/my-privacy-dns/support/-/wikis/whitelist)                                                                                                                                                                                                                                                                                                                          |
 
-## Issue templates Quick links
+### Issue templates Quick links
 You can use the following quick links to generate issues within matrix
 
 | <h2>Category</h2>                                                                                                                                        | <h2>Raw url code</h2>                                                                         |
@@ -137,7 +170,7 @@ Alternatively you can use our automatically combined weekly updated
 [hosts-list][hosts-list]
 
 
-# Whitelist
+## Whitelist
 This list has its own life, as it's a very, very tricky one to
 maintain.
 
@@ -156,7 +189,7 @@ often pops up on lists for malicious code. But as that would have a huge
 influence on our workflow, it would, of course, have to be whitelisted on
 our list.
 
-# Bulk commits
+## Bulk commits
 Bulk commits will only be tolerated, if done by a @developer of the
 repository, does it and **_ONLY_** if and when the source is commonly
 trusted **_and_** if the amount of domains can justify it will be way too
@@ -167,7 +200,7 @@ lists.
 [Bulk commits][Bulk-commits] rule.
 
 
-# FAQ
+## FAQ
 **Q**: Your lists have broken my website, by blocking a third party
 domain!
 
@@ -236,6 +269,6 @@ goes right) be updated by [push on commit][poc]
 [RPZ]: https://0xacab.org/my-privacy-dns/support/-/wikis/RPZ "Response Policy Zone"
 [hosts-list]: https://0xacab.org/my-privacy-dns/hosts/-/tree/master/download "Hosts foratted blacklists"
 
-# Keywords
+## Project Keywords
 A few keywords for this project is Enhanced Privacy, DNS Firewall,
-Privacy First
+Privacy First, RPZ, Response Policy Zone.
