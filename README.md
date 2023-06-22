@@ -37,6 +37,7 @@ to pornographic and explicit sites.
 This feature is especially useful for parents who want to ensure that their
 children are not exposed to inappropriate content online.
 
+
 ## Donations
 
 My Privacy DNS is an excellent way to protect your privacy online, and it also
@@ -51,17 +52,14 @@ than ever to take steps to protect your privacy online.
 My Privacy DNS is a great way to do just that. It's easy to use, highly
  effective, and completely free.
 
-By donating to My Privacy DNS, you are not only supporting a great project
+By [donating to My Privacy DNS](DONATION.md), you are not only supporting a great project
  that helps protect your privacy online, but you are also helping to ensure
  that it continues to provide this valuable service free of charge to the public.
  Additionally, you are supporting the development of other privacy-friendly
  software.
-That's why I'm donating to My Privacy DNS, and I encourage you to do the same.
 Together, we can help protect our privacy and keep the internet safe and
 secure for everyone.
 
-- [My Privacy DNS: Liberapay](https://liberapay.com/mypdns)
-- [My Privacy DNS: Ko-fi](https://ko-fi.com/X8X37FUGU)
 
 ## Source list
 The `source` folder contains several sub-folders, each named as groups,
@@ -72,10 +70,12 @@ Ex. `google.*` which belongs to several groups as they represent all
 online evil, when we talk about privacy and anti-brainwashing/manipulation;
 Facebook is also well represented in several categories.
 
+
 ## Categorizing
 Each sub-folder of `sources` should contain its own README which in
 short describes what the list is all about and the criteria to add a domain
 into it's `domain.list` or `wildcard.list`.
+
 
 ## Submitting
 ### Reporting tool
@@ -86,6 +86,7 @@ Interface) , website and email for which you can choose between as you prefer.
 Number of new reported domains that awaites processing
 
 ![Reporting queue](.assets/reporter/count.svg)
+
 
 ### File structure and Category explained
 
@@ -116,6 +117,7 @@ This list is on hold in relation to [API's cat values](tools/guide_api.md):
 | ~Typo_Squatting                        | [typosquatting](https://0xacab.org/my-privacy-dns/support/-/wikis/typosquatting)                                                                                                                                                                                                                                                                                                                  |
 | ~Weapons                               | Sites offering all kinds of weapons or accessories for weapons: Firearms, knifes, swords, bows,... . Armory shops are included as well as sites holding general information about arms (manufacturing, usage).                                                                                                                                                                                    |
 | ~WhiteList                             | [whitelist](https://0xacab.org/my-privacy-dns/support/-/wikis/whitelist)                                                                                                                                                                                                                                                                                                                          |
+
 
 ### Issue templates Quick links
 You can use the following quick links to generate issues within matrix
@@ -151,6 +153,7 @@ You can use the following quick links to generate issues within matrix
 | <h2>Special Templates</h2>                                                                                                                               |                                                                                               |
 | [-aa][Bulk-commits]<br>  A fast bulk template modified constantly to match a specific case                                                               | `https://0xacab.org/my-privacy-dns/matrix/-/issues/new?issuable_template=-aa`                 |
 | [getadmiral][]<br> A Template to ensuring the needed data while committing [getadmiral].com treats to make them connected and optimize the reaction data | `https://0xacab.org/my-privacy-dns/matrix/-/issues/new?issuable_template=getadmiral`          |
+
 
 ## The Matrix
 For the Adult filtering, please refer to the [README](source/README.md)
@@ -189,6 +192,7 @@ often pops up on lists for malicious code. But as that would have a huge
 influence on our workflow, it would, of course, have to be whitelisted on
 our list.
 
+
 ## Bulk commits
 Bulk commits will only be tolerated, if done by a @developer of the
 repository, does it and **_ONLY_** if and when the source is commonly
@@ -224,6 +228,7 @@ already for leaking privacy to third party.
 3) Through this repository's issue board, we're trying our best to give
    people the right information for them to decide whether they
    should allow access to some domains, despite them being marked as bad.
+
 
 ## Official mirrors
 
