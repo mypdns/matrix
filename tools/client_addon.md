@@ -68,11 +68,10 @@ And here is a reason:
 
 
 ```
-Version: 1.0.3.2
+Version: 1.0.3.3
 What is changed from previous?
 
-- You can create support issue/comment {without login to 0xacab}.
-  - Just log out from 0xacab.org and open my-privacy-dns/support/ issue board.
+- raw ip support
 ```
 
 ### Screenshots
