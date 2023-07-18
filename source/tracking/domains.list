@@ -237,6 +237,7 @@ assets.vix.com
 assoc-redirect.amazon.com
 audio-ak-spotify-com.akamaized.net
 audio-akp-spotify-com.akamaized.net
+aus5.mozilla.org
 autolinkmaker.itunes.apple.com
 awaps.yandex.ru
 aws.amazon.com
@@ -1960,6 +1961,7 @@ sentry.sendo.vn
 sentry.wearetriple.com
 servedby.yell.com
 service-api.accesstrade.vn
+services.addons.mozilla.org
 services.zam.com
 settings-sandbox.data.microsoft.com
 settings-win.data.microsoft.com
@@ -2164,6 +2166,7 @@ telemetry-incoming.r53-2.services.mozilla.com
 telemetry.acronis.com
 telemetry.dropbox.com
 telemetry.microsoft.com
+telemetry.mozilla.org
 telemetry.servers.getgo.com
 telemetry.tradingview.com
 telemetry.urs.microsoft.com
@@ -2449,6 +2452,7 @@ v10c.events.data.microsoft.com
 v7.stats.avast.com
 v7event.stats.avast.com
 verdict.abc.go.com
+versioncheck-bg.addons.mozilla.org
 videostats.kakao.com
 visit.campermate.com
 visits.tommi.space
