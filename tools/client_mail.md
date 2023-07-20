@@ -6,8 +6,8 @@ _Clients_:    [CLI](client_cli.md) | [GUI](client_gui.md) | [Add-ons](client_add
 
 You can report domains or create new support issue via email.
 
-- `mypdns_report@riseup.net` for _reporting_ domains (details below)
-- `mypdns_support@riseup.net` for _creating new support issue_
+- `report@mypdns.eu.org` for _reporting_ domains (details below)
+- `support@ypdns.eu.org` for _creating new support issue_
 
 Some info:
 - You will not receive any replies.
@@ -21,7 +21,7 @@ Some info:
 
 # How to report domains by email
 
-- Simply send an email to `mypdns_report@riseup.net` with understandable comment.
+- Simply send an email to above reporter address with understandable comment.
 - Subject does not matter (empty is OK)
 - One `domain`/`FQDN`/`URL` per line.
   - Other format will be read as comment.
