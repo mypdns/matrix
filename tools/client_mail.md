@@ -6,8 +6,8 @@ _Clients_:    [CLI](client_cli.md) | [GUI](client_gui.md) | [Add-ons](client_add
 
 You can report domains or create new support issue via email.
 
-- `report@mypdns.eu.org` for _reporting_ domains (details below)
-- `support@ypdns.eu.org` for _creating new support issue_
+- report@mypdns.eu.org for _reporting_ domains (details below)
+- support@mypdns.eu.org for _creating new support issue_
 
 Some info:
 - You will not receive any replies.
