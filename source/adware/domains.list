@@ -279,6 +279,10 @@ afl.rakuten.co.jp
 ahost.bulbagarden.net
 aic.cdpbeacon.lgtvcommon.com
 aic.cdpsvc.lgtvcommon.com
+aic.homeprv.lgtvcommon.com
+aic.nudge.lgtvcommon.com
+aic.rdl.lgtvcommon.com
+aic.wiseconfig.lgtvcommon.com
 aif.yadro.ru
 alb-prod-invenio-1916515004.us-west-2.elb.amazonaws.com
 alexa-sitestats.s3.amazonaws.com
@@ -432,6 +436,7 @@ cdn.witchhut.com
 cdn.zomap.de
 cdn3.hentaihand.com
 cdn62004373.ahacdn.me
+cdpbeacon.lgtvcommon.com
 cds.g8j8b9g6.hwcdn.net
 cds.s5x3j6q5.hwcdn.net
 cds.y3x4g6p6.hwcdn.net
@@ -771,6 +776,12 @@ ecolytics-collector-prod-1404130997.us-west-1.elb.amazonaws.com
 ecommerce.iap.unity3d.com
 ecommstats.s3.amazonaws.com
 edgecast-vod.yimg.com
+eic.cdpbeacon.lgtvcommon.com
+eic.cdpsvc.lgtvcommon.com
+eic.homeprv.lgtvcommon.com
+eic.nudge.lgtvcommon.com
+eic.rdl.lgtvcommon.com
+eic.service.lgtvcommon.com
 electric-welcome.goulet.dev
 embed.scdn.to
 emediate.apmmedia.net
@@ -845,6 +856,7 @@ hgss-savingyourlife.blog.onet.pl
 hipercontas.com.br
 hm.baidu.com
 hmma.baidu.com
+homeprv.lgtvcommon.com
 hooks.punchh.com
 hostedads.realitykings.com
 ht.keezmovies.com
@@ -895,6 +907,10 @@ jsc.mgid.com
 jscdn.yieldbird.com
 jump.fhoa365.com
 jy75p2avi1.execute-api.us-west-2.amazonaws.com
+kic.homeprv.lgtvcommon.com
+kic.nudge.lgtvcommon.com
+kic.rdl.lgtvcommon.com
+kic.service.lgtvcommon.com
 kinesis.us-east-1.amazonaws.com
 kinesisanalytics.eu-central-1.amazonaws.com
 kinesisanalytics.eu-west-1.amazonaws.com
@@ -978,6 +994,7 @@ noticefile.samsungcloudsolution.com
 notifications-api.cf.sky.com
 noughttrustthreshold.com
 now.infinitecampus.com
+nudge.lgtvcommon.com
 nytadvertising.nytimes.com
 o2o.api.xiaomi.com
 oempprd.samsungcloudsolution.com
@@ -1054,6 +1071,7 @@ rainmaker.digitalbrandsinc.netdna-cdn.com
 rc.xxhrd.com
 rcm-images.amazon.com
 rcm.amazon.com
+rdl.lgtvcommon.com
 redirector.desbloqueador.org
 registro.ig.com.br
 rel.nextinpact.com
@@ -1069,6 +1087,10 @@ revmob-creatives.s3.amazonaws.com
 ris.api.iris.microsoft.com
 roxedltd.co.id
 rpc-tapjoy-com-lb-1378811527.us-east-1.elb.amazonaws.com
+ruc.homeprv.lgtvcommon.com
+ruc.nudge.lgtvcommon.com
+ruc.rdl.lgtvcommon.com
+ruc.service.lgtvcommon.com
 rumcollector-lb-304223083.us-east-1.elb.amazonaws.com
 s-ad.rmp.rakuten.co.jp
 s.beop.io
