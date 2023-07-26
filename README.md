@@ -4,6 +4,7 @@
 [![liberapay](https://mypdns.eu.org/api/fileproxy/?i=liberapay_receives)](DONATION.md) 
 [![goal](https://mypdns.eu.org/api/fileproxy/?i=liberapay_goal)](DONATION.md)
 
+
 ## TOC
 - [The Matrix](#the-matrix)
   - [Donations](#donations)
@@ -23,7 +24,7 @@
 
 # The Matrix
 
-[My Privacy DNS](https://0xacab.org/my-privacy-dns)' "Matrix" project is
+[My Privacy DNS](https://mypdns.eu.org/)' "Matrix" project is
 a handcrafted and completely self-managed DNS Firewall through Response
 Policy Zones (RPZ).
 
@@ -79,7 +80,7 @@ into it's `domain.list` or `wildcard.list`.
 
 ## Submitting
 ### Reporting tool
-You can also use our new [MyPDNS Reporter][mypdnsReport], which is one of
+You can also use our new [MyPDNS Reporter](tools/README.md), which is one of
 many things, a Browser-based add-on, API, CLI (Command LIne
 Interface) , website and email for which you can choose between as you prefer.
 
@@ -259,7 +260,6 @@ goes right) be updated by [push on commit][poc]
 [getadmiral]: https://0xacab.org/my-privacy-dns/matrix/-/issues/3023
 [IP-Blocking]: https://0xacab.org/my-privacy-dns/matrix/-/issues/new?issuable_template=IP%20Blocking "Issue template to commit Blocking by IP addresses"
 [MalWare]: https://0xacab.org/my-privacy-dns/matrix/-/issues/new?issuable_template=Malicious%20MalWare "Issue template to commit Malicious and or Malware"
-[mypdnsReport]: https://0xacab.org/my-privacy-dns/matrix/-/blob/master/tools/README.md
 [Phishing]: https://0xacab.org/my-privacy-dns/matrix/-/issues/new?issuable_template=Phishing "Issue template to commit Phishing"
 [PiratedDomain]: https://0xacab.org/my-privacy-dns/matrix/-/issues/new?issuable_template=Pirated%20Domain "Issue template to commit Outdated domain, pirated and hijacked by domains Jackal's"
 [Redirecting]: https://0xacab.org/my-privacy-dns/matrix/-/issues/new?issuable_template=Redirecting "Issue template to commit URL shortening and other redirecting only domain"
