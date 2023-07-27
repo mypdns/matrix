@@ -1,3 +1,5 @@
+# Tools
+
 This is an easy way to commit `new websites` to [Matrix Issues](../).
 
 ![](../.assets/reporter/count.svg)
