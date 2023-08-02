@@ -31,9 +31,3 @@ Together, we can help protect our privacy and keep the internet safe and secure 
 | ![](.assets/img/cat1.jpg) | ![](.assets/img/cat2.jpg) |
 
 
-----
-
-- **Disclaimer**:
-  - Above donation links [contains Cloudflare](https://0xacab.org/my-privacy-dns/matrix/-/issues/?sort=created_date&state=opened&search=cloudflare.com&first_page_size=20).
-  - Also above DOES NOT related to [deCloudflare](https://0xacab.org/my-privacy-dns/deCloudflare) in any way.
-  - Above donation link is for `My Privacy DNS` only and Crimeflare nor deCloudflare DOES NOT use Cloudflare sites - above is NOT an exception. _Think twice before you badmouth us_.
