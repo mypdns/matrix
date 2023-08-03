@@ -9,7 +9,10 @@
   - a. `API Token`
   - b. `Specified URL`, `FQDN` or `base domain`
   - c. `Optional user content, such as Comment`
-  - d. `Configuration on Committer website`
+  - d. `Configuration of website`
+    - d1. `Committer website`
+    - d2. `MyPDNS website`
+
 
 
 **2. How we use `1` data**
@@ -27,14 +30,16 @@
     - To improve project Matrix
   - `d`:
     - To save your custom configuration so you can use it again later.
-      - The website does not use Cookies at all.
+      - These websites do not use Cookies at all.
 
 
 **3. How long do we keep those data**
 
   Basically, we keep nothing. The bot process your request and that's all.
   Exceptions are:
-  - `d`: Your Committer settings. It will be automatically destroyed after 30 days of using the website.
+  - `d`: Your settings. It will be automatically destroyed after X days of using the website.
+    - `d1`: 30 days
+    - `d2`: 62 days (or you can delete your account instantly at any time)
 
 
 **4. Who can I talk to about your server?**
