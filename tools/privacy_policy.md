@@ -10,8 +10,8 @@
   - b. `Specified URL`, `FQDN` or `base domain`
   - c. `Optional user content, such as Comment`
   - d. `Configuration of website`
-    - d1. `Committer website`
-    - d2. `MyPDNS website`
+    - d1. `Committer website -> Settings`
+    - d2. `MyPDNS website -> MyPDNS Account (AnonID)`
 
 
 
@@ -37,9 +37,9 @@
 
   Basically, we keep nothing. The bot process your request and that's all.
   Exceptions are:
-  - `d`: Your settings. It will be automatically destroyed after X days of using the website.
+  - `d`: Your settings. It will be automatically destroyed after X days of using the website. We believe keeping inactive accounts is a bad idea for security and privacy.
     - `d1`: 30 days
-    - `d2`: 62 days (or you can delete your account instantly at any time)
+    - `d2`: 93 days (or you can delete your account instantly at any time)
 
 
 **4. Who can I talk to about your server?**
