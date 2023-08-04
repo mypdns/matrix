@@ -66,10 +66,10 @@ And here is a reason:
 
 
 ```
-Version: 1.0.3.3
+Version: 1.0.4
 What is changed from previous?
 
-- raw ip support
+- AnonID support
 ```
 
 ### Screenshots
