@@ -1,12 +1,12 @@
-### Privacy policy
+# Privacy policy
 
 
 **1. What we receive**
 
-  We may receive one of those data to process your request.
+  We may receive one of those data from you to process your request.
   The bottom line is **we do not collect** any unnecessary information.
 
-  - a. `API Token`
+  - a. `GitLab API Token`
   - b. `Specified URL`, `FQDN` or `base domain`
   - c. `Optional user content, such as Comment`
   - d. `Configuration of website`
@@ -17,7 +17,7 @@
 
 **2. How we use `1` data**
 
-  We use following data **ONLY** to provide this service and **never share** them with others.
+  We use following data **ONLY** to provide this service and **NEVER share** them with others.
 
   - `a`:
     - For reading GitLab 's `account status` (banned or not) and its `username`.
@@ -43,6 +43,6 @@
 
 
 **4. Who can I talk to about your server?**
-  - This is not my server. Shared server with zero-log policy.
+  - This is not my server. Shared server with **zero-log** policy.
     - http://crimeflare.eu.org/
 
