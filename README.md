@@ -11,8 +11,6 @@
   - [Source list](#source-list)
   - [Categorizing](#categorizing)
   - [Submitting](#submitting)
-    - [Reporting tool](#reporting-tool)
-    - [Issue templates Quick links](#issue-templates-quick-links)
   - [The Matrix](#the-matrix-1)
   - [Whitelist](#whitelist)
   - [Bulk commits](#bulk-commits)
@@ -74,54 +72,19 @@ Facebook is also well represented in several categories.
 ## Categorizing
 Each sub-folder of `sources` should contain its own README which in
 short describes what the list is all about and the criteria to add a domain
-into it's `domain.list` or `wildcard.list`.
+into it's `domain.list` or `wildcard.list`. Each categories are explained in [Matrix Source Files](source/README.md).
 
 
 ## Submitting
-### Reporting tool
-You can also use our new [MyPDNS Reporter](tools/README.md), which is one of
+To report problematic websites, please create a new issue for each domains. You will need to provide the URL and a screenshot for evidence.
+
+There is a more easy way to report - you can also use our [MyPDNS Reporter](tools/README.md), which is one of
 many things, a Browser-based add-on, API, CLI (Command LIne
 Interface) , website and email for which you can choose between as you prefer.
 
 Number of new reported domains that awaites processing
 
 ![Reporting queue](.assets/reporter/count.svg)
-
-
-### Issue templates Quick links
-You can use the following quick links to generate issues within matrix
-
-| <h2>Category</h2>                                                                                                                                        | <h2>Raw url code</h2>                                                                         |
-| :------------------------------------------------------------------------------------------------------------------------------------------------------- | :-------------------------------------------------------------------------------------------- |
-| [AdWare][AdWare]                                                                                                                                         | `https://0xacab.org/my-privacy-dns/matrix/-/issues/new?issuable_template=AdWare`              |
-| Bait sites                                                                                                                                               |                                                                                               |
-| [Crypto Miners][CryptoMiners]                                                                                                                            | `https://0xacab.org/my-privacy-dns/matrix/-/issues/new?issuable_template=CryptoMiner`         |
-| [DNS Server][DNS-Server]                                                                                                                                 | `https://0xacab.org/my-privacy-dns/matrix/-/issues/new?issuable_template=DNS%20Server`        |
-| Drugs                                                                                                                                                    |                                                                                               |
-| [Gambling][Gambling]                                                                                                                                     | `https://0xacab.org/my-privacy-dns/matrix/-/issues/new?issuable_template=Gambling`            |
-| [IP Blocking][IP-Blocking]                                                                                                                               | `https://0xacab.org/my-privacy-dns/matrix/-/issues/new?issuable_template=IP%20Blocking`       |
-| [Malicious/MalWare][MalWare]                                                                                                                             | `https://0xacab.org/my-privacy-dns/matrix/-/issues/new?issuable_template=Malicious%20MalWare` |
-| movies / streaming                                                                                                                                       |                                                                                               |
-| News                                                                                                                                                     |                                                                                               |
-| [Phishing][Phishing]                                                                                                                                     | `https://0xacab.org/my-privacy-dns/matrix/-/issues/new?issuable_template=Phishing`            |
-| [Pirated Domain][PiratedDomain]                                                                                                                          | `https://0xacab.org/my-privacy-dns/matrix/-/issues/new?issuable_template=Pirated%20Domain`    |
-| Politics                                                                                                                                                 |                                                                                               |
-| [Redirecting][Redirecting] (uri shortener)                                                                                                               | `https://0xacab.org/my-privacy-dns/matrix/-/issues/new?issuable_template=Redirecting`         |
-| Religion                                                                                                                                                 |                                                                                               |
-| [Removal][Removal] Read the F.A.Q. *BEFORE* you proceed!                                                                                                 | `https://0xacab.org/my-privacy-dns/matrix/-/issues/new?issuable_template=Removal`             |
-| [Scamming][Scamming] *Upcoming* (In development)                                                                                                         | `https://0xacab.org/my-privacy-dns/matrix/-/issues/new?issuable_template=Scamming`            |
-| [Spam][Spam]                                                                                                                                             | `https://0xacab.org/my-privacy-dns/matrix/-/issues/new?issuable_template=Spam`                |
-| [Spyware][Spyware]                                                                                                                                       | `https://0xacab.org/my-privacy-dns/matrix/-/issues/new?issuable_template=Spyware`             |
-| Suspected                                                                                                                                                |
-| [Tracking][Tracking]                                                                                                                                     | `https://0xacab.org/my-privacy-dns/matrix/-/issues/new?issuable_template=Tracking`            |
-| [Typo Squatting][TypoSquatting]                                                                                                                          | `https://0xacab.org/my-privacy-dns/matrix/-/issues/new?issuable_template=Typo%20Squatting`    |
-| Weapons                                                                                                                                                  |                                                                                               |
-| [Whitelist][Whitelist]                                                                                                                                   | `https://0xacab.org/my-privacy-dns/matrix/-/issues/new?issuable_template=Whitelist`           |
-| [False Negatives/Removals][Removals]                                                                                                                     | `https://0xacab.org/my-privacy-dns/matrix/-/issues/new?issuable_template=False%20Positive`    |
-|                                                                                                                                                          |                                                                                               |
-| <h2>Special Templates</h2>                                                                                                                               |                                                                                               |
-| [-aa][Bulk-commits]<br>  A fast bulk template modified constantly to match a specific case                                                               | `https://0xacab.org/my-privacy-dns/matrix/-/issues/new?issuable_template=-aa`                 |
-| [getadmiral][]<br> A Template to ensuring the needed data while committing [getadmiral].com treats to make them connected and optimize the reaction data | `https://0xacab.org/my-privacy-dns/matrix/-/issues/new?issuable_template=getadmiral`          |
 
 
 ## The Matrix
