@@ -66,10 +66,10 @@ And here is a reason:
 
 
 ```
-Version: 1.0.4.1
+Version: 1.0.4.2
 What is changed from previous?
 
-- changed Icon
+- matrix.rocks support
 ```
 
 ### Screenshots
@@ -146,10 +146,10 @@ All you have to do is,
 
 
 ```
-Version: 1.0.0.6
+Version: 1.0.0.7
 What is changed from previous?
 
-- changed Icon
+- changed text
 ```
 
 ----
