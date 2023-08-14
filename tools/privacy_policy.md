@@ -7,8 +7,8 @@
   The bottom line is **we do not collect** any unnecessary information.
 
   - a. `Token`
-    - a1. `GitLab API`
-    - a2. `Matrix.Rocks API`
+    - a1. `GitLab token`
+    - a2. `Matrix.Rocks token`
   - b. `Specified URL`, `FQDN` or `base domain`
   - c. `Optional user content, such as Comment`
   - d. `Configuration of website`
