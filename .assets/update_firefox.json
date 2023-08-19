@@ -8,9 +8,9 @@
               "strict_min_version": "102.0"
             }
           },
-          "version": "1.0.4.2",
+          "version": "1.0.5",
           "update_link": "https://mypdns.org/dl/addon/reporter.xpi",
-          "update_hash": "sha256:f8d8b7279df02c7155476f916c657f68bc6ad25674de957655cc6d1452f758cf"
+          "update_hash": "sha256:cfe35383c2e208b2c58dcd49f2f3abcd16b67e630d21f390887b8c6905e31fc9"
         }
       ]
     },
@@ -22,9 +22,9 @@
               "strict_min_version": "102.0"
             }
           },
-          "version": "1.0.0.9",
+          "version": "1.0.1",
           "update_link": "https://mypdns.org/dl/addon/defender.xpi",
-          "update_hash": "sha256:e7847a3bd3988f46e7449077912824907940a87f603cc8b1d8a98fd95e16be6e"
+          "update_hash": "sha256:b1dea35be0b959ecc31007ff903e93ea1e37c84aa0893306b411d07546e3e57a"
         }
       ]
     },
@@ -36,9 +36,9 @@
               "strict_min_version": "102.0"
             }
           },
-          "version": "1.0.0.7",
+          "version": "1.0.1",
           "update_link": "https://mypdns.org/dl/addon/screenshot.xpi",
-          "update_hash": "sha256:22d079c3fb1f556c1484b77affb8bc0f75a59e5825c340fb2765f433a745a29c"
+          "update_hash": "sha256:2db6c5a198ac20f1bde1e3a027f78df651caa15bd100f8ff968c42c82ba3d3c6"
         }
       ]
     },
@@ -50,9 +50,9 @@
               "strict_min_version": "102.0"
             }
           },
-          "version": "1.0.0.8",
+          "version": "1.0.1",
           "update_link": "https://mypdns.org/dl/addon/linkdetails.xpi",
-          "update_hash": "sha256:fa03a81eaedb10b5d69e36111d71b8fa59c1944ebaa640c970c87d7bda163c5c"
+          "update_hash": "sha256:9b3b899a05bd13acccfd2b2122c00df0db65a67da3d61626ac6626b7cf7955ce"
         }
       ]
     }

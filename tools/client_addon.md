@@ -66,10 +66,10 @@ And here is a reason:
 
 
 ```
-Version: 1.0.4.2
+Version: 1.0.5
 What is changed from previous?
 
-- matrix.rocks support
+- URL update
 ```
 
 ### Screenshots
@@ -109,10 +109,10 @@ What is changed from previous?
 
 
 ```
-Version: 1.0.0.9
+Version: 1.0.1
 What is changed from previous?
 
-- changed Icon
+- URL update
 ```
 
 
@@ -146,10 +146,10 @@ All you have to do is,
 
 
 ```
-Version: 1.0.0.7
+Version: 1.0.1
 What is changed from previous?
 
-- changed text
+- URL update
 ```
 
 ----
@@ -170,8 +170,8 @@ If this is the first time you use this add-on, you might need to close the brows
 
 
 ```
-Version: 1.0.0.8
+Version: 1.0.1
 What is changed from previous?
 
-- changed Icon
+- URL update
 ```
