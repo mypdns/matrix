@@ -1,8 +1,8 @@
 [![My Privacy DNS](.assets/icons/gitlab.png)](https://0xacab.org/my-privacy-dns/matrix "My Privacy DNS")
 [![Github Mirror](.assets/icons/github.png)](https://github.com/mypdns/matrix)
 [![ko-fi](.assets/icons/ko-fi.png)](DONATION.md)
-[![liberapay](https://mypdns.eu.org/api/fileproxy/?i=liberapay_receives)](DONATION.md) 
-[![goal](https://mypdns.eu.org/api/fileproxy/?i=liberapay_goal)](DONATION.md)
+[![liberapay](https://img.shields.io/liberapay/receives/MyPDNS.svg?logo=liberapay)](DONATION.md) 
+[![goal](https://img.shields.io/liberapay/goal/MyPDNS.svg?logo=liberapay)](DONATION.md)
 
 
 ## TOC
@@ -21,7 +21,7 @@
 
 # The Matrix
 
-[My Privacy DNS](https://mypdns.eu.org/)' "Matrix" project is
+[My Privacy DNS](https://mypdns.org/)' "Matrix" project is
 a handcrafted and completely self-managed DNS Firewall through Response
 Policy Zones (RPZ).
 

@@ -33,8 +33,8 @@ xxxxxxx (your token)
 
 ### Download
 
-  - [**for Windows**: gui.zip](https://mypdns.eu.org/dl/gui/gui.zip)
-  - [Source code](https://mypdns.eu.org/dl/gui/source.sp), The above source code so you can compile it yourself
+  - [**for Windows**: gui.zip](https://mypdns.org/dl/gui/gui.zip)
+  - [Source code](https://mypdns.org/dl/gui/source.sp), The above source code so you can compile it yourself
 
 ```
 Version: 1.0.1.4

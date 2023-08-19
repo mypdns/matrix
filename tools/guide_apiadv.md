@@ -17,7 +17,7 @@ We provide additional 3 API for My Privacy DNS: `cat`, `committer` and `issue` e
 
 | Type     | URL                                                                                       |
 | -------- | ----------------------------------------------------------------------------------------- |
-| Clearnet/Tor | cat: `https://mypdns.eu.org/api/cat/`<br>committer: `https://mypdns.eu.org/api/committer/`<br>issue: `https://mypdns.eu.org/api/issue/`                                        |
+| Clearnet/Tor | cat: `https://karma.crimeflare.eu.org:1984/api/mypdns/cat/`<br>committer: `https://karma.crimeflare.eu.org:1984/api/mypdns/committer/`<br>issue: `https://karma.crimeflare.eu.org:1984/api/mypdns/issue/`                                        |
 
 There are too many so we pick up some of useful actions below.
 

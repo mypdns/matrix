@@ -62,7 +62,7 @@ And here is a reason:
 ### Download Browser Add-on
 
 - Firefox
-  - [**Download from My Privacy DNS**](https://mypdns.eu.org/dl/addon/reporter.xpi)
+  - [**Download from My Privacy DNS**](https://mypdns.org/dl/addon/reporter.xpi)
 
 
 ```
@@ -105,7 +105,7 @@ What is changed from previous?
 ### Download Browser Add-on
 
 #### Firefox
-  - [**Download from My Privacy DNS**](https://mypdns.eu.org/dl/addon/defender.xpi)
+  - [**Download from My Privacy DNS**](https://mypdns.org/dl/addon/defender.xpi)
 
 
 ```
@@ -142,7 +142,7 @@ All you have to do is,
 ### Download Browser Add-on
 
 #### Firefox
-  - [**Download from My Privacy DNS**](https://mypdns.eu.org/dl/addon/screenshot.xpi)
+  - [**Download from My Privacy DNS**](https://mypdns.org/dl/addon/screenshot.xpi)
 
 
 ```
@@ -166,7 +166,7 @@ If this is the first time you use this add-on, you might need to close the brows
 ### Download Browser Add-on
 
 #### Firefox
-  - [**Download from My Privacy DNS**](https://mypdns.eu.org/dl/addon/linkdetails.xpi)
+  - [**Download from My Privacy DNS**](https://mypdns.org/dl/addon/linkdetails.xpi)
 
 
 ```

@@ -21,7 +21,7 @@ That's why I'm donating to My Privacy DNS, and I encourage you to do the same.
 Together, we can help protect our privacy and keep the internet safe and secure for everyone.
 
 
-- [Liberapay](https://liberapay.com/mypdns) ![goal](https://mypdns.eu.org/api/fileproxy/?i=liberapay_goal) ![receives](https://mypdns.eu.org/api/fileproxy/?i=liberapay_receives)
+- [Liberapay](https://liberapay.com/mypdns) ![goal](hhttps://img.shields.io/liberapay/goal/MyPDNS.svg?logo=liberapay) ![receives](https://img.shields.io/liberapay/receives/MyPDNS.svg?logo=liberapay)
 - [Ko-fi](https://ko-fi.com/X8X37FUGU)
 - Bitcoin: `1NhKssgTyRgrGNKq2YBhyLeptbfDWfe1Zc`
 

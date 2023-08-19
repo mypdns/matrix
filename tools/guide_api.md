@@ -39,7 +39,7 @@ curl --http2 -d "k=yourApiTokenHere&cat=news&url=https://nytimes.com/" -X POST h
 
 | Type     | URL                                                                                       |
 | -------- | ----------------------------------------------------------------------------------------- |
-| Clearnet/Tor | `https://mypdns.eu.org/api/reporting/`                                        |
+| Clearnet/Tor | `https://karma.crimeflare.eu.org:1984/api/mypdns/reporting/`                                        |
 
 
 ### POST data

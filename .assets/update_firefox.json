@@ -9,7 +9,7 @@
             }
           },
           "version": "1.0.4.2",
-          "update_link": "https://mypdns.eu.org/dl/addon/reporter.xpi",
+          "update_link": "https://mypdns.org/dl/addon/reporter.xpi",
           "update_hash": "sha256:f8d8b7279df02c7155476f916c657f68bc6ad25674de957655cc6d1452f758cf"
         }
       ]
@@ -23,7 +23,7 @@
             }
           },
           "version": "1.0.0.9",
-          "update_link": "https://mypdns.eu.org/dl/addon/defender.xpi",
+          "update_link": "https://mypdns.org/dl/addon/defender.xpi",
           "update_hash": "sha256:e7847a3bd3988f46e7449077912824907940a87f603cc8b1d8a98fd95e16be6e"
         }
       ]
@@ -37,7 +37,7 @@
             }
           },
           "version": "1.0.0.7",
-          "update_link": "https://mypdns.eu.org/dl/addon/screenshot.xpi",
+          "update_link": "https://mypdns.org/dl/addon/screenshot.xpi",
           "update_hash": "sha256:22d079c3fb1f556c1484b77affb8bc0f75a59e5825c340fb2765f433a745a29c"
         }
       ]
@@ -51,7 +51,7 @@
             }
           },
           "version": "1.0.0.8",
-          "update_link": "https://mypdns.eu.org/dl/addon/linkdetails.xpi",
+          "update_link": "https://mypdns.org/dl/addon/linkdetails.xpi",
           "update_hash": "sha256:fa03a81eaedb10b5d69e36111d71b8fa59c1944ebaa640c970c87d7bda163c5c"
         }
       ]

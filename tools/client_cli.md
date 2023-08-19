@@ -28,10 +28,10 @@ committed.
 
 ### Download
 
-  - [**for Windows**: mypdnsrep.exe](https://mypdns.eu.org/dl/cli/mypdnsrep.exe)
-  - [**for Linux**: mypdnsrep.linux](https://mypdns.eu.org/dl/cli/mypdnsrep.linux)
-  - [**for Mac OS**: mypdnsrep.macos](https://mypdns.eu.org/dl/cli/mypdnsrep.app)
-  - [Source code](https://mypdns.eu.org/dl/cli/source.js), The above source code so you can compile it yourself
+  - [**for Windows**: mypdnsrep.exe](https://mypdns.org/dl/cli/mypdnsrep.exe)
+  - [**for Linux**: mypdnsrep.linux](https://mypdns.org/dl/cli/mypdnsrep.linux)
+  - [**for Mac OS**: mypdnsrep.macos](https://mypdns.org/dl/cli/mypdnsrep.app)
+  - [Source code](https://mypdns.org/dl/cli/source.js), The above source code so you can compile it yourself
 
 ```
 Version: 1.0.3.6
@@ -50,7 +50,7 @@ sudo cp mypdnsrep.linux /usr/local/bin/mypdnsrep && \
 ```
 
 ```terminal
-sudo wget -O /usr/local/bin/mypdnsrep https://mypdns.eu.org/dl/cli/mypdnsrep.linux && \
+sudo wget -O /usr/local/bin/mypdnsrep https://mypdns.org/dl/cli/mypdnsrep.linux && \
     sudo chmod +x /usr/local/bin/mypdnsrep && \
     sudo chown root:root /usr/local/bin/mypdnsrep
 ```
