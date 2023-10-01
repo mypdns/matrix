@@ -52,16 +52,16 @@ jobs:
           find "${{ github.workspace }}/source/" -type f -name '*.rpz-nsdname' \
           -exec bash -c "sort -i -u -f '{}' -o '{}' " \;
 
-      - name: 'Combine domain and wildcard domains for external usages'
-        run: |
-          cd "${{ github.workspace }}"
-          find "${{ github.workspace }}/source/" -type f -name 'combined.txt' \
-          -delete
+      # - name: 'Combine domain and wildcard domains for external usages'
+      #   run: |
+      #     cd "${{ github.workspace }}"
+      #     find "${{ github.workspace }}/source/" -type f -name 'combined.txt' \
+      #     -delete
 
-          for d in `find source/ -mindepth 1 -maxdepth 1 -type d`
-          do
-              cat ${d[@]}/*.list > ${d[@]}/combined.txt
-          done
+      #     for d in `find source/ -mindepth 1 -maxdepth 1 -type d`
+      #     do
+      #         cat ${d[@]}/*.list > ${d[@]}/combined.txt
+      #     done
 
       # - name: 'Import latest working example of safe search from safesearch.mypdns.cloud'
       #   run: |
