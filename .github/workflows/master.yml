@@ -23,7 +23,7 @@ jobs:
         python_version:
           - '3.9.6'
         os:
-          - ubuntu-20.04
+          - ubuntu-latest
 
     steps:
       - uses: actions/checkout@main #Obviously yet another american...
