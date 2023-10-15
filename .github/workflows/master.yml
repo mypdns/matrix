@@ -59,7 +59,7 @@ jobs:
           find "${{ github.workspace }}/source/" -type f -name 'combined.txt' \
           -delete
 
-          for d in `find source/ -mindepth 1 -maxdepth 2 -type d`
+          for d in `find source/ -mindepth 1 -maxdepth 3 -type d`
           do
               cat ${d[@]}/*.list > ${d[@]}/combined.txt
           done
