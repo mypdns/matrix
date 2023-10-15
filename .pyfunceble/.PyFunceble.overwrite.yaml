@@ -1,46 +1,38 @@
 cli_testing:
+  autocontinue: true
+  ci:
     autocontinue: true
-    ci:
-        active: true
-        branch: master
-        command: null
-        commit_message: My Privacy DNS - Temp results
-        distribution_branch: master
-        end_command: null
-        end_commit_message: My Privacy DNS - Results
-        max_exec_minutes: 320
-    days_between:
-        db_clean: 120
-    display_mode:
-        all: false
-        colour: true
-        dots: true
-        execution_time: true
-        less: true
-        percentage: true
-        quiet: true
-    file_generation:
-        unified_results: true
-    sorting_mode:
-        hierarchical: true
+    cidr_expand: true
+    inactive-db: false
+    active: true
+    db_type: mariadb
+    branch: master
+    command: null
+    commit_message: My Privacy DNS - Temp results
+    distribution_branch: master
+    end_command: null
+    end_commit_message: My Privacy DNS - Results
+    max_exec_minutes: 320
+  days_between:
+    db_clean: 120
+  display_mode:
+    all: false
+    colour: true
+    dots: true
+    execution_time: true
+    less: true
+    percentage: true
+    quiet: true
+  file_generation:
+    unified_results: true
+  sorting_mode:
+    hierarchical: true
 dns:
-    follow_server_order: true
-    protocol: UDP
-    server:
-    - 130.225.244.166
-    - 130.226.161.34
-    - 89.233.43.71
-    - 185.121.177.177
-    - 169.239.202.202
-    - 161.97.219.84
-    - 104.168.144.17
-    - 163.172.168.171
-    - 94.103.153.176
-    - 207.192.71.13
-    - 178.63.116.152
-    - 188.226.146.136
-    - 79.124.7.81
+  follow_server_order: true
+  protocol: UDP
+  server:
+    - 9.9.9.10
 user_agent:
-    browser: firefox
-    custom: null
-    platform: linux
+  browser: firefox
+  custom: null
+  platform: linux

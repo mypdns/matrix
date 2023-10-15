@@ -64,6 +64,11 @@ jobs:
               cat ${d[@]}/*.list > ${d[@]}/combined.txt
           done
 
+      - name: 'import '
+        run: |
+          curl "https://raw.githubusercontent.com/ShadowWhisperer/BlockLists/master/RAW/Adult" |
+            -o "${{ github.workspace }}/source/porn_filters/imported/adult.ShadowWhisperer"
+
       # - name: 'Import latest working example of safe search from safesearch.mypdns.cloud'
       #   run: |
       #     rm "${{ github.workspace }}/safesearch/safesearch.mypdns.cloud.rpz"
