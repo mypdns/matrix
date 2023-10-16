@@ -1,19 +1,14 @@
 name: Adult
-description: Submitting new porn domains
-title: 'Submit porn domain'
+description: Porn domain
+title: ""
 labels: [ "NSFW Adult Material" ]
 assignees:
   - spirillen
 body:
-  - type: markdown
-    attributes:
-      value: |
-        Blacklist domain as
-
   - type: checkboxes
     id: recordType
     attributes:
-      label: How to blacklist
+      label: Blacklist domain as
       description: How should we be blacklisting this domain?
       options:
       - label: Wildcard, The domain should be entirely blacklisted
@@ -23,11 +18,11 @@ body:
   - type: textarea
     id: domainRecords
     attributes:
-      label: Blacklist records
-      description: List any records that needs to be blacklisted
+      label: Domain records
+      description: List any records that needs to be blacklisted as comma separated CSV with pipes
       placeholder: |
-        "example.com|category1,category2,category3"
-        "*.example.com|category1,category2,category3"
+        example.com|category1,category2,category3
+        *.example.com|category1,category2,category3
       render: CSV
     validations:
       required: true
@@ -36,9 +31,12 @@ body:
     id: hostsRecords
     attributes:
       label: Hosts specific records, not used by #RPZ
-      description: Also tell us, what subdomains are required for RFC:952 and RFC:953
-      placeholder: Tell us what you have found
-      value: "hosts.example.com"
+      description: |
+        Also tell us, what subdomains are required for RFC:952 and RFC:953
+        comma separated CSV with pipes
+      placeholder: |
+        hosts.example.com
+      render: CSS
     validations:
       required: false
 
@@ -47,7 +45,9 @@ body:
     attributes:
       label: Screenshots
       description: Screenshot is required for committing domains, we can not visit all domains
-      placeholder: "![Screenshot of example.com](img-src)"
+      placeholder: |
+        "![Screenshot of example.com](img-src)"
+        **INFO**: You can copy paste images directly into this field.
       render: Markdown
     validations:
       required: true
@@ -57,7 +57,7 @@ body:
     attributes:
       label: logs from [uBlock Origin](https://github.com/gorhill/uBlock/)
       description: "Please paste your uBlock origin logs as table in markdown"
-      value: |
+      placeholder: |
         <details><summary>Logger output</summary>
         ||
         </details>
@@ -70,8 +70,7 @@ body:
     attributes:
       label: Code of Conduct
       description: |
-        By submitting this issue, you agree to follow our
-        [Code of Conduct](https://github.com/mypdns/matrix/blob/master/CODE_OF_CONDUCT.md)
+        By submitting this issue, you agree to follow our [Code of Conduct](https://github.com/mypdns/matrix/blob/master/CODE_OF_CONDUCT.md)
       options:
         - label: I agree to follow this project's Code of Conduct
           required: true
