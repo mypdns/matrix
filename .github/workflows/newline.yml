@@ -14,7 +14,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@master
-      - uses: Logerfo/newline-action@0.0.2
+      - uses: Logerfo/newline-action@0.0.3
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }} # The `GITHUB_TOKEN` secret.
-          config-path: .github/newline.yml # The path of the addtional configurations file.
+          config-path: .github/newline.yml # The path of the additional configurations file.
+          autoCommit: true
