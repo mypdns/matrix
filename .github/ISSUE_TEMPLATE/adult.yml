@@ -41,7 +41,7 @@ body:
     validations:
       required: false
 
-  - type: input
+  - type: textarea
     id: screenshot
     attributes:
       label: Screenshots
@@ -49,6 +49,7 @@ body:
       placeholder: |
         "![Screenshot of example.com](img-src)"
         **INFO**: You can copy paste images directly into this field.
+      render: Markdown
     validations:
       required: true
 
