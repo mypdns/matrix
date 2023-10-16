@@ -66,9 +66,7 @@ jobs:
 
       - name: 'import '
         run: |
-          ls -lha "${{ github.workspace }}/source/porn_filters/imported/adult.ShadowWhisperer"
-          rm "${{ github.workspace }}/source/porn_filters/imported/adult.ShadowWhisperer"
-          curl "https://raw.githubusercontent.com/ShadowWhisperer/BlockLists/master/RAW/Adult" |
+          curl "https://raw.githubusercontent.com/ShadowWhisperer/BlockLists/master/RAW/Adult" \
             -o "${{ github.workspace }}/source/porn_filters/imported/adult.ShadowWhisperer"
 
       # - name: 'Import latest working example of safe search from safesearch.mypdns.cloud'
