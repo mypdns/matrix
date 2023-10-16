@@ -1,15 +1,3 @@
-phonesubmissions.apple.com
-telemetry.canva.com
-matomo.thehindu.com
-matomo.protectli.com
-matomo.dedimax.com
-matomo.passeportsante.net
-matomo.imagile.fr
-matomonuedigi.mediendesign.de
-matomo.milkywan.fr
-matomo.kopano.com
-matomo.it-connect.fr
-matomo.hetzner.cloud
 29627a66.api.splkmobile.com
 2tty.overstappen.nl
 3.redirect.appmetrica.yandex.com
@@ -1552,12 +1540,14 @@ matomo.greybusters.de
 matomo.gvm.com.tw
 matomo.hai-class.com
 matomo.helena.care
+matomo.hetzner.cloud
 matomo.homepage-helden.de
 matomo.ify-webdesign.ch
 matomo.ihk.901664.jweiland-hosting.de
 matomo.imagile.fr
 matomo.internisten-im-netz.de
 matomo.ipsapps.org
+matomo.it-connect.fr
 matomo.iwego.fr
 matomo.jalis.pro
 matomo.jardins-arcadie.fr
@@ -1631,6 +1621,7 @@ matomo.swimmingpool-agence.fr
 matomo.technikelfe.com
 matomo.technoseum.de
 matomo.teknowerkz.com
+matomo.thehindu.com
 matomo.theoptimizedesign.com
 matomo.titus.de
 matomo.tranquil.it
@@ -2278,6 +2269,7 @@ tejia.taobao.com
 telemetry-data.r53-2.services.mozilla.com
 telemetry-incoming.r53-2.services.mozilla.com
 telemetry.acronis.com
+telemetry.canva.com
 telemetry.dropbox.com
 telemetry.microsoft.com
 telemetry.servers.getgo.com
