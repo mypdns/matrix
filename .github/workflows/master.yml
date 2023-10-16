@@ -81,6 +81,7 @@ jobs:
         run: git status
 
       - name: Commit changes
+        continue-on-error: true
         run: |
           tag=$(date +'day: %j of year %Y %H:%M:%S')
           git config --local user.email "$GIT_EMAIL"
@@ -89,6 +90,7 @@ jobs:
           git pull --rebase
 
       - name: Push changes
+        continue-on-error: true
         uses: ad-m/github-push-action@master
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
