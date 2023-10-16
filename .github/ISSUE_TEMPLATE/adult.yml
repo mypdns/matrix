@@ -65,13 +65,6 @@ body:
         |:--- |:--- |:--- |:--- |:--- |:--- |:--- |:--- |
         | +2 | ##.Popover-message |  | github.com |  | post | dom | `https://github.com/mypdns/matrix/issues/new?assignees=spirillen&labels=NSFW+Adult+Material&projects=&template=adult.yml` |
         | +2 | \|\|collector.github.com^$1p,important | -- | github.com | 1 | post | xhr | `https://collector.github.com/github/collect` |
-        | +1 | *$document,permissions=browsing-topics=(),from=~localhost | -- | github.com | 1 | get | doc | `https://github.com/mypdns/matrix/issues/new?assignees=spirillen&labels=NSFW+Adult+Material&projects=&template=adult.yml` |
-        | +1 | *$document,permissions=idle-detection=(),from=~localhost | -- | github.com | 1 | get | doc | `https://github.com/mypdns/matrix/issues/new?assignees=spirillen&labels=NSFW+Adult+Material&projects=&template=adult.yml` |
-        | +1 | *$document,permissions=join-ad-interest-group=(),from=~localhost | -- | github.com | 1 | get | doc | `https://github.com/mypdns/matrix/issues/new?assignees=spirillen&labels=NSFW+Adult+Material&projects=&template=adult.yml` |
-        | +1 | *$document,permissions=run-ad-auction=(),from=~localhost | -- | github.com | 1 | get | doc | `https://github.com/mypdns/matrix/issues/new?assignees=spirillen&labels=NSFW+Adult+Material&projects=&template=adult.yml` |
-        | +1 | *$document,permissions=attribution-reporting=(),from=~localhost | -- | github.com | 1 | get | doc | `https://github.com/mypdns/matrix/issues/new?assignees=spirillen&labels=NSFW+Adult+Material&projects=&template=adult.yml` |
-        | +1 | no-remote-fonts: * true | -- | github.com | 1 | get | doc | `https://github.com/mypdns/matrix/issues/new?assignees=spirillen&labels=NSFW+Adult+Material&projects=&template=adult.yml` |
-        | +1 | no-remote-fonts: * true | -- | github.com | 1 | get | inline-font | `https://github.com/mypdns/matrix/issues/new?assignees=spirillen&labels=NSFW+Adult+Material&projects=&template=adult.yml` |
 
         </details>
       render: Markdown
