@@ -18,7 +18,9 @@ body:
     id: domainRecords
     attributes:
       label: Domain records
-      description: List any records that needs to be blacklisted as comma separated CSV with pipes
+      description: |
+        List any records that needs to be blacklisted
+        (comma separated CSV with pipes)
       placeholder: |
         example.com|category1,category2,category3
         *.example.com|category1,category2,category3
@@ -29,10 +31,10 @@ body:
   - type: textarea
     id: hostsRecords
     attributes:
-      label: Hosts specific records, not used by #RPZ
+      label: Hosts specific records, not used by DNS RPZ firewalls
       description: |
         Also tell us, what subdomains are required for RFC:952 and RFC:953
-        comma separated CSV with pipes
+        (comma separated CSV with pipes)
       placeholder: |
         hosts.example.com
       render: CSS
@@ -58,7 +60,19 @@ body:
       description: "Please paste your uBlock origin logs as table in markdown"
       placeholder: |
         <details><summary>Logger output</summary>
-        ||
+
+        | | | | | | | | |
+        |:--- |:--- |:--- |:--- |:--- |:--- |:--- |:--- |
+        | +2 | ##.Popover-message |  | github.com |  | post | dom | `https://github.com/mypdns/matrix/issues/new?assignees=spirillen&labels=NSFW+Adult+Material&projects=&template=adult.yml` |
+        | +2 | \|\|collector.github.com^$1p,important | -- | github.com | 1 | post | xhr | `https://collector.github.com/github/collect` |
+        | +1 | *$document,permissions=browsing-topics=(),from=~localhost | -- | github.com | 1 | get | doc | `https://github.com/mypdns/matrix/issues/new?assignees=spirillen&labels=NSFW+Adult+Material&projects=&template=adult.yml` |
+        | +1 | *$document,permissions=idle-detection=(),from=~localhost | -- | github.com | 1 | get | doc | `https://github.com/mypdns/matrix/issues/new?assignees=spirillen&labels=NSFW+Adult+Material&projects=&template=adult.yml` |
+        | +1 | *$document,permissions=join-ad-interest-group=(),from=~localhost | -- | github.com | 1 | get | doc | `https://github.com/mypdns/matrix/issues/new?assignees=spirillen&labels=NSFW+Adult+Material&projects=&template=adult.yml` |
+        | +1 | *$document,permissions=run-ad-auction=(),from=~localhost | -- | github.com | 1 | get | doc | `https://github.com/mypdns/matrix/issues/new?assignees=spirillen&labels=NSFW+Adult+Material&projects=&template=adult.yml` |
+        | +1 | *$document,permissions=attribution-reporting=(),from=~localhost | -- | github.com | 1 | get | doc | `https://github.com/mypdns/matrix/issues/new?assignees=spirillen&labels=NSFW+Adult+Material&projects=&template=adult.yml` |
+        | +1 | no-remote-fonts: * true | -- | github.com | 1 | get | doc | `https://github.com/mypdns/matrix/issues/new?assignees=spirillen&labels=NSFW+Adult+Material&projects=&template=adult.yml` |
+        | +1 | no-remote-fonts: * true | -- | github.com | 1 | get | inline-font | `https://github.com/mypdns/matrix/issues/new?assignees=spirillen&labels=NSFW+Adult+Material&projects=&template=adult.yml` |
+
         </details>
       render: Markdown
     validations:
