@@ -49,6 +49,12 @@ body:
       placeholder: |
         "![Screenshot of example.com](img-src)"
         **INFO**: You can copy paste images directly into this field.
+      value: |
+        <details><summary>Screenshot</summary>
+
+
+
+        </details>
     validations:
       required: true
 
@@ -66,7 +72,6 @@ body:
         | +2 | \|\|collector.github.com^$1p,important | -- | github.com | 1 | post | xhr | `https://collector.github.com/github/collect` |
 
         </details>
-      render: Markdown
     validations:
       required: false
 
