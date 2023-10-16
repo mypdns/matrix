@@ -64,7 +64,8 @@ jobs:
       #         cat ${d[@]}/*.list > ${d[@]}/combined.txt
       #     done
 
-      - name: 'import '
+      - name: 'import ShadowWhisperer'
+        continue-on-error: true
         run: |
           curl "https://raw.githubusercontent.com/ShadowWhisperer/BlockLists/master/RAW/Adult" \
             -o "${{ github.workspace }}/source/porn_filters/imported/adult.ShadowWhisperer"
