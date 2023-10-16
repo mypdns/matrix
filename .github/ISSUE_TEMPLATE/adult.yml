@@ -1,48 +1,81 @@
 name: Adult
 description: Submitting new porn domains
-title: ''
+title: 'Submit porn domain'
 labels: [ "NSFW Adult Material" ]
 assignees:
   - spirillen
-
 body:
   - type: markdown
     attributes:
-      description: |
+      value: |
         Blacklist domain as
+
   - type: checkboxes
-    id:
+    id: recordType
+    attributes:
+      label: How to blacklist
+      description: How should we be blacklisting this domain?
+      options:
+      - label: Wildcard, The domain should be entirely blacklisted
+      - label: By subdomain, We should not blacklist the entire domain, only sub-domains
+      - label: Blacklist as both, category depended, How to Blacklisting depends on category assign per (sub-)domain
 
-  - [ X ] [ Wildcarded ](source/porno-sites/wildcard.list)
-  - [ ] [ Individual domain blocking ](source/porno-sites/domains.list)
+  - type: textarea
+    id: domainRecords
+    attributes:
+      label: Blacklist records
+      description: List any records that needs to be blacklisted
+      placeholder: |
+        "example.com|category1,category2,category3"
+        "*.example.com|category1,category2,category3"
+      render: CSV
+    validations:
+      required: true
 
-      ```python
-      example.org   CNAME . ; Adult
-      *.example.org   CNAME . ; Adult
-      ```
+  - type: textarea
+    id: hostsRecords
+    attributes:
+      label: Hosts specific records, not used by #RPZ
+      description: Also tell us, what subdomains are required for RFC:952 and RFC:953
+      placeholder: Tell us what you have found
+      value: "hosts.example.com"
+    validations:
+      required: false
 
-    ### additional for hosts
-      ```shell
+  - type: textarea
+    id: screenshot
+    attributes:
+      label: Screenshots
+      description: Screenshot is required for committing domains, we can not visit all domains
+      placeholder: "![Screenshot of example.com](img-src)"
+      render: Markdown
+    validations:
+      required: true
 
-      www.
-      ```
+  - type: textarea
+    id: logs
+    attributes:
+      label: logs from [uBlock Origin](https://github.com/gorhill/uBlock/)
+      description: "Please paste your uBlock origin logs as table in markdown"
+      value: |
+        <details><summary>Logger output</summary>
+        ||
+        </details>
+      render: Markdown
+    validations:
+      required: false
 
-    ## Screenshots
-
-      <details><Summary>Screenshot required</summary>
-
-
-
-      </details>
-
-  ## Logger output
-
-
-  ### All Submissions:
-  - [ x ] Have you followed the guidelines in our [Contributing](https://mypdns.org/w/contributing/) document?
-  - [ x ] Have you checked to ensure there aren't other open [Merge Requests (MR)](/mypdns/matrix/pulls) or [Issues](../issues) for the same update/change?
-  - [ x ] Added ScreenDump for prove of (False Negative)[https://mypdns.org/w/falsenegative/]
-
-  ### Todo
-  - [ x ] Added to Source file?
-  - [ ] Added to the RPZ zone [adult.mypdns.cloud](https://mypdns.org/wiki/RpzList#adult) (@spirillen)
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Code of Conduct
+      description: |
+        By submitting this issue, you agree to follow our
+        [Code of Conduct](https://github.com/mypdns/matrix/blob/master/CODE_OF_CONDUCT.md)
+      options:
+        - label: I agree to follow this project's Code of Conduct
+          required: true
+        - label: I agree to follow this project's contribution guidelines
+          required: true
+        - label: I have checked there are no other issues for this domain.
+          required: true
