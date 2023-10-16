@@ -49,7 +49,6 @@ body:
       placeholder: |
         "![Screenshot of example.com](img-src)"
         **INFO**: You can copy paste images directly into this field.
-      render: Markdown
     validations:
       required: true
 
