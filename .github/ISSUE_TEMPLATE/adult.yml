@@ -1,6 +1,5 @@
 name: Adult
-description: Porn domain
-labels: [ "NSFW Adult Material" ]
+description: Blacklist by My Privacy DNS
 assignees:
   - spirillen
 body:
@@ -11,8 +10,8 @@ body:
       description: How should we be blacklisting this domain?
       options:
       - label: Wildcard, The domain should be entirely blacklisted
-      - label: By subdomain, We should not blacklist the entire domain, only sub-domains
-      - label: Blacklist as both, category depended, How to Blacklisting depends on category assign per (sub-)domain
+      - label: Subdomain, We should not blacklist the entire domain, only sub-domains
+      - label: Both types, category depended, How to Blacklist, depends on category assign per (sub-)domain
 
   - type: textarea
     id: domainRecords
@@ -53,7 +52,6 @@ body:
         <details><summary>Screenshot</summary>
 
 
-
         </details>
     validations:
       required: true
@@ -74,17 +72,3 @@ body:
         </details>
     validations:
       required: false
-
-  - type: checkboxes
-    id: terms
-    attributes:
-      label: Code of Conduct
-      description: |
-        By submitting this issue, you agree to follow our [Code of Conduct](https://github.com/mypdns/matrix/blob/master/CODE_OF_CONDUCT.md)
-      options:
-        - label: I agree to follow this project's Code of Conduct
-          required: true
-        - label: I agree to follow this project's contribution guidelines
-          required: true
-        - label: I have checked there are no other issues for this domain.
-          required: true
