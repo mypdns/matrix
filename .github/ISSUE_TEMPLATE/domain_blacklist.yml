@@ -57,6 +57,15 @@ body:
       required: true
 
   - type: textarea
+    id: externalSource
+    attributes:
+      label: Links to external sources
+      description: If you have any external info, that can help process this issue
+      render: CSS
+    validations:
+      required: false
+
+  - type: textarea
     id: logs
     attributes:
       label: logs from [uBlock Origin](https://github.com/gorhill/uBlock/)
