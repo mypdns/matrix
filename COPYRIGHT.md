@@ -1,5 +1,5 @@
 # Copyright
-All work is copyrighted to https://mypdns.org/ and the individual
+All work is copyrighted to My Privacy DNS and the individual
 contributors (Users) who freely have added either through a ISSUE or a
 MergeRequest (Added any type of code) Hold the copyright (Ownership)
 of that specific part of code.
@@ -16,9 +16,9 @@ external source that might have provided information used in any issues
 or file at this project.
 
 
-## License
+## LICENCE
 The current Licence for this repository is always to be found at the
-folder root [LICENSE][]
+folder root [LICENCE][]
 
 ## Disallowed projects
 The following Project, website, domains are banned (prohibited) from
@@ -34,5 +34,5 @@ Any known infringement should be reported to this issue:
 
 
 
-[LICENSE]: /LICENSE
-[infringement]: https://mypdns.org/infrastructure/workboard/-/issues/24
+[LICENCE]: /LICENCE
+[infringement]: http://support.matrix.lan/issues?q=project:%20%7BCopyright%20infringement%7D

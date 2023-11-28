@@ -3,10 +3,10 @@
 # Copyright: https://mypdns.org/
 # Content: https://kb.mypdns.org/users/spirillen
 # Source: https://github.com/mypdns/matrix
-# License: https://github.com/mypdns/matrix/blob/master/LICENSE.md
-# License Comment: GNU AGPLv3, MODIFIED FOR NON COMMERCIAL USE
+# LICENCE: https://github.com/mypdns/matrix/blob/master/LICENCE.md
+# LICENCE Comment: GNU AGPLv3, MODIFIED FOR NON COMMERCIAL USE
 #
-# License in short:
+# LICENCE in short:
 # You are free to copy and distribute this file for non-commercial uses,
 # as long the original URL and attribution is included.
 #

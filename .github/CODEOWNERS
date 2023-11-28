@@ -5,5 +5,5 @@ scripts/ @dns-firewall @mypdns @spirillen
 .gitlab-ci.yml @dns-firewall @mypdns @spirillen
 CODE_OF_CONDUCT.md @spirillen
 CONTRIBUTING.md @spirillen
-LICENSE @spirillen @mypdns
+LICENCE @spirillen @mypdns
 README.md @dns-firewall @mypdns @spirillen

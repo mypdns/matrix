@@ -11,10 +11,10 @@ Have fun.
 
 Copyright: https://github.com/mypdns/matrix/blob/master/COPYRIGHT.md
 Source: https://github.com/mypdns/matrix/tree/master/safesearch
-License: AGPL-3.0 (modified)
-You should have received a copy of the license along with this
+LICENCE: AGPL-3.0 (modified)
+You should have received a copy of the LICENCE along with this
 work. If not, see
-  - https://github.com/mypdns/matrix/blob/master/LICENSE.md
+  - https://github.com/mypdns/matrix/blob/master/LICENCE.md
 --]]
 
 -- duckduckgo.com static
