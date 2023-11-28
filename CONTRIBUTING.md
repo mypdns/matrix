@@ -230,7 +230,7 @@ This version supersedes <https://kb.mypdns.org/articles/MTX/Contributing>
 
 Revision date: 28. Nov 2023.
 
-Last edited by: <https://mypdns.org/Spirillen/>
+Last edited by: <https://kb.mypdns.org/users/spirillen/>
 
 Approved by: <https://kb.mypdns.org/users/spirillen>
 

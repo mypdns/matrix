@@ -1,3 +1,0 @@
-# add username (case sensitive)
-Anonymous
-nobody

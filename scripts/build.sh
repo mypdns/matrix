@@ -1,9 +1,9 @@
 #!/usr/bin/env bash
 
 # Copyright: https://mypdns.org/
-# Content: https://mypdns.org/spirillen
+# Content: https://kb.mypdns.org/users/spirillen
 # Source: https://github.com/mypdns/matrix
-# License: https://mypdns.org/wiki/License
+# License: https://github.com/mypdns/matrix/blob/master/LICENSE.md
 # License Comment: GNU AGPLv3, MODIFIED FOR NON COMMERCIAL USE
 #
 # License in short:
@@ -11,7 +11,7 @@
 # as long the original URL and attribution is included.
 #
 # Please forward any additions, corrections or comments by logging an
-# issue at https://github.com/mypdns/matrix/-/issues
+# issue at https://kb.mypdns.org/issues?q=project:%20Matrix
 
 # Exit on any errors
 set -e

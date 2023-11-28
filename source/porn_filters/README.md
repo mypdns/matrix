@@ -240,11 +240,11 @@ and we will get your account back on track.
 
 | Category              | Commit issue                                                                               |
 | :-------------------- | :----------------------------------------------------------------------------------------- |
-| Adult contents        | https://github.com/mypdns/matrix/-/issues/new?issuable_template=NSFW_Porn        |
-| Adult CDN             | https://github.com/mypdns/matrix/-/issues/new?issuable_template=Adult_CDN        |
-| Strict Adult contents | https://github.com/mypdns/matrix/-/issues/new?issuable_template=NSFW_Strict      |
-| Strict Adult CDN      | https://github.com/mypdns/matrix/-/issues/new?issuable_template=Strict_Adult_CDN |
-| Snuff & gore          | https://github.com/mypdns/matrix/-/issues/new?issuable_template=NSFW_Snuff       |
+| Adult contents        | https://kb.mypdns.org/issues?q=project:%20Matrix/new?issuable_template=NSFW_Porn        |
+| Adult CDN             | https://kb.mypdns.org/issues?q=project:%20Matrix/new?issuable_template=Adult_CDN        |
+| Strict Adult contents | https://kb.mypdns.org/issues?q=project:%20Matrix/new?issuable_template=NSFW_Strict      |
+| Strict Adult CDN      | https://kb.mypdns.org/issues?q=project:%20Matrix/new?issuable_template=Strict_Adult_CDN |
+| Snuff & gore          | https://kb.mypdns.org/issues?q=project:%20Matrix/new?issuable_template=NSFW_Snuff       |
 | Common support        | https://kb.mypdns.org/issues?q=project:%20Matrix/new                                   |
 | Common wiki           | https://kb.mypdns.org/articles/MTX/                                       |
 
