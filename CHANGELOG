@@ -7,11 +7,11 @@
 		Privacy DNS didn't participated in spreading Adult NSFW material.
 
 		Related Issues can be found here:
-		https://0xacab.org/my-privacy-dns/support/-/issues/802#note_2889150
+		https://kb.mypdns.org/issues?q=project:%20Matrix
 
 1.0.0
 		Moved the `./source.list` to `./source/source.list`
 
-		Removed all adult only contents to https://0xacab.org/my-privacy-dns/porn-records
+		Removed all adult only contents to https://github.com/mypdns/matrix/tree/master/source/porn_filters
 
 		Just some clean up after the years have gone by.

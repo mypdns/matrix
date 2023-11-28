@@ -26,7 +26,7 @@ workflow, it's of curse have to be whitelisted within the
 [DNS firewall][DNS firewall] projects.
 
 
-[BlackLists]: https://0xacab.org/my-privacy-dns/support/-/wikis/BlackLists
-[DNS firewall]: https://0xacab.org/my-privacy-dns/support/-/wikis/DnsFirewall
-[MalWare]: https://0xacab.org/my-privacy-dns/support/-/wikis/MalWare
+[BlackLists]: https://kb.mypdns.org/articles/MTX/BlackLists
+[DNS firewall]: https://kb.mypdns.org/articles/MTX/DnsFirewall
+[MalWare]: https://kb.mypdns.org/articles/MTX/MalWare
 [My Privacy DNS]: https://mypdns.org/ "DNS Firewall through RPZ (Response Policy Zones"

@@ -60,10 +60,10 @@ N/A
 - [X] Added to RPZ zone
 
 
-[catinfo]: https://0xacab.org/my-privacy-dns/matrix/-/tree/master/source/pirated
-[mpdrf]: https://0xacab.org/my-privacy-dns/matrix/
-[hosts]: https://0xacab.org/my-privacy-dns/support/-/wikis/dns/DnsHosts
-[Pi-hole]: https://0xacab.org/my-privacy-dns/matrix/-/blob/master/source/porn_filters/README.md#pi-hole
+[catinfo]: https://github.com/mypdns/matrix/-/tree/master/source/pirated
+[mpdrf]: https://github.com/mypdns/matrix/
+[hosts]: https://kb.mypdns.org/articles/MTX/dns/DnsHosts
+[Pi-hole]: https://github.com/mypdns/matrix/-/blob/master/source/porn_filters/README.md#pi-hole
 
 [//]: # ( write SHA-1 value of base domain here )
 

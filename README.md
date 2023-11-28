@@ -1,4 +1,4 @@
-[![My Privacy DNS](.assets/icons/gitlab.png)](https://0xacab.org/my-privacy-dns/matrix "My Privacy DNS")
+[![My Privacy DNS](.assets/icons/gitlab.png)](https://github.com/mypdns/matrix "My Privacy DNS")
 [![Github Mirror](.assets/icons/github.png)](https://github.com/mypdns/matrix)
 [![ko-fi](.assets/icons/ko-fi.png)](DONATION.md)
 [![liberapay](https://img.shields.io/liberapay/receives/MyPDNS.svg?logo=liberapay)](DONATION.md) 
@@ -182,28 +182,27 @@ goes right) be updated by [push on commit][poc]
 | Matrix          | `https://gitlab.com/my-privacy-dns/matrix/matrix`          |                  push |
 | Matrix          | `https://notabug.org/my-privacy-dns/matrix`                |                  pull |
 
-[AdWare]: https://0xacab.org/my-privacy-dns/matrix/-/issues/new?issuable_template=AdWare "Issue template to commit adserver domains"
-[Bulk-commits]: https://0xacab.org/my-privacy-dns/support/-/wikis/Contributing#bulk-commits
-[CryptoMiners]: https://0xacab.org/my-privacy-dns/matrix/-/issues/new?issuable_template=CryptoMiner "Issue template to commit Crypto miners"
-[DNS-Server]: https://0xacab.org/my-privacy-dns/matrix/-/issues/new?issuable_template=DNS%20Server "Issue template to commit For blacklisting at the DNS level"
+[AdWare]: https://github.com/mypdns/matrix/-/issues/new?issuable_template=AdWare "Issue template to commit adserver domains"
+[Bulk-commits]: https://kb.mypdns.org/articles/MTX/Contributing#bulk-commits
+[CryptoMiners]: https://github.com/mypdns/matrix/-/issues/new?issuable_template=CryptoMiner "Issue template to commit Crypto miners"
+[DNS-Server]: https://github.com/mypdns/matrix/-/issues/new?issuable_template=DNS%20Server "Issue template to commit For blacklisting at the DNS level"
 [EasyList]: https://github.com/easylist/easylist/
-[Gambling]: https://0xacab.org/my-privacy-dns/matrix/-/issues/new?issuable_template=Gambling "Issue template to commit Gambling site"
-[getadmiral]: https://0xacab.org/my-privacy-dns/matrix/-/issues/3023
-[IP-Blocking]: https://0xacab.org/my-privacy-dns/matrix/-/issues/new?issuable_template=IP%20Blocking "Issue template to commit Blocking by IP addresses"
-[MalWare]: https://0xacab.org/my-privacy-dns/matrix/-/issues/new?issuable_template=Malicious%20MalWare "Issue template to commit Malicious and or Malware"
-[Phishing]: https://0xacab.org/my-privacy-dns/matrix/-/issues/new?issuable_template=Phishing "Issue template to commit Phishing"
-[PiratedDomain]: https://0xacab.org/my-privacy-dns/matrix/-/issues/new?issuable_template=Pirated%20Domain "Issue template to commit Outdated domain, pirated and hijacked by domains Jackal's"
-[Redirecting]: https://0xacab.org/my-privacy-dns/matrix/-/issues/new?issuable_template=Redirecting "Issue template to commit URL shortening and other redirecting only domain"
+[Gambling]: https://github.com/mypdns/matrix/-/issues/new?issuable_template=Gambling "Issue template to commit Gambling site"
+[getadmiral]: https://github.com/mypdns/matrix/-/issues/3023
+[IP-Blocking]: https://github.com/mypdns/matrix/-/issues/new?issuable_template=IP%20Blocking "Issue template to commit Blocking by IP addresses"
+[MalWare]: https://github.com/mypdns/matrix/-/issues/new?issuable_template=Malicious%20MalWare "Issue template to commit Malicious and or Malware"
+[Phishing]: https://github.com/mypdns/matrix/-/issues/new?issuable_template=Phishing "Issue template to commit Phishing"
+[PiratedDomain]: https://github.com/mypdns/matrix/-/issues/new?issuable_template=Pirated%20Domain "Issue template to commit Outdated domain, pirated and hijacked by domains Jackal's"
+[Redirecting]: https://github.com/mypdns/matrix/-/issues/new?issuable_template=Redirecting "Issue template to commit URL shortening and other redirecting only domain"
 [Removal]: #faq "Read the F.A.Q. *BEFORE* you proceed!"
-[Removals]: https://0xacab.org/my-privacy-dns/matrix/-/issues/new?issuable_template=False%20Positive "False Positive or removal of domains"
-[Scamming]: https://0xacab.org/my-privacy-dns/matrix/-/issues/new?issuable_template=Scamming "Issue template to commit Scamming sites"
-[Spam]: https://0xacab.org/my-privacy-dns/matrix/-/issues/new?issuable_template=Spam "Issue template to commit Spam records"
-[Spyware]: https://0xacab.org/my-privacy-dns/matrix/-/issues/new?issuable_template=Spyware "Issue template to commit Spyware domains"
-[Tracking]: https://0xacab.org/my-privacy-dns/matrix/-/issues/new?issuable_template=Tracking "Issue template to commit Tracking records"
-[TypoSquatting]: https://0xacab.org/my-privacy-dns/matrix/-/issues/new?issuable_template=Typo%20Squatting "Issue template to commit Typo Squatting"
-[Whitelist]: https://0xacab.org/my-privacy-dns/matrix/-/issues/new?issuable_template=Whitelist
-[RPZ]: https://0xacab.org/my-privacy-dns/support/-/wikis/RPZ "Response Policy Zone"
-[hosts-list]: https://0xacab.org/my-privacy-dns/hosts/-/tree/master/download "Hosts foratted blacklists"
+[Removals]: https://github.com/mypdns/matrix/-/issues/new?issuable_template=False%20Positive "False Positive or removal of domains"
+[Scamming]: https://github.com/mypdns/matrix/-/issues/new?issuable_template=Scamming "Issue template to commit Scamming sites"
+[Spam]: https://github.com/mypdns/matrix/-/issues/new?issuable_template=Spam "Issue template to commit Spam records"
+[Spyware]: https://github.com/mypdns/matrix/-/issues/new?issuable_template=Spyware "Issue template to commit Spyware domains"
+[Tracking]: https://github.com/mypdns/matrix/-/issues/new?issuable_template=Tracking "Issue template to commit Tracking records"
+[TypoSquatting]: https://github.com/mypdns/matrix/-/issues/new?issuable_template=Typo%20Squatting "Issue template to commit Typo Squatting"
+[Whitelist]: https://github.com/mypdns/matrix/-/issues/new?issuable_template=Whitelist
+[RPZ]: https://kb.mypdns.org/articles/MTX/RPZ "Response Policy Zone"
 
 ## Project Keywords
 A few keywords for this project is Enhanced Privacy, DNS Firewall,

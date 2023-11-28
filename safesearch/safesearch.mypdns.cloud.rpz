@@ -1,10 +1,10 @@
-; Copyright: https://0xacab.org/my-privacy-dns/matrix/blob/master/COPYRIGHT.md
+; Copyright: https://github.com/mypdns/matrix/blob/master/COPYRIGHT.md
 ; Content: https://mypdns.org/
-; Source: https://0xacab.org/my-privacy-dns/matrix/tree/master/safesearch
+; Source: https://github.com/mypdns/matrix/tree/master/safesearch
 ; License: AGPL-3.0 (modified)
 ; You should have received a copy of the license along with this
 ; work. If not, see
-;   - https://0xacab.org/my-privacy-dns/matrix/blob/master/LICENSE
+;   - https://github.com/mypdns/matrix/blob/master/LICENSE.md
 
 safesearch.mypdns.cloud.	3600	IN	SOA	ns1.mypdns.org. need.to.know.only. 2021042701 86400 7200 3600000 17200
 safesearch.mypdns.cloud.	600	IN	NS	ns1.mypdns.org.

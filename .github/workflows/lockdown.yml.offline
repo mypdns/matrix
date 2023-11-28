@@ -17,6 +17,6 @@ jobs:
           github-token: ${{ github.token }}
           pr-comment: >
             This repository does not accept pull requests.
-            Please help us at https://0xacab.org/my-privacy-dns/matrix
+            Please help us at https://github.com/mypdns/matrix
           skip-closed-issue-comment: true
           skip-closed-pr-comment: true

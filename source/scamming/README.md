@@ -5,6 +5,6 @@ Domains used for Scamming
 Scam is when somebody deliberately tries to sell something as a car, but
 when you receive the goods, you get a bike cycle or toy car.
 
-Wiki: https://0xacab.org/my-privacy-dns/support/-/wikis/Categories/Scamming
+Wiki: https://kb.mypdns.org/articles/MTX/Categories/Scamming
 
-This zone is served via [scamming.mypdns.cloud](https://0xacab.org/my-privacy-dns/support/-/wikis/RPZ-List#scammingmypdnscloud)
+This zone is served via [scamming.mypdns.cloud](https://kb.mypdns.org/articles/MTX/RPZ-List#scammingmypdnscloud)

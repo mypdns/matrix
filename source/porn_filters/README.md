@@ -213,7 +213,7 @@ IP's".
 
 However, it has not been tested yet as both are blocked privately for
 [Spywares][SpyWare] issues with both domains in question. It can be found
-[here](https://0xacab.org/my-privacy-dns/matrix/-/tree/master/safesearch)
+[here](https://github.com/mypdns/matrix/-/tree/master/safesearch)
 
 
 ## How to Contribute
@@ -228,25 +228,25 @@ questions.
 
 ### Rules
 For any rule-based comments, edits or contributions, we only support that
-at https://0xacab.org/my-privacy-dns/matrix
+at https://github.com/mypdns/matrix
 
 **NOTE**: When you first start to commit issues, the [Akismet][akismet]
 ,our antispam system, is unfortunately very fast to mark you as a spammer,
 but don't worry as this is happening for everyone even admin accounts.
 
 When this happens, please message this text "`Ping @spirillen, I've got
-marked as spam`" to [issue](https://0xacab.org/my-privacy-dns/support/-/issues/268)
+marked as spam`" to [issue](https://kb.mypdns.org/issues?q=project:%20Matrix/268)
 and we will get your account back on track.
 
 | Category              | Commit issue                                                                               |
 | :-------------------- | :----------------------------------------------------------------------------------------- |
-| Adult contents        | https://0xacab.org/my-privacy-dns/matrix/-/issues/new?issuable_template=NSFW_Porn        |
-| Adult CDN             | https://0xacab.org/my-privacy-dns/matrix/-/issues/new?issuable_template=Adult_CDN        |
-| Strict Adult contents | https://0xacab.org/my-privacy-dns/matrix/-/issues/new?issuable_template=NSFW_Strict      |
-| Strict Adult CDN      | https://0xacab.org/my-privacy-dns/matrix/-/issues/new?issuable_template=Strict_Adult_CDN |
-| Snuff & gore          | https://0xacab.org/my-privacy-dns/matrix/-/issues/new?issuable_template=NSFW_Snuff       |
-| Common support        | https://0xacab.org/my-privacy-dns/support/-/issues/new                                   |
-| Common wiki           | https://0xacab.org/my-privacy-dns/support/-/wikis/                                       |
+| Adult contents        | https://github.com/mypdns/matrix/-/issues/new?issuable_template=NSFW_Porn        |
+| Adult CDN             | https://github.com/mypdns/matrix/-/issues/new?issuable_template=Adult_CDN        |
+| Strict Adult contents | https://github.com/mypdns/matrix/-/issues/new?issuable_template=NSFW_Strict      |
+| Strict Adult CDN      | https://github.com/mypdns/matrix/-/issues/new?issuable_template=Strict_Adult_CDN |
+| Snuff & gore          | https://github.com/mypdns/matrix/-/issues/new?issuable_template=NSFW_Snuff       |
+| Common support        | https://kb.mypdns.org/issues?q=project:%20Matrix/new                                   |
+| Common wiki           | https://kb.mypdns.org/articles/MTX/                                       |
 
 
 This is where you contribute with new domains matching any of these
@@ -297,7 +297,7 @@ submit_here
 | domains.list                | This file is used to blacklist subdomain, which can't be covered by using a wildcard methods because either the main- or other sub-domains do not match a ~"NSFW::Porn" rule                                                                         |
 | hosts.list                  | This file should only be used as a support to [RFC:952][rfc_952] based BlackList in combination with a wildcard blacklisted domain. This list has nothing to do with the `domain.list` as this is the *ONLY* addition for hosts driven blacklists    |
 | mobile.list                 | This list is considered dying, as the time where responsive web design has taken over the initial days with specific web design for mobile devices. There will (probably) not be added further to this lists.                                        |
-| rpz-ip                      | A lists is `.in-addr.arpa.` reverse styled IP Blacklist to be used for DNS RPZ [Response IP Address](https://0xacab.org/my-privacy-dns/support/-/wikis/RPZ-record-types#the-response-ip-address-trigger-rpz-ip)                                    |
+| rpz-ip                      | A lists is `.in-addr.arpa.` reverse styled IP Blacklist to be used for DNS RPZ [Response IP Address](https://kb.mypdns.org/articles/MTX/RPZ-record-types#the-response-ip-address-trigger-rpz-ip)                                    |
 | snuff.list                  | This list is used for blacklisting **both** ~"NSFW::Gore" and ~snuff, even these these are very two different things, the list is just to small, to separate it                                                                                      |
 | tld.list                    | [TLD][TLD] means Top Level Domain like `.org` is a top-level domain, we can with DNS RPZ benefit from the wildcard capability be able to blacklist a few TLD's as they are reserved the adult entertainment industry such as `.sex` and `.adult`     |
 | white.list                  | :thinking: :thought_balloon: :coffee: Do you need more time to figure this one out?                                                                                                                                                                  |
@@ -362,34 +362,34 @@ Please see [contact information][contact]
 
 
 <!-- The Link section -->
-[adult.mypdns.cloud]: https://0xacab.org/my-privacy-dns/support/-/wikis/RPZ-List#adultmypdnscloud "RPZ zone adult.mypdns.cloud"
+[adult.mypdns.cloud]: https://kb.mypdns.org/articles/MTX/RPZ-List#adultmypdnscloud "RPZ zone adult.mypdns.cloud"
 [akismet]: https://mypdns.org/help/integration/akismet.md
-[contact]: https://0xacab.org/my-privacy-dns/support/-/wikis/home#contact "Get in touch with My Privacy DNS"
-[CONTRIBUTING]: https://0xacab.org/my-privacy-dns/matrix/-/blob/master/CONTRIBUTING.md "How to contribute to My Privacy DNS"
-[disqus.com]: https://0xacab.org/my-privacy-dns/porn-records/-/issues/1415 "Disqus SpyWare"
-[DNS_recursor]: https://0xacab.org/my-privacy-dns/support/-/wikis/dns/DnsResolver "DNS Recursor"
-[DNS_RPZ]: https://0xacab.org/my-privacy-dns/support/-/wikis/rpz/ "DNS RPZ Firewall"
-[DNS-hosts]: https://0xacab.org/my-privacy-dns/support/-/wikis/DNS-Hosts#location-in-the-file-system "hosts files locations"
-[DNS-resolver]: https://0xacab.org/my-privacy-dns/support/-/wikis/Performance-Test-of-Hosts-File-vs.-Dns-recursors "DNS recursors and DNS resolver"
-[DNS]: https://0xacab.org/my-privacy-dns/support/-/wikis/dns/
+[contact]: https://kb.mypdns.org/articles/MTX/home#contact "Get in touch with My Privacy DNS"
+[CONTRIBUTING]: https://github.com/mypdns/matrix/-/blob/master/CONTRIBUTING.md "How to contribute to My Privacy DNS"
+[disqus.com]: https://github.com/mypdns/matrix/issues1415 "Disqus SpyWare"
+[DNS_recursor]: https://kb.mypdns.org/articles/MTX/dns/DnsResolver "DNS Recursor"
+[DNS_RPZ]: https://kb.mypdns.org/articles/MTX/rpz/ "DNS RPZ Firewall"
+[DNS-hosts]: https://kb.mypdns.org/articles/MTX/DNS-Hosts#location-in-the-file-system "hosts files locations"
+[DNS-resolver]: https://kb.mypdns.org/articles/MTX/Performance-Test-of-Hosts-File-vs.-Dns-recursors "DNS recursors and DNS resolver"
+[DNS]: https://kb.mypdns.org/articles/MTX/dns/
 [Domains-Only Syntax]: https://github.com/AdguardTeam/AdGuardHome/wiki/Hosts-Blocklists#domains-only-syntax
-[FalsePositive]: https://0xacab.org/my-privacy-dns/support/-/wikis/False-Positive "What is: False Positive"
+[FalsePositive]: https://kb.mypdns.org/articles/MTX/False-Positive "What is: False Positive"
 [ICS-Bind9]: https://mypdns.org/rpz/dns-rpz-integration/-/tree/master/Bind_9
-[IP_Addresses]: https://0xacab.org/my-privacy-dns/support/-/wikis/RPZ-record-types#the-response-ip-address-trigger-rpz-ip
-[matrix]: https://0xacab.org/my-privacy-dns/matrix "My Privacy DNS is aiming to be the most intelligent DNS Firewall throughout using the modern DNS RPZ approach"
+[IP_Addresses]: https://kb.mypdns.org/articles/MTX/RPZ-record-types#the-response-ip-address-trigger-rpz-ip
+[matrix]: https://github.com/mypdns/matrix "My Privacy DNS is aiming to be the most intelligent DNS Firewall throughout using the modern DNS RPZ approach"
 [mypdns]: https://mypdns.org/
-[news]: https://0xacab.org/my-privacy-dns/support/-/wikis/Categories/News
+[news]: https://kb.mypdns.org/articles/MTX/Categories/News
 [NSFW]: https://mypdns.org/groups/my-privacy-dns/-/issues?scope=all&state=all&label_name[]=NSFW%3A%3APorn "Not Safe For Weaklings"
-[pi-hole_combo]: https://0xacab.org/my-privacy-dns/support/-/issues/253 "What lists to use in pi-hole"
+[pi-hole_combo]: https://kb.mypdns.org/issues?q=project:%20Matrix/253 "What lists to use in pi-hole"
 [MyPrivacyDNSReporter]: https://mypdns.org/infrastructure/mypdns-reporter "Awesome tool to commit porn sites"
 [PowerDNS-Recursor]: https://mypdns.org/source/pdns-recursor/ "PowerDNS Recursor"
-[PR]: https://0xacab.org/my-privacy-dns/porn-records
+[PR]: https://github.com/mypdns/matrix/tree/master/source/porn_filters
 [rfc_1123]: https://www.rfc-editor.org/rfc/rfc1123 "Requirements for Internet Hosts"
 [rfc_952]: https://www.rfc-editor.org/rfc/rfc952.html "DOD INTERNET HOST TABLE SPECIFICATION"
-[SpyWare]: https://0xacab.org/my-privacy-dns/support/-/wikis/SpyWare "What is SpyWare"
-[strict_readme.md]: https://0xacab.org/my-privacy-dns/matrix/-/blob/master/source/strict_filters/README.md
-[support]: https://0xacab.org/my-privacy-dns/support/-/issues "Support Forum for all non blacklisting questions"
-[TLD]: https://0xacab.org/my-privacy-dns/support/-/wikis/TLD-Top-level-domain "What is a Top level domain"
+[SpyWare]: https://kb.mypdns.org/articles/MTX/SpyWare "What is SpyWare"
+[strict_readme.md]: https://github.com/mypdns/matrix/-/blob/master/source/strict_filters/README.md
+[support]: https://kb.mypdns.org/issues?q=project:%20Matrix "Support Forum for all non blacklisting questions"
+[TLD]: https://kb.mypdns.org/articles/MTX/TLD-Top-level-domain "What is a Top level domain"
 [uBlockOrigin]: https://ublockorigin.com/ "uBlock Origin is a free and open-source, cross-platform browser extension for content-filtering, including ad-blocking."
-[wiki_DNS_host]: https://0xacab.org/my-privacy-dns/support/-/wikis/DNS-Hosts "DNS hostsfile wiki"
-[wiki_rpz-nsdname]: https://0xacab.org/my-privacy-dns/support/-/wikis/RPZ-record-types#the-nsdname-trigger-rpz-nsdname-anchor-nsdname "DNS RPZ rpz-nsdname record types"
+[wiki_DNS_host]: https://kb.mypdns.org/articles/MTX/DNS-Hosts "DNS hostsfile wiki"
+[wiki_rpz-nsdname]: https://kb.mypdns.org/articles/MTX/RPZ-record-types#the-nsdname-trigger-rpz-nsdname-anchor-nsdname "DNS RPZ rpz-nsdname record types"

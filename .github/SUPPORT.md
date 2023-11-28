@@ -1,7 +1,7 @@
 # Support
 
 To get support we recommend you to use our issue board,
-at https://0xacab.org/my-privacy-dns/support/-/issues.
+at https://kb.mypdns.org/issues?q=project:%20Matrix.
 
 Since GibHub as GitLab unfortunately have huge issue
 coping our tickets.

@@ -41,9 +41,9 @@ on any of the records listed within this folder, they are added here.
 
 
 [blogspot.com]: https://mypdns.org/my-privacy-dns/porn-records/-/issues/1005 "blogspot.com the biggest porn distribution network"
-[FalsePositive]: https://0xacab.org/my-privacy-dns/support/-/wikis/False-Positive "What is: False Positive"
+[FalsePositive]: https://kb.mypdns.org/articles/MTX/False-Positive "What is: False Positive"
 
 [Bogus porn host]: https://github.com/StevenBlack/hosts/issues/1773 "The biggest porn host: Bogus repository with severe personal issues"
 
-[WhiteList]: https://0xacab.org/my-privacy-dns/support/-/wikis/WhiteList
+[WhiteList]: https://kb.mypdns.org/articles/MTX/WhiteList
 [mpd]: https://mypdns.org/ "My Privacy DNS RPZ Firewall"

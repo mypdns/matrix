@@ -2,25 +2,10 @@
 
 If you feel like contributing there are a couple of ways to do this
 
-1. You can add new super high speed bash code, optimizing existing, rewrite for
-    broader support of bash environments across OS's
-2. You can add domains to either the wildcard.list or domain.list in their
-    respective folders
-3. You can through **Damned** good arguments try to get a domain into the
-    whitelisted
-
-**NOTE**: When you first start to commit issues, the [akismet][akismet]
-unfortunately very fast to mark you as a spammer, but don't this
-includes everyone even admin accounts.
-
-When this happens, please add this 'Ping @spirillen, I've got mark as spam`
-to this [issue,](https://0xacab.org/my-privacy-dns/support/-/issues/268) and we will
-get your account back on track.
-
 ### Adding a new domain
 The workflow is a bit clumsy, but the most reliable and fail-safe.
    1. You add an issue with you question, feature request or contribution
-      via [Issue templates](https://0xacab.org/my-privacy-dns/matrix#issue-templates-quick-links)
+      via [Issue templates](https://github.com/mypdns/matrix#issue-templates-quick-links)
       (This is the history of _why_ to blacklist a record)
 
       ALL fields MOST be filled out, the questions is there for a
@@ -34,7 +19,7 @@ The workflow is a bit clumsy, but the most reliable and fail-safe.
       try to avoid by using this list.
 
    3. If you added any content to any of the files in `submit_here/`
-      You open an [MR](/merge_requests/new) (Merge Request) where you'll
+      You open an [MR][MR] (Merge Request) where you'll
 	  add your contribution (This is the _when_ we did the blacklisting)
 
    4. You add the new domain record entry in the top or bottom of the list,
@@ -53,11 +38,11 @@ Each individual subdomain should have its own "master" comment.
 In that way you can challenge/comment to each subdomain as things will
 change over time.
 
-As practised here: https://0xacab.org/my-privacy-dns/matrix/-/issues/201#note_32072
+As practised here: https://github.com/mypdns/matrix/issues/201
 
 <details><summary>Click to expand</summary>
 
-![Manage sub-domains](https://0xacab.org/my-privacy-dns/support/uploads/fe17e6b1382738e24a90abfe054432ab/image.png)
+![Manage sub-domains]()
 
 </details>
 
@@ -69,7 +54,7 @@ and the comment, by which we can't add in other ways, as all the lists needs to
 be raw data; from which other scripts easily can work with, without first have
 to run several cleanup processes.
 
-Please also read our [Writing Guide](https://0xacab.org/my-privacy-dns/support/-/wikis/contributing/Writing-Guide) before continuing with your issue contribution
+Please also read our [Writing Guide](https://kb.mypdns.org/articles/MTX/contributing/Writing-Guide) before continuing with your issue contribution
 
 # GPG signed
 We require all submissions to be signed with a valid GPG key.
@@ -114,22 +99,6 @@ If you feel like contributing there are a couple of ways to do this
 
 # Submit - Contribute
 
-All commits of new NSFW adult records should be done to
-[Porn Records][PR]
-
-You can use the following quick links
-
-| Category              | Commit issue                                                                                          |
-| :-------------------- | :---------------------------------------------------------------------------------------------------- |
-| Adult contents        | https://0xacab.org/my-privacy-dns/porn-records/-/issues/new?issuable_template=Adult_contents        |
-| Adult CDN             | https://0xacab.org/my-privacy-dns/porn-records/-/issues/new?issuable_template=Adult_CDN             |
-| Strict Adult contents | https://0xacab.org/my-privacy-dns/porn-records/-/issues/new?issuable_template=Strict_Adult_contents |
-| Strict Adult CDN      | https://0xacab.org/my-privacy-dns/porn-records/-/issues/new?issuable_template=Strict_Adult_CDN      |
-| Snuff & gore          | https://0xacab.org/my-privacy-dns/porn-records/-/issues/new?issuable_template=Snuff                 |
-| Common support        | https://0xacab.org/my-privacy-dns/support/-/wikis/-/issues/new                                      |
-| Common wiki           | https://0xacab.org/my-privacy-dns/support/-/wikis/                                                  |
-
-
 ## Workflow
 
 ## Add new domains
@@ -158,7 +127,7 @@ one issue + several RPZ Zone?
    project has done this.
    - They are designed to match another project (Long term), currently known
    as the matrix, yes because of a $2 domain while watching the matrix
-   movie. https://mypdns.org/infrastructure/matrix-rocks/www.matrix.rocks/-/blob/master/README.md
+   movie. https://github.com/mypdns/mypdns.org/README.md
 
 2. @spirillen will handle these regularly basis, which usual
    would be a couple of times a week.
@@ -177,11 +146,11 @@ Each subdomain should have its own "master" comment.
 In that way, you can challenge/comment to each subdomain as things will
 change over time.
 
-As practiced here: https://0xacab.org/my-privacy-dns/matrix/-/issues/201#note_32072
+As practiced here: https://github.com/mypdns/matrix/issues/201
 
 <details><summary>Click to expand</summary>
 
-![Manage sub-domains](https://0xacab.org/my-privacy-dns/support/uploads/fe17e6b1382738e24a90abfe054432ab/image.png)
+![Manage sub-domains]()
 
 </details>
 
@@ -210,11 +179,11 @@ a new branch. Don't forget to make a full reference to the issue in
 your commit message as a full URL to issue:
 
 ```md
-https://0xacab.org/my-privacy-dns/porn-records/-/issues/<ID>
+https://github.com/mypdns/matrix/issues<ID>
 ```
 
 Replace the `<ID>` with the issue id from
-https://0xacab.org/my-privacy-dns/porn-records/-/issues
+https://github.com/mypdns/matrix/issues
 
 ![new commit](https://user-images.githubusercontent.com/44526987/134584727-5ce2cc04-6eac-485d-a934-1b730cb1fe44.png)
 
@@ -249,19 +218,22 @@ is. You can set this globally or pr git. Search [duckduckgo][duckduckgo] to figu
     terminals.
 
 
-<!-- Document links -->
+[//]: # Document links
+
 [DDG]: https://duckduckgo.com
-[PR]: https://0xacab.org/my-privacy-dns/porn-records
+[PR]: https://github.com/mypdns/matrix/tree/master/source/porn_filters
 [duckduckgo]: https://safe.duckduckgo.com
 [akismet]: https://akismet.com/ "Akismet stops spam."
 
 
-This version supersedes <https://0xacab.org/my-privacy-dns/support/-/wikis/Contributing>
+This version supersedes <https://kb.mypdns.org/articles/MTX/Contributing>
 
-Revision date: 26. Nov 2021.
+Revision date: 28. Nov 2023.
 
 Last edited by: <https://mypdns.org/Spirillen/>
 
-Approved by: <https://mypdns.org/Spirillen/>
+Approved by: <https://kb.mypdns.org/users/spirillen>
 
-Version: rPD 1.2
+Version: rPD 1.3
+
+[MR]: https://github.com/mypdns/matrix/compare

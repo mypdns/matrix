@@ -1,14 +1,13 @@
 # Safe Search Domains by https://mypdns.org
 # If you know about other safe search setup, please submit it here
-# https://0xacab.org/my-privacy-dns/matrix/-/issues/582
 #
-# Copyright: https://0xacab.org/my-privacy-dns/matrix/blob/master/COPYRIGHT.md
+# Copyright: https://github.com/mypdns/matrix/COPYRIGHT.md
 # Content: https://mypdns.org/
-# Source: https://0xacab.org/my-privacy-dns/matrix/tree/master/safesearch
+# Source: https://github.com/mypdns/matrix/tree/master/safesearch
 # License: AGPL-3.0 (modified)
 # You should have received a copy of the license along with this
 # work. If not, see
-#   - https://0xacab.org/my-privacy-dns/matrix/blob/master/LICENSE
+#   - https://github.com/mypdns/matrix/blob/master/LICENSE.md
 
 # DuckDuckGo.com The only real safe search engine
 # EU region
@@ -16,7 +15,7 @@
 54.229.105.151 duckduckgo.com
 79.125.105.136 duckduckgo.com
 
-# Bing The second most inrelable and UNSAFE privacy invading "search" portal
+# Bing The second most unreliable and UNSAFE privacy invading "search" portal
 # Be aware, it ain't you who is searching here, it is Microsoft that search on you
 204.79.197.220 bing.com
 204.79.197.220 www.bing.com

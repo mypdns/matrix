@@ -2,7 +2,7 @@
 
 # Copyright: https://mypdns.org/
 # Content: https://mypdns.org/spirillen
-# Source: https://0xacab.org/my-privacy-dns/matrix
+# Source: https://github.com/mypdns/matrix
 # License: https://mypdns.org/wiki/License
 # License Comment: GNU AGPLv3, MODIFIED FOR NON COMMERCIAL USE
 #
@@ -11,7 +11,7 @@
 # as long the original URL and attribution is included.
 #
 # Please forward any additions, corrections or comments by logging an
-# issue at https://0xacab.org/my-privacy-dns/matrix/-/issues
+# issue at https://github.com/mypdns/matrix/-/issues
 
 # Exit on any errors
 set -e

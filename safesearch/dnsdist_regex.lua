@@ -9,22 +9,16 @@ And don't forget order matters. = Line 1 overrules line 2 (First match)
 
 Have fun.
 
-Copyright: https://0xacab.org/my-privacy-dns/matrix/blob/master/COPYRIGHT.md
-Source: https://0xacab.org/my-privacy-dns/matrix/tree/master/safesearch
+Copyright: https://github.com/mypdns/matrix/blob/master/COPYRIGHT.md
+Source: https://github.com/mypdns/matrix/tree/master/safesearch
 License: AGPL-3.0 (modified)
 You should have received a copy of the license along with this
 work. If not, see
-  - https://0xacab.org/my-privacy-dns/matrix/blob/master/LICENSE
+  - https://github.com/mypdns/matrix/blob/master/LICENSE.md
 --]]
 
 -- duckduckgo.com static
 addAction('duckduckgo.com.', SpoofCNAMEAction('safe.duckduckgo.com.'))
-
--- Yandex
--- See https://0xacab.org/my-privacy-dns/matrix/-/issues/582
-
--- Yahoo
--- See https://0xacab.org/my-privacy-dns/matrix/-/issues/582
 
 -- Bing
 addAction(RegexRule("(^|\\.)bing[.][a-z]{2,5}([.][a-z]{2})?$"), SpoofCNAMEAction('strict.bing.com.'))

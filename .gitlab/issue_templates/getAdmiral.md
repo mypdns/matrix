@@ -40,7 +40,7 @@ N/A
 </details>
 
 ## Screenshots
-![image](https://0xacab.org/my-privacy-dns/support/uploads/9baedebe69aa576d9d0ddd1309eb0128/admiral.jpg)
+![image]()
 
 ## Comments
 This domain is used by `getadmiral.com` to collect your surfing habits and the are using a variety of scripts to generate a personal identification of you and your devices.
@@ -53,18 +53,18 @@ You can always find the latest list of Admiral's Active domains in milestone %"g
 
 ## My Privacy DNS issues
 | Domain | FQDN | Issue |
-| -- | -- | -- |
-| - | - | - |
+|--------|------|-------|
+| -      | -    | -     |
 
 ### Todo
 - [X] Added to Source file
 - [X] Added to RPZ zone
 
 
-[catinfo]: https://0xacab.org/my-privacy-dns/matrix/-/tree/master/source/tracking
-[mpdrf]: https://0xacab.org/my-privacy-dns/matrix/
-[hosts]: https://0xacab.org/my-privacy-dns/support/-/wikis/dns/DnsHosts
-[Pi-hole]: https://0xacab.org/my-privacy-dns/matrix/-/blob/master/source/porn_filters/README.md#pi-hole
+[catinfo]: https://github.com/mypdns/matrix/-/tree/master/source/tracking
+[mpdrf]: https://github.com/mypdns/matrix
+[hosts]: https://kb.mypdns.org/articles/MTX/dns/DnsHosts
+[Pi-hole]: https://github.com/mypdns/matrix/-/blob/master/source/porn_filters/README.md#pi-hole
 
 [//]: # ( write SHA-1 value of base domain here )
 
