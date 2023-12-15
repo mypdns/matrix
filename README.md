@@ -6,17 +6,18 @@
 
 
 ## TOC
-- [The Matrix](#the-matrix)
-  - [Donations](#donations)
-  - [Source list](#source-list)
-  - [Categorizing](#categorizing)
-  - [Submitting](#submitting)
-  - [The Matrix](#the-matrix-1)
-  - [Whitelist](#whitelist)
-  - [Bulk commits](#bulk-commits)
-  - [FAQ](#faq)
-  - [Official mirrors](#official-mirrors)
-  - [Project Keywords](#project-keywords)
+* [The Matrix](#the-matrix)
+  * [Donations](#donations)
+  * [Source list](#source-list)
+  * [Categorizing](#categorizing)
+  * [Submitting](#submitting)
+  * [The Matrix](#the-matrix-1)
+  * [Whitelist](#whitelist)
+  * [Bulk commits](#bulk-commits)
+  * [FAQ](#faq)
+  * [Sponsors](#sponsors)
+  * [Official mirrors](#official-mirrors)
+  * [Project Keywords](#project-keywords)
 
 
 # The Matrix
