@@ -11,14 +11,14 @@ as minimum a link back to this project, and it's code base.
 
 
 ## Backlink
-This project is also obligated to at any given time to credit any
-external source that might have provided information used in any issues
-or file at this project.
+This project is obligated to at any given time to credit any external
+source that might have provided information used in any issues or file
+at this project.
 
 
 ## LICENCE
 The current Licence for this repository is always to be found at the
-folder root [LICENCE][]
+folder root [LICENCE](/LICENCE.md)
 
 ## Disallowed projects
 The following Project, website, domains are banned (prohibited) from
@@ -33,6 +33,5 @@ Any known infringement should be reported to this issue:
 [Copyright infringement][infringement]
 
 
-
 [LICENCE]: /LICENCE
-[infringement]: http://support.matrix.lan/issues?q=project:%20%7BCopyright%20infringement%7D
+[infringement]: https://kb.myodns.org/issues?q=project:%20%7BCopyright%20infringement%7D

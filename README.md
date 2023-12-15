@@ -161,6 +161,10 @@ already for leaking privacy to third party.
    people the right information for them to decide whether they
    should allow access to some domains, despite them being marked as bad.
 
+## Sponsors
+
+- Jetbrains, Provided free licence to any members, who have been working more than 3 month for My Privacy DNS open
+  source project https://www.jetbrains.com/community/opensource/.
 
 ## Official mirrors
 
