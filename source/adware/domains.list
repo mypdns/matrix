@@ -363,6 +363,7 @@ bs-self.s3.amazonaws.com
 btf-analytics.s3.amazonaws.com
 bulba-ad-host-website.azurewebsites.net
 burdaffi.burdadigital.pl
+bzib.nelreports.net
 c.apple.com
 c.mfstatic.cz
 c1whupdt8.co.s3.us-east-2.amazonaws.com
@@ -407,6 +408,7 @@ chartiq-client-prod.s3.amazonaws.com
 chrome.google.com
 click.advertnative.com
 clickwallads.s3.amazonaws.com
+clientfd.family.microsoft.com
 clnbze.gratka.pl
 clubedohardware.com.br
 cluster.awmserve.com
@@ -1263,5 +1265,3 @@ ypa.focusoftime.com
 zee.cws.conviva.com
 znaptag-us.s3.amazonaws.com
 zontent.powvideo.net
-bzib.nelreports.net
-clientfd.family.microsoft.com
