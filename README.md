@@ -1,24 +1,23 @@
 [![My Privacy DNS](.assets/icons/gitlab.png)](https://github.com/mypdns/matrix "My Privacy DNS")
 [![Github Mirror](.assets/icons/github.png)](https://github.com/mypdns/matrix)
 [![ko-fi](.assets/icons/ko-fi.png)](DONATION.md)
-[![liberapay](https://img.shields.io/liberapay/receives/MyPDNS.svg?logo=liberapay)](DONATION.md) 
+[![liberapay](https://img.shields.io/liberapay/receives/MyPDNS.svg?logo=liberapay)](DONATION.md)
 [![goal](https://img.shields.io/liberapay/goal/MyPDNS.svg?logo=liberapay)](DONATION.md)
 
-
 ## TOC
-* [The Matrix](#the-matrix)
-  * [Donations](#donations)
-  * [Source list](#source-list)
-  * [Categorizing](#categorizing)
-  * [Submitting](#submitting)
-  * [The Matrix](#the-matrix-1)
-  * [Whitelist](#whitelist)
-  * [Bulk commits](#bulk-commits)
-  * [FAQ](#faq)
-  * [Sponsors](#sponsors)
-  * [Official mirrors](#official-mirrors)
-  * [Project Keywords](#project-keywords)
 
+* [The Matrix](#the-matrix)
+    * [Donations](#donations)
+    * [Source list](#source-list)
+    * [Categorizing](#categorizing)
+    * [Submitting](#submitting)
+    * [The Matrix](#the-matrix-1)
+    * [Whitelist](#whitelist)
+    * [Bulk commits](#bulk-commits)
+    * [FAQ](#faq)
+    * [Sponsors](#sponsors)
+    * [Official mirrors](#official-mirrors)
+    * [Project Keywords](#project-keywords)
 
 # The Matrix
 
@@ -36,31 +35,31 @@ to pornographic and explicit sites.
 This feature is especially useful for parents who want to ensure that their
 children are not exposed to inappropriate content online.
 
-
 ## Donations
 
 My Privacy DNS is an excellent way to protect your privacy online, and it also
- offers additional features to help you stay safe and secure. One of these
- features is the anti-porn list, which blocks access to pornographic and
- explicit sites.
+offers additional features to help you stay safe and secure. One of these
+features is the anti-porn list, which blocks access to pornographic and
+explicit sites.
 This feature is especially useful for parents who want to ensure that their
- children are not exposed to inappropriate content online.
+children are not exposed to inappropriate content online.
 
 With the rise of online tracking and data breaches, it's become more important
 than ever to take steps to protect your privacy online.
 My Privacy DNS is a great way to do just that. It's easy to use, highly
- effective, and completely free.
+effective, and completely free.
 
-By [donating to My Privacy DNS](DONATION.md), you are not only supporting a great project
- that helps protect your privacy online, but you are also helping to ensure
- that it continues to provide this valuable service free of charge to the public.
- Additionally, you are supporting the development of other privacy-friendly
- software.
+By [donating to My Privacy DNS](DONATION.md), you are not only supporting a
+great project
+that helps protect your privacy online, but you are also helping to ensure
+that it continues to provide this valuable service free of charge to the public.
+Additionally, you are supporting the development of other privacy-friendly
+software.
 Together, we can help protect our privacy and keep the internet safe and
 secure for everyone.
 
-
 ## Source list
+
 The `source` folder contains several sub-folders, each named as groups,
 for which a submission should be put. This however doesn't necessary
 mean that one domain can't be put into several 'groups'.
@@ -69,17 +68,20 @@ Ex. `google.*` which belongs to several groups as they represent all
 online evil, when we talk about privacy and anti-brainwashing/manipulation;
 Facebook is also well represented in several categories.
 
-
 ## Categorizing
+
 Each sub-folder of `sources` should contain its own README which in
 short describes what the list is all about and the criteria to add a domain
-into it's `domain.list` or `wildcard.list`. Each categories are explained in [Matrix Source Files](source/README.md).
-
+into it's `domain.list` or `wildcard.list`. Each categories are explained
+in [Matrix Source Files](source/README.md).
 
 ## Submitting
-To report problematic websites, please create a new issue for each domains. You will need to provide the URL and a screenshot for evidence.
 
-There is a more easy way to report - you can also use our [MyPDNS Reporter](tools/README.md), which is one of
+To report problematic websites, please create a new issue for each domains. You
+will need to provide the URL and a screenshot for evidence.
+
+There is a more easy way to report - you can also use
+our [MyPDNS Reporter](tools/README.md), which is one of
 many things, a Browser-based add-on, API, CLI (Command LIne
 Interface) , website and email for which you can choose between as you prefer.
 
@@ -87,26 +89,26 @@ Number of new reported domains that awaites processing
 
 ![Reporting queue](.assets/reporter/count.svg)
 
-
 ## The Matrix
+
 For the Adult filtering, please refer to the [README](source/README.md)
 
 **Intro**: The difference between files inside `source/category_name` is
 that, with [RPZ][RPZ] We do not nessesarily need to apply any found
 subdomain records, as wildcard is recognized as a valid blacklist record.
 This allow us to use only two types of record sheets `wildcard.list` and
-`domain.list`, this is also the explanation for why you haven't seen a 
+`domain.list`, this is also the explanation for why you haven't seen a
 hosts file within our source list.  
 So to use hour records with a non [RPZ][RPZ] reconizing system such as Pi-
-hole and `/etc/hosts` or for spydoze 
+hole and `/etc/hosts` or for spydoze
 `%SystemRoot%\System32\drivers\etc\hosts`, you would need to combine both
 the `wildcard.list` and `domain.list`.
 
 Alternatively you can use our automatically combined weekly updated
 [hosts-list][hosts-list]
 
-
 ## Whitelist
+
 This list has its own life, as it's a very, very tricky one to
 maintain.
 
@@ -125,8 +127,8 @@ often pops up on lists for malicious code. But as that would have a huge
 influence on our workflow, it would, of course, have to be whitelisted on
 our list.
 
-
 ## Bulk commits
+
 Bulk commits will only be tolerated, if done by a @developer of the
 repository, does it and **_ONLY_** if and when the source is commonly
 trusted **_and_** if the amount of domains can justify it will be way too
@@ -136,8 +138,8 @@ lists.
 **note**: This rule shall always be a copy of the common
 [Bulk commits][Bulk-commits] rule.
 
-
 ## FAQ
+
 **Q**: Your lists have broken my website, by blocking a third party
 domain!
 
@@ -164,8 +166,10 @@ already for leaking privacy to third party.
 
 ## Sponsors
 
-- Jetbrains, Provided free licence to any members, who have been working more than 3 month for My Privacy DNS open
-  source project https://www.jetbrains.com/community/opensource/.
+- Jetbrains, Provided free licence to any members, who have been working more
+  than 3 month for My Privacy DNS open source project, under a non-commercial
+  open-source software
+  licence [https://www.jetbrains.com/community/opensource/](https://www.jetbrains.com/community/opensource/?from=matrix).
 
 ## Official mirrors
 
@@ -173,7 +177,7 @@ The following repositories are official mirrors and should (when things
 goes right) be updated by [push on commit][poc]
 
 | Project         | Host                                                       | Metode (push \| pull) |
-| :-------------- | :--------------------------------------------------------- | --------------------: |
+|:----------------|:-----------------------------------------------------------|----------------------:|
 | Adblocker Rules | `https://git.disroot.org/my-privacy-dns/adblocker-rules`   |                  push |
 | Adblocker Rules | `https://git.kescher.at/my-privacy-dns/adblocker-rules`    |                  pull |
 | Adblocker Rules | `https://gitea.slowb.ro/spirillen/adblocker-rules`         |                  pull |
@@ -188,27 +192,48 @@ goes right) be updated by [push on commit][poc]
 | Matrix          | `https://notabug.org/my-privacy-dns/matrix`                |                  pull |
 
 [AdWare]: https://kb.mypdns.org/issues?q=project:%20Matrix/new?issuable_template=AdWare "Issue template to commit adserver domains"
+
 [Bulk-commits]: https://kb.mypdns.org/articles/MTX/Contributing#bulk-commits
+
 [CryptoMiners]: https://kb.mypdns.org/issues?q=project:%20Matrix/new?issuable_template=CryptoMiner "Issue template to commit Crypto miners"
+
 [DNS-Server]: https://kb.mypdns.org/issues?q=project:%20Matrix/new?issuable_template=DNS%20Server "Issue template to commit For blacklisting at the DNS level"
+
 [EasyList]: https://github.com/easylist/easylist/
+
 [Gambling]: https://kb.mypdns.org/issues?q=project:%20Matrix/new?issuable_template=Gambling "Issue template to commit Gambling site"
+
 [getadmiral]: https://kb.mypdns.org/issues?q=project:%20Matrix/3023
+
 [IP-Blocking]: https://kb.mypdns.org/issues?q=project:%20Matrix/new?issuable_template=IP%20Blocking "Issue template to commit Blocking by IP addresses"
+
 [MalWare]: https://kb.mypdns.org/issues?q=project:%20Matrix/new?issuable_template=Malicious%20MalWare "Issue template to commit Malicious and or Malware"
+
 [Phishing]: https://kb.mypdns.org/issues?q=project:%20Matrix/new?issuable_template=Phishing "Issue template to commit Phishing"
+
 [PiratedDomain]: https://kb.mypdns.org/issues?q=project:%20Matrix/new?issuable_template=Pirated%20Domain "Issue template to commit Outdated domain, pirated and hijacked by domains Jackal's"
+
 [Redirecting]: https://kb.mypdns.org/issues?q=project:%20Matrix/new?issuable_template=Redirecting "Issue template to commit URL shortening and other redirecting only domain"
+
 [Removal]: #faq "Read the F.A.Q. *BEFORE* you proceed!"
+
 [Removals]: https://kb.mypdns.org/issues?q=project:%20Matrix/new?issuable_template=False%20Positive "False Positive or removal of domains"
+
 [Scamming]: https://kb.mypdns.org/issues?q=project:%20Matrix/new?issuable_template=Scamming "Issue template to commit Scamming sites"
+
 [Spam]: https://kb.mypdns.org/issues?q=project:%20Matrix/new?issuable_template=Spam "Issue template to commit Spam records"
+
 [Spyware]: https://kb.mypdns.org/issues?q=project:%20Matrix/new?issuable_template=Spyware "Issue template to commit Spyware domains"
+
 [Tracking]: https://kb.mypdns.org/issues?q=project:%20Matrix/new?issuable_template=Tracking "Issue template to commit Tracking records"
+
 [TypoSquatting]: https://kb.mypdns.org/issues?q=project:%20Matrix/new?issuable_template=Typo%20Squatting "Issue template to commit Typo Squatting"
+
 [Whitelist]: https://kb.mypdns.org/issues?q=project:%20Matrix/new?issuable_template=Whitelist
+
 [RPZ]: https://kb.mypdns.org/articles/MTX/RPZ "Response Policy Zone"
 
 ## Project Keywords
+
 A few keywords for this project is Enhanced Privacy, DNS Firewall,
 Privacy First, RPZ, Response Policy Zone.

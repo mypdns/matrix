@@ -3,6 +3,7 @@ categories.md
 commit.msg
 commit.txt
 rpz.json
+
 scripts/adware.sh
 scripts/bulk_add.sh
 scripts/bulk_clean.sh
@@ -17,9 +18,9 @@ scripts/pirated_batchupdater.php
 scripts/pirated_bot.bash
 scripts/pirated.bash
 scripts/spam.sh
+
 source/dns-servers/combined.txt
 source/safesearch/combined.txt
-scripts/easylistloop.sh
 
 # prevent outputs from PyFunceble
 api/**
@@ -29,9 +30,9 @@ output/
 screenshots/
 
 # Visual Basic Code
-.vscode
+#.vscode
 **.code-workspace
 no-git/**
 
 .idea
-.idea/dataSources.xml
+#.idea/dataSources(.local).xml
