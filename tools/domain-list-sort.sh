@@ -10,7 +10,7 @@ if [ -d "$GIT_DIR" ]; then
 
     for i in $(git ls-files -m | grep -i "domains.list"); do
         python3.11 "$GIT_DIR/tools/domain-sort.py" <"${i}" >"${i}.tmp" &&
-            sed "/^$/d" "${i}.tmp" >"${i}"
+            sed "/^$/d" "${i}.tmp" >"${i}" && rm "${i}.tmp"
     done
 
 fi
