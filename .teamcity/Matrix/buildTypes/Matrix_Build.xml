@@ -17,7 +17,7 @@
       </runner>
       <runner id="simpleRunner_1" name="" type="simpleRunner">
         <parameters>
-          <param name="script.content" value="./tools/domain-list-sort.sh" />
+          <param name="script.content" value="sh tools/domain-list-sort.sh" />
           <param name="teamcity.step.mode" value="default" />
           <param name="use.custom.script" value="true" />
         </parameters>
