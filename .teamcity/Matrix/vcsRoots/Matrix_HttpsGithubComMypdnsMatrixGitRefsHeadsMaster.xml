@@ -11,6 +11,7 @@
   <param name="teamcity:branchSpec" value="refs/heads/*" />
   <param name="url" value="https://github.com/mypdns/matrix.git" />
   <param name="useAlternates" value="AUTO" />
+  <param name="userForTags" value="pdns@protonmail.com" />
   <param name="username" value="spirillen" />
   <param name="usernameStyle" value="USERID" />
 </vcs-root>
