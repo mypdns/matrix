@@ -15,11 +15,39 @@
           <param name="use.custom.script" value="true" />
         </parameters>
       </runner>
-      <runner id="simpleRunner_1" name="" type="simpleRunner">
+      <runner id="simpleRunner_1" name="Sort domains.lists" type="simpleRunner">
         <parameters>
-          <param name="script.content" value="sh tools/domain-list-sort.sh" />
+          <param name="script.content"><![CDATA[#!/usr/bin/env sh
+
+## This script should be placed in pre-commit-hooks
+
+GIT_DIR="$(git rev-parse --show-toplevel)"
+
+if [ -d "$GIT_DIR" ]; then
+    # shellcheck disable=SC2164
+    cd "${GIT_DIR}" || exit 1
+
+    for i in $(git ls-files -m | grep -i "domains.list"); do
+        python3.11 "$GIT_DIR/tools/domain-sort.py" <"${i}" >"${i}.tmp" &&
+            sed "/^$/d" "${i}.tmp" >"${i}" && rm "${i}.tmp"
+    done
+
+fi]]></param>
           <param name="teamcity.step.mode" value="default" />
           <param name="use.custom.script" value="true" />
+        </parameters>
+      </runner>
+      <runner id="Qodana" name="Qodana" type="Qodana">
+        <parameters>
+          <param name="arguments-entry-point-docker" value="%env.SHELL%" />
+          <param name="code-inspection-profile-name" value="qodana.recommended" />
+          <param name="code-inspection-xml-config" value="Default" />
+          <param name="collect-anonymous-statistics" value="true" />
+          <param name="linterVersion" value="latest" />
+          <param name="namesAndTags" value="public-image-qodana-jvm" />
+          <param name="namesAndTagsCustom" value="jetbrains/qodana" />
+          <param name="secure:cloud-token" value="credentialsJSON:1a3807c1-61d6-4a59-8521-0af8b7e5096a" />
+          <param name="teamcity.step.mode" value="default" />
         </parameters>
       </runner>
     </build-runners>
