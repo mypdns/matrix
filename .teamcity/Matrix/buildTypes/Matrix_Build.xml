@@ -22,6 +22,19 @@
           <param name="use.custom.script" value="true" />
         </parameters>
       </runner>
+      <runner id="Qodana" name="Qodana" type="Qodana">
+        <parameters>
+          <param name="arguments-entry-point-docker" value="%env.SHELL%" />
+          <param name="code-inspection-profile-name" value="qodana.recommended" />
+          <param name="code-inspection-xml-config" value="Default" />
+          <param name="collect-anonymous-statistics" value="true" />
+          <param name="linterVersion" value="latest" />
+          <param name="namesAndTags" value="public-image-qodana-jvm" />
+          <param name="namesAndTagsCustom" value="jetbrains/qodana" />
+          <param name="secure:cloud-token" value="credentialsJSON:1a3807c1-61d6-4a59-8521-0af8b7e5096a" />
+          <param name="teamcity.step.mode" value="default" />
+        </parameters>
+      </runner>
     </build-runners>
     <vcs-settings>
       <vcs-entry-ref root-id="Matrix_HttpsGithubComMypdnsMatrixGitRefsHeadsMaster" />
