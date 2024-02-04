@@ -3,6 +3,9 @@
   <name>Build</name>
   <description />
   <settings>
+    <options>
+      <option name="publishArtifactCondition" value="SUCCESSFUL" />
+    </options>
     <parameters />
     <build-runners>
       <runner id="simpleRunner" name="" type="simpleRunner">
