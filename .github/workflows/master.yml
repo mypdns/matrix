@@ -41,13 +41,14 @@ jobs:
 
       - name: 'Sort our lists for doublets and order by alphabet'
         run: |
-          find "${{ github.workspace }}/source/" -mindepth 1 -maxdepth 2 \
-            -type f -name '*.list' -exec bash -c "sort -i -u -f '{}' \
-            -o '{}' " \;
+          # find "${{ github.workspace }}/source/" -mindepth 1 -maxdepth 2 \
+          #  -type f -name '*.list' -exec bash -c "sort -i -u -f '{}' \
+          #  -o '{}' " \;
           # find source/ -type f -iname '*.list' -exec awk -F "." \
           #   '{for(i=NF; i > 1; i--) printf "%s.", $i; print $1}' "{}" + | \
           #   sort -u | awk -F "." '{for(i=NF; i > 1; i--) printf "%s.", $i; \
           #   print $1}'
+          sh "${{ github.workspace }}/tools/domain-list-sort.sh
 
       - name: 'Sort our rpz-nsdname for doublets and order by alphabet'
         run: |
