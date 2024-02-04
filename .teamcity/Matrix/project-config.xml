@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" uuid="e3dc58bb-d54d-414d-928e-1fafe4f6d01e" xsi:noNamespaceSchemaLocation="https://www.jetbrains.com/teamcity/schemas/2021.1/project-config.xsd">
+  <name>Matrix</name>
+  <parameters />
+  <project-extensions>
+    <extension id="PROJECT_EXT_5" type="IssueTracker">
+      <parameters>
+        <param name="authType" value="accesstoken" />
+        <param name="name" value="Matrix Issues" />
+        <param name="pattern" value="#(\d+)" />
+        <param name="repository" value="https://github.com/mypdns/matrix" />
+        <param name="secure:accessToken" value="credentialsJSON:eec88658-7fc2-4dd4-b6fb-17f1748229f3" />
+        <param name="secure:password" value="" />
+        <param name="tokenId" value="" />
+        <param name="type" value="GithubIssues" />
+        <param name="username" value="" />
+      </parameters>
+    </extension>
+    <extension id="PROJECT_EXT_6" type="IssueTracker">
+      <parameters>
+        <param name="authType" value="accesstoken" />
+        <param name="autoSync" value="true" />
+        <param name="host" value="https://kb.mypdns.org" />
+        <param name="idPrefix" value="" />
+        <param name="name" value="kb.mypdns.org" />
+        <param name="secure:accessToken" value="credentialsJSON:377ffe95-cd2f-4aee-a1e2-486bebb01384" />
+        <param name="secure:password" value="" />
+        <param name="type" value="youtrack" />
+        <param name="username" value="" />
+      </parameters>
+    </extension>
+    <extension id="PROJECT_EXT_7" type="versionedSettings">
+      <parameters>
+        <param name="buildSettings" value="ALWAYS_USE_CURRENT" />
+        <param name="credentialsStorageType" value="credentialsJSON" />
+        <param name="enabled" value="true" />
+        <param name="ignoreChangesInDependenciesAndVcsSettings" value="false" />
+        <param name="rootId" value="Matrix_HttpsGithubComMypdnsMatrixGitRefsHeadsMaster" />
+        <param name="showChanges" value="false" />
+      </parameters>
+    </extension>
+  </project-extensions>
+  <cleanup />
+</project>
+
