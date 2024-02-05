@@ -50,6 +50,13 @@ fi]]></param>
           <param name="teamcity.step.mode" value="default" />
         </parameters>
       </runner>
+      <runner id="simpleRunner_2" name="" type="simpleRunner">
+        <parameters>
+          <param name="script.content" value="./scripts/shadowwhisperer.sh" />
+          <param name="teamcity.step.mode" value="default" />
+          <param name="use.custom.script" value="true" />
+        </parameters>
+      </runner>
     </build-runners>
     <vcs-settings>
       <vcs-entry-ref root-id="Matrix_HttpsGithubComMypdnsMatrixGitRefsHeadsMaster" />
