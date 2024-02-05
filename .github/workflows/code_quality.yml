@@ -10,7 +10,6 @@ on:
 jobs:
   qodana:
     runs-on: ubuntu-latest
-    using: 'node20'
     permissions:
       contents: write
       pull-requests: write
