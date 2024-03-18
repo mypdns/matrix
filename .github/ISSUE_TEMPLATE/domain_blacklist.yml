@@ -41,7 +41,7 @@ body:
       required: false
 
   - type: textarea
-    id: commentary
+    id: comments
     attributes:
       label: Comments
       description: |
