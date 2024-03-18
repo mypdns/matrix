@@ -52,7 +52,7 @@ body:
         phishing
 
         markdown Supported
-      render: MARKDOWN
+      render: markdown
       validations:
         required: false
 
