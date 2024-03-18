@@ -28,11 +28,10 @@ body:
     attributes:
       label: Domain records
       description: |
-        List any records that needs to be blacklisted
-        (comma separated CSV with pipes)
+        List any records that needs to be blacklisted (comma separated CSV with pipes)
       placeholder: |
-        example.com|category1,category2,category3
-        *.example.com|category1,category2,category3
+        example.com|adware,tracking,adult
+        *.example.com|adware,tracking,adult
       render: CSV
     validations:
       required: true
@@ -42,10 +41,9 @@ body:
     attributes:
       label: Hosts specific records, not used by DNS RPZ firewalls
       description: |
-        Also tell us, what subdomains are required for RFC:952 and RFC:953
-        (comma separated CSV with pipes)
+        Also tell us, what subdomains are required for RFC:952 and RFC:953 - (comma separated CSV with pipes)
       placeholder: |
-        hosts.example.com
+        dumb.hosts.file.example.com
       render: CSS
     validations:
       required: false
@@ -78,7 +76,7 @@ body:
   - type: textarea
     id: logs
     attributes:
-      label: logs from [uBlock Origin](https://github.com/gorhill/uBlock/)
+      label: logs from uBlock Origin https://github.com/gorhill/uBlock/
       description: 'Please paste your uBlock origin logs as table in markdown'
       placeholder: |
         <details><summary>Logger output</summary>
