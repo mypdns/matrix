@@ -9,9 +9,9 @@ body:
       label: Blacklist domain as
       description: How should we be blacklisting this domain?
       options:
-      - label: Wildcard, The domain should be entirely blacklisted
-      - label: Subdomain, We should not blacklist the entire domain, only sub-domains
-      - label: Both types, category depended, How to Blacklist, depends on category assign per (sub-)domain
+        - label: Wildcard, The domain should be entirely blacklisted
+        - label: Subdomain, We should not blacklist the entire domain, only sub-domains
+        - label: Both types, category depended, How to Blacklist, depends on category assign per (sub-)domain
 
   - type: textarea
     id: domainRecords
@@ -39,6 +39,22 @@ body:
       render: CSS
     validations:
       required: false
+
+  - type: textarea
+    id: commentary
+    attributes:
+      label: Comments
+      description: Any comments for this submission
+      placeholder: |
+        I believe this commit should be added to because...
+        We have added this for the sake of history, however we have informed the
+        server admin as well, as they have a history for response pronto to
+        phishing
+
+        markdown Supported
+      render: MARKDOWN
+      validations:
+        required: false
 
   - type: textarea
     id: screenshot
@@ -69,7 +85,7 @@ body:
     id: logs
     attributes:
       label: logs from [uBlock Origin](https://github.com/gorhill/uBlock/)
-      description: "Please paste your uBlock origin logs as table in markdown"
+      description: 'Please paste your uBlock origin logs as table in markdown'
       placeholder: |
         <details><summary>Logger output</summary>
 
