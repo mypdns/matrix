@@ -76,8 +76,8 @@ body:
   - type: textarea
     id: logs
     attributes:
-      label: logs from uBlock Origin https://github.com/gorhill/uBlock/
-      description: 'Please paste your uBlock origin logs as table in markdown'
+      label: logs from uBlock Origin
+      description: 'Please paste your [uBlock origin](https://github.com/gorhill/uBlock/) logs as table in markdown'
       placeholder: |
         <details><summary>Logger output</summary>
 
