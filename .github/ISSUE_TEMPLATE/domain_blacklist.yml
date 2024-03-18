@@ -41,20 +41,6 @@ body:
       required: false
 
   - type: textarea
-    id: comments
-    attributes:
-      label: Comments
-      description: |
-        Any comments for this submission
-      placeholder: |
-        "I believe this commit should be added to because...
-        We have added this for the sake of history, however we have informed the
-        server admin as well, as they have a history for response pronto to
-        phishing - markdown Supported"
-      validations:
-        required: false
-
-  - type: textarea
     id: screenshot
     attributes:
       label: Screenshots
