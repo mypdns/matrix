@@ -52,7 +52,7 @@ body:
     id: screenshot
     attributes:
       label: Screenshots
-      description: Screenshot is required for committing domains, we can not visit all domains
+      description: Screenshot is required for committing domains, we can not visit all domains. Type `N/A` if not impossible.
       placeholder: |
         "![Screenshot of example.com](img-src)"
         **INFO**: You can copy paste images directly into this field.
