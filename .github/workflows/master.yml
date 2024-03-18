@@ -39,8 +39,8 @@ jobs:
         run: |
           pip install --no-cache-dir mypdns
 
-      - name: 'Sort our lists for doublets and order by alphabet'
-        run: sh "${{ github.workspace }}/tools/domain-list-sort.sh
+      # - name: 'Sort our lists for doublets and order by alphabet'
+      # run: sh "${{ github.workspace }}/tools/domain-list-sort.sh
 
       - name: 'Sort our rpz-nsdname for doublets and order by alphabet'
         run: |
