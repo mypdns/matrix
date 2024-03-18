@@ -14,6 +14,16 @@ body:
         - label: Both types, category depended, How to Blacklist, depends on category assign per (sub-)domain
 
   - type: textarea
+    id: comments
+    attributes:
+      label: comments
+      description: Add any comments
+      placeholder: This hosting service is usual quick to fix phishing issues
+      render: markdown
+    validations:
+      required: false
+
+  - type: textarea
     id: domainRecords
     attributes:
       label: Domain records
