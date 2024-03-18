@@ -16,7 +16,7 @@ body:
   - type: textarea
     id: comments
     attributes:
-      label: comments
+      label: Comments
       description: Add any comments
       placeholder: This hosting service is usual quick to fix phishing issues
       render: markdown
