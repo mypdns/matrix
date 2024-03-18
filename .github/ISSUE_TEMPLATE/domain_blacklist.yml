@@ -44,14 +44,13 @@ body:
     id: commentary
     attributes:
       label: Comments
-      description: Any comments for this submission
+      description: |
+        Any comments for this submission
       placeholder: |
         I believe this commit should be added to because...
         We have added this for the sake of history, however we have informed the
         server admin as well, as they have a history for response pronto to
-        phishing
-
-        markdown Supported
+        phishing - markdown Supported
       validations:
         required: false
 
