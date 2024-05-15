@@ -1,7 +1,8 @@
 #!/usr/bin/env sh
 
 ## This script should be placed in pre-commit-hooks
-set -xe
+# set -xe
+
 GIT_DIR="$(git rev-parse --show-toplevel)"
 
 if [ -d "$GIT_DIR" ]; then

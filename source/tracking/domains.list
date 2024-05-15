@@ -746,7 +746,6 @@ connectivitycheck.gstatic.com
 csi.gstatic.com
 fonts.gstatic.com
 maps.gstatic.com
-piwik.univention.de
 l.guesthug.com
 events.guesttoguest.com
 www2.gwmholding.com
@@ -1881,6 +1880,7 @@ uni.wwwstat.rz.uni-leipzig.de
 piwik.uni-weimar.de
 buwal.uni-wuppertal.de
 piwik.unimedizin-mainz.de
+piwik.univention.de
 app-dev.unserdormagen.de
 app.vitabuddy.de
 lightning.warnertv.de
