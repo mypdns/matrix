@@ -1048,6 +1048,7 @@ marketing.mossinc.com
 lnk.most-days.com
 crash-reports.mozilla.com
 crash-stats.mozilla.com
+crash-stats.mozilla.org
 data.mozilla.com
 fhr.data.mozilla.com
 input.mozilla.com
@@ -1578,6 +1579,8 @@ marketing.unionhousesf.com
 ufc.universalfunding.com
 collector.unsplash.com
 url.usacomment.com
+telemetry-coverage.mozilla.org
+socorro-webapp.services.mozilla.com
 cnameebis.usagi-online.com
 sign.use-neo.com
 go.usecaya.com
