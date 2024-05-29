@@ -1048,7 +1048,6 @@ marketing.mossinc.com
 lnk.most-days.com
 crash-reports.mozilla.com
 crash-stats.mozilla.com
-crash-stats.mozilla.org
 data.mozilla.com
 fhr.data.mozilla.com
 input.mozilla.com
@@ -1066,6 +1065,7 @@ tiles.r53-2.services.mozilla.com
 blocklists.settings.services.mozilla.com
 firefox.settings.services.mozilla.com
 shavar.services.mozilla.com
+socorro-webapp.services.mozilla.com
 stun.services.mozilla.com
 tiles.services.mozilla.com
 tracking.services.mozilla.com
@@ -1279,6 +1279,9 @@ tr.quotes4business.com
 go.raecorp.com
 marketing.rals.com
 qs.rams-app.com
+c0ak.rbxcdn.com
+c0aws.rbxcdn.com
+c0cfly.rbxcdn.com
 share.realcrushconnection.com
 track.realitykings.com
 iot-eu-logser.realme.com
@@ -1303,6 +1306,9 @@ tracking.rightmessage.com
 analytics.developer.riotgames.com
 links.riverratrounders.com
 matomo.rlaxxtv.com
+ephemeralcounters.api.roblox.com
+ecsv2.roblox.com
+gold.roblox.com
 coco.rockdilla.com
 branch.rockmyrun.com
 marketing.rosica.com
@@ -1579,8 +1585,6 @@ marketing.unionhousesf.com
 ufc.universalfunding.com
 collector.unsplash.com
 url.usacomment.com
-telemetry-coverage.mozilla.org
-socorro-webapp.services.mozilla.com
 cnameebis.usagi-online.com
 sign.use-neo.com
 go.usecaya.com
@@ -2589,6 +2593,8 @@ app-dat.kingofthecurve.org
 stats.lineageos.org
 seniorliving.liveatwhitestone.org
 marketing.middlemarketcenter.org
+crash-stats.mozilla.org
+telemetry-coverage.mozilla.org
 marketing.mrcaff.org
 tiny.oldsouth.org
 start.palemoon.org
