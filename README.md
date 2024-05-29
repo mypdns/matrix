@@ -37,7 +37,8 @@ children are not exposed to inappropriate content online.
 
 ## Donations
 
-[![liberapay](https://reck.dk/fileproxy/?name=sp_receives_spirillen)](https://liberapay.com/spirillen/donate) [![goal](https://reck.dk/fileproxy/?name=sp_goal_spirillen)](https://liberapay.com/spirillen/donate)
+[![liberapay](https://reck.dk/fileproxy/?name=sp_receives_spirillen)](https://liberapay.com/spirillen/donate)
+[![goal](https://reck.dk/fileproxy/?name=sp_goal_spirillen)](https://liberapay.com/spirillen/donate)
 
 My Privacy DNS is an excellent way to protect your privacy online, and it also
 offers additional features to help you stay safe and secure. One of these
@@ -74,26 +75,27 @@ Facebook is also well represented in several categories.
 
 Each sub-folder of `sources` should contain its own README which in
 short describes what the list is all about and the criteria to add a domain
-into it's `domain.list` or `wildcard.list`. Each categories are explained
+into it's `domain.list` or `wildcard.list`. Each category is explained
 in [Matrix Source Files](source/README.md).
 
 ## Submitting
 
-To report problematic websites, please create a new issue for each domains. You
-will need to provide the URL and a screenshot for evidence.
+To report problematic websites, please create a new issue for each domain.
+You will need to provide the URL and a screenshot for evidence.
 
 ## The Matrix
 
 For the Adult filtering, please refer to the [README](source/README.md)
 
 **Intro**: The difference between files inside `source/category_name` is
-that, with [RPZ][RPZ] We do not nessesarily need to apply any found
+that, with [RPZ][RPZ] we do not necessarily need to apply all found
 subdomain records, as wildcard is recognized as a valid blacklist record.
-This allow us to use only two types of record sheets `wildcard.list` and
-`domain.list`, this is also the explanation for why you haven't seen a
-hosts file within our source list.  
-So to use hour records with a non [RPZ][RPZ] recognizing system such as
-Pi-hole and `/etc/hosts` or for Windose
+This is allowing us to use only two types of record sheets `wildcard.list`
+and `domain.list`, this is also the explanation for why you haven't seen
+a hosts ([RFC:953][RFC953]) file within our source list.
+
+To use My Privacy DNS's records Matrix with a non [RPZ][RPZ] recognizing
+system, such as Pi-hole and `/etc/hosts` or for Windows
 `%SystemRoot%\System32\drivers\etc\hosts`, you would need to combine both
 the `wildcard.list` and `domain.list`.
 
@@ -122,8 +124,8 @@ our list.
 Bulk commits will only be tolerated, if done by a @developer of the
 repository, does it and **_ONLY_** if and when the source is commonly
 trusted **_and_** if the amount of domains can justify it will be way too
-time consuming to open an issue for each domain changed in the targeted
-lists.
+time-consuming, to open an issue for each domain changed in the targeted
+domain.
 
 **note**: This rule shall always be a copy of the common
 [Bulk commits][Bulk-commits] rule.
@@ -144,27 +146,27 @@ already for leaking privacy to third party.
 
 ### Whitelist
 
-**Q**: Why don't you whitelist example.com?
+**Q**: Why don't you whitelist `example.com`?
 
 **A**:
 
 1) It's up to individual users (i.e. you) to create and maintain their own
    whitelist.
 
-2) By whitelisting bad domain X because website Y uses bad domain X,
+2) By whitelisting bad domain X, because website Y uses bad domain X,
    we're deceiving our users who believe they're protected against bad
    domain X.
 
-3) Through this repository's issue board, we're trying our best to give
-   people the right information for them to decide whether they
-   should allow access to some domains, despite them being marked as bad.
+3) Through this repository's issue board, we're trying our best, to give
+   people the right information, for them to decide whether they should
+   allow access to some domain(s), despite they being marked as bad.
 
 ## Sponsors
 
 - Jetbrains, Provided free licence to any members, who have been working more
   than 3 month for My Privacy DNS open source project, under a non-commercial
-  open-source software
-  licence [https://www.jetbrains.com/community/opensource/](https://www.jetbrains.com/community/opensource/?from=matrix).
+  open-source software licence
+  [https://www.jetbrains.com/community/opensource/](https://www.jetbrains.com/community/opensource/?from=matrix).
 
 ## Official mirrors
 
@@ -213,6 +215,8 @@ goes right) be updated by `push on commit`
 [Removal]: #faq "Read the F.A.Q. *BEFORE* you proceed!"
 
 [Removals]: https://kb.mypdns.org/issues?q=project:%20Matrix/new?issuable_template=False%20Positive "False Positive or removal of domains"
+
+[RFC953]: https://www.rfc-editor.org/rfc/rfc953 "This RFC is the official specification of the Hostname Server Protocol."
 
 [Scamming]: https://kb.mypdns.org/issues?q=project:%20Matrix/new?issuable_template=Scamming "Issue template to commit Scamming sites"
 
