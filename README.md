@@ -1,8 +1,8 @@
 [![My Privacy DNS](.assets/icons/gitlab.png)](https://github.com/mypdns/matrix "My Privacy DNS")
 [![Github Mirror](.assets/icons/github.png)](https://github.com/mypdns/matrix)
 [![ko-fi](.assets/icons/ko-fi.png)](DONATION.md)
-[![liberapay](https://img.shields.io/liberapay/receives/MyPDNS.svg?logo=liberapay)](DONATION.md)
-[![goal](https://img.shields.io/liberapay/goal/MyPDNS.svg?logo=liberapay)](DONATION.md)
+[![liberapay](https://reck.dk/fileproxy/?name=sp_receives_spirillen)](https://liberapay.com/spirillen/donate)
+[![goal](https://reck.dk/fileproxy/?name=sp_goal_spirillen)](https://liberapay.com/spirillen/donate)
 
 ## TOC
 
@@ -36,6 +36,8 @@ This feature is especially useful for parents who want to ensure that their
 children are not exposed to inappropriate content online.
 
 ## Donations
+
+[![liberapay](https://reck.dk/fileproxy/?name=sp_receives_spirillen)](https://liberapay.com/spirillen/donate) [![goal](https://reck.dk/fileproxy/?name=sp_goal_spirillen)](https://liberapay.com/spirillen/donate)
 
 My Privacy DNS is an excellent way to protect your privacy online, and it also
 offers additional features to help you stay safe and secure. One of these
@@ -80,15 +82,6 @@ in [Matrix Source Files](source/README.md).
 To report problematic websites, please create a new issue for each domains. You
 will need to provide the URL and a screenshot for evidence.
 
-There is a more easy way to report - you can also use
-our [MyPDNS Reporter](tools/README.md), which is one of
-many things, a Browser-based add-on, API, CLI (Command LIne
-Interface) , website and email for which you can choose between as you prefer.
-
-Number of new reported domains that awaites processing
-
-![Reporting queue](.assets/reporter/count.svg)
-
 ## The Matrix
 
 For the Adult filtering, please refer to the [README](source/README.md)
@@ -99,13 +92,10 @@ subdomain records, as wildcard is recognized as a valid blacklist record.
 This allow us to use only two types of record sheets `wildcard.list` and
 `domain.list`, this is also the explanation for why you haven't seen a
 hosts file within our source list.  
-So to use hour records with a non [RPZ][RPZ] reconizing system such as Pi-
-hole and `/etc/hosts` or for spydoze
+So to use hour records with a non [RPZ][RPZ] recognizing system such as
+Pi-hole and `/etc/hosts` or for Windose
 `%SystemRoot%\System32\drivers\etc\hosts`, you would need to combine both
 the `wildcard.list` and `domain.list`.
-
-Alternatively you can use our automatically combined weekly updated
-[hosts-list][hosts-list]
 
 ## Whitelist
 
@@ -140,14 +130,19 @@ lists.
 
 ## FAQ
 
+### Broken site
+
 **Q**: Your lists have broken my website, by blocking a third party
 domain!
 
 **A**: We have absolutely not broken your website by blocking any
 third-party domain.
+
 It's you and only you who has submitted bad code and mis-written your
 website to behave badly. Be happy we haven't blocked your website
 already for leaking privacy to third party.
+
+### Whitelist
 
 **Q**: Why don't you whitelist example.com?
 
@@ -174,7 +169,7 @@ already for leaking privacy to third party.
 ## Official mirrors
 
 The following repositories are official mirrors and should (when things
-goes right) be updated by [push on commit][poc]
+goes right) be updated by `push on commit`
 
 | Project         | Host                                                       | Metode (push \| pull) |
 |:----------------|:-----------------------------------------------------------|----------------------:|
