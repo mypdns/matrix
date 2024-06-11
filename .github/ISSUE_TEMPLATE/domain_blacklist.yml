@@ -81,14 +81,6 @@ body:
     attributes:
       label: logs from uBlock Origin
       description: 'Please paste your [uBlock origin](https://github.com/gorhill/uBlock/) logs as table in markdown'
-      placeholder: |
-        <details><summary>Logger output</summary>
-
-        | | | | | | | | |
-        |:--- |:--- |:--- |:--- |:--- |:--- |:--- |:--- |
-        | +2 | ##.Popover-message |  | github.com |  | post | dom | `https://github.com/mypdns/matrix/issues/new?assignees=spirillen&labels=NSFW+Adult+Material&projects=&template=adult.yml` |
-        | +2 | \|\|collector.github.com^$1p,important | -- | github.com | 1 | post | xhr | `https://collector.github.com/github/collect` |
-
-        </details>
+      value: N/A
     validations:
       required: false
