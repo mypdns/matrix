@@ -1,4 +1,3 @@
-adserver.bing.com
 dm.hybrid.ai
 ads.sreader.app
 adserver.cmsparamedios.com.ar
@@ -399,6 +398,7 @@ ads.banglastudent.com
 batteusp2hilenor.com
 ads.bing.com
 adserver.bing.com
+adserver.bing.com
 bat.bing.com
 ads.blizzard.com
 ads.boltops.com
@@ -581,11 +581,7 @@ landing.meendo.com
 jsc.mgid.com
 api.jr.mi.com
 ads.miarroba.com
-ads.microsoft.com
-ui.ads.microsoft.com
 advertising.microsoft.com
-bingads.microsoft.com
-fd.bingads.microsoft.com
 clientfd.family.microsoft.com
 ris.api.iris.microsoft.com
 displaycatalog.mp.microsoft.com
@@ -739,6 +735,8 @@ trustbadge.shopclimb.com
 x.shopsavvy.com
 cdn.siteswithcontent.com
 notifications-api.cf.sky.com
+engagementapi.skype.com
+notifications.skype.com
 xch.smrtgs.com
 adimages.sniffies.com
 adserver.sniffies.com

@@ -1162,6 +1162,13 @@ marketing.novatel.com
 tr.surveys.np6.com
 marketing.npuins.com
 marketing.ntconsult.com
+engage.nuance.com
+events.nuance.com
+meeting.nuance.com
+ndi.nuance.com
+tag-wellsfargo.nod-glb.nuance.com
+preference.nuance.com
+solutions.nuance.com
 marketing.nugrowth.com
 xy.nullrefexcep.com
 www.nutanix.com
@@ -1409,6 +1416,8 @@ analytics.sketchup.com
 www.skillshare.com
 analytics.global.sky.com
 metrics.sky.com
+c1.skype.com
+trap.skype.com
 a2.slotxbros.com
 analytics.smallpdf.com
 marketing.smartcoversystems.com
@@ -1632,6 +1641,9 @@ tr.tourisme.visit-lanarbonnaise.com
 marketing.visitchicagosouthland.com
 marketing.visitsmcsv.com
 link.viska.com
+analytics.visualstudio.com
+dc.services.visualstudio.com
+dc-int.services.visualstudio.com
 i.play.vividpicks.com
 asia-exstatic.vivo.com
 vcm-static.vivo.com
@@ -2577,7 +2589,7 @@ cdn.jsdelivr.net
 t.kelkoogroup.net
 url.lcisd.net
 obs.line-scdn.net
-inference.location.live.net
+searchclient.live.net
 beacon.s.llnwi.net
 marketing.m-m.net
 normandy.cdn.mozilla.net
