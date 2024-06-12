@@ -23,14 +23,27 @@ body:
       required: false
 
   - type: textarea
-    id: domainRecords
+    id: domainRecordsWildcard
     attributes:
       label: Domain records
       description: |
-        List any records that needs to be blacklisted (comma separated CSV with pipes)
+        List any Wildcard records that needs to be blacklisted (comma separated CSV with pipes)
       placeholder: |
         example.com|adware,tracking,adult
         *.example.com|adware,tracking,adult
+      render: CSV
+    validations:
+      required: true
+
+  - type: textarea
+    id: domainRecordsSubdomainsOnly
+    attributes:
+      label: Sub-Domain records
+      description: |
+        List any Subdomain records that needs to be blacklisted (comma separated CSV with pipes)
+      placeholder: |
+        bad.example.com|adware,tracking,adult
+        evil.example.com|adware,tracking,adult
       render: CSV
     validations:
       required: true
@@ -46,6 +59,19 @@ body:
       render: CSS
     validations:
       required: false
+
+  - type: textarea
+    id: safeSearch
+    attributes:
+      label: SeafeSearch records
+      description: |
+        List of A/CNAME records that can be used for safesearch
+      placeholder: |
+        example.com     CNAME safe.example.com
+        example.com     A     IP
+      render: CSV
+    validations:
+      required: true
 
   - type: textarea
     id: screenshot
