@@ -95,6 +95,7 @@ body:
       label: Links to external sources
       description: If you have any external info, that can help process this issue
       render: CSS
+      value: null
     validations:
       required: false
 
