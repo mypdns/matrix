@@ -1,9 +1,6 @@
 name: Domain blacklist
 description: Blacklist by My Privacy DNS
-assignees:
-  - spirillen
 body:
-
   - type: textarea
     id: comments
     attributes:
