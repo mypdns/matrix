@@ -4,16 +4,15 @@
 # directory for easier imports from external sources....
 # Happy harvesting :)
 
-ROOT_DIR="$(git rev-parse --show-toplevel)"
+GIT_GIR="$(git rev-parse --show-toplevel)"
 
-truncate -s 0 "$ROOT_DIR/source/source.list"
+truncate -s 0 "$GIT_GIR/source/source.list"
 
-cd "$ROOT_DIR" || exit
+cd "$GIT_GIR" || exit
 
-for lists in $(find source/ -type f -name "*.list")
-do
-	printf "https://raw.githubusercontent.com/mypdns/matrix/master/source/%S\n" "$lists" | sort -u >> "$ROOT_DIR/source/source.list"
-	printf "%s/-/raw/master/%s\n" "$CI_PROJECT_URL" "$lists" | sort -u >> "$ROOT_DIR/source/source.list"
+for lists in $(find source/ -type f -name "*.list"); do
+    printf "https://raw.githubusercontent.com/mypdns/matrix/master/source/%S\n" "$lists" | sort -u >>"$GIT_GIR/source/source.list"
+    printf "%s/-/raw/master/%s\n" "$CI_PROJECT_URL" "$lists" | sort -u >>"$GIT_GIR/source/source.list"
 done
 
-ls -lh "$ROOT_DIR/source/"
+ls -lh "$GIT_GIR/source/"
