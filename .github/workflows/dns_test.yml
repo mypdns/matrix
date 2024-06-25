@@ -50,7 +50,7 @@ jobs:
 
       - name: Install PyFunceble
         run: |
-          pip install --no-cache-dir PyFunceble-dev>=4.2.24
+          pip install --no-cache-dir -r requirements.txt
           pip install --no-cache-dir mypdns
 
       - name: Get PyFunceble version
