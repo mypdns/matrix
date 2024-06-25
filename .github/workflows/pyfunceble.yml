@@ -25,9 +25,9 @@ jobs:
       fail-fast: false
       matrix:
         python_version:
-          - '3.11'
+          - '3.12'
         os:
-          - ubuntu-22.04
+          - ubuntu-latest
 
     steps:
       - uses: actions/checkout@v2
@@ -42,7 +42,7 @@ jobs:
 
       - name: Install PyFunceble
         run: |
-          pip install --no-cache-dir PyFunceble>=4.0.0
+          pip install --no-cache-dir PyFunceble>=4.2.0
           pip install --no-cache-dir mypdns
 
       - name: Get PyFunceble version
@@ -68,5 +68,4 @@ jobs:
           "${{ github.workspace }}/source/tracking/combined.txt" \
           "${{ github.workspace }}/source/typosquatting/combined.txt" \
           "${{ github.workspace }}/source/porno-sites/combined.txt" \
-          "${{ github.workspace }}/source/porno-sites/wildcard.list.old" \
-          --preload
+          "${{ github.workspace }}/source/porno-sites/wildcard.list.old"

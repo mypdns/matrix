@@ -1,0 +1,39 @@
+name: Test Coveralls Parallel
+on: [ "push", "pull_request" ]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        test_number:
+          - 1
+          - 2
+    steps:
+      - uses: actions/checkout@main
+      - name: Use Node.js 16.x
+        uses: actions/setup-node@main
+        with:
+          node-version: 20.x
+
+      - name: npm install
+        run: npm install
+
+      - name: Test ${{ matrix.test_number }}
+        run: make test-coverage-${{ matrix.test_number }}
+      - name: Coveralls Parallel
+        uses: coverallsapp/github-action@v2
+        with:
+          flag-name: run-${{ join(matrix.*, '-') }}
+          parallel: true
+
+  finish:
+    needs: test
+    if: ${{ always() }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Coveralls Finished
+        uses: coverallsapp/github-action@v2
+        with:
+          parallel-finished: true
+          carryforward: "run-1,run-2"
