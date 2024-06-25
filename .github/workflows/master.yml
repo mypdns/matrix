@@ -1,4 +1,4 @@
-name: Sort My Privacy DNS's lists
+name: My Privacy DNS's Sort source lists
 
 on:
   push:

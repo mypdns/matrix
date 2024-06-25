@@ -1,4 +1,4 @@
-name: Final new line
+name: My Privacy DNS Final new line
 on:
   pull_request:
     types: [ synchronize, opened ]
