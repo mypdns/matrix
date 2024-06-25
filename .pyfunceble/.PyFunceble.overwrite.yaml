@@ -25,7 +25,7 @@ cli_testing:
   # Provides everything directly related to the CLI testing.
 
   # Sets the Hosts IP to use while generation the hosts file(s)
-  hosts_ip: "0.0.0.0"
+  hosts_ip: '0.0.0.0'
 
   # Sets the number of maximal workers to use.
   # If set to null, the system use: CPU * Cores - 2
@@ -98,17 +98,17 @@ cli_testing:
     active: yes
 
     # Sets the commit message to apply everytime except for the last one.
-    commit_message: "My Privacy DNS - AutoSave"
+    commit_message: 'My Privacy DNS - AutoSave'
 
     # Sets the commit message to apply at the very end of the test.
-    end_commit_message: "My Privacy DNS - Results"
+    end_commit_message: 'My Privacy DNS - Results'
 
     # Sets the number of minutes  to wait before starting to save and stop
     # a session.
     max_exec_minutes: 25
 
     # Sets the working branch. This is the branch from where we are testing.
-    branch: "data-testing"
+    branch: 'data-testing'
 
     # Sets the distribution branch. This is the branch that is going to get
     # the (final) results.
@@ -140,7 +140,7 @@ cli_testing:
     quiet: no
 
     # Activates the output of very few information.
-    less: yes
+    less: no
 
     # Activates the output of all information.
     all: no
@@ -274,8 +274,8 @@ dns:
   server:
     - 9.9.9.10
     - 149.112.112.10
-    - "[2620:fe::10]:53"
-    - "[2620:fe::fe:10]:53"
+    - '[2620:fe::10]:53'
+    - '[2620:fe::fe:10]:53'
 
   # Sets the protocol to use.
   # Available: UDP | TCP | HTTPS | TLS
@@ -296,7 +296,7 @@ proxy:
     # Global HTTPS proxy to use when no rule is given or matched.
     https: null
 
-  rules: [ ]
+  rules: []
 
 platform:
   # Provides everything related to the platform.
