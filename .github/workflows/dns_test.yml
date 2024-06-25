@@ -1,0 +1,203 @@
+name: My Privacy DNS Record test
+on:
+  push:
+    branches:
+      - 'master'
+      - 'data-testing'
+  # schedule:
+  #   - cron: '0 */6 * * *'
+
+env:
+  PYFUNCEBLE_AUTO_CONFIGURATION: 'YES'
+  PYFUNCEBLE_CONFIG_DIR: '${{ github.workspace }}/.pyfunceble'
+  PYFUNCEBLE_OUTPUT_LOCATION: '${{ github.workspace }}/.pyfunceble'
+  PYFUNCEBLE_PLATFORM_API_TOKEN: '${{ secrets.PYFUNCEBLE_PLATFORM_API_TOKEN }}'
+  PYFUNCEBLE_PLATFORM_API_URL: '${{ secrets.PYFUNCEBLE_PLATFORM_API_URL }}'
+  PYFUNCEBLE_DB_CHARSET: 'utf8mb4'
+  PYFUNCEBLE_DB_HOST: '${{ secrets.MYPDNS_DB_HOST }}'
+  PYFUNCEBLE_DB_NAME: '${{ secrets.MYPDNS_DB_NAME }}'
+  PYFUNCEBLE_DB_PASSWORD: '${{ secrets.MYPDNS_DB_PASS }}'
+  PYFUNCEBLE_DB_PORT: '${{ secrets.MYPDNS_DB_PORT }}'
+  PYFUNCEBLE_DB_USERNAME: '${{ secrets.MYPDNS_DB_USER }}'
+  GIT_NAME: '${{ secrets.GIT_NAME }}'
+  GIT_EMAIL: '${{ secrets.GIT_EMAIL }}'
+  GITHUB_TOKEN: '${{ secrets.GITHUB_TOKEN }}'
+  BUILD_NUMBER: '${{ github.run_number }}'
+
+jobs:
+  test_and_push:
+    name: Run PyFunceble against the files and push result to repository
+    runs-on: '${{ matrix.os }}'
+
+    strategy:
+      fail-fast: false
+      matrix:
+        python_version:
+          - '3.12'
+        os:
+          - ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4.1.7
+        name: Clone repository
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Set up Python ${{ matrix.python_version }}
+        uses: actions/setup-python@v5.1.0
+        with:
+          python-version: ${{ matrix.python_version }}
+
+      - name: Install PyFunceble
+        run: |
+          pip install --no-cache-dir PyFunceble-dev>=4.2.24
+          pip install --no-cache-dir mypdns
+
+      - name: Get PyFunceble version
+        run: |
+          PyFunceble --version
+
+      - name: Run Domain tests
+        run: |
+          # echo "$(date +'%s')" > "${{ github.workspace }}/.trigger"
+          pyfunceble -f "${{ github.workspace }}/source/adware/domain.list" #\
+          # "${{ github.workspace }}/source/adware/onions.list" \
+          # "${{ github.workspace }}/source/adware/rpz-ip" \
+          # "${{ github.workspace }}/source/adware/tld.list" \
+          # "${{ github.workspace }}/source/adware/wildcard.list" \
+          # "${{ github.workspace }}/source/adware/wildcard.rpz-nsdname" \
+          # "${{ github.workspace }}/source/coinblocker/domain.list" \
+          # "${{ github.workspace }}/source/coinblocker/onions.list" \
+          # "${{ github.workspace }}/source/coinblocker/rpz-ip" \
+          # "${{ github.workspace }}/source/coinblocker/tld.list" \
+          # "${{ github.workspace }}/source/coinblocker/wildcard.list" \
+          # "${{ github.workspace }}/source/coinblocker/wildcard.rpz-nsdname" \
+          # "${{ github.workspace }}/source/drugs/domain.list" \
+          # "${{ github.workspace }}/source/drugs/onions.list" \
+          # "${{ github.workspace }}/source/drugs/rpz-ip" \
+          # "${{ github.workspace }}/source/drugs/tld.list" \
+          # "${{ github.workspace }}/source/drugs/wildcard.list" \
+          # "${{ github.workspace }}/source/drugs/wildcard.rpz-nsdname" \
+          # "${{ github.workspace }}/source/gambling/domain.list" \
+          # "${{ github.workspace }}/source/gambling/onions.list" \
+          # "${{ github.workspace }}/source/gambling/rpz-ip" \
+          # "${{ github.workspace }}/source/gambling/tld.list" \
+          # "${{ github.workspace }}/source/gambling/wildcard.list" \
+          # "${{ github.workspace }}/source/gambling/wildcard.rpz-nsdname" \
+          # "${{ github.workspace }}/source/malicious/domain.list" \
+          # "${{ github.workspace }}/source/malicious/onions.list" \
+          # "${{ github.workspace }}/source/malicious/rpz-ip" \
+          # "${{ github.workspace }}/source/malicious/tld.list" \
+          # "${{ github.workspace }}/source/malicious/wildcard.list" \
+          # "${{ github.workspace }}/source/malicious/wildcard.rpz-nsdname" \
+          # "${{ github.workspace }}/source/movies/domain.list" \
+          # "${{ github.workspace }}/source/movies/onions.list" \
+          # "${{ github.workspace }}/source/movies/rpz-ip" \
+          # "${{ github.workspace }}/source/movies/tld.list" \
+          # "${{ github.workspace }}/source/movies/wildcard.list" \
+          # "${{ github.workspace }}/source/movies/wildcard.rpz-nsdname" \
+          # "${{ github.workspace }}/source/news/domain.list" \
+          # "${{ github.workspace }}/source/news/onions.list" \
+          # "${{ github.workspace }}/source/news/rpz-ip" \
+          # "${{ github.workspace }}/source/news/tld.list" \
+          # "${{ github.workspace }}/source/news/wildcard.list" \
+          # "${{ github.workspace }}/source/news/wildcard.rpz-nsdname" \
+          # "${{ github.workspace }}/source/phishing/domain.list" \
+          # "${{ github.workspace }}/source/phishing/onions.list" \
+          # "${{ github.workspace }}/source/phishing/rpz-ip" \
+          # "${{ github.workspace }}/source/phishing/tld.list" \
+          # "${{ github.workspace }}/source/phishing/wildcard.list" \
+          # "${{ github.workspace }}/source/phishing/wildcard.rpz-nsdname" \
+          # "${{ github.workspace }}/source/pirated/domain.list" \
+          # "${{ github.workspace }}/source/pirated/onions.list" \
+          # "${{ github.workspace }}/source/pirated/rpz-ip" \
+          # "${{ github.workspace }}/source/pirated/tld.list" \
+          # "${{ github.workspace }}/source/pirated/wildcard.list" \
+          # "${{ github.workspace }}/source/pirated/wildcard.rpz-nsdname" \
+          # "${{ github.workspace }}/source/politics/domain.list" \
+          # "${{ github.workspace }}/source/politics/onions.list" \
+          # "${{ github.workspace }}/source/politics/rpz-ip" \
+          # "${{ github.workspace }}/source/politics/tld.list" \
+          # "${{ github.workspace }}/source/politics/wildcard.list" \
+          # "${{ github.workspace }}/source/politics/wildcard.rpz-nsdname" \
+          # "${{ github.workspace }}/source/redirector/domain.list" \
+          # "${{ github.workspace }}/source/redirector/onions.list" \
+          # "${{ github.workspace }}/source/redirector/rpz-ip" \
+          # "${{ github.workspace }}/source/redirector/tld.list" \
+          # "${{ github.workspace }}/source/redirector/wildcard.list" \
+          # "${{ github.workspace }}/source/redirector/wildcard.rpz-nsdname" \
+          # "${{ github.workspace }}/source/religion/domain.list" \
+          # "${{ github.workspace }}/source/religion/onions.list" \
+          # "${{ github.workspace }}/source/religion/rpz-ip" \
+          # "${{ github.workspace }}/source/religion/tld.list" \
+          # "${{ github.workspace }}/source/religion/wildcard.list" \
+          # "${{ github.workspace }}/source/religion/wildcard.rpz-nsdname" \
+          # "${{ github.workspace }}/source/scamming/domain.list" \
+          # "${{ github.workspace }}/source/scamming/onions.list" \
+          # "${{ github.workspace }}/source/scamming/rpz-ip" \
+          # "${{ github.workspace }}/source/scamming/tld.list" \
+          # "${{ github.workspace }}/source/scamming/wildcard.list" \
+          # "${{ github.workspace }}/source/scamming/wildcard.rpz-nsdname" \
+          # "${{ github.workspace }}/source/spam/domain.list" \
+          # "${{ github.workspace }}/source/spam/onions.list" \
+          # "${{ github.workspace }}/source/spam/rpz-ip" \
+          # "${{ github.workspace }}/source/spam/tld.list" \
+          # "${{ github.workspace }}/source/spam/wildcard.list" \
+          # "${{ github.workspace }}/source/spam/wildcard.rpz-nsdname" \
+          # "${{ github.workspace }}/source/spyware/domain.list" \
+          # "${{ github.workspace }}/source/spyware/onions.list" \
+          # "${{ github.workspace }}/source/spyware/rpz-ip" \
+          # "${{ github.workspace }}/source/spyware/tld.list" \
+          # "${{ github.workspace }}/source/spyware/wildcard.list" \
+          # "${{ github.workspace }}/source/spyware/wildcard.rpz-nsdname" \
+          # "${{ github.workspace }}/source/suspected/domain.list" \
+          # "${{ github.workspace }}/source/suspected/onions.list" \
+          # "${{ github.workspace }}/source/suspected/rpz-ip" \
+          # "${{ github.workspace }}/source/suspected/tld.list" \
+          # "${{ github.workspace }}/source/suspected/wildcard.list" \
+          # "${{ github.workspace }}/source/suspected/wildcard.rpz-nsdname" \
+          # "${{ github.workspace }}/source/torrent/domain.list" \
+          # "${{ github.workspace }}/source/torrent/onions.list" \
+          # "${{ github.workspace }}/source/torrent/rpz-ip" \
+          # "${{ github.workspace }}/source/torrent/tld.list" \
+          # "${{ github.workspace }}/source/torrent/wildcard.list" \
+          # "${{ github.workspace }}/source/torrent/wildcard.rpz-nsdname" \
+          # "${{ github.workspace }}/source/tracking/domain.list" \
+          # "${{ github.workspace }}/source/tracking/onions.list" \
+          # "${{ github.workspace }}/source/tracking/rpz-ip" \
+          # "${{ github.workspace }}/source/tracking/tld.list" \
+          # "${{ github.workspace }}/source/tracking/wildcard.list" \
+          # "${{ github.workspace }}/source/tracking/wildcard.rpz-nsdname" \
+          # "${{ github.workspace }}/source/typosquatting/domain.list" \
+          # "${{ github.workspace }}/source/typosquatting/onions.list" \
+          # "${{ github.workspace }}/source/typosquatting/rpz-ip" \
+          # "${{ github.workspace }}/source/typosquatting/tld.list" \
+          # "${{ github.workspace }}/source/typosquatting/wildcard.list" \
+          # "${{ github.workspace }}/source/typosquatting/wildcard.rpz-nsdname" \
+          # "${{ github.workspace }}/source/weapons/domain.list" \
+          # "${{ github.workspace }}/source/weapons/onions.list" \
+          # "${{ github.workspace }}/source/weapons/rpz-ip" \
+          # "${{ github.workspace }}/source/weapons/tld.list" \
+          # "${{ github.workspace }}/source/weapons/wildcard.list" \
+          # "${{ github.workspace }}/source/weapons/wildcard.rpz-nsdname" \
+          # "${{ github.workspace }}/source/porn_filters/explicit_content/domains.list" \
+          # "${{ github.workspace }}/source/porn_filters/explicit_content/hosts.list" \
+          # "${{ github.workspace }}/source/porn_filters/explicit_content/mobile.list" \
+          # "${{ github.workspace }}/source/porn_filters/explicit_content/onions.list" \
+          # "${{ github.workspace }}/source/porn_filters/explicit_content/rpz-ip" \
+          # "${{ github.workspace }}/source/porn_filters/explicit_content/snuff.list" \
+          # "${{ github.workspace }}/source/porn_filters/explicit_content/tld.list" \
+          # "${{ github.workspace }}/source/porn_filters/explicit_content/white.list" \
+          # "${{ github.workspace }}/source/porn_filters/explicit_content/wildcard.list" \
+          # "${{ github.workspace }}/source/porn_filters/explicit_content/wildcard.rpz-nsdname" \
+          # "${{ github.workspace }}/source/porn_filters/imported/adult.ShadowWhisperer" \
+          # "${{ github.workspace }}/source/porn_filters/imported/domains.matrix" \
+          # "${{ github.workspace }}/source/porn_filters/imported/hosts.clefspeare13" \
+          # "${{ github.workspace }}/source/porn_filters/strict_filters/domain.list" \
+          # "${{ github.workspace }}/source/porn_filters/strict_filters/onions.list" \
+          # "${{ github.workspace }}/source/porn_filters/strict_filters/hosts.list" \
+          # "${{ github.workspace }}/source/porn_filters/strict_filters/onions.list" \
+          # "${{ github.workspace }}/source/porn_filters/strict_filters/rpz-ip" \
+          # "${{ github.workspace }}/source/porn_filters/strict_filters/white.list" \
+          # "${{ github.workspace }}/source/porn_filters/strict_filters/wildcard.list" \
+          # "${{ github.workspace }}/source/porn_filters/strict_filters/wildcard.rpz-nsdname"
