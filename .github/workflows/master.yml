@@ -21,7 +21,7 @@ jobs:
       fail-fast: false
       matrix:
         python_version:
-          - '3.11'
+          - '3.12'
         os:
           - ubuntu-latest
 
@@ -48,29 +48,11 @@ jobs:
           find source/ -type f -name '*.rpz-nsdname' \
           -exec bash -c "sort -i -u -f '{}' -o '{}'" \;
 
-      # - name: 'Combine domain and wildcard domains for external usages'
-      #   run: |
-      #     cd "${{ github.workspace }}"
-      #     find "${{ github.workspace }}/source/" -type f -name 'combined.txt' \
-      #     -delete
-
-      #     for d in `find source/ -mindepth 1 -maxdepth 3 -type d`
-      #     do
-      #         cat ${d[@]}/*.list > ${d[@]}/combined.txt
-      #     done
-
       - name: 'import ShadowWhisperer'
         continue-on-error: true
         run: |
           curl "https://raw.githubusercontent.com/ShadowWhisperer/BlockLists/master/RAW/Adult" \
             -o "${{ github.workspace }}/source/porn_filters/imported/adult.ShadowWhisperer"
-
-      # - name: 'Import latest working example of safe search from safesearch.mypdns.cloud'
-      #   run: |
-      #     rm "${{ github.workspace }}/safesearch/safesearch.mypdns.cloud.rpz"
-
-      #     drill axfr @axfr.mypdns.cloud -p 5303 safesearch.mypdns.cloud \
-      #       | grep -vE '^($|;)' >> ${{ github.workspace }}/safesearch/safesearch.mypdns.cloud.rpz
 
       - name: Git Status
         run: git status

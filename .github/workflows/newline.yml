@@ -1,7 +1,7 @@
 name: Final new line
 on:
   pull_request:
-    types: [synchronize, opened]
+    types: [ synchronize, opened ]
 
 env:
   GIT_NAME: "${{ secrets.GIT_NAME }}"
@@ -14,7 +14,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@master
-      - uses: Logerfo/newline-action@0.0.3
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }} # The `GITHUB_TOKEN` secret.
           config-path: .github/newline.yml # The path of the additional configurations file.
