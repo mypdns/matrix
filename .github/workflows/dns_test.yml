@@ -69,9 +69,7 @@ jobs:
           "${{ github.workspace }}/source/coinblocker/domains.list" \
           "${{ github.workspace }}/source/coinblocker/onions.list" \
           "${{ github.workspace }}/source/coinblocker/rpz-ip" \
-          "${{ github.workspace }}/source/coinblocker/tld.list" \
           "${{ github.workspace }}/source/coinblocker/wildcard.list" \
-          "${{ github.workspace }}/source/coinblocker/wildcard.rpz-nsdname" \
           "${{ github.workspace }}/source/drugs/domains.list" \
           "${{ github.workspace }}/source/drugs/onions.list" \
           "${{ github.workspace }}/source/drugs/rpz-ip" \
@@ -81,13 +79,11 @@ jobs:
           "${{ github.workspace }}/source/gambling/domains.list" \
           "${{ github.workspace }}/source/gambling/onions.list" \
           "${{ github.workspace }}/source/gambling/rpz-ip" \
-          "${{ github.workspace }}/source/gambling/tld.list" \
           "${{ github.workspace }}/source/gambling/wildcard.list" \
           "${{ github.workspace }}/source/gambling/wildcard.rpz-nsdname" \
           "${{ github.workspace }}/source/malicious/domains.list" \
           "${{ github.workspace }}/source/malicious/onions.list" \
           "${{ github.workspace }}/source/malicious/rpz-ip" \
-          "${{ github.workspace }}/source/malicious/tld.list" \
           "${{ github.workspace }}/source/malicious/wildcard.list" \
           "${{ github.workspace }}/source/malicious/wildcard.rpz-nsdname" \
           "${{ github.workspace }}/source/movies/domains.list" \
@@ -105,11 +101,10 @@ jobs:
           "${{ github.workspace }}/source/phishing/domains.list" \
           "${{ github.workspace }}/source/phishing/onions.list" \
           "${{ github.workspace }}/source/phishing/rpz-ip" \
-          "${{ github.workspace }}/source/phishing/tld.list" \
           "${{ github.workspace }}/source/phishing/wildcard.list" \
           "${{ github.workspace }}/source/phishing/wildcard.rpz-nsdname" \
+          "${{ github.workspace }}/source/pirated/domain.rpz-nsdname" \
           "${{ github.workspace }}/source/pirated/domains.list" \
-          "${{ github.workspace }}/source/pirated/onions.list" \
           "${{ github.workspace }}/source/pirated/rpz-ip" \
           "${{ github.workspace }}/source/pirated/tld.list" \
           "${{ github.workspace }}/source/pirated/wildcard.list" \
@@ -123,9 +118,7 @@ jobs:
           "${{ github.workspace }}/source/redirector/domains.list" \
           "${{ github.workspace }}/source/redirector/onions.list" \
           "${{ github.workspace }}/source/redirector/rpz-ip" \
-          "${{ github.workspace }}/source/redirector/tld.list" \
           "${{ github.workspace }}/source/redirector/wildcard.list" \
-          "${{ github.workspace }}/source/redirector/wildcard.rpz-nsdname" \
           "${{ github.workspace }}/source/religion/domains.list" \
           "${{ github.workspace }}/source/religion/onions.list" \
           "${{ github.workspace }}/source/religion/rpz-ip" \
@@ -135,9 +128,7 @@ jobs:
           "${{ github.workspace }}/source/scamming/domains.list" \
           "${{ github.workspace }}/source/scamming/onions.list" \
           "${{ github.workspace }}/source/scamming/rpz-ip" \
-          "${{ github.workspace }}/source/scamming/tld.list" \
           "${{ github.workspace }}/source/scamming/wildcard.list" \
-          "${{ github.workspace }}/source/scamming/wildcard.rpz-nsdname" \
           "${{ github.workspace }}/source/spam/domains.list" \
           "${{ github.workspace }}/source/spam/onions.list" \
           "${{ github.workspace }}/source/spam/rpz-ip" \
@@ -171,7 +162,6 @@ jobs:
           "${{ github.workspace }}/source/typosquatting/domains.list" \
           "${{ github.workspace }}/source/typosquatting/onions.list" \
           "${{ github.workspace }}/source/typosquatting/rpz-ip" \
-          "${{ github.workspace }}/source/typosquatting/tld.list" \
           "${{ github.workspace }}/source/typosquatting/wildcard.list" \
           "${{ github.workspace }}/source/typosquatting/wildcard.rpz-nsdname" \
           "${{ github.workspace }}/source/weapons/domains.list" \
