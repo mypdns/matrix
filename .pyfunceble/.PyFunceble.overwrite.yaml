@@ -200,7 +200,7 @@ cli_testing:
     # Provides everything related to the generation of file.
 
     # Deactivates the generation of any status file.
-    no_file: yes
+    no_file: no
 
     # Activates the generation of the hosts file(s).
     hosts: no
@@ -209,7 +209,7 @@ cli_testing:
     plain: yes
 
     # Activates the generation of the analytic file(s).
-    analytic: no
+    analytic: yes
 
     # Activate the generation of an unified file for the copy of what is
     # outputted to STDOUT.
@@ -296,7 +296,7 @@ proxy:
     # Global HTTPS proxy to use when no rule is given or matched.
     https: null
 
-  rules: []
+  rules: [ ]
 
 platform:
   # Provides everything related to the platform.
