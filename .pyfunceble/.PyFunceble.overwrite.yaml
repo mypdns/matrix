@@ -53,7 +53,7 @@ cli_testing:
 
   # Sets the Database Connector type to use.
   # Available: csv | mariadb | mysql | postgresql
-  db_type: mariadb
+  db_type: csv
 
   # Sets the filter to apply while reading the given input.
   # For example, if you give `\.info`, we will only test the subjects who match
