@@ -174,7 +174,7 @@ cli_testing:
     reputation: no
 
     # BETA: Activates the platform contribution test.
-    platform_contribution: no
+    platform_contribution: yes
 
   days_between:
     # Provides everything which is x days periodic.

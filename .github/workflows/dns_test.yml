@@ -4,8 +4,8 @@ on:
     branches:
       - 'master'
       - 'data-testing'
-  # schedule:
-  #   - cron: '0 */6 * * *'
+  schedule:
+    - cron: '26 * * * *'
 
 env:
   PYFUNCEBLE_AUTO_CONFIGURATION: 'YES'
@@ -52,7 +52,6 @@ jobs:
         run: |
           pip install --upgrade pip
           pip install --no-cache-dir -r requirements.txt
-          pip install --no-cache-dir mypdns
 
       - name: Get PyFunceble version
         run: |
