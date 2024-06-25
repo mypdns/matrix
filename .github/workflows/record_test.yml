@@ -2,10 +2,10 @@ name: My Privacy DNS Record test
 on:
   schedule:
     - cron: '0 */6 * * *'
-#      push:
-#        branches:
-#          # - 'master'
-#          - 'data-testing'
+  push:
+    branches:
+      - 'master'
+      - 'data-testing'
 
 env:
   PYFUNCEBLE_AUTO_CONFIGURATION: 'YES'
