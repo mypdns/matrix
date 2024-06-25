@@ -106,7 +106,6 @@ jobs:
           "${{ github.workspace }}/source/pirated/domain.rpz-nsdname" \
           "${{ github.workspace }}/source/pirated/domains.list" \
           "${{ github.workspace }}/source/pirated/rpz-ip" \
-          "${{ github.workspace }}/source/pirated/tld.list" \
           "${{ github.workspace }}/source/pirated/wildcard.list" \
           "${{ github.workspace }}/source/pirated/wildcard.rpz-nsdname" \
           "${{ github.workspace }}/source/politics/domains.list" \
