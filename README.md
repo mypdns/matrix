@@ -1,5 +1,4 @@
-[![My Privacy DNS](.assets/icons/gitlab.png)](https://github.com/mypdns/matrix "My Privacy DNS")
-[![Github Mirror](.assets/icons/github.png)](https://github.com/mypdns/matrix)
+[![Github](.assets/icons/github.png)](https://github.com/mypdns/matrix)
 [![ko-fi](.assets/icons/ko-fi.png)](DONATION.md)
 [![liberapay](https://mypdns.org/fileproxy/?name=sp_receives_spirillen)](https://liberapay.com/spirillen/donate)
 [![goal](https://mypdns.org/fileproxy/?name=sp_goal_spirillen)](https://liberapay.com/spirillen/donate)
