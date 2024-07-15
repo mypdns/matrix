@@ -1,23 +1,3 @@
-[![Github](.assets/icons/github.png)](https://github.com/mypdns/matrix)
-[![ko-fi](.assets/icons/ko-fi.png)](DONATION.md)
-[![liberapay](https://mypdns.org/fileproxy/?name=sp_receives_spirillen)](https://liberapay.com/spirillen/donate)
-[![goal](https://mypdns.org/fileproxy/?name=sp_goal_spirillen)](https://liberapay.com/spirillen/donate)
-
-## TOC
-
-* [The Matrix](#the-matrix)
-    * [Donations](#donations)
-    * [Source list](#source-list)
-    * [Categorizing](#categorizing)
-    * [Submitting](#submitting)
-    * [The Matrix](#the-matrix-1)
-    * [Whitelist](#whitelist)
-    * [Bulk commits](#bulk-commits)
-    * [FAQ](#faq)
-    * [Sponsors](#sponsors)
-    * [Official mirrors](#official-mirrors)
-    * [Project Keywords](#project-keywords)
-
 # The Matrix
 
 [My Privacy DNS](https://mypdns.org/)' "Matrix" project is
@@ -33,6 +13,29 @@ One of these features is the anti-porn (anti-NSFW) list, which blocks access
 to pornographic and explicit sites.
 This feature is especially useful for parents who want to ensure that their
 children are not exposed to inappropriate content online.
+
+[![Github](.assets/icons/github.png)](https://github.com/mypdns/matrix)
+[![ko-fi](.assets/icons/ko-fi.png)](DONATION.md)
+[![liberapay](https://mypdns.org/fileproxy/?name=sp_receives_spirillen)](https://liberapay.com/spirillen/donate)
+[![goal](https://mypdns.org/fileproxy/?name=sp_goal_spirillen)](https://liberapay.com/spirillen/donate)
+
+## TOC
+
+- [The Matrix](#the-matrix)
+  - [TOC](#toc)
+  - [Donations](#donations)
+  - [Source list](#source-list)
+  - [Categorizing](#categorizing)
+  - [Submitting](#submitting)
+  - [Combining the Matrix](#combining-the-matrix)
+  - [Whitelist](#whitelist)
+  - [Bulk commits](#bulk-commits)
+  - [FAQ](#faq)
+    - [Broken site](#broken-site)
+    - [Why not Whitelisting](#why-not-whitelisting)
+  - [Sponsors](#sponsors)
+  - [Official mirrors](#official-mirrors)
+  - [Project Keywords](#project-keywords)
 
 ## Donations
 
@@ -82,7 +85,7 @@ in [Matrix Source Files](source/README.md).
 To report problematic websites, please create a new issue for each domain.
 You will need to provide the URL and a screenshot for evidence.
 
-## The Matrix
+## Combining the Matrix
 
 For the Adult filtering, please refer to the [README](source/README.md)
 
@@ -143,7 +146,7 @@ It's you and only you who has submitted bad code and mis-written your
 website to behave badly. Be happy we haven't blocked your website
 already for leaking privacy to third party.
 
-### Whitelist
+### Why not Whitelisting
 
 **Q**: Why don't you whitelist `example.com`?
 
@@ -187,11 +190,11 @@ goes right) be updated by `push on commit`
 | Matrix          | `https://gitlab.com/my-privacy-dns/matrix/matrix`          |                  push |
 | Matrix          | `https://notabug.org/my-privacy-dns/matrix`                |                  pull |
 
-[AdWare]: https://kb.mypdns.org/issues?q=project:%20Matrix/new?issuable_template=AdWare "Issue template to commit adserver domains"
+<!-- [AdWare]: https://kb.mypdns.org/issues?q=project:%20Matrix/new?issuable_template=AdWare "Issue template to commit adserver domains" -->
 
 [Bulk-commits]: https://kb.mypdns.org/articles/MTX/Contributing#bulk-commits
 
-[CryptoMiners]: https://kb.mypdns.org/issues?q=project:%20Matrix/new?issuable_template=CryptoMiner "Issue template to commit Crypto miners"
+<!-- [CryptoMiners]: https://kb.mypdns.org/issues?q=project:%20Matrix/new?issuable_template=CryptoMiner "Issue template to commit Crypto miners"
 
 [DNS-Server]: https://kb.mypdns.org/issues?q=project:%20Matrix/new?issuable_template=DNS%20Server "Issue template to commit For blacklisting at the DNS level"
 
@@ -213,11 +216,11 @@ goes right) be updated by `push on commit`
 
 [Removal]: #faq "Read the F.A.Q. *BEFORE* you proceed!"
 
-[Removals]: https://kb.mypdns.org/issues?q=project:%20Matrix/new?issuable_template=False%20Positive "False Positive or removal of domains"
+[Removals]: https://kb.mypdns.org/issues?q=project:%20Matrix/new?issuable_template=False%20Positive "False Positive or removal of domains" -->
 
 [RFC953]: https://www.rfc-editor.org/rfc/rfc953 "This RFC is the official specification of the Hostname Server Protocol."
 
-[Scamming]: https://kb.mypdns.org/issues?q=project:%20Matrix/new?issuable_template=Scamming "Issue template to commit Scamming sites"
+<!-- [Scamming]: https://kb.mypdns.org/issues?q=project:%20Matrix/new?issuable_template=Scamming "Issue template to commit Scamming sites"
 
 [Spam]: https://kb.mypdns.org/issues?q=project:%20Matrix/new?issuable_template=Spam "Issue template to commit Spam records"
 
@@ -227,7 +230,7 @@ goes right) be updated by `push on commit`
 
 [TypoSquatting]: https://kb.mypdns.org/issues?q=project:%20Matrix/new?issuable_template=Typo%20Squatting "Issue template to commit Typo Squatting"
 
-[Whitelist]: https://kb.mypdns.org/issues?q=project:%20Matrix/new?issuable_template=Whitelist
+[Whitelist]: https://kb.mypdns.org/issues?q=project:%20Matrix/new?issuable_template=Whitelist -->
 
 [RPZ]: https://kb.mypdns.org/articles/MTX/RPZ "Response Policy Zone"
 
