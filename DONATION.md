@@ -1,6 +1,5 @@
 # Donate to My Privacy DNS
 
-
 My Privacy DNS is an excellent way to protect your privacy online, and it also
  offers additional features to help you stay safe and secure. One of these
  features is the anti-porn list, which blocks access to pornographic and
@@ -21,5 +20,5 @@ That's why I'm donating to My Privacy DNS, and I encourage you to do the same.
 Together, we can help protect our privacy and keep the internet safe and secure for everyone.
 
 
-- [Liberapay](https://liberapay.com/mypdns) ![goal](https://img.shields.io/liberapay/goal/MyPDNS.svg?logo=liberapay) ![receives](https://img.shields.io/liberapay/receives/MyPDNS.svg?logo=liberapay)
+- [![liberapay](https://mypdns.org/fileproxy/?name=sp_receives_spirillen)](https://liberapay.com/spirillen/donate) [![goal](https://mypdns.org/fileproxy/?name=sp_goal_spirillen)](https://liberapay.com/spirillen/donate)
 - [Ko-fi](https://ko-fi.com/X8X37FUGU)
