@@ -1,5 +1,7 @@
 # The Matrix
 
+[![My Privacy DNS](.assets/icons/logo.png)](https://www.mypdns.org/)
+
 [My Privacy DNS](https://mypdns.org/)' "Matrix" project is
 a handcrafted and completely self-managed DNS Firewall through Response
 Policy Zones (RPZ).
@@ -16,8 +18,8 @@ children are not exposed to inappropriate content online.
 
 [![Github](.assets/icons/github.png)](https://github.com/mypdns/matrix)
 [![ko-fi](.assets/icons/ko-fi.png)](DONATION.md)
-[![liberapay](https://mypdns.org/fileproxy/?name=sp_receives_spirillen)](https://liberapay.com/spirillen/donate)
-[![goal](https://mypdns.org/fileproxy/?name=sp_goal_spirillen)](https://liberapay.com/spirillen/donate)
+[![liberapay](https://www.mypdns.org/fileproxy/?name=sp_receives_spirillen)](https://liberapay.com/spirillen/donate)
+[![goal](https://www.mypdns.org/fileproxy/?name=sp_goal_spirillen)](https://liberapay.com/spirillen/donate)
 
 ## TOC
 
