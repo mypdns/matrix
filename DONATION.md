@@ -20,5 +20,5 @@ That's why I'm donating to My Privacy DNS, and I encourage you to do the same.
 Together, we can help protect our privacy and keep the internet safe and secure for everyone.
 
 
-- [![liberapay](https://mypdns.org/fileproxy/?name=sp_receives_spirillen)](https://liberapay.com/spirillen/donate) [![goal](https://mypdns.org/fileproxy/?name=sp_goal_spirillen)](https://liberapay.com/spirillen/donate)
+- [![liberapay](https://www.mypdns.org/fileproxy/?name=sp_receives_spirillen)](https://liberapay.com/spirillen/donate) [![goal](https://www.mypdns.org/fileproxy/?name=sp_goal_spirillen)](https://liberapay.com/spirillen/donate)
 - [Ko-fi](https://ko-fi.com/X8X37FUGU)
