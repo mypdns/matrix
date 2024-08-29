@@ -1,4 +1,4 @@
-#!/usr/bin/env python3.11
+#!/usr/bin/env python
 
 # cat file.txt | cat source/tracking/domains.list | ./tools/domain-sort.py
 
