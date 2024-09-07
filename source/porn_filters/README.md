@@ -276,7 +276,6 @@ submit_here
 │   ├── source/explicit_content/rpz-ip
 │   ├── source/explicit_content/snuff.list
 │   ├── source/explicit_content/tld.list
-│   ├── source/explicit_content/white.list
 │   ├── source/explicit_content/wildcard.list
 │   └── source/explicit_content/wildcard.rpz-nsdname
 ├── submit_here/README.md
