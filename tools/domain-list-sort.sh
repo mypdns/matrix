@@ -13,4 +13,9 @@ if [ -d "$GIT_DIR" ]; then
             sed "/^$/d" "${i}.tmp" >"${i}" && rm "${i}.tmp"
     done
 
+    for i in $(git ls-files -m | grep -i "hosts.list"); do
+            python3 "$GIT_DIR/tools/domain-sort.py" <"${i}" >"${i}.tmp" &&
+                sed "/^$/d" "${i}.tmp" >"${i}" && rm "${i}.tmp"
+    done
+
 fi
