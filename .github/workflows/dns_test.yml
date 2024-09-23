@@ -4,8 +4,8 @@ on:
     branches:
       - 'master'
       - 'data-testing'
-  schedule:
-    - cron: '26 * * * *'
+#  schedule:
+#    - cron: '26 * * * *'
 
 env:
   PYFUNCEBLE_AUTO_CONFIGURATION: 'YES'
@@ -176,7 +176,6 @@ jobs:
           "${{ github.workspace }}/source/porn_filters/explicit_content/rpz-ip" \
           "${{ github.workspace }}/source/porn_filters/explicit_content/snuff.list" \
           "${{ github.workspace }}/source/porn_filters/explicit_content/tld.list" \
-          "${{ github.workspace }}/source/porn_filters/explicit_content/white.list" \
           "${{ github.workspace }}/source/porn_filters/explicit_content/wildcard.list" \
           "${{ github.workspace }}/source/porn_filters/explicit_content/wildcard.rpz-nsdname" \
           "${{ github.workspace }}/source/porn_filters/imported/adult.ShadowWhisperer" \
@@ -187,6 +186,5 @@ jobs:
           "${{ github.workspace }}/source/porn_filters/strict_filters/hosts.list" \
           "${{ github.workspace }}/source/porn_filters/strict_filters/onions.list" \
           "${{ github.workspace }}/source/porn_filters/strict_filters/rpz-ip" \
-          "${{ github.workspace }}/source/porn_filters/strict_filters/white.list" \
           "${{ github.workspace }}/source/porn_filters/strict_filters/wildcard.list" \
           "${{ github.workspace }}/source/porn_filters/strict_filters/wildcard.rpz-nsdname"
