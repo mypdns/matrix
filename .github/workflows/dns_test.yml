@@ -4,8 +4,8 @@ on:
     branches:
       - 'master'
       - 'data-testing'
-#  schedule:
-#    - cron: '26 * * * *'
+  schedule:
+    - cron: '26 * * * *'
 
 env:
   PYFUNCEBLE_AUTO_CONFIGURATION: 'YES'
