@@ -1,6 +1,6 @@
 # The Matrix
 
-[![My Privacy DNS](.assets/icons/logo.png)](https://www.mypdns.org/)
+[![My Privacy DNS](https://www.mypdns.org/images/logo.png)](https://www.mypdns.org/)
 
 [My Privacy DNS](https://mypdns.org/)' "Matrix" project is
 a handcrafted and completely self-managed DNS Firewall through Response
