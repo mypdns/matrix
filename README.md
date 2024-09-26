@@ -52,12 +52,11 @@ than ever to take steps to protect your privacy online.
 My Privacy DNS is a great way to do just that. It's easy to use, highly
 effective, and completely free.
 
-By [donating to My Privacy DNS](DONATION.md), you are not only supporting a
-great project
-that helps protect your privacy online, but you are also helping to ensure
-that it continues to provide this valuable service free of charge to the public.
-Additionally, you are supporting the development of other privacy-friendly
-software.
+By [donating to My Privacy DNS](https://kb.mypdns.org/articles/MTX-A-3/DONATION),
+you are not only supporting a great project that helps protect your privacy
+online, but you are also helping to ensure that it continues to provide
+this valuable service free of charge to the public. Additionally, you are
+supporting the development of other privacy-friendly software.
 Together, we can help protect our privacy and keep the internet safe and
 secure for everyone.
 
