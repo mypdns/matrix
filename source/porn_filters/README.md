@@ -1,11 +1,18 @@
-[![ko-fi](https://www.mypdns.org/images/githubbutton_sm.svg)](https://ko-fi.com/X8X37FUGU)
-
 # Porn Records
+
+[![My Privacy DNS](https://www.mypdns.org/images/logo.png)](https://www.mypdns.org/)
+
+[![Github](https://github.com/mypdns/matrix/raw/master/.assets/icons/github.png)](https://github.com/mypdns/matrix)
+[![ko-fi](https://www.mypdns.org/images/githubbutton_sm.svg)](https://ko-fi.com/X8X37FUGU)
+[![liberapay](https://www.mypdns.org/fileproxy/?name=sp_receives_mypdns)](https://liberapay.com/MyPDNS/donate)
+[![goal](https://www.mypdns.org/fileproxy/?name=sp_goal_mypdns)](https://liberapay.com/MyPDNS/donate)
+
 This is an endeavour to find porn domains and list them in the shortest
 possible format it can be done. This means we are not generating any
-pre-configured output zone files in this project, we are simply only
-storing, and verifying the availability of the records.
+pre-configured output zone files in this project, we are simply only storing,
+and verifying the availability of the records.
 
+<!-- TOC -->
 - [Porn Records](#porn-records)
   - [Who can use this project](#who-can-use-this-project)
     - [DNS RPZ Firewall](#dns-rpz-firewall)
@@ -36,6 +43,7 @@ storing, and verifying the availability of the records.
     - [Browser history](#browser-history)
   - [Buzz words and keyword](#buzz-words-and-keyword)
   - [Contact](#contact)
+<!-- TOC -->
 
 We do however serve a full DNS RPZ Firewall zone from
 [adult.mypdns.cloud][adult.mypdns.cloud] purely based on the records
@@ -292,13 +300,13 @@ submit_here
 You should [contribute][CONTRIBUTING] to this list because it does matter
 for those who have to block this kind of content.
 
-Let's compare our work against Cloudflare's <https://cloudflare-dns.com/family/>
+Let's compare our work against Cloudflare's `https://cloudflare-dns.com/family/`
 so-called adult filter running on `1.1.1.3`
 
 From the test file
-<https://mypdns.org/clefspeare13/pornhosts/-/blob/master/0.0.0.0/hosts>
-which we are going to use for our test we see the following result and
-why it matters you are contributing.
+`https://mypdns.org/clefspeare13/pornhosts/-/blob/master/0.0.0.0/hosts`
+(no longer available) which we are going to use for our test we see the
+following result and why it matters you are contributing.
 
 ## Test result
 

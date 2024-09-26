@@ -2,7 +2,7 @@
 
 [![My Privacy DNS](https://www.mypdns.org/images/logo.png)](https://www.mypdns.org/)
 
-[My Privacy DNS](https://mypdns.org/)' "Matrix" project is
+[My Privacy DNS](https://www.mypdns.org/)' "Matrix" project is
 a handcrafted and completely self-managed DNS Firewall through Response
 Policy Zones (RPZ).
 
@@ -15,11 +15,6 @@ One of these features is the anti-porn (anti-NSFW) list, which blocks access
 to pornographic and explicit sites.
 This feature is especially useful for parents who want to ensure that their
 children are not exposed to inappropriate content online.
-
-[![Github](.assets/icons/github.png)](https://github.com/mypdns/matrix)
-[![ko-fi](.assets/icons/ko-fi.png)](DONATION.md)
-[![liberapay](https://www.mypdns.org/fileproxy/?name=sp_receives_mypdns)](https://liberapay.com/MyPDNS/donate)
-[![goal](https://www.mypdns.org/fileproxy/?name=sp_goal_mypdns)](https://liberapay.com/MyPDNS/donate)
 
 ## TOC
 
@@ -41,6 +36,7 @@ children are not exposed to inappropriate content online.
 
 ## Donations
 
+[![ko-fi](https://www.mypdns.org/fileproxy/?name=sp_kofi_mypdns)]([DONATION.md](https://kb.mypdns.org/articles/MTX-A-3/DONATION))
 [![liberapay](https://mypdns.org/fileproxy/?name=sp_receives_spirillen)](https://liberapay.com/spirillen/donate)
 [![goal](https://mypdns.org/fileproxy/?name=sp_goal_spirillen)](https://liberapay.com/spirillen/donate)
 
@@ -178,7 +174,7 @@ The following repositories are official mirrors and should (when things
 goes right) be updated by `push on commit`
 
 | Project         | Host                                                       | Metode (push \| pull) |
-|:----------------|:-----------------------------------------------------------|----------------------:|
+| :-------------- | :--------------------------------------------------------- | --------------------: |
 | Adblocker Rules | `https://git.disroot.org/my-privacy-dns/adblocker-rules`   |                  push |
 | Adblocker Rules | `https://git.kescher.at/my-privacy-dns/adblocker-rules`    |                  pull |
 | Adblocker Rules | `https://gitea.slowb.ro/spirillen/adblocker-rules`         |                  pull |
