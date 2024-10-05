@@ -3,7 +3,6 @@ amd-athena-rs-install-logs.s3.amazonaws.com
 analytics-stage.ff.avast.com
 analytics.alternativet.dk
 analytics.ff.avast.com
-analytics.ns1.ff.avast.com
 analytics.tiktok.com
 bigdata.adups.com
 byfleur.myftp.org
@@ -18,13 +17,11 @@ firebaseinstallations.googleapis.com
 fota4.adups.cn
 fota5.adups.cn
 fota5.adups.com
-fota5db.adups.com
 fota5p.adups.com
 fota5s.adups.cn
 fota5s.adups.com
 fota5t.adups.cn
 fota5t.adups.com
-fota5tbk.adups.com
 fpn.firefox.com
 graph.facebook.com
 image.uc.cn
