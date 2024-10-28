@@ -6,13 +6,14 @@
 
 GIT_GIR="$(git rev-parse --show-toplevel)"
 
-truncate -s 0 "$GIT_GIR/source/source.list"
+truncate -s 0 "$GIT_GIR/source/source.csv"
 
 cd "$GIT_GIR" || exit
 
-for lists in $(find source/ -type f -name "*.list"); do
-    printf "https://raw.githubusercontent.com/mypdns/matrix/master/source/%S\n" "$lists" | sort -u >>"$GIT_GIR/source/source.list"
-    printf "%s/-/raw/master/%s\n" "$CI_PROJECT_URL" "$lists" | sort -u >>"$GIT_GIR/source/source.list"
+# for i in
+ find source/ -type f -name "*.csv" | while IFS= read -r i; do
+    echo "https://raw.githubusercontent.com/mypdns/matrix/master/source/$i" | sort -u >>"$GIT_GIR/source/source.csv"
+    echo "$CI_PROJECT_URL/-/raw/master/$i" | sort -u >>"$GIT_GIR/source/source.csv"
 done
 
 ls -lh "$GIT_GIR/source/"
