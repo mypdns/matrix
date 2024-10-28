@@ -17,6 +17,3 @@ trim_trailing_whitespace = false
 [*.{yaml,yml}]
 indent_size = 2
 tab_width = 2
-
-[*.list]
-indent_size = 2

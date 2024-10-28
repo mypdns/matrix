@@ -91,6 +91,9 @@ no-git/**
 # *.iml
 # *.ipr
 
+# Fleet
+.fleet/
+
 # CMake
 cmake-build-*/
 

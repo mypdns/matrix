@@ -1,3 +1,9 @@
+2.0.0
+        # 28th Oct 2024
+        * Renamed all data files to csv - https://kb.mypdns.org/issue/MTX-1170
+        * Fixed `.gitattributes` and `.editorconfig` to ensure the CSV files
+        are compliant with rfc4180#section-2
+
 1.0.1
 		# 4th August 2022
 		Today we will re-import the pornographic blacklist from Porn
