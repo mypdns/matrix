@@ -4,7 +4,7 @@
 **hosts text eol=lf working-tree-encoding=UTF-8
 
 # Normalize special cases to LF
-*.csv text eol=lf working-tree-encoding=UTF-8
+*.csv text eol=crlf working-tree-encoding=LATIN1
 *.ini text eol=lf working-tree-encoding=UTF-8
 *.json text eol=lf working-tree-encoding=UTF-8
 *.log text eol=lf working-tree-encoding=UTF-8
