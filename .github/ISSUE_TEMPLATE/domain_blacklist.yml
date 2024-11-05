@@ -1,0 +1,102 @@
+name: Domain blacklist
+description: Blacklist by My Privacy DNS
+body:
+  - type: textarea
+    id: comments
+    attributes:
+      label: Comments
+      description: Add any comments
+      placeholder: This hosting service is usual quick to fix phishing issues
+    validations:
+      required: false
+
+  - type: textarea
+    id: domainRecordsWildcard
+    attributes:
+      label: Wildcard domain records
+      description: |
+        List any Wildcard records that needs to be blacklisted (comma separated CSV with pipes)
+      placeholder: |
+        example.com|adware,tracking,adult
+        *.example.com|adware,tracking,adult
+      render: CSV
+    validations:
+      required: true
+
+  - type: textarea
+    id: domainRecordsSubdomainsOnly
+    attributes:
+      label: Sub-Domain records
+      description: |
+        List any Subdomain records that needs to be blacklisted (comma separated CSV with pipes)
+      placeholder: |
+        bad.example.com|adware,tracking,adult
+        evil.example.com|adware,tracking,adult
+      render: CSV
+    validations:
+      required: false
+
+  - type: textarea
+    id: hostsRecords
+    attributes:
+      label: Hosts (RFC:953) specific records, not used by DNS RPZ firewalls
+      description: |
+        Also tell us, what subdomains are required for RFC:952 and RFC:953 - (comma separated CSV with pipes)
+      placeholder: |
+        dumb.hosts.file.example.com
+      render: CSV
+    validations:
+      required: false
+
+  - type: textarea
+    id: safeSearch
+    attributes:
+      label: SeafeSearch records
+      description: |
+        List of A/CNAME records that can be used for safesearch
+      placeholder: |
+        example.com     CNAME safe.example.com
+        example.com     A     IP
+      render: CSV
+    validations:
+      required: false
+
+  - type: textarea
+    id: screenshot
+    attributes:
+      label: Screenshots
+      description: |
+        Screenshot is required for committing domains, we can not visit all domains.
+        Type `N/A` if not possible.
+      placeholder: |
+        "![Screenshot of example.com](img-src)"
+        **INFO**: You can copy paste images directly into this field.
+        **INFO**: There need to be at least one blank line separating before
+                and after the image line
+      value: |
+        <details><summary>Screenshot</summary>
+
+
+        </details>
+    validations:
+      required: true
+
+  - type: textarea
+    id: externalSource
+    attributes:
+      label: Links to external sources
+      description: If you have any external info, that can help process this issue
+      render: CSS
+      value: |
+        null
+    validations:
+      required: false
+
+  - type: textarea
+    id: logs
+    attributes:
+      label: logs from uBlock Origin
+      description: 'Please paste your [uBlock origin](https://github.com/gorhill/uBlock/) logs as table in markdown'
+      value: N/A
+    validations:
+      required: false

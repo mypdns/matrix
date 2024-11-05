@@ -1,0 +1,53 @@
+blank_issues_enabled: false
+#contact_links:
+#  - name: My Privacy DNS Community Support
+#    url: https://kb.mypdns.org/articles/MTX/
+#    about: Please ask your non rules questions here.
+#  - name: AdWare
+#    url: https://kb.mypdns.org/newIssue
+#    about: Report any AdWare domain here
+#  - name: Adult contents
+#    url: https://kb.mypdns.org/newIssue
+#    about: Please report adult contents here.
+#  - name: Block DNS Server
+#    url: https://kb.mypdns.org/newIssue
+#    about: If you have found a DNS Server that is only is used for bad things or maybe only used for hosting domains in adult material
+#  - name: Gambling
+#    url: https://kb.mypdns.org/newIssue
+#    about: Report any gambling related domains
+#  - name: Hijacked / Pirated / Sharked
+#    url: https://kb.mypdns.org/newIssue
+#    about: Report any Hijacked or Pirated domain here.
+#  - name: IP Blocking
+#    url: https://kb.mypdns.org/newIssue
+#    about: If you would like to report IP Blocking addresses to be blocked.Report by CIDR range (/xx).
+#  - name: Malicious
+#    url: https://kb.mypdns.org/newIssue
+#    about: Report any Malicious domains here
+#  - name: Phishing
+#    url: https://kb.mypdns.org/newIssue
+#    about: Report any phishing domains here
+#  - name: Phishing Uri's
+#    url: https://github.com/mitchellkrogza/phishing/blob/main/add-link
+#    about: Report any phishing uri's here
+#  - name: Redirecting
+#    url: https://kb.mypdns.org/newIssue
+#    about: Any domains used explicit to redirect urls, Typically used as AdWare and Tracking at the same time
+#  - name: Scam / Spam
+#    url: https://kb.mypdns.org/newIssue
+#    about: Any domain arises from spam or domain used for scamming like pretending to be a Microsoft supporter who have called you, claiming you have a lot of issues with your installation
+#  - name: SpyWare
+#    url: https://kb.mypdns.org/newIssue
+#    about: Report any kind of SpyWare here. SpyWare is a weird classification, TrackWare actually also is SpyWare and SpyWare is used for Tracking you.. The definition is therefore SpyWare is unwanted Tracking installed by software. E.g. Google OS, 360totalsecurity, Avast
+#  - name: Tracking
+#    url: https://kb.mypdns.org/newIssue
+#    about: Report any domain used for Tracking
+#  - name: Typo Squatting
+#    url: https://kb.mypdns.org/newIssue
+#    about: Typo Squatting or Cyber Squatting domains
+#  - name: White list / Record removal
+#    url: https://kb.mypdns.org/newIssue
+#    about: You have a seriously good reason to get this domain whitelisted
+#  - name: Other issues
+#    url: https://kb.mypdns.org/newIssue
+#    about: If you have a issue or found a bug this is the place.

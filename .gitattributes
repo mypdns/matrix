@@ -1,0 +1,20 @@
+* text=lf working-tree-encoding=UTF-8
+
+# Normalize hosts files into LF UTF-8 style
+**hosts text eol=lf working-tree-encoding=UTF-8
+
+# Normalize special cases to LF
+*.csv text eol=crlf working-tree-encoding=LATIN1
+*.ini text eol=lf working-tree-encoding=UTF-8
+*.json text eol=lf working-tree-encoding=UTF-8
+*.log text eol=lf working-tree-encoding=UTF-8
+*.md text eol=lf working-tree-encoding=UTF-8
+*.sh text eol=lf working-tree-encoding=UTF-8
+*.txt text eol=lf working-tree-encoding=UTF-8
+*.yaml text eol=lf working-tree-encoding=UTF-8
+*.yml text eol=lf working-tree-encoding=UTF-8
+
+# Ensure the non-standard windows understand files ending....
+# PS: Before you comments on this comment... *nix is by far the most used OS
+# EVER!!!
+**_windows_** text eol=crlf working-tree-encoding=LATIN1
