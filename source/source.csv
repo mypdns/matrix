@@ -10,8 +10,6 @@ https://raw.githubusercontent.com/mypdns/matrix/master/source/source/ip-network-
 /-/raw/master/source/ip-network-blocking/ip4.csv
 https://raw.githubusercontent.com/mypdns/matrix/master/source/source/dns-servers/domains.rpz-nsdname.csv
 /-/raw/master/source/dns-servers/domains.rpz-nsdname.csv
-https://raw.githubusercontent.com/mypdns/matrix/master/source/source/dns-servers/empty_dns.csv
-/-/raw/master/source/dns-servers/empty_dns.csv
 https://raw.githubusercontent.com/mypdns/matrix/master/source/source/dns-servers/wildcard.rpz-nsdname.csv
 /-/raw/master/source/dns-servers/wildcard.rpz-nsdname.csv
 https://raw.githubusercontent.com/mypdns/matrix/master/source/source/dns-servers/rpz-ip.csv
