@@ -14,10 +14,10 @@ if [ "$(whoami)" != "root" ]; then
     exit 1
 fi
 
-# To have this running on CI, will have to make sure all nessesary
+# To have this running on CI, will have to make sure all necessary
 # packages is installed
 
-# install apt pakage manement system
+# install apt package management system
 # Install needed packages
 export DEBIAN_FRONTEND=noninteractive
 bash -c "$(curl -sL https://raw.githubusercontent.com/ilikenwf/apt-fast/master/quick-install.sh)"

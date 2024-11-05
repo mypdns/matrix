@@ -12,8 +12,10 @@ cd "$GIT_GIR" || exit
 
 # for i in
  find source/ -type f -name "*.csv" | while IFS= read -r i; do
-    echo "https://raw.githubusercontent.com/mypdns/matrix/master/source/$i" | sort -u >>"$GIT_GIR/source/source.csv"
-    echo "$CI_PROJECT_URL/-/raw/master/$i" | sort -u >>"$GIT_GIR/source/source.csv"
+    echo "https://raw.githubusercontent.com/mypdns/matrix/master/source/$i" \
+        | sort -u >>"$GIT_GIR/source/source.csv"
+    # echo "$CI_PROJECT_URL/-/raw/master/$i" | sort -u
+    # >>"$GIT_GIR/source/source.csv"
 done
 
 ls -lh "$GIT_GIR/source/"
