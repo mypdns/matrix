@@ -1,0 +1,3 @@
+pyfunceble-dev>=4.2.4.dev
+wheel
+mypdns

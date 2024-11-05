@@ -1,0 +1,78 @@
+name: My Privacy DNS's Sort source lists
+
+on:
+  push:
+    branches:
+      - 'master'
+    # schedule:
+    #   - cron: '10 * * * *'
+
+env:
+  GIT_NAME: '${{ secrets.GIT_NAME }}'
+  GIT_EMAIL: '${{ secrets.GIT_EMAIL }}'
+  GITHUB_TOKEN: '${{ secrets.GITHUB_TOKEN }}'
+
+jobs:
+  scheduler:
+    name: Trigger action
+    runs-on: '${{ matrix.os }}'
+
+    strategy:
+      fail-fast: false
+      matrix:
+        python_version:
+          - '3.12'
+        os:
+          - ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@main # Yet another american...
+        name: Clone repository
+        with:
+          token: '${{ secrets.GITHUB_TOKEN }}'
+
+      - name: Install requirements
+        run: |
+          sudo bash "${{ github.workspace }}/scripts/dependencies.sh"
+
+      - name: Install MyPDNS
+        run: |
+          pip install --no-cache-dir mypdns
+
+      - name: Create source.csv list
+        run: |
+          bash "${{ github.workspace }}/scripts/update_active_lists.sh"
+
+      #      - name: 'Sort our lists for doublets and order by alphabet'
+      #        run: sh "${{ github.workspace }}/tools/domain-list-sort.sh
+
+      - name: 'Sort our rpz-nsdname for doublets and order by alphabet'
+        run: |
+          cd "${{ github.workspace }}"
+          find source/ -type f -name '*.rpz-nsdname' \
+          -exec bash -c "sort -i -u -f '{}' -o '{}'" \;
+
+      - name: 'import ShadowWhisperer'
+        continue-on-error: true
+        run: |
+          curl "https://raw.githubusercontent.com/ShadowWhisperer/BlockLists/master/RAW/Adult" \
+            -o "${{ github.workspace }}/source/porn_filters/imported/adult.ShadowWhisperer"
+
+      - name: Git Status
+        run: git status
+
+      - name: Commit changes
+        continue-on-error: true
+        run: |
+          tag=$(date +'day: %j of year %Y %H:%M:%S')
+          git config --local user.email "$GIT_EMAIL"
+          git config --local user.name "$GIT_NAME"
+          git commit -m "Committed new lists $tag" -a
+          git pull --rebase
+
+      - name: Push changes
+        continue-on-error: true
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          branch: ${{ github.ref }}

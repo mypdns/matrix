@@ -1,0 +1,20 @@
+name: My Privacy DNS Final new line
+on:
+  pull_request:
+    types: [ synchronize, opened ]
+
+env:
+  GIT_NAME: "${{ secrets.GIT_NAME }}"
+  GIT_EMAIL: "${{ secrets.GIT_EMAIL }}"
+  GITHUB_TOKEN: "${{ secrets.GITHUB_TOKEN }}"
+
+jobs:
+  build:
+    name: New line
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@master
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }} # The `GITHUB_TOKEN` secret.
+          config-path: .github/newline.yml # The path of the additional configurations file.
+          autoCommit: true
