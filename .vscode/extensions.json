@@ -1,0 +1,13 @@
+{
+    "recommendations": [
+        "mhutchie.git-graph",
+        "adguard.adblock",
+        "streetsidesoftware.code-spell-checker",
+        "minherz.copyright-inserter",
+        "remimarche.cspell-tech",
+        "yzhang.markdown-all-in-one",
+        "davidanson.vscode-markdownlint",
+        "timonwong.shellcheck",
+        "tyriar.sort-lines"
+    ]
+}

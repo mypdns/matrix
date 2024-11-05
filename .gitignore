@@ -203,3 +203,4 @@ tags
 **/.ssh/id_*
 **/.ssh/*_id_*
 **/.ssh/known_hosts
+/scripts/write_rpz.sh
