@@ -36,4 +36,4 @@ IDN homograph attacks blend technical exploitation with social engineering, rely
 
 Efforts to mitigate IDN homograph attacks include browser security updates, technical measures like script restriction in domain names, and public awareness to increase caution among users when entering personal information online.
 
-> source: https://kb.mypdns.org/articles/IDN-Homograph-Attacks
+> source: https://kb.mypdns.org/articles/MTX-A-88
