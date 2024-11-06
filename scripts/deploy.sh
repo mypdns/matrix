@@ -4,7 +4,7 @@
 set -e -u
 
 # Make sure we are in the projects root folder
-cd $CI_PROJECT_DIR
+cd "$CI_PROJECT_DIR"
 
 # Change GIT upstream from git to https
 # git remote set-url origin https://mypdns:$MypDNS_CI@gitlab.com/$CI_PROJECT_PATH.git
@@ -12,7 +12,7 @@ cd $CI_PROJECT_DIR
 git add .
 git status
 git commit -am 'Auto committed from the CI runner [skip ci]'
-git push -u origin ${CI_COMMIT_REF_NAME}
+git push -u origin "${CI_COMMIT_REF_NAME}"
 
 printf "\n\nPushed to Repository\n\n"
 
