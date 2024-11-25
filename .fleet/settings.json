@@ -1,0 +1,37 @@
+{
+    "excluded": [
+        ".idea/",
+        ".teamcity/",
+        ".vscode/",
+        ".pyfunceble/"
+    ],
+    "editor.guides": [
+        72,
+        80
+    ],
+    "editor.formatOnSave": true,
+    "prettier.mode": "Auto",
+    "prettier.applicableFilesGlob": "{**/*,*}.{js,ts,jsx,tsx,bash.sh,json}",
+    "plugins": [
+        {
+            "type": "add",
+            "pluginName": "fleet.prettier"
+        },
+        {
+            "type": "add",
+            "pluginName": "fleet.yaml"
+        },
+        {
+            "type": "add",
+            "pluginName": "fleet.git.frontend"
+        },
+        {
+            "type": "add",
+            "pluginName": "fleet.json"
+        },
+        {
+            "type": "add",
+            "pluginName": "fleet.markdown"
+        }
+    ]
+}
