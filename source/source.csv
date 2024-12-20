@@ -96,6 +96,8 @@ https://raw.githubusercontent.com/mypdns/matrix/master/source/source/adware/wild
 https://raw.githubusercontent.com/mypdns/matrix/master/source/source/adware/domains.csv
 https://raw.githubusercontent.com/mypdns/matrix/master/source/source/adware/wildcard.rpz-nsdname.csv
 https://raw.githubusercontent.com/mypdns/matrix/master/source/source/adware/rpz-ip.csv
+https://raw.githubusercontent.com/mypdns/matrix/master/source/source/alphabet/wildcard.csv
+https://raw.githubusercontent.com/mypdns/matrix/master/source/source/alphabet/wildcard.rpz-nsdname.csv
 https://raw.githubusercontent.com/mypdns/matrix/master/source/source/spyware/tld.csv
 https://raw.githubusercontent.com/mypdns/matrix/master/source/source/spyware/onions.csv
 https://raw.githubusercontent.com/mypdns/matrix/master/source/source/spyware/wildcard.csv
