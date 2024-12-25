@@ -1,4 +1,4 @@
-name: My Privacy DNS's Sort source lists
+name: Import third party lists | My Privacy DNS
 
 on:
   schedule:

@@ -1,4 +1,4 @@
-name: My Privacy DNS Record test
+name: Availability test | My Privacy DNS
 on:
   push:
     branches:

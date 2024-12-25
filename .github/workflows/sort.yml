@@ -1,4 +1,4 @@
-name: Sort datasets
+name: Sort source lists | My Privacy DNS
 on:
   push:
   pull_request:
