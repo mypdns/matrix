@@ -12,7 +12,7 @@ if [ -d "$GIT_DIR" ]; then
         echo "Print working directory: $PWD"
         echo
     else
-        echo "There this is not a git repo. Exiting"
+        echo "This is not a git repo. Exiting"
         exit 1
     fi
 
