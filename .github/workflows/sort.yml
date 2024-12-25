@@ -27,7 +27,7 @@ jobs:
         with:
           token: '${{ secrets.GITHUB_TOKEN }}'
 
-      - name: Install MyPDNS
+      - name: Install My Privacy DNS python module
         run: |
           pip install --no-cache-dir -r "${{ github.workspace }}/requirements.txt"
 
