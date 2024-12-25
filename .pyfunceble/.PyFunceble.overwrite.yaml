@@ -1,0 +1,99 @@
+cli_decoding:
+  adblock: false
+  aggressive: false
+  rpz: false
+  wildcard: false
+cli_testing:
+  autocontinue: true
+  chancy_tester: false
+  ci:
+    active: true
+    branch: data-testing
+    command: null
+    commit_message: My Privacy DNS - AutoSave
+    distribution_branch: master
+    end_command: null
+    end_commit_message: My Privacy DNS - Results
+    max_exec_minutes: 25
+  cidr_expand: false
+  complements: false
+  cooldown_time: 0.0
+  days_between:
+    db_clean: 28
+    db_retest: 1
+  db_type: mariadb
+  display_mode:
+    all: false
+    colour: false
+    dots: true
+    execution_time: true
+    less: true
+    max_registrar: 0
+    percentage: true
+    quiet: true
+    registrar: false
+    simple: false
+    status: all
+  file_filter: null
+  file_generation:
+    analytic: true
+    hosts: false
+    merge_output_dirs: false
+    no_file: false
+    plain: true
+    unified_results: false
+  inactive_db: true
+  local_network: false
+  max_workers: null
+  mining: false
+  preload_file: false
+  sorting_mode:
+    hierarchical: true
+    standard: false
+  testing_mode:
+    availability: true
+    platform_contribution: false
+    reputation: false
+    syntax: false
+  whois_db: true
+debug:
+  active: false
+  level: info
+dns:
+  delay: 0.0
+  follow_server_order: false
+  protocol: TLS
+  server:
+    - 'tls://dns10.quad9.net'
+    - 'anycast.censurfridns.dk:853'
+    - 'unicast.censurfridns.dk:853'
+  trust_server: true
+lookup:
+  dns: true
+  http_status_code: true
+  netinfo: true
+  platform: false
+  reputation: false
+  special: true
+  timeout: 5
+  whois: true
+max_http_retries: 2
+platform:
+  checker_exclude:
+    - reputation
+  checker_priority:
+    - availability
+    - syntax
+  preferred_status_origin: recommended
+  push: true
+proxy:
+  global:
+    http: null
+    https: null
+  rules: []
+share_logs: false
+user_agent:
+  browser: firefox
+  custom: null
+  platform: linux
+verify_ssl_certificate: false
