@@ -21,7 +21,7 @@ jobs:
       fail-fast: false
       matrix:
         python_version:
-          - '3.12'
+          - '3.13'
         os:
           - ubuntu-latest
 
@@ -43,14 +43,14 @@ jobs:
         run: |
           bash "${{ github.workspace }}/scripts/update_active_lists.sh"
 
-      #      - name: 'Sort our lists for doublets and order by alphabet'
-      #        run: sh "${{ github.workspace }}/tools/domain-list-sort.sh
+      - name: 'Sort our lists for doublets and order by alphabet'
+        run: sh "${{ github.workspace }}/tools/sort_lists.sh"
 
-      - name: 'Sort our rpz-nsdname for doublets and order by alphabet'
-        run: |
-          cd "${{ github.workspace }}"
-          find source/ -type f -name '*.rpz-nsdname' \
-          -exec bash -c "sort -i -u -f '{}' -o '{}'" \;
+      # - name: 'Sort our rpz-nsdname for doublets and order by alphabet'
+      #   run: |
+      #     cd "${{ github.workspace }}"
+      #     find source/ -type f -name '*.rpz-nsdname' \
+      #     -exec bash -c "sort -i -u -f '{}' -o '{}'" \;
 
       - name: 'import ShadowWhisperer'
         continue-on-error: true
