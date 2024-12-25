@@ -6,6 +6,9 @@
 GIT_DIR="$(git rev-parse --show-toplevel)"
 
 if [ -d "$GIT_DIR" ]; then
+    echo "${GIT_DIR}/source/"
+    echo "${GIT_DIR}"/source/
+
     cd "${GIT_DIR}/source/" || echo "There this is not a git repo. Exiting" && exit 1
 
     ALPHABETICALLY=(
