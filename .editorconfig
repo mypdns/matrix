@@ -19,5 +19,4 @@ indent_size = 2
 tab_width   = 2
 
 [*.csv]
-end_of_line = CRLF
 charset     = latin1
