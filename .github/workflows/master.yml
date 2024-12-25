@@ -44,7 +44,7 @@ jobs:
           bash "${{ github.workspace }}/scripts/update_active_lists.sh"
 
       - name: 'Sort our lists for doublets and order by alphabet'
-        run: sh "${{ github.workspace }}/tools/sort_lists.sh"
+        run: bash "${{ github.workspace }}/tools/sort_lists.sh"
 
       # - name: 'Sort our rpz-nsdname for doublets and order by alphabet'
       #   run: |
