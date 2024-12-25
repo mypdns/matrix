@@ -46,9 +46,14 @@ jobs:
           git commit -a -m "Committed new lists $tag"
           git pull --rebase
 
-      - name: Push changes
-        continue-on-error: true
-        uses: ad-m/github-push-action@master
+      #      - name: Push changes
+      #        continue-on-error: true
+      #        uses: ad-m/github-push-action@master
+      #        with:
+      #          github_token: ${{ secrets.GITHUB_TOKEN }}
+      #          branch: ${{ github.ref }}
+
+      - name: Commit all changed files back to the repository
+        uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          branch: ${{ github.ref }}
+          commit_message: Sorted the lists
