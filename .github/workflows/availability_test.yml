@@ -13,6 +13,10 @@ env:
   PYFUNCEBLE_OUTPUT_LOCATION: '${{ github.workspace }}/.pyfunceble'
   PYFUNCEBLE_PLATFORM_API_TOKEN: '${{ secrets.PYFUNCEBLE_PLATFORM_API_TOKEN }}'
   PYFUNCEBLE_PLATFORM_API_URL: '${{ secrets.PYFUNCEBLE_PLATFORM_API_URL }}'
+  # Define the branch PyFunceble has to use while working.
+  GIT_BRANCH: data-testing
+  # Define the branch PyFunceble will push the final result into.
+  GIT_DISTRIBUTION_BRANCH: master
   PYFUNCEBLE_DB_CHARSET: 'utf8mb4'
   PYFUNCEBLE_DB_HOST: '${{ secrets.MYPDNS_DB_HOST }}'
   PYFUNCEBLE_DB_NAME: '${{ secrets.MYPDNS_DB_NAME }}'
@@ -38,13 +42,13 @@ jobs:
           - ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v4.1.7
+      - uses: actions/checkout@v4
         name: Clone repository
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Set up Python ${{ matrix.python_version }}
-        uses: actions/setup-python@v5.1.0
+        uses: actions/setup-python@v5
         with:
           python-version: ${{ matrix.python_version }}
 
@@ -59,7 +63,6 @@ jobs:
 
       - name: Run Domain tests
         run: |
-          # echo "$(date +'%s')" > "${{ github.workspace }}/.trigger"
           pyfunceble -f "${{ github.workspace }}/source/adware/domains.csv" \
           "${{ github.workspace }}/source/adware/onions.csv" \
           "${{ github.workspace }}/source/adware/rpz-ip.csv" \
