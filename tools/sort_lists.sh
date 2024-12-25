@@ -6,8 +6,7 @@
 GIT_DIR="$(git rev-parse --show-toplevel)"
 
 if [ -d "$GIT_DIR" ]; then
-    cd "${GIT_DIR}/source/" || echo "There this is not a git repo. Exiting" &&
-        exit 1
+    cd "${GIT_DIR}/source/" || echo "There this is not a git repo. Exiting" && exit 1
 
     ALPHABETICALLY=(
         "adware/tld.csv"
