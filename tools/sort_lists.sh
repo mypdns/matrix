@@ -9,7 +9,7 @@ if [ -d "$GIT_DIR" ]; then
     echo "${GIT_DIR}/source/"
     echo "${GIT_DIR}"/source/
 
-    cd "${GIT_DIR}" || echo "There this is not a git repo. Exiting" && exit 1
+    # cd "${GIT_DIR}" || echo "There this is not a git repo. Exiting" && exit 1
     cd "./source/" || echo "There this is no source dir. Exiting" && exit 2
 
     ALPHABETICALLY=(
