@@ -103,7 +103,7 @@ jobs:
           "${{ github.workspace }}/source/phishing/rpz-ip.csv" \
           "${{ github.workspace }}/source/phishing/wildcard.csv" \
           "${{ github.workspace }}/source/phishing/wildcard.rpz-nsdname.csv" \
-          "${{ github.workspace }}/source/pirated/domain.rpz-nsdname.csv" \
+          "${{ github.workspace }}/source/pirated/domains.rpz-nsdname.csv" \
           "${{ github.workspace }}/source/pirated/domains.csv" \
           "${{ github.workspace }}/source/pirated/rpz-ip.csv" \
           "${{ github.workspace }}/source/pirated/wildcard.csv" \
