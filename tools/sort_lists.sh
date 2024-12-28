@@ -174,11 +174,10 @@ if [ -d "$GIT_DIR" ]; then
     )
 
     for ((h = 0; h < ${#HIERARCHICALLY[@]}; h++)); do
-        python3 "$GIT_DIR/tools/domain-sort.py" <"${HIERARCHICALLY[$h]}" \
-            >"${HIERARCHICALLY[$h]}.tmp" &&
+        sort -u --parallel="$(nproc --ignore=1)" "${HIERARCHICALLY[$h]}" | \
+        python3 "$GIT_DIR/tools/domain-sort.py" >"${HIERARCHICALLY[$h]}.tmp" &&
             sed "/^$/d" "${HIERARCHICALLY[$h]}.tmp" \
                 >"${HIERARCHICALLY[$h]}"
-
         echo "Sorting: ${HIERARCHICALLY[$h]}"
     done
 
