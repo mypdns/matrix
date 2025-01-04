@@ -39,7 +39,7 @@ body:
   - type: textarea
     id: hostsRecords
     attributes:
-      label: Hosts (RFC:953) specific records, not used by DNS RPZ firewalls
+      label: Hosts (RFC:952) specific records, not used by DNS RPZ firewalls
       description: |
         Also tell us, what subdomains are required for RFC:952 and RFC:953 - (comma separated CSV with pipes)
       placeholder: |
@@ -51,9 +51,9 @@ body:
   - type: textarea
     id: safeSearch
     attributes:
-      label: SeafeSearch records
+      label: SafeSearch records
       description: |
-        List of A/CNAME records that can be used for safesearch
+        List of A/CNAME records that can be used for safe-search
       placeholder: |
         example.com     CNAME safe.example.com
         example.com     A     IP
@@ -71,10 +71,9 @@ body:
       placeholder: |
         "![Screenshot of example.com](img-src)"
         **INFO**: You can copy paste images directly into this field.
-        **INFO**: There need to be at least one blank line separating before
-                and after the image line
+        **INFO**: There need to be at least one blank line separating before and after the image line
       value: |
-        <details><summary>Screenshot</summary>
+        <details><summary>Screenshot, click to expand</summary>
 
 
         </details>
