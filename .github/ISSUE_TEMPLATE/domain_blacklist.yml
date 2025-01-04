@@ -51,7 +51,7 @@ body:
   - type: textarea
     id: safeSearch
     attributes:
-      label: SafeSearch records
+      label: Safe Search records
       description: |
         List of A/CNAME records that can be used for safe-search
       placeholder: |
