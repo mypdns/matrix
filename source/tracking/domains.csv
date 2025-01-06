@@ -2810,7 +2810,14 @@ app-dat.kingofthecurve.org
 stats.lineageos.org
 seniorliving.liveatwhitestone.org
 marketing.middlemarketcenter.org
+affiliates-cdn.mozilla.org
 crash-stats.mozilla.org
+donate.mozilla.org
+download-stats.mozilla.org
+geo.mozilla.org
+hang-reports.mozilla.org
+email.remote-settings.mozilla.org
+reporter.mozilla.org
 telemetry-coverage.mozilla.org
 marketing.mrcaff.org
 tiny.oldsouth.org
@@ -3060,10 +3067,3 @@ tx.cdnjs.work
 stats.extreme-down.work
 adlinkfly.mightyscripts.xyz
 short.swurl.xyz
-affiliates-cdn.mozilla.org
-donate.mozilla.org
-download-stats.mozilla.org
-email.remote-settings.mozilla.org
-geo.mozilla.org
-hang-reports.mozilla.org
-reporter.mozilla.org
