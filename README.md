@@ -187,11 +187,11 @@ goes right) be updated by `push on commit`
 | Matrix          | `https://gitlab.com/my-privacy-dns/matrix/matrix`          |                  push |
 | Matrix          | `https://notabug.org/my-privacy-dns/matrix`                |                  pull |
 
-<!-- [AdWare]: https://kb.mypdns.org/issues?q=project:%20Matrix/new?issuable_template=AdWare "Issue template to commit adserver domains" -->
+[//]: # ([AdWare]: https://kb.mypdns.org/issues?q=project:%20Matrix/new?issuable_template=AdWare "Issue template to commit adserver domains")
 
 [Bulk-commits]: https://kb.mypdns.org/articles/MTX/Contributing#bulk-commits
 
-<!-- [CryptoMiners]: https://kb.mypdns.org/issues?q=project:%20Matrix/new?issuable_template=CryptoMiner "Issue template to commit Crypto miners"
+[//]: # ([CryptoMiners]: https://kb.mypdns.org/issues?q=project:%20Matrix/new?issuable_template=CryptoMiner "Issue template to commit Crypto miners")
 
 [DNS-Server]: https://kb.mypdns.org/issues?q=project:%20Matrix/new?issuable_template=DNS%20Server "Issue template to commit For blacklisting at the DNS level"
 
