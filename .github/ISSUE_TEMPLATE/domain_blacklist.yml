@@ -91,6 +91,17 @@ body:
     validations:
       required: false
 
+  - tyoe: textarea
+    id: nameServers
+    attributes:
+      label: Name servers
+      description: Please add any know DNS server here. These are used for research.
+      placeholder: |
+        ns1.example.com
+        ns2.example.com
+      value: null
+      render: text
+
   - type: textarea
     id: logs
     attributes:
