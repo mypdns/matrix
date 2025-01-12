@@ -87,7 +87,6 @@ body:
       description: If you have any external info, that can help process this issue
       value: |
         null
-      render: text
     validations:
       required: false
 
