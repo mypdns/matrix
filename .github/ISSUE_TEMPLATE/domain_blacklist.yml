@@ -90,7 +90,7 @@ body:
     validations:
       required: false
 
-  - tyoe: textarea
+  - type: textarea
     id: nameServers
     attributes:
       label: Name servers
@@ -98,7 +98,8 @@ body:
       placeholder: |
         ns1.example.com
         ns2.example.com
-      value: null
+      value: |
+        null
       render: text
 
   - type: textarea
