@@ -26,8 +26,11 @@ monitor.firefox.com
 chrome.google.com
 edu.google.com
 www3.l.google.com
+embeddedassistant.googleapis.com
 maps.googleapis.com
 phonedeviceverification-pa.googleapis.com
+speech.googleapis.com
+storage.googleapis.com
 maps.gstatic.com
 telemetry.microsoft.com
 t.paypal.com
@@ -49,6 +52,3 @@ thestar.serveblog.net
 one.one.one.one
 byfleur.myftp.org
 prod.de.tbs.toys
-speech.googleapis.com
-embeddedassistant.googleapis.com
-storage.googleapis.com
