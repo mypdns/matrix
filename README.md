@@ -213,21 +213,31 @@ goes right) be updated by `push on commit`
 
 [Removal]: #faq "Read the F.A.Q. *BEFORE* you proceed!"
 
-[Removals]: https://kb.mypdns.org/issues?q=project:%20Matrix/new?issuable_template=False%20Positive "False Positive or removal of domains" -->
+[Removals]: https://kb.mypdns.org/issues?q=project:%20Matrix/new?issuable_template=False%20Positive "False Positive or removal of domains"
 
 [RFC953]: https://www.rfc-editor.org/rfc/rfc953 "This RFC is the official specification of the Hostname Server Protocol."
 
-<!-- [Scamming]: https://kb.mypdns.org/issues?q=project:%20Matrix/new?issuable_template=Scamming "Issue template to commit Scamming sites"
+[//]: # ([Scamming]: https://kb.mypdns.org/issues?q=project:%20Matrix/new?issuable_template=Scamming "Issue template to commit Scamming sites")
 
-[Spam]: https://kb.mypdns.org/issues?q=project:%20Matrix/new?issuable_template=Spam "Issue template to commit Spam records"
+[//]: # ()
 
-[Spyware]: https://kb.mypdns.org/issues?q=project:%20Matrix/new?issuable_template=Spyware "Issue template to commit Spyware domains"
+[//]: # ([Spam]: https://kb.mypdns.org/issues?q=project:%20Matrix/new?issuable_template=Spam "Issue template to commit Spam records")
 
-[Tracking]: https://kb.mypdns.org/issues?q=project:%20Matrix/new?issuable_template=Tracking "Issue template to commit Tracking records"
+[//]: # ()
 
-[TypoSquatting]: https://kb.mypdns.org/issues?q=project:%20Matrix/new?issuable_template=Typo%20Squatting "Issue template to commit Typo Squatting"
+[//]: # ([Spyware]: https://kb.mypdns.org/issues?q=project:%20Matrix/new?issuable_template=Spyware "Issue template to commit Spyware domains")
 
-[Whitelist]: https://kb.mypdns.org/issues?q=project:%20Matrix/new?issuable_template=Whitelist -->
+[//]: # ()
+
+[//]: # ([Tracking]: https://kb.mypdns.org/issues?q=project:%20Matrix/new?issuable_template=Tracking "Issue template to commit Tracking records")
+
+[//]: # ()
+
+[//]: # ([TypoSquatting]: https://kb.mypdns.org/issues?q=project:%20Matrix/new?issuable_template=Typo%20Squatting "Issue template to commit Typo Squatting")
+
+[//]: # ()
+
+[//]: # ([Whitelist]: https://kb.mypdns.org/issues?q=project:%20Matrix/new?issuable_template=Whitelist )
 
 [RPZ]: https://kb.mypdns.org/articles/MTX/RPZ "Response Policy Zone"
 

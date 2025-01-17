@@ -32,6 +32,6 @@
 
 ### About LICENCE
 
-Public released Work in this folder, and it's subfolder, are released LICENCEd
+Public released Work in this folder, and it's subfolder, are released LICENCE
 under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0
 International, this does not apply to any higher folder in this hierarchy.
