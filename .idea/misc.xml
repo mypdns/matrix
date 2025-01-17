@@ -6,4 +6,8 @@
   <component name="ProjectRootManager" version="2" languageLevel="JDK_22" project-jdk-name="Python 3.12" project-jdk-type="Python SDK">
     <output url="file://$PROJECT_DIR$/out" />
   </component>
+  <component name="TaskProjectConfiguration">
+    <server type="YouTrack" url="https://mypdns.youtrack.cloud" />
+    <server type="GitHub" url="https://github.com" />
+  </component>
 </project>
