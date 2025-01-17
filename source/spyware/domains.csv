@@ -26,8 +26,6 @@ monitor.firefox.com
 chrome.google.com
 edu.google.com
 www3.l.google.com
-deviceintegritytokens-pa.googleapis.com
-firebaseinstallations.googleapis.com
 maps.googleapis.com
 phonedeviceverification-pa.googleapis.com
 maps.gstatic.com
@@ -52,3 +50,5 @@ one.one.one.one
 byfleur.myftp.org
 prod.de.tbs.toys
 speech.googleapis.com
+embeddedassistant.googleapis.com
+storage.googleapis.com
