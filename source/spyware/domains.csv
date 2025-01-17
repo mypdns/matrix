@@ -32,6 +32,7 @@ phonedeviceverification-pa.googleapis.com
 speech.googleapis.com
 storage.googleapis.com
 maps.gstatic.com
+metric.gstatic.com
 telemetry.microsoft.com
 t.paypal.com
 analytics.tiktok.com
@@ -52,7 +53,3 @@ thestar.serveblog.net
 one.one.one.one
 byfleur.myftp.org
 prod.de.tbs.toys
-speech.googleapis.com
-embeddedassistant.googleapis.com
-storage.googleapis.com
-metric.gstatic.com
