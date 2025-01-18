@@ -110,7 +110,7 @@ def remove_duplicates(lines):
 def test_domain_with_pyfunceble(domain):
     try:
         PyFunceble.load_config(custom=True, config={"cli_testing": False, "file_generation": False, "quiet": True, "logging_level": "critical"})
-        result = PyFunceble.check(domain)
+        result = PyFunceble.DomainAvailability(domain).availability()
         return result["status"]
     except Exception as e:
         print(f"Error testing domain {domain}: {e}")
