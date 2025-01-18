@@ -11,7 +11,7 @@ from subprocess import check_output
 import requests
 import idna  # For IDN support
 
-VERSION = "0.2b7"  # PEP 440 versioning format for beta release
+VERSION = "0.2b9"  # PEP 440 versioning format for beta release
 
 def find_files_by_name(directory, filenames):
     matches = []
@@ -71,7 +71,7 @@ def is_valid_domain(domain, valid_tlds):
             return False
     regex = re.compile(
         r'^(?:[a-zA-Z0-9_]'  # First character of the domain or subdomain
-        r'(?:[a-zA-Z0-9-_]{0,61}[a-zA-Z0-9_])?\.)'  # Sub domain + hostname
+        r'(?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9_])?\.)'  # Sub domain + hostname
         r'+[a-zA-Z]{2,63}$'  # First level TLD
     )
     return re.match(regex, domain) is not None
@@ -92,9 +92,20 @@ def is_valid_ip_arpa(ip_arpa):
     except ValueError:
         return False
 
+def remove_duplicates(lines):
+    seen = set()
+    unique_lines = []
+    for line in lines:
+        if line not in seen:
+            seen.add(line)
+            unique_lines.append(line)
+    return unique_lines
+
 def sort_file_alphanum(file_path, valid_tlds):
     with open(file_path, 'r') as file:
         lines = file.readlines()
+
+    lines = remove_duplicates(lines)  # Remove duplicate lines
 
     header = lines[0] if lines else ""
     lines = [line for line in lines[1:] if line.strip()]  # Remove empty lines and skip header if present
@@ -117,9 +128,11 @@ def sort_file_alphanum(file_path, valid_tlds):
         file.writelines(lines)
         file.write("")  # Ensure no additional newline
 
-def sort_file_tld(file_path):
+def sort_file_tld(file_path, valid_tlds):
     with open(file_path, 'r') as file:
         lines = file.readlines()
+
+    lines = remove_duplicates(lines)  # Remove duplicate lines
 
     header = lines[0] if lines else ""
     lines = [line for line in lines[1:] if line.strip()]  # Remove empty lines and skip header if present
@@ -146,6 +159,8 @@ def sort_file_rpz_nsdname(file_path, valid_tlds):
     with open(file_path, 'r') as file:
         lines = file.readlines()
 
+    lines = remove_duplicates(lines)  # Remove duplicate lines
+
     header = lines[0] if lines else ""
     lines = [line for line in lines[1:] if line.strip()]  # Remove empty lines and skip header if present
     lines = sorted(lines, key=lambda x: x.strip().split(',')[0] if ',' in x else '')  # Sort FQDNs
@@ -170,6 +185,8 @@ def sort_file_rpz_nsdname(file_path, valid_tlds):
 def sort_file_hierarchical(file_path, valid_tlds):
     with open(file_path, 'r') as file:
         lines = file.readlines()
+
+    lines = remove_duplicates(lines)  # Remove duplicate lines
 
     header = lines[0] if lines else ""
     lines = [line for line in lines[1:] if line.strip()]  # Remove empty lines and skip header if present
@@ -198,9 +215,11 @@ def sort_file_hierarchical(file_path, valid_tlds):
         file.writelines(lines)
         file.write("")  # Ensure no additional newline
 
-def sort_file_onion(file_path):
+def sort_file_onion(file_path, valid_tlds):
     with open(file_path, 'r') as file:
         lines = file.readlines()
+
+    lines = remove_duplicates(lines)  # Remove duplicate lines
 
     header = lines[0] if lines else ""
     lines = [line for line in lines[1:] if line.strip()]  # Remove empty lines and skip header if present
@@ -280,7 +299,7 @@ def main():
 
     for file in target_files_tld:
         if args.force or any(file.endswith(modified) for modified in modified_files):
-            sort_file_tld(file)
+            sort_file_tld(file, valid_tlds)
 
     for file in target_files_rpz_nsdname:
         if args.force or any(file.endswith(modified) for modified in modified_files):
@@ -292,7 +311,7 @@ def main():
 
     for file in target_files_onion:
         if args.force or any(file.endswith(modified) for modified in modified_files):
-            sort_file_onion(file)
+            sort_file_onion(file, valid_tlds)
 
     # Skip checking for IP addresses in specific files
     for file in target_files_ip:
