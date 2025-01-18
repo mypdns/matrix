@@ -21,5 +21,3 @@ tab_width   = 2
 # CSV files
 [*.csv]
 end_of_line = lf
-
-[*.{py,sh}]
