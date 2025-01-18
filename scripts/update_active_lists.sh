@@ -11,8 +11,8 @@ truncate -s 0 "$GIT_GIR/source/source.csv"
 cd "$GIT_GIR" || exit
 
 find source/ -type f -name "*.csv" | \
--ecex -P4 -I {} echo "https://raw.githubusercontent.com/mypdns/matrix/master/{}" \
->> "$GIT_GIR/source/source.csv"
+    -ecex -P4 -I {} echo "https://raw.githubusercontent.com/mypdns/matrix/master/{}" \
+    >> "$GIT_GIR/source/source.csv"
 
 sort -u "$GIT_GIR/source/source.csv" -o "$GIT_GIR/source/source.csv"
 
