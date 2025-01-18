@@ -92,7 +92,7 @@ fn sort_file_alphanum(file_path: &str, valid_tlds: &HashSet<String>) {
 }
 
 fn main() {
-    let matches = App::new("Sort Lists")
+    let app = App::new("Sort Lists")
         .version("1.0")
         .author("Your Name <your.email@example.com>")
         .about("Sorts and validates DNS lists")
@@ -129,11 +129,12 @@ fn main() {
                 .long("path")
                 .takes_value(true)
                 .about("Sets the path to the source directory")
-        )
-        .get_matches();
+        );
+
+    let matches = app.get_matches();
 
     if matches.is_present("help") {
-        println!("{}", matches.usage());
+        println!("{}", app.render_usage());
         exit(0);
     }
 
