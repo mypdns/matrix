@@ -9,9 +9,14 @@ import re
 import ipaddress
 from subprocess import check_output
 import requests
-import domains2idna  # For IDN support
 
-VERSION = "0.2b11"  # PEP 440 versioning format for beta release
+# Add the directory containing domain2idna to the Python path
+sys.path.append('/home/spirillen/.local/bin')
+
+# Import the domain2idna module
+import domain2idna  # For IDN support
+
+VERSION = "0.2b13"  # PEP 440 versioning format for beta release
 
 def find_files_by_name(directory, filenames):
     matches = []
@@ -59,10 +64,10 @@ def fetch_valid_tlds(proxy):
     return set(tld.lower() for tld in remote_lines if not tld.startswith("#")).union({"onion"})
 
 def is_valid_domain(domain, valid_tlds):
-    # Convert IDN to ASCII using domains2idna
+    # Convert IDN to ASCII using domain2idna
     try:
-        domain = domains2idna.to_ascii(domain)
-    except domains2idna.IDNAError:
+        domain = domain2idna.domain2idna(domain)
+    except Exception as e:
         return False
 
     if "." in domain:
