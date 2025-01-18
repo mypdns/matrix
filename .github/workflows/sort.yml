@@ -27,8 +27,8 @@ jobs:
 
       - name: Run Fates Script
         run: |
-          sudo apt-get install -y fates
-          fates tools/sort_lists.fates
+          #          sudo apt-get install -y fates
+               fates tools/sort_lists.py
 
       - name: Configure Git
         run: |
@@ -41,5 +41,5 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           git add .
-          git commit -m "Sorted files in ALPHABETICALLY and HIERARCHICALLY arrays"
+          git commit -m "Sorted files"
           git push
