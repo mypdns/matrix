@@ -10,6 +10,8 @@ import ipaddress
 from subprocess import check_output
 import requests
 import idna
+import dns.resolver
+import dns.query
 
 VERSION = "0.2b16"  # Incremented beta version
 
@@ -98,22 +100,33 @@ def remove_duplicates(lines):
 def validate_idna_domain(domain):
     try:
         # Attempt to encode to IDNA
-        domain_idna = domain.encode('idna').decode('utf-8')
+        domain_idna = idna.encode(domain).decode('utf-8')
         return domain_idna
     except Exception as e:
         print(f"IDNA encoding error for domain {domain}: {e}")
         return None
 
-def test_domain_connectivity(domain):
+def test_domain_connectivity(domain, proxy):
+    proxies = {"http": proxy, "https": proxy} if proxy else None
     try:
-        response = requests.get(f"http://{domain}", timeout=5)
+        response = requests.get(f"http://{domain}", timeout=5, proxies=proxies)
         if response.status_code == 200:
             return True
     except requests.RequestException as e:
         print(f"Connectivity test error for domain {domain}: {e}")
     return False
 
-def sort_file_alphanum(file_path, valid_tlds):
+def dns_lookup(domain):
+    resolver = dns.resolver.Resolver()
+    resolver.nameservers = ['9.9.9.10']  # Quad9 DNS
+    try:
+        resolver.resolve(domain)
+        return True
+    except (dns.resolver.NXDOMAIN, dns.resolver.Timeout, dns.exception.DNSException) as e:
+        print(f"DNS lookup error for domain {domain}: {e}")
+    return False
+
+def sort_file_alphanum(file_path, valid_tlds, proxy):
     with open(file_path, 'r') as file:
         lines = file.readlines()
 
@@ -128,7 +141,7 @@ def sort_file_alphanum(file_path, valid_tlds):
         domain_part = line.strip().split(',')[0]
         if domain_part != "domain" and not (is_valid_domain(domain_part, valid_tlds) or domain_part in valid_tlds):
             domain_idna = validate_idna_domain(domain_part)
-            if domain_idna is None or not test_domain_connectivity(domain_idna):
+            if domain_idna is None or not test_domain_connectivity(domain_idna, proxy) or not dns_lookup(domain_idna):
                 invalid_entries.append(line)
 
     if invalid_entries:
@@ -136,7 +149,7 @@ def sort_file_alphanum(file_path, valid_tlds):
         for entry in invalid_entries:
             print(entry.strip())
 
-def sort_file_tld(file_path, valid_tlds):
+def sort_file_tld(file_path, valid_tlds, proxy):
     with open(file_path, 'r') as file:
         lines = file.readlines()
 
@@ -151,7 +164,7 @@ def sort_file_tld(file_path, valid_tlds):
         domain_part = line.strip().split(',')[0]
         if domain_part != "domain" and not (is_valid_domain(domain_part, valid_tlds) or domain_part in valid_tlds):
             domain_idna = validate_idna_domain(domain_part)
-            if domain_idna is None or not test_domain_connectivity(domain_idna):
+            if domain_idna is None or not test_domain_connectivity(domain_idna, proxy) or not dns_lookup(domain_idna):
                 invalid_entries.append(line)
 
     if invalid_entries:
@@ -159,7 +172,7 @@ def sort_file_tld(file_path, valid_tlds):
         for entry in invalid_entries:
             print(entry.strip())
 
-def sort_file_rpz_nsdname(file_path, valid_tlds):
+def sort_file_rpz_nsdname(file_path, valid_tlds, proxy):
     with open(file_path, 'r') as file:
         lines = file.readlines()
 
@@ -174,7 +187,7 @@ def sort_file_rpz_nsdname(file_path, valid_tlds):
         domain_part = line.strip().split(',')[0]
         if domain_part != "domain" and not (is_valid_domain(domain_part, valid_tlds) or domain_part in valid_tlds):
             domain_idna = validate_idna_domain(domain_part)
-            if domain_idna is None or not test_domain_connectivity(domain_idna):
+            if domain_idna is None or not test_domain_connectivity(domain_idna, proxy) or not dns_lookup(domain_idna):
                 invalid_entries.append(line)
 
     if invalid_entries:
@@ -182,7 +195,7 @@ def sort_file_rpz_nsdname(file_path, valid_tlds):
         for entry in invalid_entries:
             print(entry.strip())
 
-def sort_file_hierarchical(file_path, valid_tlds):
+def sort_file_hierarchical(file_path, valid_tlds, proxy):
     with open(file_path, 'r') as file:
         lines = file.readlines()
 
@@ -199,13 +212,13 @@ def sort_file_hierarchical(file_path, valid_tlds):
             domain, ip_arpa = parts[0], parts[1]
             if domain != "domain" and (not is_valid_domain(domain, valid_tlds) and not is_valid_ip_arpa(ip_arpa)):
                 domain_idna = validate_idna_domain(domain)
-                if domain_idna is None or not test_domain_connectivity(domain_idna):
+                if domain_idna is None or not test_domain_connectivity(domain_idna, proxy) or not dns_lookup(domain_idna):
                     invalid_entries.append(line)
         else:
             domain = parts[0]
             if domain != "domain" and not is_valid_domain(domain, valid_tlds):
                 domain_idna = validate_idna_domain(domain)
-                if domain_idna is None or not test_domain_connectivity(domain_idna):
+                if domain_idna is None or not test_domain_connectivity(domain_idna, proxy) or not dns_lookup(domain_idna):
                     invalid_entries.append(line)
 
     if invalid_entries:
@@ -280,19 +293,19 @@ def main():
 
     for file in target_files_alphanum:
         if args.force or any(file.endswith(modified) for modified in modified_files):
-            sort_file_alphanum(file, valid_tlds)
+            sort_file_alphanum(file, valid_tlds, proxy)
 
     for file in target_files_tld:
         if args.force or any(file.endswith(modified) for modified in modified_files):
-            sort_file_tld(file, valid_tlds)
+            sort_file_tld(file, valid_tlds, proxy)
 
     for file in target_files_rpz_nsdname:
         if args.force or any(file.endswith(modified) for modified in modified_files):
-            sort_file_rpz_nsdname(file, valid_tlds)
+            sort_file_rpz_nsdname(file, valid_tlds, proxy)
 
     for file in target_files_hierarchical:
         if args.force or any(file.endswith(modified) for modified in modified_files):
-            sort_file_hierarchical(file, valid_tlds)
+            sort_file_hierarchical(file, valid_tlds, proxy)
 
     for file in target_files_onion:
         if args.force or any(file.endswith(modified) for modified in modified_files):
