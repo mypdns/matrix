@@ -38,14 +38,14 @@ jobs:
       - name: Upload Rust binary
         uses: actions/upload-artifact@v3
         with:
-          name: sort_lists_rust
-          path: tools/sort_lists_rust
+          name: sort_lists_rs
+          path: tools/sort_lists_project/target/release/sort_lists_project
 
       - name: Upload C++ binary
         uses: actions/upload-artifact@v3
         with:
           name: sort_records_cpp
-          path: tools/sort_records_cpp
+          path: tools/sort_records.cpp
 
       - name: Create GitHub Release
         id: create_release
@@ -64,8 +64,8 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           upload_url: ${{ steps.create_release.outputs.upload_url }}
-          asset_path: tools/sort_lists_rust
-          asset_name: sort_lists_rust
+          asset_path: tools/sort_lists_project/target/release/sort_lists_project
+          asset_name: sort_lists_rs
           asset_content_type: application/octet-stream
 
       - name: Upload C++ binary to release
@@ -74,6 +74,6 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           upload_url: ${{ steps.create_release.outputs.upload_url }}
-          asset_path: tools/sort_records_cpp
+          asset_path: tools/sort_records.cpp
           asset_name: sort_records_cpp
           asset_content_type: application/octet-stream
