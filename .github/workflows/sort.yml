@@ -25,10 +25,21 @@ jobs:
         run: |
           pip install --no-cache-dir -r "${{ github.workspace }}/requirements.txt"
 
-      - name: Sort the lists
+      - name: Check for changes in source folder
+        id: check_changes
         run: |
+          if git diff --name-only HEAD~1 HEAD | grep '^source/'; then
+            echo "changes=true" >> $GITHUB_ENV
+          else
+            echo "changes=false" >> $GITHUB_ENV
+          fi
+
+      - name: Run Fates Script
+        if: env.changes == 'true'
+        continue-on-error: true
+        run: |
+          # sudo apt-get install -y fates
           python3 tools/sort_lists.py
-          continue-on-error: true
 
       - name: Configure Git
         run: |
@@ -37,9 +48,14 @@ jobs:
           git config --global --add safe.directory /github/workspace
 
       - name: Commit changes
+        if: env.changes == 'true'
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          git add .
-          git commit -m "Sorted files"
-          git push
+          if git diff --staged --quiet; then
+            echo "We are good, no changes to the sources"
+          else
+            git add .
+            git commit -m "Sorted files"
+            git push
+          fi
