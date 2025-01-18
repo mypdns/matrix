@@ -81,13 +81,6 @@ if [ -d "$GIT_DIR" ]; then
         "whitelist/wildcard.csv"
     )
 
-    for ((a = 0; a < ${#ALPHABETICALLY[@]}; a++)); do
-        sort -u --parallel="$(nproc --ignore=1)" "${ALPHABETICALLY[$a]}" \
-            -o "${ALPHABETICALLY[$a]}"
-        sed -i "/^$/d" "${ALPHABETICALLY[$a]}"
-        echo "Sorting: ${ALPHABETICALLY[$a]}"
-    done
-
     HIERARCHICALLY=(
         "adware/domains.csv"
         "adware/onions.csv"
@@ -173,14 +166,37 @@ if [ -d "$GIT_DIR" ]; then
         "whitelist/rpz-ip.csv"
     )
 
-    for ((h = 0; h < ${#HIERARCHICALLY[@]}; h++)); do
-        sort -u --parallel="$(nproc --ignore=1)" "${HIERARCHICALLY[$h]}" | \
-        python3 "$GIT_DIR/tools/domain-sort.py" >"${HIERARCHICALLY[$h]}.tmp" &&
-            sed "/^$/d" "${HIERARCHICALLY[$h]}.tmp" \
-                >"${HIERARCHICALLY[$h]}"
-        echo "Sorting: ${HIERARCHICALLY[$h]}"
+    sort_and_commit_file() {
+        local file=$1
+        sort -u --parallel="$(nproc --ignore=1)" "$file" -o "$file"
+        sed -i "/^$/d" "$file"
+        git add "$file"
+        echo "Sorted and staged: $file"
+    }
+
+    sort_hierarchically_and_commit_file() {
+        local file=$1
+        sort -u --parallel="$(nproc --ignore=1)" "$file" | \
+        python3 "$GIT_DIR/tools/domain-sort.py" >"${file}.tmp" &&
+        sed "/^$/d" "${file}.tmp" >"$file"
+        git add "$file"
+        rm "${file}.tmp"
+        echo "Sorted hierarchically and staged: $file"
+    }
+
+    export -f sort_and_commit_file
+    export -f sort_hierarchically_and_commit_file
+
+    # Get the last commit's modified files
+    last_commit_files=$(git diff-tree --no-commit-id --name-only -r HEAD)
+
+    for file in $last_commit_files; do
+        if [[ "${ALPHABETICALLY[*]}" =~ "$file" ]]; then
+            sort_and_commit_file "$file"
+        elif [[ "${HIERARCHICALLY[*]}" =~ "$file" ]]; then
+            sort_hierarchically_and_commit_file "$file"
+        fi
     done
 
-    find "${GIT_DIR}"/source/ -maxdepth 4 -mindepth 1 -type f -iname '*.tmp' -delete
-
+    git commit -m "Sorted files in ALPHABETICALLY and HIERARCHICALLY arrays"
 fi
