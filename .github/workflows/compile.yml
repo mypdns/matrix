@@ -1,0 +1,78 @@
+name: Compile and Release
+
+on:
+  push:
+    branches:
+      - master
+  pull_request:
+    branches:
+      - master
+
+jobs:
+  build:
+    name: Build and Release
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Set up Rust
+        uses: actions-rs/toolchain@v1
+        with:
+          toolchain: stable
+          override: true
+
+      - name: Set up C++
+        run: sudo apt-get install g++-10
+
+      - name: Build Rust script
+        run: |
+          rustc -C opt-level=3 tools/sort_lists.rs -o tools/sort_lists_rust
+
+      - name: Build C++ script
+        run: |
+          g++-10 -std=c++20 -O3 tools/sort_records.cpp -o tools/sort_records_cpp
+
+      - name: Upload Rust binary
+        uses: actions/upload-artifact@v2
+        with:
+          name: sort_lists_rust
+          path: tools/sort_lists_rust
+
+      - name: Upload C++ binary
+        uses: actions/upload-artifact@v2
+        with:
+          name: sort_records_cpp
+          path: tools/sort_records_cpp
+
+      - name: Create GitHub Release
+        id: create_release
+        uses: actions/create-release@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          tag_name: v1.0.0
+          release_name: Release v1.0.0
+          draft: false
+          prerelease: false
+
+      - name: Upload Rust binary to release
+        uses: actions/upload-release-asset@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          upload_url: ${{ steps.create_release.outputs.upload_url }}
+          asset_path: tools/sort_lists_rust
+          asset_name: sort_lists_rust
+          asset_content_type: application/octet-stream
+
+      - name: Upload C++ binary to release
+        uses: actions/upload-release-asset@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          upload_url: ${{ steps.create_release.outputs.upload_url }}
+          asset_path: tools/sort_records_cpp
+          asset_name: sort_records_cpp
+          asset_content_type: application/octet-stream
