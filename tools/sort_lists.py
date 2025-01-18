@@ -30,7 +30,7 @@ def sort_file_alphanum(file_path):
         lines.insert(0, header + "\n")
 
     lines = [line for line in lines if line.strip()]  # Remove empty lines
-    lines = sorted(lines[1:], key=lambda x: x.strip().split(',')[0])  # Sort FQDNs
+    lines = sorted(lines[1:], key=lambda x: x.strip().split(',')[0] if ',' in x else '')  # Sort FQDNs
     lines.insert(0, header + "\n")
 
     with open(file_path, 'w') as file:
@@ -46,7 +46,7 @@ def sort_file_hierarchical(file_path):
         lines.insert(0, header + "\n")
 
     lines = [line for line in lines if line.strip()]  # Remove empty lines
-    lines = sorted(lines[1:], key=lambda x: (x.strip().split(',')[0], x.strip().split(',')[1]))  # Sort FQDNs and CIDR
+    lines = sorted(lines[1:], key=lambda x: (x.strip().split(',')[0], x.strip().split(',')[1] if ',' in x and len(x.strip().split(',')) > 1 else ''))  # Sort FQDNs and CIDR
     lines.insert(0, header + "\n")
 
     with open(file_path, 'w') as file:
