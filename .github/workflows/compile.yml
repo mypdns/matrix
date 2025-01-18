@@ -43,7 +43,7 @@ jobs:
         uses: actions/upload-artifact@v3
         with:
           name: sort_lists_rs
-          path: tools/sort_lists_project/target/release/sort_lists_project
+          path: tools/sort_lists_project/target/release/matrix
 
       - name: Upload C++ binary
         uses: actions/upload-artifact@v3
@@ -71,7 +71,7 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           upload_url: ${{ env.RELEASE_URL }}
-          asset_path: tools/sort_lists_project/target/release/sort_lists_project
+          asset_path: tools/sort_lists_project/target/release/matrix
           asset_name: sort_lists_rs
           asset_content_type: application/octet-stream
 
