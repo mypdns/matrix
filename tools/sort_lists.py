@@ -237,6 +237,22 @@ def sort_file_onion(file_path, valid_tlds):
         file.writelines(lines)
         file.write("")  # Ensure no additional newline
 
+def sort_file_ip(file_path):
+    with open(file_path, 'r') as file:
+        lines = file.readlines()
+
+    lines = remove_duplicates(lines)  # Remove duplicate lines
+
+    header = lines[0] if lines else ""
+    lines = [line for line in lines[1:] if line.strip()]  # Remove empty lines and skip header if present
+    lines = sorted(lines)  # Sort IPs directly
+
+    with open(file_path, 'w') as file:
+        if header:
+            file.write(header)
+        file.writelines(lines)
+        file.write("")  # Ensure no additional newline
+
 def find_tor_browser():
     home_dir = os.path.expanduser("~")
     for root, dirs, files in os.walk(home_dir):
@@ -313,10 +329,9 @@ def main():
         if args.force or any(file.endswith(modified) for modified in modified_files):
             sort_file_onion(file, valid_tlds)
 
-    # Skip checking for IP addresses in specific files
     for file in target_files_ip:
         if args.force or any(file.endswith(modified) for modified in modified_files):
-            pass  # Skipping IP checks for these files
+            sort_file_ip(file)
 
     print("Please consider sponsoring My Privacy DNS at https://www.mypdns.org/donate")
 
