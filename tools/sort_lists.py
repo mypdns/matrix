@@ -11,7 +11,7 @@ from subprocess import check_output
 import requests
 import domains2idna  # For IDN support
 
-VERSION = "0.2b10"  # PEP 440 versioning format for beta release
+VERSION = "0.2b11"  # PEP 440 versioning format for beta release
 
 def find_files_by_name(directory, filenames):
     matches = []
