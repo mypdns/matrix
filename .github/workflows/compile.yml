@@ -60,12 +60,15 @@ jobs:
           draft: false
           prerelease: false
 
+      - name: Set release URL
+        run: echo "RELEASE_URL=${{ steps.create_release.outputs.upload_url }}" >> $GITHUB_ENV
+
       - name: Upload Rust binary to release
         uses: actions/upload-release-asset@v1
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
-          upload_url: ${{ steps.create_release.outputs.upload_url }}
+          upload_url: ${{ env.RELEASE_URL }}
           asset_path: tools/sort_lists_project/target/release/sort_lists_project
           asset_name: sort_lists_rs
           asset_content_type: application/octet-stream
@@ -75,7 +78,7 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
-          upload_url: ${{ steps.create_release.outputs.upload_url }}
+          upload_url: ${{ env.RELEASE_URL }}
           asset_path: tools/sort_records_bin
           asset_name: sort_records_cpp
           asset_content_type: application/octet-stream
