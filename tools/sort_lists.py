@@ -9,6 +9,7 @@ import re
 import ipaddress
 from subprocess import check_output
 import requests
+import idna
 
 VERSION = "0.2b16"  # Incremented beta version
 
@@ -94,6 +95,24 @@ def remove_duplicates(lines):
             unique_lines.append(line)
     return unique_lines
 
+def validate_idna_domain(domain):
+    try:
+        # Attempt to encode to IDNA
+        domain_idna = domain.encode('idna').decode('utf-8')
+        return domain_idna
+    except Exception as e:
+        print(f"IDNA encoding error for domain {domain}: {e}")
+        return None
+
+def test_domain_connectivity(domain):
+    try:
+        response = requests.get(f"http://{domain}", timeout=5)
+        if response.status_code == 200:
+            return True
+    except requests.RequestException as e:
+        print(f"Connectivity test error for domain {domain}: {e}")
+    return False
+
 def sort_file_alphanum(file_path, valid_tlds):
     with open(file_path, 'r') as file:
         lines = file.readlines()
@@ -108,7 +127,9 @@ def sort_file_alphanum(file_path, valid_tlds):
     for line in lines:
         domain_part = line.strip().split(',')[0]
         if domain_part != "domain" and not (is_valid_domain(domain_part, valid_tlds) or domain_part in valid_tlds):
-            invalid_entries.append(line)
+            domain_idna = validate_idna_domain(domain_part)
+            if domain_idna is None or not test_domain_connectivity(domain_idna):
+                invalid_entries.append(line)
 
     if invalid_entries:
         print(f"Invalid DNS entries in {file_path}:")
@@ -129,7 +150,9 @@ def sort_file_tld(file_path, valid_tlds):
     for line in lines:
         domain_part = line.strip().split(',')[0]
         if domain_part != "domain" and not (is_valid_domain(domain_part, valid_tlds) or domain_part in valid_tlds):
-            invalid_entries.append(line)
+            domain_idna = validate_idna_domain(domain_part)
+            if domain_idna is None or not test_domain_connectivity(domain_idna):
+                invalid_entries.append(line)
 
     if invalid_entries:
         print(f"Invalid TLD entries in {file_path}:")
@@ -150,7 +173,9 @@ def sort_file_rpz_nsdname(file_path, valid_tlds):
     for line in lines:
         domain_part = line.strip().split(',')[0]
         if domain_part != "domain" and not (is_valid_domain(domain_part, valid_tlds) or domain_part in valid_tlds):
-            invalid_entries.append(line)
+            domain_idna = validate_idna_domain(domain_part)
+            if domain_idna is None or not test_domain_connectivity(domain_idna):
+                invalid_entries.append(line)
 
     if invalid_entries:
         print(f"Invalid entries in {file_path}:")
@@ -173,11 +198,15 @@ def sort_file_hierarchical(file_path, valid_tlds):
         if len(parts) > 1:
             domain, ip_arpa = parts[0], parts[1]
             if domain != "domain" and (not is_valid_domain(domain, valid_tlds) and not is_valid_ip_arpa(ip_arpa)):
-                invalid_entries.append(line)
+                domain_idna = validate_idna_domain(domain)
+                if domain_idna is None or not test_domain_connectivity(domain_idna):
+                    invalid_entries.append(line)
         else:
             domain = parts[0]
             if domain != "domain" and not is_valid_domain(domain, valid_tlds):
-                invalid_entries.append(line)
+                domain_idna = validate_idna_domain(domain)
+                if domain_idna is None or not test_domain_connectivity(domain_idna):
+                    invalid_entries.append(line)
 
     if invalid_entries:
         print(f"Invalid DNS or IP entries in {file_path}:")
