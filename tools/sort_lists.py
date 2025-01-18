@@ -5,9 +5,12 @@ import sys
 import csv
 import argparse
 import webbrowser
+import re
+import ipaddress
 from subprocess import check_output
+import requests
 
-VERSION = "1.0"
+VERSION = "0.2b1"  # PEP 440 versioning format for beta release
 
 def find_files_by_name(directory, filenames):
     matches = []
@@ -21,6 +24,33 @@ def get_modified_files_in_last_commit():
     output = check_output(["git", "diff", "--name-only", "HEAD~1", "HEAD"]).decode().splitlines()
     return output
 
+def fetch_valid_tlds():
+    response = requests.get("https://data.iana.org/TLD/tlds-alpha-by-domain.txt")
+    tlds = response.text.splitlines()
+    return set(tld.lower() for tld in tlds if not tld.startswith("#"))
+
+VALID_TLDS = fetch_valid_tlds()
+
+def is_valid_domain(domain):
+    if "." in domain:
+        tld = domain.split(".")[-1].lower()
+        if tld not in VALID_TLDS:
+            return False
+    regex = re.compile(
+        r'^(?:[a-zA-Z0-9]'  # First character of the domain
+        r'(?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?\.)'  # Sub domain + hostname
+        r'+[a-zA-Z]{2,6}$'  # First level TLD
+    )
+    return re.match(regex, domain) is not None
+
+def is_valid_ip_arpa(ip_arpa):
+    try:
+        ip = ip_arpa.split('.')[0]
+        ipaddress.ip_network(ip)
+        return True
+    except ValueError:
+        return False
+
 def sort_file_alphanum(file_path):
     with open(file_path, 'r') as file:
         lines = file.readlines()
@@ -32,6 +62,12 @@ def sort_file_alphanum(file_path):
     lines = [line for line in lines if line.strip()]  # Remove empty lines
     lines = sorted(lines[1:], key=lambda x: x.strip().split(',')[0] if ',' in x else '')  # Sort FQDNs
     lines.insert(0, header + "\n")
+
+    invalid_entries = [line for line in lines if not is_valid_domain(line.strip().split(',')[0])]
+    if invalid_entries:
+        print(f"Invalid DNS entries in {file_path}:")
+        for entry in invalid_entries:
+            print(entry.strip())
 
     with open(file_path, 'w') as file:
         file.writelines(lines)
@@ -48,6 +84,23 @@ def sort_file_hierarchical(file_path):
     lines = [line for line in lines if line.strip()]  # Remove empty lines
     lines = sorted(lines[1:], key=lambda x: (x.strip().split(',')[0], x.strip().split(',')[1] if ',' in x and len(x.strip().split(',')) > 1 else ''))  # Sort FQDNs and CIDR
     lines.insert(0, header + "\n")
+
+    invalid_entries = []
+    for line in lines:
+        parts = line.strip().split(',')
+        if len(parts) > 1:
+            domain, ip_arpa = parts[0], parts[1]
+            if not is_valid_domain(domain) or not is_valid_ip_arpa(ip_arpa):
+                invalid_entries.append(line)
+        else:
+            domain = parts[0]
+            if not is_valid_domain(domain):
+                invalid_entries.append(line)
+
+    if invalid_entries:
+        print(f"Invalid DNS or IP entries in {file_path}:")
+        for entry in invalid_entries:
+            print(entry.strip())
 
     with open(file_path, 'w') as file:
         file.writelines(lines)
