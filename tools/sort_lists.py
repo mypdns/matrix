@@ -140,12 +140,6 @@ def sort_file_alphanum(file_path, valid_tlds):
         for entry in invalid_entries:
             print(entry.strip())
 
-    with open(file_path, 'w') as file:
-        if header:
-            file.write(header)
-        file.writelines(lines)
-        file.write("")  # Ensure no additional newline
-
 def sort_file_tld(file_path, valid_tlds):
     with open(file_path, 'r') as file:
         lines = file.readlines()
@@ -171,12 +165,6 @@ def sort_file_tld(file_path, valid_tlds):
         for entry in invalid_entries:
             print(entry.strip())
 
-    with open(file_path, 'w') as file:
-        if header:
-            file.write(header)
-        file.writelines(lines)
-        file.write("")  # Ensure no additional newline
-
 def sort_file_rpz_nsdname(file_path, valid_tlds):
     with open(file_path, 'r') as file:
         lines = file.readlines()
@@ -201,12 +189,6 @@ def sort_file_rpz_nsdname(file_path, valid_tlds):
         print(f"Invalid entries in {file_path}:")
         for entry in invalid_entries:
             print(entry.strip())
-
-    with open(file_path, 'w') as file:
-        if header:
-            file.write(header)
-        file.writelines(lines)
-        file.write("")  # Ensure no additional newline
 
 def sort_file_hierarchical(file_path, valid_tlds):
     with open(file_path, 'r') as file:
@@ -243,12 +225,6 @@ def sort_file_hierarchical(file_path, valid_tlds):
         for entry in invalid_entries:
             print(entry.strip())
 
-    with open(file_path, 'w') as file:
-        if header:
-            file.write(header)
-        file.writelines(lines)
-        file.write("")  # Ensure no additional newline
-
 def sort_file_onion(file_path, valid_tlds):
     with open(file_path, 'r') as file:
         lines = file.readlines()
@@ -264,12 +240,6 @@ def sort_file_onion(file_path, valid_tlds):
         print(f"Invalid .onion entries in {file_path}:")
         for entry in invalid_entries:
             print(entry.strip())
-
-    with open(file_path, 'w') as file:
-        if header:
-            file.write(header)
-        file.writelines(lines)
-        file.write("")  # Ensure no additional newline
 
 def sort_file_ip(file_path):
     with open(file_path, 'r') as file:
