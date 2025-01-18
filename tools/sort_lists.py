@@ -9,7 +9,7 @@ import re
 import ipaddress
 from subprocess import check_output
 import requests
-import PyFunceble
+import PyFunceble.facility
 
 # Add the directory containing domain2idna to the Python path
 sys.path.append('/home/spirillen/.local/bin')
@@ -17,7 +17,7 @@ sys.path.append('/home/spirillen/.local/bin')
 # Import the domain2idna module
 import domain2idna  # For IDN support
 
-VERSION = "0.2b14"  # PEP 440 versioning format for beta release
+VERSION = "0.2b15"  # PEP 440 versioning format for beta release
 
 def find_files_by_name(directory, filenames):
     matches = []
@@ -109,8 +109,15 @@ def remove_duplicates(lines):
 
 def test_domain_with_pyfunceble(domain):
     try:
-        result = PyFunceble.check(domain)
-        return result
+        PyFunceble.facility.ConfigLoader.custom_config = {
+            "cli_testing": False,
+            "file_generation": False,
+            "quiet": True,
+            "logging_level": "critical",
+        }
+        PyFunceble.facility.ConfigLoader.start()
+        result = PyFunceble.DomainAvailability(domain).availability()
+        return result["status"]
     except Exception as e:
         print(f"Error testing domain {domain}: {e}")
         return "UNKNOWN"
