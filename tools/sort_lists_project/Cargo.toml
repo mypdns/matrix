@@ -7,3 +7,5 @@ edition = "2018"
 walkdir = "2.3.2"
 reqwest = { version = "0.11", features = ["blocking", "json"] }
 regex = "1.5.4"
+clap = "3.0.0"  # Add this line
+webbrowser = "0.5.2"  # Add this line
