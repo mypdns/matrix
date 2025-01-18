@@ -11,7 +11,7 @@ from subprocess import check_output
 import requests
 import idna  # For IDN support
 
-VERSION = "0.2b6"  # PEP 440 versioning format for beta release
+VERSION = "0.2b7"  # PEP 440 versioning format for beta release
 
 def find_files_by_name(directory, filenames):
     matches = []
@@ -103,11 +103,61 @@ def sort_file_alphanum(file_path, valid_tlds):
     invalid_entries = []
     for line in lines:
         domain_part = line.strip().split(',')[0]
-        if domain_part != "domain" and not is_valid_domain(domain_part, valid_tlds):
+        if domain_part != "domain" and not (is_valid_domain(domain_part, valid_tlds) or domain_part in valid_tlds):
             invalid_entries.append(line)
 
     if invalid_entries:
         print(f"Invalid DNS entries in {file_path}:")
+        for entry in invalid_entries:
+            print(entry.strip())
+
+    with open(file_path, 'w') as file:
+        if header:
+            file.write(header)
+        file.writelines(lines)
+        file.write("")  # Ensure no additional newline
+
+def sort_file_tld(file_path):
+    with open(file_path, 'r') as file:
+        lines = file.readlines()
+
+    header = lines[0] if lines else ""
+    lines = [line for line in lines[1:] if line.strip()]  # Remove empty lines and skip header if present
+    lines = sorted(lines, key=lambda x: x.strip())  # Sort TLDs
+
+    invalid_entries = []
+    for line in lines:
+        domain_part = line.strip().split(',')[0]
+        if domain_part != "domain" and not (is_valid_domain(domain_part, valid_tlds) or domain_part in valid_tlds):
+            invalid_entries.append(line)
+
+    if invalid_entries:
+        print(f"Invalid TLD entries in {file_path}:")
+        for entry in invalid_entries:
+            print(entry.strip())
+
+    with open(file_path, 'w') as file:
+        if header:
+            file.write(header)
+        file.writelines(lines)
+        file.write("")  # Ensure no additional newline
+
+def sort_file_rpz_nsdname(file_path, valid_tlds):
+    with open(file_path, 'r') as file:
+        lines = file.readlines()
+
+    header = lines[0] if lines else ""
+    lines = [line for line in lines[1:] if line.strip()]  # Remove empty lines and skip header if present
+    lines = sorted(lines, key=lambda x: x.strip().split(',')[0] if ',' in x else '')  # Sort FQDNs
+
+    invalid_entries = []
+    for line in lines:
+        domain_part = line.strip().split(',')[0]
+        if domain_part != "domain" and not (is_valid_domain(domain_part, valid_tlds) or domain_part in valid_tlds):
+            invalid_entries.append(line)
+
+    if invalid_entries:
+        print(f"Invalid entries in {file_path}:")
         for entry in invalid_entries:
             print(entry.strip())
 
@@ -139,26 +189,6 @@ def sort_file_hierarchical(file_path, valid_tlds):
 
     if invalid_entries:
         print(f"Invalid DNS or IP entries in {file_path}:")
-        for entry in invalid_entries:
-            print(entry.strip())
-
-    with open(file_path, 'w') as file:
-        if header:
-            file.write(header)
-        file.writelines(lines)
-        file.write("")  # Ensure no additional newline
-
-def sort_file_tld(file_path):
-    with open(file_path, 'r') as file:
-        lines = file.readlines()
-
-    header = lines[0] if lines else ""
-    lines = [line for line in lines[1:] if line.strip()]  # Remove empty lines and skip header if present
-    lines = sorted(lines, key=lambda x: x.strip())  # Sort TLDs
-
-    invalid_entries = [line for line in lines if line.strip().split(',')[0] == "domain"]
-    if invalid_entries:
-        print(f"Invalid TLD entries in {file_path}:")
         for entry in invalid_entries:
             print(entry.strip())
 
@@ -215,7 +245,7 @@ def main():
     parser = argparse.ArgumentParser(description="Sort and clean CSV files.")
     parser.add_argument('-v', '--version', action='version', version=f"%(prog)s {VERSION}")
     parser.add_argument('-f', '--force', action='store_true', help="Force run on all files, altered or not")
-    parser.add_argument('--proxy', type=str, default=None, help="Specify a proxy to use for downloading external files")
+    parser.add_argument('-x', '--proxy', type=str, default=None, help="Specify a proxy to use for downloading external files")
     parser.add_argument('--no-proxy', action='store_true', help="Disable the default proxy setting")
     parser.add_argument('-d', '-s', '--donate', '--sponsor', action='store_true', help="Open the donate link in default browser")
     args = parser.parse_args()
@@ -230,15 +260,19 @@ def main():
 
     valid_tlds = fetch_valid_tlds(proxy)
 
-    alphanum_filenames = ["wildcard.csv", "wildcard.rpz-nsdname.csv", "domains.rpz-nsdname.csv", "mobile.csv", "snuff.csv"]
+    alphanum_filenames = ["wildcard.csv", "mobile.csv", "snuff.csv"]
     tld_filenames = ["tld.csv"]
-    hierarchical_filenames = ["domains.csv", "onions.csv", "rpz-ip.csv", "ip4.csv", "ip6.csv", "rpz-client-ip.csv", "rpz-drop.csv", "rpz-ip.csv", "hosts.csv"]
+    rpz_nsdname_filenames = ["wildcard.rpz-nsdname.csv", "domains.rpz-nsdname.csv"]
+    hierarchical_filenames = ["domains.csv", "onions.csv"]
+    ip_filenames = ["rpz-ip.csv", "ip4.csv", "rpz-client-ip.csv", "rpz-drop.csv", "ip6.csv"]
 
     modified_files = get_modified_files_in_last_commit()
     target_files_alphanum = find_files_by_name("source", alphanum_filenames)
     target_files_tld = find_files_by_name("source", tld_filenames)
+    target_files_rpz_nsdname = find_files_by_name("source", rpz_nsdname_filenames)
     target_files_hierarchical = find_files_by_name("source", hierarchical_filenames)
     target_files_onion = find_files_by_name("source", ["onions.csv"])
+    target_files_ip = find_files_by_name("source", ip_filenames)
 
     for file in target_files_alphanum:
         if args.force or any(file.endswith(modified) for modified in modified_files):
@@ -248,6 +282,10 @@ def main():
         if args.force or any(file.endswith(modified) for modified in modified_files):
             sort_file_tld(file)
 
+    for file in target_files_rpz_nsdname:
+        if args.force or any(file.endswith(modified) for modified in modified_files):
+            sort_file_rpz_nsdname(file, valid_tlds)
+
     for file in target_files_hierarchical:
         if args.force or any(file.endswith(modified) for modified in modified_files):
             sort_file_hierarchical(file, valid_tlds)
@@ -255,6 +293,11 @@ def main():
     for file in target_files_onion:
         if args.force or any(file.endswith(modified) for modified in modified_files):
             sort_file_onion(file)
+
+    # Skip checking for IP addresses in specific files
+    for file in target_files_ip:
+        if args.force or any(file.endswith(modified) for modified in modified_files):
+            pass  # Skipping IP checks for these files
 
     print("Please consider sponsoring My Privacy DNS at https://www.mypdns.org/donate")
 
