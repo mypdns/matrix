@@ -1,8 +1,12 @@
 use std::collections::HashSet;
 use std::fs::File;
 use std::io::{BufRead, BufReader};
-use std::process::Command;
+use std::process::{Command, exit};
 use std::time::Instant;
+use clap::{App, Arg};
+use reqwest::blocking::Client;
+use reqwest::Proxy;
+use webbrowser;
 
 fn find_files_by_name(directory: &str, filenames: &[&str]) -> Vec<String> {
     let mut matches = Vec::new();
@@ -27,9 +31,17 @@ fn get_modified_files_in_last_commit() -> Vec<String> {
     output_str.lines().map(|s| s.to_string()).collect()
 }
 
-fn fetch_valid_tlds() -> HashSet<String> {
+fn fetch_valid_tlds(proxy: Option<&str>) -> HashSet<String> {
+    let client = match proxy {
+        Some(p) => Client::builder()
+            .proxy(Proxy::all(p).expect("Invalid proxy URL"))
+            .build()
+            .expect("Failed to build client with proxy"),
+        None => Client::new(),
+    };
+
     let url = "https://data.iana.org/TLD/tlds-alpha-by-domain.txt";
-    let response = reqwest::blocking::get(url).expect("Failed to fetch TLDs");
+    let response = client.get(url).send().expect("Failed to fetch TLDs");
     let content = response.text().expect("Failed to read response text");
 
     content
@@ -80,14 +92,71 @@ fn sort_file_alphanum(file_path: &str, valid_tlds: &HashSet<String>) {
 }
 
 fn main() {
+    let matches = App::new("Sort Lists")
+        .version("1.0")
+        .author("Your Name <your.email@example.com>")
+        .about("Sorts and validates DNS lists")
+        .arg(
+            Arg::new("proxy")
+                .short('x')
+                .long("proxy")
+                .takes_value(true)
+                .about("Sets a custom proxy URL"),
+        )
+        .arg(
+            Arg::new("help")
+                .short('h')
+                .long("help")
+                .about("Displays help information"),
+        )
+        .arg(
+            Arg::new("donate")
+                .short('d')
+                .short('s')
+                .long("donate")
+                .long("sponsor")
+                .about("Opens the default browser to the donation page"),
+        )
+        .arg(
+            Arg::new("force")
+                .short('f')
+                .long("force")
+                .about("Forces run on all files, altered or not"),
+        )
+        .get_matches();
+
+    if matches.is_present("help") {
+        println!("{}", matches.usage());
+        exit(0);
+    }
+
+    if matches.is_present("donate") {
+        if webbrowser::open("https://www.mypdns.org/donate").is_ok() {
+            println!("Opened donation page in default browser.");
+        } else {
+            eprintln!("Failed to open donation page.");
+        }
+        exit(0);
+    }
+
+    let proxy = if std::env::var("CI").is_ok() {
+        None
+    } else {
+        matches.value_of("proxy").or(Some("socks5h://localhost:9050"))
+    };
+
     let start = Instant::now();
-    let valid_tlds = fetch_valid_tlds();
+    let valid_tlds = fetch_valid_tlds(proxy);
     let alphanum_filenames = ["wildcard.csv", "mobile.csv", "snuff.csv"];
-    let modified_files = get_modified_files_in_last_commit();
+    let modified_files = if matches.is_present("force") {
+        find_files_by_name("source", &alphanum_filenames)
+    } else {
+        get_modified_files_in_last_commit()
+    };
     let target_files_alphanum = find_files_by_name("source", &alphanum_filenames);
 
     for file in target_files_alphanum {
-        if modified_files.iter().any(|mf| file.ends_with(mf)) {
+        if matches.is_present("force") || modified_files.iter().any(|mf| file.ends_with(mf)) {
             sort_file_alphanum(&file, &valid_tlds);
         }
     }
