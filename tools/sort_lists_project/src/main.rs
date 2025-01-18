@@ -8,18 +8,6 @@ use reqwest::blocking::Client;
 use reqwest::Proxy;
 use webbrowser;
 
-import dns.resolver
-
-def dns_lookup(domain, resolver_address='9.9.9.10'):
-    resolver = dns.resolver.Resolver()
-    resolver.nameservers = [resolver_address]
-    try:
-        resolver.resolve(domain)
-        return True
-    except (dns.resolver.NXDOMAIN, dns.resolver.Timeout, dns.exception.DNSException) as e:
-        print(f"DNS lookup error for domain {domain}: {e}")
-    return False
-
 fn find_files_by_name(directory: &str, filenames: &[&str]) -> Vec<String> {
     let mut matches = Vec::new();
     for entry in walkdir::WalkDir::new(directory) {
