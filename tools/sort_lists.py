@@ -35,7 +35,7 @@ def sort_file_alphanum(file_path):
 
     with open(file_path, 'w') as file:
         file.writelines(lines)
-        file.write("\n")  # Ensure one last newline
+        file.write("")  # Ensure no additional newline
 
 def sort_file_hierarchical(file_path):
     with open(file_path, 'r') as file:
@@ -51,7 +51,7 @@ def sort_file_hierarchical(file_path):
 
     with open(file_path, 'w') as file:
         file.writelines(lines)
-        file.write("\n")  # Ensure one last newline
+        file.write("")  # Ensure no additional newline
 
 def handle_donate():
     try:
