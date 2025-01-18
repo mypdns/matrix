@@ -9,13 +9,6 @@ import re
 import ipaddress
 from subprocess import check_output
 import requests
-import PyFunceble  # Updated for PyFunceble 4.3.0a15.dev
-
-# Add the directory containing domain2idna to the Python path
-sys.path.append('/home/spirillen/.local/bin')
-
-# Import the domain2idna module
-import domain2idna  # For IDN support
 
 VERSION = "0.2b16"  # Incremented beta version
 
@@ -65,12 +58,6 @@ def fetch_valid_tlds(proxy):
     return set(tld.lower() for tld in remote_lines if not tld.startswith("#")).union({"onion"})
 
 def is_valid_domain(domain, valid_tlds):
-    # Convert IDN to ASCII using domain2idna
-    try:
-        domain = domain2idna.domain2idna(domain)
-    except Exception as e:
-        return False
-
     if "." in domain:
         tld = domain.split(".")[-1].lower()
         if tld not in valid_tlds:
@@ -107,15 +94,6 @@ def remove_duplicates(lines):
             unique_lines.append(line)
     return unique_lines
 
-def test_domain_with_pyfunceble(domain):
-    try:
-        PyFunceble.load_config(custom=True, config={"cli_testing": False, "file_generation": False, "quiet": True, "logging_level": "critical"})
-        result = PyFunceble.check(domain)
-        return result["status"]
-    except Exception as e:
-        print(f"Error testing domain {domain}: {e}")
-        return "UNKNOWN"
-
 def sort_file_alphanum(file_path, valid_tlds):
     with open(file_path, 'r') as file:
         lines = file.readlines()
@@ -131,10 +109,6 @@ def sort_file_alphanum(file_path, valid_tlds):
         domain_part = line.strip().split(',')[0]
         if domain_part != "domain" and not (is_valid_domain(domain_part, valid_tlds) or domain_part in valid_tlds):
             invalid_entries.append(line)
-        else:
-            status = test_domain_with_pyfunceble(domain_part)
-            if status != "ACTIVE":
-                invalid_entries.append(line)
 
     if invalid_entries:
         print(f"Invalid DNS entries in {file_path}:")
@@ -156,10 +130,6 @@ def sort_file_tld(file_path, valid_tlds):
         domain_part = line.strip().split(',')[0]
         if domain_part != "domain" and not (is_valid_domain(domain_part, valid_tlds) or domain_part in valid_tlds):
             invalid_entries.append(line)
-        else:
-            status = test_domain_with_pyfunceble(domain_part)
-            if status != "ACTIVE":
-                invalid_entries.append(line)
 
     if invalid_entries:
         print(f"Invalid TLD entries in {file_path}:")
@@ -181,10 +151,6 @@ def sort_file_rpz_nsdname(file_path, valid_tlds):
         domain_part = line.strip().split(',')[0]
         if domain_part != "domain" and not (is_valid_domain(domain_part, valid_tlds) or domain_part in valid_tlds):
             invalid_entries.append(line)
-        else:
-            status = test_domain_with_pyfunceble(domain_part)
-            if status != "ACTIVE":
-                invalid_entries.append(line)
 
     if invalid_entries:
         print(f"Invalid entries in {file_path}:")
@@ -208,18 +174,10 @@ def sort_file_hierarchical(file_path, valid_tlds):
             domain, ip_arpa = parts[0], parts[1]
             if domain != "domain" and (not is_valid_domain(domain, valid_tlds) and not is_valid_ip_arpa(ip_arpa)):
                 invalid_entries.append(line)
-            else:
-                status = test_domain_with_pyfunceble(domain)
-                if status != "ACTIVE":
-                    invalid_entries.append(line)
         else:
             domain = parts[0]
             if domain != "domain" and not is_valid_domain(domain, valid_tlds):
                 invalid_entries.append(line)
-            else:
-                status = test_domain_with_pyfunceble(domain)
-                if status != "ACTIVE":
-                    invalid_entries.append(line)
 
     if invalid_entries:
         print(f"Invalid DNS or IP entries in {file_path}:")
@@ -258,29 +216,6 @@ def sort_file_ip(file_path):
         file.writelines(lines)
         file.write("")  # Ensure no additional newline
 
-def find_tor_browser():
-    home_dir = os.path.expanduser("~")
-    for root, dirs, files in os.walk(home_dir):
-        if 'start-tor-browser' in files:
-            return os.path.join(root, 'start-tor-browser')
-    return None
-
-def handle_donate():
-    tor_browser = find_tor_browser()
-    if tor_browser:
-        try:
-            webbrowser.get(tor_browser).open('https://www.mypdns.org/donate')
-            return
-        except webbrowser.Error:
-            pass
-    try:
-        webbrowser.get('firefox-esr').open('https://www.mypdns.org/donate')
-    except webbrowser.Error:
-        try:
-            webbrowser.get('firefox').open('https://www.mypdns.org/donate')
-        except webbrowser.Error:
-            webbrowser.open('https://www.mypdns.org/donate')
-
 def main():
     parser = argparse.ArgumentParser(description="Sort and clean CSV files.")
     parser.add_argument('-v', '--version', action='version', version=f"%(prog)s {VERSION}")
@@ -295,7 +230,7 @@ def main():
         proxy = "socks5h://localhost:9050"
 
     if args.donate:
-        handle_donate()
+        webbrowser.open('https://www.mypdns.org/donate')
         sys.exit(0)
 
     valid_tlds = fetch_valid_tlds(proxy)
