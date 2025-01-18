@@ -9,6 +9,7 @@ import re
 import ipaddress
 from subprocess import check_output
 import requests
+import PyFunceble
 
 # Add the directory containing domain2idna to the Python path
 sys.path.append('/home/spirillen/.local/bin')
@@ -16,7 +17,7 @@ sys.path.append('/home/spirillen/.local/bin')
 # Import the domain2idna module
 import domain2idna  # For IDN support
 
-VERSION = "0.2b13"  # PEP 440 versioning format for beta release
+VERSION = "0.2b14"  # PEP 440 versioning format for beta release
 
 def find_files_by_name(directory, filenames):
     matches = []
@@ -106,6 +107,14 @@ def remove_duplicates(lines):
             unique_lines.append(line)
     return unique_lines
 
+def test_domain_with_pyfunceble(domain):
+    try:
+        result = PyFunceble.check(domain)
+        return result
+    except Exception as e:
+        print(f"Error testing domain {domain}: {e}")
+        return "UNKNOWN"
+
 def sort_file_alphanum(file_path, valid_tlds):
     with open(file_path, 'r') as file:
         lines = file.readlines()
@@ -121,6 +130,10 @@ def sort_file_alphanum(file_path, valid_tlds):
         domain_part = line.strip().split(',')[0]
         if domain_part != "domain" and not (is_valid_domain(domain_part, valid_tlds) or domain_part in valid_tlds):
             invalid_entries.append(line)
+        else:
+            status = test_domain_with_pyfunceble(domain_part)
+            if status != "ACTIVE":
+                invalid_entries.append(line)
 
     if invalid_entries:
         print(f"Invalid DNS entries in {file_path}:")
@@ -148,6 +161,10 @@ def sort_file_tld(file_path, valid_tlds):
         domain_part = line.strip().split(',')[0]
         if domain_part != "domain" and not (is_valid_domain(domain_part, valid_tlds) or domain_part in valid_tlds):
             invalid_entries.append(line)
+        else:
+            status = test_domain_with_pyfunceble(domain_part)
+            if status != "ACTIVE":
+                invalid_entries.append(line)
 
     if invalid_entries:
         print(f"Invalid TLD entries in {file_path}:")
@@ -175,6 +192,10 @@ def sort_file_rpz_nsdname(file_path, valid_tlds):
         domain_part = line.strip().split(',')[0]
         if domain_part != "domain" and not (is_valid_domain(domain_part, valid_tlds) or domain_part in valid_tlds):
             invalid_entries.append(line)
+        else:
+            status = test_domain_with_pyfunceble(domain_part)
+            if status != "ACTIVE":
+                invalid_entries.append(line)
 
     if invalid_entries:
         print(f"Invalid entries in {file_path}:")
@@ -204,10 +225,18 @@ def sort_file_hierarchical(file_path, valid_tlds):
             domain, ip_arpa = parts[0], parts[1]
             if domain != "domain" and (not is_valid_domain(domain, valid_tlds) and not is_valid_ip_arpa(ip_arpa)):
                 invalid_entries.append(line)
+            else:
+                status = test_domain_with_pyfunceble(domain)
+                if status != "ACTIVE":
+                    invalid_entries.append(line)
         else:
             domain = parts[0]
             if domain != "domain" and not is_valid_domain(domain, valid_tlds):
                 invalid_entries.append(line)
+            else:
+                status = test_domain_with_pyfunceble(domain)
+                if status != "ACTIVE":
+                    invalid_entries.append(line)
 
     if invalid_entries:
         print(f"Invalid DNS or IP entries in {file_path}:")
