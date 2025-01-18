@@ -1,9 +1,5 @@
 name: Availability test | My Privacy DNS
 on:
-  push:
-    branches:
-      - 'master'
-      - 'data-testing'
   schedule:
     - cron: '26 * * * *'
 
