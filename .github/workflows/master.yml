@@ -28,26 +28,13 @@ jobs:
         with:
           token: '${{ secrets.GITHUB_TOKEN }}'
 
-      # - name: Install requirements
-      #   run: |
-      #     sudo bash "${{ github.workspace }}/scripts/dependencies.sh"
-
-      - name: Install MyPDNS
+      - name: Install My Privacy DNS python module
         run: |
-          pip install --no-cache-dir -r "${{ github.workspace }}/requirements.txt" # mypdns
+          pip install --no-cache-dir -r "${{ github.workspace }}/requirements.txt"
 
       - name: Create source.csv list
         run: |
           bash "${{ github.workspace }}/scripts/update_active_lists.sh"
-
-      # - name: 'Sort our lists for doublets and order by alphabet'
-      #   run: bash "${{ github.workspace }}/tools/sort_lists.sh"
-
-      # - name: 'Sort our rpz-nsdname for doublets and order by alphabet'
-      #   run: |
-      #     cd "${{ github.workspace }}"
-      #     find source/ -type f -name '*.rpz-nsdname' \
-      #     -exec bash -c "sort -i -u -f '{}' -o '{}'" \;
 
       - name: 'import ShadowWhisperer'
         continue-on-error: true

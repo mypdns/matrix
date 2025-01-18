@@ -39,7 +39,7 @@ jobs:
         python_version:
           - '3.13'
         os:
-          - ubuntu-latest
+          - ubuntu-24.04
 
     steps:
       - uses: actions/checkout@v4
@@ -52,10 +52,10 @@ jobs:
         with:
           python-version: ${{ matrix.python_version }}
 
-      - name: Install PyFunceble
+      - name: Install My Privacy DNS python module
         run: |
           pip install --upgrade pip
-          pip install --no-cache-dir -r requirements.txt
+          pip install --no-cache-dir -r "${{ github.workspace }}/requirements.txt"
 
       - name: Get PyFunceble version
         run: |
