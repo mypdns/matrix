@@ -28,11 +28,11 @@ jobs:
 
       - name: Build Rust script
         run: |
-          rustc -C opt-level=3 tools/sort_lists.rs -o tools/sort_lists_rust
+          rustc -C opt-level=3 tools/sort_lists.rs -o tools/sort_lists.rs
 
       - name: Build C++ script
         run: |
-          g++-10 -std=c++20 -O3 tools/sort_records.cpp -o tools/sort_records_cpp
+          g++-10 -std=c++20 -O3 tools/sort_records.cpp -o tools/sort_records.cpp
 
       - name: Upload Rust binary
         uses: actions/upload-artifact@v3
