@@ -27,8 +27,8 @@ jobs:
 
       - name: Run Fates Script
         run: |
-          #          sudo apt-get install -y fates
-               fates tools/sort_lists.py
+          # sudo apt-get install -y fates
+          python3 tools/sort_lists.py
 
       - name: Configure Git
         run: |
