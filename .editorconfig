@@ -18,5 +18,8 @@ trim_trailing_whitespace = false
 indent_size = 2
 tab_width   = 2
 
+# CSV files
 [*.csv]
-charset     = latin1
+end_of_line = lf
+
+[*.{py,sh}]

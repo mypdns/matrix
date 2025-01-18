@@ -7,10 +7,11 @@ import argparse
 import webbrowser
 import re
 import ipaddress
-import requests
 from subprocess import check_output
+import requests
+import idna  # For IDN support
 
-VERSION = "0.2b2"  # PEP 440 versioning format for beta release
+VERSION = "0.2b6"  # PEP 440 versioning format for beta release
 
 def find_files_by_name(directory, filenames):
     matches = []
@@ -55,23 +56,37 @@ def fetch_valid_tlds(proxy):
         with open(tlds_file, 'w') as file:
             file.write(response.text)
 
-    return set(tld.lower() for tld in remote_lines if not tld.startswith("#"))
+    return set(tld.lower() for tld in remote_lines if not tld.startswith("#")).union({"onion"})
 
 def is_valid_domain(domain, valid_tlds):
+    # Convert IDN to ASCII
+    try:
+        domain = idna.encode(domain).decode('ascii')
+    except idna.IDNAError:
+        return False
+
     if "." in domain:
         tld = domain.split(".")[-1].lower()
         if tld not in valid_tlds:
             return False
     regex = re.compile(
-        r'^(?:[a-zA-Z0-9]'  # First character of the domain
-        r'(?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?\.)'  # Sub domain + hostname
-        r'+[a-zA-Z]{2,6}$'  # First level TLD
+        r'^(?:[a-zA-Z0-9_]'  # First character of the domain or subdomain
+        r'(?:[a-zA-Z0-9-_]{0,61}[a-zA-Z0-9_])?\.)'  # Sub domain + hostname
+        r'+[a-zA-Z]{2,63}$'  # First level TLD
     )
     return re.match(regex, domain) is not None
 
 def is_valid_ip_arpa(ip_arpa):
+    # Skip validation for lines consisting only of numbers and dots
+    if re.fullmatch(r'[\d.]+', ip_arpa):
+        return True
+
+    parts = ip_arpa.split('.')
+    if len(parts) != 5:
+        return False
     try:
-        ip = ip_arpa.split('.')[0]
+        # Convert RPZ format to IP address and CIDR
+        ip = '.'.join(parts[1:]) + '/' + parts[0]
         ipaddress.ip_network(ip)
         return True
     except ValueError:
@@ -81,21 +96,24 @@ def sort_file_alphanum(file_path, valid_tlds):
     with open(file_path, 'r') as file:
         lines = file.readlines()
 
-    header = "domain,"
-    if not lines or lines[0].strip() != header:
-        lines.insert(0, header + "\n")
+    header = lines[0] if lines else ""
+    lines = [line for line in lines[1:] if line.strip()]  # Remove empty lines and skip header if present
+    lines = sorted(lines, key=lambda x: x.strip().split(',')[0] if ',' in x else '')  # Sort FQDNs
 
-    lines = [line for line in lines if line.strip()]  # Remove empty lines
-    lines = sorted(lines[1:], key=lambda x: x.strip().split(',')[0] if ',' in x else '')  # Sort FQDNs
-    lines.insert(0, header + "\n")
+    invalid_entries = []
+    for line in lines:
+        domain_part = line.strip().split(',')[0]
+        if domain_part != "domain" and not is_valid_domain(domain_part, valid_tlds):
+            invalid_entries.append(line)
 
-    invalid_entries = [line for line in lines if not is_valid_domain(line.strip().split(',')[0], valid_tlds)]
     if invalid_entries:
         print(f"Invalid DNS entries in {file_path}:")
         for entry in invalid_entries:
             print(entry.strip())
 
     with open(file_path, 'w') as file:
+        if header:
+            file.write(header)
         file.writelines(lines)
         file.write("")  # Ensure no additional newline
 
@@ -103,24 +121,20 @@ def sort_file_hierarchical(file_path, valid_tlds):
     with open(file_path, 'r') as file:
         lines = file.readlines()
 
-    header = "domain,"
-    if not lines or lines[0].strip() != header:
-        lines.insert(0, header + "\n")
-
-    lines = [line for line in lines if line.strip()]  # Remove empty lines
-    lines = sorted(lines[1:], key=lambda x: (x.strip().split(',')[0], x.strip().split(',')[1] if ',' in x and len(x.strip().split(',')) > 1 else ''))  # Sort FQDNs and CIDR
-    lines.insert(0, header + "\n")
+    header = lines[0] if lines else ""
+    lines = [line for line in lines[1:] if line.strip()]  # Remove empty lines and skip header if present
+    lines = sorted(lines, key=lambda x: (x.strip().split(',')[0], x.strip().split(',')[1] if ',' in x and len(x.strip().split(',')) > 1 else ''))  # Sort FQDNs and CIDR
 
     invalid_entries = []
     for line in lines:
         parts = line.strip().split(',')
         if len(parts) > 1:
             domain, ip_arpa = parts[0], parts[1]
-            if not is_valid_domain(domain, valid_tlds) or not is_valid_ip_arpa(ip_arpa):
+            if domain != "domain" and (not is_valid_domain(domain, valid_tlds) and not is_valid_ip_arpa(ip_arpa)):
                 invalid_entries.append(line)
         else:
             domain = parts[0]
-            if not is_valid_domain(domain, valid_tlds):
+            if domain != "domain" and not is_valid_domain(domain, valid_tlds):
                 invalid_entries.append(line)
 
     if invalid_entries:
@@ -129,20 +143,73 @@ def sort_file_hierarchical(file_path, valid_tlds):
             print(entry.strip())
 
     with open(file_path, 'w') as file:
+        if header:
+            file.write(header)
         file.writelines(lines)
         file.write("")  # Ensure no additional newline
 
+def sort_file_tld(file_path):
+    with open(file_path, 'r') as file:
+        lines = file.readlines()
+
+    header = lines[0] if lines else ""
+    lines = [line for line in lines[1:] if line.strip()]  # Remove empty lines and skip header if present
+    lines = sorted(lines, key=lambda x: x.strip())  # Sort TLDs
+
+    invalid_entries = [line for line in lines if line.strip().split(',')[0] == "domain"]
+    if invalid_entries:
+        print(f"Invalid TLD entries in {file_path}:")
+        for entry in invalid_entries:
+            print(entry.strip())
+
+    with open(file_path, 'w') as file:
+        if header:
+            file.write(header)
+        file.writelines(lines)
+        file.write("")  # Ensure no additional newline
+
+def sort_file_onion(file_path):
+    with open(file_path, 'r') as file:
+        lines = file.readlines()
+
+    header = lines[0] if lines else ""
+    lines = [line for line in lines[1:] if line.strip()]  # Remove empty lines and skip header if present
+    lines = sorted(lines, key=lambda x: x.strip().split(',')[0] if ',' in x else '')  # Sort FQDNs
+
+    invalid_entries = [line for line in lines if line.strip().split(',')[0] != "domain" and not line.strip().endswith('.onion')]
+    if invalid_entries:
+        print(f"Invalid .onion entries in {file_path}:")
+        for entry in invalid_entries:
+            print(entry.strip())
+
+    with open(file_path, 'w') as file:
+        if header:
+            file.write(header)
+        file.writelines(lines)
+        file.write("")  # Ensure no additional newline
+
+def find_tor_browser():
+    home_dir = os.path.expanduser("~")
+    for root, dirs, files in os.walk(home_dir):
+        if 'start-tor-browser' in files:
+            return os.path.join(root, 'start-tor-browser')
+    return None
+
 def handle_donate():
+    tor_browser = find_tor_browser()
+    if tor_browser:
+        try:
+            webbrowser.get(tor_browser).open('https://www.mypdns.org/donate')
+            return
+        except webbrowser.Error:
+            pass
     try:
-        webbrowser.get('tor').open('https://www.mypdns.org/donate')
+        webbrowser.get('firefox-esr').open('https://www.mypdns.org/donate')
     except webbrowser.Error:
         try:
-            webbrowser.get('firefox-esr').open('https://www.mypdns.org/donate')
+            webbrowser.get('firefox').open('https://www.mypdns.org/donate')
         except webbrowser.Error:
-            try:
-                webbrowser.get('firefox').open('https://www.mypdns.org/donate')
-            except webbrowser.Error:
-                webbrowser.open('https://www.mypdns.org/donate')
+            webbrowser.open('https://www.mypdns.org/donate')
 
 def main():
     parser = argparse.ArgumentParser(description="Sort and clean CSV files.")
@@ -163,20 +230,31 @@ def main():
 
     valid_tlds = fetch_valid_tlds(proxy)
 
-    alphanum_filenames = ["tld.csv", "wildcard.csv", "wildcard.rpz-nsdname.csv", "domains.rpz-nsdname.csv", "mobile.csv", "snuff.csv"]
+    alphanum_filenames = ["wildcard.csv", "wildcard.rpz-nsdname.csv", "domains.rpz-nsdname.csv", "mobile.csv", "snuff.csv"]
+    tld_filenames = ["tld.csv"]
     hierarchical_filenames = ["domains.csv", "onions.csv", "rpz-ip.csv", "ip4.csv", "ip6.csv", "rpz-client-ip.csv", "rpz-drop.csv", "rpz-ip.csv", "hosts.csv"]
 
     modified_files = get_modified_files_in_last_commit()
     target_files_alphanum = find_files_by_name("source", alphanum_filenames)
+    target_files_tld = find_files_by_name("source", tld_filenames)
     target_files_hierarchical = find_files_by_name("source", hierarchical_filenames)
+    target_files_onion = find_files_by_name("source", ["onions.csv"])
 
     for file in target_files_alphanum:
         if args.force or any(file.endswith(modified) for modified in modified_files):
             sort_file_alphanum(file, valid_tlds)
 
+    for file in target_files_tld:
+        if args.force or any(file.endswith(modified) for modified in modified_files):
+            sort_file_tld(file)
+
     for file in target_files_hierarchical:
         if args.force or any(file.endswith(modified) for modified in modified_files):
             sort_file_hierarchical(file, valid_tlds)
+
+    for file in target_files_onion:
+        if args.force or any(file.endswith(modified) for modified in modified_files):
+            sort_file_onion(file)
 
     print("Please consider sponsoring My Privacy DNS at https://www.mypdns.org/donate")
 
