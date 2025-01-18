@@ -10,12 +10,10 @@ truncate -s 0 "$GIT_GIR/source/source.csv"
 
 cd "$GIT_GIR" || exit
 
-# for i in
- find source/ -type f -name "*.csv" | while IFS= read -r i; do
-    echo "https://raw.githubusercontent.com/mypdns/matrix/master/source/$i" \
-        | sort -u >>"$GIT_GIR/source/source.csv"
-    # echo "$CI_PROJECT_URL/-/raw/master/$i" | sort -u
-    # >>"$GIT_GIR/source/source.csv"
-done
+find source/ -type f -name "*.csv" | \
+-ecex -P4 -I {} echo "https://raw.githubusercontent.com/mypdns/matrix/master/{}" \
+>> "$GIT_GIR/source/source.csv"
+
+sort -u "$GIT_GIR/source/source.csv" -o "$GIT_GIR/source/source.csv"
 
 ls -lh "$GIT_GIR/source/"
