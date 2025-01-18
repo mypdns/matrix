@@ -25,10 +25,10 @@ jobs:
         run: |
           pip install --no-cache-dir -r "${{ github.workspace }}/requirements.txt"
 
-      - name: Run Fates Script
+      - name: Sort the lists
         run: |
-          # sudo apt-get install -y fates
           python3 tools/sort_lists.py
+          continue-on-error: true
 
       - name: Configure Git
         run: |
