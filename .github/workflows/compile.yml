@@ -32,10 +32,12 @@ jobs:
         run: |
           cd tools/sort_lists_project
           cargo build --release
+          ls -la target/release
 
       - name: Build C++ script
         run: |
           g++-10 -std=c++20 -O3 tools/sort_records.cpp -o tools/sort_records_bin -lcurl
+          ls -la tools
 
       - name: Upload Rust binary
         uses: actions/upload-artifact@v3
