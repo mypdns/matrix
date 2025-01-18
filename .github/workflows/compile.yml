@@ -28,7 +28,8 @@ jobs:
 
       - name: Build Rust script
         run: |
-          rustc -C opt-level=3 tools/sort_lists.rs -o tools/sort_lists.rs
+          cd tools/sort_lists_project
+          cargo build --release
 
       - name: Build C++ script
         run: |
