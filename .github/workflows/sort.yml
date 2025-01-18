@@ -1,59 +1,45 @@
-name: Sort source lists | My Privacy DNS
+name: Sort Lists | My Privacy DNS
+
 on:
   push:
-  pull_request:
-
-env:
-  GIT_NAME: '${{ secrets.GIT_NAME }}'
-  GIT_EMAIL: '${{ secrets.GIT_EMAIL }}'
-  GITHUB_TOKEN: '${{ secrets.GITHUB_TOKEN }}'
+    branches:
+      - master
 
 jobs:
-  scheduler:
-    name: Trigger action
-    runs-on: '${{ matrix.os }}'
-
-    strategy:
-      fail-fast: false
-      matrix:
-        python_version:
-          - '3.13'
-        os:
-          - ubuntu-latest
+  sort-lists:
+    runs-on: ubuntu-24.04
 
     steps:
-      - uses: actions/checkout@main # Yet another american...
-        name: Clone repository
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
         with:
-          token: '${{ secrets.GITHUB_TOKEN }}'
+          python-version: '3.x'
+
+      - name: Install GNU parallel
+        run: sudo apt-get update && sudo apt-get install -y parallel
 
       - name: Install My Privacy DNS python module
         run: |
           pip install --no-cache-dir -r "${{ github.workspace }}/requirements.txt"
 
-      - name: 'Sort our lists for doublets and order by alphabet'
-        run: bash "${{ github.workspace }}/tools/sort_lists.sh"
+      - name: Run Fates Script
+        run: |
+          sudo apt-get install -y fates
+          fates tools/sort_lists.fates
 
-      - name: Git Status
-        run: git status
+      - name: Configure Git
+        run: |
+          git config --global user.name "spirillen"
+          git config --global user.email "44526987+spirillen@users.noreply.github.com"
+          git config --global --add safe.directory /github/workspace
 
       - name: Commit changes
-        continue-on-error: true
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          tag=$(date +'day: %j of year %Y %H:%M:%S')
-          git config --local user.email "$GIT_EMAIL"
-          git config --local user.name "$GIT_NAME"
-          git commit -a -m "Committed new lists $tag"
-          git pull --rebase
-
-      - name: Push changes
-        continue-on-error: true
-        uses: ad-m/github-push-action@master
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          branch: ${{ github.ref }}
-
-#      - name: Commit all changed files back to the repository
-#        uses: stefanzweifel/git-auto-commit-action@v5
-#        with:
-#          commit_message: Sorted the lists
+          git add .
+          git commit -m "Sorted files in ALPHABETICALLY and HIERARCHICALLY arrays"
+          git push
