@@ -101,13 +101,13 @@ fn main() {
                 .short('x')
                 .long("proxy")
                 .takes_value(true)
-                .about("Sets a custom proxy URL")
+                .help("Sets a custom proxy URL")
         )
         .arg(
             Arg::new("help")
                 .short('h')
                 .long("help")
-                .about("Displays help information")
+                .help("Displays help information")
         )
         .arg(
             Arg::new("donate")
@@ -115,20 +115,20 @@ fn main() {
                 .short('s')
                 .long("donate")
                 .long("sponsor")
-                .about("Opens the default browser to the donation page")
+                .help("Opens the default browser to the donation page")
         )
         .arg(
             Arg::new("force")
                 .short('f')
                 .long("force")
-                .about("Forces run on all files, altered or not")
+                .help("Forces run on all files, altered or not")
         )
         .arg(
             Arg::new("path")
                 .short('p')
                 .long("path")
                 .takes_value(true)
-                .about("Sets the path to the source directory")
+                .help("Sets the path to the source directory")
         );
 
     let matches = app.get_matches();
