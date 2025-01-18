@@ -33,10 +33,13 @@ fn get_modified_files_in_last_commit() -> Vec<String> {
 
 fn fetch_valid_tlds(proxy: Option<&str>) -> HashSet<String> {
     let client = match proxy {
-        Some(p) => Client::builder()
-            .proxy(Proxy::all(p).expect("Invalid proxy URL"))
-            .build()
-            .expect("Failed to build client with proxy"),
+        Some(p) => {
+            if let Ok(proxy) = Proxy::all(p) {
+                Client::builder().proxy(proxy).build().expect("Failed to build client with proxy")
+            } else {
+                Client::new()
+            }
+        },
         None => Client::new(),
     };
 
