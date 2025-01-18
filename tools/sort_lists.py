@@ -9,9 +9,9 @@ import re
 import ipaddress
 from subprocess import check_output
 import requests
-import idna  # For IDN support
+import domains2idna  # For IDN support
 
-VERSION = "0.2b9"  # PEP 440 versioning format for beta release
+VERSION = "0.2b10"  # PEP 440 versioning format for beta release
 
 def find_files_by_name(directory, filenames):
     matches = []
@@ -59,10 +59,10 @@ def fetch_valid_tlds(proxy):
     return set(tld.lower() for tld in remote_lines if not tld.startswith("#")).union({"onion"})
 
 def is_valid_domain(domain, valid_tlds):
-    # Convert IDN to ASCII
+    # Convert IDN to ASCII using domains2idna
     try:
-        domain = idna.encode(domain).decode('ascii')
-    except idna.IDNAError:
+        domain = domains2idna.to_ascii(domain)
+    except domains2idna.IDNAError:
         return False
 
     if "." in domain:
