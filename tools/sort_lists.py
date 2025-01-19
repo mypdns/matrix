@@ -12,7 +12,7 @@ import requests
 import idna
 import json
 
-VERSION = "0.2b24"  # Incremented beta version
+VERSION = "0.2b25"  # Incremented beta version
 
 def find_files_by_name(directory, filenames):
     matches = []
