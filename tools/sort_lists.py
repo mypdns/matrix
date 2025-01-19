@@ -13,7 +13,7 @@ import idna
 import dns.resolver
 import dns.query
 
-VERSION = "0.2b16"  # Incremented beta version
+VERSION = "0.2b17"  # Incremented beta version
 
 def find_files_by_name(directory, filenames):
     matches = []
@@ -24,7 +24,7 @@ def find_files_by_name(directory, filenames):
     return matches
 
 def get_modified_files_in_last_commit():
-    output = check_output(["git", "diff", "--name-only", "HEAD~1", "HEAD"]).decode().splitlines()
+    output = check_output(["git", "diff", "--name-only", "HEAD~2", "HEAD"]).decode().splitlines()
     return output
 
 def fetch_valid_tlds(proxy):
