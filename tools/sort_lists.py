@@ -13,7 +13,7 @@ import idna
 import dns.resolver
 import dns.query
 
-VERSION = "0.2b17"  # Incremented beta version
+VERSION = "0.2b18"  # Incremented beta version
 
 def find_files_by_name(directory, filenames):
     matches = []
@@ -133,7 +133,8 @@ def sort_file_alphanum(file_path, valid_tlds, proxy):
     lines = remove_duplicates(lines)  # Remove duplicate lines
 
     header = lines[0] if lines else ""
-    lines = [line for line in lines[1:] if line.strip()]  # Remove empty lines and skip header if present
+    lines = [line.rstrip('\n') for line in lines[1:] if line.strip()]  # Remove empty lines and skip header
+
     lines = sorted(lines, key=lambda x: x.strip().split(',')[0] if ',' in x else '')  # Sort FQDNs
 
     invalid_entries = []
@@ -148,6 +149,13 @@ def sort_file_alphanum(file_path, valid_tlds, proxy):
         print(f"Invalid DNS entries in {file_path}:")
         for entry in invalid_entries:
             print(entry.strip())
+
+    with open(file_path, 'w') as file:
+        if header:
+            file.write(header)
+        file.write('\n'.join(lines))
+        file.write('\n')  # Ensure a newline at the end of the file
+
 
 def sort_file_tld(file_path, valid_tlds, proxy):
     with open(file_path, 'r') as file:
