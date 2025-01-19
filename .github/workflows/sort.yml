@@ -27,7 +27,8 @@ jobs:
           else
             changed_files=$(git ls-files | grep -E '^source/.*\.csv$')
           fi
-          echo "changed_files=$changed_files" >> $GITHUB_ENV
+          sanitized_changed_files=$(echo "$changed_files" | tr '\n' ' ')
+          echo "changed_files=$sanitized_changed_files" >> $GITHUB_ENV
       - name: Sort CSV files
         if: env.changed_files
         run: |
