@@ -22,6 +22,7 @@ jobs:
       - name: Print sort_lists version
         run: |
           python -c "import tools.sort_lists; print(f'Sort Lists Version: {tools.sort_lists.VERSION}')"
+          python tools/sort_lists.py -v
       - name: Check for changes in source folder
         id: changed_files
         run: |
@@ -38,9 +39,11 @@ jobs:
           python tools/sort_lists.py
       - name: Commit changes
         if: env.changed_files
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          git config --local user.email "action@github.com"
-          git config --local user.name "GitHub Action"
+          git config --local user.email "44526987+spirillen@users.noreply.github.com"
+          git config --local user.name "spirillen"
           git add source/
           git commit -m "Sort CSV files" -a
           git push
