@@ -22,7 +22,11 @@ jobs:
       - name: Check for changes in source folder
         id: changed_files
         run: |
-          changed_files=$(git diff --name-only HEAD~1 HEAD | grep -E '^source/')
+          if [ $(git rev-list --count HEAD) -gt 1 ]; then
+            changed_files=$(git diff --name-only HEAD~1 HEAD | grep -E '^source/')
+          else
+            changed_files=$(git ls-files | grep -E '^source/')
+          fi
           echo "changed_files=$changed_files" >> $GITHUB_ENV
       - name: Sort CSV files
         if: env.changed_files
