@@ -22,7 +22,7 @@ jobs:
       - name: Check for changes in source folder
         id: changed_files
         run: |
-          changed_files=$(git diff --name-only HEAD^ HEAD | grep -E '^source/')
+          changed_files=$(git diff --name-only HEAD HEAD~1 | grep -E '^source/')
           echo "::set-output name=changed_files::$changed_files"
       - name: Sort CSV files
         if: ${{ steps.changed_files.outputs.changed_files }}
