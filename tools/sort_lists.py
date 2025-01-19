@@ -13,7 +13,7 @@ import idna
 import dns.resolver
 import dns.query
 
-VERSION = "0.2b19"  # Incremented beta version
+VERSION = "0.2b20"  # Incremented beta version
 
 def find_files_by_name(directory, filenames):
     matches = []
@@ -102,5 +102,3 @@ def remove_duplicates(lines):
     return unique_lines
 
 def validate_idna_domain(domain):
-    try:
-        #
