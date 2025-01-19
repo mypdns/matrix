@@ -38,6 +38,7 @@ jobs:
           python tools/sort_lists.py
       - name: Commit changes
         if: env.changed_files
+        continue-on-error: true
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
