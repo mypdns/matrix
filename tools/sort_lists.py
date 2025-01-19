@@ -10,10 +10,9 @@ import ipaddress
 from subprocess import check_output, CalledProcessError
 import requests
 import idna
-import dns.resolver
-import dns.query
+import json
 
-VERSION = "0.2b23"  # Incremented beta version
+VERSION = "0.2b24"  # Incremented beta version
 
 def find_files_by_name(directory, filenames):
     matches = []
@@ -121,17 +120,14 @@ def test_domain_connectivity(domain, proxy):
     return False
 
 def dns_lookup(domain):
-    resolver = dns.resolver.Resolver()
-    resolver.nameservers = ['tls://dns10.quad9.net']  # Updated DNS to use TLS
     try:
-        resolver.resolve(domain)
-        return True
-    except (dns.resolver.NXDOMAIN, dns.resolver.Timeout, dns.exception.DNSException) as e:
-        print(f"DNS lookup error for domain {domain}: {e}")
-        # Fallback to DoH
         response = requests.get(f"https://dns10.quad9.net/dns-query?name={domain}&type=A", headers={"accept": "application/dns-json"})
-        if response.status_code == 200 and "Answer" in response.json():
-            return True
+        if response.status_code == 200:
+            data = response.json()
+            if "Answer" in data:
+                return True
+    except requests.RequestException as e:
+        print(f"DNS lookup error for domain {domain}: {e}")
     return False
 
 def sort_file_alphanum(file_path, valid_tlds, proxy):
