@@ -22,7 +22,6 @@ jobs:
       - name: Print sort_lists version
         run: |
           python -c "import tools.sort_lists; print(f'Sort Lists Version: {tools.sort_lists.VERSION}')"
-          python tools/sort_lists.py -v
       - name: Check for changes in source folder
         id: changed_files
         run: |
