@@ -7,13 +7,13 @@ import argparse
 import webbrowser
 import re
 import ipaddress
-from subprocess import check_output
+from subprocess import check_output, CalledProcessError
 import requests
 import idna
 import dns.resolver
 import dns.query
 
-VERSION = "0.2b18"  # Incremented beta version
+VERSION = "0.2b19"  # Incremented beta version
 
 def find_files_by_name(directory, filenames):
     matches = []
@@ -24,7 +24,11 @@ def find_files_by_name(directory, filenames):
     return matches
 
 def get_modified_files_in_last_commit():
-    output = check_output(["git", "diff", "--name-only", "HEAD~2", "HEAD"]).decode().splitlines()
+    try:
+        output = check_output(["git", "diff", "--name-only", "HEAD~2", "HEAD"]).decode().splitlines()
+    except CalledProcessError:
+        # Fallback to HEAD if there are not enough commits
+        output = check_output(["git", "diff", "--name-only", "HEAD"]).decode().splitlines()
     return output
 
 def fetch_valid_tlds(proxy):
