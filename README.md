@@ -187,6 +187,27 @@ goes right) be updated by `push on commit`
 | Matrix          | `https://gitlab.com/my-privacy-dns/matrix/matrix`          |                  push |
 | Matrix          | `https://notabug.org/my-privacy-dns/matrix`                |                  pull |
 
+## Licensing Information
+
+This project is licensed under two different licenses depending on the type of
+files:
+
+- **Data Files**: All data files, primarily, located in the `source/` directory,
+  including but not limited to CSV, DAT, and TSV files, are licensed under
+  the [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License (CC BY-NC-SA 4.0)](https://creativecommons.org/licenses/by-nc-sa/4.0/).
+  You may not use these materials for commercial purposes. You must give
+  appropriate credit, provide a link to the license, and indicate if changes
+  were made.
+
+- **Source Code and Other Files**: All other files in this repository, including
+  source code, scripts, and documentation, are licensed under
+  the [GNU Affero General Public License version 3 (AGPL-3.0)](https://www.gnu.org/licenses/agpl-3.0.html).
+  This means you can redistribute and modify the code under the terms of this
+  license, but you must also share your modifications under the same license.
+
+For more details on the licenses, please refer to the respective license files
+included in this repository.
+
 [//]: # ([AdWare]: https://kb.mypdns.org/issues?q=project:%20Matrix/new?issuable_template=AdWare "Issue template to commit adserver domains")
 
 [Bulk-commits]: https://kb.mypdns.org/articles/MTX/Contributing#bulk-commits

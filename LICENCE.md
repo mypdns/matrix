@@ -1,7 +1,2 @@
-This project is using multi licence's
-
-[Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International](source/LICENCE)
-For our Data sources
-
-modified [AGPLv3](licence.html) for our code and other works not specified
-elsewhere.
+LICENSE-AGPL-3.0.txt
+LICENSE-CC-BY-NC-SA-4.0.txt
