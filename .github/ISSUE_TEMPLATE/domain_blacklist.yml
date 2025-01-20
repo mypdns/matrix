@@ -41,7 +41,7 @@ body:
     attributes:
       label: Hosts (RFC:952) specific records, not used by DNS RPZ firewalls
       description: |
-        Also tell us, what subdomains are required for RFC:952 and RFC:953 - (comma separated CSV with pipes)
+        Also tell us, what subdomains are required for RFC:952 - (comma separated CSV with pipes)
       placeholder: |
         dumb.hosts.file.example.com
       render: CSV
