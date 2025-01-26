@@ -44,6 +44,7 @@ jobs:
         if: env.changed_files
         run: |
           python tools/sort_lists.py
+          echo "git status: $(git status)"
         continue-on-error: true
 
       - name: Commit changes
@@ -53,7 +54,7 @@ jobs:
         run: |
           git config --local user.email "$GIT_EMAIL"
           git config --local user.name "$GIT_NAME"
-          echo "git status: "; git status
+          echo "git status: $(git status)"; git status
           git add .
           echo "git status: "; git status
           git commit -am "Sorted CSV database files"
