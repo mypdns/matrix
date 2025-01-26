@@ -15,13 +15,16 @@ jobs:
         uses: actions/setup-python@v2
         with:
           python-version: 3.x
+
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
           pip install -r requirements.txt
+
       - name: Print sort_lists version
         run: |
           python -c "import tools.sort_lists; print(f'Sort Lists Version: {tools.sort_lists.VERSION}')"
+
       - name: Check for changes in source folder
         id: changed_files
         run: |
@@ -32,18 +35,20 @@ jobs:
           fi
           sanitized_changed_files=$(echo "$changed_files" | tr '\n' ' ')
           echo "changed_files=$sanitized_changed_files" >> $GITHUB_ENV
+
       - name: Sort CSV files
         if: env.changed_files
         run: |
           python tools/sort_lists.py
+        continue-on-error: true
+
       - name: Commit changes
         if: env.changed_files
-        continue-on-error: true
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           git config --local user.email "44526987+spirillen@users.noreply.github.com"
           git config --local user.name "spirillen"
-          git add source/
-          git commit -m "Sort CSV files" -a
+          git add .
+          git commit -am "Sorted CSV database files"
           git push
