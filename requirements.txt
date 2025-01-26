@@ -1,3 +1,4 @@
 pyfunceble-dev>=4.3.0a9.dev
 wheel
 mypdns
+csv
