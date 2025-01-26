@@ -15,6 +15,19 @@
 #
 #  You should have received a copy of the GNU Affero General Public License
 #  along with this program. If not, see <https://www.gnu.org/licenses/>.
+#
+#  This program is free software: you can redistribute it and/or modify
+#  it under the terms of the GNU Affero General Public License as
+#  published by the Free Software Foundation, either version 3 of the
+#  License, or (at your option) any later version.
+#
+#  This program is distributed in the hope that it will be useful,
+#  but WITHOUT ANY WARRANTY; without even the implied warranty of
+#  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+#  GNU Affero General Public License for more details.
+#
+#  You should have received a copy of the GNU Affero General Public License
+#  along with this program. If not, see <https://www.gnu.org/licenses/>.
 
 import os
 import sys
@@ -163,6 +176,7 @@ def sort_file_alphanum(file_path, valid_tlds, proxy):
             if domain_idna is None or not test_domain_connectivity(domain_idna, proxy) or not dns_lookup(domain_idna):
                 invalid_entries.append(line)
 
+    # Continue processing even if there are invalid entries
     if invalid_entries:
         print(f"Invalid DNS entries in {file_path}:")
         for entry in invalid_entries:
@@ -192,6 +206,7 @@ def sort_file_tld(file_path, valid_tlds, proxy):
             if domain_idna is None or not test_domain_connectivity(domain_idna, proxy) or not dns_lookup(domain_idna):
                 invalid_entries.append(line)
 
+    # Continue processing even if there are invalid entries
     if invalid_entries:
         print(f"Invalid TLD entries in {file_path}:")
         for entry in invalid_entries:
@@ -215,6 +230,7 @@ def sort_file_rpz_nsdname(file_path, valid_tlds, proxy):
             if domain_idna is None or not test_domain_connectivity(domain_idna, proxy) or not dns_lookup(domain_idna):
                 invalid_entries.append(line)
 
+    # Continue processing even if there are invalid entries
     if invalid_entries:
         print(f"Invalid entries in {file_path}:")
         for entry in invalid_entries:
@@ -246,6 +262,7 @@ def sort_file_hierarchical(file_path, valid_tlds, proxy):
                 if domain_idna is None or not test_domain_connectivity(domain_idna, proxy) or not dns_lookup(domain_idna):
                     invalid_entries.append(line)
 
+    # Continue processing even if there are invalid entries
     if invalid_entries:
         print(f"Invalid DNS or IP entries in {file_path}:")
         for entry in invalid_entries:
@@ -262,6 +279,7 @@ def sort_file_onion(file_path, valid_tlds):
     lines = sorted(lines, key=lambda x: x.strip().split(',')[0] if ',' in x else '')  # Sort FQDNs
 
     invalid_entries = [line for line in lines if line.strip().split(',')[0] != "domain" and not line.strip().endswith('.onion')]
+    # Continue processing even if there are invalid entries
     if invalid_entries:
         print(f"Invalid .onion entries in {file_path}:")
         for entry in invalid_entries:
@@ -282,6 +300,15 @@ def sort_file_ip(file_path):
             file.write(header)
         file.writelines(lines)
         file.write("")  # Ensure no additional newline
+
+
+def commit_changes():
+    try:
+        check_output(["git", "add", "."])
+        check_output(["git", "commit", "-m", "Automated sort and commit"])
+        print("Changes committed successfully.")
+    except CalledProcessError as e:
+        print(f"Commit failed: {e}")
 
 def main():
     parser = argparse.ArgumentParser(description="Sort and clean CSV files.")
@@ -339,6 +366,9 @@ def main():
     for file in target_files_ip:
         if args.force or any(file.endswith(modified) for modified in modified_files):
             sort_file_ip(file)
+
+    # Commit the changes
+    commit_changes()
 
     print("Please consider sponsoring My Privacy DNS at https://www.mypdns.org/donate")
 
