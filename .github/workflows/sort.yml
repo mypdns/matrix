@@ -53,9 +53,9 @@ jobs:
         run: |
           git config --local user.email "$GIT_EMAIL"
           git config --local user.name "$GIT_NAME"
-          git status
+          echo "git status: "; git status
           git add .
-          git status
+          echo "git status: "; git status
           git commit -am "Sorted CSV database files"
-          git status
+          echo "git status: "; git status
           git push
