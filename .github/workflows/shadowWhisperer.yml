@@ -33,7 +33,7 @@ jobs:
 
       - name: Compare and output unique lines
         run: |
-          python3 scripts/ShadowWhisperer.py
+          python3 scripts/shadowWhispererImport.py
 
       - name: Git Status
         run: git status
