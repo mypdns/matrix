@@ -10,8 +10,8 @@ env:
   GITHUB_TOKEN: '${{ secrets.GITHUB_TOKEN }}'
 
 jobs:
-  import_shadowwhisperer:
-    runs-on: ubuntu-24.04 [Beta]
+  import:
+    runs-on: ubuntu-24.04
 
     steps:
       - uses: actions/checkout@main
@@ -25,7 +25,8 @@ jobs:
           python-version: '3.x'
 
       - name: Download ShadowWhisperer Adult list
-        run: wget -O /tmp/adult.ShadowWhisperer https://raw.githubusercontent.com/ShadowWhisperer/BlockLists/master/RAW/Adult
+        run: |
+          curl --retry 5 -sSLo source/porn_filters/imported/adult.ShadowWhisperer https://raw.githubusercontent.com/ShadowWhisperer/BlockLists/master/RAW/Adult
 
       - name: Compare and output unique lines
         run: |
