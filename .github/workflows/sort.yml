@@ -6,6 +6,10 @@ on:
       - 'source/**'
       - 'tools/sort_lists.py'
 
+env:
+  GIT_NAME: '${{ secrets.GIT_NAME }}'
+  GIT_EMAIL: '${{ secrets.GIT_EMAIL }}'
+
 jobs:
   sort-files:
     runs-on: ubuntu-latest
@@ -14,7 +18,7 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v2
         with:
-          python-version: 3.x
+          python-version: 3.12
 
       - name: Install dependencies
         run: |
@@ -47,8 +51,8 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          git config --local user.email "44526987+spirillen@users.noreply.github.com"
-          git config --local user.name "spirillen"
+          git config --local user.email "$GIT_EMAIL"
+          git config --local user.name "$GIT_NAME"
           git add .
           git commit -am "Sorted CSV database files"
           git push
