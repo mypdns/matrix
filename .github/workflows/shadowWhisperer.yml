@@ -3,10 +3,13 @@ name: Import ShadowWhisperer
 on:
   schedule:
     - cron: '*/59 * * * *'
+  push:
+    branches:
+      - master
 
 env:
-  GIT_NAME: 'spirillen'
-  GIT_EMAIL: 'spirillen@example.com'
+  GIT_NAME: '${{ secrets.GIT_NAME }}'
+  GIT_EMAIL: '${{ secrets.GIT_EMAIL }}'
   GITHUB_TOKEN: '${{ secrets.GITHUB_TOKEN }}'
 
 jobs:
