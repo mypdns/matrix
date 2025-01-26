@@ -43,7 +43,7 @@ jobs:
       - name: Sort CSV files
         if: env.changed_files
         run: |
-          python tools/sort_lists.py
+          python tools/sort_lists.sh
           echo "git status: $(git status)"
         continue-on-error: true
 
