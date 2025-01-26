@@ -3,9 +3,6 @@ name: Import ShadowWhisperer
 on:
   schedule:
     - cron: '*/59 * * * *'
-  push:
-    branches:
-      - master
 
 env:
   GIT_NAME: '${{ secrets.GIT_NAME }}'
