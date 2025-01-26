@@ -29,11 +29,11 @@ jobs:
 
       - name: Download ShadowWhisperer Adult list
         run: |
-          curl --retry 5 -sSLo source/porn_filters/imported/adult.ShadowWhisperer https://raw.githubusercontent.com/ShadowWhisperer/BlockLists/master/RAW/Adult
+          curl --retry 5 -sSLo ${{GITHUB_WORKSPACE}}/source/porn_filters/imported/adult.ShadowWhisperer https://raw.githubusercontent.com/ShadowWhisperer/BlockLists/master/RAW/Adult
 
       - name: Compare and output unique lines
         run: |
-          python3 scripts/shadowWhispererImport.py
+          python3 ${{GITHUB_WORKSPACE}}/scripts/shadowWhispererImport.py
 
       - name: Git Status
         run: git status
