@@ -33,24 +33,7 @@ jobs:
 
       - name: Compare and output unique lines
         run: |
-          python3 -c "
-          import csv
-          import os
-
-          def read_csv(file_path):
-            with open(file_path, 'r') as file:
-              return set(line.strip() for line in file)
-
-            adult_list = read_csv('source/porn_filters/imported/adult.ShadowWhisperer')
-            explicit_content = read_csv('source/porn_filters/explicit_content/wildcard.csv')
-            strict_filters = read_csv('source/strict_filters/wildcard.csv') if os.path.exists('source/strict_filters/wildcard.csv') else set()
-
-            unique_lines = adult_list - explicit_content - strict_filters
-
-          with open('source/porn_filters/imported/adult.ShadowWhisperer.unique', 'w') as output_file:
-            for line in unique_lines:
-              output_file.write(line + '\n')
-              "
+          python3 scripts/ShadowWhisperer.py
 
       - name: Git Status
         run: git status
