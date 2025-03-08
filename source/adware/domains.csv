@@ -407,11 +407,6 @@ marketing.botcomics.com
 br3azil334nutsz.com
 adservices.brandcdn.com
 cdn.braun634.com
-ads.brave.com
-anonymous.ads.brave.com
-search.anonymous.ads.brave.com
-geo.ads.brave.com
-static.ads.brave.com
 ads-serve.brave.com
 ads-static.brave.com
 rewards.brave.com
@@ -1340,6 +1335,8 @@ prod.appnexus.map.fastly.net
 mparticle.map.fastly.net
 taboola.map.fastly.net
 7q1z79gxsi.global.ssl.fastly.net
+adblock-data.brave.com
+adblock-data.s3.brave.com
 ads.global.ssl.fastly.net
 ae-136.global.ssl.fastly.net
 c0914.global.ssl.fastly.net
