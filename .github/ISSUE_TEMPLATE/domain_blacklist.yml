@@ -1,5 +1,6 @@
 name: Domain blacklist
 description: Blacklist by My Privacy DNS
+type: Task
 body:
   - type: textarea
     id: comments
