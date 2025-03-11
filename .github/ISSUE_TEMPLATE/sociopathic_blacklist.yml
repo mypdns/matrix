@@ -3,8 +3,6 @@ description: Blacklist by My Privacy DNS
 type: Task
 labels:
   - SocialMedia
-projects:
-  - "mypdns/3"
 body:
   - type: textarea
     id: comments
