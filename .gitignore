@@ -206,7 +206,7 @@ tags
 /scripts/write_rpz.sh
 
 # Add python
-tools/
+# tools/
 tools/__pycache__/
 tools/*.py[cod]
 tools/*$py.class

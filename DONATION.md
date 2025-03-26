@@ -22,4 +22,4 @@ Together, we can help protect our privacy and keep the internet safe and secure
 for everyone.
 
 - [![liberapay](https://www.mypdns.org/fileproxy/?name=sp_receives_mypdns)](https://liberapay.com/MyPDNS/donate) [![goal](https://www.mypdns.org/fileproxy/?name=sp_goal_mypdns)](https://liberapay.com/MyPDNS/donate)
-- [![ko-fi](.assets/icons/ko-fi.png)](https://ko-fi.com/X8X37FUGU)
+- [![ko-fi](https://raw.githubusercontent.com/mypdns/.assets/master/icons/ko-fi.png)](https://ko-fi.com/X8X37FUGU)

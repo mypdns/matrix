@@ -2,7 +2,7 @@
 
 [![My Privacy DNS](https://www.mypdns.org/images/logo.png)](https://www.mypdns.org/)
 
-[![Github](https://github.com/mypdns/matrix/raw/master/.assets/icons/github.png)](https://github.com/mypdns/matrix)
+[![Github](https://raw.githubusercontent.com/mypdns/.assets/master/icons/github.png)](https://github.com/mypdns/matrix)
 [![ko-fi](https://www.mypdns.org/images/githubbutton_sm.svg)](https://ko-fi.com/X8X37FUGU)
 [![liberapay](https://www.mypdns.org/fileproxy/?name=sp_receives_mypdns)](https://liberapay.com/MyPDNS/donate)
 [![goal](https://www.mypdns.org/fileproxy/?name=sp_goal_mypdns)](https://liberapay.com/MyPDNS/donate)
@@ -13,7 +13,6 @@ pre-configured output zone files in this project, we are simply only storing
 and verifying the availability of the records.
 
 <!-- TOC -->
-
 * [Porn Records](#porn-records)
     * [Who Can Use This Project](#who-can-use-this-project)
         * [DNS RPZ Firewall](#dns-rpz-firewall)
@@ -257,7 +256,7 @@ We have begun extracting the most commonly used tags within domain names and pub
 
 Remember to clear your browser history after bypassing these filters!
 
-[![Clear Browser History](https://github.com/mypdns/matrix/blob/master/.assets/browser-history.jpeg?raw=true)](http://joyreactor.com/post/716777 "Clear your browser history")
+[![Clear Browser History](https://raw.githubusercontent.com/mypdns/.assets/master/browser-history.jpeg)](http://joyreactor.com/post/716777 "Clear your browser history")
 
 ## Buzzwords and Keywords
 
