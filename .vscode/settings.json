@@ -1,0 +1,94 @@
+{
+    "workbench.colorCustomizations": {
+        "editorLineNumber.foreground": "#00ff00"
+    },
+    "editor.autoClosingComments": "languageDefined",
+    "editor.autoIndent": "full",
+    "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
+    "editor.comments.insertSpace": true,
+    "editor.detectIndentation": true,
+    "editor.find.addExtraSpaceOnTop": false,
+    "editor.find.autoFindInSelection": "always",
+    "editor.foldingImportsByDefault": true,
+    "editor.formatOnPaste": true,
+    "editor.formatOnSave": true,
+    "editor.formatOnType": true,
+    "editor.insertSpaces": true,
+    "python.testing.pytestEnabled": false,
+    "python.testing.unittestEnabled": false,
+    "window.title": "${rootName}${separator}${activeEditorShort}",
+    "workbench.settings.editor": "json",
+    "adblock.enableAglint": true,
+    "adblock.packageManager": "pnpm",
+    "files.autoGuessEncoding": true,
+    "files.eol": "\n",
+    "files.insertFinalNewline": true,
+    "files.trimFinalNewlines": true,
+    "files.trimTrailingWhitespace": true,
+    "git.alwaysSignOff": true,
+    "git.autofetch": true,
+    "git.branchProtection": [
+        "master"
+    ],
+    "git.branchRandomName.dictionary": [
+        "adjectives",
+        "animals",
+        "numbers"
+    ],
+    "git.branchProtectionPrompt": "alwaysCommit",
+    "git.closeDiffOnOperation": true,
+    "git.enableCommitSigning": true,
+    "git.enableSmartCommit": true,
+    "git.fetchOnPull": true,
+    "git.postCommitCommand": "sync",
+    "cSpell.caseSensitive": true,
+    "cSpell.noSuggestDictionaries": [
+        "DNS",
+        "PyFunceble",
+        "rDNS",
+        "dq",
+        "My Privacy DNS",
+        "MyPDNS"
+    ],
+    "cSpell.language": "en-GB",
+    "cSpell.diagnosticLevel": "Warning",
+    "cSpell.showAutocompleteSuggestions": true,
+    "cSpell.files": [
+        "json",
+        "md",
+        "markdown"
+    ],
+    "cSpell.ignorePaths": [
+        "package-lock.json",
+        "node_modules",
+        "vscode-extension",
+        ".git/objects",
+        ".vscode",
+        ".vscode-insiders",
+        "**rpz-ip",
+        ".rpz-ip",
+        "**.rpz-nsdname"
+    ],
+    "cSpell.enableFiletypes": [
+        "json",
+        "md",
+        "markdown"
+    ],
+    "cSpell.workspaceRootPath": "${workspaceFolder:client}",
+    "cSpell.blockCheckingWhenAverageChunkSizeGreaterThan": 80,
+    "editor.quickSuggestions": {
+        "comments": "on",
+        "strings": "on"
+    },
+    "diffEditor.wordWrap": "off",
+    "workbench.startupEditor": "none",
+    "search.useGlobalIgnoreFiles": false,
+    "adblock.useExternalAglintPackages": false,
+    "cSpell.flagWords": [
+        "color: colour",
+        "canot->cannot",
+        "cancelled->canceled",
+        "licence: license"
+    ],
+    "editor.renderWhitespace": "trailing"
+}

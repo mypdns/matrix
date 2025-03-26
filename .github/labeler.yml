@@ -1,0 +1,44 @@
+AdWare:
+  - source/adware/*
+
+Bait Site:
+  - source/bait_sites/*
+
+Coin Blocker:
+  - source/coin-blocker/*
+
+DNS server blocking:
+  - source/dns-servers/*
+
+Fake News:
+  - source/fake-news/*
+
+Gambling:
+  - source/gambling/*
+
+Malicious:
+  - source/malicious/*
+
+NSFW Adult Material:
+  - source/-sites/*
+
+Redirecting:
+  - source/redirector/*
+
+Scamming:
+  - source/scamming/*
+
+Domain Sharked:
+  - source/sharked-domains/*
+
+Spying:
+  - source/spyware/*
+
+Tracking:
+  - source/tracking/*
+
+TypoSquatting:
+  - source/typosquatting/*
+
+WhiteList:
+  - source/whitelist/*

@@ -1,0 +1,62 @@
+name: Sort CSV Files
+
+on:
+  push:
+    paths:
+      - 'source/**'
+      - 'tools/sort_lists.py'
+
+env:
+  GIT_NAME: '${{ secrets.GIT_NAME }}'
+  GIT_EMAIL: '${{ secrets.GIT_EMAIL }}'
+
+jobs:
+  sort-files:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Set up Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: 3.12
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Print sort_lists version
+        run: |
+          python -c "import tools.sort_lists; print(f'Sort Lists Version: {tools.sort_lists.VERSION}')"
+
+      - name: Check for changes in source folder
+        id: changed_files
+        run: |
+          if [ $(git rev-list --count HEAD) -gt 1 ]; then
+            changed_files=$(git diff --name-only HEAD~1 HEAD | grep -E '^source/.*\.csv$')
+          else
+            changed_files=$(git ls-files | grep -E '^source/.*\.csv$')
+          fi
+          sanitized_changed_files=$(echo "$changed_files" | tr '\n' ' ')
+          echo "changed_files=$sanitized_changed_files" >> $GITHUB_ENV
+
+      - name: Sort CSV files
+        if: env.changed_files
+        run: |
+          bash tools/sort_lists.sh
+          echo "git status: $(git status)"
+        continue-on-error: true
+
+      - name: Commit changes
+        if: env.changed_files
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          git config --local user.email "$GIT_EMAIL"
+          git config --local user.name "$GIT_NAME"
+          echo "git status: $(git status)"; git status
+          git add .
+          echo "git status: "; git status
+          git commit -am "Sorted CSV database files"
+          echo "git status: "; git status
+          git push

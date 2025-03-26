@@ -1,0 +1,189 @@
+name: Availability test | My Privacy DNS
+on:
+  schedule:
+    - cron: '26 * * * *'
+
+env:
+  PYFUNCEBLE_AUTO_CONFIGURATION: 'YES'
+  PYFUNCEBLE_CONFIG_DIR: '${{ github.workspace }}/.pyfunceble'
+  PYFUNCEBLE_OUTPUT_LOCATION: '${{ github.workspace }}/.pyfunceble'
+  PYFUNCEBLE_PLATFORM_API_TOKEN: '${{ secrets.PYFUNCEBLE_PLATFORM_API_TOKEN }}'
+  PYFUNCEBLE_PLATFORM_API_URL: '${{ secrets.PYFUNCEBLE_PLATFORM_API_URL }}'
+  # Define the branch PyFunceble has to use while working.
+  GIT_BRANCH: data-testing
+  # Define the branch PyFunceble will push the final result into.
+  GIT_DISTRIBUTION_BRANCH: master
+  PYFUNCEBLE_DB_CHARSET: 'utf8mb4'
+  PYFUNCEBLE_DB_HOST: '${{ secrets.MYPDNS_DB_HOST }}'
+  PYFUNCEBLE_DB_NAME: '${{ secrets.MYPDNS_DB_NAME }}'
+  PYFUNCEBLE_DB_PASSWORD: '${{ secrets.MYPDNS_DB_PASS }}'
+  PYFUNCEBLE_DB_PORT: '${{ secrets.MYPDNS_DB_PORT }}'
+  PYFUNCEBLE_DB_USERNAME: '${{ secrets.MYPDNS_DB_USER }}'
+  GIT_NAME: '${{ secrets.GIT_NAME }}'
+  GIT_EMAIL: '${{ secrets.GIT_EMAIL }}'
+  GITHUB_TOKEN: '${{ secrets.GITHUB_TOKEN }}'
+  BUILD_NUMBER: '${{ github.run_number }}'
+
+jobs:
+  test_and_push:
+    name: Run PyFunceble against the files and push result to repository
+    runs-on: '${{ matrix.os }}'
+
+    strategy:
+      fail-fast: false
+      matrix:
+        python_version:
+          - '3.13'
+        os:
+          - ubuntu-24.04
+
+    steps:
+      - uses: actions/checkout@v4
+        name: Clone repository
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Set up Python ${{ matrix.python_version }}
+        uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python_version }}
+
+      - name: Install My Privacy DNS python module
+        run: |
+          pip install --upgrade pip
+          pip install --no-cache-dir -r "${{ github.workspace }}/requirements.txt"
+
+      - name: Get PyFunceble version
+        run: |
+          PyFunceble --version
+
+      - name: Run Domain tests
+        run: |
+          pyfunceble -f "${{ github.workspace }}/source/adware/domains.csv" \
+          "${{ github.workspace }}/source/adware/onions.csv" \
+          "${{ github.workspace }}/source/adware/rpz-ip.csv" \
+          "${{ github.workspace }}/source/adware/tld.csv" \
+          "${{ github.workspace }}/source/adware/wildcard.csv" \
+          "${{ github.workspace }}/source/adware/wildcard.rpz-nsdname.csv" \
+          "${{ github.workspace }}/source/coinblocker/domains.csv" \
+          "${{ github.workspace }}/source/coinblocker/onions.csv" \
+          "${{ github.workspace }}/source/coinblocker/rpz-ip.csv" \
+          "${{ github.workspace }}/source/coinblocker/wildcard.csv" \
+          "${{ github.workspace }}/source/drugs/domains.csv" \
+          "${{ github.workspace }}/source/drugs/onions.csv" \
+          "${{ github.workspace }}/source/drugs/rpz-ip.csv" \
+          "${{ github.workspace }}/source/drugs/tld.csv" \
+          "${{ github.workspace }}/source/drugs/wildcard.csv" \
+          "${{ github.workspace }}/source/drugs/wildcard.rpz-nsdname.csv" \
+          "${{ github.workspace }}/source/gambling/domains.csv" \
+          "${{ github.workspace }}/source/gambling/onions.csv" \
+          "${{ github.workspace }}/source/gambling/rpz-ip.csv" \
+          "${{ github.workspace }}/source/gambling/wildcard.csv" \
+          "${{ github.workspace }}/source/gambling/wildcard.rpz-nsdname.csv" \
+          "${{ github.workspace }}/source/malicious/domains.csv" \
+          "${{ github.workspace }}/source/malicious/onions.csv" \
+          "${{ github.workspace }}/source/malicious/rpz-ip.csv" \
+          "${{ github.workspace }}/source/malicious/wildcard.csv" \
+          "${{ github.workspace }}/source/malicious/wildcard.rpz-nsdname.csv" \
+          "${{ github.workspace }}/source/movies/domains.csv" \
+          "${{ github.workspace }}/source/movies/onions.csv" \
+          "${{ github.workspace }}/source/movies/rpz-ip.csv" \
+          "${{ github.workspace }}/source/movies/tld.csv" \
+          "${{ github.workspace }}/source/movies/wildcard.csv" \
+          "${{ github.workspace }}/source/movies/wildcard.rpz-nsdname.csv" \
+          "${{ github.workspace }}/source/news/domains.csv" \
+          "${{ github.workspace }}/source/news/onions.csv" \
+          "${{ github.workspace }}/source/news/rpz-ip.csv" \
+          "${{ github.workspace }}/source/news/tld.csv" \
+          "${{ github.workspace }}/source/news/wildcard.csv" \
+          "${{ github.workspace }}/source/news/wildcard.rpz-nsdname.csv" \
+          "${{ github.workspace }}/source/phishing/domains.csv" \
+          "${{ github.workspace }}/source/phishing/onions.csv" \
+          "${{ github.workspace }}/source/phishing/rpz-ip.csv" \
+          "${{ github.workspace }}/source/phishing/wildcard.csv" \
+          "${{ github.workspace }}/source/phishing/wildcard.rpz-nsdname.csv" \
+          "${{ github.workspace }}/source/pirated/domains.rpz-nsdname.csv" \
+          "${{ github.workspace }}/source/pirated/domains.csv" \
+          "${{ github.workspace }}/source/pirated/rpz-ip.csv" \
+          "${{ github.workspace }}/source/pirated/wildcard.csv" \
+          "${{ github.workspace }}/source/pirated/wildcard.rpz-nsdname.csv" \
+          "${{ github.workspace }}/source/politics/domains.csv" \
+          "${{ github.workspace }}/source/politics/onions.csv" \
+          "${{ github.workspace }}/source/politics/rpz-ip.csv" \
+          "${{ github.workspace }}/source/politics/tld.csv" \
+          "${{ github.workspace }}/source/politics/wildcard.csv" \
+          "${{ github.workspace }}/source/politics/wildcard.rpz-nsdname.csv" \
+          "${{ github.workspace }}/source/redirector/domains.csv" \
+          "${{ github.workspace }}/source/redirector/onions.csv" \
+          "${{ github.workspace }}/source/redirector/rpz-ip.csv" \
+          "${{ github.workspace }}/source/redirector/wildcard.csv" \
+          "${{ github.workspace }}/source/religion/domains.csv" \
+          "${{ github.workspace }}/source/religion/onions.csv" \
+          "${{ github.workspace }}/source/religion/rpz-ip.csv" \
+          "${{ github.workspace }}/source/religion/tld.csv" \
+          "${{ github.workspace }}/source/religion/wildcard.csv" \
+          "${{ github.workspace }}/source/religion/wildcard.rpz-nsdname.csv" \
+          "${{ github.workspace }}/source/scamming/domains.csv" \
+          "${{ github.workspace }}/source/scamming/onions.csv" \
+          "${{ github.workspace }}/source/scamming/rpz-ip.csv" \
+          "${{ github.workspace }}/source/scamming/wildcard.csv" \
+          "${{ github.workspace }}/source/spam/domains.csv" \
+          "${{ github.workspace }}/source/spam/onions.csv" \
+          "${{ github.workspace }}/source/spam/rpz-ip.csv" \
+          "${{ github.workspace }}/source/spam/tld.csv" \
+          "${{ github.workspace }}/source/spam/wildcard.csv" \
+          "${{ github.workspace }}/source/spam/wildcard.rpz-nsdname.csv" \
+          "${{ github.workspace }}/source/spyware/domains.csv" \
+          "${{ github.workspace }}/source/spyware/onions.csv" \
+          "${{ github.workspace }}/source/spyware/rpz-ip.csv" \
+          "${{ github.workspace }}/source/spyware/tld.csv" \
+          "${{ github.workspace }}/source/spyware/wildcard.csv" \
+          "${{ github.workspace }}/source/spyware/wildcard.rpz-nsdname.csv" \
+          "${{ github.workspace }}/source/suspected/domains.csv" \
+          "${{ github.workspace }}/source/suspected/onions.csv" \
+          "${{ github.workspace }}/source/suspected/rpz-ip.csv" \
+          "${{ github.workspace }}/source/suspected/tld.csv" \
+          "${{ github.workspace }}/source/suspected/wildcard.csv" \
+          "${{ github.workspace }}/source/suspected/wildcard.rpz-nsdname.csv" \
+          "${{ github.workspace }}/source/torrent/domains.csv" \
+          "${{ github.workspace }}/source/torrent/onions.csv" \
+          "${{ github.workspace }}/source/torrent/rpz-ip.csv" \
+          "${{ github.workspace }}/source/torrent/tld.csv" \
+          "${{ github.workspace }}/source/torrent/wildcard.csv" \
+          "${{ github.workspace }}/source/torrent/wildcard.rpz-nsdname.csv" \
+          "${{ github.workspace }}/source/tracking/domains.csv" \
+          "${{ github.workspace }}/source/tracking/onions.csv" \
+          "${{ github.workspace }}/source/tracking/rpz-ip.csv" \
+          "${{ github.workspace }}/source/tracking/tld.csv" \
+          "${{ github.workspace }}/source/tracking/wildcard.csv" \
+          "${{ github.workspace }}/source/tracking/wildcard.rpz-nsdname.csv" \
+          "${{ github.workspace }}/source/typosquatting/domains.csv" \
+          "${{ github.workspace }}/source/typosquatting/onions.csv" \
+          "${{ github.workspace }}/source/typosquatting/rpz-ip.csv" \
+          "${{ github.workspace }}/source/typosquatting/wildcard.csv" \
+          "${{ github.workspace }}/source/typosquatting/wildcard.rpz-nsdname.csv" \
+          "${{ github.workspace }}/source/weapons/domains.csv" \
+          "${{ github.workspace }}/source/weapons/onions.csv" \
+          "${{ github.workspace }}/source/weapons/rpz-ip.csv" \
+          "${{ github.workspace }}/source/weapons/tld.csv" \
+          "${{ github.workspace }}/source/weapons/wildcard.csv" \
+          "${{ github.workspace }}/source/weapons/wildcard.rpz-nsdname.csv" \
+          "${{ github.workspace }}/source/porn_filters/explicit_content/domains.csv" \
+          "${{ github.workspace }}/source/porn_filters/explicit_content/hosts.csv" \
+          "${{ github.workspace }}/source/porn_filters/explicit_content/mobile.csv" \
+          "${{ github.workspace }}/source/porn_filters/explicit_content/onions.csv" \
+          "${{ github.workspace }}/source/porn_filters/explicit_content/rpz-ip.csv" \
+          "${{ github.workspace }}/source/porn_filters/explicit_content/snuff.csv" \
+          "${{ github.workspace }}/source/porn_filters/explicit_content/tld.csv" \
+          "${{ github.workspace }}/source/porn_filters/explicit_content/wildcard.csv" \
+          "${{ github.workspace }}/source/porn_filters/explicit_content/wildcard.rpz-nsdname.csv" \
+          "${{ github.workspace }}/source/porn_filters/imported/adult.ShadowWhisperer" \
+          "${{ github.workspace }}/source/porn_filters/imported/domains.matrix" \
+          "${{ github.workspace }}/source/porn_filters/imported/hosts.clefspeare13" \
+          "${{ github.workspace }}/source/porn_filters/strict_filters/domains.csv" \
+          "${{ github.workspace }}/source/porn_filters/strict_filters/onions.csv" \
+          "${{ github.workspace }}/source/porn_filters/strict_filters/hosts.csv" \
+          "${{ github.workspace }}/source/porn_filters/strict_filters/onions.csv" \
+          "${{ github.workspace }}/source/porn_filters/strict_filters/rpz-ip.csv" \
+          "${{ github.workspace }}/source/porn_filters/strict_filters/wildcard.csv" \
+          "${{ github.workspace }}/source/porn_filters/strict_filters/wildcard.rpz-nsdname.csv"

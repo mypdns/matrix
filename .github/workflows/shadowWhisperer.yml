@@ -1,0 +1,52 @@
+name: Import ShadowWhisperer
+
+on:
+  schedule:
+    - cron: '*/59 * * * *'
+
+env:
+  GIT_NAME: '${{ secrets.GIT_NAME }}'
+  GIT_EMAIL: '${{ secrets.GIT_EMAIL }}'
+  GITHUB_TOKEN: '${{ secrets.GITHUB_TOKEN }}'
+
+jobs:
+  import:
+    runs-on: ubuntu-24.04
+
+    steps:
+      - uses: actions/checkout@main
+        name: Clone repository
+        with:
+          token: '${{ secrets.GITHUB_TOKEN }}'
+
+      - name: Set up Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: '3.x'
+
+      - name: Download ShadowWhisperer Adult list
+        run: |
+          curl --retry 5 -sSLo ${{ github.workspace }}/source/porn_filters/imported/adult.ShadowWhisperer https://raw.githubusercontent.com/ShadowWhisperer/BlockLists/master/RAW/Adult
+
+      - name: Compare and output unique lines
+        run: |
+          python3 ${{ github.workspace }}/scripts/shadowWhispererImport.py
+
+      - name: Git Status
+        run: git status
+
+      - name: Commit changes
+        continue-on-error: true
+        run: |
+          tag=$(date +'day: %j of year %Y %H:%M:%S')
+          git config --local user.email "$GIT_EMAIL"
+          git config --local user.name "$GIT_NAME"
+          git commit -m "Committed new lists $tag" -a
+          git pull --rebase
+
+      - name: Push changes
+        continue-on-error: true
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          branch: ${{ github.ref }}

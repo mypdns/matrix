@@ -1,0 +1,167 @@
+cli_decoding:
+    adblock: false
+    aggressive: false
+    rpz: false
+    wildcard: false
+cli_testing:
+    autocontinue: false
+    chancy_tester: false
+    ci:
+        active: false
+        branch: master
+        command: null
+        commit_message: PyFunceble - AutoSave
+        distribution_branch: master
+        end_command: null
+        end_commit_message: PyFunceble - Results
+        max_exec_minutes: 15
+    cidr_expand: false
+    complements: false
+    cooldown_time: 0.0
+    days_between:
+        db_clean: 28
+        db_retest: 1
+    db_type: csv
+    display_mode:
+        all: false
+        colour: true
+        datetime: false
+        datetime_format: '%Y-%m-%d %H:%M:%S'
+        dots: false
+        execution_time: false
+        less: true
+        max_registrar: 15
+        percentage: true
+        quiet: false
+        registrar: false
+        simple: false
+        status: all
+    file_filter: null
+    file_generation:
+        analytic: true
+        hosts: false
+        merge_output_dirs: false
+        no_file: false
+        plain: true
+        unified_results: false
+    hosts_ip: 0.0.0.0
+    inactive_db: true
+    local_network: false
+    max_workers: null
+    mining: false
+    preload_file: false
+    sorting_mode:
+        hierarchical: false
+        standard: true
+    testing_mode:
+        availability: true
+        platform_contribution: false
+        reputation: false
+        syntax: false
+    whois_db: true
+debug:
+    active: false
+    level: info
+dns:
+    delay: 0.0
+    follow_server_order: true
+    protocol: UDP
+    server: null
+    trust_server: false
+http_codes:
+    list:
+        potentially_down:
+        - 400
+        - 402
+        - 404
+        - 409
+        - 410
+        - 412
+        - 414
+        - 415
+        - 416
+        - 451
+        potentially_up:
+        - 0
+        - 300
+        - 301
+        - 302
+        - 303
+        - 304
+        - 305
+        - 307
+        - 308
+        - 403
+        - 405
+        - 406
+        - 407
+        - 408
+        - 411
+        - 413
+        - 417
+        - 418
+        - 421
+        - 422
+        - 423
+        - 424
+        - 426
+        - 428
+        - 431
+        - 500
+        - 501
+        - 502
+        - 503
+        - 504
+        - 505
+        - 506
+        - 507
+        - 508
+        - 510
+        - 511
+        up:
+        - 100
+        - 101
+        - 102
+        - 200
+        - 201
+        - 202
+        - 203
+        - 204
+        - 205
+        - 206
+        - 207
+        - 208
+        - 226
+        - 429
+    self_managed: false
+links: {}
+lookup:
+    dns: true
+    http_status_code: true
+    netinfo: true
+    platform: false
+    reputation: false
+    special: true
+    timeout: 5
+    whois: true
+max_http_retries: 3
+platform:
+    checker_exclude:
+    - none
+    checker_priority:
+    - none
+    preferred_status_origin: recommended
+    push: false
+proxy:
+    global:
+        http: null
+        https: null
+    rules: []
+share_logs: false
+special_rules: []
+user_agent:
+    browser: chrome
+    custom: null
+    platform: linux
+    reference: null
+verify_ssl_certificate: false

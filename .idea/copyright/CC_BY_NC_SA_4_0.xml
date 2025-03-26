@@ -1,0 +1,6 @@
+<component name="CopyrightManager">
+  <copyright>
+    <option name="notice" value="&lt;Dataset Name&gt;: &lt;Brief Description of the Dataset&gt;&#10;Copyright (C) &amp;#36;originalComment.match(&quot;Copyright \(c\) (\d+)&quot;, 1, &quot;-&quot;, &quot;&amp;#36;today.year&quot;)&amp;#36;today.year. My Privacy DNS&#10;&#10;This dataset is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.&#10;You may not use the material for commercial purposes. You must give appropriate credit, provide a link to the license,&#10;and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the&#10;licensor endorses you or your use. &#10;&#10;You can view the full license at: https://creativecommons.org/licenses/by-nc-sa/4.0/&#10;" />
+    <option name="myName" value="CC BY-NC-SA 4.0" />
+  </copyright>
+</component>

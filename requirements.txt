@@ -1,0 +1,3 @@
+pyfunceble-dev>=4.3.0a17
+wheel>=0.45.1
+mypdns>=1.0.5

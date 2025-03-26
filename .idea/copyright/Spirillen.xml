@@ -1,0 +1,6 @@
+<component name="CopyrightManager">
+  <copyright>
+    <option name="notice" value="&lt;Program Name&gt;: &lt;Brief Description of the Program&gt;&#10;Copyright (C) &amp;#36;originalComment.match(&quot;Copyright \(c\) (\d+)&quot;, 1, &quot;-&quot;, &quot;&amp;#36;today.year&quot;)&amp;#36;today.year. My Privacy DNS&#10;My Privacy DNS url: https://www.mypdns.org/&#10;User: @spirillen url: https://github.com/spirillen&#10;License: AGPL-3.0 for scripts and CC BY-NC-SA 4.0 for data files&#10;" />
+    <option name="myName" value="Spirillen" />
+  </copyright>
+</component>
