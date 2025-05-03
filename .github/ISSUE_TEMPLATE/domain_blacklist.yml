@@ -84,7 +84,7 @@ body:
   - type: textarea
     id: externalSource
     attributes:
-      label: Links to external sources
+      label: Links to related contents
       description: If you have any external info, that can help process this issue
       value: |
         null
