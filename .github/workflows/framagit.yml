@@ -1,3 +1,17 @@
+name: Mirror to Framagit
+on:
+  push:
+    branches:
+      - '**'
+
+jobs:
+  mirror:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
 - name: Mirror to framagit (HTTPS with token via netrc)
   env:
     FRAMAGIT_URL: https://framagit.org/my-privacy-dns/matrix.git
