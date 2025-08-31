@@ -14,12 +14,41 @@ jobs:
       FRAMAGIT_URL: https://framagit.org/my-privacy-dns/matrix.git
       FRAMAGIT_TOKEN: ${{ secrets.FRAMAGIT_TOKEN }}
     steps:
-      - name: Validate repository secrets
+      - name: Validate repository secrets & access
         run: |
           set -euo pipefail
+
           if [ -z "${FRAMAGIT_TOKEN:-}" ]; then
-            echo "ERROR: FRAMAGIT_TOKEN is not set." >&2
+            echo "ERROR: TOKEN is not set." >&2
             exit 1
+          else
+            echo "The TOKEN is loaded successfully."
+          fi
+
+      - name: Configure ~/.netrc for framagit.org
+        run: |
+          set -euo pipefail
+
+          printf "machine framagit.org login %s password %s\n" "spirillen" "${FRAMAGIT_TOKEN}" > "$HOME/.netrc"
+          chmod 600 "$HOME/.netrc"
+          echo "Create and change access right to $HOME/.netrc"
+
+      - name: Lightweight read check
+        run: |
+          if ! git ls-remote --exit-code "${FRAMAGIT_URL}" HEAD >/dev/null 2>&1; then
+            echo "ERROR: git ls-remote failed — check FRAMAGIT_URL and token." >&2
+            exit 1
+          else
+            echo "git ls-remote succeeded — read access OK. 🎉"
+          fi
+
+      - name: Test push permission with dry-run (may be rejected by some servers differently)
+        run: |
+          if ! git push --dry-run "${FRAMAGIT_URL}" "HEAD:refs/heads/ci-connection-test" >/dev/null 2>&1; then
+            echo "ERROR: Push permission test failed — token may be read-only." >&2
+            exit 1
+          else
+            echo "Push permission test succeeded — write access OK."
           fi
 
       - name: Checkout repository (full history)
@@ -30,10 +59,6 @@ jobs:
       - name: Mirror to framagit (HTTPS with token via netrc)
         run: |
           set -euo pipefail
-
-          echo "Configuring ~/.netrc for framagit.org"
-          printf "machine framagit.org login %s password %s\n" "spirillen" "${FRAMAGIT_TOKEN}" > "$HOME/.netrc"
-          chmod 600 "$HOME/.netrc"
 
           echo "Ensuring framagit remote points to $FRAMAGIT_URL"
           git remote remove framagit || true
