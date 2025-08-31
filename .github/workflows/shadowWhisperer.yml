@@ -1,7 +1,6 @@
 name: Import ShadowWhisperer
 
 on:
-  push:
   schedule:
     - cron: '*/59 * * * *'
 
