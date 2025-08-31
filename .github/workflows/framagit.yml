@@ -23,13 +23,13 @@ jobs:
         run: |
           set -euo pipefail
 
-          if [ -z "${FRAMAGIT_TOKEN:-}" ]; then
+          if [ -z "${FRAMAGIT_SSH:-}" ]; then
             echo "ERROR: FRAMAGIT_SSH (used as FRAMAGIT_TOKEN) is not set." >&2
             exit 1
           fi
 
           echo "Configuring ~/.netrc for framagit.org"
-          printf "machine framagit.org login %s password %s\n" "spirille" "${FRAMAGIT_TOKEN}" > "$HOME/.netrc"
+          printf "machine framagit.org login %s password %s\n" "spirille" "${FRAMAGIT_SSH}" > "$HOME/.netrc"
           chmod 600 "$HOME/.netrc"
 
           echo "Ensuring framagit remote points to $FRAMAGIT_URL"
