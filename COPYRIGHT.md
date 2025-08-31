@@ -19,7 +19,7 @@ at this project.
 ## LICENCE
 
 The current Licence for this repository is always to be found at the
-folder root [LICENCE](/LICENCE.md)
+folder root [LICENCE](/COPYING)
 
 ## Disallowed projects
 
@@ -35,6 +35,6 @@ Any known infringement should be reported to this issue:
 [Copyright infringement][infringement]
 
 
-[LICENCE]: /LICENCE
+[LICENCE]: /COPYING
 
 [infringement]: https://kb.myodns.org/issues?q=project:%20%7BCopyright%20infringement%7D
