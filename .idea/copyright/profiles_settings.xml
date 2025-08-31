@@ -1,11 +1,11 @@
 <component name="CopyrightManager">
-  <settings>
+  <settings default="AGPLv3">
     <module2copyright>
-      <element module="Production" copyright="AGPL License" />
+      <element module="Production" copyright="AGPLv3" />
       <element module="Non-Project Files" copyright="Spirillen" />
       <element module="Scratches and Consoles" copyright="Spirillen" />
-      <element module="Tests" copyright="AGPL License" />
-      <element module="Project Files" copyright="AGPL License" />
+      <element module="Tests" copyright="AGPLv3" />
+      <element module="Project Files" copyright="AGPLv3" />
       <element module="All" copyright="Spirillen" />
     </module2copyright>
   </settings>

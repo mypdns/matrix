@@ -1,6 +1,6 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 
-#  <Program Name>: <Brief Description of the Program>
+# Domain Sorter: stable, deduplicating, memory-efficient domain sorter
 #  Copyright (C) 2025. My Privacy DNS
 #
 #  This program is free software: you can redistribute it and/or modify
@@ -17,6 +17,16 @@
 #  along with this program. If not, see <https://www.gnu.org/licenses/>.
 
 # cat file.txt | cat source/tracking/domains.list | ./tools/domain-sort.py
+
+
+"""
+Domain Sorter: read domains from stdin or files, normalize, deduplicate,
+and print them sorted by TLD-first (reverse-label) order.
+
+Usage:
+  cat file.txt | ./tools/domain-sort.py
+  ./tools/domain-sort.py file1 file2
+"""
 
 from fileinput import input
 
