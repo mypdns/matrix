@@ -45,7 +45,7 @@ jobs:
       - name: Test push permission with dry-run (may be rejected by some servers differently)
         run: |
           if ! git push --dry-run "${FRAMAGIT_URL}" "HEAD:refs/heads/ci-connection-test" >/dev/null 2>&1; then
-            echo "ERROR: Push permission test failed — token may be read-only." >&2
+            echo "ERROR: Test: Push permission failed — token may be read-only." >&2
             exit 1
           else
             echo "Push permission test succeeded — write access OK."
