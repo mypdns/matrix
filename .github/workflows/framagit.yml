@@ -59,7 +59,7 @@ jobs:
       - name: Test push permission with dry-run (SSH)
         run: |
           set -euo pipefail
-          if ! git push --dry-run "${FRAMAGIT_SSH}" "HEAD:refs/heads/ci-connection-test" >/dev/null 2>&1; then
+          if [ ! git push --dry-run "${FRAMAGIT_SSH}" "HEAD:refs/heads/ci-connection-test" >/dev/null 2>&1 ]; then
             echo "ERROR: Test: Push permission failed — SSH key may be missing or keys not allowed." >&2
             exit 1
           else
