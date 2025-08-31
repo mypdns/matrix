@@ -7,7 +7,7 @@ on:
 env:
   GIT_NAME: '${{ secrets.GIT_NAME }}'
   GIT_EMAIL: '${{ secrets.GIT_EMAIL }}'
-  GITHUB_TOKEN: '${{ secrets.GITHUB_TOKEN }}'
+  GH_TOKEN: '${{ secrets.GH_TOKEN }}'
 
 jobs:
   import:
@@ -17,7 +17,7 @@ jobs:
       - uses: actions/checkout@main
         name: Clone repository
         with:
-          token: '${{ secrets.GITHUB_TOKEN }}'
+          token: '${{ secrets.GH_TOKEN }}'
 
       - name: Set up Python
         uses: actions/setup-python@v2
@@ -54,12 +54,12 @@ jobs:
         continue-on-error: true
         uses: ad-m/github-push-action@master
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
+          GH_TOKEN: ${{ secrets.GH_TOKEN }}
           branch: ${{ github.ref }}
 
       - name: Notify mirror workflow
         run: |
-          curl -X POST -H "Authorization: token ${GITHUB_TOKEN}" \
+          curl -X POST -H "Authorization: token ${GH_TOKEN}" \
             -H "Accept: application/vnd.github+json" \
             https://api.github.com/repos/${{ github.repository }}/dispatches \
             -d '{"event_type":"shadowwhisperer.updated"}'
