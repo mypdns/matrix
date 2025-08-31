@@ -18,6 +18,7 @@ jobs:
         name: Clone repository
         with:
           token: '${{ secrets.GITHUB_TOKEN }}'
+          fetch-depth: 2
 
       - name: Set up Python
         uses: actions/setup-python@v2
