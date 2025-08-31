@@ -26,7 +26,7 @@ from subprocess import check_output, CalledProcessError
 import requests
 import idna
 
-VERSION = "0.0.2b26"  # First stable release version
+VERSION = "0.0.2b27"  # First stable release version
 
 
 def find_files_by_name(directory, filenames):
