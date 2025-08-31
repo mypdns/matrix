@@ -39,6 +39,7 @@ trap cleanup EXIT
 
 (
   cd "$REPO_ROOT" || exit 1
+  # shellcheck disable=SC2046
   find $SEARCH_DIRS -type f $ -false $(for p in $PATTERNS; do printf " -o -name %s" "$p"; done) $ -print 2>/dev/null |
     sed 's|^\./||' |
     awk -v base="$REPO_REMOTE" '{ print base "/" $0 }' |
