@@ -1,24 +1,27 @@
-name: Mirror to Framagit
-on:
-  push:
-    branches:
-      - '**'
+- name: Mirror to framagit (HTTPS with token via netrc)
+  env:
+    FRAMAGIT_URL: https://framagit.org/my-privacy-dns/matrix.git
+    FRAMAGIT_TOKEN: ${{ secrets.FRAMAGIT_SSH }}
+  run: |
+    set -euo pipefail
+    if [ -z "${FRAMAGIT_SSH:-}" ]; then
+      echo "FRAMAGIT_SSH is not set" >&2
+      exit 1
+    fi
 
-jobs:
-  mirror:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
+    # Configure .netrc for framagit.org (no protocol prefix)
+    printf "machine framagit.org login %s password %s\n" "spirille" "${FRAMAGIT_SSH}" > "$HOME/.netrc"
+    chmod 600 "$HOME/.netrc"
 
-      - name: Mirror to framagit (HTTPS with token)
-        env:
-          FRAMAGIT_URL: https://framagit.org/my-privacy-dns/matrix.git
-          FRAMAGIT_TOKEN: ${{ secrets.FRAMAGIT_TOKEN }}
-        run: |
-          printf "machine framagit.org login %s password %s\n" "spirille" "$FRAMAGIT_TOKEN" > ~/.netrc
-          chmod 600 ~/.netrc
-          git remote remove framagit || true
-          git remote add framagit https://framagit.org/my-privacy-dns/matrix.git
-          git push --prune --mirror framagit
+    # Ensure remote configured to canonical HTTPS URL (no creds in URL)
+    git remote remove framagit || true
+    git remote add framagit "$FRAMAGIT_URL"
+
+    # Optional: verify remote URL
+    git remote -v
+
+    # Dry-run first (optional)
+    git push --prune --mirror framagit --dry-run
+
+    # Actual push
+    git push --prune --mirror framagit
