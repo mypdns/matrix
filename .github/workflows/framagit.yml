@@ -1,4 +1,5 @@
 name: Mirror to Framagit
+
 on:
   push:
     branches:
@@ -8,34 +9,36 @@ jobs:
   mirror:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout repository (full history)
+        uses: actions/checkout@v4
         with:
           fetch-depth: 0
 
-- name: Mirror to framagit (HTTPS with token via netrc)
-  env:
-    FRAMAGIT_URL: https://framagit.org/my-privacy-dns/matrix.git
-    FRAMAGIT_TOKEN: ${{ secrets.FRAMAGIT_SSH }}
-  run: |
-    set -euo pipefail
-    if [ -z "${FRAMAGIT_SSH:-}" ]; then
-      echo "FRAMAGIT_SSH is not set" >&2
-      exit 1
-    fi
+      - name: Mirror to framagit (HTTPS with token via netrc)
+        env:
+          FRAMAGIT_URL: https://framagit.org/my-privacy-dns/matrix.git
+          FRAMAGIT_TOKEN: ${{ secrets.FRAMAGIT_SSH }}
+        run: |
+          set -euo pipefail
 
-    # Configure .netrc for framagit.org (no protocol prefix)
-    printf "machine framagit.org login %s password %s\n" "spirille" "${FRAMAGIT_SSH}" > "$HOME/.netrc"
-    chmod 600 "$HOME/.netrc"
+          if [ -z "${FRAMAGIT_TOKEN:-}" ]; then
+            echo "ERROR: FRAMAGIT_SSH (used as FRAMAGIT_TOKEN) is not set." >&2
+            exit 1
+          fi
 
-    # Ensure remote configured to canonical HTTPS URL (no creds in URL)
-    git remote remove framagit || true
-    git remote add framagit "$FRAMAGIT_URL"
+          echo "Configuring ~/.netrc for framagit.org"
+          printf "machine framagit.org login %s password %s\n" "spirille" "${FRAMAGIT_TOKEN}" > "$HOME/.netrc"
+          chmod 600 "$HOME/.netrc"
 
-    # Optional: verify remote URL
-    git remote -v
+          echo "Ensuring framagit remote points to $FRAMAGIT_URL"
+          git remote remove framagit || true
+          git remote add framagit "$FRAMAGIT_URL"
 
-    # Dry-run first (optional)
-    git push --prune --mirror framagit --dry-run
+          echo "Remote list:"
+          git remote -v
 
-    # Actual push
-    git push --prune --mirror framagit
+          echo "Performing dry-run push (no changes made)"
+          git push --prune --mirror framagit --dry-run
+
+          echo "Performing actual mirror push"
+          git push --prune --mirror framagit
