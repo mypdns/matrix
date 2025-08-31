@@ -10,26 +10,29 @@ on:
 jobs:
   mirror:
     runs-on: ubuntu-latest
+    env:
+      FRAMAGIT_URL: https://framagit.org/my-privacy-dns/matrix.git
+      FRAMAGIT_TOKEN: ${{ secrets.FRAMAGIT_TOKEN }}
     steps:
+      - name: Validate repository secrets
+        run: |
+          set -euo pipefail
+          if [ -z "${FRAMAGIT_TOKEN:-}" ]; then
+            echo "ERROR: FRAMAGIT_TOKEN is not set." >&2
+            exit 1
+          fi
+
       - name: Checkout repository (full history)
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
 
       - name: Mirror to framagit (HTTPS with token via netrc)
-        env:
-          FRAMAGIT_URL: https://framagit.org/my-privacy-dns/matrix.git
-          FRAMAGIT_TOKEN: ${{ secrets.FRAMAGIT_SSH }}
         run: |
           set -euo pipefail
 
-          if [ -z "${FRAMAGIT_SSH:-}" ]; then
-            echo "ERROR: FRAMAGIT_SSH (used as FRAMAGIT_TOKEN) is not set." >&2
-            exit 1
-          fi
-
           echo "Configuring ~/.netrc for framagit.org"
-          printf "machine framagit.org login %s password %s\n" "spirille" "${FRAMAGIT_SSH}" > "$HOME/.netrc"
+          printf "machine framagit.org login %s password %s\n" "spirillen" "${FRAMAGIT_TOKEN}" > "$HOME/.netrc"
           chmod 600 "$HOME/.netrc"
 
           echo "Ensuring framagit remote points to $FRAMAGIT_URL"
