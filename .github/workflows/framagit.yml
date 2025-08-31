@@ -17,14 +17,8 @@ jobs:
           FRAMAGIT_URL: https://framagit.org/my-privacy-dns/matrix.git
           FRAMAGIT_TOKEN: ${{ secrets.FRAMAGIT_TOKEN }}
         run: |
-          set -e
-          # Configure remote with token in URL (token has push access)
-          # Format: https://<token>@framagit.org/owner/repo.git
-          auth_url="${FRAMAGIT_URL/https:\/\/ /https:\/\/${FRAMAGIT_TOKEN}@}"
-          # If the above parameter expansion fails on runner shell, construct explicitly:
-          auth_url="https://${FRAMAGIT_TOKEN}@framagit.org/my-privacy-dns/matrix.git"
-
+          printf "machine framagit.org login %s password %s\n" "spirille" "$FRAMAGIT_TOKEN" > ~/.netrc
+          chmod 600 ~/.netrc
           git remote remove framagit || true
-          git remote add framagit "$auth_url"
-          # Push all refs and tags, pruning deleted refs
+          git remote add framagit https://framagit.org/my-privacy-dns/matrix.git
           git push --prune --mirror framagit
