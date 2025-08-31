@@ -1,86 +1,65 @@
-name: Mirror to Framagit (SSH)
+name: Import ShadowWhisperer
 
 on:
-  push:
-    branches:
-      - '**'
-  repository_dispatch:
-    types: [shadowwhisperer.updated]
+  schedule:
+    - cron: '*/59 * * * *'
 
 env:
-  FRAMAGIT_SSH: git@framagit.org:my-privacy-dns/matrix.git
+  GIT_NAME: '${{ secrets.GIT_NAME }}'
+  GIT_EMAIL: '${{ secrets.GIT_EMAIL }}'
+  GH_TOKEN: '${{ secrets.GH_TOKEN }}'
 
 jobs:
-  mirror:
+  import:
     runs-on: ubuntu-latest
+
     steps:
-      - name: Validate repository secrets & access
-        run: |
-          set -euo pipefail
-          if [ -z "${FRAMAGIT_SSH_KEY}" ]; then
-            echo "ERROR: FRAMAGIT_SSH_KEY is not set." >&2
-            exit 1
-          else
-            echo "SSH_KEY is present."
-          fi
-        env:
-          FRAMAGIT_SSH_KEY: ${{ secrets.FRAMAGIT_SSH_KEY }}
-
-      - name: Checkout repository (full history)
-        uses: actions/checkout@v4
+      - uses: actions/checkout@main
+        name: Clone repository
         with:
-          fetch-depth: 0
+          token: '${{ secrets.GITHUB_TOKEN }}'
 
-      - name: Set up SSH for Framagit
+      - name: Set up Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: '3.x'
+
+      - name: Install dependencies
         run: |
-          set -euo pipefail
-          mkdir -p "$HOME/.ssh"
-          chmod 700 "$HOME/.ssh"
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+          python3 --version
 
-          # Write private key from secret and secure it
-          printf '%s\n' "${FRAMAGIT_SSH_KEY}" > "$HOME/.ssh/id_rsa"
-          chmod 600 "$HOME/.ssh/id_rsa"
-
-          # Populate known_hosts (scan framagit.org). You can replace with a pinned key instead.
-          ssh-keyscan -t rsa framagit.org >> "$HOME/.ssh/known_hosts" 2>/dev/null || true
-          chmod 644 "$HOME/.ssh/known_hosts"
-
-          echo "SSH configured. Key and known_hosts created."
-        env:
-          FRAMAGIT_SSH_KEY: ${{ secrets.FRAMAGIT_SSH_KEY }}
-
-      - name: Lightweight read check (SSH)
+      - name: Download ShadowWhisperer Adult list
         run: |
-          set -euo pipefail
-          if ! git ls-remote --exit-code "${FRAMAGIT_SSH}" HEAD >/dev/null 2>&1; then
-            echo "ERROR: git ls-remote failed — check FRAMAGIT_SSH and SSH key." >&2
-            exit 1
-          else
-            echo "git ls-remote succeeded — read access OK."
-          fi
+          curl --retry 5 -sSLo ${{ github.workspace }}/source/porn_filters/imported/adult.ShadowWhisperer https://raw.githubusercontent.com/ShadowWhisperer/BlockLists/master/RAW/Adult
 
-      - name: Test push permission with dry-run (SSH)
+      - name: Compare and output unique lines
         run: |
-          set -euo pipefail
-          if ! git push --dry-run "${FRAMAGIT_SSH}" "HEAD:refs/heads/ci-connection-test" >/dev/null 2>&1; then
-            echo "ERROR: Test: Push permission failed — SSH key may be missing or keys not allowed." >&2
-            exit 1
-          else
-            echo "Push permission test succeeded — write access OK."
-          fi
+          python3 ${{ github.workspace }}/scripts/shadowWhispererImport.py
 
-      - name: Mirror to framagit (SSH)
+      - name: Git Status
+        run: git status
+
+      - name: Commit changes
+        continue-on-error: true
         run: |
-          set -euo pipefail
-          echo "Ensuring framagit remote points to $FRAMAGIT_SSH"
-          git remote remove framagit || true
-          git remote add framagit "${FRAMAGIT_SSH}"
+          tag=$(date +'day: %j of year %Y %H:%M:%S')
+          git config --local user.email "$GIT_EMAIL"
+          git config --local user.name "$GIT_NAME"
+          git commit -m "Committed new lists $tag" -a
+          git pull --rebase
 
-          echo "Remote list:"
-          git remote -v
+      - name: Push changes
+        continue-on-error: true
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          branch: ${{ github.ref }}
 
-          echo "Performing dry-run push (no changes made)"
-          git push --prune --mirror framagit --dry-run
-
-          echo "Performing actual mirror push"
-          git push --prune --mirror framagit
+      - name: Notify mirror workflow
+        run: |
+          curl -X POST -H "Authorization: token ${GH_TOKEN}" \
+            -H "Accept: application/vnd.github+json" \
+            https://api.github.com/repos/${{ github.repository }}/dispatches \
+            -d '{"event_type":"shadowwhisperer.updated"}'
