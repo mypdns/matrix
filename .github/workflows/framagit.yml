@@ -4,6 +4,8 @@ on:
   push:
     branches:
       - '**'
+  repository_dispatch:
+    types: [shadowwhisperer.updated]
 
 jobs:
   mirror:
