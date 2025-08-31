@@ -7,11 +7,12 @@ on:
   repository_dispatch:
     types: [shadowwhisperer.updated]
 
+env:
+  FRAMAGIT_SSH: git@framagit.org:my-privacy-dns/matrix.git
+
 jobs:
   mirror:
     runs-on: ubuntu-latest
-    env:
-      FRAMAGIT_SSH: git@framagit.org:my-privacy-dns/matrix.git
     steps:
       - name: Validate repository secrets & access
         run: |
@@ -20,7 +21,7 @@ jobs:
             echo "ERROR: FRAMAGIT_SSH_KEY is not set." >&2
             exit 1
           else
-            echo "FRAMAGIT_SSH_KEY is present."
+            echo "SSH_KEY is present."
           fi
 
       - name: Checkout repository (full history)
