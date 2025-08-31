@@ -17,7 +17,7 @@ jobs:
       - name: Validate repository secrets & access
         run: |
           set -euo pipefail
-          if [ -z "${{ secrets.FRAMAGIT_SSH_KEY:-} }" ]; then
+          if [ -z "${{ secrets.FRAMAGIT_SSH_KEY:-}}" ]; then
             echo "ERROR: FRAMAGIT_SSH_KEY is not set." >&2
             exit 1
           else
