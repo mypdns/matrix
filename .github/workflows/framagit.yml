@@ -72,6 +72,7 @@ jobs:
           echo "Ensuring framagit remote points to $FRAMAGIT_SSH"
           git remote remove framagit || true
           git remote add framagit "${FRAMAGIT_SSH}"
+          git push --prune framagit 'refs/heads/*:refs/heads/*' 'refs/tags/*:refs/tags/*'
 
           echo "Remote list:"
           git remote -v

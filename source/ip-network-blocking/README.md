@@ -4,6 +4,14 @@ Query database: [radb.net](https://www.radb.net/query)
 
 ---
 
+**Table of Contents**
+
+- [Did you fo<!-- TOC -->
+    * [NXDOMAIN quries to ip](#nxdomain-quries-to-ip)
+    * [Block queries from ip](#block-queries-from-ip)
+    * [Drop quries to ip](#drop-quries-to-ip)
+<!-- TOC -->rk this project?](#did-you-fork-this-project)
+
 This folder should be re-distributed to the right categories and not just
 stored like this lump of IP addresses
 
@@ -27,9 +35,3 @@ stored like this lump of IP addresses
 
 ---
 
-**Table of Contents**
-
-- [GitLab CI](#gitlab-ci)
-- [GitLab User or Group Pages](#gitlab-user-or-group-pages)
-- [Did you fork this project?](#did-you-fork-this-project)
-- [Troubleshooting](#troubleshooting)

@@ -1,0 +1,85 @@
+/* ./css/style.css */
+:root{
+    --bg: #121212;
+    --text: #e0e0e0;
+    --muted: #777;
+    --accent: #4CAF50;
+    --accent-dark: #45a049;
+}
+
+*{box-sizing:border-box}
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    background-color:var(--bg);
+    color:var(--text);
+    text-align:center;
+    padding:50px;
+    margin:0;
+}
+
+/* Logo container */
+.logo {
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    gap:16px;
+    margin-bottom:20px;
+}
+
+/* Large logo (wide, transparent) */
+.logo--large{
+    max-width:600px;       /* scale down large image */
+    width:70%;
+    height:auto;
+    display:block;
+}
+
+/* Small square logo (used on mobile / compact) */
+.logo--small{
+    width:50px;
+    height:50px;
+    display:none; /* hidden on wide screens */
+}
+
+/* Headings and text */
+h1{ color:var(--accent); margin:0 0 12px 0; }
+p{ font-size:1.2em; margin:8px 0; }
+.funny{ font-style:italic; color:#b0b0b0; }
+
+.footer{
+    margin-top:50px;
+    font-size:0.8em;
+    color:var(--muted);
+}
+
+/* Buttons and link row */
+.button{
+    background-color:var(--accent);
+    color:#fff;
+    padding:10px 20px;
+    text-decoration:none;
+    border-radius:5px;
+    transition:background-color .3s;
+    display:inline-block;
+}
+.button:hover{ background-color:var(--accent-dark); }
+
+.link-row{
+    display:flex;
+    justify-content:center;
+    gap:16px;
+    margin:16px 0;
+    flex-wrap:wrap;
+}
+.link-row .item{
+    display:flex;
+    align-items:center;
+    gap:8px;
+}
+
+/* Responsive: swap logos on small screens */
+@media (max-width:480px){
+    .logo--large{ display:none; }
+    .logo--small{ display:block; }
+    body{ padding:24px; }
+}

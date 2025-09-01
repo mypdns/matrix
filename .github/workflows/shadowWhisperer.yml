@@ -37,7 +37,8 @@ jobs:
 
       - name: Compare and output unique lines
         run: |
-          python3 ${{ github.workspace }}/scripts/shadowWhispererImport.py
+          # python3 ${{ github.workspace }}/scripts/shadowWhispererImport.py
+          bash ${{ github.workspace }}/scripts/shadowwhisperer.sh
 
       - name: Git Status
         run: git status
