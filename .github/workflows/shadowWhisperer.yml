@@ -2,12 +2,12 @@ name: Import ShadowWhisperer
 
 on:
   schedule:
-    - cron: '*/59 * * * *'
+    - cron: "*/59 * * * *"
 
 env:
-  GIT_NAME: '${{ secrets.GIT_NAME }}'
-  GIT_EMAIL: '${{ secrets.GIT_EMAIL }}'
-  GH_TOKEN: '${{ secrets.GH_TOKEN }}'
+  GIT_NAME: "${{ secrets.GIT_NAME }}"
+  GIT_EMAIL: "${{ secrets.GIT_EMAIL }}"
+  GH_TOKEN: "${{ secrets.GH_TOKEN }}"
 
 jobs:
   import:
@@ -17,13 +17,13 @@ jobs:
       - uses: actions/checkout@main
         name: Clone repository
         with:
-          token: '${{ secrets.GITHUB_TOKEN }}'
+          token: "${{ secrets.GITHUB_TOKEN }}"
           fetch-depth: 2
 
       - name: Set up Python
         uses: actions/setup-python@v2
         with:
-          python-version: '3.x'
+          python-version: "3.x"
 
       - name: Install dependencies
         run: |
@@ -31,9 +31,9 @@ jobs:
           pip install -r requirements.txt
           python3 --version
 
-#      - name: Download ShadowWhisperer Adult list
-#        run: |
-#          curl --retry 5 -sSLo ${{ github.workspace }}/source/porn_filters/imported/adult.ShadowWhisperer https://raw.githubusercontent.com/ShadowWhisperer/BlockLists/master/RAW/Adult
+      #      - name: Download ShadowWhisperer Adult list
+      #        run: |
+      #          curl --retry 5 -sSLo ${{ github.workspace }}/source/porn_filters/imported/adult.ShadowWhisperer https://raw.githubusercontent.com/ShadowWhisperer/BlockLists/master/RAW/Adult
 
       - name: List the Import dir
         run: |
@@ -51,8 +51,8 @@ jobs:
         continue-on-error: true
         run: |
           tag=$(date +'day: %j of year %Y %H:%M:%S')
-          git config --global user.email "$GIT_EMAIL"
-          git config --global user.name "$GIT_NAME"
+          git config --global user.email "${{ secrets.GIT_NAME }}"
+          git config --global user.name "${{ secrets.GIT_NAME }}`"
           git commit -m "Committed new lists $tag" -a
           git pull --rebase
 
