@@ -51,8 +51,8 @@ jobs:
         continue-on-error: true
         run: |
           tag=$(date +'day: %j of year %Y %H:%M:%S')
-          git config --local user.email "$GIT_EMAIL"
-          git config --local user.name "$GIT_NAME"
+          git config --global user.email "$GIT_EMAIL"
+          git config --global user.name "$GIT_NAME"
           git commit -m "Committed new lists $tag" -a
           git pull --rebase
 
