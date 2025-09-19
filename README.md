@@ -123,9 +123,9 @@ software.
 
 ## Sponsors
 
-- Jetbrains: Free licence, might be provided, for members working more than 3
+- Jetbrains): Free licence, might be provided, for members working more than 3
   months on the My Privacy DNS open source project under a non-commercial
-  licence.
+  licence. <https://www.jetbrains.com/ides/>
 
 ## Official Mirrors
 
@@ -133,7 +133,7 @@ The following repositories are official mirrors and should be updated by
 `push on commit`:
 
 | Project         | Host                                                       | Method (push \| pull) |
-|:----------------|:-----------------------------------------------------------|----------------------:|
+| :-------------- | :--------------------------------------------------------- | --------------------: |
 | Adblocker Rules | `https://git.disroot.org/my-privacy-dns/adblocker-rules`   |                  push |
 | Adblocker Rules | `https://gitea.slowb.ro/spirillen/adblocker-rules`         |                  pull |
 | Adblocker Rules | `https://github.com/mypdns/adblocker-rules`                |                  push |
