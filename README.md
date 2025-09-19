@@ -100,23 +100,22 @@ own miswritten code that compromises privacy by involving third parties.
 **Q**: Why don't you whitelist `example.com`?
 
 **A**:
-
-1. It is the responsibility of individual users to create and maintain their own
-   whitelist.
-2. Whitelisting a malicious domain like domain X because website Y uses it
-   misleads our users.
-3. Our objective is to provide users with accurate information to enable
+  1. It is the responsibility of individual users to create and maintain
+  their own whitelist.
+  2. Whitelisting a malicious domain like domain X because website Y uses
+  it misleads our users.
+  3. Our objective is to provide users with accurate information to enable
    informed decisions.
 
 ## Donations
 
-[![ko-fi](https://www.mypdns.org/fileproxy/?name=sp_kofi_mypdns)]([DONATION.md](https://kb.mypdns.org/articles/MTX-A-3/DONATION))
-[![liberapay](https://www.mypdns.org/fileproxy/?name=sp_receives_mypdns)](https://liberapay.com/MyPDNS/donate)
-[![goal](https://www.mypdns.org/fileproxy/?name=sp_goal_mypdns)](https://liberapay.com/MyPDNS/donate)
+[![ko-fi](https://www.mypdns.org/images/ko-fi.png)]([DONATION.md](https://www.mypdns.org/donate))
+[![liberapay](https://www.mypdns.org/fileproxy/?name=sp_receives_mypdns)](https://www.mypdns.org/donate)
+[![goal](https://www.mypdns.org/fileproxy/?name=sp_goal_mypdns)](https://www.mypdns.org/donate)
 
 We highly appreciate any contributions to support My Privacy DNS, a project
 committed to protecting online privacy.
-By [donating to My Privacy DNS](https://www.mypdns.org/donate), you are aiding
+By donating to My Privacy DNS <https://www.mypdns.org/donate>, you are aiding
 in the continuation of this valuable service, which remains free of charge to
 the public, and supporting the development of additional privacy-friendly
 software.
