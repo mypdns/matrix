@@ -124,7 +124,8 @@ software.
 
 - Jetbrains): Free licence, might be provided, for members working more than 3
   months on the My Privacy DNS open source project under a non-commercial
-  licence. <https://www.jetbrains.com/ides/>
+  licence. <https://www.jetbrains.com/ides/> 
+  <a href="https://www.jetbrains.com/ides/"><picture><source media="(prefers-color-scheme: dark)" srcset="https://www.mypdns.org/images/logo_jb_dos_3.svg"><img alt="JetBrains logo." src="https://www.mypdns.org/images/jetbrains.svg"></picture></a>
 
 ## Official Mirrors
 
