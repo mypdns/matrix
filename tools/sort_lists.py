@@ -15,6 +15,19 @@
 #
 #  You should have received a copy of the GNU Affero General Public License
 #  along with this program. If not, see <https://www.gnu.org/licenses/>.
+#
+#  This program is free software: you can redistribute it and/or modify
+#  it under the terms of the GNU Affero General Public License as
+#  published by the Free Software Foundation, either version 3 of the
+#  License, or (at your option) any later version.
+#
+#  This program is distributed in the hope that it will be useful,
+#  but WITHOUT ANY WARRANTY; without even the implied warranty of
+#  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+#  GNU Affero General Public License for more details.
+#
+#  You should have received a copy of the GNU Affero General Public License
+#  along with this program. If not, see <https://www.gnu.org/licenses/>.
 
 import os
 import sys
@@ -168,26 +181,6 @@ def sort_file_alphanum(file_path, valid_tlds, proxy):
     header = lines[0] if lines else ""
     lines = [line.rstrip('\n') for line in lines[1:] if
              line.strip()]  # Remove empty lines and skip header
-
-    lines = sorted(lines, key=lambda x: x.strip().split(',')[
-        0] if ',' in x else '')  # Sort FQDNs
-
-    invalid_entries = []
-    for line in lines:
-        domain_part = line.strip().split(',')[0]
-        if domain_part != "domain" and not (is_valid_domain(domain_part,
-                                                            valid_tlds) or domain_part in valid_tlds):
-            domain_idna = validate_idna_domain(domain_part)
-            if domain_idna is None or not test_domain_connectivity(domain_idna,
-                                                                   proxy) or not dns_lookup(
-                domain_idna):
-                invalid_entries.append(line)
-
-    # Continue processing even if there are invalid entries
-    if invalid_entries:
-        print(f"Invalid DNS entries in {file_path}:")
-        for entry in invalid_entries:
-            print(entry.strip())
 
     with open(file_path, 'w') as file:
         if header:
