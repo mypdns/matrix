@@ -603,6 +603,9 @@ ichnaea-web.netflix.com
 ads.test.netflix.com
 ad.nettvservices.com
 tr.news-chocolat.com
+mes-msp.newsbreak.com
+msp-platform.newsbreak.com
+prebid-server.newsbreak.com
 rel.nextinpact.com
 tim.nextinpact.com
 ads.nfbusty.com
@@ -1520,6 +1523,3 @@ adservice.google.ws
 trace.bingoholiday.xyz
 bleua.ecefibwja.xyz
 adserver.eliteshopper.co.za
-prebid-server.newsbreak.com
-mes-msp.newsbreak.com
-msp-platform.newsbreak.com
