@@ -2,12 +2,12 @@
 
 [![My Privacy DNS](https://www.mypdns.org/images/logo.png)](https://www.mypdns.org/)
 
-[![Github](https://raw.githubusercontent.com/mypdns/.assets/master/icons/github.png)](https://github.com/mypdns/matrix)
+[![FramaGit](https://www.mypdns.org/images/gitlab.png)](https://framagit.org/mypdns/matrix)
 [![ko-fi](https://www.mypdns.org/images/githubbutton_sm.svg)](https://ko-fi.com/X8X37FUGU)
 [![liberapay](https://www.mypdns.org/fileproxy/?name=sp_receives_mypdns)](https://liberapay.com/MyPDNS/donate)
 [![goal](https://www.mypdns.org/fileproxy/?name=sp_goal_mypdns)](https://liberapay.com/MyPDNS/donate)
 
-This is an endeavor to find porn domains and list them in the shortest
+This is an endeavour to find porn domains and list them in the shortest
 possible format it can be done. This means we are not generating any
 pre-configured output zone files in this project, we are simply only storing
 and verifying the availability of the records.
@@ -67,7 +67,9 @@ Since Pi-Hole is limited from using wildcard lists for blacklisting, even though
 
 ### AdGuard
 
-These adult filters are supported by the AdGuard project as well as they are for Pi-Hole, thanks to the [Domains-Only Syntax](https://github.com/AdguardTeam/AdGuardHome/wiki/Hosts-Blocklists#domains-only-syntax).
+These adult filters are supported by the AdGuard project as well as they are for
+Pi-Hole, thanks to the Domains-Only Syntax
+`https://github.com/AdguardTeam/AdGuardHome/wiki/Hosts-Blocklists#domains-only-syntax`.
 
 ### Ad Blockers
 
@@ -107,17 +109,22 @@ The "NSFW Adult Material" label is used by My Privacy DNS moderators for any dom
 
 This list serves two goals: blocking domains that might be considered SFW but serve a significant amount of porn, such as `*.bp.blogspot.com`, and including less NSFW content that would still be considered NSFW explicit content.
 
-Domains that are or can be categorised as [News](https://kb.mypdns.org/articles/MTX-A-49/News), [educational](#educational), or [art](#artistic-and-art) are *not* considered strict porn.
+Domains that are or can be categorized
+as [News](https://kb.mypdns.org/articles/MTX-A-49/News), [educational](#educational),
+or [art](#artistic-and-art) are *not* considered strict porn.
 
 These files may contain domains used to host non-adult related content, potentially causing several [False Positives](https://kb.mypdns.org/articles/MTX-A-82/False-Positive).
 
-Please see the [README.md](https://github.com/mypdns/matrix/blob/master/source/porn_filters/strict_filters/README.md) for the most updated information about the Strict lists project.
+Please see
+the [README.md](https://framagit.org/mypdns/matrix/-/blob/master/source/porn_filters/README.md)
+for the most updated information about the Strict lists project.
 
 ### Educational
 
 Domains or sites hosting any nude or explicit content for educational purposes, like explaining `x` or teaching `y`, are not classified in this project.
 
-Any requests to block such content should be redirected to the [Matrix](https://github.com/mypdns/matrix) project.
+Any requests to block such content should be redirected to
+the [Matrix](https://framagit.org/mypdns/matrix) project.
 
 ### Artistic and Art
 
@@ -138,7 +145,8 @@ The following are examples of what [My Privacy DNS](https://www.mypdns.org/) pro
 
 If you find any underage material online and wish to report it to our project, please mention it at the beginning of the issue with a single `#` at the start of the text and *do not* post any media as proof.
 
-Reporting to other resources is encouraged to help coordinate your reports. Some organisations to consider:
+Reporting to other resources is encouraged to help coordinate your reports. Some
+organizations to consider:
 
 - Red Barnet (Save the Children) at https://redbarnet.dk/anmelddet/
 - Arachnid Project at https://projectarachnid.ca/en/
@@ -152,11 +160,13 @@ If you have updated your system to use a DNS resolver rather than using the `hos
 
 ### Safe Search Enabled
 
-Additionally, there is a source file that enforces Safe Search in [duckduckgo](https://safe.duckduckgo.com).
+Additionally, there is a source file that enforces Safe Search
+in [DuckDuckGo](https://safe.duckduckgo.com).
 
 For unsafe search portals, we have added `Bing` and `Google` "safe search IPs". These have not been tested as both are privately blocked for [Spyware](https://kb.mypdns.org/articles/MTX-A-44/Spyware) issues.
 
-It can be found [here](https://github.com/mypdns/matrix/tree/master/safesearch).
+It can be
+found [here](https://framagit.org/mypdns/matrix/-/tree/master/safesearch).
 
 ## How to Contribute
 
@@ -172,7 +182,9 @@ Please use our [Support board](https://www.mypdns.org/support.html) for any non-
 
 ### Blacklist and Whitelist Rules
 
-For any rule-based comments, commits, edits, or contributions, please visit https://github.com/mypdns/matrix and https://kb.mypdns.org/issues?q=project:%20Matrix.
+For any rule-based comments, commits, edits, or contributions, please
+visit https://framagit.org/mypdns/matrix
+and https://kb.mypdns.org/issues?q=project:%20Matrix.
 
 - Commit new rule: https://kb.mypdns.org/newIssue?project=MTX
 - Knowledge Base: https://kb.mypdns.org/articles/MTX
@@ -246,7 +258,8 @@ contributing.
 
 ## Conclusion
 
-We can conclude that this project identifies 8615 domains that Cloudflare DNS does not recognise.
+We can conclude that this project identifies 8615 domains that Cloudflare DNS
+does not recognize.
 
 ## Common Names for Pornographic Domain Names
 
@@ -280,18 +293,20 @@ Please see [contact information][contact]
 [FalsePositive]: https://kb.mypdns.org/articles/MTX-A-82/False-Positive "What is: False Positive"
 [ICS-Bind9]: https://www.isc.org/bind/
 [IP_Addresses]: https://kb.mypdns.org/articles/MTX-A-10/RPZ-record-types#the-response-ip-address-trigger-rpz-ip "The "Response IP Address" Trigger (.rpz-ip)"
-[matrix]: https://github.com/mypdns/matrix "My Privacy DNS is aiming to be the most intelligent DNS Firewall throughout using the modern DNS RPZ approach"
+[matrix]: https://framagit.org/mypdns/matrix "My Privacy DNS is aiming to be the
+most intelligent DNS Firewall throughout using the modern DNS RPZ approach"
 [mypdns]: https://www.mypdns.org/ "My Privacy DNS - Let no one spy on you online"
 [news]: https://kb.mypdns.org/articles/MTX-A-49/News
 [NSFW]: https://kb.mypdns.org/issues?q=tag:%7BNSFW%20Adult%20Material%7D "Not Safe For Religious people"
 [pi-hole_combo]: https://kb.mypdns.org/issue/MPDNS-2/What-lists-to-use-in-pi-hole "What lists to use in pi-hole"
 [PowerDNS-Recursor]: https://kb.mypdns.org/articles/MTX-A-58/DNS-Setup "PowerDNS Recursor"
-[PR]: https://github.com/mypdns/matrix/tree/master/source/porn_filters
+[PR]: https://framagit.org/mypdns/matrix/-/tree/master/source/porn_filters
 [rfc_1123]: https://www.rfc-editor.org/rfc/rfc1123 "Requirements for Internet Hosts"
 [RFC952]: https://www.rfc-editor.org/rfc/rfc952.html "DOD INTERNET HOST TABLE
 SPECIFICATION"
 [SpyWare]: https://kb.mypdns.org/articles/MTX-A-44/Spyware "What is SpyWare"
-[strict_readme.md]: https://github.com/mypdns/matrix/blob/master/source/porn_filters/strict_filters/README.md "The strict anti adult files"
+[strict_readme.md]: https://framagit.org/mypdns/matrix/-/blob/master/source/porn_filters/strict_filters/README.md "
+The strict anti adult files"
 [support]: https://www.mypdns.org/support.html "Support Forum for all non blacklisting questions"
 [TLD]: https://kb.mypdns.org/articles/MTX-A-70/TLD-Top-Level-Domain "What is a Top level domain"
 [uBlockOrigin]: https://ublockorigin.com/ "uBlock Origin is a free and open-source, cross-platform browser extension for content-filtering, including ad-blocking."

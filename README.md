@@ -160,7 +160,6 @@ repository.
 [Bulk-commits]: https://kb.mypdns.org/articles/MTX/Contributing#bulk-commits
 
 [DNS-Server]: https://kb.mypdns.org/issues?q=project:%20Matrix/new?issuable_template=DNS%20Server
-[EasyList]: https://github.com/easylist/easylist/
 
 [Gambling]: https://kb.mypdns.org/issues?q=project:%20Matrix/new?issuable_template=Gambling
 [getadmiral]: https://kb.mypdns.org/issues?q=project:%20Matrix/3023
