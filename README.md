@@ -1,3 +1,4 @@
+
 # My Privacy DNS Matrix
 
 [![My Privacy DNS](https://www.mypdns.org/images/logo.png)](https://www.mypdns.org/)
@@ -47,20 +48,29 @@ the [Matrix Source Files](source/README.md).
 
 ## Submitting
 
-To report problematic websites, please create a new issue for each domain,
-providing the URL and a screenshot for evidence.
+When reporting a problematic website, follow these steps in order:
 
-To report problematic websites, please follow these steps:
+1. Search existing issues for the website's [eTLD] (e.g. `example.com`)
+   or [gTLD] (e.g. `example.org`). See:
+2. If an issue already exists for that domain:
+    - Add your report as a comment on the existing issue.
+    - Include the website's exact URL and a screenshot as evidence.
+    - Describe what is problematic and how you observed it. (For reproduction of
+      problem)
+3. If no issue exists for that domain:
+    - Create a new issue titled with the [eTLD] or [gTLD] (for example:
+      `example.com` or `example.org`).
+    - In the issue body, provide:
+        - The website's exact URL(s).
+        - One or more screenshots as evidence.
+        - A clear description of the problem and when you observed it.
+4. For each distinct domain you are reporting, use a separate issue.
 
-- Create a new issue for each problematic website.
-- Provide the website's URL and a screenshot as evidence.
-- If there is already an issue for the
-  website's [eTLD](https://kb.mypdns.org/articles/MTX-A-89)
-  or [gTLD](https://kb.mypdns.org/articles/MTX-A-90) domain (like "example.com"
-  or "example.org"), add your report to that existing issue.
-- If no issue exists for that domain, create a new issue with the
-  domains [eTLD](https://kb.mypdns.org/articles/MTX-A-89)
-  or [gTLD](https://kb.mypdns.org/articles/MTX-A-90) as the title.
+**Notes**
+
+- Only include one domain per new issue title; add related URLs in the issue
+  body.
+- Screenshots and precise URLs help maintainers verify reports quickly.
 
 ## Combining the Matrix
 
@@ -95,18 +105,6 @@ domains makes individual issues impractical.
 **A**: We have not caused your website to malfunction. The issue stems from your
 own miswritten code that compromises privacy by involving third parties.
 
-### Why Not Whitelisting
-
-**Q**: Why don't you whitelist `example.com`?
-
-**A**:
-  1. It is the responsibility of individual users to create and maintain
-  their own whitelist.
-  2. Whitelisting a malicious domain like domain X because website Y uses
-  it misleads our users.
-  3. Our objective is to provide users with accurate information to enable
-   informed decisions.
-
 ## Donations
 
 [![ko-fi](https://www.mypdns.org/images/ko-fi.png)]([DONATION.md](https://www.mypdns.org/donate))
@@ -122,7 +120,7 @@ software.
 
 ## Sponsors
 
-- <a href="https://www.jetbrains.com/ides/"><picture><source width="100px" media="(prefers-color-scheme: dark)" srcset="https://www.mypdns.org/images/logo_jb_dos_3.svg"><img alt="JetBrains logo." src="https://www.mypdns.org/images/jetbrains.svg"></picture></a>):
+- <a href="https://www.jetbrains.com/ides/"><picture><source width="100px" media="(prefers-color-scheme: dark)" srcset="https://www.mypdns.org/images/logo_jb_dos_3.svg"><img alt="JetBrains logo." src="https://www.mypdns.org/images/jetbrains.svg"></picture></a>
   Free licence, might be provided, for members working more than 3 months on the
   My Privacy DNS open source project under a non-commercial licence.
   <https://www.jetbrains.com/ides/>
@@ -134,7 +132,7 @@ The following repositories are official mirrors and should be updated by
 `push on commit`:
 
 | Project         | Host                                                       | Method (push \| pull) |
-| :-------------- | :--------------------------------------------------------- | --------------------: |
+|:----------------|:-----------------------------------------------------------|----------------------:|
 | Adblocker Rules | `https://git.disroot.org/my-privacy-dns/adblocker-rules`   |                  push |
 | Adblocker Rules | `https://gitea.slowb.ro/spirillen/adblocker-rules`         |                  pull |
 | Adblocker Rules | `https://github.com/mypdns/adblocker-rules`                |                  push |
@@ -161,6 +159,9 @@ repository.
 
 [DNS-Server]: https://kb.mypdns.org/issues?q=project:%20Matrix/new?issuable_template=DNS%20Server
 
+[eTLD]: https://kb.mypdns.org/articles/MTX-A-89
+
+[gTLD]: https://kb.mypdns.org/articles/MTX-A-90
 [Gambling]: https://kb.mypdns.org/issues?q=project:%20Matrix/new?issuable_template=Gambling
 [getadmiral]: https://kb.mypdns.org/issues?q=project:%20Matrix/3023
 
