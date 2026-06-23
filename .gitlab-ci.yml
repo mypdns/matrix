@@ -19,6 +19,7 @@ default:
     - . .venv/bin/activate
     - pip install --upgrade pip
     - if [ -f requirements.txt ]; then pip install -r requirements.txt; else pip install -q mypdns; fi
+    - tag="$(date +'%d %b %Y %H:%M:%S')"
 
 # Keep your existing behavior: run on merge to master, sort CSVs, commit back to master.
 # This job is NOT part of the scheduled-only workflow (so it will run on master updates).
@@ -47,10 +48,9 @@ sort_lists_master:
       if git diff --cached --quiet; then
         echo "No changes to commit after rebase."
         exit 0
+      else
+        git commit -m "Updated ShadowWhisperer's pornfilters $tag"
       fi
-
-    - tag="$(date +'%d %b %Y %H:%M:%S')"
-    - git commit -m "Updated ShadowWhisperer's pornfilters $tag"
 
     - git push "https://gitlab-ci-token:${CI_JOB_TOKEN}@${CI_SERVER_HOST}/${CI_PROJECT_PATH}.git" "HEAD:${CI_DEFAULT_BRANCH}" -o skip-ci
 
@@ -78,10 +78,9 @@ shadowwhisperer_import:
       if git diff --cached --quiet; then
         echo "No changes to commit."
         exit 0
+      else
+        git commit -m "Updated ShadowWhisperer's pornfilters $tag"
       fi
-
-    - tag="$(date +'%d %b %Y %H:%M:%S')"
-    - git commit -m "Updated ShadowWhisperer's pornfilters $tag"
 
     - git push "https://gitlab-ci-token:${CI_JOB_TOKEN}@${CI_SERVER_HOST}/${CI_PROJECT_PATH}.git" "HEAD:${CI_DEFAULT_BRANCH}" -o skip-ci
 
