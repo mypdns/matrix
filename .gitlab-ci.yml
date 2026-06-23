@@ -33,9 +33,6 @@ sort_lists_master:
     - git checkout "$CI_DEFAULT_BRANCH"
     - git status --porcelain
     - git log -1 --oneline
-    - git show HEAD:source/porn_filters/explicit_content/wildcard.csv | sha256sum
-    - sha256sum source/porn_filters/explicit_content/wildcard.csv
-
 
     - bash "$CI_PROJECT_DIR/tools/sort_lists.sh"
 
