@@ -30,7 +30,7 @@ build:
     - master
     - merge_requests
   script:
-    - pip3 install -q mypdns
+    - pipx install mypdns
     - bash "$CI_PROJECT_DIR/tools/sort_lists.sh"
   artifacts:
     when: on_success
