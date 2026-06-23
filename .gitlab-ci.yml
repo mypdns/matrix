@@ -5,13 +5,6 @@ stages:
   - import
   - push
 
-# Only run scheduled pipelines for the import job
-#workflow:
-#  rules:
-#    - if: '$CI_PIPELINE_SOURCE == "schedule"'
-#      when: always
-#    - when: never
-
 variables:
   GIT_DEPTH: "2"
   DEBIAN_FRONTEND: "noninteractive"
@@ -38,6 +31,10 @@ sort_lists_master:
   script:
     - git fetch origin "$CI_DEFAULT_BRANCH"
     - git checkout "$CI_DEFAULT_BRANCH"
+    - git status --porcelain
+    - git log -1 --oneline
+    - git show HEAD:source/porn_filters/explicit_content/wildcard.csv | sha256sum
+    - sha256sum source/porn_filters/explicit_content/wildcard.csv
 
     - echo "Target file (expected to be sorted):"
     - ls -lhA "$CI_PROJECT_DIR/source/porn_filters/explicit_content/wildcard.csv" || true
