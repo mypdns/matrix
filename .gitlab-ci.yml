@@ -13,7 +13,7 @@ default:
   before_script:
     - apt-get update
     - apt-get install -yqq bash git python3 python3-venv python3-pip ca-certificates curl
-    - git config --global user.email "${GITLAB_USER_EMAIL:-ci@example.com}"
+    - git config --global user.email "${GITLAB_USER_EMAIL:-ci@framagit.org}"
     - git config --global user.name  "${GIT_USER_NAME:-CI Bot}"
     - python3 -m venv .venv
     - . .venv/bin/activate
@@ -21,8 +21,6 @@ default:
     - if [ -f requirements.txt ]; then pip install -r requirements.txt; else pip install -q mypdns; fi
     - tag="$(date +'%d %b %Y %H:%M:%S')"
 
-# Keep your existing behavior: run on merge to master, sort CSVs, commit back to master.
-# This job is NOT part of the scheduled-only workflow (so it will run on master updates).
 sort_lists_master:
   stage: build
   rules:
@@ -36,14 +34,6 @@ sort_lists_master:
 
     - bash "$CI_PROJECT_DIR/tools/sort_lists.sh"
 
-    # Rebase onto the latest remote before committing/pushing
-    #    - git pull --rebase origin "$CI_DEFAULT_BRANCH"
-
-    # Run sort again after rebase to ensure the result matches the current tree
-    #    - grep -n "bingoporno.com" source/porn_filters/explicit_content/wildcard.csv
-    #    - bash "$CI_PROJECT_DIR/tools/sort_lists.sh"
-    #    - grep -n "bingoporno.com" source/porn_filters/explicit_content/wildcard.csv
-
     - git add -A
     - |
       if git diff --cached --quiet; then
@@ -54,7 +44,6 @@ sort_lists_master:
         git push "https://gitlab-ci-token:${CI_JOB_TOKEN}@${CI_SERVER_HOST}/${CI_PROJECT_PATH}.git" "HEAD:${CI_DEFAULT_BRANCH}" -o skip-ci
       fi
 
-# Only on schedule: import ShadowWhisperer, commit back to master.
 shadowwhisperer_import:
   stage: import
   rules:
@@ -64,14 +53,9 @@ shadowwhisperer_import:
   script:
     - git fetch origin "$CI_DEFAULT_BRANCH"
     - git checkout "$CI_DEFAULT_BRANCH"
-
-    - echo "Before:"
-    - ls -lhA "$CI_PROJECT_DIR/source/porn_filters/imported" || true
+    - git reset --hard "origin/$CI_DEFAULT_BRANCH"   # force local master to match remote tip
 
     - bash "$CI_PROJECT_DIR/scripts/shadowwhisperer.sh"
-
-    - echo "After:"
-    - ls -lhA "$CI_PROJECT_DIR/source/porn_filters/imported" || true
 
     - git add -A
     - |
