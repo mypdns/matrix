@@ -31,10 +31,6 @@ jobs:
           pip install -r requirements.txt
           python3 --version
 
-      #      - name: Download ShadowWhisperer Adult list
-      #        run: |
-      #          curl --retry 5 -sSLo ${{ github.workspace }}/source/porn_filters/imported/adult.ShadowWhisperer https://raw.githubusercontent.com/ShadowWhisperer/BlockLists/master/RAW/Adult
-
       - name: List the Import dir
         run: |
           ls -lhA ${{ github.workspace }}/source/porn_filters/imported

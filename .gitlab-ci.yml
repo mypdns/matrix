@@ -1,74 +1,99 @@
-# This file is a template, and might need editing before it works on your project.
-# You can copy and paste this template into a new `.gitlab-ci.yml` file.
-# You should not add this template to an existing `.gitlab-ci.yml` file by using the `include:` keyword.
-#
-# To contribute improvements to CI/CD templates, please follow the Development guide at:
-# https://docs.gitlab.com/development/cicd/templates/
-# This specific template is located at:
-# https://gitlab.com/gitlab-org/gitlab/-/blob/master/lib/gitlab/ci/templates/Bash.gitlab-ci.yml
-
 image: ubuntu:latest
 
 stages:
   - build
-  - commit
+  - import
+  - push
+
+# Only run scheduled pipelines for the import job
+workflow:
+  rules:
+    - if: '$CI_PIPELINE_SOURCE == "schedule"'
+      when: always
+    - when: never
 
 variables:
-  GIT_DEPTH: 1
+  GIT_DEPTH: "2"
+  DEBIAN_FRONTEND: "noninteractive"
 
 default:
   before_script:
-    - export DEBIAN_FRONTEND=noninteractive
     - apt-get update
-    - apt-get install -yqqf bash git python3-pip python3.14-venv
+    - apt-get install -yqq bash git python3 python3-venv python3-pip ca-certificates curl
     - git config --global user.email "${GITLAB_USER_EMAIL:-ci@example.com}"
     - git config --global user.name  "${GIT_USER_NAME:-CI Bot}"
-
-build:
-  stage: build
-  only:
-    - master
-    - merge_requests
-  script:
     - python3 -m venv .venv
     - . .venv/bin/activate
-    - pip install -q mypdns
-    - bash "$CI_PROJECT_DIR/tools/sort_lists.sh"
-  artifacts:
-    when: on_success
-    expire_in: 1 day
-    paths:
-      - source/**/*.csv
-      - libraries/**/*.csv
+    - pip install --upgrade pip
+    - if [ -f requirements.txt ]; then pip install -r requirements.txt; else pip install -q mypdns; fi
 
-commit:
-  stage: commit
-  only:
-    - master
-  dependencies:
-    - build
+# Keep your existing behavior: run on merge to master, sort CSVs, commit back to master.
+# This job is NOT part of the scheduled-only workflow (so it will run on master updates).
+sort_lists_master:
+  stage: build
+  rules:
+    - if: '$CI_PIPELINE_SOURCE == "push" && $CI_COMMIT_BRANCH == "master"'
+      when: on_success
+    - when: never
   script:
-    # Ensure we are on the branch we will push
-    - git fetch origin "$CI_COMMIT_REF_NAME"
-    - git checkout "$CI_COMMIT_REF_NAME"
+    - git fetch origin "$CI_DEFAULT_BRANCH"
+    - git checkout "$CI_DEFAULT_BRANCH"
 
-    # Bring artifacts into the workspace (GitLab does this automatically for dependencies,
-    # but keeping paths explicit makes it clear what we commit)
-    # (No-op if artifacts already restored by dependencies.)
+    - bash "$CI_PROJECT_DIR/tools/sort_lists.sh"
 
-    # Commit only if something changed
+    - git add -A
     - |
-      if git diff --quiet; then
+      if git diff --cached --quiet; then
         echo "No changes to commit."
         exit 0
       fi
 
-    - git add -A
     - git commit -m "Sorted CSV database files"
 
-    # Push back using CI_JOB_TOKEN
+    - git push "https://gitlab-ci-token:${CI_JOB_TOKEN}@${CI_SERVER_HOST}/${CI_PROJECT_PATH}.git" "HEAD:${CI_DEFAULT_BRANCH}" -o skip-ci
+
+# Only on schedule: import ShadowWhisperer, commit back to master.
+shadowwhisperer_import:
+  stage: import
+  rules:
+    - if: '$CI_PIPELINE_SOURCE == "schedule"'
+      when: on_success
+    - when: never
+  script:
+    - git fetch origin "$CI_DEFAULT_BRANCH"
+    - git checkout "$CI_DEFAULT_BRANCH"
+
+    - echo "Before:"
+    - ls -lhA "$CI_PROJECT_DIR/source/porn_filters/imported" || true
+
+    - bash "$CI_PROJECT_DIR/scripts/shadowwhisperer.sh"
+
+    - echo "After:"
+    - ls -lhA "$CI_PROJECT_DIR/source/porn_filters/imported" || true
+
+    - git add -A
+    - |
+      if git diff --cached --quiet; then
+        echo "No changes to commit."
+        exit 0
+      fi
+
+    - tag="$(date +'%d %b %Y %H:%M:%S')"
+    - git commit -m "Updated ShadowWhisperer's pornfilters $tag"
+
+    - git push "https://gitlab-ci-token:${CI_JOB_TOKEN}@${CI_SERVER_HOST}/${CI_PROJECT_PATH}.git" "HEAD:${CI_DEFAULT_BRANCH}" -o skip-ci
+
+shadowwhisperer_mirror_notify:
+  stage: push
+  needs: [ "shadowwhisperer_import" ]
+  rules:
+    - if: '$CI_PIPELINE_SOURCE == "schedule"'
+      when: on_success
+    - when: never
+  script:
     - >
-      git push
-      "https://gitlab-ci-token:${CI_JOB_TOKEN}@${CI_SERVER_HOST}/${CI_PROJECT_PATH}.git"
-      "HEAD:${CI_COMMIT_REF_NAME}"
-      -o skip-ci
+      curl -sS -X POST
+      -H "Authorization: token ${GH_TOKEN}"
+      -H "Accept: application/vnd.github+json"
+      "https://api.github.com/repos/${GITHUB_REPOSITORY}/dispatches"
+      -d '{"event_type":"shadowwhisperer.updated"}'
