@@ -6,11 +6,11 @@ stages:
   - push
 
 # Only run scheduled pipelines for the import job
-#workflow:
-#  rules:
-#    - if: '$CI_PIPELINE_SOURCE == "schedule"'
-#      when: always
-#    - when: never
+workflow:
+  rules:
+    - if: '$CI_PIPELINE_SOURCE == "schedule"'
+      when: always
+    - when: never
 
 variables:
   GIT_DEPTH: "2"
@@ -39,18 +39,38 @@ sort_lists_master:
     - git fetch origin "$CI_DEFAULT_BRANCH"
     - git checkout "$CI_DEFAULT_BRANCH"
 
+    - echo "Target file (expected to be sorted):"
+    - ls -lhA "$CI_PROJECT_DIR/source/porn_filters/explicit_content/wildcard.csv" || true
+    - sha256sum "$CI_PROJECT_DIR/source/porn_filters/explicit_content/wildcard.csv" || true
+
+    - echo "Running sort_lists.sh ..."
     - bash "$CI_PROJECT_DIR/tools/sort_lists.sh"
+
+    - echo "After run:"
+    - ls -lhA "$CI_PROJECT_DIR/source/porn_filters/explicit_content/wildcard.csv" || true
+    - sha256sum "$CI_PROJECT_DIR/source/porn_filters/explicit_content/wildcard.csv" || true
+
+    - echo "Git status:"
+    - git status
+
+    - echo "Diff summary (no add):"
+    - git diff --name-only
+    - git diff --stat
 
     - git add -A
     - |
       if git diff --cached --quiet; then
-        echo "No changes to commit."
+        echo "No changes staged; sort_lists.sh likely made no modifications (or modified untracked files / wrong path)."
         exit 0
       fi
 
-    - git commit -m "Sorted CSV database files"
+    - git config user.email "${GIT_EMAIL}"
+    - git config user.name  "${GIT_NAME}"
+    - tag="$(date +'%d %b %Y %H:%M:%S')"
+    - git commit -m "Sorted CSV database files ($tag)"
 
     - git push "https://gitlab-ci-token:${CI_JOB_TOKEN}@${CI_SERVER_HOST}/${CI_PROJECT_PATH}.git" "HEAD:${CI_DEFAULT_BRANCH}" -o skip-ci
+
 
 # Only on schedule: import ShadowWhisperer, commit back to master.
 shadowwhisperer_import:
