@@ -1,0 +1,72 @@
+# This file is a template, and might need editing before it works on your project.
+# You can copy and paste this template into a new `.gitlab-ci.yml` file.
+# You should not add this template to an existing `.gitlab-ci.yml` file by using the `include:` keyword.
+#
+# To contribute improvements to CI/CD templates, please follow the Development guide at:
+# https://docs.gitlab.com/development/cicd/templates/
+# This specific template is located at:
+# https://gitlab.com/gitlab-org/gitlab/-/blob/master/lib/gitlab/ci/templates/Bash.gitlab-ci.yml
+
+image: ubuntu:latest
+
+stages:
+  - build
+  - commit
+
+variables:
+  GIT_DEPTH: 0
+
+default:
+  before_script:
+    - export DEBIAN_FRONTEND=noninteractive
+    - apt-get update
+    - apt-get install -yqqf bash git python3-pip
+    - git config --global user.email "${GITLAB_USER_EMAIL:-ci@example.com}"
+    - git config --global user.name  "${GIT_USER_NAME:-CI Bot}"
+
+build:
+  stage: build
+  only:
+    - master
+    - merge_requests
+  script:
+    - pip3 install -q mypdns
+    - bash "$CI_PROJECT_DIR/tools/sort_lists.sh"
+  artifacts:
+    when: on_success
+    expire_in: 1 day
+    paths:
+      - source/**/*.csv
+      - libraries/**/*.csv
+
+commit:
+  stage: commit
+  only:
+    - master
+  dependencies:
+    - build
+  script:
+    # Ensure we are on the branch we will push
+    - git fetch origin "$CI_COMMIT_REF_NAME"
+    - git checkout "$CI_COMMIT_REF_NAME"
+
+    # Bring artifacts into the workspace (GitLab does this automatically for dependencies,
+    # but keeping paths explicit makes it clear what we commit)
+    # (No-op if artifacts already restored by dependencies.)
+
+    # Commit only if something changed
+    - |
+      if git diff --quiet; then
+        echo "No changes to commit."
+        exit 0
+      fi
+
+    - git add -A
+    - git commit -m "Sorted CSV database files"
+
+    # Push back using CI_JOB_TOKEN
+    - >
+      git push
+      "https://gitlab-ci-token:${CI_JOB_TOKEN}@${CI_SERVER_HOST}/${CI_PROJECT_PATH}.git"
+      "HEAD:${CI_COMMIT_REF_NAME}"
+      -o skip-ci
