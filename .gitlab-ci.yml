@@ -31,41 +31,26 @@ sort_lists_master:
   script:
     - git fetch origin "$CI_DEFAULT_BRANCH"
     - git checkout "$CI_DEFAULT_BRANCH"
-    - git status --porcelain
-    - git log -1 --oneline
-    - git show HEAD:source/porn_filters/explicit_content/wildcard.csv | sha256sum
-    - sha256sum source/porn_filters/explicit_content/wildcard.csv
 
-    - echo "Target file (expected to be sorted):"
-    - ls -lhA "$CI_PROJECT_DIR/source/porn_filters/explicit_content/wildcard.csv" || true
-    - sha256sum "$CI_PROJECT_DIR/source/porn_filters/explicit_content/wildcard.csv" || true
-
-    - echo "Running sort_lists.sh ..."
     - bash "$CI_PROJECT_DIR/tools/sort_lists.sh"
 
-    - echo "After run:"
-    - ls -lhA "$CI_PROJECT_DIR/source/porn_filters/explicit_content/wildcard.csv" || true
-    - sha256sum "$CI_PROJECT_DIR/source/porn_filters/explicit_content/wildcard.csv" || true
+    # Rebase onto the latest remote before committing/pushing
+    - git pull --rebase origin "$CI_DEFAULT_BRANCH"
 
-    - echo "Git status:"
-    - git status
-
-    - echo "Diff summary (no add):"
-    - git diff --name-only
-    - git diff --stat
+    # Run sort again after rebase to ensure the result matches the current tree
+    - bash "$CI_PROJECT_DIR/tools/sort_lists.sh"
 
     - git add -A
     - |
       if git diff --cached --quiet; then
-        echo "No changes staged; sort_lists.sh likely made no modifications (or modified untracked files / wrong path)."
+        echo "No changes to commit after rebase."
         exit 0
       fi
 
     - tag="$(date +'%d %b %Y %H:%M:%S')"
-    - git commit -m "Sorted CSV database files ($tag)"
+    - git commit -m "Updated ShadowWhisperer's pornfilters $tag"
 
     - git push "https://gitlab-ci-token:${CI_JOB_TOKEN}@${CI_SERVER_HOST}/${CI_PROJECT_PATH}.git" "HEAD:${CI_DEFAULT_BRANCH}" -o skip-ci
-
 
 # Only on schedule: import ShadowWhisperer, commit back to master.
 shadowwhisperer_import:
