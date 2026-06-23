@@ -14,13 +14,13 @@ stages:
   - commit
 
 variables:
-  GIT_DEPTH: 2
+  GIT_DEPTH: 1
 
 default:
   before_script:
     - export DEBIAN_FRONTEND=noninteractive
     - apt-get update
-    - apt-get install -yqqf bash git python3-pip
+    - apt-get install -yqqf bash git python3-pip pipx
     - git config --global user.email "${GITLAB_USER_EMAIL:-ci@example.com}"
     - git config --global user.name  "${GIT_USER_NAME:-CI Bot}"
 
