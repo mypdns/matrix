@@ -14,7 +14,7 @@ stages:
   - commit
 
 variables:
-  GIT_DEPTH: 0
+  GIT_DEPTH: 2
 
 default:
   before_script:
