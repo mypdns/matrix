@@ -61,8 +61,6 @@ sort_lists_master:
         exit 0
       fi
 
-    - git config user.email "${GIT_EMAIL}"
-    - git config user.name  "${GIT_NAME}"
     - tag="$(date +'%d %b %Y %H:%M:%S')"
     - git commit -m "Sorted CSV database files ($tag)"
 
