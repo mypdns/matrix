@@ -20,7 +20,7 @@ default:
   before_script:
     - export DEBIAN_FRONTEND=noninteractive
     - apt-get update
-    - apt-get install -yqqf bash git python3-pip pipx
+    - apt-get install -yqqf bash git python3-pip
     - git config --global user.email "${GITLAB_USER_EMAIL:-ci@example.com}"
     - git config --global user.name  "${GIT_USER_NAME:-CI Bot}"
 
@@ -30,7 +30,9 @@ build:
     - master
     - merge_requests
   script:
-    - pipx install mypdns
+    - python3 -m venv .venv
+    - . .venv/bin/activate
+    - pip install -q mypdns
     - bash "$CI_PROJECT_DIR/tools/sort_lists.sh"
   artifacts:
     when: on_success
