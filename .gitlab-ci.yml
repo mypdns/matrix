@@ -6,11 +6,11 @@ stages:
   - push
 
 # Only run scheduled pipelines for the import job
-workflow:
-  rules:
-    - if: '$CI_PIPELINE_SOURCE == "schedule"'
-      when: always
-    - when: never
+#workflow:
+#  rules:
+#    - if: '$CI_PIPELINE_SOURCE == "schedule"'
+#      when: always
+#    - when: never
 
 variables:
   GIT_DEPTH: "2"
