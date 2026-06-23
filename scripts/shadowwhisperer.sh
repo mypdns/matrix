@@ -1,8 +1,8 @@
 #!/bin/sh
 
 #
-# Git Auto-Updater: Pull repository, refresh ShadowWhisperer Adult blacklist, commit & push
-# Copyright (C) 2025. @spirillen, My Privacy DNS - Matrix
+# <Program Name>: <Brief Description of the Program>
+# Copyright (C) 2026. @spirillen, My Privacy DNS - Matrix
 #
 # This program is free software: you can redistribute it and/or modify
 # it under the terms of the GNU Affero General Public License as
@@ -28,7 +28,7 @@ set -eu
 #   DEST_PATH (default: source/porn_filters/imported/adult.ShadowWhisperer)
 
 GIT_REMOTE="${GIT_REMOTE:-origin}"
-GIT_BRANCH="${GIT_BRANCH:-master}"
+GIT_BRANCH="${CI_DEFAULT_BRANCH:-master}"
 BLACKLIST_URL="${BLACKLIST_URL:-https://raw.githubusercontent.com/ShadowWhisperer/BlockLists/master/RAW/Adult}"
 DEST_PATH="${DEST_PATH:-source/porn_filters/imported/adult.ShadowWhisperer}"
 
