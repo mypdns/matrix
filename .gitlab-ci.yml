@@ -20,7 +20,7 @@ default:
   before_script:
     - export DEBIAN_FRONTEND=noninteractive
     - apt-get update
-    - apt-get install -yqqf bash git python3-pip
+    - apt-get install -yqqf bash git python3-pip python3.14-venv
     - git config --global user.email "${GITLAB_USER_EMAIL:-ci@example.com}"
     - git config --global user.name  "${GIT_USER_NAME:-CI Bot}"
 
