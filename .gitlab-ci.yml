@@ -41,7 +41,9 @@ sort_lists_master:
     - git pull --rebase origin "$CI_DEFAULT_BRANCH"
 
     # Run sort again after rebase to ensure the result matches the current tree
+    - grep -n "bingoporno.com" source/porn_filters/explicit_content/wildcard.csv
     - bash "$CI_PROJECT_DIR/tools/sort_lists.sh"
+    - grep -n "bingoporno.com" source/porn_filters/explicit_content/wildcard.csv
 
     - git add -A
     - |
