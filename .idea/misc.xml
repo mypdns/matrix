@@ -9,4 +9,7 @@
   <component name="PythonCompatibilityInspectionAdvertiser">
     <option name="version" value="3" />
   </component>
+  <component name="TaskProjectConfiguration">
+    <server type="YouTrack" url="https://kb.mypdns.org" />
+  </component>
 </project>
