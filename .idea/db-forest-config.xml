@@ -3,12 +3,9 @@
   <component name="db-forest-configuration">
     <data version="2">.
 	----------------------------------------
-	1:0:b7e94227-8d9e-475a-b97d-2dbb15877592
-	2:0:5429ebd4-d847-4afe-9e22-5458ee23dfb2
-	3:0:308c1c1a-803f-46cc-98bd-421a85c55573
-	4:0:4beebc1e-16f7-4099-a0fc-303f975b0b25
-	5:0:2526060c-5eb9-4388-adb9-c47b395d506d
-	6:0:a79e2405-7309-4589-9b4e-d1bc52f7fa4b
+	1:0:308c1c1a-803f-46cc-98bd-421a85c55573
+	2:0:de4673ed-7616-4cfa-89b0-aea96c878471
+	3:0:caaa4423-5e5a-4a28-9412-7e547eb9d290
 		.</data>
   </component>
   <component name="db-tree-configuration">
